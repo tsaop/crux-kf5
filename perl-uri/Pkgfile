@@ -1,0 +1,17 @@
+# Description: Perl URI
+# URL: http://search.cpan.org/dist/URI
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: perl
+
+name=perl-uri
+version=1.69
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/URI-$version.tar.gz)
+
+build() {
+	cd URI-$version
+	perl Makefile.PL
+	make
+
+	make DESTDIR=$PKG install
+}

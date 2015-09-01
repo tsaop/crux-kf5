@@ -1,0 +1,25 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/baloo_filemetadata_temp_extractor
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KF5/
+drwxr-xr-x	root/root	usr/include/KF5/BalooWidgets/
+drwxr-xr-x	root/root	usr/include/KF5/BalooWidgets/Baloo/
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/Baloo/FileMetaDataConfigWidget
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/Baloo/FileMetaDataWidget
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/Baloo/TagWidget
+drwxr-xr-x	root/root	usr/include/KF5/BalooWidgets/baloo/
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/baloo/filemetadataconfigwidget.h
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/baloo/filemetadatawidget.h
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/baloo/tagwidget.h
+-rw-r--r--	root/root	usr/include/KF5/BalooWidgets/baloo/widgets_export.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5BalooWidgets/
+-rw-r--r--	root/root	usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5BalooWidgets.so -> libKF5BalooWidgets.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5BalooWidgets.so.5 -> libKF5BalooWidgets.so.5.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF5BalooWidgets.so.5.0.0

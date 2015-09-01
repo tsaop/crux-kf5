@@ -1,0 +1,13 @@
+polkit.addRule(function(action, subject) {
+  var YES = polkit.Result.YES;
+  var permission = {
+    // only required for udisks2:
+    "org.freedesktop.consolekit.system.stop-multiple-users": YES,
+    "org.freedesktop.consolekit.system.stop": YES,
+    "org.freedesktop.consolekit.system.restart-multiple-users": YES,
+    "org.freedesktop.consolekit.system.restart": YES
+  };
+  if (subject.isInGroup("users")) {
+    return permission[action.id];
+  }
+});

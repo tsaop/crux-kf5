@@ -1,0 +1,22 @@
+# Description: Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files
+# URL:         ftp://ftp.altlinux.org/pub/people/ldv/utempter
+# Packager:    Joe M, joe9mail at gmail dot com
+# Depends on:  glibc
+
+name=libutempter
+version=1.1.6
+release=1
+source=(ftp://ftp.altlinux.org/pub/people/ldv/$name/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+
+  RPM_OPT_FLAGS="$CFLAGS" make
+  make
+  make DESTDIR="$PKG" install
+
+   # below used in arch
+   #  error about invalid group in crux
+  # chown root:utmp "$PKG/usr/lib/utempter/utempter"
+  # chmod 2755 "$PKG/usr/lib/utempter/utempter"
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -x
+
+getent group sddm >/dev/null || groupadd -r sddm
+getent passwd sddm >/dev/null || useradd -r -M -g sddm -G video -s /bin/false -d /var/empty sddm
+
+chown sddm:sddm /var/run/sddm
+chown sddm:sddm /var/lib/sddm

@@ -1,0 +1,19 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/utempter.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libutempter.a
+lrwxrwxrwx	root/root	usr/lib/libutempter.so -> libutempter.so.0
+lrwxrwxrwx	root/root	usr/lib/libutempter.so.0 -> libutempter.so.1.1.6
+-rwxr-xr-x	root/root	usr/lib/libutempter.so.1.1.6
+drwxr-xr-x	root/root	usr/lib/utempter/
+-rwx--s--x	root/root	usr/lib/utempter/utempter
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man3/
+lrwxrwxrwx	root/root	usr/share/man/man3/libutempter.3.gz -> utempter.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/utempter.3.gz
+lrwxrwxrwx	root/root	usr/share/man/man3/utempter_add_record.3.gz -> utempter.3.gz
+lrwxrwxrwx	root/root	usr/share/man/man3/utempter_remove_added_record.3.gz -> utempter.3.gz
+lrwxrwxrwx	root/root	usr/share/man/man3/utempter_remove_record.3.gz -> utempter.3.gz
+lrwxrwxrwx	root/root	usr/share/man/man3/utempter_set_helper.3.gz -> utempter.3.gz

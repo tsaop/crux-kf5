@@ -1,0 +1,28 @@
+# Description: Qt5 wrapper around polkit-1 client libraries
+# URL: http://projects.kde.org/projects/kdesupport/polkit-qt-1
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: cmake glib polkit
+
+name=polkit-qt5
+version=0.112.0
+release=1
+source=(http://download.kde.org/stable/apps/KDE4.x/admin/${name/qt5/qt-1}-$version.tar.bz2
+	systembus-usage.patch)
+
+build() {
+	cd ${name/qt5/qt-1}-$version
+
+	
+
+	patch -Np1 -i $SRC/systembus-usage.patch
+
+	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DUSE_QT5=ON .
+
+	make
+	make DESTDIR=$PKG install
+}

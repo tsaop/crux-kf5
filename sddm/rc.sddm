@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# /etc/rc.d/sddm: start/stop SDDM display manager
+#
+
+case $1 in
+	start)
+		/usr/bin/sddm &
+		;;
+	stop)
+		killall -q /usr/bin/sddm 
+		;;
+	restart)
+		$0 stop
+		sleep 2
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart]"
+		;;
+esac
+
+# End of file

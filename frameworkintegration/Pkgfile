@@ -1,0 +1,31 @@
+# Description: Part of KDE Frameworks
+# URL: https://www.kde.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: kio oxygen-fonts
+
+name=frameworkintegration
+version=5.13.0
+release=1
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	
+
+	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}

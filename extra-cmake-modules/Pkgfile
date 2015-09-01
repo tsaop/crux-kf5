@@ -1,0 +1,23 @@
+# Description: Part of KDE Frameworks
+# URL: https://www.kde.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: cmake desktop-file-utils
+
+name=extra-cmake-modules
+version=5.13.0
+release=1
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release
+
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,30 @@
+# Description: Part of KDE Frameworks
+# URL: https://www.kde.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: boost kcmutils
+# Optional: kpackage
+
+name=kactivities
+version=5.13.0
+release=1
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+
+build() {
+	cd $SRC
+
+	mkdir build; cd build	
+
+	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev ../$name-$version
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+}

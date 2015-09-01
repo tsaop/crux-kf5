@@ -1,0 +1,15 @@
+# Description: KDE Frameworks meta-package
+# URL: https://www.kde.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: attica baloo extra-cmake-modules frameworkintegration kactivities kapidox karchive kauth kbookmarks kcmutils kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdeclarative kded kdelibs4support kdesignerplugin kdesu kdewebkit kdnssd kdoctools kemoticons kfilemetadata kglobalaccel kguiaddons khtml ki18n kiconthemes kidletime kimageformats kinit kio kitemmodels kitemviews kjobwidgets kjs kjsembed kmediaplayer knewstuff knotifications knotifyconfig kpackage kparts kpeople kplotting kpty kross krunner kservice ktexteditor ktextwidgets kunitconversion kwallet kwidgetsaddons kwindowsystem kxmlgui kxmlrpcclient networkmanager-qt plasma-framework solid sonnet threadweaver
+
+name=frameworks-meta
+version=5.13.0
+release=1
+source=(kde.sh)
+
+build() {
+	install -dm755 $PKG/etc/profile.d
+	cp $SRC/kde.sh $PKG/etc/profile.d
+}
+attica baloo extra-cmake-modules frameworkintegration kactivities kapidox karchive kauth kbookmarks kcmutils kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdeclarative kded kdelibs4support kdesignerplugin kdesu kdewebkit kdnssd kdoctools kemoticons kfilemetadata kglobalaccel kguiaddons khtml ki18n kiconthemes kidletime kimageformats kinit kio kitemmodels kitemviews kjobwidgets kjs kjsembed kmediaplayer knewstuff knotifications knotifyconfig kpackage kparts kpeople kplotting kpty kross krunner kservice ktexteditor ktextwidgets kunitconversion kwallet kwidgetsaddons kwindowsystem kxmlgui kxmlrpcclient networkmanager-qt plasma-framework solid sonnet threadweaver 

@@ -1,0 +1,19 @@
+# Description: Repository of data file describin media player capabilities
+# URL: http://www.freedesktop.org/wiki/Software/media-player-info
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: 
+
+name=media-player-info
+version=22
+release=1
+source=(http://www.freedesktop.org/software/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	--mandir=/usr/man
+
+	make
+	make DESTDIR=$PKG install
+}

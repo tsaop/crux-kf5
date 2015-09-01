@@ -1,0 +1,28 @@
+# Description: QtCurve theming engine for Qt 5.x.x
+# URL: https://github.com/QtCurve
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: qt4 cmake kde-workspace
+
+name=qtcurve-qt5
+version=1.8.18
+release=1
+source=(https://github.com/QtCurve/${name/-qt5/}/archive/$version.tar.gz
+	fix-qt-5.3-build.diff)
+
+build() {
+	
+	cd ${name/-qt5/}-$version
+	
+	patch -Np1 -i $SRC/fix-qt-5.3-build.diff
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DENABLE_QT4=OFF .
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+}

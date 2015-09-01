@@ -1,0 +1,16 @@
+# Description: Orion GTK Theme
+# URL: https://github.com/shimmerproject/Orion
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: gtk gtk-engine-murrine
+
+name=orion-gtk-theme
+version=1.5
+release=1
+source=(https://github.com/shimmerproject/Orion/archive/v$version.tar.gz)
+
+build() {
+	cd $SRC
+	install -dm755 $PKG/usr/share/themes
+	cp -r Orion-$version $PKG/usr/share/themes
+	rm $PKG/usr/share/themes/Orion-$version/{LICENSE,README} 
+}

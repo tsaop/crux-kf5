@@ -1,0 +1,30 @@
+--- powerdevil-5.4.0/daemon/backends/upower/powerdevilupowerbackend.cpp.orig	2015-08-26 21:12:38.676952867 +0200
++++ powerdevil-5.4.0/daemon/backends/upower/powerdevilupowerbackend.cpp	2015-08-26 21:13:43.057950564 +0200
+@@ -145,7 +145,7 @@
+     connect(this, &PowerDevilUPowerBackend::brightnessSupportQueried, this, &PowerDevilUPowerBackend::initWithBrightness);
+     m_upowerInterface = new OrgFreedesktopUPowerInterface(UPOWER_SERVICE, "/org/freedesktop/UPower", QDBusConnection::systemBus(), this);
+     m_brightnessControl = new XRandrBrightness();
+-    if (!m_brightnessControl->isSupported()) {
++/*    if (!m_brightnessControl->isSupported()) {
+         qCDebug(POWERDEVIL) << "Falling back to helper to get brightness";
+ 
+         KAuth::Action brightnessAction("org.kde.powerdevil.backlighthelper.brightness");
+@@ -211,7 +211,7 @@
+             connect(m_brightnessAnimation, &QPropertyAnimation::valueChanged, this, &PowerDevilUPowerBackend::animationValueChanged);
+         }
+         emit brightnessSupportQueried(true);
+-    }
++    } */
+ }
+ 
+ void PowerDevilUPowerBackend::initWithBrightness(bool screenBrightnessAvailable)
+--- powerdevil-5.4.0/daemon/backends/upower/powerdevilupowerbackend.cpp.orig	2015-08-26 21:20:40.015935650 +0200
++++ powerdevil-5.4.0/daemon/backends/upower/powerdevilupowerbackend.cpp	2015-08-26 21:21:27.838933939 +0200
+@@ -145,6 +145,7 @@
+     connect(this, &PowerDevilUPowerBackend::brightnessSupportQueried, this, &PowerDevilUPowerBackend::initWithBrightness);
+     m_upowerInterface = new OrgFreedesktopUPowerInterface(UPOWER_SERVICE, "/org/freedesktop/UPower", QDBusConnection::systemBus(), this);
+     m_brightnessControl = new XRandrBrightness();
++    emit brightnessSupportQueried(false);
+ /*    if (!m_brightnessControl->isSupported()) {
+         qCDebug(POWERDEVIL) << "Falling back to helper to get brightness";
+ 

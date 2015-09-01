@@ -1,0 +1,18 @@
+# Description:	ATA S.M.A.R.T. reading and parsing library
+# URL:		http://0pointer.de/blog/projects/being-smart.html
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on:	
+
+name=libatasmart
+version=0.19
+release=1
+source=(http://0pointer.de/public/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/doc
+}

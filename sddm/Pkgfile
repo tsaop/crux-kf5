@@ -1,0 +1,38 @@
+# Description: QML based X11 and Wayland display manager
+# URL: https://github.com/sddm/sddm
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: qt5 docutils
+
+name=sddm
+version=0.11.0
+release=1
+source=(https://github.com/$name/$name/archive/v$version.tar.gz \
+	rc.sddm
+	sddm_consolekit.diff)
+
+build() {
+	cd $name-$version
+
+	patch -Np1 -i $SRC/sddm_consolekit.diff
+
+	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_INSTALL_SYSCONFDIR=/usr/etc \
+	-DBUILD_TESTING=OFF \
+	-DMAN_INSTALL_DIR=/usr/man \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DBUILD_MAN_PAGES=ON \
+	-DENABLE_JOURNALD=OFF \
+	-DCMAKE_INSTALL_LIBEXECDIR=/usr/lib/libexec \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/etc/pam.d
+
+	install -dm755 $PKG/var/run/sddm
+	install -dm755 $PKG/var/lib/sddm
+	install -Dm755 $SRC/rc.sddm $PKG/etc/rc.d/sddm
+}

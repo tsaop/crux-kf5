@@ -1,0 +1,24 @@
+# Description: Ultra-fast, ultra-compact key-value embedded data store
+# URL: http://symas.com/mdb/
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: glibc
+
+name=lmdb
+version=0.9.16
+release=1
+source=(https://github.com/${name^^}/lmdb/archive/${name^^}_$version.tar.gz)
+
+build() {
+	cd $name-${name^^}_$version/libraries/liblmdb
+	make PREFIX=/usr
+
+	sed -i 's|prefix\t= /usr/local|prefix\t= /usr|' Makefile
+
+	install -dm644 $PKG/usr/bin
+	install -dm644 $PKG/usr/lib
+	install -dm644 $PKG/usr/include
+	install -dm644 $PKG/usr/man/man1
+
+	make DESTDIR=$PKG install
+}
+

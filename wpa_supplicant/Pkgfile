@@ -1,0 +1,39 @@
+# Description: User space IEEE 802.1X/WPA supplicant (wireless client) - WITH DBUS SUPPORT FOR USE WITH NetworkManager
+# URL:         http://hostap.epitest.fi/wpa_supplicant/
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on:  openssl ncurses readline libnl dbus
+
+name=wpa_supplicant
+version=2.4
+release=1
+source=(http://hostap.epitest.fi/releases/$name-$version.tar.gz)
+
+build () {
+    cd $name-$version/$name
+
+    cp defconfig .config
+    echo "CONFIG_READLINE=y
+          CONFIG_LIBNL32=y
+	  CONFIG_CTRL_IFACE_DBUS_NEW=y
+          CFLAGS+=-I/usr/include/libnl3" >> .config
+
+    make
+
+    install -d $PKG/{usr/sbin,usr/man/man{8,5},etc}
+    install -m 0755 wpa_{cli,passphrase,supplicant} $PKG/usr/sbin
+    install -m 0644 doc/docbook/wpa_{background,cli,passphrase,supplicant}.8 $PKG/usr/man/man8
+    install -m 0644 doc/docbook/wpa_supplicant.conf.5 $PKG/usr/man/man5
+    install -d -m755 "$PKG/usr/share/dbus-1/system-services"
+    sed -i 's|Exec=/usr/local/sbin|Exec=/usr/sbin|' dbus/{fi.epitest.hostap.WPASupplicant.service,fi.w1.wpa_supplicant1.service}
+    install -m644 dbus/{fi.epitest.hostap.WPASupplicant.service,fi.w1.wpa_supplicant1.service} "$PKG/usr/share/dbus-1/system-services/"
+    install -d -m755 "$PKG/usr/etc/dbus-1/system.d"
+    install -m644 dbus/dbus-wpa_supplicant.conf "$PKG/usr/etc/dbus-1/system.d/wpa_supplicant.conf"
+
+
+
+    echo -e "ctrl_interface=/var/run/wpa_supplicant\n" > $PKG/etc/wpa_supplicant.conf
+    chmod 0600 $PKG/etc/wpa_supplicant.conf
+    
+    # symlink for compatibility with older releases
+    ln -s wpa_supplicant.conf $PKG/etc/wpa.conf
+}

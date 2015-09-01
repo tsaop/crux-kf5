@@ -1,0 +1,12 @@
+# Description: ca-certificates compat symlink for KSSL
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: ca-certificates
+
+name=ca-certificates-compat
+version=1
+release=1
+
+build() {
+	install -dm755 $PKG/etc/ssl/certs
+	ln -sv /etc/ssl/cert.pem $PKG/etc/ssl/certs
+}
