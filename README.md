@@ -20,10 +20,10 @@ Now update your ports tree and your system:
     ports -u
     prt-get sysup
 
-Once that is done, you're ready to add the kf5 repo. Download the `crux-kf5.httpup` file into `/etc/ports`:
+Once that is done, you're ready to add the kf5 repo. Download the `kf5.httpup` file into `/etc/ports`:
 
     cd /etc/ports
-    wget https://raw.githubusercontent.com/tsaop/crux-kf5/master/crux-kf5.httpup
+    wget https://raw.githubusercontent.com/tsaop/crux-kf5/master/kf5.httpup
 
 Update the ports tree again with `ports -u`
 
