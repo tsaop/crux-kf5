@@ -4,7 +4,7 @@
 # Depends on: kdelibs4support kinit knotifyconfig kpty
 
 name=okular
-version="$(date +%d%m%y)git"
+version="9999git"
 release=1
 
 build() {
