@@ -11,6 +11,7 @@ d:kio
 d:libical
 d:extra-cmake-modules
 d:solid
+d:dragon
 d:ki18n
 d:bluedevil
 d:kdelibs4support
@@ -191,6 +192,10 @@ f:6cdd75f7a136b80cf21083d5b6b215f1:extra-cmake-modules/Pkgfile
 f:94398621d605a8615b6941d35a909281:solid/.footprint
 f:263d6145d2d164507c5a5df9b7727704:solid/.md5sum
 f:33dd18d507fe7fea858e3964a786e748:solid/Pkgfile
+f:f304d8ff23ec972d0f3f67cce2490ef1:dragon/.footprint
+f:5237ba3f47cbca6226cf2914d3a855bf:dragon/.md5sum
+f:10fc7a94ff7a39666e414bfa70a8e61b:dragon/post-install
+f:bf3adce3f9a82a05e29eb29cd7af7e7b:dragon/Pkgfile
 f:fa82eb731ce5ed43334dd01c3e50c2ed:ki18n/.footprint
 f:fba59ccf1701fe141a7ee1e2970ab1df:ki18n/.md5sum
 f:063c1c9d988032b67627ef9a19dc1d5e:ki18n/Pkgfile
@@ -583,7 +588,8 @@ f:d3633885bdb1db84d29256e9542f9546:knotifications/post-install
 f:f1991d0e62dd62ea2f3d030bffac39bb:knotifications/Pkgfile
 f:f19c8b6cfaf1b4e4023b340132c4ece0:kmix/.footprint
 f:b115f733648de5168344b2dbb2744fab:kmix/.md5sum
-f:d84415842a14ecb5ab63b2410b3c2bc8:kmix/Pkgfile
+f:10fc7a94ff7a39666e414bfa70a8e61b:kmix/post-install
+f:7044bd3ded3611a9cdbf35ac27911c28:kmix/Pkgfile
 f:9678e9e326cef11e4debab9f0c21a66b:kf5.httpup
 f:33b1a5133193044c8b42bb9b8c51a79a:kcontacts/.footprint
 f:17e06e511f12ec99a96ac8cc03c2ca38:kcontacts/.md5sum
