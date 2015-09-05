@@ -1,7 +1,7 @@
 # Description: Open source multimedia framework, designed and developed for television broadcasting
 # URL: http://www.mltframework.org/
 # Maintainer: Tsaop <leeroy@cock.li>
-# Depends on: ffmpeg gtk libexif
+# Depends on: qt5 ffmpeg gtk libexif libsdl
 
 name=mlt
 version=0.9.6
@@ -13,6 +13,10 @@ build() {
 
 	./configure --prefix=/usr \
 	--sysconfdir=/usr/etc \
+	--qt-includedir=/usr/include/qt5 \
+	--qt-libdir=/usr/lib/qt5 \
+	--enable-gpl \
+	--enable-gpl3 \
 	--disable-static \
 	--enable-shared
 
@@ -20,5 +24,3 @@ build() {
 
 	make DESTDIR=$PKG install
 }
-
-ffmpeg fribidi libass x264 alsa-lib cairo expat fontconfig freetype gdk-pixbuf glib gtk harfbuzz lame libexif libffi libpng libxml2 pango xorg-libpixman xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxcursor xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxinerama xorg-libxrandr xorg-libxrender xorg-libxv 
