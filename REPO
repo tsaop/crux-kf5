@@ -56,6 +56,7 @@ d:libksysguard
 d:kdbusaddons
 d:sddm
 d:plasma-framework
+d:dolphin-plugins
 d:kinit
 d:attica
 d:kholidays
@@ -351,6 +352,10 @@ f:d35ec0d236f1d03d7fa50fa0f0b94bc0:plasma-framework/.footprint
 f:2d329d52106546f303b7a69e894a7cbb:plasma-framework/.md5sum
 f:d3633885bdb1db84d29256e9542f9546:plasma-framework/post-install
 f:ddfe2301833729a780b3c182c09065a6:plasma-framework/Pkgfile
+f:8808a5b820d35e541b910e7ccf6465a5:dolphin-plugins/.footprint
+f:10bfe5d502ca78f8091c7460dd6afc6d:dolphin-plugins/.md5sum
+f:d3633885bdb1db84d29256e9542f9546:dolphin-plugins/post-install
+f:2ede2c1ccc8d8d9ac2e814a9e76828df:dolphin-plugins/Pkgfile
 f:5a8099bbbd3f08ac52be1eb510c31838:kinit/.footprint
 f:ff9cbdbd97d55700a2c35d211c1b64f2:kinit/.md5sum
 f:98930779dddcc68f9a06b392e4686dfa:kinit/Pkgfile
@@ -417,7 +422,7 @@ f:9d884b856c30351509e8b0cecde3f995:udisks/.md5sum
 f:64140c81aadfe49a47f47c28273a3511:udisks/Pkgfile
 f:28dc48506c44f18fd7c4c249cd7da1c2:applications-meta/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:applications-meta/.md5sum
-f:7673421b1ff92140c6836af440ac3384:applications-meta/Pkgfile
+f:28bb96cfcb9de8476812caf1b924408b:applications-meta/Pkgfile
 f:20fdf81ae47ae475c0a206d997123c91:ksysguard/.footprint
 f:7e87397999aacb9c6226c2b1ce0b261a:ksysguard/.md5sum
 f:10fc7a94ff7a39666e414bfa70a8e61b:ksysguard/post-install
