@@ -83,6 +83,7 @@ drwxr-xr-x	root/root	usr/share/sddm/flags/
 -rw-r--r--	root/root	usr/share/sddm/flags/la.png
 -rw-r--r--	root/root	usr/share/sddm/flags/lb.png
 -rw-r--r--	root/root	usr/share/sddm/flags/lt.png
+-rw-r--r--	root/root	usr/share/sddm/flags/lv.png
 -rw-r--r--	root/root	usr/share/sddm/flags/ly.png
 -rw-r--r--	root/root	usr/share/sddm/flags/ma.png
 -rw-r--r--	root/root	usr/share/sddm/flags/mk.png
@@ -121,6 +122,8 @@ drwxr-xr-x	root/root	usr/share/sddm/flags/
 drwxr-xr-x	root/root	usr/share/sddm/scripts/
 -rwxr-xr-x	root/root	usr/share/sddm/scripts/Xsession
 -rwxr-xr-x	root/root	usr/share/sddm/scripts/Xsetup
+-rwxr-xr-x	root/root	usr/share/sddm/scripts/Xstop
+-rwxr-xr-x	root/root	usr/share/sddm/scripts/wayland-session
 drwxr-xr-x	root/root	usr/share/sddm/themes/
 drwxr-xr-x	root/root	usr/share/sddm/themes/circles/
 -rw-r--r--	root/root	usr/share/sddm/themes/circles/Main.qml
@@ -174,14 +177,19 @@ drwxr-xr-x	root/root	usr/share/sddm/themes/maui/
 -rw-r--r--	root/root	usr/share/sddm/themes/maui/shutdown.png
 -rw-r--r--	root/root	usr/share/sddm/themes/maui/theme.conf
 drwxr-xr-x	root/root	usr/share/sddm/translations/
+-rw-r--r--	root/root	usr/share/sddm/translations/ar.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/cs.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/de.qm
+-rw-r--r--	root/root	usr/share/sddm/translations/es.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/et.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/fi.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/fr.qm
+-rw-r--r--	root/root	usr/share/sddm/translations/hu.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/it.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/ja.qm
+-rw-r--r--	root/root	usr/share/sddm/translations/ko.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/lt.qm
+-rw-r--r--	root/root	usr/share/sddm/translations/lv.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/pl.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/pt_BR.qm
 -rw-r--r--	root/root	usr/share/sddm/translations/pt_PT.qm
