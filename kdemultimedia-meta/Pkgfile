@@ -1,0 +1,13 @@
+# Description: KDE Multimedia meta-package 
+# URL: https://www.kde.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: dragon kmix kdenlive
+
+name=kdemultimedia-meta
+version=15.08.0
+release=1
+source=()
+
+build() {
+	mkdir $PKG/usr
+}
