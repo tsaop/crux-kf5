@@ -1,0 +1,83 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/Analitza5/
+drwxr-xr-x	root/root	usr/include/Analitza5/analitza/
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/abstractexpressionvisitor.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/abstractlexer.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/analitzaexport.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/analitzautils.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/analyzer.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/apply.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/builtinmethods.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/container.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/customobject.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/expression.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/expressionstream.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/expressiontype.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/importqobjectmetatype.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/list.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/matrix.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/object.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/operations.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/operator.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/value.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/variable.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/variables.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza/vector.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitza_version.h
+drwxr-xr-x	root/root	usr/include/Analitza5/analitzagui/
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/algebrahighlighter.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/analitzaguiexport.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/analitzawidgets_export.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/expressionedit.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/operatorsmodel.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/plotsview2d.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/plotsview3d.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/variablesmodel.h
+drwxr-xr-x	root/root	usr/include/Analitza5/analitzaplot/
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/analitzaplotexport.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/functiongraph.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/planecurve.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotitem.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotsdictionarymodel.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotsfactory.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotsmodel.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotter2d.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotter3d.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plottingenums.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/spacecurve.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/surface.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/Analitza5/
+-rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5ConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Targets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Targets.cmake
+lrwxrwxrwx	root/root	usr/lib/libAnalitza.so -> libAnalitza.so.6
+lrwxrwxrwx	root/root	usr/lib/libAnalitza.so.6 -> libAnalitza.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitza.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so -> libAnalitzaGui.so.6
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so.6 -> libAnalitzaGui.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaGui.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so -> libAnalitzaPlot.so.6
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so.6 -> libAnalitzaPlot.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaPlot.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so -> libAnalitzaWidgets.so.6
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so.6 -> libAnalitzaWidgets.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaWidgets.so.6.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/libanalitza/
+drwxr-xr-x	root/root	usr/share/libanalitza/plots/
+-rw-r--r--	root/root	usr/share/libanalitza/plots/3Ds.plots
+-rw-r--r--	root/root	usr/share/libanalitza/plots/basic_curves.plots
+-rw-r--r--	root/root	usr/share/libanalitza/plots/conics.plots
+-rw-r--r--	root/root	usr/share/libanalitza/plots/polar.plots
+drwxr-xr-x	root/root	usr/share/qt5/
+drwxr-xr-x	root/root	usr/share/qt5/qml/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/analitza/
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/Graph2D.qml
+-rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/qmldir
