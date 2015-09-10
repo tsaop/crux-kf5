@@ -1,0 +1,20 @@
+# Description: C++ template library for linear algebra
+# URL: http://eigen.tuxfamily.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: cmake fftw
+
+name=eigen
+version=3.2.5
+release=1
+source=(http://bitbucket.org/$name/$name/get/$version.tar.bz2)
+
+build() {
+	cd $SRC
+	mkdir build; cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release \
+	../$name-$name-*
+
+	make
+	make DESTDIR=$PKG install
+}
