@@ -74,6 +74,7 @@ d:kjs
 d:kconfigwidgets
 d:user-manager
 d:knewstuff
+d:blinken
 d:kxmlgui
 d:udisks
 d:applications-meta
@@ -119,6 +120,7 @@ d:khelpcenter
 d:kemoticons
 d:frameworks-meta
 d:kde-runtime
+d:eigen
 d:plasma-desktop
 d:kdeplasma-addons
 d:kimageformats
@@ -136,6 +138,7 @@ d:kwin
 d:lmdb
 d:networkmanager-qt
 d:khtml
+d:kalgebra
 d:kservice
 d:baloo-widgets
 d:libkscreen
@@ -151,6 +154,7 @@ d:kate
 d:frameworkintegration
 d:plasma-workspace
 d:syndication
+d:analitza
 d:libkdcraw
 f:b817ca84bc9daaa0d95dafa43591c4f5:kwindowsystem/.footprint
 f:74f666a0b281eb345e6c866ebf12a492:kwindowsystem/.md5sum
@@ -413,6 +417,10 @@ f:7582e31bf3f6ec2d989c48048d2dd337:knewstuff/.footprint
 f:88777c52d4dfeec4ce12bf5c0bba9902:knewstuff/.md5sum
 f:d3633885bdb1db84d29256e9542f9546:knewstuff/post-install
 f:5fe4f6bbc97d7e161d2c424bf39911e9:knewstuff/Pkgfile
+f:bdf95a01abc87e54aedcf508c2d59f81:blinken/.footprint
+f:001511e1532b779e10d8aed18c24959f:blinken/.md5sum
+f:10fc7a94ff7a39666e414bfa70a8e61b:blinken/post-install
+f:861af19d06c3334f990ae8b05e2daa99:blinken/Pkgfile
 f:d6d89293a6e337b7fd340b774114c87d:kxmlgui/.footprint
 f:135679a8bffbefb8c8d44871d4f3224a:kxmlgui/.md5sum
 f:be5482c528487fea6dbaef71d1f980e3:kxmlgui/Pkgfile
@@ -562,6 +570,9 @@ f:4b52608f361e6f816ccad96e4d4c9f8c:frameworks-meta/Pkgfile
 f:6acb52b7cf3ce23fd1f050c34d5a2af2:kde-runtime/.footprint
 f:edf4c0b5c304d0c19d9ca9c350892b4a:kde-runtime/.md5sum
 f:062e39fd88303b2271a8a9a6184a34d4:kde-runtime/Pkgfile
+f:3830e266de4a2fe4990333121899d0ca:eigen/.footprint
+f:79eed7669f6721d4ef99afc6a06c7489:eigen/.md5sum
+f:d5ff69bd0fbcffe3b5c3067cf431e72c:eigen/Pkgfile
 f:bdba60d93cd46c7f841f248bac5d5cf1:plasma-desktop/.footprint
 f:cc4951ff4dc689fa5b2b4962781503fe:plasma-desktop/.md5sum
 f:10fc7a94ff7a39666e414bfa70a8e61b:plasma-desktop/post-install
@@ -624,6 +635,10 @@ f:1831f1b6750386d93b270e9e8b1d5d89:khtml/.footprint
 f:b9d0a0c9dd9bb47f9bbf54faacb74732:khtml/.md5sum
 f:d3633885bdb1db84d29256e9542f9546:khtml/post-install
 f:e6cadfedbd7bc4d12a2261a445d5a44f:khtml/Pkgfile
+f:9c49a7ff3559432624f43c97a18f8a25:kalgebra/.footprint
+f:179b921a554ab7a4167867b5d8fb1426:kalgebra/.md5sum
+f:10fc7a94ff7a39666e414bfa70a8e61b:kalgebra/post-install
+f:52af2891a0cb351d7a985bbf18a762ec:kalgebra/Pkgfile
 f:88b9fc21384ec1259d5b038267a59f75:kservice/.footprint
 f:eb034336ba8144d1f10d95b4d80eedd5:kservice/.md5sum
 f:d3633885bdb1db84d29256e9542f9546:kservice/post-install
@@ -677,6 +692,10 @@ f:9907bf54854f0974df4cfa9452af26c9:syndication/.footprint
 f:d78425787ca9aeb8146677c2d3393432:syndication/.md5sum
 f:0747171987629b02c9178211acfe931a:syndication/Pkgfile
 f:49532796ecb2e0e7d1722ffd24a4c442:README.md
+f:ab94c100587afdbd6c0449f6737e2448:analitza/.footprint
+f:d12a69db34b12ce271b76a37767ac329:analitza/.md5sum
+f:10fc7a94ff7a39666e414bfa70a8e61b:analitza/post-install
+f:35e0152385c8a9cb08e335a0d570e8ae:analitza/Pkgfile
 f:49591182e8e802406cc9234956447850:libkdcraw/.footprint
 f:c0f540308d3031b38593c4faf6c44ca3:libkdcraw/.md5sum
 f:570626eb986cb952d22e9a3937311919:libkdcraw/Pkgfile
