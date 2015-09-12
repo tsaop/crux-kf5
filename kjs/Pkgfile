@@ -5,7 +5,7 @@
 # Optional: libpcre
 
 name=kjs
-version=5.13.0
+version=5.14.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 

@@ -4,7 +4,7 @@
 # Depends on: cmake desktop-file-utils
 
 name=extra-cmake-modules
-version=5.13.0
+version=5.14.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
