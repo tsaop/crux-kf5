@@ -12,6 +12,7 @@ d:kio
 d:mlt
 d:libical
 d:extra-cmake-modules
+d:kig
 d:solid
 d:dragon
 d:ki18n
@@ -206,6 +207,10 @@ f:349c62ce3a2db229632b131a8040eed2:libical/Pkgfile
 f:4cbb9e0497a8f5c70083aa23ded904ce:extra-cmake-modules/.footprint
 f:7be046298834b3eef4468547dbb2b610:extra-cmake-modules/.md5sum
 f:6cdd75f7a136b80cf21083d5b6b215f1:extra-cmake-modules/Pkgfile
+f:bdf95a01abc87e54aedcf508c2d59f81:kig/.footprint
+f:2c53f23c59b8f25b3e3e07ca3d55f5bb:kig/.md5sum
+f:10fc7a94ff7a39666e414bfa70a8e61b:kig/post-install
+f:21dbb4b3bdcca514805030b515970b67:kig/Pkgfile
 f:94398621d605a8615b6941d35a909281:solid/.footprint
 f:263d6145d2d164507c5a5df9b7727704:solid/.md5sum
 f:33dd18d507fe7fea858e3964a786e748:solid/Pkgfile
@@ -491,7 +496,7 @@ f:2d30877d04403d9dfc7df8aa3945c901:poppler-qt5/.md5sum
 f:99ff896b4af4be36cb3ad550586afbee:poppler-qt5/Pkgfile
 f:ef62687a056ce45d92642b4dded0210c:kdeedu-data/.footprint
 f:c17fff4081daadcbee806761b0370f03:kdeedu-data/.md5sum
-f:10fc7a94ff7a39666e414bfa70a8e61b:kdeedu-data/post-install
+f:5dd98116b1317515aa6d4e3ba006400d:kdeedu-data/post-install
 f:878ed3f5928e367621bcbe722e154444:kdeedu-data/Pkgfile
 f:1641dc4d43b49d692cd8bcedb8a5eff2:kimap/.footprint
 f:b6a484c783ae3ad97b32635348848ace:kimap/.md5sum
