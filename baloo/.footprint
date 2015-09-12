@@ -42,11 +42,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Baloo/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Baloo/KF5BalooTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Baloo/KF5BalooTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Baloo.so -> libKF5Baloo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Baloo.so.5 -> libKF5Baloo.so.5.13.0
--rwxr-xr-x	root/root	usr/lib/libKF5Baloo.so.5.13.0
-lrwxrwxrwx	root/root	usr/lib/libKF5BalooEngine.so -> libKF5BalooEngine.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5BalooEngine.so.5 -> libKF5BalooEngine.so.5.13.0
--rwxr-xr-x	root/root	usr/lib/libKF5BalooEngine.so.5.13.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Baloo.so.5 -> libKF5Baloo.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Baloo.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libKF5BalooEngine.so.5 -> libKF5BalooEngine.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5BalooEngine.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/libexec/
 drwxr-xr-x	root/root	usr/lib/libexec/kauth/
 -rwxr-xr-x	root/root	usr/lib/libexec/kauth/kde_baloo_filewatch_raiselimit
@@ -56,6 +55,9 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.baloo.file.indexer.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.baloo.fileindexer.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.baloo.main.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.baloo.scheduler.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.baloo.filewatch.service
 drwxr-xr-x	root/root	usr/share/icons/
@@ -65,8 +67,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/baloo.png
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/baloosearch.protocol
-drwxr-xr-x	root/root	usr/share/kservices5/kded/
--rw-r--r--	root/root	usr/share/kservices5/kded/baloosearchfolderupdater.desktop
 -rw-r--r--	root/root	usr/share/kservices5/tags.protocol
 -rw-r--r--	root/root	usr/share/kservices5/timeline.protocol
 drwxr-xr-x	root/root	usr/share/polkit-1/
@@ -74,8 +74,9 @@ drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.baloo.filewatch.policy
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_baloosearch_kio.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/baloosearchmodule.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/baloosearch.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/tags.so

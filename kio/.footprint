@@ -255,17 +255,17 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5KIO/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.13.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.13.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.13.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.13.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.13.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.13.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.13.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.13.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/libexec/
 drwxr-xr-x	root/root	usr/lib/libexec/kf5/
 -rwxr-xr-x	root/root	usr/lib/libexec/kf5/kio_http_cache_cleaner
@@ -304,8 +304,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/http_cache_cleaner.desktop
 -rw-r--r--	root/root	usr/share/kservices5/https.protocol
 -rw-r--r--	root/root	usr/share/kservices5/kcmtrash.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kded/
--rw-r--r--	root/root	usr/share/kservices5/kded/proxyscout.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kshorturifilter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kuriikwsfilter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kurisearchfilter.desktop
@@ -540,7 +538,6 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/kcookiejar.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/kpasswdserver.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/proxyscout.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/file.so
@@ -550,6 +547,7 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/http.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/trash.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kiod/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kiod/kpasswdserver.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kiod/kssld.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/urifilters/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/urifilters/fixhosturifilter.so
