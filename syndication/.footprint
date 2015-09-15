@@ -142,16 +142,16 @@ drwxr-xr-x	root/root	usr/include/KF5/Syndication/syndication/rss2/
 -rw-r--r--	root/root	usr/include/KF5/Syndication/syndication/syndication_export.h
 -rw-r--r--	root/root	usr/include/KF5/Syndication/syndication/tools.h
 -rw-r--r--	root/root	usr/include/KF5/syndication_version.h
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/cmake/
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5Syndication/
--rw-r--r--	root/root	usr/lib64/cmake/KF5Syndication/KF5SyndicationConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Syndication/KF5SyndicationConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Syndication/KF5SyndicationTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Syndication/KF5SyndicationTargets.cmake
-lrwxrwxrwx	root/root	usr/lib64/libKF5Syndication.so -> libKF5Syndication.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5Syndication.so.4.79.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5Syndication.so.5 -> libKF5Syndication.so.4.79.0
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5Syndication/
+-rw-r--r--	root/root	usr/lib/cmake/KF5Syndication/KF5SyndicationConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Syndication/KF5SyndicationConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Syndication/KF5SyndicationTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Syndication/KF5SyndicationTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5Syndication.so -> libKF5Syndication.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5Syndication.so.4.79.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Syndication.so.5 -> libKF5Syndication.so.4.79.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/

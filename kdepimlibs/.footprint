@@ -1,10 +1,10 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kdepimlibs-kioslave.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi2xml
 -rwxr-xr-x	root/root	usr/bin/akonadiselftest
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/kdepimlibs-kioslave.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Akonadi/
@@ -392,58 +392,58 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/socialutils/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/socialutils/socialfeeditem.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/socialutils/socialnetworkattributes.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi_version.h
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/cmake/
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5Akonadi/
--rw-r--r--	root/root	usr/lib64/cmake/KF5Akonadi/KF5AkonadiConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Akonadi/KF5AkonadiConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Akonadi/KF5AkonadiMacros.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5AkonadiContact/
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiContact/KF5AkonadiContactConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiContact/KF5AkonadiContactConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiContact/KF5AkonadiContactTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiContact/KF5AkonadiContactTargets.cmake
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5AkonadiMime/
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiMime/KF5AkonadiMimeConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiMime/KF5AkonadiMimeConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiMime/KF5AkonadiMimeTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiMime/KF5AkonadiMimeTargets.cmake
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5AkonadiNotes/
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiNotes/KF5AkonadiNotesConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiNotes/KF5AkonadiNotesConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiNotes/KF5AkonadiNotesTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiNotes/KF5AkonadiNotesTargets.cmake
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5AkonadiSocialUtils/
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsTargets.cmake
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiAgentBase.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiContact.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiCore.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiMime.so -> libKF5AkonadiMime.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiMime.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiMime.so.5 -> libKF5AkonadiMime.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiNotes.so -> libKF5AkonadiNotes.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiNotes.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiNotes.so.5 -> libKF5AkonadiNotes.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiSocialUtils.so -> libKF5AkonadiSocialUtils.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiSocialUtils.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiSocialUtils.so.5 -> libKF5AkonadiSocialUtils.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiWidgets.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiXml.so.4.88.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.4.88.0
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5Akonadi/
+-rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiMacros.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiContact/
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiMime/
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiMime/KF5AkonadiMimeConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiMime/KF5AkonadiMimeConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiMime/KF5AkonadiMimeTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiMime/KF5AkonadiMimeTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiNotes/
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so -> libKF5AkonadiMime.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiMime.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so.5 -> libKF5AkonadiMime.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so -> libKF5AkonadiNotes.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiNotes.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so.5 -> libKF5AkonadiNotes.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSocialUtils.so -> libKF5AkonadiSocialUtils.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSocialUtils.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSocialUtils.so.5 -> libKF5AkonadiSocialUtils.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.4.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.4.88.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/plugins/

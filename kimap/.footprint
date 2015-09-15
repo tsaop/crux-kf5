@@ -116,17 +116,17 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/subscribejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/unsubscribejob.h
 -rw-r--r--	root/root	usr/include/KF5/kimap_version.h
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/cmake/
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5IMAP/
--rw-r--r--	root/root	usr/lib64/cmake/KF5IMAP/FindSasl2.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5IMAP/KF5IMAPConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5IMAP/KF5IMAPConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5IMAP/KF5IMAPTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5IMAP/KF5IMAPTargets.cmake
-lrwxrwxrwx	root/root	usr/lib64/libKF5IMAP.so -> libKF5IMAP.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5IMAP.so.4.80.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5IMAP.so.5 -> libKF5IMAP.so.4.80.0
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5IMAP/
+-rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/FindSasl2.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so -> libKF5IMAP.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.4.80.0
+lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.4.80.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/

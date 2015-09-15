@@ -29,16 +29,16 @@ drwxr-xr-x	root/root	usr/include/KF5/KMime/kmime/
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_newsarticle.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_util.h
 -rw-r--r--	root/root	usr/include/KF5/kmime_version.h
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/cmake/
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5Mime/
--rw-r--r--	root/root	usr/lib64/cmake/KF5Mime/KF5MimeConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Mime/KF5MimeConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Mime/KF5MimeTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5Mime/KF5MimeTargets.cmake
-lrwxrwxrwx	root/root	usr/lib64/libKF5Mime.so -> libKF5Mime.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5Mime.so.4.82.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5Mime.so.5 -> libKF5Mime.so.4.82.0
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5Mime/
+-rw-r--r--	root/root	usr/lib/cmake/KF5Mime/KF5MimeConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Mime/KF5MimeConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Mime/KF5MimeTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Mime/KF5MimeTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5Mime.so -> libKF5Mime.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5Mime.so.4.82.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Mime.so.5 -> libKF5Mime.so.4.82.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/

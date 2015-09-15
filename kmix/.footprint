@@ -37,7 +37,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/actions/kmix.png
 drwxr-xr-x	root/root	usr/share/kmix/
--rw-r--r--	root/root	usr/share/kmix/kmixui.rc
 drwxr-xr-x	root/root	usr/share/kmix/pics/
 -rw-r--r--	root/root	usr/share/kmix/pics/kmixdocked.png
 -rw-r--r--	root/root	usr/share/kmix/pics/kmixdocked_error.png
@@ -70,6 +69,9 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservices5/kded/
 -rw-r--r--	root/root	usr/share/kservices5/kded/kmixd.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmixctrl_restore.desktop
+drwxr-xr-x	root/root	usr/share/kxmlgui5/
+drwxr-xr-x	root/root	usr/share/kxmlgui5/kmix/
+-rw-r--r--	root/root	usr/share/kxmlgui5/kmix/kmixui.rc
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/libkded_kmixd.so

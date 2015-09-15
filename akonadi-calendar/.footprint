@@ -36,16 +36,16 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/calendar/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/calendar/publishdialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/calendar/standardcalendaractionmanager.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/calendar/todopurger.h
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/cmake/
-drwxr-xr-x	root/root	usr/lib64/cmake/KF5AkonadiCalendar/
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarConfig.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarConfigVersion.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarTargets-release.cmake
--rw-r--r--	root/root	usr/lib64/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarTargets.cmake
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiCalendar.so -> libKF5AkonadiCalendar.so.5
--rwxr-xr-x	root/root	usr/lib64/libKF5AkonadiCalendar.so.4.80.0
-lrwxrwxrwx	root/root	usr/lib64/libKF5AkonadiCalendar.so.5 -> libKF5AkonadiCalendar.so.4.80.0
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiCalendar/
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCalendar.so -> libKF5AkonadiCalendar.so.5
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCalendar.so.4.80.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCalendar.so.5 -> libKF5AkonadiCalendar.so.4.80.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
