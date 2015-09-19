@@ -1,0 +1,13 @@
+# Description: KDE utils meta-package
+# URL: https://www.kde.org
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: filelight kcalc kcharselect kruler kteatime ktimer kwalletmanager
+
+name=kdeutils-meta
+version=15.08.1
+release=1
+source=()
+
+build() {
+	mkdir $PKG/usr
+}
