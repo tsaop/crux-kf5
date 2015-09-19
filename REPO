@@ -154,6 +154,7 @@ d:otter-browser
 d:kapidox
 d:kwin
 d:lmdb
+d:consolekit
 d:networkmanager-qt
 d:khtml
 d:kalgebra
@@ -717,6 +718,11 @@ f:f17dec60d5f88abaf129fe1ce557a8a7:kwin/Pkgfile
 f:27208a8f55f08b8568aaf3e91127ea13:lmdb/.footprint
 f:fc12feb71283b60ce0039403822afbee:lmdb/.md5sum
 f:43b8d2a4187066c1f7d708a68d62f718:lmdb/Pkgfile
+f:051c19a5a0e007ba5b68f12c75a57c42:consolekit/.footprint
+f:61c9dd5a1a00e692725adb8bb7fa1cf0:consolekit/.md5sum
+f:14c8391621d8018c690f883643bf026f:consolekit/consolekit-0.4.2-revert.patch
+f:c038a8f9b3bcaf49c598c19c38bbd628:consolekit/pam-foreground-compat.ck
+f:11452df733307c191c7e822d2e4d225a:consolekit/Pkgfile
 f:e22ce602df3b3bb3cb58f48d00a6925d:networkmanager-qt/.footprint
 f:b1b9a6568e92ddd66e207fc100de7199:networkmanager-qt/.md5sum
 f:a55d1f59091e6138b72e949b436f3ed3:networkmanager-qt/Pkgfile

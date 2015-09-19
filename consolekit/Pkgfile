@@ -1,0 +1,32 @@
+# Description:	Framework for defining and tracking users, login sessions, and seats (patched to allow local sessions without a trusted program)
+# URL:		http://www.freedesktop.org/wiki/Software/ConsoleKit
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	polkit dbus-glib
+
+name=consolekit
+version=0.4.6
+release=2
+source=(
+http://www.freedesktop.org/software/ConsoleKit/dist/ConsoleKit-0.4.6.tar.xz
+pam-foreground-compat.ck
+consolekit-0.4.2-revert.patch
+)
+
+build() {
+	cd ConsoleKit-$version
+
+	patch -Np1 -i $SRC/consolekit-0.4.2-revert.patch
+
+	./configure \
+		--prefix=/usr \
+		--localstatedir=/var \
+		--libexec=/usr/lib/ConsoleKit/libexec \
+		--enable-udev-acl
+	make
+	make DESTDIR=$PKG install
+
+	# This script creates /var/run/console/$USER
+	# Required by the "at_console" feature of the dbus policy system
+	# This is an alternative to pam_console
+	install -D -m 0755 -o root -g root $SRC/pam-foreground-compat.ck $PKG/usr/etc/ConsoleKit/run-session.d/pam-foreground-compat.ck
+}
