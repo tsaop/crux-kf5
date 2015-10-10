@@ -71,8 +71,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextEditor/KF5TextEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextEditor/KF5TextEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so -> libKF5TextEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.14.0
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.15.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/katepart5/
 drwxr-xr-x	root/root	usr/share/katepart5/script/
@@ -279,6 +279,8 @@ drwxr-xr-x	root/root	usr/share/katepart5/syntax/
 -rw-r--r--	root/root	usr/share/katepart5/syntax/objectivec.xml
 -rw-r--r--	root/root	usr/share/katepart5/syntax/objectivecpp.xml
 -rw-r--r--	root/root	usr/share/katepart5/syntax/ocaml.xml
+-rw-r--r--	root/root	usr/share/katepart5/syntax/ocamllex.xml
+-rw-r--r--	root/root	usr/share/katepart5/syntax/ocamlyacc.xml
 -rw-r--r--	root/root	usr/share/katepart5/syntax/octave.xml
 -rw-r--r--	root/root	usr/share/katepart5/syntax/oors.xml
 -rw-r--r--	root/root	usr/share/katepart5/syntax/opal.xml
