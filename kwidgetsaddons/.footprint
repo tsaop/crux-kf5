@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KAssistantDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KCapacityBar
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KCharSelect
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KCollapsibleGroupBox
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KColorButton
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KColorCombo
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KColumnResizer
@@ -33,6 +34,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMimeTypeEditor
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMultiTabBar
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KNewPasswordDialog
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KNewPasswordWidget
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageModel
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageView
@@ -74,6 +76,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kassistantdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kcapacitybar.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kcharselect.h
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kcollapsiblegroupbox.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kcolorbutton.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kcolorcombo.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kcolumnresizer.h
@@ -98,6 +101,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kmimetypeeditor.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kmultitabbar.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/knewpassworddialog.h
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/knewpasswordwidget.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpagedialog.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpagemodel.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpageview.h
@@ -142,8 +146,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WidgetsAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so -> libKF5WidgetsAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.15.0
--rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.15.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.16.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kcharselect/

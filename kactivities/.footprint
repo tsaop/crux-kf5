@@ -26,8 +26,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Activities/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Activities/KF5ActivitiesLibraryTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Activities/KF5ActivitiesLibraryTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Activities.so -> libKF5Activities.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Activities.so.5 -> libKF5Activities.so.5.15.0
--rwxr-xr-x	root/root	usr/lib/libKF5Activities.so.5.15.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Activities.so.5 -> libKF5Activities.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Activities.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libKActivities.pc
 drwxr-xr-x	root/root	usr/share/
@@ -35,17 +35,20 @@ drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/
 drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/
 drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/ActivitiesView.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/ActivityConfigurationDialog.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/ActivityCreationDialog.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/ActivityDeletionDialog.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/BlacklistApplicationView.qml
-drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/components/
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/components/DialogButtons.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/components/IconChooser.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/components/NameChooser.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/components/ShortcutChooser.qml
--rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/static.js
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activitiesTab/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activitiesTab/ActivitiesView.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activitiesTab/main.qml
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/GeneralTab.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/OtherTab.qml
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/DialogButtons.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/IconChooser.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/LabeledTextField.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/ShortcutChooser.qml
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/privacyTab/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/privacyTab/BlacklistApplicationView.qml
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/activities.protocol
 -rw-r--r--	root/root	usr/share/kservices5/kactivitymanagerd-plugin-activitytemplates.desktop
@@ -80,3 +83,6 @@ drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/libkactivitiesextensionplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/activities/qmldir
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/settings/
+-rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/settings/libkactivitiessettingsplugin.so
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/activities/settings/qmldir

@@ -33,8 +33,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuff/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuff/KF5NewStuffTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuff/KF5NewStuffTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so -> libKF5NewStuff.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.15.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.15.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.16.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kmoretools/
@@ -60,6 +60,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kmoretools/presets-kmoretools/
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/kdf.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/ksystemlog.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.gnome.clocks.desktop
+-rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.PartitionManager.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.filelight.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.kfind.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.kscreengenie.desktop
@@ -67,7 +68,6 @@ drwxr-xr-x	root/root	usr/share/kf5/kmoretools/presets-kmoretools/
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.ksysguard.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.ktimer.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/org.kde.plasma.cuttlefish.kmt-edition.desktop
--rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/partitionmanager.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/qgit.kmt-edition.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/shutter.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/shutter.desktop.TODO
