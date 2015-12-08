@@ -1,15 +1,17 @@
-# Description: Part of KDE Frameworks (Tier 1)
+# Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop <leeroy@cock.li>
-# Depends on: cmake
+# Depends on: kinit
 
-name=oxygen-icons
-version=15.04.3
+name=oxygen-icons5
+version=5.16.0
 release=1
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
+
+	
 
 	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
 	-DCMAKE_INSTALL_PREFIX=/usr \

@@ -38,7 +38,6 @@ d:kded
 d:kde-cli-tools
 d:kdepimlibs
 d:ktexteditor
-d:oxygen-icons
 d:libkgpgme
 d:libutempter
 d:wayland
@@ -62,6 +61,7 @@ d:oxygen
 d:polkit-qt5
 d:kde-gtk-config
 d:qca-qt5
+d:oxygen-icons5
 d:kwrited
 d:libksysguard
 d:kdbusaddons
@@ -320,9 +320,6 @@ f:bc0e20295b5dead3b37d36e2de5e223e:ktexteditor/.footprint
 f:9ab1174cff36e708e5393cc1dda97341:ktexteditor/.md5sum
 f:d3633885bdb1db84d29256e9542f9546:ktexteditor/post-install
 f:9ff419518c8907aed221baaaa5a9a22f:ktexteditor/Pkgfile
-f:5c37c4959a04eb7be8058233a7e1af26:oxygen-icons/.footprint
-f:b68a3f31c13e602999b4f187660b0f46:oxygen-icons/.md5sum
-f:0ec38a330116631fe4000d5ec89d3a36:oxygen-icons/Pkgfile
 f:8fa9cf3b826d10076890ae4a22fa559f:libkgpgme/.footprint
 f:42eed8b6d3c9937771af9b0305101a32:libkgpgme/.md5sum
 f:397a652c9ad4bcc0b5841f6daacde8ed:libkgpgme/Pkgfile
@@ -401,6 +398,10 @@ f:ef0cf3502c03105df84ce307f2e96403:kde-gtk-config/Pkgfile
 f:dc0d63d4bdd4c54e9ddfe04a2848d866:qca-qt5/.footprint
 f:c9d064d079275f4ec3dab443fa779182:qca-qt5/.md5sum
 f:b16eb3efcf045d3ca8efe54659d21574:qca-qt5/Pkgfile
+f:bf20814662838aa3022e258728f83408:oxygen-icons5/.footprint
+f:950615a84baed1bf2ef469c3d89f295b:oxygen-icons5/.md5sum
+f:5dd98116b1317515aa6d4e3ba006400d:oxygen-icons5/post-install
+f:c70536d9e7c7cfc9f171e135e2dd4700:oxygen-icons5/Pkgfile
 f:c78fe4fe8c418a320e00c3e412efdd4f:kwrited/.footprint
 f:dfd598dc9bc0028521f7df833aa6323c:kwrited/.md5sum
 f:d3633885bdb1db84d29256e9542f9546:kwrited/post-install
