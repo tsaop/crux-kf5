@@ -1,11 +1,11 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop <leeroy@cock.li>
-# Depends on: baloo kdesu kdewebkit kjs knotifyconfig krunner kscreen ksysguard kwayland kwin kxmlrpcclient networkmanager-qt kded kjsembed breeze kde-cli-tools milou consolekit
+# Depends on: baloo kdesu kdewebkit kjs knotifyconfig krunner kscreen ksysguard kwayland kwin kxmlrpcclient networkmanager-qt kded kjsembed breeze kde-cli-tools milou consolekit kscreenlocker
 # Optional: kparts ktexteditor libdbusmenu-qt5 wayland phonon-qt5 prison libqalculate
 
 name=plasma-workspace
-version=5.4.3
+version=5.5.0
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
 	52-upower.rules)

@@ -1,11 +1,11 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop <leeroy@cock.li>
-# Depends on: kdecoration kinit knewstuff kwidgetsadons plasma-framework xorg-xcb-util-cursor
+# Depends on: kdecoration kinit knewstuff kwidgetsadons plasma-framework xorg-xcb-util-cursor libxkbcommon kscreenlocker 
 # Optional: kwayland wayland libxkbcommon libinput kactivities kdoctools mesa3d eudev
 
 name=kwin
-version=5.4.3
+version=5.5.0
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 

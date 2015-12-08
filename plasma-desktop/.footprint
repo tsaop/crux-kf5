@@ -33,11 +33,11 @@ drwxr-xr-x	root/root	usr/lib/libexec/kauth/
 -rwxr-xr-x	root/root	usr/lib/libexec/kfontprint
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kaccess.so
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.5.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kfontview.desktop
@@ -214,6 +214,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/cursortheme.desktop
 -rw-r--r--	root/root	usr/share/kservices5/desktoppath.desktop
 -rw-r--r--	root/root	usr/share/kservices5/desktoptheme.desktop
+-rw-r--r--	root/root	usr/share/kservices5/device_automounter_kcm.desktop
 -rw-r--r--	root/root	usr/share/kservices5/emoticons.desktop
 -rw-r--r--	root/root	usr/share/kservices5/fontinst.desktop
 -rw-r--r--	root/root	usr/share/kservices5/fonts.desktop
@@ -234,8 +235,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/kcmlaunch.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmnotify.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmsmserver.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kded/
--rw-r--r--	root/root	usr/share/kservices5/kded/keyboard.desktop
 -rw-r--r--	root/root	usr/share/kservices5/keys.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kfontviewpart.desktop
 -rw-r--r--	root/root	usr/share/kservices5/mouse.desktop
@@ -363,14 +362,18 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kicker/contents/u
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kicker/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/code/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/code/tools.js
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ActionMenu.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ApplicationsView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/BaseView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/Breadcrumb.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ContextMenu.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ComputerView.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ConfigGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/FavoritesView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/Footer.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/FullRepresentation.qml
@@ -379,13 +382,10 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffButton.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffHighlight.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffItem.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffLeaveItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/LeaveView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/RecentlyUsedView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/SearchView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/SectionDelegate.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/SystemView.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/configGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/
@@ -438,15 +438,13 @@ drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/InteractiveConsole.qml
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/
--rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityCreationDialog.qml
--rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityDeletionDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityItem.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityList.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityManager.qml
--rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ControlButton.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/Heading.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/StoppedActivityItem.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/WindowPreview.qml
+-rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/static.js
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/applet/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/applet/AppletError.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/applet/CompactApplet.qml
@@ -476,6 +474,8 @@ drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/exp
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/explorer/WidgetExplorer.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/layout.js
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/loader.qml
+drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/
+-rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/Desktop.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/Panel.qml
@@ -520,10 +520,13 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/kcms/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcms/kcm_lookandfeel.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcms/kcm_splashscreen.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcmspellchecking.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_keyboard.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/keyboard_layout_widget.so
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/device_automounter.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/keyboard.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kfontviewpart.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kio_fonts.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/libkcm_device_automounter.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/libkcm_translations.so
 drwxr-xr-x	root/root	usr/share/qt5/qml/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/
@@ -536,9 +539,6 @@ drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kicker/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kicker/libkickerplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/kicker/qmldir
-drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kickoff/
--rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kickoff/libkickoffplugin.so
--rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/kickoff/qmldir
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/pager/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/pager/libpagerplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/pager/qmldir

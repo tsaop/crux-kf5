@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/startkde
 -rwxr-xr-x	root/root	usr/bin/startplasmacompositor
 -rwxr-xr-x	root/root	usr/bin/systemmonitor
+-rwxr-xr-x	root/root	usr/bin/xembedsniproxy
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/polkit-1/
 drwxr-xr-x	root/root	usr/etc/polkit-1/rules.d/
@@ -24,6 +25,7 @@ drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/autostart/krunner.desktop
 -rwxr-xr-x	root/root	usr/etc/xdg/autostart/org.kde.klipper.desktop
 -rw-r--r--	root/root	usr/etc/xdg/autostart/plasmashell.desktop
+-rw-r--r--	root/root	usr/etc/xdg/autostart/xembedsniproxy.desktop
 -rw-r--r--	root/root	usr/etc/xdg/plasmoids.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/taskmanagerrulesrc
 -rw-r--r--	root/root	usr/etc/xdg/wallpaper.knsrc
@@ -74,12 +76,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibTaskManager/
 -rw-r--r--	root/root	usr/lib/cmake/LibTaskManager/LibTaskManagerConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LibTaskManager/LibTaskManagerLibraryTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LibTaskManager/LibTaskManagerLibraryTargets.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/ScreenSaverDBusInterface/
--rw-r--r--	root/root	usr/lib/cmake/ScreenSaverDBusInterface/ScreenSaverDBusInterfaceConfig.cmake
 drwxr-xr-x	root/root	usr/lib/libexec/
 -rwxr-xr-x	root/root	usr/lib/libexec/drkonqi
--rwsr-sr-x	root/root	usr/lib/libexec/kcheckpass
--rwxr-xr-x	root/root	usr/lib/libexec/kscreenlocker_greet
 -rwxr-xr-x	root/root	usr/lib/libexec/ksyncdbusenv
 -rwxr-xr-x	root/root	usr/lib/libexec/startplasma
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit.so
@@ -88,14 +86,14 @@ drwxr-xr-x	root/root	usr/lib/libexec/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -108,7 +106,6 @@ drwxr-xr-x	root/root	usr/share/config.kcfg/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.canonical.AppMenu.Registrar.xml
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/kf5_org.freedesktop.ScreenSaver.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KSplash.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.PlasmaShell.xml
@@ -168,9 +165,6 @@ drwxr-xr-x	root/root	usr/share/drkonqi/debuggers/internal/
 -rw-r--r--	root/root	usr/share/drkonqi/mappings
 drwxr-xr-x	root/root	usr/share/drkonqi/pics/
 -rw-r--r--	root/root	usr/share/drkonqi/pics/crash.png
-drwxr-xr-x	root/root	usr/share/kconf_update/
--rw-r--r--	root/root	usr/share/kconf_update/kscreenlocker.upd
--rwxr-xr-x	root/root	usr/share/kconf_update/ksreenlocker_5_3_separate_autologin.pl
 drwxr-xr-x	root/root	usr/share/kio_desktop/
 drwxr-xr-x	root/root	usr/share/kio_desktop/DesktopLinks/
 -rw-r--r--	root/root	usr/share/kio_desktop/DesktopLinks/Home.desktop
@@ -178,22 +172,11 @@ drwxr-xr-x	root/root	usr/share/kio_desktop/DesktopLinks/
 -rw-r--r--	root/root	usr/share/kio_desktop/directory.trash
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/freespacenotifier.notifyrc
--rw-r--r--	root/root	usr/share/knotifications5/ksmserver.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/phonon.notifyrc
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/applications.protocol
 -rw-r--r--	root/root	usr/share/kservices5/desktop.protocol
 -rw-r--r--	root/root	usr/share/kservices5/ion-noaa.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kded/
--rw-r--r--	root/root	usr/share/kservices5/kded/appmenu.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/desktopnotifier.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/freespacenotifier.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/ksysguard.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/ktimezoned.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/remotedirnotify.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/solidautoeject.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/soliduiserver.desktop
--rw-r--r--	root/root	usr/share/kservices5/kded/statusnotifierwatcher.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kuiserver.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
@@ -271,23 +254,18 @@ drwxr-xr-x	root/root	usr/share/kservices5/kded/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-webshortcuts.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-windowedwidgets.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-windows.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-screenlocker_kcm-screenlocker_kcm.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.color.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.image.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.slideshow.desktop
 -rw-r--r--	root/root	usr/share/kservices5/programs.protocol
 -rw-r--r--	root/root	usr/share/kservices5/recentdocuments.desktop
 -rw-r--r--	root/root	usr/share/kservices5/remote.protocol
--rw-r--r--	root/root	usr/share/kservices5/screenlocker.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/phononbackend.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma-geolocationprovider.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma-layout-template.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma_shareprovider.desktop
 drwxr-xr-x	root/root	usr/share/ksmserver/
-drwxr-xr-x	root/root	usr/share/ksmserver/screenlocker/
-drwxr-xr-x	root/root	usr/share/ksmserver/screenlocker/org.kde.passworddialog/
--rw-r--r--	root/root	usr/share/ksmserver/screenlocker/org.kde.passworddialog/metadata.desktop
 drwxr-xr-x	root/root	usr/share/ksmserver/themes/
 drwxr-xr-x	root/root	usr/share/ksmserver/themes/contour/
 -rw-r--r--	root/root	usr/share/ksmserver/themes/contour/ContourButton.qml
@@ -334,12 +312,6 @@ drwxr-xr-x	root/root	usr/share/kstyle/themes/
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtplastique.themerc
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtwindows.themerc
 drwxr-xr-x	root/root	usr/share/plasma/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/screenlocker_kcm/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/screenlocker_kcm/contents/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/screenlocker_kcm/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/kcms/screenlocker_kcm/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/kcms/screenlocker_kcm/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/
@@ -363,7 +335,10 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/desktopswitcher/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/desktopswitcher/DesktopSwitcher.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/ChangeSession.qml
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/LockOsd.qml
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/LockScreen.qml
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/MainBlock.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/Main.qml
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/breeze.jpg
@@ -391,7 +366,7 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/splash/images/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/splash/images/kde.svgz
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/userswitcher/
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/userswitcher/UserSwitcher.qml (EMPTY)
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/userswitcher/UserSwitcher.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/windowdecoration/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/windowdecoration/WindowDecoration.qml (EMPTY)
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/windowswitcher/
@@ -728,16 +703,17 @@ drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/ui/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_krunner_kill.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_appmenu.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_desktopnotifier.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_freespacenotifier.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_ksysguard.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_ktimezoned.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_remotedirnotify.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_solidautoeject.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_soliduiserver.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kded_statusnotifierwatcher.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/appmenu.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/desktopnotifier.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/freespacenotifier.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/ksysguard.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/ktimezoned.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/remotedirnotify.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/solidautoeject.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/soliduiserver.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/statusnotifierwatcher.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/desktop.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kio_applications.so
@@ -803,7 +779,6 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/packagestructure/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_containmentactions_switchactivity.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_containmentactions_switchdesktop.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_containmentactions_switchwindow.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/screenlocker_kcm.so
 drwxr-xr-x	root/root	usr/share/qt5/qml/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
@@ -818,6 +793,9 @@ drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/icon/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/notifications/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/notifications/libnotificationshelperplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/notifications/qmldir
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/sessions/
+-rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/sessions/libsessionsprivateplugin.so
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/sessions/qmldir
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/shell/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/shell/libplasmashellprivateplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/shell/qmldir
@@ -867,5 +845,7 @@ drwxr-xr-x	root/root	usr/share/sddm/themes/breeze/dummydata/
 drwxr-xr-x	root/root	usr/share/solid/
 drwxr-xr-x	root/root	usr/share/solid/actions/
 -rw-r--r--	root/root	usr/share/solid/actions/test-predicate-openinwindow.desktop
+drwxr-xr-x	root/root	usr/share/wayland-sessions/
+-rw-r--r--	root/root	usr/share/wayland-sessions/plasmawayland.desktop
 drwxr-xr-x	root/root	usr/share/xsessions/
 -rw-r--r--	root/root	usr/share/xsessions/plasma.desktop

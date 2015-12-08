@@ -20,6 +20,12 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/ui/Graph.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_energyinfo/metadata.desktop
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_fileindexermonitor/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_fileindexermonitor/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_fileindexermonitor/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fileindexermonitor/contents/ui/constants.js
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fileindexermonitor/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fileindexermonitor/metadata.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/about-distro.desktop
 -rw-r--r--	root/root	usr/share/kservices5/deviceinfocategory.desktop
@@ -29,6 +35,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/interrupts.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ioports.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_energyinfo.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_fileindexermonitor.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_memory.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_pci.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmusb.desktop
@@ -58,3 +65,4 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_usb.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kcms/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcms/kcm_energyinfo.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kcms/kcm_fileindexermonitor.so

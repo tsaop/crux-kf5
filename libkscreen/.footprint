@@ -35,14 +35,17 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Screen/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Screen/KF5ScreenTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Screen/KF5ScreenTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so -> libKF5Screen.so.6
--rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.4.3
-lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.6 -> libKF5Screen.so.5.4.3
+-rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.6 -> libKF5Screen.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/libexec/
 drwxr-xr-x	root/root	usr/lib/libexec/kf5/
 -rwxr-xr-x	root/root	usr/lib/libexec/kf5/kscreen_backend_launcher
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/kscreen2.pc
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kscreen.service
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
