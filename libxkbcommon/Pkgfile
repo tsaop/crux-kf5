@@ -1,0 +1,19 @@
+# Description:	Library to handle keyboard descriptions
+# URL:		http://xkbcommon.org/
+# Maintainer: Tsaop <leeroy@cock.li>
+# Depends on: xkeyboard-config libxcb xorg-util-macros yacc
+
+name=libxkbcommon
+version=0.5.0
+release=1
+source=(http://xkbcommon.org/download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr \
+		--disable-docs
+
+	make
+	make DESTDIR=$PKG install
+}
