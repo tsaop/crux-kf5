@@ -58,15 +58,16 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.16.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.16.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.17.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.16.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.16.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.17.0
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/dbus-1/
-drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.platformstatus.xml
+drwxr-xr-x	root/root	usr/share/kdevappwizard/
+drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
+-rw-r--r--	root/root	usr/share/kdevappwizard/templates/cpp-plasmoid.tar.bz2
+-rw-r--r--	root/root	usr/share/kdevappwizard/templates/qml-plasmoid.tar.bz2
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-testengine.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-scriptengine-applet-declarative.desktop
@@ -279,6 +280,7 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/listitem.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/media-delegate.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/monitor.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/notes.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/pager.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/panel-background.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/picker.svgz
@@ -379,9 +381,6 @@ drwxr-xr-x	root/root	usr/share/plasma/services/
 -rw-r--r--	root/root	usr/share/plasma/services/storage.operations
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/platformstatus.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/scriptengines/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so

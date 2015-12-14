@@ -2,11 +2,13 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KI18n/
+-rw-r--r--	root/root	usr/include/KF5/KI18n/KLocalizedContext
 -rw-r--r--	root/root	usr/include/KF5/KI18n/KLocalizedString
 -rw-r--r--	root/root	usr/include/KF5/KI18n/KLocalizedTranslator
 -rw-r--r--	root/root	usr/include/KF5/KI18n/KuitMarkup
 -rw-r--r--	root/root	usr/include/KF5/KI18n/KuitSetup
 -rw-r--r--	root/root	usr/include/KF5/KI18n/ki18n_export.h
+-rw-r--r--	root/root	usr/include/KF5/KI18n/klocalizedcontext.h
 -rw-r--r--	root/root	usr/include/KF5/KI18n/klocalizedstring.h
 -rw-r--r--	root/root	usr/include/KF5/KI18n/klocalizedtranslator.h
 -rw-r--r--	root/root	usr/include/KF5/KI18n/kuitmarkup.h
@@ -23,8 +25,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5I18n/
 -rw-r--r--	root/root	usr/lib/cmake/KF5I18n/kf5i18nuic.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5I18n/ts-pmap-compile.py
 lrwxrwxrwx	root/root	usr/lib/libKF5I18n.so -> libKF5I18n.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5I18n.so.5 -> libKF5I18n.so.5.16.0
--rwxr-xr-x	root/root	usr/lib/libKF5I18n.so.5.16.0
+lrwxrwxrwx	root/root	usr/lib/libKF5I18n.so.5 -> libKF5I18n.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libKF5I18n.so.5.17.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/

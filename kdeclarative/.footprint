@@ -4,6 +4,8 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/
+drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/CalendarEvents/
+-rw-r--r--	root/root	usr/include/KF5/KDeclarative/CalendarEvents/CalendarEventsPlugin
 drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/KDeclarative/
 -rw-r--r--	root/root	usr/include/KF5/KDeclarative/KDeclarative/ConfigPropertyMap
 -rw-r--r--	root/root	usr/include/KF5/KDeclarative/KDeclarative/KDeclarative
@@ -17,6 +19,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/KQuickAddons/
 drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/QuickAddons/
 -rw-r--r--	root/root	usr/include/KF5/KDeclarative/QuickAddons/ImageTexturesCache
 -rw-r--r--	root/root	usr/include/KF5/KDeclarative/QuickAddons/ManagedTextureNode
+drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/calendarevents/
+-rw-r--r--	root/root	usr/include/KF5/KDeclarative/calendarevents/calendarevents_export.h
+-rw-r--r--	root/root	usr/include/KF5/KDeclarative/calendarevents/calendareventsplugin.h
 drwxr-xr-x	root/root	usr/include/KF5/KDeclarative/kdeclarative/
 -rw-r--r--	root/root	usr/include/KF5/KDeclarative/kdeclarative/configpropertymap.h
 -rw-r--r--	root/root	usr/include/KF5/KDeclarative/kdeclarative/kdeclarative.h
@@ -41,12 +46,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Declarative/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Declarative/KF5DeclarativeConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Declarative/KF5DeclarativeTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Declarative/KF5DeclarativeTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5CalendarEvents.so -> libKF5CalendarEvents.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5CalendarEvents.so.5 -> libKF5CalendarEvents.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CalendarEvents.so.5.17.0
 lrwxrwxrwx	root/root	usr/lib/libKF5Declarative.so -> libKF5Declarative.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Declarative.so.5 -> libKF5Declarative.so.5.16.0
--rwxr-xr-x	root/root	usr/lib/libKF5Declarative.so.5.16.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Declarative.so.5 -> libKF5Declarative.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Declarative.so.5.17.0
 lrwxrwxrwx	root/root	usr/lib/libKF5QuickAddons.so -> libKF5QuickAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5QuickAddons.so.5 -> libKF5QuickAddons.so.5.16.0
--rwxr-xr-x	root/root	usr/lib/libKF5QuickAddons.so.5.16.0
+lrwxrwxrwx	root/root	usr/lib/libKF5QuickAddons.so.5 -> libKF5QuickAddons.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libKF5QuickAddons.so.5.17.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
