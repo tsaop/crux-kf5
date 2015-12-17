@@ -8,15 +8,11 @@ drwxr-xr-x	root/root	usr/include/KF5/MailTransport/MailTransport/
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/ErrorAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/MessageQueueJob
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/PrecommandJob
--rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/SendmailJob
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/SentBehaviourAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/ServerTest
--rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/SmtpJob
--rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/Socket
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/Transport
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportComboBox
--rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportConfigDialog
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportJob
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportManagementWidget
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportManager
@@ -28,17 +24,13 @@ drwxr-xr-x	root/root	usr/include/KF5/MailTransport/mailtransport/
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/mailtransport_export.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/messagequeuejob.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/precommandjob.h
--rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/sendmailjob.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/sentactionattribute.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/sentbehaviourattribute.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/servertest.h
--rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/smtpjob.h
--rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/socket.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transport.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportattribute.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportbase.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportcombobox.h
--rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportconfigdialog.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportjob.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportmanagementwidget.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportmanager.h
@@ -53,8 +45,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailTransport/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailTransport/KF5MailTransportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailTransport/KF5MailTransportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so -> libKF5MailTransport.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5MailTransport.so.4.80.0
-lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so.5 -> libKF5MailTransport.so.4.80.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailTransport.so.4.81.0
+lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so.5 -> libKF5MailTransport.so.4.81.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/mailtransport.kcfg

@@ -20,11 +20,15 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/private/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/akonadiprivate_export.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/capabilities_p.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/private/dbus_p.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/private/externalpartstorage_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/imapparser_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/imapset_p.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/private/instance_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/protocol_exception_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/protocol_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/scope_p.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/private/standarddirs_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/tristate_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/xdgbasedirs_p.h
 drwxr-xr-x	root/root	usr/lib/
@@ -35,8 +39,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiServer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiServer/KF5AkonadiServerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiServer/KF5AkonadiServerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so -> libKF5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.0.51
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.0.51
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.1.51
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.1.51
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/

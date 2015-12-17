@@ -6,23 +6,17 @@ drwxr-xr-x	root/root	usr/include/KF5/KHolidays/KHolidays/
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/AstroSeasons
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/Holiday
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/HolidayRegion
--rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/HolidayRegionSelector
--rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/Holidays
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/LunarPhase
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/KHolidays/Zodiac
 drwxr-xr-x	root/root	usr/include/KF5/KHolidays/kholidays/
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/AstroSeasons
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/Holiday
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/HolidayRegion
--rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/HolidayRegionSelector
--rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/Holidays
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/LunarPhase
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/Zodiac
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/astroseasons.h
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/holiday.h
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/holidayregion.h
--rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/holidayregionselector.h
--rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/holidays.h
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/kholidays_export.h
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/lunarphase.h
 -rw-r--r--	root/root	usr/include/KF5/KHolidays/kholidays/zodiac.h
@@ -35,8 +29,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Holidays/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Holidays/KF5HolidaysTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Holidays/KF5HolidaysTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Holidays.so -> libKF5Holidays.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5Holidays.so.4.79.0
-lrwxrwxrwx	root/root	usr/lib/libKF5Holidays.so.5 -> libKF5Holidays.so.4.79.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Holidays.so.4.80.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Holidays.so.5 -> libKF5Holidays.so.4.80.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/libkholidays/
@@ -160,6 +154,3 @@ drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KHolidays.pri
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/designer/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/designer/holidays5widgets.so

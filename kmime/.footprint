@@ -3,8 +3,6 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KMime/
 drwxr-xr-x	root/root	usr/include/KF5/KMime/KMime/
--rw-r--r--	root/root	usr/include/KF5/KMime/KMime/BoolFlags
--rw-r--r--	root/root	usr/include/KF5/KMime/KMime/CharFreq
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/Codecs
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/Content
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/ContentIndex
@@ -15,9 +13,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KMime/KMime/
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/MDN
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/Message
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/NewsArticle
+-rw-r--r--	root/root	usr/include/KF5/KMime/KMime/Types
 -rw-r--r--	root/root	usr/include/KF5/KMime/KMime/Util
 drwxr-xr-x	root/root	usr/include/KF5/KMime/kmime/
--rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_charfreq.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_content.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_contentindex.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_dateformatter.h
@@ -27,6 +25,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KMime/kmime/
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_mdn.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_message.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_newsarticle.h
+-rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_types.h
 -rw-r--r--	root/root	usr/include/KF5/KMime/kmime/kmime_util.h
 -rw-r--r--	root/root	usr/include/KF5/kmime_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -37,8 +36,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Mime/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Mime/KF5MimeTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Mime/KF5MimeTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Mime.so -> libKF5Mime.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5Mime.so.4.82.0
-lrwxrwxrwx	root/root	usr/lib/libKF5Mime.so.5 -> libKF5Mime.so.4.82.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Mime.so.4.87.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Mime.so.5 -> libKF5Mime.so.4.87.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/

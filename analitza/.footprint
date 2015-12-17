@@ -54,18 +54,18 @@ drwxr-xr-x	root/root	usr/lib/cmake/Analitza5/
 -rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5ConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Targets.cmake
-lrwxrwxrwx	root/root	usr/lib/libAnalitza.so -> libAnalitza.so.6
-lrwxrwxrwx	root/root	usr/lib/libAnalitza.so.6 -> libAnalitza.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitza.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so -> libAnalitzaGui.so.6
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so.6 -> libAnalitzaGui.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitzaGui.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so -> libAnalitzaPlot.so.6
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so.6 -> libAnalitzaPlot.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitzaPlot.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so -> libAnalitzaWidgets.so.6
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so.6 -> libAnalitzaWidgets.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitzaWidgets.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitza.so -> libAnalitza.so.7
+lrwxrwxrwx	root/root	usr/lib/libAnalitza.so.7 -> libAnalitza.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitza.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so -> libAnalitzaGui.so.7
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so.7 -> libAnalitzaGui.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaGui.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so -> libAnalitzaPlot.so.7
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so.7 -> libAnalitzaPlot.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaPlot.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so -> libAnalitzaWidgets.so.7
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so.7 -> libAnalitzaWidgets.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaWidgets.so.7.0.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/libanalitza/
 drwxr-xr-x	root/root	usr/share/libanalitza/plots/
@@ -79,5 +79,6 @@ drwxr-xr-x	root/root	usr/share/qt5/qml/org/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/analitza/
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/Graph2D.qml
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/Graph3D.qml
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/qmldir

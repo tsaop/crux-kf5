@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks (Tier 1)
 # URL: https://www.kde.org
 # Maintainer: Tsaop <leeroy@cock.li>
-# Depends on: kidentitymanagement kcalcore kdelibs4support
+# Depends on: kidentitymanagement kcalcore kdelibs4support grantlee
 
 name=kcalutils
-version=15.08.3
+version=15.12.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

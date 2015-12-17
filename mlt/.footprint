@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/mlt++/
 -rw-r--r--	root/root	usr/include/mlt++/Mlt.h
+-rw-r--r--	root/root	usr/include/mlt++/MltAnimation.h
 -rw-r--r--	root/root	usr/include/mlt++/MltConsumer.h
 -rw-r--r--	root/root	usr/include/mlt++/MltDeque.h
 -rw-r--r--	root/root	usr/include/mlt++/MltEvent.h
@@ -57,12 +58,12 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.0.9.6
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.0.9.6
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.0.9.6
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.0.9.6
--rwxr-xr-x	root/root	usr/lib/libmlt.so.0.9.6
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.0.9.6
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.0.9.8
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.0.9.8
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.0.9.8
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.0.9.8
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.0.9.8
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.0.9.8
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -76,6 +77,7 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplus.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplusgpl.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltqt.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
@@ -93,6 +95,7 @@ drwxr-xr-x	root/root	usr/share/mlt/avformat/
 drwxr-xr-x	root/root	usr/share/mlt/core/
 -rw-r--r--	root/root	usr/share/mlt/core/consumer_multi.yml
 -rw-r--r--	root/root	usr/share/mlt/core/data_fx.properties
+-rw-r--r--	root/root	usr/share/mlt/core/filter_audiomap.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_audiowave.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_brightness.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_channelcopy.yml
@@ -230,7 +233,9 @@ drwxr-xr-x	root/root	usr/share/mlt/plus/
 -rw-r--r--	root/root	usr/share/mlt/plus/consumer_blipflash.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_affine.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_charcoal.yml
+-rw-r--r--	root/root	usr/share/mlt/plus/filter_dance.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_dynamictext.yml
+-rw-r--r--	root/root	usr/share/mlt/plus/filter_fft.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_invert.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_lift_gamma_gain.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_loudness.yml
@@ -440,10 +445,14 @@ drwxr-xr-x	root/root	usr/share/mlt/profiles/
 -rw-r--r--	root/root	usr/share/mlt/profiles/vcd_ntsc
 -rw-r--r--	root/root	usr/share/mlt/profiles/vcd_pal
 drwxr-xr-x	root/root	usr/share/mlt/qt/
+-rw-r--r--	root/root	usr/share/mlt/qt/filter_audiowaveform.yml
+-rw-r--r--	root/root	usr/share/mlt/qt/filter_lightshow.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_kdenlivetitle.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_qimage.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_qtext.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/transition_vqm.yml
+drwxr-xr-x	root/root	usr/share/mlt/resample/
+-rw-r--r--	root/root	usr/share/mlt/resample/filter_resample.yml
 drwxr-xr-x	root/root	usr/share/mlt/sdl/
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_audio.yml

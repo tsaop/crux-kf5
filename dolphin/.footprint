@@ -19,15 +19,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/DolphinVcs/
 -rw-r--r--	root/root	usr/lib/cmake/DolphinVcs/DolphinVcsConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/DolphinVcs/DolphinVcsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/DolphinVcs/DolphinVcsTargets.cmake
--rwxr-xr-x	root/root	usr/lib/libdolphinprivate.so.15.08.3
-lrwxrwxrwx	root/root	usr/lib/libdolphinprivate.so.5 -> libdolphinprivate.so.15.08.3
+lrwxrwxrwx	root/root	usr/lib/libdolphinprivate.so.5 -> libdolphinprivate.so.5.0.0
+-rwxr-xr-x	root/root	usr/lib/libdolphinprivate.so.5.0.0
 lrwxrwxrwx	root/root	usr/lib/libdolphinvcs.so -> libdolphinvcs.so.5
--rwxr-xr-x	root/root	usr/lib/libdolphinvcs.so.15.08.3
-lrwxrwxrwx	root/root	usr/lib/libdolphinvcs.so.5 -> libdolphinvcs.so.15.08.3
+lrwxrwxrwx	root/root	usr/lib/libdolphinvcs.so.5 -> libdolphinvcs.so.5.0.0
+-rwxr-xr-x	root/root	usr/lib/libdolphinvcs.so.5.0.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_dolphin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/dolphin.appdata.xml
+-rw-r--r--	root/root	usr/share/appdata/org.kde.dolphin.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.dolphin.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/

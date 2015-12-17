@@ -27,20 +27,25 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactViewerDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactsFilterProxyModel
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactsTreeModel
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressRequester
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelection
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionWidget
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecentContactsCollectionRequestJob
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/SelectAddressBookDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactActionManager
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactFormatter
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactGroupFormatter
 drwxr-xr-x	root/root	usr/include/KF5/Akonadi/KMime/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/AddressAttribute
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/CommandBase
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MarkAsCommand
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MessageFlags
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MessageFolderAttribute
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MessageModel
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MessageParts
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MessageStatus
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/MoveCommand
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/RemoveDuplicatesJob
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/SpecialMailCollections
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/KMime/SpecialMailCollectionsDiscoveryJob
@@ -54,13 +59,11 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/SocialUtils/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/SocialUtils/SocialNetworkAttributes
 drwxr-xr-x	root/root	usr/include/KF5/AkonadiAgentBase/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/AgentBase
--rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/AgentFactory
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/AgentSearchInterface
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/ResourceBase
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/ResourceSettings
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/TransportResourceBase
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/agentbase.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/agentfactory.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/agentsearchinterface.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/akonadiagentbase_export.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/resourcebase.h
@@ -77,7 +80,6 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentType
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentTypeModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/Attribute
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AttributeEntity
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AttributeFactory
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CachePolicy
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/ChangeRecorder
@@ -90,18 +92,15 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionFetchScope
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionFilterProxyModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionIdentificationAttribute
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionModifyJob
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionMoveJob
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionPathResolver
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionQuotaAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionStatistics
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionStatisticsJob
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionStatisticsModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CollectionUtils
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/Control
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/DifferencesAlgorithmInterface
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/Entity
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/EntityAnnotationsAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/EntityDeletedAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/EntityDisplayAttribute
@@ -136,6 +135,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/PartFetcher
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/PersistentSearchAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/Pop3ResourceAttribute
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/QuotaColorProxyModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/RecursiveCollectionFilterProxyModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/RecursiveItemFetchJob
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/Relation
@@ -180,7 +180,6 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agenttypemodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/akonadicore_export.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/attribute.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/attributeentity.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/attributefactory.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/cachepolicy.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/changerecorder.h
@@ -193,18 +192,15 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionfetchscope.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionfilterproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionidentificationattribute.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionmodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionmodifyjob.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionmovejob.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionpathresolver.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionquotaattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionstatistics.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionstatisticsjob.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionstatisticsmodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionutils.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/control.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/differencesalgorithminterface.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entity.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entityannotationsattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entitydeletedattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entitydisplayattribute.h
@@ -241,6 +237,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/persistentsearchattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/pop3resourceattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/qtest_akonadi.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/quotacolorproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/recursivecollectionfilterproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/recursiveitemfetchjob.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/relation.h
@@ -293,6 +290,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiWidgets/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/EntityListView
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/EntityTreeView
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/ItemView
+-rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/ManageAccountWidget
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/RenameFavoriteDialog
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/StandardActionManager
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/SubscriptionDialog
@@ -318,6 +316,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiWidgets/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/entitytreeview.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/etmviewstatesaver.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/itemview.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/manageaccountwidget.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/renamefavoritedialog.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/standardactionmanager.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/subscriptiondialog.h
@@ -361,22 +360,27 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactstreemodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactviewer.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactviewerdialog.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressrequester.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselection.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionwidget.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/improtocols.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recentcontactscollectionrequestjob.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/selectaddressbookdialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactactionmanager.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactformatter.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactgroupformatter.h
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/kmime/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/addressattribute.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/akonadi-mime_export.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/commandbase.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/markascommand.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/messageflags.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/messagefolderattribute.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/messagemodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/messageparts.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/messagestatus.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/movecommand.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/removeduplicatesjob.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/specialmailcollections.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/kmime/specialmailcollectionsdiscoveryjob.h
@@ -421,29 +425,29 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSocialUtils/KF5AkonadiSocialUtilsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so -> libKF5AkonadiMime.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiMime.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so.5 -> libKF5AkonadiMime.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so.5 -> libKF5AkonadiMime.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiMime.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so -> libKF5AkonadiNotes.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiNotes.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so.5 -> libKF5AkonadiNotes.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so.5 -> libKF5AkonadiNotes.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiNotes.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSocialUtils.so -> libKF5AkonadiSocialUtils.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSocialUtils.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSocialUtils.so.5 -> libKF5AkonadiSocialUtils.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSocialUtils.so.5 -> libKF5AkonadiSocialUtils.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSocialUtils.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.1
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.4.89.0
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.4.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.1
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/plugins/
