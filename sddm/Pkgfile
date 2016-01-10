@@ -4,7 +4,7 @@
 # Depends on: qt5 docutils
 
 name=sddm
-version=0.12.0
+version=0.13.0
 release=1
 source=(https://github.com/$name/$name/archive/v$version.tar.gz \
 	rc.sddm
@@ -23,6 +23,7 @@ build() {
 	-DCMAKE_BUILD_TYPE=Release \
 	-DBUILD_MAN_PAGES=ON \
 	-DENABLE_JOURNALD=OFF \
+	-DENABLE_PAM=OFF \
 	-DCMAKE_INSTALL_LIBEXECDIR=/usr/lib/libexec \
 	-Wno-dev
 
@@ -30,6 +31,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/etc/pam.d
+	rm -rf $PKG/usr/share/sddm/translations
 
 	install -dm755 $PKG/var/run/sddm
 	install -dm755 $PKG/var/lib/sddm
