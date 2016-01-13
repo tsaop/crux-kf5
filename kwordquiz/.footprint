@@ -1,9 +1,12 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kwordquiz
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/kwordquiz.knsrc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/kwordquiz.appdata.xml
+-rw-r--r--	root/root	usr/share/appdata/org.kde.kwordquiz.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kwordquiz.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
@@ -34,7 +37,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kwordquiz.png
 drwxr-xr-x	root/root	usr/share/knotifications5/
--rw-r--r--	root/root	usr/share/knotifications5/kwordquiz.knsrc
+-rw-r--r--	root/root	usr/share/knotifications5/kwordquiz.notifyrc
 drwxr-xr-x	root/root	usr/share/kwordquiz/
 drwxr-xr-x	root/root	usr/share/kwordquiz/examples/
 -rw-r--r--	root/root	usr/share/kwordquiz/examples/example.kvtml
@@ -205,7 +208,6 @@ drwxr-xr-x	root/root	usr/share/kwordquiz/icons/hicolor/scalable/actions/
 -rw-r--r--	root/root	usr/share/kwordquiz/icons/hicolor/scalable/actions/qa.svgz
 -rw-r--r--	root/root	usr/share/kwordquiz/icons/hicolor/scalable/actions/question.svgz
 -rw-r--r--	root/root	usr/share/kwordquiz/icons/hicolor/scalable/actions/unmarkasblank.svgz
--rw-r--r--	root/root	usr/share/kwordquiz/kwordquiz.notifyrc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kwordquiz/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kwordquiz/kwordquizui.rc

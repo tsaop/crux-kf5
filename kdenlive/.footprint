@@ -341,6 +341,11 @@ drwxr-xr-x	root/root	usr/share/kdenlive/pics/
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_favorites.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_folder-new.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_folder.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_format-justify-center.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_format-justify-left.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_format-justify-right.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_format-text-italic.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_format-text-underline.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_go-down.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_go-first.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_go-jump-definition.svgz
@@ -353,6 +358,9 @@ drwxr-xr-x	root/root	usr/share/kdenlive/pics/
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_help-hint.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_hint.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_insert-horizontal-rule.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_insert-image.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_insert-text.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_jog-dial.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_kdenlive-add-clip.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_kdenlive-add-color-clip.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_kdenlive-add-slide-clip.svgz
@@ -422,6 +430,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/pics/
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_media-skip-forward.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_object-group.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_object-ungroup.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/dk_project-defaults.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_settings-configure.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_system-run.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/dk_tools-wizard.svgz
@@ -487,6 +496,11 @@ drwxr-xr-x	root/root	usr/share/kdenlive/pics/
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_favorites.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_folder-new.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_folder.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_format-justify-center.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_format-justify-left.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_format-justify-right.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_format-text-italic.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_format-text-underline.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_go-down.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_go-first.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_go-jump-definition.svgz
@@ -499,6 +513,9 @@ drwxr-xr-x	root/root	usr/share/kdenlive/pics/
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_help-hint.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_hint.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_insert-horizontal-rule.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_insert-image.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_insert-text.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_jog-dial.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_kdenlive-add-clip.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_kdenlive-add-color-clip.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_kdenlive-add-slide-clip.svgz
@@ -568,6 +585,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/pics/
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_media-skip-forward.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_object-group.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_object-ungroup.svgz
+-rw-r--r--	root/root	usr/share/kdenlive/pics/lt_project-defaults.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_settings-configure.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_system-run.svgz
 -rw-r--r--	root/root	usr/share/kdenlive/pics/lt_tools-wizard.svgz
