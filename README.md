@@ -5,6 +5,7 @@ As of now, this consists of the base KF5 Frameworks libraries, Plasma and a few 
 ## Requirements
 
 Before proceeding further, make sure your version of Qt5 is getting compiled with QtWebKit support, or you won't be able to build some packages.
+Also make sure the `git` package is installed, or you won't be able to clone the repository.
 
 ## Installation
 
@@ -20,10 +21,10 @@ Now update your ports tree and your system:
     ports -u
     prt-get sysup
 
-Once that is done, you're ready to add the kf5 repo. Download the `kf5.httpup` file into `/etc/ports`:
+Once that is done, you're ready to add the kf5 repo. Download the `kf5.git` file into `/etc/ports`:
 
     cd /etc/ports
-    wget https://raw.githubusercontent.com/tsaop/crux-kf5/master/kf5.httpup
+    wget https://raw.githubusercontent.com/tsaop/crux-kf5/master/kf5.git
 
 Update the ports tree again with `ports -u`
 
