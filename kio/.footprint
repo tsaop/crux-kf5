@@ -170,6 +170,12 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOFileWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/krecentdirs.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kstatusbarofflineindicator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kurlnavigator.h
+drwxr-xr-x	root/root	usr/include/KF5/KIOGui/
+drwxr-xr-x	root/root	usr/include/KF5/KIOGui/KIO/
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/FavIconRequestJob
+drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/faviconrequestjob.h
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/kiogui_export.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KAbstractFileItemActionPlugin
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KAutoMount
@@ -260,17 +266,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5KIO/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.19.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.19.0
 drwxr-xr-x	root/root	usr/lib/libexec/
 drwxr-xr-x	root/root	usr/lib/libexec/kf5/
 -rwxr-xr-x	root/root	usr/lib/libexec/kf5/kio_http_cache_cleaner
@@ -290,7 +299,10 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/kf5_org.kde.KSlaveLauncher.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/kf5_org.kde.kio.FileUndoManager.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kcookiejar5.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kiod5.service
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kpasswdserver.service
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kssld5.service
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kcookiejar/
 -rw-r--r--	root/root	usr/share/kf5/kcookiejar/domain_info
@@ -535,6 +547,7 @@ drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KIOCore.pri
 -rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KIOFileWidgets.pri
+-rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KIOGui.pri
 -rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KIOWidgets.pri
 -rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KNTLM.pri
 drwxr-xr-x	root/root	usr/share/qt5/plugins/

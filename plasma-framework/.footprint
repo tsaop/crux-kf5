@@ -58,11 +58,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.19.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
@@ -94,35 +94,6 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/dialogs/background.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/dialogs/kickoff.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/dialogs/krunner.svgz
-drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/icons/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/amarok.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/audio.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/battery.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/configure.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/device.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/document.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/edit.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/go.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/kget.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/klipper.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/konv_message.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/konversation.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/kopete.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/korgac.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/kpackagekit.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/ktorrent.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/list.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/media.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/nepomuk.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/network.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/notification.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/preferences.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/printer.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/quassel.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/slc.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/wallet.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/window.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/icons/zoom.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/opaque/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/opaque/dialogs/
@@ -154,11 +125,8 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/calendar.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/checkmarks.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/clock.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/configuration-icons.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/containment-controls.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/dragger.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/extender-background.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/extender-dragger.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/frame.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/glowbar.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/air/widgets/identiconshapes.svgz
@@ -298,37 +266,6 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/colors
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/dialogs/background.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/dialogs/kickoff.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/dialogs/krunner.svgz
-drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/icons/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/amarok.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/audio.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/battery.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/configure.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/device.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/document.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/edit.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/go.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/kget.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/klipper.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/konv_message.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/konversation.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/kopete.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/korgac.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/kpackagekit.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/ktorrent.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/list.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/media.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/nepomuk.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/network.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/notification.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/preferences.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/printer.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/quassel.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/slc.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/wallet.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/window.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/icons/zoom.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/opaque/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/opaque/dialogs/
@@ -351,7 +288,6 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/button.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/calendar.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/clock.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/configuration-icons.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/containment-controls.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/dragger.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/extender-background.svgz
@@ -368,10 +304,9 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/scrollbar.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/scrollwidget.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/slider.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/systemtray.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/tabbar.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/tasks.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/timer.svgz
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/toolbox.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/tooltip.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/translucentbackground.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/oxygen/widgets/viewitem.svgz

@@ -1,11 +1,11 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop <leeroy@cock.li>
-# Depends on: kdesignerplugin kparts kunitconversion ca-certificates ca-certificates-compat
+# Depends on: kdesignerplugin kparts kunitconversion ca-certificates ca-certificates-compat kded
 # Optional: xorg-libx11 intltool docbook-xml openssl networkmanager
 
 name=kdelibs4support
-version=5.18.0
+version=5.19.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 
