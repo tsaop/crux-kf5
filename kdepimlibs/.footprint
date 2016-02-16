@@ -1,7 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi2xml
+-rwxr-xr-x	root/root	usr/bin/akonadi_knut_resource
 -rwxr-xr-x	root/root	usr/bin/akonadiselftest
+-rwxr-xr-x	root/root	usr/bin/akonaditest
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kdepimlibs-kioslave.categories
@@ -450,6 +452,8 @@ lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.1
 -rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.1
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
+drwxr-xr-x	root/root	usr/share/akonadi/agents/
+-rw-r--r--	root/root	usr/share/akonadi/agents/knutresource.desktop
 drwxr-xr-x	root/root	usr/share/akonadi/plugins/
 drwxr-xr-x	root/root	usr/share/akonadi/plugins/serializer/
 -rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_socialfeeditem.desktop
@@ -481,6 +485,8 @@ drwxr-xr-x	root/root	usr/share/kf5/akonadi/contact/data/
 drwxr-xr-x	root/root	usr/share/kf5/akonadi/contact/pics/
 -rw-r--r--	root/root	usr/share/kf5/akonadi/contact/pics/world.jpg
 -rw-r--r--	root/root	usr/share/kf5/akonadi/kcfg2dbus.xsl
+drwxr-xr-x	root/root	usr/share/kf5/akonadi_knut_resource/
+-rw-r--r--	root/root	usr/share/kf5/akonadi_knut_resource/knut-template.xml
 drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservices5/akonadi/
 drwxr-xr-x	root/root	usr/share/kservices5/akonadi/contact/
