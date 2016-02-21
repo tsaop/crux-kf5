@@ -58,12 +58,12 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.0.9.8
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.0.9.8
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.0.9.8
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.0.9.8
--rwxr-xr-x	root/root	usr/lib/libmlt.so.0.9.8
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.0.9.8
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.6.0.0
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -80,6 +80,7 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltsox.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvmfx.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltxine.so
@@ -123,6 +124,7 @@ drwxr-xr-x	root/root	usr/share/mlt/core/
 -rw-r--r--	root/root	usr/share/mlt/core/producer_melt.yml
 -rw-r--r--	root/root	usr/share/mlt/core/producer_melt_file.yml
 -rw-r--r--	root/root	usr/share/mlt/core/producer_noise.yml
+-rw-r--r--	root/root	usr/share/mlt/core/producer_timewarp.yml
 -rw-r--r--	root/root	usr/share/mlt/core/producer_tone.yml
 -rw-r--r--	root/root	usr/share/mlt/core/transition_composite.yml
 -rw-r--r--	root/root	usr/share/mlt/core/transition_luma.yml
@@ -445,6 +447,7 @@ drwxr-xr-x	root/root	usr/share/mlt/profiles/
 -rw-r--r--	root/root	usr/share/mlt/profiles/vcd_ntsc
 -rw-r--r--	root/root	usr/share/mlt/profiles/vcd_pal
 drwxr-xr-x	root/root	usr/share/mlt/qt/
+-rw-r--r--	root/root	usr/share/mlt/qt/filter_audiospectrum.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_audiowaveform.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_lightshow.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_kdenlivetitle.yml
@@ -459,6 +462,9 @@ drwxr-xr-x	root/root	usr/share/mlt/sdl/
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_preview.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_still.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/producer_sdl_image.yml
+drwxr-xr-x	root/root	usr/share/mlt/sox/
+-rw-r--r--	root/root	usr/share/mlt/sox/filter_sox.yml
+-rw-r--r--	root/root	usr/share/mlt/sox/filter_sox_effect.yml
 drwxr-xr-x	root/root	usr/share/mlt/videostab/
 -rw-r--r--	root/root	usr/share/mlt/videostab/filter_videostab.yml
 -rw-r--r--	root/root	usr/share/mlt/videostab/filter_videostab2.yml
