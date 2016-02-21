@@ -4,7 +4,7 @@
 # Depends on: glibc
 
 name=lmdb
-version=0.9.17
+version=0.9.18
 release=1
 source=(https://github.com/${name^^}/lmdb/archive/${name^^}_$version.tar.gz)
 
@@ -13,11 +13,12 @@ build() {
 	make PREFIX=/usr
 
 	sed -i 's|prefix\t= /usr/local|prefix\t= /usr|' Makefile
+	sed -i 's|mandir = $(prefix)/man|mandir = $(prefix)/share/man|' Makefile
 
-	install -dm644 $PKG/usr/bin
-	install -dm644 $PKG/usr/lib
+#	install -dm644 $PKG/usr/bin
+#	install -dm644 $PKG/usr/lib
 	install -dm644 $PKG/usr/include
-	install -dm644 $PKG/usr/man/man1
+	install -dm644 $PKG/usr/share/man/man1
 
 	make DESTDIR=$PKG install
 }
