@@ -5,7 +5,7 @@
 
 name=kapidox
 version=5.19.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
@@ -25,6 +25,4 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	mv $PKG/usr/share/man $PKG/usr
-	rmdir $PKG/usr/share
 }
