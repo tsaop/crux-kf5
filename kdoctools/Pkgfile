@@ -27,5 +27,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale $PKG/usr/share/doc
-	rm -rf $PKG/usr/man/{ca,de,it,nl,pt_BR,ru,sv,uk}
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,ru,sv,uk}
+	rm $PKG/usr/share/kf5/kdoctools/customization/README \
+	   $PKG/usr/share/kf5/kdoctools/customization/xsl/README
 }
