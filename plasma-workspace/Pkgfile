@@ -19,6 +19,7 @@ build() {
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
@@ -31,6 +32,6 @@ build() {
 	install -Dm644 $SRC/52-upower.rules $PKG/usr/etc/polkit-1/rules.d/52-upower.rules
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
 }
