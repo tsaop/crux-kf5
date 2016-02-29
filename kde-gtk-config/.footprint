@@ -5,10 +5,9 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/cgcicon.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/cgctheme.knsrc
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/libexec/
--rwxr-xr-x	root/root	usr/lib/libexec/gtk3_preview
--rwxr-xr-x	root/root	usr/lib/libexec/gtk_preview
--rwxr-xr-x	root/root	usr/lib/libexec/reload_gtk_apps
+-rwxr-xr-x	root/root	usr/lib/gtk3_preview
+-rwxr-xr-x	root/root	usr/lib/gtk_preview
+-rwxr-xr-x	root/root	usr/lib/reload_gtk_apps
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
