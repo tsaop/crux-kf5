@@ -29,9 +29,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KWinDBusInterface/
 -rw-r--r--	root/root	usr/lib/cmake/KWinDBusInterface/KWinDBusInterfaceConfig.cmake
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kwin5_update_default_rules
-drwxr-xr-x	root/root	usr/lib/libexec/
--rwxr-xr-x	root/root	usr/lib/libexec/kwin_killer_helper
--rwxr-xr-x	root/root	usr/lib/libexec/kwin_rules_dialog
+-rwxr-xr-x	root/root	usr/lib/kwin_killer_helper
+-rwxr-xr-x	root/root	usr/lib/kwin_rules_dialog
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kwin_rules_dialog.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kwin_x11.so
 lrwxrwxrwx	root/root	usr/lib/libkwin.so.5 -> libkwin.so.5.5.4
