@@ -12,8 +12,6 @@ source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.t
 build() {
 	cd $name-$version
 
-	
-
 	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
@@ -27,6 +25,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
+	find $PKG -name "README.md" -exec rm -v {} \;
 }
