@@ -20,17 +20,17 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/plasma-themes.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/xcursor.knsrc
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/kauth/
+drwxr-xr-x	root/root	usr/lib/kauth/kauth/
+-rwxr-xr-x	root/root	usr/lib/kauth/kauth/fontinst
+-rwxr-xr-x	root/root	usr/lib/kauth/kauth/fontinst_helper
+-rwxr-xr-x	root/root	usr/lib/kauth/kauth/fontinst_x11
+-rwxr-xr-x	root/root	usr/lib/kauth/kauth/kcmdatetimehelper
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/krdb_clearlibrarypath
+-rwxr-xr-x	root/root	usr/lib/kfontprint
 -rwxr-xr-x	root/root	usr/lib/libKF5ActivitiesExperimentalStats.so.0.0.1
 lrwxrwxrwx	root/root	usr/lib/libKF5ActivitiesExperimentalStats.so.1 -> libKF5ActivitiesExperimentalStats.so.0.0.1
-drwxr-xr-x	root/root	usr/lib/libexec/
-drwxr-xr-x	root/root	usr/lib/libexec/kauth/
--rwxr-xr-x	root/root	usr/lib/libexec/kauth/fontinst
--rwxr-xr-x	root/root	usr/lib/libexec/kauth/fontinst_helper
--rwxr-xr-x	root/root	usr/lib/libexec/kauth/fontinst_x11
--rwxr-xr-x	root/root	usr/lib/libexec/kauth/kcmdatetimehelper
--rwxr-xr-x	root/root	usr/lib/libexec/kfontprint
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kaccess.so
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.5.4
