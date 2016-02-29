@@ -1,10 +1,12 @@
 # Description: ca-certificates compat symlink for KSSL
+# URL: http://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
 # Depends on: ca-certificates
 
 name=ca-certificates-compat
 version=1
 release=1
+source=
 
 build() {
 	install -dm755 $PKG/etc/ssl/certs
