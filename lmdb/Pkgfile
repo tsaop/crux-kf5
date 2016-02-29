@@ -17,8 +17,8 @@ build() {
 
 #	install -dm644 $PKG/usr/bin
 #	install -dm644 $PKG/usr/lib
-	install -dm644 $PKG/usr/include
-	install -dm644 $PKG/usr/share/man/man1
+#	install -dm644 $PKG/usr/include
+#	install -dm644 $PKG/usr/share/man/man1
 
 	make DESTDIR=$PKG install
 }
