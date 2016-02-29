@@ -11,12 +11,11 @@ source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.t
 build() {
 	cd $name-$version
 
-	
-
 	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
