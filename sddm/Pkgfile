@@ -32,6 +32,7 @@ build() {
 
 	rm -rf $PKG/usr/etc/pam.d
 	rm -rf $PKG/usr/share/sddm/translations
+	find $PKG -name "README" -exec rm -v {} \;
 
 	install -dm755 $PKG/var/run/sddm
 	install -dm755 $PKG/var/lib/sddm
