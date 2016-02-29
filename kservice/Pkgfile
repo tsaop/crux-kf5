@@ -26,5 +26,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/man/{ca,de,nl,pt_BR,sv,uk,it}
+	rm -rf $PKG/usr/share/man/{ca,de,nl,pt_BR,sv,uk,it}
 }
