@@ -28,9 +28,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5SysGuard/
 -rw-r--r--	root/root	usr/lib/cmake/KF5SysGuard/KF5SysGuardConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5SysGuard/KF5SysGuardLibraryTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5SysGuard/KF5SysGuardLibraryTargets.cmake
-drwxr-xr-x	root/root	usr/lib/libexec/
-drwxr-xr-x	root/root	usr/lib/libexec/kauth/
--rwxr-xr-x	root/root	usr/lib/libexec/kauth/ksysguardprocesslist_helper
+drwxr-xr-x	root/root	usr/lib/kauth/
+drwxr-xr-x	root/root	usr/lib/kauth/kauth/
+-rwxr-xr-x	root/root	usr/lib/kauth/kauth/ksysguardprocesslist_helper
 lrwxrwxrwx	root/root	usr/lib/libksgrd.so -> libksgrd.so.7
 -rwxr-xr-x	root/root	usr/lib/libksgrd.so.5.5.4
 lrwxrwxrwx	root/root	usr/lib/libksgrd.so.7 -> libksgrd.so.5.5.4
@@ -52,7 +52,6 @@ drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
 drwxr-xr-x	root/root	usr/share/ksysguard/
 drwxr-xr-x	root/root	usr/share/ksysguard/scripts/
--rw-r--r--	root/root	usr/share/ksysguard/scripts/README
 drwxr-xr-x	root/root	usr/share/ksysguard/scripts/smaps/
 -rw-r--r--	root/root	usr/share/ksysguard/scripts/smaps/helper.js
 -rw-r--r--	root/root	usr/share/ksysguard/scripts/smaps/index.html
