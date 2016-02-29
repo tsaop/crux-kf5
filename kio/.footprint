@@ -265,6 +265,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5KIO/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets.cmake
+drwxr-xr-x	root/root	usr/lib/kf5/
+-rwxr-xr-x	root/root	usr/lib/kf5/kio_http_cache_cleaner
+-rwxr-xr-x	root/root	usr/lib/kf5/kiod5
+-rwxr-xr-x	root/root	usr/lib/kf5/kioexec
+-rwxr-xr-x	root/root	usr/lib/kf5/kioslave
+-rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.19.0
 -rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.19.0
@@ -280,13 +286,6 @@ lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.19.0
 -rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.19.0
-drwxr-xr-x	root/root	usr/lib/libexec/
-drwxr-xr-x	root/root	usr/lib/libexec/kf5/
--rwxr-xr-x	root/root	usr/lib/libexec/kf5/kio_http_cache_cleaner
--rwxr-xr-x	root/root	usr/lib/libexec/kf5/kiod5
--rwxr-xr-x	root/root	usr/lib/libexec/kf5/kioexec
--rwxr-xr-x	root/root	usr/lib/libexec/kf5/kioslave
--rwxr-xr-x	root/root	usr/lib/libexec/kf5/kpac_dhcp_helper
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kmailservice5.desktop
@@ -519,29 +518,8 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/searchprovider.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/uasprovider.desktop
 drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/ca/
-drwxr-xr-x	root/root	usr/share/man/ca/man8/
--rw-r--r--	root/root	usr/share/man/ca/man8/kcookiejar5.8
-drwxr-xr-x	root/root	usr/share/man/de/
-drwxr-xr-x	root/root	usr/share/man/de/man8/
--rw-r--r--	root/root	usr/share/man/de/man8/kcookiejar5.8
-drwxr-xr-x	root/root	usr/share/man/it/
-drwxr-xr-x	root/root	usr/share/man/it/man8/
--rw-r--r--	root/root	usr/share/man/it/man8/kcookiejar5.8
 drwxr-xr-x	root/root	usr/share/man/man8/
 -rw-r--r--	root/root	usr/share/man/man8/kcookiejar5.8.gz
-drwxr-xr-x	root/root	usr/share/man/nl/
-drwxr-xr-x	root/root	usr/share/man/nl/man8/
--rw-r--r--	root/root	usr/share/man/nl/man8/kcookiejar5.8
-drwxr-xr-x	root/root	usr/share/man/pt_BR/
-drwxr-xr-x	root/root	usr/share/man/pt_BR/man8/
--rw-r--r--	root/root	usr/share/man/pt_BR/man8/kcookiejar5.8
-drwxr-xr-x	root/root	usr/share/man/sv/
-drwxr-xr-x	root/root	usr/share/man/sv/man8/
--rw-r--r--	root/root	usr/share/man/sv/man8/kcookiejar5.8
-drwxr-xr-x	root/root	usr/share/man/uk/
-drwxr-xr-x	root/root	usr/share/man/uk/man8/
--rw-r--r--	root/root	usr/share/man/uk/man8/kcookiejar5.8
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
