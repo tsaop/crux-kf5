@@ -5,17 +5,16 @@ drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kauth/
-drwxr-xr-x	root/root	usr/lib/kauth/kauth/
--rwxr-xr-x	root/root	usr/lib/kauth/kauth/backlighthelper
+-rwxr-xr-x	root/root	usr/lib/kauth/backlighthelper
 lrwxrwxrwx	root/root	usr/lib/libpowerdevilconfigcommonprivate.so -> libpowerdevilconfigcommonprivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libpowerdevilconfigcommonprivate.so.5 -> libpowerdevilconfigcommonprivate.so.5.5.4
--rwxr-xr-x	root/root	usr/lib/libpowerdevilconfigcommonprivate.so.5.5.4
+lrwxrwxrwx	root/root	usr/lib/libpowerdevilconfigcommonprivate.so.5 -> libpowerdevilconfigcommonprivate.so.5.5.5
+-rwxr-xr-x	root/root	usr/lib/libpowerdevilconfigcommonprivate.so.5.5.5
 lrwxrwxrwx	root/root	usr/lib/libpowerdevilcore.so -> libpowerdevilcore.so.2
 lrwxrwxrwx	root/root	usr/lib/libpowerdevilcore.so.2 -> libpowerdevilcore.so.2.0.0
 -rwxr-xr-x	root/root	usr/lib/libpowerdevilcore.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libpowerdevilui.so -> libpowerdevilui.so.5
-lrwxrwxrwx	root/root	usr/lib/libpowerdevilui.so.5 -> libpowerdevilui.so.5.5.4
--rwxr-xr-x	root/root	usr/lib/libpowerdevilui.so.5.5.4
+lrwxrwxrwx	root/root	usr/lib/libpowerdevilui.so.5 -> libpowerdevilui.so.5.5.5
+-rwxr-xr-x	root/root	usr/lib/libpowerdevilui.so.5.5.5
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
