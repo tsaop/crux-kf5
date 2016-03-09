@@ -5,6 +5,16 @@ As of now, this consists of the base KF5 Frameworks libraries, Plasma and a few 
 ## Requirements
 
 Before proceeding further, make sure your version of Qt5 is getting compiled with QtWebKit support, or you won't be able to build some packages.
+
+QtWebKit dependencies:
+* gperf
+* bison
+* flex
+* sqlite
+* fontconfig 
+* gstreamer
+* ruby
+
 Also make sure the `git` package is installed, or you won't be able to clone the repository.
 
 ## Installation
