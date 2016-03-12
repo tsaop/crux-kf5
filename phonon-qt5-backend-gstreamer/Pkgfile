@@ -6,9 +6,14 @@
 name=phonon-qt5-backend-gstreamer
 version=4.8.2
 release=2
-source=(http://download.kde.org/stable/phonon/${name/-qt5/}/$version/src/${name/-qt5/}-$version.tar.xz)
+source=(http://download.kde.org/stable/phonon/${name/-qt5/}/$version/src/${name/-qt5/}-$version.tar.xz
+phonon-gstreamer-gst15_include_dirs.patch)
 
 build() {
+
+	cd ${name/-qt5/}-$version
+	patch -Np1 -i $SRC/phonon-gstreamer-gst15_include_dirs.patch
+	cd -
 
 	mkdir build; cd build
 	cmake ../${name/-qt5/}-$version \
