@@ -24,6 +24,9 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	# make kcheckpass setuid root to avoid lockout from lock screen without PAM
+	chmod u+s $PKG/usr/lib/kcheckpass
+
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
