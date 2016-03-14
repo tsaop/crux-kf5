@@ -8,6 +8,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KAutoSaveFile
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KBackup
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KCompositeJob
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KCoreAddons
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KDirWatch
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KExportPlugin
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KFileSystemType
@@ -36,6 +37,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kautosavefile.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kbackup.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kcompositejob.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kcoreaddons.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kcoreaddons_export.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kdelibs4configmigrator.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kdelibs4migration.h
@@ -73,8 +75,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.19.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.19.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.20.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/

@@ -58,11 +58,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.19.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.19.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.20.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.19.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.19.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.20.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
@@ -155,8 +155,10 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/widgets/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/breeze-dark/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-dark/colors
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-dark/metadata.desktop
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/breeze-light/
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-light/colors
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-light/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/colors
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/dialogs/background.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/icons/
