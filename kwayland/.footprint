@@ -33,6 +33,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Client/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/region.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/registry.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/seat.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Client/server_decoration.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/shadow.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/shell.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/shm_pool.h
@@ -70,6 +71,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/region_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/resource.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/seat_interface.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Server/server_decoration_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/shadow_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/shell_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/slide_interface.h
@@ -85,11 +87,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Wayland/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so -> libKF5WaylandClient.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so -> libKF5WaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.6.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/

@@ -17,8 +17,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/ScreenSaverDBusInterface/
 -rwsr-xr-x	root/root	usr/lib/kcheckpass
 -rwxr-xr-x	root/root	usr/lib/kscreenlocker_greet
 lrwxrwxrwx	root/root	usr/lib/libKScreenLocker.so -> libKScreenLocker.so.5
-lrwxrwxrwx	root/root	usr/lib/libKScreenLocker.so.5 -> libKScreenLocker.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libKScreenLocker.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libKScreenLocker.so.5 -> libKScreenLocker.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKScreenLocker.so.5.6.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
@@ -29,19 +29,11 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/ksmserver.notifyrc
 drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/plasma-screenlocker_kcm-screenlocker_kcm.desktop
 -rw-r--r--	root/root	usr/share/kservices5/screenlocker.desktop
 drwxr-xr-x	root/root	usr/share/ksmserver/
 drwxr-xr-x	root/root	usr/share/ksmserver/screenlocker/
 drwxr-xr-x	root/root	usr/share/ksmserver/screenlocker/org.kde.passworddialog/
 -rw-r--r--	root/root	usr/share/ksmserver/screenlocker/org.kde.passworddialog/metadata.desktop
-drwxr-xr-x	root/root	usr/share/plasma/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/screenlocker_kcm/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/screenlocker_kcm/contents/
-drwxr-xr-x	root/root	usr/share/plasma/kcms/screenlocker_kcm/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/kcms/screenlocker_kcm/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/kcms/screenlocker_kcm/metadata.desktop
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/screenlocker_kcm.so

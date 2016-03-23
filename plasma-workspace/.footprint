@@ -84,14 +84,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibTaskManager/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -175,7 +175,9 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/applications.protocol
 -rw-r--r--	root/root	usr/share/kservices5/desktop.protocol
+-rw-r--r--	root/root	usr/share/kservices5/ion-envcan.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ion-noaa.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ion-wettercom.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kuiserver.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
@@ -236,6 +238,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-systemmonitor.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-tasks.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-time.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-weather.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-geolocation-ip.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-lookandfeel-org.kde.breeze.desktop.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-activityrunner.desktop
@@ -337,6 +340,7 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/ChangeSession.qml
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/LockOsd.qml
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/LockScreen.qml
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/LockScreenUi.qml
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/MainBlock.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/Main.qml
@@ -432,7 +436,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/co
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/ActionItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/DeviceItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/FullRepresentation.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/StatusBar.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/configGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/devicenotifier.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/metadata.desktop
@@ -445,6 +448,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/cont
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/CalendarView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/DigitalClock.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/MonthMenu.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/Tooltip.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/configAppearance.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/configTimeZones.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/main.qml
@@ -744,7 +748,9 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/phonon_platform/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma-geolocation-ip.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_envcan.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_noaa.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_wettercom.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_activities.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_applicationjobs.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_apps.so
@@ -769,6 +775,7 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_systemmonitor.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_tasks.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_time.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_weather.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/packagestructure/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/packagestructure/plasma_packagestructure_share.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_applet_notifications.so
@@ -835,6 +842,7 @@ drwxr-xr-x	root/root	usr/share/sddm/themes/breeze/components/artwork/
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/components/artwork/restart_primary.svgz
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/components/artwork/shutdown_primary.svgz
 drwxr-xr-x	root/root	usr/share/sddm/themes/breeze/dummydata/
+-rw-r--r--	root/root	usr/share/sddm/themes/breeze/dummydata/keyboard.qml
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/dummydata/screenModel.qml
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/dummydata/sddm.qml
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/dummydata/sessionModel.qml

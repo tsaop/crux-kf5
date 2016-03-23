@@ -32,11 +32,11 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 lrwxrwxrwx	root/root	usr/lib/libKF5ActivitiesExperimentalStats.so.1 -> libKF5ActivitiesExperimentalStats.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kaccess.so
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.5.5
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.5.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.6.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kfontview.desktop
@@ -169,6 +169,24 @@ drwxr-xr-x	root/root	usr/share/kdm/pics/users/
 -rw-r--r--	root/root	usr/share/kdm/pics/users/TV.png
 -rw-r--r--	root/root	usr/share/kdm/pics/users/User.png
 -rw-r--r--	root/root	usr/share/kdm/pics/users/bomb.png
+drwxr-xr-x	root/root	usr/share/kf5/
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activitiesTab/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activitiesTab/ActivitiesView.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activitiesTab/main.qml
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/GeneralTab.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/OtherTab.qml
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/DialogButtons.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/IconChooser.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/LabeledTextField.qml
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/activityDialog/components/ShortcutChooser.qml
+drwxr-xr-x	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/privacyTab/
+-rw-r--r--	root/root	usr/share/kf5/kactivitymanagerd/workspace/settings/qml/privacyTab/BlacklistApplicationView.qml
 drwxr-xr-x	root/root	usr/share/kfontinst/
 drwxr-xr-x	root/root	usr/share/kfontinst/icons/
 drwxr-xr-x	root/root	usr/share/kfontinst/icons/hicolor/
@@ -223,6 +241,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/icons.desktop
 -rw-r--r--	root/root	usr/share/kservices5/joystick.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kaccess.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_activities.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_baloofile.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_keyboard.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_lookandfeel.desktop
@@ -241,6 +260,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.icontasks.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kicker.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kickoff.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kimpanel.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.pager.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.showActivityManager.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.taskmanager.desktop
@@ -248,6 +268,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.windowlist.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-containment-org.kde.desktopcontainment.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-containment-org.kde.panel.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-kimpanel.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-layout-template-org.kde.plasma.desktop.defaultPanel.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-package-org.kde.desktoptoolbox.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-package-org.kde.paneltoolbox.desktop
@@ -306,6 +327,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/AppletAppearance.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/AppletHandle.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/BusyOverlay.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/CompactRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/ConfigFilter.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/ConfigIcons.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/ConfigLocation.qml
@@ -313,7 +335,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderItemActionButton.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderItemDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderItemPreviewPluginsDialog.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderItemToolTipDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderViewDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderViewLayer.qml
@@ -386,6 +407,18 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/SearchView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/SectionDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kickoff/metadata.desktop
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/config/config.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/ActionMenu.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/ConfigAppearance.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/InputPanel.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/StatusIcon.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/code/
@@ -416,8 +449,11 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/GroupExpanderOverlay.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/MouseHandler.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/Task.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskBadgeOverlay.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskList.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskProgressOverlay.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ToolTipDelegate.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ToolTipWindowMouseArea.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.trash/
@@ -432,6 +468,8 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/conten
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/contents/ui/TaskDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/metadata.desktop
+drwxr-xr-x	root/root	usr/share/plasma/services/
+-rw-r--r--	root/root	usr/share/plasma/services/kimpanel.operations
 drwxr-xr-x	root/root	usr/share/plasma/shells/
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/
@@ -488,6 +526,7 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/attica_kde.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/fontthumbnail.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_access.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_activities.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_autostart.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_baloofile.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_clock.so
@@ -527,9 +566,16 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kio_fonts.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/libkcm_device_automounter.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/libkcm_translations.so
+drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_kimpanel.so
 drwxr-xr-x	root/root	usr/share/qt5/qml/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/settings/
+-rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/activities/settings/libkactivitiessettingsplugin.so
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/activities/settings/qmldir
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/activityswitcher/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/activityswitcher/libactivityswitcherextensionplugin.so
@@ -538,6 +584,9 @@ drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kicker/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kicker/libkickerplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/kicker/qmldir
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kimpanel/
+-rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/kimpanel/libkimpanelplugin.so
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/kimpanel/qmldir
 drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/pager/
 -rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/plasma/private/pager/libpagerplugin.so
 -rw-r--r--	root/root	usr/share/qt5/qml/org/kde/plasma/private/pager/qmldir
