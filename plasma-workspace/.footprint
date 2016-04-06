@@ -30,10 +30,6 @@ drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/taskmanagerrulesrc
 -rw-r--r--	root/root	usr/etc/xdg/wallpaper.knsrc
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KDE/
-drwxr-xr-x	root/root	usr/include/KDE/Plasma/
-drwxr-xr-x	root/root	usr/include/KDE/Plasma/Weather/
--rw-r--r--	root/root	usr/include/KDE/Plasma/Weather/Ion
 drwxr-xr-x	root/root	usr/include/kworkspace5/
 -rw-r--r--	root/root	usr/include/kworkspace5/config-libkworkspace.h
 -rw-r--r--	root/root	usr/include/kworkspace5/kdisplaymanager.h
@@ -84,14 +80,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibTaskManager/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.6.1
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.6.1
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.6.2
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.6.2
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.6.1
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.6.1
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.6.2
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.6.2
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.6.1
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.6.1
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.6.2
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.6.2
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -175,6 +171,7 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/applications.protocol
 -rw-r--r--	root/root	usr/share/kservices5/desktop.protocol
+-rw-r--r--	root/root	usr/share/kservices5/ion-bbcukmet.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ion-envcan.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ion-noaa.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ion-wettercom.desktop
@@ -748,6 +745,7 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/phonon_platform/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma-geolocation-ip.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_bbcukmet.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_envcan.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_noaa.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_wettercom.so
