@@ -272,20 +272,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.21.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kmailservice5.desktop
@@ -311,14 +311,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/cache.desktop
 -rw-r--r--	root/root	usr/share/kservices5/cookies.desktop
 -rw-r--r--	root/root	usr/share/kservices5/data.protocol
--rw-r--r--	root/root	usr/share/kservices5/file.protocol
 -rw-r--r--	root/root	usr/share/kservices5/fixhosturifilter.desktop
--rw-r--r--	root/root	usr/share/kservices5/ftp.protocol
--rw-r--r--	root/root	usr/share/kservices5/ghelp.protocol
--rw-r--r--	root/root	usr/share/kservices5/help.protocol
--rw-r--r--	root/root	usr/share/kservices5/http.protocol
 -rw-r--r--	root/root	usr/share/kservices5/http_cache_cleaner.desktop
--rw-r--r--	root/root	usr/share/kservices5/https.protocol
 -rw-r--r--	root/root	usr/share/kservices5/kcmtrash.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kshorturifilter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kuriikwsfilter.desktop
@@ -463,7 +457,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/yahoo_video.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/youtube.desktop
 -rw-r--r--	root/root	usr/share/kservices5/smb.desktop
--rw-r--r--	root/root	usr/share/kservices5/trash.protocol
 -rw-r--r--	root/root	usr/share/kservices5/useragent.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/useragentstrings/
 -rw-r--r--	root/root	usr/share/kservices5/useragentstrings/android10.desktop
@@ -506,8 +499,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/useragentstrings/
 -rw-r--r--	root/root	usr/share/kservices5/useragentstrings/safari60.desktop
 -rw-r--r--	root/root	usr/share/kservices5/useragentstrings/w3moncurrent.desktop
 -rw-r--r--	root/root	usr/share/kservices5/useragentstrings/wgetoncurrent.desktop
--rw-r--r--	root/root	usr/share/kservices5/webdav.protocol
--rw-r--r--	root/root	usr/share/kservices5/webdavs.protocol
 -rw-r--r--	root/root	usr/share/kservices5/webshortcuts.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kfileitemactionplugin.desktop

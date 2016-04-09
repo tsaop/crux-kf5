@@ -20,6 +20,12 @@ drwxr-xr-x	root/root	usr/include/KF5/Plasma/
 -rw-r--r--	root/root	usr/include/KF5/Plasma/ServiceJob
 -rw-r--r--	root/root	usr/include/KF5/Plasma/Svg
 -rw-r--r--	root/root	usr/include/KF5/Plasma/Theme
+drwxr-xr-x	root/root	usr/include/KF5/PlasmaQuick/
+-rw-r--r--	root/root	usr/include/KF5/PlasmaQuick/AppletQuickItem
+-rw-r--r--	root/root	usr/include/KF5/PlasmaQuick/ConfigModel
+-rw-r--r--	root/root	usr/include/KF5/PlasmaQuick/ConfigView
+-rw-r--r--	root/root	usr/include/KF5/PlasmaQuick/ContainmentView
+-rw-r--r--	root/root	usr/include/KF5/PlasmaQuick/Dialog
 drwxr-xr-x	root/root	usr/include/KF5/plasma/
 -rw-r--r--	root/root	usr/include/KF5/plasma/applet.h
 -rw-r--r--	root/root	usr/include/KF5/plasma/containment.h
@@ -44,6 +50,14 @@ drwxr-xr-x	root/root	usr/include/KF5/plasma/scripting/
 -rw-r--r--	root/root	usr/include/KF5/plasma/theme.h
 -rw-r--r--	root/root	usr/include/KF5/plasma/version.h
 -rw-r--r--	root/root	usr/include/KF5/plasma_version.h
+drwxr-xr-x	root/root	usr/include/KF5/plasmaquick/
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/appletquickitem.h
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/configmodel.h
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/configview.h
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/containmentview.h
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/dialog.h
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/packageurlinterceptor.h
+-rw-r--r--	root/root	usr/include/KF5/plasmaquick/plasmaquick_export.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Plasma/
@@ -58,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.21.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
