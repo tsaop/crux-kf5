@@ -1,0 +1,10 @@
+
+README for akonadi
+
+
+PRE-INSTALL
+
+	You must remove kdepimlibs before upgrading to 16.04.0, as some of the
+	files are now provided by akonadi itself.
+	You can reinstall kdepimlibs afterwards.
+

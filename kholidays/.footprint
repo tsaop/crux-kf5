@@ -29,8 +29,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Holidays/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Holidays/KF5HolidaysTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Holidays/KF5HolidaysTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Holidays.so -> libKF5Holidays.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5Holidays.so.4.80.0
-lrwxrwxrwx	root/root	usr/lib/libKF5Holidays.so.5 -> libKF5Holidays.so.4.80.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Holidays.so.5 -> libKF5Holidays.so.5.2.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Holidays.so.5.2.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/libkholidays/
@@ -154,3 +154,9 @@ drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KHolidays.pri
+drwxr-xr-x	root/root	usr/share/qt5/qml/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/kholidays/
+-rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/kholidays/libkholidaysdeclarativeplugin.so
+-rw-r--r--	root/root	usr/share/qt5/qml/org/kde/kholidays/qmldir

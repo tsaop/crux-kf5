@@ -5,8 +5,8 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/ark.categories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkerfuffle.so.15 -> libkerfuffle.so.15.12.3
--rwxr-xr-x	root/root	usr/lib/libkerfuffle.so.15.12.3
+lrwxrwxrwx	root/root	usr/lib/libkerfuffle.so.16 -> libkerfuffle.so.16.04.0
+-rwxr-xr-x	root/root	usr/lib/libkerfuffle.so.16.04.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/appdata/
 -rw-r--r--	root/root	usr/share/appdata/org.kde.ark.appdata.xml
@@ -19,15 +19,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/ark.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/ark.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/ark.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/ark.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/ark.png
@@ -42,15 +33,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/ark_addtoservicemenu.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/ark_servicemenu.desktop
 -rw-r--r--	root/root	usr/share/kservices5/ark_part.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_cli7z.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_clilha.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_clirar.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_clizip.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_libarchive.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_libarchive_readonly.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_libbz2.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_libgz.desktop
--rw-r--r--	root/root	usr/share/kservices5/kerfuffle_libxz.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kerfufflePlugin.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
@@ -63,14 +45,16 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/arkpart.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_cli7z.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_clilha.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_clirar.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_clizip.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_libarchive.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_libbz2.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_libgz.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle_libxz.so
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_cli7z.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_clirar.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_cliunarchiver.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_clizip.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_libarchive.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_libarchive_readonly.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_libbz2.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_libgz.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kerfuffle/kerfuffle_libxz.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio_dnd/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio_dnd/extracthere.so
