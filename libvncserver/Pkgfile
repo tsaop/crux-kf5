@@ -1,0 +1,29 @@
+# Description:	Cross-platform C libraries that allow you to easily implement VNC server or client functionality
+# URL:		https://libvnc.github.io/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: gnutls libjpeg-turbo libpng libsdl
+
+name=libvncserver
+version=0.9.10
+release=1
+source=(https://github.com/LibVNC/$name/archive/LibVNCServer-$version.tar.gz)
+
+build() {
+	cd $name-LibVNCServer-$version
+	
+        cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}
