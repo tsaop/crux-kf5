@@ -1,66 +1,66 @@
-drwxr-xr-x	derp/users	usr/
-drwxr-xr-x	derp/users	usr/include/
-drwxr-xr-x	derp/users	usr/include/KF5/
-drwxr-xr-x	derp/users	usr/include/KF5/gpgme++/
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/assuanresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/configuration.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/context.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/data.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/decryptionresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/defaultassuantransaction.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/editinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/encryptionresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/engineinfo.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/error.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/eventloopinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/exception.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/global.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgadduserideditinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgagentgetinfoassuantransaction.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgmefw.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgmepp_export.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgsetexpirytimeeditinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgsetownertrusteditinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/gpgsignkeyeditinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/importresult.h
-drwxr-xr-x	derp/users	usr/include/KF5/gpgme++/interfaces/
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/interfaces/assuantransaction.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/interfaces/dataprovider.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/interfaces/passphraseprovider.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/interfaces/progressprovider.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/key.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/keygenerationresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/keylistresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/notation.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/result.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/scdgetinfoassuantransaction.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/signingresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/trustitem.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/verificationresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgme++/vfsmountresult.h
--rw-r--r--	derp/users	usr/include/KF5/gpgmepp_version.h
-drwxr-xr-x	derp/users	usr/include/KF5/qgpgme/
--rw-r--r--	derp/users	usr/include/KF5/qgpgme/dataprovider.h
--rw-r--r--	derp/users	usr/include/KF5/qgpgme/qgpgme_eventloopinteractor.h
--rw-r--r--	derp/users	usr/include/KF5/qgpgme/qgpgme_export.h
-drwxr-xr-x	derp/users	usr/lib/
-drwxr-xr-x	derp/users	usr/lib/cmake/
-drwxr-xr-x	derp/users	usr/lib/cmake/KF5Gpgmepp/
--rw-r--r--	derp/users	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppConfig.cmake
--rw-r--r--	derp/users	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppConfigVersion.cmake
--rw-r--r--	derp/users	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppTargets-release.cmake
--rw-r--r--	derp/users	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppTargets.cmake
-lrwxrwxrwx	derp/users	usr/lib/libKF5Gpgmepp-pthread.so -> libKF5Gpgmepp-pthread.so.5
-lrwxrwxrwx	derp/users	usr/lib/libKF5Gpgmepp-pthread.so.5 -> libKF5Gpgmepp-pthread.so.5.2.0
--rwxr-xr-x	derp/users	usr/lib/libKF5Gpgmepp-pthread.so.5.2.0
-lrwxrwxrwx	derp/users	usr/lib/libKF5Gpgmepp.so -> libKF5Gpgmepp.so.5
-lrwxrwxrwx	derp/users	usr/lib/libKF5Gpgmepp.so.5 -> libKF5Gpgmepp.so.5.2.0
--rwxr-xr-x	derp/users	usr/lib/libKF5Gpgmepp.so.5.2.0
-lrwxrwxrwx	derp/users	usr/lib/libKF5QGpgme.so -> libKF5QGpgme.so.5
-lrwxrwxrwx	derp/users	usr/lib/libKF5QGpgme.so.5 -> libKF5QGpgme.so.5.2.0
--rwxr-xr-x	derp/users	usr/lib/libKF5QGpgme.so.5.2.0
-drwxr-xr-x	derp/users	usr/share/
-drwxr-xr-x	derp/users	usr/share/qt5/
-drwxr-xr-x	derp/users	usr/share/qt5/mkspecs/
-drwxr-xr-x	derp/users	usr/share/qt5/mkspecs/modules/
--rw-r--r--	derp/users	usr/share/qt5/mkspecs/modules/qt_QGpgme.pri
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KF5/
+drwxr-xr-x	root/root	usr/include/KF5/gpgme++/
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/assuanresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/configuration.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/context.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/data.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/decryptionresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/defaultassuantransaction.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/editinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/encryptionresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/engineinfo.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/error.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/eventloopinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/exception.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/global.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgadduserideditinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgagentgetinfoassuantransaction.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgmefw.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgmepp_export.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgsetexpirytimeeditinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgsetownertrusteditinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/gpgsignkeyeditinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/importresult.h
+drwxr-xr-x	root/root	usr/include/KF5/gpgme++/interfaces/
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/interfaces/assuantransaction.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/interfaces/dataprovider.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/interfaces/passphraseprovider.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/interfaces/progressprovider.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/key.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/keygenerationresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/keylistresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/notation.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/result.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/scdgetinfoassuantransaction.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/signingresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/trustitem.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/verificationresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgme++/vfsmountresult.h
+-rw-r--r--	root/root	usr/include/KF5/gpgmepp_version.h
+drwxr-xr-x	root/root	usr/include/KF5/qgpgme/
+-rw-r--r--	root/root	usr/include/KF5/qgpgme/dataprovider.h
+-rw-r--r--	root/root	usr/include/KF5/qgpgme/qgpgme_eventloopinteractor.h
+-rw-r--r--	root/root	usr/include/KF5/qgpgme/qgpgme_export.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5Gpgmepp/
+-rw-r--r--	root/root	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Gpgmepp/KF5GpgmeppTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5Gpgmepp-pthread.so -> libKF5Gpgmepp-pthread.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5Gpgmepp-pthread.so.5 -> libKF5Gpgmepp-pthread.so.5.2.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Gpgmepp-pthread.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Gpgmepp.so -> libKF5Gpgmepp.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5Gpgmepp.so.5 -> libKF5Gpgmepp.so.5.2.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Gpgmepp.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libKF5QGpgme.so -> libKF5QGpgme.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5QGpgme.so.5 -> libKF5QGpgme.so.5.2.0
+-rwxr-xr-x	root/root	usr/lib/libKF5QGpgme.so.5.2.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qt5/
+drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_QGpgme.pri
