@@ -4,9 +4,9 @@
 # Depends on:	cmake qt5 glib libxml2 xorg-libxcb
 
 name=phonon-qt5
-version=4.8.3
-release=2
-source=(http://download.kde.org/stable/${name%-qt5}/$version/src/${name%-qt5}-$version.tar.xz)
+version=4.9.0
+release=1
+source=(http://download.kde.org/stable/${name%-qt5}/$version/${name%-qt5}-$version.tar.xz)
 
 build() {
 
