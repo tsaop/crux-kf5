@@ -4,12 +4,15 @@
 # Depends on: qt5 ffmpeg gtk libexif libsdl
 
 name=mlt
-version=6.0.0
+version=6.2.0
 release=1
 source=(http://sourceforge.net/projects/$name/files/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
+
+	# Disable PulseAudio
+	sed -i 's|-D__LINUX_PULSE__||' src/modules/rtaudio/Makefile 
 
 	./configure --prefix=/usr \
 	--sysconfdir=/usr/etc \
