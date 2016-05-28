@@ -1,0 +1,33 @@
+# Description: KF5 compatible implementation of the Torrent protocol
+# URL: http://ktorrent.pwsp.net/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost kio libgmp qca-qt5 solid
+
+name=libktorrent
+version=2.0.1
+release=1
+source=(http://download.kde.org/stable/ktorrent/5.0/$name-$version.tar.xz
+	fix-gmp-include-name-on-multilib.patch)
+
+build() {
+	cd $name-$version
+
+	# https://bugs.kde.org/show_bug.cgi?id=361967
+	patch -Np1 -i $SRC/fix-gmp-include-name-on-multilib.patch
+
+	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}

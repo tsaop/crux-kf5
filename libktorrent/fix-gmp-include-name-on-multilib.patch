@@ -1,0 +1,29 @@
+--- libktorrent-2.0.1/cmake/FindLibGMP.cmake.orig	2016-05-28 11:57:19.185919977 +0200
++++ libktorrent-2.0.1/cmake/FindLibGMP.cmake	2016-05-28 11:56:25.952921881 +0200
+@@ -55,14 +55,24 @@
+ # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ #=============================================================================
++execute_process(COMMAND ${CMAKE_CXX_COMPILER} -dumpmachine OUTPUT_VARIABLE CXX_MACHTYPE OUTPUT_STRIP_TRAILING_WHITESPACE ERROR_QUIET)
++
++if(${CXX_MACHTYPE} MATCHES "x86_64")
++	find_path(LibGMP_INCLUDE_DIRS NAMES gmp-64.h)
++else()
++	find_path(LibGMP_INCLUDE_DIRS NAMES gmp.h)
++endif()
+ 
+-find_path(LibGMP_INCLUDE_DIRS NAMES gmp.h)
+ 
+ find_library(LibGMP_LIBRARIES NAMES gmp libgmp)
+ 
+ # Get version from gmp.h
+ if(LibGMP_INCLUDE_DIRS)
+-    file(STRINGS ${LibGMP_INCLUDE_DIRS}/gmp.h _GMP_H REGEX "^#define __GNU_MP_VERSION.*$")
++    if(${CXX_MACHTYPE} MATCHES "x86_64")
++        file(STRINGS ${LibGMP_INCLUDE_DIRS}/gmp-64.h _GMP_H REGEX "^#define __GNU_MP_VERSION.*$")
++    else()
++        file(STRINGS ${LibGMP_INCLUDE_DIRS}/gmp.h _GMP_H REGEX "^#define __GNU_MP_VERSION.*$")
++    endif()
+     string(REGEX REPLACE "^.*__GNU_MP_VERSION[ ]+([0-9]+).*$" "\\1" LibGMP_MAJOR_VERSION "${_GMP_H}")
+     string(REGEX REPLACE "^.*__GNU_MP_VERSION_MINOR[ ]+([0-9]+).*$" "\\1" LibGMP_MINOR_VERSION "${_GMP_H}")
+     string(REGEX REPLACE "^.*__GNU_MP_VERSION_PATCHLEVEL[ ]+([0-9]+).*$" "\\1" LibGMP_PATCH_VERSION "${_GMP_H}")
