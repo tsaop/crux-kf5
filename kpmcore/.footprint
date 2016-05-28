@@ -54,8 +54,6 @@ drwxr-xr-x	root/root	usr/include/kpmcore/fs/
 -rw-r--r--	root/root	usr/include/kpmcore/fs/xfs.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/zfs.h
 drwxr-xr-x	root/root	usr/include/kpmcore/gui/
--rw-r--r--	root/root	usr/include/kpmcore/gui/decryptluksdialog.h
--rw-r--r--	root/root	usr/include/kpmcore/gui/decryptluksdialogwidget.h
 -rw-r--r--	root/root	usr/include/kpmcore/gui/partresizerwidget.h
 -rw-r--r--	root/root	usr/include/kpmcore/gui/partwidget.h
 -rw-r--r--	root/root	usr/include/kpmcore/gui/partwidgetbase.h
@@ -89,9 +87,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPMcore/
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.2
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.2 -> libkpmcore.so.2.1.1
--rwxr-xr-x	root/root	usr/lib/libkpmcore.so.2.1.1
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.3
+-rwxr-xr-x	root/root	usr/lib/libkpmcore.so.2.2.0
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.3 -> libkpmcore.so.2.2.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/pmdummybackendplugin.desktop
