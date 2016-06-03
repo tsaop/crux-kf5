@@ -1,11 +1,11 @@
 # Description: Part of KDE-Edu
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: analitza kio
+# Depends on: analitza kio qtwebkit
 
 name=kalgebra
 version=16.04.1
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
