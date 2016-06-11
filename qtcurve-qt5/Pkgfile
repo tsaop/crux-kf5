@@ -1,11 +1,11 @@
 # Description: QtCurve theming engine for Qt 5.x.x
 # URL: https://github.com/QtCurve
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt4 cmake kde-workspace
+# Depends on: qt5 cmake
 
 name=qtcurve-qt5
 version=1.8.18
-release=1
+release=2
 source=(https://github.com/QtCurve/${name/-qt5/}/archive/$version.tar.gz
 	fix-qt-5.3-build.diff)
 
