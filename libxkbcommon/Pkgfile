@@ -1,11 +1,11 @@
 # Description:	Library to handle keyboard descriptions
 # URL:		http://xkbcommon.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: xkeyboard-config libxcb xorg-util-macros yacc
+# Depends on: xkeyboard-config xorg-libxcb xorg-util-macros
 
 name=libxkbcommon
 version=0.6.1
-release=1
+release=2
 source=(http://xkbcommon.org/download/$name-$version.tar.xz)
 
 build() {
