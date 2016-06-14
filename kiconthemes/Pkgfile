@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: ki18n kconfigwidgets kitemviews
+# Depends on: karchive kconfigwidgets kitemviews
 
 name=kiconthemes
-version=5.22.0
+version=5.23.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

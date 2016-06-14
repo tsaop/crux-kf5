@@ -4,7 +4,7 @@
 # Depends on: kauth kcodecs kconfig kguiaddons ki18n kwidgetsaddons
 
 name=kconfigwidgets
-version=5.22.0
+version=5.23.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
@@ -26,4 +26,6 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+
 }

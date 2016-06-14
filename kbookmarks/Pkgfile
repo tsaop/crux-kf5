@@ -4,7 +4,7 @@
 # Depends on: kconfig kcoreaddons kcodecs kconfigwidgets kiconthemes kwidgetsaddons kxmlgui
 
 name=kbookmarks
-version=5.22.0
+version=5.23.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

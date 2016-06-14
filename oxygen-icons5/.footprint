@@ -807,11 +807,13 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-few-clouds-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-few-clouds.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/weather-fog.png -> weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-freezing-rain.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-hail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-none-available.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/weather-overcast.png -> weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-showers-day.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-showers-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/weather-showers-scattered-day.png
@@ -1538,7 +1540,6 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/text-convert-to-r
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/text-frame-link.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/text-frame-unlink.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/text-speak.png
-lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/text.png -> draw-text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/text_subscript.png -> format-text-subscript.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/text_superscript.png -> format-text-superscript.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/tool-animator.png
@@ -2519,10 +2520,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/dropboxstatus-logo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-few-clouds-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-few-clouds.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/weather-fog.png -> weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-freezing-rain.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-hail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-mist.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/weather-overcast.png -> weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-showers-day.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-showers-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-showers-scattered-day.png
@@ -2534,6 +2537,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/dropboxstatus-logo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-snow-scattered-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-snow-scattered.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-snow.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/weather-storm-night.png -> weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/window-suppressed.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/
@@ -3251,7 +3255,6 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-properties.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/text-frame-link.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/text-frame-unlink.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/text-speak.png
-lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/text.png -> draw-text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/tool-animator.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tool-node-editor.png -> edit-node.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tool_brush.png -> draw-brush.png
@@ -4263,6 +4266,10 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/dropboxstatus-logo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/task-recurring.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/task-reject.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/task-reminder.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/update-high.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/update-low.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/update-medium.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/update-none.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/user-away-extended.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/user-away.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/user-busy.png
@@ -4278,10 +4285,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/dropboxstatus-logo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-few-clouds-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-few-clouds.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/weather-fog.png -> weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-freezing-rain.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-hail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-mist.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/weather-overcast.png -> weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-showers-day.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-showers-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-showers-scattered-day.png
@@ -4293,6 +4302,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/dropboxstatus-logo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-snow-scattered-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-snow-scattered.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-snow.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/weather-storm-night.png -> weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/window-suppressed.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/
@@ -6283,11 +6293,13 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-few-clouds-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-few-clouds.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-fog.png -> weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-freezing-rain.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-hail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-none-available.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-overcast.png -> weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-showers-day.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-showers-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-showers-scattered-day.png
@@ -6299,6 +6311,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-snow-scattered-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-snow-scattered.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-snow.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-storm-night.png -> weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/window-suppressed.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/
@@ -7664,10 +7677,12 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-few-clouds-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-few-clouds.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/status/weather-fog.png -> weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-freezing-rain.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-hail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-mist.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/status/weather-overcast.png -> weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-showers-day.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-showers-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/weather-showers-scattered-day.png
@@ -8482,10 +8497,12 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/64x64/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-few-clouds-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-few-clouds.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/weather-fog.png -> weather-mist.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-freezing-rain.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-hail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-mist.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/weather-overcast.png -> weather-many-clouds.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-showers-day.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-showers-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/weather-showers-scattered-day.png
