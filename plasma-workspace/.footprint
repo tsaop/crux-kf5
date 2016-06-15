@@ -80,14 +80,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibTaskManager/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.6.4
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.6.4
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.6.5
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.6.5
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.6.4
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.6.4
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.6.5
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.6.5
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.6.4
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.6.4
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.5 -> libtaskmanager.so.5.6.5
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.6.5
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -744,6 +744,8 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/phonon_platform/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/phonon_platform/kde.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma-geolocation-ip.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/applets/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/applets/plasma_applet_notifications.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_bbcukmet.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/ion_envcan.so
@@ -776,7 +778,6 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/dataengine/plasma_engine_weather.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/packagestructure/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/packagestructure/plasma_packagestructure_share.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_applet_notifications.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_containmentactions_applauncher.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_containmentactions_contextmenu.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma_containmentactions_paste.so
