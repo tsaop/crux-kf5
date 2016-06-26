@@ -5,7 +5,7 @@
 
 name=poppler-qt5
 version=0.45.0
-release=1
+release=2
 source=(http://poppler.freedesktop.org/poppler-$version.tar.xz)
 
 build() {
@@ -16,7 +16,7 @@ build() {
                 --enable-{zlib,libjpeg,libpng} \
                 --enable-cms=lcms2 \
                 --enable-libopenjpeg=none \
-                --disable-utils \
+		--disable-libnss
                 --disable-poppler-{qt4,glib,cpp}
 
     make
