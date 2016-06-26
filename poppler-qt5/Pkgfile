@@ -17,6 +17,7 @@ build() {
                 --enable-cms=lcms2 \
                 --enable-libopenjpeg=none \
 		--disable-libnss \
+		--disable-utils \
                 --disable-poppler-{qt4,glib,cpp}
 
     make
