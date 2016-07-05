@@ -4,9 +4,9 @@
 # Depends on: qt5 extra-cmake-modules wayland
 
 name=kwayland
-version=5.6.5
+version=5.23.0
 release=1
-source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
