@@ -192,6 +192,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/FileUndoManager
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/JobUiDelegate
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/KUriFilterSearchProviderActions
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/OpenFileManagerWindowJob
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/Paste
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/PasteJob
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/PixmapLoader
@@ -230,6 +231,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/fileundomanager.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/jobuidelegate.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/kurifiltersearchprovideractions.h
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/openfilemanagerwindowjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/paste.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/pastejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/pixmaploader.h
@@ -271,20 +273,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.23.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.23.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.23.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.23.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.23.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.24.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/ktelnetservice5.desktop
@@ -433,6 +435,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/rfc.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/rpmfind.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/ruby_application_archive.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/soundcloud.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/sourceforge.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/technorati.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/technoratitags.desktop

@@ -7,7 +7,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox-5.23.0-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox-5.24.0-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/kapidox/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/__init__.pyc
@@ -19,9 +19,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/kapidox/data/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/footer.html
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/header.html
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/block_title_bottom.png
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/block_title_mid.png
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/block_title_top.png
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/default_product.png
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/favicon.ico
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/frameworks.css
@@ -34,10 +31,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/i
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/kde-white.svg
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/kde.css
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/notetip.js
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/top-kde.jpg
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/top-left.jpg
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/top-right.jpg
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/htmlresource/top.jpg
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/kapidox/data/templates/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/templates/base.html
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/kapidox/data/templates/comments.html
@@ -73,5 +66,3 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/depdiagram-generate-all.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/depdiagram-generate.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/depdiagram-prepare.1.gz
--rw-r--r--	root/root	usr/share/man/man1/kgenapidox.1.gz
--rw-r--r--	root/root	usr/share/man/man1/kgenframeworksapidox.1.gz
