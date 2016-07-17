@@ -1,22 +1,22 @@
 # Description: QtWebKit for qt5
 # URL: http://www.qt.io
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt5
+# Depends on: qt5 ruby
 
 name=qtwebkit
-version=5.6.0
+version=5.7.0
 release=1
-source=(https://download.qt.io/community_releases/${version::3}/$version/$name-opensource-src-$version.tar.xz
-	pthread-link.patch)
+source=(https://download.qt.io/community_releases/${version::3}/$version/$name-opensource-src-$version.tar.xz)
 
 build() {
 	cd $name-opensource-src-$version
-
-	# Fix linking to pthread
-	patch -Np1 -i $SRC/pthread-link.patch
 
 	mkdir build; cd build
 	qmake-qt5 ..
 	make
 	make INSTALL_ROOT=$PKG install
+
+	find "$PKG/usr/share/qt5/lib" -type f -name '*.prl' \
+	-exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+
 }
