@@ -4,8 +4,8 @@
 # Depends on: baloo kdelibs4support kemoticons kitemmodels knotifyconfig kpeople krunner kwin plasma-framework plasma-workspace kmenuedit polkit-kde-agent powerdevil systemsettings kactivities-stats
 
 name=plasma-desktop
-version=5.7.0
-release=2
+version=5.7.1
+release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
 build() {
