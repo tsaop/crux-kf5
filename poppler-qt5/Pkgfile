@@ -4,13 +4,16 @@
 # Depends on:  qt5 poppler
 
 name=poppler-qt5
-version=0.45.0
+version=0.46.0
 release=2
 source=(http://poppler.freedesktop.org/poppler-$version.tar.xz)
 
 build() {
     cd poppler-$version
 
+    # qt5 >= 5.7.0 requires c++11; enforce via CFLAGS
+    CFLAGS="${CFLAGS} -std=c++11" \
+    CXXFLAGS="${CXXFLAGS} -std=c++11" \
     ./configure --prefix=/usr \
                 --mandir=/usr/man \
                 --enable-{zlib,libjpeg,libpng} \
