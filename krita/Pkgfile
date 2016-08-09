@@ -1,0 +1,31 @@
+# Description: Krita - digital painting application
+# URL: https://www.kde.org
+# Maintainer: Shin Sterneck , shin at sterneck dot asia
+# Depends on: 
+
+name=krita
+version=3.0
+release=1
+source=(https://github.com/KDE/krita/archive/v3.0.tar.gz)
+
+build() {
+
+	cd $name-$version
+	mkdir build && cd build
+
+	cmake .. -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}
