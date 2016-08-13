@@ -72,15 +72,16 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.24.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.24.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.25.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.25.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.24.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.24.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.25.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.25.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
 -rw-r--r--	root/root	usr/share/kdevappwizard/templates/cpp-plasmoid.tar.bz2
+-rw-r--r--	root/root	usr/share/kdevappwizard/templates/plasma-wallpaper.tar.bz2
 -rw-r--r--	root/root	usr/share/kdevappwizard/templates/qml-plasmoid.tar.bz2
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-testengine.desktop
@@ -228,6 +229,7 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/icons/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/edit.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/go.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/input.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kalarm.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kdeconnect.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/keyboard.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kget.svgz
@@ -239,6 +241,7 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/icons/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kopete.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/korgac.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kpackagekit.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kruler.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kteatime.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/ktorrent.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/list.svgz
@@ -401,6 +404,13 @@ drwxr-xr-x	root/root	usr/share/plasma/services/
 -rw-r--r--	root/root	usr/share/plasma/services/storage.operations
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/
+drwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/packagestructure/
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/packagestructure/containmentactions_packagestructure.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/packagestructure/dataengine_packagestructure.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/packagestructure/plasmageneric_packagestructure.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/packagestructure/plasmatheme_packagestructure.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/kpackage/packagestructure/plasmoid_packagestructure.so
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/scriptengines/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so
