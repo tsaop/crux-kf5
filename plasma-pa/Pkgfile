@@ -1,21 +1,23 @@
-# Description: Part of KDE Plasma
+# Description: The Pulse Audio Plasma Applet
 # URL: https://www.kde.org
-# Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdoctools knotifications kiconthemes
+# Maintainer: Shin Sterneck , shin at sterneck dot asia
+# Depends on: 
 
-name=polkit-kde-agent
-version=5.7.3
+name=plasma-pa
+version=16.04.3
 release=1
-source=(http://download.kde.org/stable/plasma/$version/$name-1-$version.tar.xz)
+source=()
 
 build() {
-	cd $name-1-$version
+	git clone https://github.com/KDE/plasma-pa.git $name-$version
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cd $name-$version
+	mkdir build && cd build
+
+	cmake .. -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
-	-DLIBEXEC_INSTALL_DIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \

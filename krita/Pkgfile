@@ -1,21 +1,22 @@
-# Description: Part of KDE Plasma
+# Description: Krita - digital painting application
 # URL: https://www.kde.org
-# Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdoctools knotifications kiconthemes
+# Maintainer: Shin Sterneck , shin at sterneck dot asia
+# Depends on: 
 
-name=polkit-kde-agent
-version=5.7.3
+name=krita
+version=3.0
 release=1
-source=(http://download.kde.org/stable/plasma/$version/$name-1-$version.tar.xz)
+source=(https://github.com/KDE/krita/archive/v3.0.tar.gz)
 
 build() {
-	cd $name-1-$version
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cd $name-$version
+	mkdir build && cd build
+
+	cmake .. -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
-	-DLIBEXEC_INSTALL_DIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
