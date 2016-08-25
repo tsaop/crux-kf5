@@ -1,8 +1,7 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kconfig kdbusaddons kservice kwindowsystem knotifications libgcrypt kdoctools kcoreaddons ki18n kiconthemes kwidgetsaddons
-# Optional: gpgme
+# Depends on: gpgmepp kiconthemes knotifications kservice
 
 name=kwallet
 version=5.25.0
