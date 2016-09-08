@@ -103,17 +103,17 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibTaskManager/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.7.4
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.7.4
 lrwxrwxrwx	root/root	usr/lib/liblegacytaskmanager.so -> liblegacytaskmanager.so.5
-lrwxrwxrwx	root/root	usr/lib/liblegacytaskmanager.so.5 -> liblegacytaskmanager.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/liblegacytaskmanager.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/liblegacytaskmanager.so.5 -> liblegacytaskmanager.so.5.7.4
+-rwxr-xr-x	root/root	usr/lib/liblegacytaskmanager.so.5.7.4
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.7.4
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.7.4
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.7.3
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.7.3
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.7.4
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.7.4
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -338,6 +338,29 @@ drwxr-xr-x	root/root	usr/share/kstyle/themes/
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtmotif.themerc
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtplastique.themerc
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtwindows.themerc
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.breeze.desktop.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.color.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.image.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.battery.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.calendar.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.icon.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.panelspacer.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.private.systemtray.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.net.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
 drwxr-xr-x	root/root	usr/share/plasma/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/
@@ -354,6 +377,7 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/UserList.qml
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/UserSelect.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/artwork/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/artwork/README.txt
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/artwork/background.png
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/artwork/logout_primary.svgz
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/artwork/restart_primary.svgz
@@ -369,6 +393,7 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/lockscreen/MainBlock.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/Main.qml
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/README.txt
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/breeze.jpg
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/loginmanager/theme.conf
