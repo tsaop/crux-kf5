@@ -3,9 +3,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kate
 -rwxr-xr-x	root/root	usr/bin/kwrite
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/org.kde.kate.appdata.xml
--rw-r--r--	root/root	usr/share/appdata/org.kde.kwrite.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kate.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kwrite.desktop
@@ -57,12 +54,13 @@ drwxr-xr-x	root/root	usr/share/katexmltools/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.katesessions.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-katesessions.desktop
-drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/katexmltools/
--rw-r--r--	root/root	usr/share/kxmlgui5/katexmltools/ui.rc
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/kate.1.gz
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kate.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kwrite.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.katesessions.appdata.xml
 drwxr-xr-x	root/root	usr/share/plasma/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.katesessions/
@@ -92,6 +90,7 @@ drwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/katesnippetsplugin.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/katesqlplugin.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/katesymbolviewerplugin.so
+-rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/katexmlcheckplugin.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/katexmltoolsplugin.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/kterustcompletionplugin.so
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/ktexteditor/ktexteditor_lumen.so

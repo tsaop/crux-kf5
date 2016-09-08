@@ -11,20 +11,26 @@ drwxr-xr-x	root/root	usr/include/KF5/KContacts/KContacts/
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/ContactGroupTool
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Email
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Field
+-rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/FieldGroup
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Gender
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Geo
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Impp
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Key
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/LDIFConverter
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Lang
+-rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/NickName
+-rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Note
+-rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Org
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/PhoneNumber
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Picture
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Related
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/ResourceLocatorUrl
+-rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Role
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Secrecy
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/SortMode
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Sound
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/TimeZone
+-rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/Title
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/VCardConverter
 -rw-r--r--	root/root	usr/include/KF5/KContacts/KContacts/VCardDrag
 drwxr-xr-x	root/root	usr/include/KF5/KContacts/kcontacts/
@@ -36,6 +42,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KContacts/kcontacts/
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/contactgrouptool.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/email.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/field.h
+-rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/fieldgroup.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/gender.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/geo.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/impp.h
@@ -43,14 +50,19 @@ drwxr-xr-x	root/root	usr/include/KF5/KContacts/kcontacts/
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/key.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/lang.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/ldifconverter.h
+-rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/nickname.h
+-rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/note.h
+-rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/org.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/phonenumber.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/picture.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/related.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/resourcelocatorurl.h
+-rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/role.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/secrecy.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/sortmode.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/sound.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/timezone.h
+-rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/title.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/vcardconverter.h
 -rw-r--r--	root/root	usr/include/KF5/KContacts/kcontacts/vcarddrag.h
 -rw-r--r--	root/root	usr/include/KF5/kcontacts_version.h
@@ -62,8 +74,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Contacts/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Contacts/KF5ContactsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Contacts/KF5ContactsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Contacts.so -> libKF5Contacts.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Contacts.so.5 -> libKF5Contacts.so.5.2.3
--rwxr-xr-x	root/root	usr/lib/libKF5Contacts.so.5.2.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Contacts.so.5 -> libKF5Contacts.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKF5Contacts.so.5.3.1
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kcontacts/

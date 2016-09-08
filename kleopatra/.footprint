@@ -13,8 +13,6 @@ lrwxrwxrwx	root/root	usr/lib/libkleopatraclientgui.so -> libkleopatraclientgui.s
 lrwxrwxrwx	root/root	usr/lib/libkleopatraclientgui.so.1 -> libkleopatraclientgui.so.1.3.0
 -rwxr-xr-x	root/root	usr/lib/libkleopatraclientgui.so.1.3.0
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/org.kde.kleopatra.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kleopatra_import.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kleopatra.desktop
@@ -66,6 +64,8 @@ drwxr-xr-x	root/root	usr/share/kwatchgnupg/
 drwxr-xr-x	root/root	usr/share/kwatchgnupg/pics/
 -rw-r--r--	root/root	usr/share/kwatchgnupg/pics/kwatchgnupg.png
 -rw-r--r--	root/root	usr/share/kwatchgnupg/pics/kwatchgnupg2.png
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kleopatra.appdata.xml
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_kleopatra.so

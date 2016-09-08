@@ -4,11 +4,9 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/konsoleprofile
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konsole.so
-lrwxrwxrwx	root/root	usr/lib/libkonsoleprivate.so.16 -> libkonsoleprivate.so.16.04.3
--rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so.16.04.3
+lrwxrwxrwx	root/root	usr/lib/libkonsoleprivate.so.16 -> libkonsoleprivate.so.16.08.1
+-rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so.16.08.1
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/org.kde.konsole.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.konsole.desktop
 drwxr-xr-x	root/root	usr/share/knotifications5/
@@ -18,6 +16,7 @@ drwxr-xr-x	root/root	usr/share/konsole/
 -rw-r--r--	root/root	usr/share/konsole/BlackOnRandomLight.colorscheme
 -rw-r--r--	root/root	usr/share/konsole/BlackOnWhite.colorscheme
 -rw-r--r--	root/root	usr/share/konsole/BlueOnBlack.colorscheme
+-rw-r--r--	root/root	usr/share/konsole/Breeze.colorscheme
 -rw-r--r--	root/root	usr/share/konsole/DarkPastels.colorscheme
 -rw-r--r--	root/root	usr/share/konsole/GreenOnBlack.colorscheme
 -rw-r--r--	root/root	usr/share/konsole/Linux.colorscheme
@@ -35,11 +34,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/konsolepart.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/terminalemulator.desktop
-drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/konsole/
--rw-r--r--	root/root	usr/share/kxmlgui5/konsole/konsoleui.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/konsole/partui.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/konsole/sessionui.rc
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.konsole.appdata.xml
 drwxr-xr-x	root/root	usr/share/qt5/
 drwxr-xr-x	root/root	usr/share/qt5/plugins/
 -rwxr-xr-x	root/root	usr/share/qt5/plugins/konsolepart.so
