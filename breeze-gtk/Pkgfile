@@ -5,7 +5,7 @@
 
 name=breeze-gtk
 version=5.7.5
-release=1
+release=2
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
 build() {
@@ -18,6 +18,7 @@ build() {
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
+	-DWITH_GTK3_VERSION=3.20 \
 	-Wno-dev
 
 	make
