@@ -5,14 +5,13 @@
 
 name=qca-qt5
 version=2.1.1
-release=1
+release=2
 source=(http://download.kde.org/stable/${name/-qt5/}/$version/src/${name/-qt5/}-$version.tar.xz)
 
 build() {
 	cd ${name/-qt5/}-$version
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_BUILD_TYPE=Release \
-	-DCMAKE_PREFIX_PATH=/usr/share/qt5 \
 	-DBUILD_TESTS=OFF \
 	-DQCA_INSTALL_IN_QT_PREFIX=ON \
 	-DQCA_LIBRARY_INSTALL_DIR=/usr/lib \

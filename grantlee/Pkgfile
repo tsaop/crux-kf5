@@ -5,15 +5,14 @@
 
 name=grantlee
 version=5.1.0
-release=1
+release=2
 source=(http://downloads.grantlee.org/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 	mkdir build; cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_BUILD_TYPE=Release \
-	-DCMAKE_PREFIX_PATH=/usr/share/qt5 ..
+	-DCMAKE_BUILD_TYPE=Release ..
 	
 	make
 	

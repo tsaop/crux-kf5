@@ -14,7 +14,7 @@ build() {
 	cd $name
 	git checkout remotes/origin/frameworks
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

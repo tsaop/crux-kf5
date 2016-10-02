@@ -5,13 +5,13 @@
 
 name=libical
 version=2.0.0
-release=1
+release=2
 source=(https://github.com/$name/$name/releases/download/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

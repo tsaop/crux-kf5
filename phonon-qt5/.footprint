@@ -164,6 +164,14 @@ drwxr-xr-x	root/root	usr/include/phonon4qt5/phonon/experimental/
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/volumefadereffect.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/volumefaderinterface.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/volumeslider.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_phonon4qt5.pri
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/phononwidgets.so
 drwxr-xr-x	root/root	usr/lib64/
 drwxr-xr-x	root/root	usr/lib64/cmake/
 drwxr-xr-x	root/root	usr/lib64/cmake/phonon4qt5/
@@ -199,10 +207,3 @@ drwxr-xr-x	root/root	usr/share/phonon4qt5/buildsystem/
 -rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/PhononQt4.cmake
 -rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/PhononQt5.cmake
 -rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/cmake_uninstall.cmake.in
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
--rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_phonon4qt5.pri
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/designer/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/designer/phononwidgets.so

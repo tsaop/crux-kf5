@@ -5,7 +5,7 @@
 
 name=polkit-qt5
 version=0.112.0
-release=1
+release=2
 source=(http://download.kde.org/stable/apps/KDE4.x/admin/${name/qt5/qt-1}-$version.tar.bz2
 	systembus-usage.patch)
 
@@ -16,7 +16,7 @@ build() {
 
 	patch -Np1 -i $SRC/systembus-usage.patch
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

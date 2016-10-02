@@ -5,7 +5,7 @@
 
 name=sddm
 version=0.13.0
-release=1
+release=2
 source=(https://github.com/$name/$name/archive/v$version.tar.gz \
 	rc.sddm
 	sddm_consolekit.diff)
@@ -15,7 +15,7 @@ build() {
 
 	patch -Np1 -i $SRC/sddm_consolekit.diff
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_INSTALL_SYSCONFDIR=/usr/etc \
 	-DBUILD_TESTING=OFF \

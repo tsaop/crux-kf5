@@ -5,7 +5,7 @@
 
 name=otter-browser
 version=0.9.10
-release=1
+release=2
 source=(https://github.com/OtterBrowser/$name/archive/v$version.tar.gz)
 
 build() {
@@ -13,7 +13,7 @@ build() {
 
 	sed -i 's|DESTINATION share/man/man1|DESTINATION man/man1|' CMakeLists.txt
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

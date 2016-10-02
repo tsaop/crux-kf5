@@ -5,13 +5,13 @@
 
 name=libdbusmenu-qt5
 version=0.9.3+15.10.20150604
-release=1
+release=2
 source=(http://archive.ubuntu.com/ubuntu/pool/main/libd/${name%5}/${name%5}_$version.orig.tar.gz)
 
 build() {
 	cd ${name%5}-$version
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

@@ -5,14 +5,14 @@
 
 name=phonon-qt5
 version=4.9.0
-release=1
+release=2
 source=(http://download.kde.org/stable/${name%-qt5}/$version/${name%-qt5}-$version.tar.xz)
 
 build() {
 
 	mkdir build; cd build
 	cmake ../${name%-qt5}-$version \
-		-DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+		\
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DSYSCONF_INSTALL_DIR=/usr/etc \
 		-DLIB_INSTALL_DIR=/usr/lib \

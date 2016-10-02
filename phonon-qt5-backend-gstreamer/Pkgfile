@@ -5,7 +5,7 @@
 
 name=phonon-qt5-backend-gstreamer
 version=4.9.0
-release=1
+release=2
 source=(http://download.kde.org/stable/phonon/${name/-qt5/}/$version/${name/-qt5/}-$version.tar.xz)
 
 build() {
@@ -13,21 +13,16 @@ build() {
 	cd ${name/-qt5-backend/}-$version
 
 	mkdir build; cd build
-	cmake .. \
-		-DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DSYSCONF_INSTALL_DIR=/usr/etc \
-		-DLIB_INSTALL_DIR=/usr/lib \
+		-DCMAKE_INSTALL_LIBDIR=lib \
 		-D__KDE_HAVE_GCC_VISIBILITY=NO \
 		-DCMAKE_BUILD_TYPE=RELEASE \
-		-DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON \
-		-DPHONON_BUILD_PHONON4QT5=ON
+		-DPHONON_BUILD_PHONON4QT5=ON ..
 	make
 	make DESTDIR=$PKG install
 
-	install -dm755 $PKG/usr/share/qt5/plugins
-
-	mv $PKG/usr/lib64/qt5/plugins/phonon4qt5_backend $PKG/usr/share/qt5/plugins
 	rm -rf $PKG/usr/lib64 
 
 	rm -f $PKG/usr/share/phonon/buildsystem/COPYING-CMAKE-SCRIPTS
