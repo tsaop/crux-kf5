@@ -4,6 +4,9 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libgwenviewlib.so.4.97.0
 lrwxrwxrwx	root/root	usr/lib/libgwenviewlib.so.5 -> libgwenviewlib.so.4.97.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/gvpart.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/appdata/
 -rw-r--r--	root/root	usr/share/appdata/org.kde.gwenview.appdata.xml
@@ -57,6 +60,3 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/gvpart/
 -rw-r--r--	root/root	usr/share/kxmlgui5/gvpart/gvpart.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/org.kde.gwenview/
 -rw-r--r--	root/root	usr/share/kxmlgui5/org.kde.gwenview/org.kde.gwenviewui.rc
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/gvpart.so

@@ -4,6 +4,10 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/filelightrc
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/filelightpart.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.filelight.desktop
@@ -33,6 +37,3 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/filelight/
 -rw-r--r--	root/root	usr/share/kxmlgui5/filelight/filelightui.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/filelightpart/
 -rw-r--r--	root/root	usr/share/kxmlgui5/filelightpart/filelightpartui.rc
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/filelightpart.so

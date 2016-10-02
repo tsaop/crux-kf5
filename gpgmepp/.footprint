@@ -59,8 +59,7 @@ lrwxrwxrwx	root/root	usr/lib/libKF5Gpgmepp.so.5 -> libKF5Gpgmepp.so.5.3.1
 lrwxrwxrwx	root/root	usr/lib/libKF5QGpgme.so -> libKF5QGpgme.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5QGpgme.so.5 -> libKF5QGpgme.so.5.3.1
 -rwxr-xr-x	root/root	usr/lib/libKF5QGpgme.so.5.3.1
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
--rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_QGpgme.pri
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_QGpgme.pri

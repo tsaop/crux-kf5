@@ -5,13 +5,13 @@
 
 name=filelight
 version=16.08.1
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

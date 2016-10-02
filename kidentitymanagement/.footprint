@@ -28,11 +28,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IdentityManagement/
 lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagement.so -> libKF5IdentityManagement.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagement.so.5 -> libKF5IdentityManagement.so.5.3.1
 -rwxr-xr-x	root/root	usr/lib/libKF5IdentityManagement.so.5.3.1
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KIdentityManagement.pri
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/kf5_org.kde.pim.IdentityManager.xml
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
--rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KIdentityManagement.pri

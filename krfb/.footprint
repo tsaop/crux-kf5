@@ -4,6 +4,11 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libkrfbprivate.so.5
 lrwxrwxrwx	root/root	usr/lib/libkrfbprivate.so.5.0 -> libkrfbprivate.so.5
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/krfb/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/krfb/krfb_framebuffer_qt.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/krfb/krfb_framebuffer_x11.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.krfb.desktop
@@ -11,8 +16,3 @@ drwxr-xr-x	root/root	usr/share/krfb/
 -rw-r--r--	root/root	usr/share/krfb/krfb.notifyrc
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/krfb-framebuffer.desktop
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/krfb/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/krfb/krfb_framebuffer_qt.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/krfb/krfb_framebuffer_x11.so

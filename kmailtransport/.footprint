@@ -50,6 +50,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailTransport/
 lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so -> libKF5MailTransport.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so.5 -> libKF5MailTransport.so.5.3.1
 -rwxr-xr-x	root/root	usr/lib/libKF5MailTransport.so.5.3.1
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KMailTransport.pri
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_mailtransport.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/smtp.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/mailtransport.kcfg
@@ -57,12 +66,3 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kcm_mailtransport.desktop
 -rw-r--r--	root/root	usr/share/kservices5/smtp.protocol
 -rw-r--r--	root/root	usr/share/kservices5/smtps.protocol
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/
-drwxr-xr-x	root/root	usr/share/qt5/mkspecs/modules/
--rw-r--r--	root/root	usr/share/qt5/mkspecs/modules/qt_KMailTransport.pri
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_mailtransport.so
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kio/smtp.so

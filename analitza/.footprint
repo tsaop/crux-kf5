@@ -66,6 +66,15 @@ lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so.7 -> libAnalitzaPlot.so.7.0.0
 lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so -> libAnalitzaWidgets.so.7
 lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so.7 -> libAnalitzaWidgets.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libAnalitzaWidgets.so.7.0.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/analitza/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/analitza/Graph2D.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/analitza/Graph3D.qml
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/analitza/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/libanalitza/
 drwxr-xr-x	root/root	usr/share/libanalitza/plots/
@@ -73,12 +82,3 @@ drwxr-xr-x	root/root	usr/share/libanalitza/plots/
 -rw-r--r--	root/root	usr/share/libanalitza/plots/basic_curves.plots
 -rw-r--r--	root/root	usr/share/libanalitza/plots/conics.plots
 -rw-r--r--	root/root	usr/share/libanalitza/plots/polar.plots
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/qml/
-drwxr-xr-x	root/root	usr/share/qt5/qml/org/
-drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/
-drwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/analitza/
--rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/Graph2D.qml
--rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/Graph3D.qml
--rwxr-xr-x	root/root	usr/share/qt5/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
--rw-r--r--	root/root	usr/share/qt5/qml/org/kde/analitza/qmldir
