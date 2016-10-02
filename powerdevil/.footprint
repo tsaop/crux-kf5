@@ -15,6 +15,23 @@ lrwxrwxrwx	root/root	usr/lib/libpowerdevilcore.so.2 -> libpowerdevilcore.so.2.0.
 lrwxrwxrwx	root/root	usr/lib/libpowerdevilui.so -> libpowerdevilui.so.5
 lrwxrwxrwx	root/root	usr/lib/libpowerdevilui.so.5 -> libpowerdevilui.so.5.7.5
 -rwxr-xr-x	root/root	usr/lib/libpowerdevilui.so.5.7.5
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_powerdevilactivitiesconfig.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_powerdevilglobalconfig.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_powerdevilprofilesconfig.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/powerdevil.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevilbrightnesscontrolaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevildimdisplayaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevildpmsaction.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevildpmsaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevilhandlebuttoneventsaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevilkeyboardbrightnesscontrolaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevilrunscriptaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevilsuspendsessionaction_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/powerdevilwirelesspowersavingaction_config.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
@@ -38,20 +55,3 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_powerdevilactivitiesconfig.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_powerdevilglobalconfig.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_powerdevilprofilesconfig.so
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/kded/powerdevil.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevilbrightnesscontrolaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevildimdisplayaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevildpmsaction.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevildpmsaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevilhandlebuttoneventsaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevilkeyboardbrightnesscontrolaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevilrunscriptaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevilsuspendsessionaction_config.so
--rwxr-xr-x	root/root	usr/share/qt5/plugins/powerdevilwirelesspowersavingaction_config.so

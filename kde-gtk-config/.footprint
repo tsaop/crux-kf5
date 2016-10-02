@@ -7,6 +7,9 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/gtk3_preview
 -rwxr-xr-x	root/root	usr/lib/gtk_preview
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdegtkconfig.so
 -rwxr-xr-x	root/root	usr/lib/reload_gtk_apps
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
@@ -45,6 +48,3 @@ drwxr-xr-x	root/root	usr/share/kcm-gtk-module/
 -rw-r--r--	root/root	usr/share/kcm-gtk-module/preview.ui
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kde-gtk-config.desktop
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kcm_kdegtkconfig.so
