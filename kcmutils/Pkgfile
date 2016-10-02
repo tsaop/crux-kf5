@@ -5,7 +5,7 @@
 
 name=kcmutils
 version=5.26.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
@@ -13,7 +13,7 @@ build() {
 
 	
 
-	cmake -DCMAKE_PREFIX_PATH=/usr/share/qt5 \
+	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \

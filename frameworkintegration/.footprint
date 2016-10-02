@@ -16,6 +16,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5FrameworkIntegration/
 lrwxrwxrwx	root/root	usr/lib/libKF5Style.so -> libKF5Style.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5Style.so.5 -> libKF5Style.so.5.26.0
 -rwxr-xr-x	root/root	usr/lib/libKF5Style.so.5.26.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/FrameworkIntegrationPlugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/infopage/
@@ -42,7 +46,3 @@ drwxr-xr-x	root/root	usr/share/kf5/infopage/
 -rw-r--r--	root/root	usr/share/kf5/infopage/top-middle.png
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/plasma_workspace.notifyrc
-drwxr-xr-x	root/root	usr/share/qt5/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/
-drwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/
--rwxr-xr-x	root/root	usr/share/qt5/plugins/kf5/FrameworkIntegrationPlugin.so
