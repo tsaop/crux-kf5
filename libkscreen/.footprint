@@ -10,6 +10,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KScreen/KScreen/
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/ConfigOperation
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/EDID
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/GetConfigOperation
+-rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/Log
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/Mode
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/Output
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/Screen
@@ -23,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KScreen/kscreen/
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/edid.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/getconfigoperation.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/kscreen_export.h
+-rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/log.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/mode.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/output.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/screen.h
@@ -39,8 +41,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Screen/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kscreen_backend_launcher
 lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so -> libKF5Screen.so.7
--rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.7.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.7 -> libKF5Screen.so.5.7.5
+-rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.8.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.7 -> libKF5Screen.so.5.8.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/kscreen2.pc
 drwxr-xr-x	root/root	usr/lib/qt5/

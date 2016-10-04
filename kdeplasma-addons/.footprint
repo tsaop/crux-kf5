@@ -33,9 +33,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/
-drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/activitypager/
--rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/activitypager/libactivitypagerplugin.so
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/activitypager/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/colorpicker/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/colorpicker/libcolorpickerplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/colorpicker/qmldir
@@ -48,6 +45,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/mediaframe/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/mediaframe/libmediaframeplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/mediaframe/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/minimizeall/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/minimizeall/libminimizeallplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/minimizeall/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/notes/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/notes/libnotesplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/notes/qmldir
@@ -89,6 +89,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.quicklaunch.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
@@ -157,7 +158,7 @@ drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnails/contents/ui/
 -rw-r--r--	root/root	usr/share/kwin/tabbox/thumbnails/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kwin/tabbox/thumbnails/metadata.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
--rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.hunyango.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.calculator.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.comic.appdata.xml
@@ -165,6 +166,7 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.notes.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml
@@ -184,15 +186,6 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/timer.svgz
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/code/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/code/utils.js
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/config/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/config/config.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/config/main.xml
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/ui/configGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calculator/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calculator/contents/
@@ -271,6 +264,13 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/conten
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/ConfigPaths.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.desktop
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/config/
