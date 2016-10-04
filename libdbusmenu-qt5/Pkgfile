@@ -4,8 +4,8 @@
 # Depends on: cmake qt5 qjson
 
 name=libdbusmenu-qt5
-version=0.9.3+15.10.20150604
-release=2
+version=0.9.3+16.04.20160218
+release=1
 source=(http://archive.ubuntu.com/ubuntu/pool/main/libd/${name%5}/${name%5}_$version.orig.tar.gz)
 
 build() {
