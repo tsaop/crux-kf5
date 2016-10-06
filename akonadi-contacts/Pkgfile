@@ -1,11 +1,11 @@
 # Description: Part of KDE Frameworks (Tier 1)
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi attica grantlee kcontacts kio kitemmodels kjobwidgets kmime libevent nss protobuf xorg-libxcomposite xorg-libxtst
+# Depends on: akonadi attica grantlee kcontacts kio kitemmodels kjobwidgets kmime libevent nss protobuf xorg-libxcomposite xorg-libxtst qtwebengine
 
 name=akonadi-contacts
 version=16.08.1
-release=2
+release=3
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
