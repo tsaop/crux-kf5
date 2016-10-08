@@ -4,8 +4,8 @@
 # Depends on: ki18n
 
 name=kunitconversion
-version=5.26.0
-release=2
+version=5.27.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
