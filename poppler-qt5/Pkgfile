@@ -4,8 +4,8 @@
 # Depends on:  qt5 poppler
 
 name=poppler-qt5
-version=0.47.0
-release=2
+version=0.48.0
+release=1
 source=(http://poppler.freedesktop.org/poppler-$version.tar.xz)
 
 build() {
