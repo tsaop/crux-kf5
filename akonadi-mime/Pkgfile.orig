@@ -1,9 +1,9 @@
-# Description: Part of KDE-Edu
+# Description: Part of KDE Frameworks (Tier 1)
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kxmlgui phonon-qt5
+# Depends on: extra-cmake-modules qt5 kdbusaddons kio kconfig ki18n kxmlgui kmime kitemmodels akonadi libxslt 
 
-name=blinken
+name=akonadi-mime
 version=16.08.2
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
@@ -26,5 +26,4 @@ build() {
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
-	rm $PKG/usr/share/blinken/README.packagers
 }

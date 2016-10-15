@@ -5,8 +5,8 @@
 # Optional: libkdcraw kimageformats
 
 name=gwenview
-version=16.08.1
-release=2
+version=16.08.2
+release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
