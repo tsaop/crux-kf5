@@ -5,14 +5,18 @@
 
 name=plasma-workspace
 version=5.8.3
-release=1
+release=2
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
-	52-upower.rules)
+	52-upower.rules
+	digital-clock.patch)
 
 build() {
 	cd $name-$version
 
 	sed -i 's:qtpaths:qtpaths-qt5:' startkde/startkde.cmake
+
+	# https://bugs.kde.org/show_bug.cgi?id=360059
+	patch -Np1 -i $SRC/digital-clock.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
