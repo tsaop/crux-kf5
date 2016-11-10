@@ -4,8 +4,8 @@
 # Depends on: boost kemoticons kitemmodels ktexteditor
 
 name=kig
-version=16.08.2
-release=2
+version=16.08.3
+release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
