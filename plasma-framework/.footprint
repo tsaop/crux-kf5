@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.27.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.27.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.28.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.28.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.27.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.27.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.28.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.28.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -233,6 +233,9 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma-shell.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma-wallpaper.desktop
 drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/es/
+drwxr-xr-x	root/root	usr/share/man/es/man1/
+-rw-r--r--	root/root	usr/share/man/es/man1/plasmapkg2.1
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/plasmapkg2.1.gz
 drwxr-xr-x	root/root	usr/share/plasma/
