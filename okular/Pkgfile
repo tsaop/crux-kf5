@@ -1,18 +1,16 @@
 # Description: Document viewer for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdelibs4support kinit knotifyconfig kpty poppler-qt5
+# Depends on: kactivities khtml poppler-qt5 threadweaver
 
 name=okular
-version=9999
-source=
-release=6
+version=16.11.80
+source=(http://download.kde.org/unstable/applications/$version/src/$name-$version.tar.xz)
+release=1
 
 build() {
 
-	git clone git://anongit.kde.org/$name.git
-	cd $name
-	git checkout remotes/origin/frameworks
+    cd $name-$version
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
