@@ -5,7 +5,7 @@
 
 name=libkleo
 version=16.08.3
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
