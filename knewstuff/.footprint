@@ -12,6 +12,20 @@ drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/KNS3/
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNS3/KMoreToolsMenuFactory
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNS3/KMoreToolsPresets
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNS3/UploadDialog
+drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/KNSCore/
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Author
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Cache
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/DownloadManager
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Engine
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/EntryInternal
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Installation
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/ItemsModel
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Provider
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Question
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/QuestionListener
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/QuestionManager
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Security
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/XmlLoader
 drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/kns3/
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/kns3/button.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/kns3/downloaddialog.h
@@ -24,7 +38,23 @@ drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/kns3/
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/kns3/knewstuff_export.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/kns3/knewstuffaction.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/kns3/uploaddialog.h
+drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/knscore/
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/author.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/cache.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/downloadmanager.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/engine.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/entryinternal.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/installation.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/itemsmodel.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/provider.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/question.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/questionlistener.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/questionmanager.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/security.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/xmlloader.h
 -rw-r--r--	root/root	usr/include/KF5/knewstuff_version.h
+-rw-r--r--	root/root	usr/include/KF5/knewstuffcore_version.h
+-rw-r--r--	root/root	usr/include/KF5/knewstuffquick_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuff/
@@ -32,13 +62,35 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuff/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuff/KF5NewStuffConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuff/KF5NewStuffTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuff/KF5NewStuffTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuffCore/
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffCore/KF5NewStuffCoreConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffCore/KF5NewStuffCoreConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffCore/KF5NewStuffCoreTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffCore/KF5NewStuffCoreTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuffQuick/
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so -> libKF5NewStuff.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.28.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.28.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.29.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.29.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so -> libKF5NewStuffCore.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.29.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.29.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KNewStuff.pri
+drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/libnewstuffqmlplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/NewStuffItem.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/NewStuffList.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kmoretools/
