@@ -1,0 +1,35 @@
+# Description: Qt5 bindings for gpgme
+# URL: http://www.gnupg.org/gpgme.html
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: gnupg qt5
+
+name=qgpgme
+version=1.8.0
+release=1
+source=(https://www.gnupg.org/ftp/gcrypt/$name/${name:1}-$version.tar.bz2
+	gpgme-1.1.8-et_EE.patch
+	gpgme-1.8.0-cmake.patch)
+
+build() {
+	cd ${name:1}-$version
+
+	patch -p1 -i $SRC/gpgme-1.1.8-et_EE.patch
+	patch -p1 -i $SRC/gpgme-1.8.0-cmake.patch
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--enable-languages=cpp,qt
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/info
+
+	# split qgpgme
+	rm -rf $PKG/usr/bin
+	rm -rf $PKG/usr/include/{gpgme.h,gpgme++}
+	rm -rf $PKG/usr/lib/libgpgme*
+	rm -rf $PKG/usr/lib/cmake/Gpgmepp
+	rm -rf $PKG/usr/share
+}
