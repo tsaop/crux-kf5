@@ -4,8 +4,8 @@
 # Depends on: kactivities khtml poppler-qt5 threadweaver
 
 name=okular
-version=16.11.80
-source=(http://download.kde.org/unstable/applications/$version/src/$name-$version.tar.xz)
+version=16.12.0
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 release=1
 
 build() {

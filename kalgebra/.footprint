@@ -4,8 +4,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kalgebra
 -rwxr-xr-x	root/root	usr/bin/kalgebramobile
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/org.kde.kalgebra.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kalgebramobile.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kalgebra.desktop
@@ -42,7 +40,6 @@ drwxr-xr-x	root/root	usr/share/kalgebramobile/plugins/widgets/
 -rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/ExpressionInput.qml
 -rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/KAlgebraMobile.qml
 -rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/KAlgebraPage.qml
--rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/Keyboard.qml
 -rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/Label.qml
 -rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/RealInput.qml
 -rw-r--r--	root/root	usr/share/kalgebramobile/plugins/widgets/SimpleListView.qml
@@ -52,6 +49,8 @@ drwxr-xr-x	root/root	usr/share/katepart5/syntax/
 -rw-r--r--	root/root	usr/share/katepart5/syntax/kalgebra.xml
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/graphsplasmoid.desktop
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kalgebra.appdata.xml
 drwxr-xr-x	root/root	usr/share/plasma/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.graphsplasmoid/

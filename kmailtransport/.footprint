@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kmailtransport.categories
+-rw-r--r--	root/root	usr/etc/xdg/kmailtransport.renamecategories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/MailTransport/
@@ -13,6 +14,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MailTransport/MailTransport/
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/PrecommandJob
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/SentBehaviourAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/ServerTest
+-rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/SmtpJob
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/Transport
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/MailTransport/TransportComboBox
@@ -30,6 +32,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MailTransport/mailtransport/
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/sentactionattribute.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/sentbehaviourattribute.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/servertest.h
+-rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/smtpjob.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transport.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportattribute.h
 -rw-r--r--	root/root	usr/include/KF5/MailTransport/mailtransport/transportbase.h
@@ -48,8 +51,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailTransport/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailTransport/KF5MailTransportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailTransport/KF5MailTransportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so -> libKF5MailTransport.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so.5 -> libKF5MailTransport.so.5.3.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailTransport.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailTransport.so.5 -> libKF5MailTransport.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailTransport.so.5.4.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

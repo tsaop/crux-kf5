@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/KIMAP/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/LoginJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/LogoutJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/MetaDataJobBase
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/MoveJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/MyRightsJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/QuotaJobBase
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/RenameJob
@@ -66,6 +67,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/LoginJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/LogoutJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/MetaDataJobBase
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/MoveJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/MyRightsJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/QuotaJobBase
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/RenameJob
@@ -105,6 +107,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/loginjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/logoutjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/metadatajobbase.h
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/movejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/myrightsjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/namespacejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/quotajobbase.h
@@ -131,8 +134,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IMAP/
 -rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so -> libKF5IMAP.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.5.3.3
--rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.5.4.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
