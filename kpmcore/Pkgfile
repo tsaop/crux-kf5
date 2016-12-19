@@ -4,8 +4,8 @@
 # Depends on: kio parted
 
 name=kpmcore
-version=2.2.1
-release=2
+version=3.0.0
+release=1
 source=(http://download.kde.org/stable/$name/$version/src/$name-$version.tar.xz)
 
 build() {
