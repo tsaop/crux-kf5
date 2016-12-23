@@ -1,11 +1,11 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: 
+# Depends on: cmake
 
 name=extra-cmake-modules
 version=5.29.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
