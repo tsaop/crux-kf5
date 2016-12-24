@@ -5,11 +5,15 @@
 
 name=konqueror
 version=16.12.0
-release=1
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
+	konqueror-qtwebengine-5.7.1.patch)
 
 build() {
 	cd $name-$version
+
+	# https://bugs.kde.org/show_bug.cgi?id=373781
+	patch -Np1 -i $SRC/konqueror-qtwebengine-5.7.1.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
