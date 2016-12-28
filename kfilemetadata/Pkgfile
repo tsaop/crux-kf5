@@ -1,12 +1,11 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: ki18n karchive
-# Optional: ffmpeg poppler-qt5 taglib exiv2
+# Depends on: ki18n karchive ffmpeg poppler-qt5 taglib exiv2
 
 name=kfilemetadata
 version=5.29.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
