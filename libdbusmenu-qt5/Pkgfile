@@ -1,11 +1,11 @@
 # Description: dbusmenu library for Qt5
 # URL: https://launchpad.net/libdbusmenu-qt
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake qt5 qjson
+# Depends on: qjson
 
 name=libdbusmenu-qt5
 version=0.9.3+16.04.20160218
-release=1
+release=2
 source=(http://archive.ubuntu.com/ubuntu/pool/main/libd/${name%5}/${name%5}_$version.orig.tar.gz)
 
 build() {
@@ -19,6 +19,7 @@ build() {
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DUSE_QT5=ON \
+	-DCMAKE_INSTALL_LIBDIR=lib \
 	-DWITH_DOC=OFF .
 
 	make
