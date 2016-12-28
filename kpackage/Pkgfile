@@ -1,12 +1,11 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: karchive ki18n kconfig kcoreaddons desktop-file-utils
-# Optional: kdoctools
+# Depends on: kcoreaddons kdoctools
 
 name=kpackage
 version=5.29.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
@@ -27,5 +26,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,nl,pt_BR,sv,uk}
+	rm -rf $PKG/usr/share/man/{es,it,ca,de,nl,pt_BR,sv,uk}
 }
