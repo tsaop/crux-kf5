@@ -1,0 +1,24 @@
+# Description: A qt-based library that maps JSON data to QVariant objects.
+# URL: http://qjson.sourceforge.net/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on: qt5
+
+name=qjson
+version=0.9.0
+release=1
+source=(https://github.com/flavio/qjson/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	install -d build
+	cd build
+
+	cmake .. \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=RELEASE
+
+	make
+	make DESTDIR=$PKG install
+}
