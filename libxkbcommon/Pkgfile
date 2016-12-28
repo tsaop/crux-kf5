@@ -4,8 +4,8 @@
 # Depends on: xkeyboard-config xorg-libxcb xorg-util-macros
 
 name=libxkbcommon
-version=0.6.1
-release=2
+version=0.7.0
+release=1
 source=(http://xkbcommon.org/download/$name-$version.tar.xz)
 
 build() {
