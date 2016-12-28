@@ -1,7 +1,7 @@
 # Description: Repository of data file describin media player capabilities
 # URL: http://www.freedesktop.org/wiki/Software/media-player-info
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: 
+# Depends on: python3 
 
 name=media-player-info
 version=22
@@ -12,7 +12,7 @@ build() {
 	cd $name-$version
 
 	./configure --prefix=/usr \
-	--mandir=/usr/man
+		--with-udevdir=/usr/lib/udev
 
 	make
 	make DESTDIR=$PKG install
