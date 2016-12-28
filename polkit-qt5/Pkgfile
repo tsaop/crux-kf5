@@ -12,8 +12,6 @@ source=(http://download.kde.org/stable/apps/KDE4.x/admin/${name/qt5/qt-1}-$versi
 build() {
 	cd ${name/qt5/qt-1}-$version
 
-	
-
 	patch -Np1 -i $SRC/systembus-usage.patch
 
 	cmake \
