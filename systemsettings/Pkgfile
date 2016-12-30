@@ -1,10 +1,10 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils khtml desktop-file-utils
+# Depends on: kcmutils khtml kxgmlgui
 
 name=systemsettings
-version=5.8.4
+version=5.8.5
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 

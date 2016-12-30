@@ -1,4 +1,5 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/ssl/
+lrwxrwxrwx	root/root	etc/ssl/ca-bundle.pem -> /etc/ssl/cert.pem
 drwxr-xr-x	root/root	etc/ssl/certs/
 lrwxrwxrwx	root/root	etc/ssl/certs/cert.pem -> /etc/ssl/cert.pem

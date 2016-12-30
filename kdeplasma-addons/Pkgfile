@@ -1,11 +1,11 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdelibs4support knewstuff kross krunner desktop-file-utils gtk plasma-workspace
+# Depends on: extra-cmake-modules qt5 kactivities kconfig kconfigwidgets kcoreaddons ki18n kio kcmutils plasma-framework krunner kservice kunitconversion kdelibs4support knewstuff kross plasma-workspace gtk
 
 name=kdeplasma-addons
-version=5.8.4
-release=2
+version=5.8.5
+release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
 build() {

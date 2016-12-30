@@ -1,7 +1,7 @@
 # Description: QCA aims to provide a straightforward and cross-platform crypto API, using Qt.
 # URL: http://delta.affinix.com/qca/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt5
+# Depends on: ca-certificates-compat cyrus-sasl libgcrypt nss qt5
 
 name=qca-qt5
 version=2.1.1
@@ -15,8 +15,7 @@ build() {
 	-DBUILD_TESTS=OFF \
 	-DQCA_INSTALL_IN_QT_PREFIX=ON \
 	-DQCA_LIBRARY_INSTALL_DIR=/usr/lib \
-	-DQCA_MAN_INSTALL_DIR=/usr/share/man \
-	-DQCA_SUFFIX=qt5
+	-DQCA_MAN_INSTALL_DIR=/usr/share/man
 
 	make
 	make DESTDIR=$PKG install

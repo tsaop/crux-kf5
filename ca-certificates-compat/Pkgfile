@@ -11,4 +11,5 @@ source=
 build() {
 	install -dm755 $PKG/etc/ssl/certs
 	ln -sv /etc/ssl/cert.pem $PKG/etc/ssl/certs
+	ln -sv /etc/ssl/cert.pem $PKG/etc/ssl/ca-bundle.pem
 }
