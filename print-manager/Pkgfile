@@ -1,7 +1,7 @@
-# Description: KDE print manager
+# Description: Allows to configure and manage printers
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cups plasma-framework extra-cmake-modules kdoctools desktop-file-utils
+# Depends on: cups kcmutils plasma-framework
 
 name=print-manager
 version=16.12.0

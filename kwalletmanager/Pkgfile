@@ -1,7 +1,7 @@
-# Description: Part of KDE utils
+# Description: Manages passwords stored within kwallet
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils kdelibs4support desktop-file-utils gtk
+# Depends on: gtk kcmutils
 
 name=kwalletmanager
 version=16.12.0
