@@ -1,0 +1,18 @@
+# Description: C-based library for reading and writing audio files in many common formats.
+# URL: https://audiofile.68k.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: alsa-lib
+
+name=audiofile
+version=0.3.6
+release=1
+source=(https://audiofile.68k.org/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--disable-examples
+
+	make
+	make DESTDIR=$PKG install
+}
