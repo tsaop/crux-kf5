@@ -1,7 +1,7 @@
 # Description: Document viewer for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kactivities khtml poppler-qt5 threadweaver desktop-file-utils gtk
+# Depends on: gtk kactivities khtml kpty libkexiv2 threadweaver windowsystem qca-qt5 poppler-qt5
 
 name=okular
 version=16.12.0
