@@ -4,7 +4,7 @@
 # Depends on: qt5 ffmpeg gtk libexif libsdl
 
 name=mlt
-version=6.2.0
+version=6.4.1
 release=1
 source=(http://sourceforge.net/projects/$name/files/$name/$name-$version.tar.gz)
 
@@ -17,11 +17,14 @@ build() {
 	./configure --prefix=/usr \
 	--sysconfdir=/usr/etc \
 	--qt-includedir=/usr/include/qt5 \
-	--qt-libdir=/usr/lib/qt5 \
+	--qt-libdir=/usr/lib \
 	--enable-gpl \
 	--enable-gpl3 \
 	--disable-static \
 	--enable-shared
+
+	# Force usage of C++11, as required by qt5
+	sed -i 's|^CXXFLAGS.*|& -std=c++11|' config.mak
 
 	make
 

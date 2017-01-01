@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/mlt++/
 -rw-r--r--	root/root	usr/include/mlt++/Mlt.h
 -rw-r--r--	root/root	usr/include/mlt++/MltAnimation.h
+-rw-r--r--	root/root	usr/include/mlt++/MltConfig.h
 -rw-r--r--	root/root	usr/include/mlt++/MltConsumer.h
 -rw-r--r--	root/root	usr/include/mlt++/MltDeque.h
 -rw-r--r--	root/root	usr/include/mlt++/MltEvent.h
@@ -27,7 +28,6 @@ drwxr-xr-x	root/root	usr/include/mlt++/
 -rw-r--r--	root/root	usr/include/mlt++/MltTokeniser.h
 -rw-r--r--	root/root	usr/include/mlt++/MltTractor.h
 -rw-r--r--	root/root	usr/include/mlt++/MltTransition.h
--rw-r--r--	root/root	usr/include/mlt++/config.h
 drwxr-xr-x	root/root	usr/include/mlt/
 drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt.h
@@ -52,18 +52,19 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_property.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_repository.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_service.h
+-rw-r--r--	root/root	usr/include/mlt/framework/mlt_slices.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_tokeniser.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_tractor.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_transition.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.2.0
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.2.0
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.2.0
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.2.0
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.2.0
--rwxr-xr-x	root/root	usr/lib/libmlt.so.6.2.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.4.1
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.4.1
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.4.1
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.4.1
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.4.1
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.6.4.1
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -77,10 +78,8 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplus.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplusgpl.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltqt.so
--rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
--rwxr-xr-x	root/root	usr/lib/mlt/libmltsox.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvmfx.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltxine.so
@@ -272,6 +271,7 @@ drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/WMA
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/WMV
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/XDCAM-HD422
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/YouTube
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/atsc_1080i_50/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/atsc_1080i_50/DNxHD
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/atsc_1080i_5994/
@@ -336,15 +336,16 @@ drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_50p/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_50p/HDV
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_60p/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_60p/HDV
+drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/MJPEG
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/MPEG-2
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/MPEG-4
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/ProRes
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/ProRes-Kostya
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/lossless/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/FFV1
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/H.264
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/HuffYUV
--rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/MJPEG
--rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/MPEG-2
--rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/MPEG-4
--rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/ProRes
--rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/ProRes-Kostya
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/stills/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/stills/BMP
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/stills/DPX
@@ -454,12 +455,12 @@ drwxr-xr-x	root/root	usr/share/mlt/qt/
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_audiospectrum.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_audiowaveform.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_lightshow.yml
+-rw-r--r--	root/root	usr/share/mlt/qt/filter_qtblend.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_kdenlivetitle.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_qimage.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_qtext.yml
+-rw-r--r--	root/root	usr/share/mlt/qt/transition_qtblend.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/transition_vqm.yml
-drwxr-xr-x	root/root	usr/share/mlt/resample/
--rw-r--r--	root/root	usr/share/mlt/resample/filter_resample.yml
 drwxr-xr-x	root/root	usr/share/mlt/rtaudio/
 -rw-r--r--	root/root	usr/share/mlt/rtaudio/consumer_rtaudio.yml
 drwxr-xr-x	root/root	usr/share/mlt/sdl/
@@ -468,9 +469,6 @@ drwxr-xr-x	root/root	usr/share/mlt/sdl/
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_preview.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_still.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/producer_sdl_image.yml
-drwxr-xr-x	root/root	usr/share/mlt/sox/
--rw-r--r--	root/root	usr/share/mlt/sox/filter_sox.yml
--rw-r--r--	root/root	usr/share/mlt/sox/filter_sox_effect.yml
 drwxr-xr-x	root/root	usr/share/mlt/videostab/
 -rw-r--r--	root/root	usr/share/mlt/videostab/filter_videostab.yml
 -rw-r--r--	root/root	usr/share/mlt/videostab/filter_videostab2.yml
