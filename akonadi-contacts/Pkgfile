@@ -1,7 +1,7 @@
-# Description: Part of KDE Frameworks (Tier 1)
+# Description: Part of kdepimlibs
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: extra-cmake-modules qt5 kio ki18n kcompletion kcodecs kiconthemes kdbusaddons ktextwidgets grantlee kcontacts kmime akonadi-mime akonadi qtwebengine
+# Depends on: akonadi-mime grantlee kcontacts qtwebengine
 
 name=akonadi-contacts
 version=16.12.0
