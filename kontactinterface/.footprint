@@ -1,0 +1,37 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KF5/
+drwxr-xr-x	root/root	usr/include/KF5/KontactInterface/
+drwxr-xr-x	root/root	usr/include/KF5/KontactInterface/KontactInterface/
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/KontactInterface/Core
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/KontactInterface/PimUniqueApplication
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/KontactInterface/Plugin
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/KontactInterface/Processes
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/KontactInterface/Summary
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/KontactInterface/UniqueAppHandler
+drwxr-xr-x	root/root	usr/include/KF5/KontactInterface/kontactinterface/
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/core.h
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/kontactinterface_export.h
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/pimuniqueapplication.h
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/plugin.h
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/processes.h
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/summary.h
+-rw-r--r--	root/root	usr/include/KF5/KontactInterface/kontactinterface/uniqueapphandler.h
+-rw-r--r--	root/root	usr/include/KF5/kontactinterface_version.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5KontactInterface/
+-rw-r--r--	root/root	usr/lib/cmake/KF5KontactInterface/KF5KontactInterfaceConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KontactInterface/KF5KontactInterfaceConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KontactInterface/KF5KontactInterfaceTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KontactInterface/KF5KontactInterfaceTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5KontactInterface.so -> libKF5KontactInterface.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5KontactInterface.so.5 -> libKF5KontactInterface.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KontactInterface.so.5.4.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KontactInterface.pri
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/kservicetypes5/
+-rw-r--r--	root/root	usr/share/kservicetypes5/kontactplugin.desktop
