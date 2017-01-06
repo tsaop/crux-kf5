@@ -1,7 +1,7 @@
-# Description: Part of KDE Frameworks (Tier 1)
+# Description: Kdepim runtime
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-calendar akonadi-contacts akonadi-mime akonadi-notes kalarmcal kimap knotifyconfig kpimtextedit kross syndication
+# Depends on: akonadi-calendar akonadi-notes kalarmcal kimap kmbox knotifyconfig kross gtk
 
 name=kdepim-runtime
 version=16.12.0
