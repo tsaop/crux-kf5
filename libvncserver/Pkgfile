@@ -1,11 +1,11 @@
 # Description:	Cross-platform C libraries that allow you to easily implement VNC server or client functionality
 # URL:		https://libvnc.github.io/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gnutls libjpeg-turbo libpng libsdl
+# Depends on: gnutls libgcrypt libjpeg-turbo libpng libsdl
 
 name=libvncserver
-version=0.9.10
-release=2
+version=0.9.11
+release=1
 source=(https://github.com/LibVNC/$name/archive/LibVNCServer-$version.tar.gz)
 
 build() {

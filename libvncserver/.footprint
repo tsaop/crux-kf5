@@ -5,11 +5,12 @@ drwxr-xr-x	root/root	usr/include/rfb/
 -rw-r--r--	root/root	usr/include/rfb/rfb.h
 -rw-r--r--	root/root	usr/include/rfb/rfbclient.h
 -rw-r--r--	root/root	usr/include/rfb/rfbconfig.h
--rw-r--r--	root/root	usr/include/rfb/rfbint.h
 -rw-r--r--	root/root	usr/include/rfb/rfbproto.h
 -rw-r--r--	root/root	usr/include/rfb/rfbregion.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libvncclient.so -> libvncclient.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libvncclient.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libvncserver.so -> libvncserver.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libvncserver.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libvncclient.so -> libvncclient.so.0
+lrwxrwxrwx	root/root	usr/lib/libvncclient.so.0 -> libvncclient.so.0.9.11
+-rwxr-xr-x	root/root	usr/lib/libvncclient.so.0.9.11
+lrwxrwxrwx	root/root	usr/lib/libvncserver.so -> libvncserver.so.0
+lrwxrwxrwx	root/root	usr/lib/libvncserver.so.0 -> libvncserver.so.0.9.11
+-rwxr-xr-x	root/root	usr/lib/libvncserver.so.0.9.11
