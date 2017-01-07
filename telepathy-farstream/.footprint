@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/telepathy-1.0/
+drwxr-xr-x	root/root	usr/include/telepathy-1.0/telepathy-farstream/
+-rw-r--r--	root/root	usr/include/telepathy-1.0/telepathy-farstream/channel.h
+-rw-r--r--	root/root	usr/include/telepathy-1.0/telepathy-farstream/content.h
+-rw-r--r--	root/root	usr/include/telepathy-1.0/telepathy-farstream/telepathy-farstream.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/TelepathyFarstream-0.6.typelib
+-rw-r--r--	root/root	usr/lib/libtelepathy-farstream.a
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-farstream.la
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-farstream.so -> libtelepathy-farstream.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-farstream.so.3 -> libtelepathy-farstream.so.3.0.1
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-farstream.so.3.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/telepathy-farstream.pc
