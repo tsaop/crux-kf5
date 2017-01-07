@@ -2,9 +2,19 @@
 README for akonadi
 
 
-PRE-INSTALL
+POST-INSTALL
+MySQL is the default database backend; please install the mysql package for it
+to work.
+You can also use SQLite as a more lightweight backend.
+In order to do so, please edit
+/home/YOURUSERNAME/.config/akonadi/akonadiserverrc as follows:
 
-	You must remove kdepimlibs before upgrading to 16.04.0, as some of the
-	files are now provided by akonadi itself.
-	You can reinstall kdepimlibs afterwards.
+[Debug]
+Tracer=null
 
+[%General]
+Driver=QSQLITE3
+
+[QSQLITE3]
+Name=/home/YOURUSERNAME/.local/share/akonadi/akonadi.db
+StartServer=true
