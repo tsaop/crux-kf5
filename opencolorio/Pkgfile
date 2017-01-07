@@ -1,0 +1,20 @@
+# Description: Color management framework for visual effects and animation
+# URL: http://opencolorio.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost cmake tinyxml
+
+name=opencolorio
+version=1.0.9
+release=1
+source=(https://github.com/imageworks/OpenColorIO/archive/v$version.tar.gz)
+
+build() {
+	cd OpenColorIO-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		..
+	make
+	make DESTDIR=$PKG install
+}
