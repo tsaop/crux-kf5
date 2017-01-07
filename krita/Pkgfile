@@ -1,0 +1,33 @@
+# Description: Digital painting application
+# URL: https://www.krita.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: eigen exiv2 gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 vc xorg-xinput
+
+name=krita
+version=3.1.1
+release=1
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
+
+build() {
+
+	cd $SRC
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	../$name-$version
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+	find $PKG -type f -name "README.*" -exec rm -v {} \;
+}
