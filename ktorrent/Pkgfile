@@ -1,15 +1,18 @@
 # Description: KF5 compatible Torrent client 
 # URL: http://ktorrent.pwsp.net/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdepimlibs kross libktorrent plasma-workspace desktop-file-utils gtk
+# Depends on: kdelibs4support kdnssd kross libktorrent plasma-workspace
 
 name=ktorrent
 version=5.0.1
 release=2
-source=(http://download.kde.org/stable/$name/${version:0:3}/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/$name/${version:0:3}/$name-$version.tar.xz
+	ktorrent-5.0.1-build.patch)
 
 build() {
 	cd $name-$version
+
+	patch -Np1 -i $SRC/ktorrent-5.0.1-build.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
