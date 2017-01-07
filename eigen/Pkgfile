@@ -1,10 +1,10 @@
 # Description: C++ template library for linear algebra
 # URL: http://eigen.tuxfamily.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake fftw
+# Depends on: fftw freeglut glew
 
 name=eigen
-version=3.2.10
+version=3.3.1
 release=1
 source=(http://bitbucket.org/$name/$name/get/$version.tar.bz2)
 
