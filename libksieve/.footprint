@@ -1,0 +1,73 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/ksieve_script.knsrc
+-rw-r--r--	root/root	usr/etc/xdg/libksieve.categories
+-rw-r--r--	root/root	usr/etc/xdg/libksieve.renamecategories
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KF5/
+drwxr-xr-x	root/root	usr/include/KF5/KManageSieve/
+-rw-r--r--	root/root	usr/include/KF5/KManageSieve/SieveJob
+drwxr-xr-x	root/root	usr/include/KF5/KSieveUi/
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/CheckScriptJob
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/ManageSieveScriptsDialog
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/ManageSieveTreeView
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/ManageSieveWidget
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/RenameScriptJob
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/SieveDebugDialog
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/SieveEditor
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/SieveEditorWidget
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/SieveTreeWidgetItem
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/Util
+-rw-r--r--	root/root	usr/include/KF5/KSieveUi/VacationManager
+drwxr-xr-x	root/root	usr/include/KF5/kmanagesieve/
+-rw-r--r--	root/root	usr/include/KF5/kmanagesieve/kmanagesieve_export.h
+-rw-r--r--	root/root	usr/include/KF5/kmanagesieve/sievejob.h
+drwxr-xr-x	root/root	usr/include/KF5/ksieveui/
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/checkscriptjob.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/ksieveui_export.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/managesievescriptsdialog.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/managesievetreeview.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/managesievewidget.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/renamescriptjob.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/sievedebugdialog.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/sieveeditor.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/sieveeditorwidget.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/sievetreewidgetitem.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/util.h
+-rw-r--r--	root/root	usr/include/KF5/ksieveui/vacationmanager.h
+-rw-r--r--	root/root	usr/include/KF5/libksieve_version.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF5LibKSieve/
+-rw-r--r--	root/root	usr/lib/cmake/KF5LibKSieve/KF5LibKSieveConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5LibKSieve/KF5LibKSieveConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5LibKSieve/KF5LibKSieveTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5LibKSieve/KF5LibKSieveTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF5KManageSieve.so -> libKF5KManageSieve.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5KManageSieve.so.5 -> libKF5KManageSieve.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KManageSieve.so.5.4.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KSieve.so -> libKF5KSieve.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5KSieve.so.5 -> libKF5KSieve.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KSieve.so.5.4.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KSieveUi.so -> libKF5KSieveUi.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5KSieveUi.so.5 -> libKF5KSieveUi.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KSieveUi.so.5.4.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KManageSieve.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KSieve.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KSieveUi.pri
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/sieve.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/kservices5/
+-rw-r--r--	root/root	usr/share/kservices5/sieve.protocol
+drwxr-xr-x	root/root	usr/share/sieve/
+drwxr-xr-x	root/root	usr/share/sieve/scripts/
+drwxr-xr-x	root/root	usr/share/sieve/scripts/copy/
+-rw-r--r--	root/root	usr/share/sieve/scripts/copy/template.desktop
+-rw-r--r--	root/root	usr/share/sieve/scripts/copy/template.txt
