@@ -1,0 +1,22 @@
+# Description: Library that provides automatic proxy configuration management
+# URL: https://libproxy.github.io/libproxy/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake networkmanager
+
+name=libproxy
+version=0.4.13
+release=1
+source=(https://github.com/$name/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DLIBEXEC_INSTALL_DIR=/usr/lib/libproxy \
+		-DWITH_MOZJS=ON \
+		..
+	make
+	make DESTDIR=$PKG install
+}
