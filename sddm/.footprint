@@ -9,9 +9,8 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
+-rw-r--r--	root/root	usr/etc/sddm.conf
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/libexec/
--rwxr-xr-x	root/root	usr/lib/libexec/sddm-helper
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/SddmComponents/
@@ -28,6 +27,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/SddmComponents/
 -rw-r--r--	root/root	usr/lib/qt5/qml/SddmComponents/TextConstants.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/SddmComponents/qmldir
 -rw-r--r--	root/root	usr/lib/qt5/qml/SddmComponents/warning.png
+-rwxr-xr-x	root/root	usr/lib/sddm-helper
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
@@ -38,7 +38,7 @@ drwxr-xr-x	root/root	usr/share/man/man5/
 -rw-r--r--	root/root	usr/share/man/man5/sddm.conf.5.gz
 drwxr-xr-x	root/root	usr/share/sddm/
 drwxr-xr-x	root/root	usr/share/sddm/faces/
--rw-r--r--	root/root	usr/share/sddm/faces/default.face.icon
+-rw-r--r--	root/root	usr/share/sddm/faces/.face.icon
 -rw-r--r--	root/root	usr/share/sddm/faces/root.face.icon
 drwxr-xr-x	root/root	usr/share/sddm/flags/
 -rw-r--r--	root/root	usr/share/sddm/flags/ae.png
@@ -71,6 +71,7 @@ drwxr-xr-x	root/root	usr/share/sddm/flags/
 -rw-r--r--	root/root	usr/share/sddm/flags/hr.png
 -rw-r--r--	root/root	usr/share/sddm/flags/hu.png
 -rw-r--r--	root/root	usr/share/sddm/flags/il.png
+-rw-r--r--	root/root	usr/share/sddm/flags/in.png
 -rw-r--r--	root/root	usr/share/sddm/flags/iq.png
 -rw-r--r--	root/root	usr/share/sddm/flags/is.png
 -rw-r--r--	root/root	usr/share/sddm/flags/it.png
@@ -124,15 +125,7 @@ drwxr-xr-x	root/root	usr/share/sddm/scripts/
 -rwxr-xr-x	root/root	usr/share/sddm/scripts/Xstop
 -rwxr-xr-x	root/root	usr/share/sddm/scripts/wayland-session
 drwxr-xr-x	root/root	usr/share/sddm/themes/
-drwxr-xr-x	root/root	usr/share/sddm/themes/circles/
--rw-r--r--	root/root	usr/share/sddm/themes/circles/Main.qml
--rw-r--r--	root/root	usr/share/sddm/themes/circles/angle-down.png
--rw-r--r--	root/root	usr/share/sddm/themes/circles/background.png
--rw-r--r--	root/root	usr/share/sddm/themes/circles/circles.jpg
--rw-r--r--	root/root	usr/share/sddm/themes/circles/metadata.desktop
--rw-r--r--	root/root	usr/share/sddm/themes/circles/theme.conf
 drwxr-xr-x	root/root	usr/share/sddm/themes/elarun/
--rw-r--r--	root/root	usr/share/sddm/themes/elarun/ACKNOWLEDGEMENT
 -rw-r--r--	root/root	usr/share/sddm/themes/elarun/Main.qml
 -rw-r--r--	root/root	usr/share/sddm/themes/elarun/angle-down.png
 -rw-r--r--	root/root	usr/share/sddm/themes/elarun/elarun.jpg
@@ -153,6 +146,7 @@ drwxr-xr-x	root/root	usr/share/sddm/themes/elarun/images/
 -rw-r--r--	root/root	usr/share/sddm/themes/elarun/metadata.desktop
 -rw-r--r--	root/root	usr/share/sddm/themes/elarun/theme.conf
 drwxr-xr-x	root/root	usr/share/sddm/themes/maldives/
+-rw-r--r--	root/root	usr/share/sddm/themes/maldives/LICENSE
 -rw-r--r--	root/root	usr/share/sddm/themes/maldives/Main.qml
 -rw-r--r--	root/root	usr/share/sddm/themes/maldives/angle-down.png
 -rw-r--r--	root/root	usr/share/sddm/themes/maldives/background.jpg
@@ -160,17 +154,6 @@ drwxr-xr-x	root/root	usr/share/sddm/themes/maldives/
 -rw-r--r--	root/root	usr/share/sddm/themes/maldives/metadata.desktop
 -rw-r--r--	root/root	usr/share/sddm/themes/maldives/rectangle.png
 -rw-r--r--	root/root	usr/share/sddm/themes/maldives/theme.conf
-drwxr-xr-x	root/root	usr/share/sddm/themes/maui/
--rw-r--r--	root/root	usr/share/sddm/themes/maui/Main.qml
--rw-r--r--	root/root	usr/share/sddm/themes/maui/angle-down.png
--rw-r--r--	root/root	usr/share/sddm/themes/maui/angle-left.png
--rw-r--r--	root/root	usr/share/sddm/themes/maui/angle-right.png
--rw-r--r--	root/root	usr/share/sddm/themes/maui/background.png
--rw-r--r--	root/root	usr/share/sddm/themes/maui/maui.jpg
--rw-r--r--	root/root	usr/share/sddm/themes/maui/metadata.desktop
--rw-r--r--	root/root	usr/share/sddm/themes/maui/reboot.png
--rw-r--r--	root/root	usr/share/sddm/themes/maui/shutdown.png
--rw-r--r--	root/root	usr/share/sddm/themes/maui/theme.conf
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/lib/
 drwxr-xr-x	root/root	var/lib/sddm/
