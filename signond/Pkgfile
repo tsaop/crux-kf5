@@ -1,0 +1,27 @@
+# Description: library for managing accounts which can be used from Qt applications
+# URL: https://gitlab.com/accounts-sso/libaccounts-qt
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt5
+
+name=signond
+version=8.59
+release=1
+source=()
+
+build() 
+{
+	git clone https://gitlab.com/accounts-sso/$name.git --branch=VERSION_$version
+	cd $name
+
+	# Prevent doxygen docs from being built
+	sed -i 's|^include( *doc\/doc.pri *)||' signon.pro \
+		lib/plugins/plugins.pro \
+		lib/SignOn/SignOn.pro
+
+	qmake-qt5 PREFIX=/usr LIBDIR=/usr/lib
+
+	make
+	make INSTALL_ROOT=$PKG install
+	rm -rf $PKG/usr/share/doc
+	mv $PKG/etc $PKG/usr/etc
+}

@@ -1,0 +1,122 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/signond
+-rwxr-xr-x	root/root	usr/bin/signonpluginprocess
+drwxr-xr-x	root/root	usr/etc/
+-rw-r--r--	root/root	usr/etc/signond.conf
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/signon-extension/
+drwxr-xr-x	root/root	usr/include/signon-extension/SignOn/
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/AbstractAccessControlManager
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/AbstractCryptoManager
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/AbstractKeyAuthorizer
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/AbstractKeyManager
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/AbstractSecretsStorage
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/Debug
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/ExtensionInterface
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/KeyHandler
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/abstract-access-control-manager.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/abstract-crypto-manager.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/abstract-key-authorizer.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/abstract-key-manager.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/abstract-secrets-storage.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/debug.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/export.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/extension-interface.h
+-rw-r--r--	root/root	usr/include/signon-extension/SignOn/key-handler.h
+drwxr-xr-x	root/root	usr/include/signon-plugins/
+drwxr-xr-x	root/root	usr/include/signon-plugins/SignOn/
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/AuthPluginInterface
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/UiSessionData
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/authpluginif.h
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/blobiohandler.h
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/signonplugincommon.h
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/uisessiondata.h
+-rw-r--r--	root/root	usr/include/signon-plugins/SignOn/uisessiondata_priv.h
+-rw-r--r--	root/root	usr/include/signon-plugins/exampledata.h
+-rw-r--r--	root/root	usr/include/signon-plugins/exampleplugin.h
+-rw-r--r--	root/root	usr/include/signon-plugins/passwordplugin.h
+-rw-r--r--	root/root	usr/include/signon-plugins/ssotest2data.h
+-rw-r--r--	root/root	usr/include/signon-plugins/ssotest2plugin.h
+-rw-r--r--	root/root	usr/include/signon-plugins/ssotestplugin.h
+drwxr-xr-x	root/root	usr/include/signon-qt5/
+drwxr-xr-x	root/root	usr/include/signon-qt5/SignOn/
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/AuthService
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/AuthSession
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/Error
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/Identity
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/IdentityInfo
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/SessionData
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/authservice.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/authsession.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/identity.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/identityinfo.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/libsignoncommon.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/sessiondata.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/signon.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/signonerror.h
+drwxr-xr-x	root/root	usr/include/signond/
+-rw-r--r--	root/root	usr/include/signond/accesscontrolmanagerhelper.h
+-rw-r--r--	root/root	usr/include/signond/credentialsaccessmanager.h
+-rw-r--r--	root/root	usr/include/signond/credentialsdb.h
+-rw-r--r--	root/root	usr/include/signond/credentialsdb_p.h
+-rw-r--r--	root/root	usr/include/signond/default-crypto-manager.h
+-rw-r--r--	root/root	usr/include/signond/default-key-authorizer.h
+-rw-r--r--	root/root	usr/include/signond/default-secrets-storage.h
+-rw-r--r--	root/root	usr/include/signond/pluginproxy.h
+-rw-r--r--	root/root	usr/include/signond/signonauthsession.h
+-rw-r--r--	root/root	usr/include/signond/signonauthsessionadaptor.h
+-rw-r--r--	root/root	usr/include/signond/signoncommon.h
+-rw-r--r--	root/root	usr/include/signond/signond-common.h
+-rw-r--r--	root/root	usr/include/signond/signondaemon.h
+-rw-r--r--	root/root	usr/include/signond/signondaemonadaptor.h
+-rw-r--r--	root/root	usr/include/signond/signondisposable.h
+-rw-r--r--	root/root	usr/include/signond/signonidentity.h
+-rw-r--r--	root/root	usr/include/signond/signonidentityadaptor.h
+-rw-r--r--	root/root	usr/include/signond/signonidentityinfo.h
+-rw-r--r--	root/root	usr/include/signond/signonsessioncore.h
+-rw-r--r--	root/root	usr/include/signond/signonsessioncoretools.h
+-rw-r--r--	root/root	usr/include/signond/signontrace.h
+-rw-r--r--	root/root	usr/include/signond/signonui_interface.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/SignOnQt5/
+-rw-r--r--	root/root	usr/lib/cmake/SignOnQt5/SignOnQt5Config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/SignOnQt5/SignOnQt5ConfigVersion.cmake
+lrwxrwxrwx	root/root	usr/lib/libsignon-extension.so -> libsignon-extension.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-extension.so.1 -> libsignon-extension.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-extension.so.1.0 -> libsignon-extension.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libsignon-extension.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-plugins-common.so -> libsignon-plugins-common.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-plugins-common.so.1 -> libsignon-plugins-common.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-plugins-common.so.1.0 -> libsignon-plugins-common.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libsignon-plugins-common.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-plugins.so -> libsignon-plugins.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-plugins.so.1 -> libsignon-plugins.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-plugins.so.1.0 -> libsignon-plugins.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libsignon-plugins.so.1.0.0
+-rw-r--r--	root/root	usr/lib/libsignon-qt5.a
+lrwxrwxrwx	root/root	usr/lib/libsignon-qt5.so -> libsignon-qt5.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-qt5.so.1 -> libsignon-qt5.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsignon-qt5.so.1.0 -> libsignon-qt5.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libsignon-qt5.so.1.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/SignOnExtension.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libsignon-qt5.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/signon-plugins-common.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/signon-plugins.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/signond.pc
+drwxr-xr-x	root/root	usr/lib/signon/
+-rwxr-xr-x	root/root	usr/lib/signon/libexampleplugin.so
+-rwxr-xr-x	root/root	usr/lib/signon/libpasswordplugin.so
+-rwxr-xr-x	root/root	usr/lib/signon/libssotest2plugin.so
+-rwxr-xr-x	root/root	usr/lib/signon/libssotestplugin.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.SingleSignOn.AuthService.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.SingleSignOn.AuthSession.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.SingleSignOn.Identity.xml
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service
+-rw-r--r--	root/root	usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service
