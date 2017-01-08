@@ -1,0 +1,17 @@
+# Description: Library to render PostScript documents
+# URL: https://www.freedesktop.org/wiki/Software/libspectre/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: ghostscript
+
+name=libspectre
+version=0.2.8
+release=1
+source=(https://$name.freedesktop.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
