@@ -1,7 +1,7 @@
 # Description: Small system to administer web accounts for the sites and services across the KDE desktop
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils libaccounts-qt signond
+# Depends on: kcmutils signon-kwallet-extension signon-plugin-oauth2 signon-ui
 
 name=kaccounts-integration
 version=16.12.0
