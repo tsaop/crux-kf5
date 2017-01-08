@@ -1,7 +1,8 @@
 # Description: The new KDE screenshotting utility
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kio kscreen desktop-file-utils gtk
+# Depends on: kdeclarative xorg-xcb-util-cursor
+# Optional: libkipi purpose
 
 name=spectacle
 version=16.12.0
