@@ -1,11 +1,11 @@
 # Description:  Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5 
 # URL: http://otter-browser.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt5 cmake qtwebengine
+# Depends on: hunspell qtwebengine qtwebkit
 
 name=otter-browser
-version=0.9.11
-release=3
+version=0.9.12
+release=1
 source=(https://github.com/OtterBrowser/$name/archive/v$version.tar.gz)
 
 build() {
