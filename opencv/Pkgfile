@@ -1,0 +1,35 @@
+# Description: Open Source Computer Vision Library 
+# URL: http://opencv.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: eigen ffmpeg gtkglext jasper libgphoto2 libwebp openexr qt5
+
+name=opencv
+version=3.2.0
+release=1
+source=(https://github.com/$name/$name/archive/$version.tar.gz)
+
+build() {
+	# Download and extract OpenCV extra modules:
+	wget https://github.com/opencv/opencv_contrib/archive/$version.tar.gz \
+		-O $name-contrib-$version.tar.gz
+	tar xf $name-contrib-$version.tar.gz
+
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DOPENCV_EXTRA_MODULES_PATH=../../${name}_contrib-$version/modules \
+		-DWITH_QT=ON \
+		-DWITH_OPENGL=ON \
+		-DWITH_GTK_2_X=ON \
+		-DWITH_GSTREAMER=OFF \
+		-DWITH_V4L=OFF \
+		-DBUILD_TESTS=OFF \
+		-DBUILD_PERF_TESTS=OFF \
+		-DPYTHON3_EXECUTABLE=/dev/null \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
