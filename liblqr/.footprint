@@ -1,0 +1,27 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/lqr-1/
+-rw-r--r--	root/root	usr/include/lqr-1/lqr.h
+drwxr-xr-x	root/root	usr/include/lqr-1/lqr/
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_base.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_carver_bias_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_carver_list_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_carver_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_carver_rigmask_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_cursor_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_energy_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_gradient_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_progress_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_rwindow_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_vmap_list_pub.h
+-rw-r--r--	root/root	usr/include/lqr-1/lqr/lqr_vmap_pub.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/liblqr-1.la
+lrwxrwxrwx	root/root	usr/lib/liblqr-1.so -> liblqr-1.so.0.3.2
+lrwxrwxrwx	root/root	usr/lib/liblqr-1.so.0 -> liblqr-1.so.0.3.2
+-rwxr-xr-x	root/root	usr/lib/liblqr-1.so.0.3.2
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/lqr-1.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man3/

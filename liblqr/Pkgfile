@@ -1,0 +1,19 @@
+# Description: Liquid Rescale Library
+# URL: http://liblqr.wikidot.com/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glib
+
+name=liblqr
+version=0.4.2
+release=1
+source=(http://liblqr.wdfiles.com/local--files/en:download-page/$name-1-$version.tar.bz2)
+
+build() {
+	cd $name-1-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+
+	make
+	make DESTDIR=$PKG install
+}
