@@ -1,0 +1,31 @@
+# Description: Advanced digital photo management application for KDE
+# URL: http://www.digikam.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: akonadi-contacts kcalcore kfilemetadata knotifyconfig libkipi liblqr opencv qtav threadweaver lensfun
+
+name=digikam
+version=5.4.0
+release=1
+source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DENABLE_OPENCV3=ON \
+		-DENABLE_KFILEMETADATASUPPORT=ON \
+		-DENABLE_MEDIAPLAYER=ON \
+		-DENABLE_AKONADICONTACTSUPPORT=ON \
+		-DENABLE_APPSTYLES=ON \
+		-DBUILD_TESTING=OFF \
+		-DDIGIKAMSC_COMPILE_PO=OFF \
+		-DDIGIKAMSC_COMPILE_DOC=OFF \
+		-DCMAKE_CXX_FLAGS="-L/usr/lib" \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
