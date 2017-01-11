@@ -24,7 +24,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/fish.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/info.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/man.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/mtp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/network.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/nfs.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/recentdocuments.so
@@ -56,10 +55,6 @@ drwxr-xr-x	root/root	usr/share/konqsidebartng/
 drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/
 drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/remote/
 -rw-r--r--	root/root	usr/share/konqsidebartng/virtual_folders/remote/virtualfolder_network.desktop
-drwxr-xr-x	root/root	usr/share/konqueror/
-drwxr-xr-x	root/root	usr/share/konqueror/dirtree/
-drwxr-xr-x	root/root	usr/share/konqueror/dirtree/remote/
--rw-r--r--	root/root	usr/share/konqueror/dirtree/remote/mtp-network.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/about.protocol
 -rw-r--r--	root/root	usr/share/kservices5/activities.protocol
@@ -82,7 +77,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kraorathumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/lzma.protocol
 -rw-r--r--	root/root	usr/share/kservices5/man.protocol
--rw-r--r--	root/root	usr/share/kservices5/mtp.protocol
 -rw-r--r--	root/root	usr/share/kservices5/network.protocol
 -rw-r--r--	root/root	usr/share/kservices5/nfs.protocol
 -rw-r--r--	root/root	usr/share/kservices5/recentdocuments.protocol
@@ -101,8 +95,4 @@ drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/kf5_network.xml
 drwxr-xr-x	root/root	usr/share/remoteview/
--rw-r--r--	root/root	usr/share/remoteview/mtp-network.desktop
 -rw-r--r--	root/root	usr/share/remoteview/network.desktop
-drwxr-xr-x	root/root	usr/share/solid/
-drwxr-xr-x	root/root	usr/share/solid/actions/
--rw-r--r--	root/root	usr/share/solid/actions/solid_mtp.desktop
