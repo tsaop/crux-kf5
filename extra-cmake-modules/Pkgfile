@@ -4,8 +4,8 @@
 # Depends on: cmake
 
 name=extra-cmake-modules
-version=5.29.0
-release=2
+version=5.30.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {

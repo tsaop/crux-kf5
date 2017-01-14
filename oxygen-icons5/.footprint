@@ -122,6 +122,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/dragonplayer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/esd.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/expoblending.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/fontforge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/graphics-viewer-document.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/gwenview.png
@@ -134,6 +135,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/k3b.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kaddressbook.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kaffeine.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kalarm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kblogger.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kbruch.png
@@ -194,6 +196,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/apps/office-calendar.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/okteta.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/okular.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/oxygen.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/partitionmanager.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/picmi.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/planner.png
@@ -842,20 +845,28 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/actor.png -> im-u
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/add-placemark.png -> flag-red.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/address-book-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/addressbook-details.png -> address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/adress-book-new.png -> address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/akonadi-phone-home.png -> go-home.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/albumfolder-importdir.png -> folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/albumfolder-importimages.png -> document-import.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/albumfolder-new.png -> folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/albumfolder-properties.png -> configure.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/albumfolder-user-trash.png -> edit-delete.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-left-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-left-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-right-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-right-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-right.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-horizontal-top-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-bottom-out.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-bottom-to-anchor.png -> align-vertical-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-top-out.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-top-to-anchor.png -> align-horizontal-top-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/align-vertical-top.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/amarok_artist.png -> im-invisible-user.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/amarok_clock.png -> appointment-new.png
@@ -881,11 +892,13 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/applications-inte
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/arrow-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/arrow-up-double.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/arrow-up.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/atmosphere.png -> ../categories/applications-internet.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/audio-on.png -> player-volume.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmark-add-folder.png -> bookmark-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmark-edit.png -> bookmark-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmark-new-list.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmark-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmark-remove.png -> list-remove.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmark-toolbar.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmarks-organize.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/bookmarks.png -> bookmark-new.png
@@ -920,10 +933,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/clock.png -> appo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/code-variable.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/collection-rescan-amarok.png -> view-refresh.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/color-fill.png -> fill-color.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/color-management.png -> fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/color-picker-white.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/color-picker.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/colormanagement.png -> fill-color.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/component.png -> address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/configure-shortcuts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/configure-toolbars.png
@@ -955,18 +970,22 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/dialog-transform.
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/dirsync.png -> folder-sync.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-equal.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-gaps.png -> distribute-horizontal-x.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-margin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-x.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal.png -> distribute-horizontal-x.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-equal.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-gaps.png -> distribute-vertical-y.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-margin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical-y.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/distribute-vertical.png -> distribute-vertical-y.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-cleanup.png -> edit-clear.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-decrypt.png
@@ -984,6 +1003,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-export-o
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-import-ocal.png -> document-import.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-import.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-multiple.png -> edit-copy.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-new-from-template.png -> document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-open-data.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-open-folder.png
@@ -1001,10 +1021,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-multiple
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-save-all.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-save-as.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-save.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/document-share.png -> document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-sign.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/document-swap.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/documentation.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/documentinfo.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/download-amarok.png -> download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/download-later.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/draw-arrow-back.png
@@ -1048,6 +1070,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/draw-eraser-delet
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-cut.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-delete-shred.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-delete.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-download.png -> download.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-duplicate.png -> edit-copy.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-entry.png -> document-edit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-find-mail.png
@@ -1206,6 +1229,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-ok.png -> dia
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-properties.png -> configure.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-quit.png -> application-exit.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-select-color.png -> color-picker.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-select-font.png -> draw-text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-stop.png -> dialog-cancel.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-undelete-ltr.png -> edit-undo.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/gtk-undelete-rtl.png -> edit-redo.png
@@ -1218,6 +1242,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/guides.png -> sna
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/help-feedback.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/help-hint.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/help-keybord-shortcuts.png -> ../categories/applications-system.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/hint.png -> layer-visible-off.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/identity.png -> address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/im-aim.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/im-ban-kick-user.png
@@ -1249,6 +1274,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/insert-table-row.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/insert-text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/interface.png -> edit-guides.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/internet-amarok.png -> ../places/folder-html.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/irc-channel-active.png -> irc-join-channel.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/irc-channel-inactive.png -> irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/irc-join-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/irc-operator.png
@@ -1299,6 +1326,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/labplot-transform
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/layer-rename.png -> document-edit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/layer-visible-off.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/layer-visible-on.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/lighttable.png -> help-hint.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/lighttableadd.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/list-add-font.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/list-add-user.png
@@ -1446,6 +1474,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/preferences-media
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/quickopen-file.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/quickopen.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/quickview.png -> layer-visible-on.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/rating.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/ratiocrop.png -> transform-crop.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/refactor.png -> view-refresh.png
@@ -1694,6 +1723,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/viewimage.png -> 
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/window-close.png -> dialog-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/window-duplicate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/window-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/window-next.png -> go-next-view-page.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/window-previous.png -> go-previous-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-clementine-artist.png -> im-user.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-shape-image.png -> view-preview.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-shape-text.png -> view-list-text.png
@@ -1719,6 +1750,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/zoom-select-fit.p
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/zoom-select-x.png -> zoom-fit-width.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/zoom-select-y.png -> zoom-fit-height.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/zoom-select.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/zoom.png -> zoom-fit-best.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/animations/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/animations/process-idle-kde.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/animations/process-working-kde.png
@@ -1746,6 +1778,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/dragonplayer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/esd.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/expoblending.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/fontforge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/graphics-viewer-document.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/gwenview.png
@@ -1758,6 +1791,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/apps/internet-mail.png ->
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/java.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/k3b.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kaffeine.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kalarm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kblogger.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kbruch.png
@@ -1816,6 +1850,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/apps/knetattach.png -> ..
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/okteta.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/okular.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/oxygen.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/partitionmanager.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/picmi.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/plasma.png
@@ -2374,6 +2409,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/x-office-spread
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/places/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/certificate-server.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/desktop.png -> user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/document-multiple.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/favorites.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-activities.png
@@ -2423,6 +2459,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/folder-videos.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-violet.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-yellow.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/folder_html.png -> folder-html.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/mail-folder-inbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/mail-folder-outbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/mail-folder-sent.png
@@ -2555,20 +2592,28 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/activity-fork.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/actor.png -> im-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/address-book-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/addressbook-details.png -> address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/adress-book-new.png -> address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/akonadi-phone-home.png -> go-home.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/albumfolder-importdir.png -> folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/albumfolder-importimages.png -> document-import.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/albumfolder-new.png -> folder-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/albumfolder-properties.png -> configure.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/albumfolder-user-trash.png -> edit-delete.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-bottom-out.png -> align-vertical-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-left-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-left-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-right-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-right-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-right.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-horizontal-top-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-bottom-out.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-bottom-to-anchor.png -> align-vertical-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-top-out.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-top-to-anchor.png -> align-horizontal-top-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/align-vertical-top.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/amarok_artist.png -> im-user.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/amarok_clock.png -> appointment-new.png
@@ -2595,10 +2640,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/applications-inte
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/arrow-up-double.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/arrow-up.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/arrow.png -> edit-select.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/atmosphere.png -> ../categories/applications-internet.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmark-add-folder.png -> bookmark-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmark-edit.png -> bookmark-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmark-new-list.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmark-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmark-remove.png -> list-remove.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmark-toolbar.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmarks-organize.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/bookmarks.png
@@ -2628,10 +2675,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/clock.png -> appo
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/code-variable.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/collection-rescan-amarok.png -> view-refresh.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/color-fill.png -> fill-color.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/color-management.png -> fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/color-picker-white.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/color-picker.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/colormanagement.png -> fill-color.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/component.png -> address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/configure-shortcuts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/configure-toolbars.png
@@ -2661,18 +2710,22 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/dirsync.png -> fo
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/distortionfx.png -> draw-spiral.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-equal.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-gaps.png -> distribute-horizontal-x.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-margin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-x.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal.png -> distribute-horizontal-x.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-equal.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-gaps.png -> distribute-vertical-y.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-margin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical-y.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/distribute-vertical.png -> distribute-vertical-y.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-decrypt.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-edit-decrypt-verify.png
@@ -2688,6 +2741,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/distortionfx.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-import.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/document-multiple.png -> edit-copy.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/document-new-from-template.png -> document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/document-open-data.png -> document-open.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-open-folder.png
@@ -2705,9 +2759,11 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/document-open-dat
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-save-all.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-save-as.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-save.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/document-share.png -> document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/document-sign.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/documentation.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/documentinfo.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/download-amarok.png -> download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/download-later.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/draw-arrow-back.png
@@ -2749,6 +2805,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/document-open-dat
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-cut.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-delete-shred.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-delete.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-download.png -> download.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-entry.png -> document-edit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-find-mail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-find-project.png
@@ -2908,6 +2965,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-ok.png -> dia
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-properties.png -> configure.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-quit.png -> application-exit.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-select-color.png -> color-picker.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-select-font.png -> draw-text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-stop.png -> dialog-cancel.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-undelete-ltr.png -> edit-undo.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/gtk-undelete-rtl.png -> edit-redo.png
@@ -2919,6 +2977,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/guides.png -> sna
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/help-donate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/help-feedback.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/help-hint.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/hint.png -> layer-visible-off.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/identity.png -> address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/im-aim.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/im-ban-kick-user.png
@@ -2951,6 +3010,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/insert-table-row.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/insert-text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/interface.png -> edit-guides.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/internet-amarok.png -> ../places/folder-html.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/irc-channel-active.png -> irc-join-channel.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/irc-channel-inactive.png -> irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/irc-join-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/irc-operator.png
@@ -3013,6 +3074,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/labplot-zoom-sele
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/labplot-zoom-select.png -> zoom-fit-best.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/layer-visible-off.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/layer-visible-on.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/lighttable.png -> help-hint.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/lighttableadd.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/list-add-font.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/list-add-user.png
@@ -3170,6 +3232,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/preferences-media
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/quickopen-file.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/quickopen.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/quickview.png -> layer-visible-on.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/rating.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/ratiocrop.png -> transform-crop.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/refactor.png -> view-refresh.png
@@ -3417,6 +3480,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/viewimage.png -> 
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/window-close.png -> dialog-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/window-duplicate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/window-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/window-next.png -> go-next-view-page.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/window-previous.png -> go-previous-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/x-shape-image.png -> view-preview.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/x-shape-text.png -> view-list-text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom-1-to-2.png
@@ -3437,6 +3502,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom-select-fit.p
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom-select-x.png -> zoom-fit-width.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom-select-y.png -> zoom-fit-height.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom-select.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom.png -> zoom-fit-best.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/animations/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/animations/process-idle-kde.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/animations/process-idle.png
@@ -3465,6 +3531,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/dragonplayer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/esd.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/expoblending.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/filelight.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/fontforge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/graphics-viewer-document.png
@@ -3479,6 +3546,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/k3b.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/apps/kaddressbook.png -> ../actions/view-pim-contacts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kaffeine.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kalarm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kblogger.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kbruch.png
@@ -3536,6 +3604,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/apps/knetattach.png -> ..
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/okteta.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/okular.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/oxygen.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/partitionmanager.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/picmi.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/plasma.png
@@ -4139,6 +4208,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/x-office-spread
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/places/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/certificate-server.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/desktop.png -> user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/document-multiple.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/favorites.png -> bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-activities.png
@@ -4188,6 +4258,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/folder-videos.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-violet.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-yellow.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/folder.png -> ../mimetypes/inode-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/folder_html.png -> folder-html.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/mail-folder-inbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/mail-folder-outbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/mail-folder-sent.png
@@ -4879,15 +4950,25 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/status/
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/adress-book-new.png -> address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/akonadi-phone-home.png -> go-home.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/albumfolder-importdir.png -> ../places/folder-image.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/albumfolder-importimages.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/albumfolder-new.png -> folder-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/albumfolder-properties.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-left-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-left-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-right-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-right-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-horizontal-top-out.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/align-vertical-bottom-to-anchor.png -> align-horizontal-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-vertical-center.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/align-vertical-top-to-anchor.png -> align-horizontal-top-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/align-vertical-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/application-exit.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/application-menu.png -> configure.png
@@ -4904,9 +4985,11 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/application-menu.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/arrow-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/arrow-up-double.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/arrow-up.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/atmosphere.png -> ../categories/applications-internet.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/blurimage.png -> color-picker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/bookmark-new-list.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/bookmark-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/bookmark-remove.png -> list-remove.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/bookmark-toolbar.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/bookmarks-organize.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/call-start.png
@@ -4920,10 +5003,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/blurimage.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/code-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/code-typedef.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/code-variable.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/color-management.png -> fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/color-picker-white.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/color-picker.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/colormanagement.png -> fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/configure-shortcuts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/configure-toolbars.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/configure.png
@@ -4944,18 +5029,22 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/blurimage.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/dialog-ok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-equal.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-gaps.png -> distribute-horizontal-x.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-margin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-x.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal.png -> distribute-horizontal-x.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-equal.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-gaps.png -> distribute-vertical-y.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-margin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical-y.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/distribute-vertical.png -> distribute-vertical-y.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-decrypt.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-edit-decrypt-verify.png
@@ -4970,6 +5059,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/blurimage.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-export-table.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-import.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/document-new-from-template.png -> document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-open-folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-open-recent.png
@@ -4986,8 +5076,10 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/blurimage.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-save-all.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-save-as.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-save.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/document-share.png -> document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/document-sign.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/documentation.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/download-amarok.png -> download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/download-later.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/draw-arrow-back.png
@@ -5029,6 +5121,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/blurimage.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-cut.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-delete-shred.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-delete.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-download.png -> download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-find-mail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-find-project.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-find-replace.png
@@ -5140,12 +5233,14 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/format-fill-color
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-up-search.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-up.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/gtk-select-font.png -> draw-text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/help-about.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/help-contents.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/help-contextual.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/help-donate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/help-feedback.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/help-hint.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/hint.png -> layer-visible-off.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/im-aim.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/im-ban-kick-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/im-ban-user.png
@@ -5172,6 +5267,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/im-skype.png -> c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/insert-link.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/insert-table.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/insert-text.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/irc-channel-active.png -> irc-join-channel.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/irc-channel-inactive.png -> irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/irc-join-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/irc-operator.png
@@ -5182,6 +5279,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/im-skype.png -> c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/key-enter.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/layer-visible-off.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/layer-visible-on.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/lighttable.png -> help-hint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/list-add-font.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/list-add-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/list-add.png
@@ -5278,6 +5376,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/im-skype.png -> c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/quickopen-file.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/quickopen.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/quickview.png -> layer-visible-on.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/rating.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/resource-calendar-child-insert.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/resource-calendar-child.png
@@ -5334,6 +5433,18 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/im-skype.png -> c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tab-duplicate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tab-new-background.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tab-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-addresbook.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-assigned.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-delete.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-events.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-folder.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-people.png -> ../places/user-identity.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-places.png -> ../categories/applications-internet.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-properties.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-recents.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag-reset.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/tag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/task-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/taxes-finances.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/text-field.png
@@ -5486,6 +5597,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/view-media-visual
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-close.png -> dialog-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/window-duplicate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/window-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-next.png -> go-next-view-page.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-previous.png -> go-previous-view-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-1-to-2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-2-to-1.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-draw.png
@@ -5498,6 +5611,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-close.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-previous.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-select.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom.png -> zoom-fit-best.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/animations/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/animations/process-idle-kde.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/animations/process-working-kde.png
@@ -5514,6 +5628,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/apps/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/amarok_change_language.png -> preferences-desktop-locale.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/application-sxw.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ark.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/baloo.png -> nepomuk.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/braindump.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/calligraauthor.png
@@ -5528,6 +5643,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/amarok_change_langua
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/dragonplayer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/esd.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/expoblending.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/filelight.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/fontforge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/graphics-viewer-document.png
@@ -5541,6 +5657,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/amarok_change_langua
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/java.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/k3b.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kaffeine.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kalarm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kblogger.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kbruch.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/kbugbuster.png -> ../actions/tools-report-bug.png
@@ -5598,12 +5715,14 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/korg-todo.png -> ../
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/office-calendar.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/okteta.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/oxygen.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/partitionmanager.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/picmi.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/plasma.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/plasmagik.png -> ../actions/tools-wizard.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/preferences-contact-list.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/preferences-desktop-accessibility.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/preferences-desktop-baloo.png -> ../actions/system-search.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/preferences-desktop-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/preferences-desktop-cryptography.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/preferences-desktop-default-applications.png
@@ -5882,7 +6001,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-deb.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-designer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-desktop.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-egon.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-egon.png -> ../actions/albumfolder-importimages.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-executable-script.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-executable.png -> application-x-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/application-x-flash-video.png -> application-x-shockwave-flash.png
@@ -6162,6 +6281,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/x-office-spread
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/places/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/certificate-server.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/desktop.png -> user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/document-multiple.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/favorites.png -> bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-activities.png
@@ -6211,6 +6331,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/folder-videos.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-violet.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-yellow.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/folder.png -> ../mimetypes/inode-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/folder_html.png -> folder-html.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/library-music.png -> folder-sound.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/mail-folder-inbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/mail-folder-outbox.png
@@ -6326,15 +6447,21 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-storm-nigh
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/adress-book-new.png -> address-book-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/akonadi-phone-home.png -> go-home.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-center.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-left-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-left-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-right-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-right-to-anchor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-horizontal-top-out.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/align-vertical-bottom-to-anchor.png -> align-horizontal-bottom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-vertical-bottom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-vertical-center.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/align-vertical-top-to-anchor.png -> align-horizontal-top-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/align-vertical-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/application-exit.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/application-menu.png -> configure.png
@@ -6351,8 +6478,10 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/application-menu.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/arrow-right.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/arrow-up-double.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/arrow-up.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/atmosphere.png -> ../categories/applications-internet.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/bookmark-new-list.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/bookmark-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/bookmark-remove.png -> list-remove.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/bookmark-toolbar.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/bookmarks-organize.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/call-start.png
@@ -6365,10 +6494,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/application-menu.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/code-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/code-typedef.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/code-variable.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/color-management.png -> fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/color-picker-white.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/color-picker.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/colormanagement.png -> fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/configure-shortcuts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/configure-toolbars.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/configure.png
@@ -6401,6 +6532,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/application-menu.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-export-table.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-import.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/document-new-from-template.png -> document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-open-folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-open-recent.png
@@ -6417,8 +6549,10 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/application-menu.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-save-all.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-save-as.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-save.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/document-share.png -> document-export.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/document-sign.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/documentation.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/download-amarok.png -> download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/download-later.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/draw-bezier-curves.png
@@ -6450,6 +6584,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/application-menu.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-cut.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-delete-shred.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-delete.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-download.png -> download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-find-mail.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-find-project.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-find-user.png
@@ -6558,12 +6693,14 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/format-fill-color
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-up-search.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-up.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/gtk-select-font.png -> draw-text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/help-about.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/help-contents.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/help-contextual.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/help-donate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/help-feedback.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/help-hint.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/hint.png -> layer-visible-off.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/im-aim.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/im-ban-kick-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/im-ban-user.png
@@ -6590,6 +6727,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/format-fill-color
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/insert-link.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/insert-table.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/insert-text.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/irc-channel-active.png -> irc-join-channel.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/irc-channel-inactive.png -> irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/irc-close-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/irc-join-channel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/irc-operator.png
@@ -6599,6 +6738,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/format-fill-color
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/key-enter.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/layer-visible-off.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/layer-visible-on.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/lighttable.png -> help-hint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/list-add-font.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/list-add-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/list-add.png
@@ -6690,6 +6830,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/format-fill-color
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/quickopen-file.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/quickopen.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/quickview.png -> layer-visible-on.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/rating.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/resource-calendar-child-insert.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/resource-calendar-child.png
@@ -6893,6 +7034,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/view-media-visual
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-close.png -> dialog-close.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/window-duplicate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/window-new.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-next.png -> go-next-view-page.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-previous.png -> go-previous-view-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/window-suppressed.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-1-to-2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-2-to-1.png
@@ -6906,6 +7049,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-close.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-out.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-previous.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-select.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom.png -> zoom-fit-best.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/animations/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/animations/process-idle-kde.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/animations/process-working-kde.png
@@ -6932,6 +7076,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/clock.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/esd.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/expoblending.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/filelight.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/fontforge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/graphics-viewer-document.png
@@ -6947,6 +7092,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/apps/inkscape-logo.png ->
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/k3b.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/apps/kaddressbook.png -> ../actions/view-pim-contacts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kaffeine.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kalarm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kblogger.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kbruch.png
@@ -7009,6 +7155,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/apps/network-manager.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/okteta.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/apps/okular.png -> graphics-viewer-document.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/oxygen.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/partitionmanager.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/picmi.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/plasma.png
@@ -7551,6 +7698,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/x-office-spread
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/places/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/certificate-server.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/desktop.png -> user-desktop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/document-multiple.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/favorites.png -> bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-activities.png
@@ -7601,6 +7749,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/folder-videos.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-violet.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-yellow.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/folder.png -> ../mimetypes/inode-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/folder_html.png -> folder-html.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/mail-folder-inbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/mail-folder-outbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/mail-folder-sent.png
@@ -7828,6 +7977,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/k3b.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/apps/kaddressbook.png -> ../actions/view-pim-contacts.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kaffeine.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kalarm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kblogger.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kbruch.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/apps/kbugbuster.png -> ../actions/tools-report-bug.png
