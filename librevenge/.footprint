@@ -1,0 +1,54 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/librevenge-0.0/
+drwxr-xr-x	root/root	usr/include/librevenge-0.0/librevenge-generators/
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGCSVSpreadsheetGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGHTMLTextGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGRawDrawingGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGRawPresentationGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGRawSpreadsheetGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGRawTextGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGSVGPresentationGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGTextDrawingGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGTextPresentationGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGTextSpreadsheetGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/RVNGTextTextGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/librevenge-generators-api.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-generators/librevenge-generators.h
+drwxr-xr-x	root/root	usr/include/librevenge-0.0/librevenge-stream/
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-stream/RVNGDirectoryStream.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-stream/RVNGStream.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-stream/RVNGStreamImplementation.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-stream/librevenge-stream-api.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge-stream/librevenge-stream.h
+drwxr-xr-x	root/root	usr/include/librevenge-0.0/librevenge/
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGBinaryData.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGDrawingInterface.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGPresentationInterface.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGProperty.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGPropertyList.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGPropertyListVector.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGSVGDrawingGenerator.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGSpreadsheetInterface.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGString.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGStringVector.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/RVNGTextInterface.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/librevenge-api.h
+-rw-r--r--	root/root	usr/include/librevenge-0.0/librevenge/librevenge.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/librevenge-0.0.la
+lrwxrwxrwx	root/root	usr/lib/librevenge-0.0.so -> librevenge-0.0.so.0.0.4
+lrwxrwxrwx	root/root	usr/lib/librevenge-0.0.so.0 -> librevenge-0.0.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/librevenge-0.0.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/librevenge-generators-0.0.la
+lrwxrwxrwx	root/root	usr/lib/librevenge-generators-0.0.so -> librevenge-generators-0.0.so.0.0.4
+lrwxrwxrwx	root/root	usr/lib/librevenge-generators-0.0.so.0 -> librevenge-generators-0.0.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/librevenge-generators-0.0.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/librevenge-stream-0.0.la
+lrwxrwxrwx	root/root	usr/lib/librevenge-stream-0.0.so -> librevenge-stream-0.0.so.0.0.4
+lrwxrwxrwx	root/root	usr/lib/librevenge-stream-0.0.so.0 -> librevenge-stream-0.0.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/librevenge-stream-0.0.so.0.0.4
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/librevenge-0.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/librevenge-generators-0.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/librevenge-stream-0.0.pc
