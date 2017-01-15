@@ -1,0 +1,26 @@
+# Description: Library that parses the file format of Apple iWork documents
+# URL: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glm liblangtag librevenge mdds
+
+name=libetonyek
+version=0.1.6
+release=1
+source=(http://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz
+	libetonyek-0.1.6-mdds-1.2.patch)
+
+build() {
+	cd $name-$version
+	
+	# fix building with mdds 1.2
+	patch -Np1 -i $SRC/libetonyek-0.1.6-mdds-1.2.patch
+
+	autoreconf -vfi
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--disable-tests \
+		--with-mdds=1.2
+
+	make
+	make DESTDIR=$PKG install
+}
