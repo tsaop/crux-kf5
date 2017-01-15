@@ -5,7 +5,7 @@
 
 name=phonon-qt5
 version=4.9.0
-release=2
+release=3
 source=(http://download.kde.org/stable/${name%-qt5}/$version/${name%-qt5}-$version.tar.xz)
 
 build() {
@@ -15,7 +15,7 @@ build() {
 		\
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DSYSCONF_INSTALL_DIR=/usr/etc \
-		-DLIB_INSTALL_DIR=/usr/lib \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
 		-D__KDE_HAVE_GCC_VISIBILITY=NO \
 		-DCMAKE_BUILD_TYPE=RELEASE \
 		-DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON \
