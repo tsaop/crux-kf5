@@ -1,0 +1,19 @@
+# Description: Library for transforming Matlab/Octave files to C++ (with Eigen) and Matlab
+# URL: https://bitbucket.org/cyrille/cauchy
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: eigen
+
+name=cauchy
+version=0.9.0
+release=1
+source=(https://bitbucket.org/cyrille/cauchy/get/v$version.tar.bz2)
+
+build() {
+	cd cyrille-$name-*
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release
+
+	make
+	make DESTDIR=$PKG install
+}

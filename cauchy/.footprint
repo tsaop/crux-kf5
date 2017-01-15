@@ -1,0 +1,50 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/cauchydeclgen
+-r-x---r-x	root/root	usr/bin/cauchymake
+-rwxr-xr-x	root/root	usr/bin/cauchymc
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/Cauchy/
+-rw-r--r--	root/root	usr/include/Cauchy/Config.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3.cfd
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3.h
+drwxr-xr-x	root/root	usr/include/Cauchy/Eigen3/
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Complex.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/ComplexOperators.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Cond.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Display.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Eig.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/FEval.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/FFT.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Infinity.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Inv.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/LU.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Math.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Matrix.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/MatrixIterator.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/MatrixOperators.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Norm.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/NumberTypes.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Octave.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Quad.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Range.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/RangeIterator.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/SVD.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Sort.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/System.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Time.h
+-rw-r--r--	root/root	usr/include/Cauchy/Eigen3/Unknown.h
+-rw-r--r--	root/root	usr/include/Cauchy/Octave.cfd
+-rw-r--r--	root/root	usr/include/Cauchy/Standard.cfd
+-rw-r--r--	root/root	usr/include/Cauchy/xUnit.cfd
+-rw-r--r--	root/root	usr/include/m2mml.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libCauchy.so -> libCauchy.so.0.0
+lrwxrwxrwx	root/root	usr/lib/libCauchy.so.0.0 -> libCauchy.so.0.9.13
+-rwxr-xr-x	root/root	usr/lib/libCauchy.so.0.9.13
+lrwxrwxrwx	root/root	usr/lib/libCauchyXUnit.so -> libCauchyXUnit.so.0.0
+lrwxrwxrwx	root/root	usr/lib/libCauchyXUnit.so.0.0 -> libCauchyXUnit.so.0.9.13
+-rwxr-xr-x	root/root	usr/lib/libCauchyXUnit.so.0.9.13
+lrwxrwxrwx	root/root	usr/lib/libm2mml.so -> libm2mml.so.0.0
+lrwxrwxrwx	root/root	usr/lib/libm2mml.so.0.0 -> libm2mml.so.0.9.13
+-rwxr-xr-x	root/root	usr/lib/libm2mml.so.0.9.13
