@@ -1,0 +1,20 @@
+# Description:  Library for importing WordPerfect documents
+# URL: http://libwpd.sourceforge.net
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: librevenge
+
+name=libwpd
+version=0.10.1
+release=1
+source=(http://prdownloads.sourceforge.net/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--disable-tests
+
+	make
+	make DESTDIR=$PKG install
+}

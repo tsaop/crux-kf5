@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/wpd2html
+-rwxr-xr-x	root/root	usr/bin/wpd2raw
+-rwxr-xr-x	root/root	usr/bin/wpd2text
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libwpd-0.10/
+drwxr-xr-x	root/root	usr/include/libwpd-0.10/libwpd/
+-rw-r--r--	root/root	usr/include/libwpd-0.10/libwpd/WPDocument.h
+-rw-r--r--	root/root	usr/include/libwpd-0.10/libwpd/libwpd.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libwpd-0.10.la
+lrwxrwxrwx	root/root	usr/lib/libwpd-0.10.so -> libwpd-0.10.so.10.0.1
+lrwxrwxrwx	root/root	usr/lib/libwpd-0.10.so.10 -> libwpd-0.10.so.10.0.1
+-rwxr-xr-x	root/root	usr/lib/libwpd-0.10.so.10.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libwpd-0.10.pc
