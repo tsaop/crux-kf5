@@ -22,7 +22,7 @@ build() {
 	-DCMAKE_BUILD_TYPE=Release \
 	-Wno-dev \
 	../$name-$version
-exit 0
+	
 	make
 	make DESTDIR=$PKG install
 
