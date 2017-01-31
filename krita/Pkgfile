@@ -5,7 +5,7 @@
 
 name=krita
 version=3.1.1
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
 
 build() {
@@ -29,5 +29,6 @@ build() {
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
-	find $PKG -type f -name "README.*" -exec rm -v {} \;
+	find $PKG -type f -name "README.*" -delete
+	find $PKG -type f -name "README" -delete
 }

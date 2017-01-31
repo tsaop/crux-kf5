@@ -5,7 +5,7 @@
 
 name=kross
 version=5.30.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 
 build() {
@@ -26,6 +26,6 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
 }

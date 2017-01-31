@@ -5,7 +5,7 @@
 
 name=kdoctools
 version=5.30.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
@@ -26,7 +26,6 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale $PKG/usr/share/doc
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,ru,sv,uk}
-	rm $PKG/usr/share/kf5/kdoctools/customization/README \
-	   $PKG/usr/share/kf5/kdoctools/customization/xsl/README
+	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,ru,sv,uk}
+	find $PKG -name README -delete
 }

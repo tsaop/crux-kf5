@@ -1,11 +1,11 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: baloo kdesu kholidays kjsembed knotifyconfig krunner ksysguard ktexteditor kwin kxmlrpcclient networkmanager-qt phonon-qt5-backend-gstreamer desktop-file-utils desktop-file-utils
+# Depends on: baloo kdesu kholidays kjsembed knotifyconfig krunner ksysguard ktexteditor kwin kxmlrpcclient networkmanager-qt phonon-qt5-backend-gstreamer kdelibs4support
 
 name=plasma-workspace
 version=5.8.5
-release=1
+release=2
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
 	52-upower.rules
 	digital-clock.patch)
@@ -35,6 +35,7 @@ build() {
 	install -Dm644 $SRC/52-upower.rules $PKG/usr/etc/polkit-1/rules.d/52-upower.rules
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
+	find $PKG -name "README.txt" -delete
 }
