@@ -4,8 +4,8 @@
 # Depends on: kdelibs4support plasma-workspace
 
 name=khotkeys
-version=5.8.5
-release=2
+version=5.9.0
+release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
 	khotkeys-qdbus-qt5.patch)
 

@@ -5,7 +5,7 @@
 
 name=kpackage
 version=5.30.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
@@ -16,7 +16,8 @@ build() {
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
+	-DKDE_INSTALL_LIBDIR=lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
