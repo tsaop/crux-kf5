@@ -4,9 +4,9 @@
 # Depends on: eigen exiv2 gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 vc xorg-xinput
 
 name=krita
-version=3.1.1
-release=2
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
+version=3.1.2.1
+release=1
+source=(http://download.kde.org/stable/$name/3.1.2/$name-$version.tar.gz)
 
 build() {
 
