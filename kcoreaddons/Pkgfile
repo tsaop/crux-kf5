@@ -4,9 +4,9 @@
 # Depends on: extra-cmake-modules qt5 shared-mime-info
 
 name=kcoreaddons
-version=5.30.0
+version=5.30.1
 release=1
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/5.30/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
