@@ -5,9 +5,9 @@
 # Optional: libspectre
 
 name=okular
-version=16.12.1
+version=16.12.2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
-release=2
+release=1
 
 build() {
 

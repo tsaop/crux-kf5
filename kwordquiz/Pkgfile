@@ -1,10 +1,10 @@
 # Description: Part of KDE-Edu
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdeclarative kdelibs4support knewstuff knotifyconfig libkeduvocdocument phonon-qt5 desktop-file-utils gtk
+# Depends on: kdeclarative kdelibs4support knewstuff knotifyconfig libkeduvocdocument
 
 name=kwordquiz
-version=16.12.1
+version=16.12.2
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

@@ -1,10 +1,10 @@
 # Description: KDE wrapper around libraw
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: extra-cmake-modules qt5 libraw
+# Depends on: extra-cmake-modules libraw qt5
 
 name=libkdcraw
-version=16.12.1
+version=16.12.2
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

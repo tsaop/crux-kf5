@@ -1,10 +1,10 @@
 # Description: Part of KDE-Edu
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kxmlgui desktop-file-utils gtk
+# Depends on: desktop-file-utils gtk kxmlgui
 
 name=kbruch
-version=16.12.1
+version=16.12.2
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
