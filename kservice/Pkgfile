@@ -4,8 +4,8 @@
 # Depends on: kconfig kcrash kdbusaddons kdoctools
 
 name=kservice
-version=5.30.0
-release=2
+version=5.31.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {

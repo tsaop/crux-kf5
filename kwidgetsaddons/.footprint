@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontChooser
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontRequester
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontSizeAction
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KGradientSelector
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KGuiItem
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KLed
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMessageBox
@@ -31,14 +32,18 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMessageBoxNotifyInterface
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMessageWidget
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMimeTypeChooser
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMimeTypeChooserDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMimeTypeEditor
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMultiTabBar
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMultiTabBarButton
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KMultiTabBarTab
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KNewPasswordDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KNewPasswordWidget
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageModel
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageView
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageWidget
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageWidgetItem
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageWidgetModel
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPasswordDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPixmapRegionSelectorDialog
@@ -148,8 +153,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WidgetsAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so -> libKF5WidgetsAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.30.0
--rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.30.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.31.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.31.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
