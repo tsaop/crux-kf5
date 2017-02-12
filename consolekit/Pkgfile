@@ -1,7 +1,7 @@
 # Description:	Framework for defining and tracking users, login sessions, and seats (patched to allow local sessions without a trusted program)
 # URL:		http://www.freedesktop.org/wiki/Software/ConsoleKit
 # Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:	polkit dbus-glib
+# Depends on: polkit dbus-glib
 
 name=consolekit
 version=0.4.6
