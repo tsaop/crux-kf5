@@ -75,12 +75,14 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltmotion_est.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltnormalize.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltoldfilm.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltopencv.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplus.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplusgpl.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltqt.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltsox.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvmfx.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltxine.so
@@ -232,6 +234,8 @@ drwxr-xr-x	root/root	usr/share/mlt/oldfilm/
 -rw-r--r--	root/root	usr/share/mlt/oldfilm/oldfilm.svg
 -rw-r--r--	root/root	usr/share/mlt/oldfilm/tcolor.svg
 -rw-r--r--	root/root	usr/share/mlt/oldfilm/vignette.svg
+drwxr-xr-x	root/root	usr/share/mlt/opencv/
+-rw-r--r--	root/root	usr/share/mlt/opencv/filter_opencv_tracker.yml
 drwxr-xr-x	root/root	usr/share/mlt/plus/
 -rw-r--r--	root/root	usr/share/mlt/plus/consumer_blipflash.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_affine.yml
@@ -472,6 +476,9 @@ drwxr-xr-x	root/root	usr/share/mlt/sdl/
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_preview.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_still.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/producer_sdl_image.yml
+drwxr-xr-x	root/root	usr/share/mlt/sox/
+-rw-r--r--	root/root	usr/share/mlt/sox/filter_sox.yml
+-rw-r--r--	root/root	usr/share/mlt/sox/filter_sox_effect.yml
 drwxr-xr-x	root/root	usr/share/mlt/videostab/
 -rw-r--r--	root/root	usr/share/mlt/videostab/filter_videostab.yml
 -rw-r--r--	root/root	usr/share/mlt/videostab/filter_videostab2.yml
