@@ -78,6 +78,7 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplus.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltplusgpl.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltqt.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
@@ -461,6 +462,8 @@ drwxr-xr-x	root/root	usr/share/mlt/qt/
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_qtext.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/transition_qtblend.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/transition_vqm.yml
+drwxr-xr-x	root/root	usr/share/mlt/resample/
+-rw-r--r--	root/root	usr/share/mlt/resample/filter_resample.yml
 drwxr-xr-x	root/root	usr/share/mlt/rtaudio/
 -rw-r--r--	root/root	usr/share/mlt/rtaudio/consumer_rtaudio.yml
 drwxr-xr-x	root/root	usr/share/mlt/sdl/
