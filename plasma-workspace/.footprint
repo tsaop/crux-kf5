@@ -89,14 +89,14 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.9.1
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.9.1
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.9.2
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.9.2
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.9.1
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.9.1
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.9.2
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.9.2
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.9.1
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.9.1
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.9.2
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.9.2
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -461,12 +461,9 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.icon.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.panelspacer.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.private.systemtray.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml
