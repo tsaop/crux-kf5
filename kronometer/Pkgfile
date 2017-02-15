@@ -4,7 +4,7 @@
 # Depends on: desktop-file-utils gtk kxmlgui
 
 name=kronometer
-version=2.1.3
+version=2.1.4
 release=1
 source=(http://download.kde.org/stable/$name/$version/src/$name-$version.tar.xz)
 
@@ -25,6 +25,6 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
 }
