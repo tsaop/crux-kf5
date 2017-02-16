@@ -7,10 +7,14 @@
 name=kdevelop
 version=5.0.3
 release=1
-source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz
+	kdevelop-qdbus-qt5.patch)
 
 build() {
 	cd $name-$version
+
+	# Rename all qdbus occurrencies to qdbus-qt5, as per CRUX default
+	patch -Np1 -i kdevelop-qdbus-qt5.patch	
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
