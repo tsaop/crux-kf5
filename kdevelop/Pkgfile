@@ -6,7 +6,7 @@
 
 name=kdevelop
 version=5.0.3
-release=1
+release=2
 source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz
 	kdevelop-qdbus-qt5.patch)
 
@@ -31,4 +31,5 @@ build() {
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
+	find $PKG -name README -delete
 }
