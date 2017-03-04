@@ -1,0 +1,25 @@
+# Description: Versatile desktop calculator
+# URL: https://qalculate.github.io
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cln gnuplot
+
+name=libqalculate
+version=0.9.10
+release=1
+source=(https://github.com/Qalculate/$name/releases/download/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--libdir=/usr/lib \
+		--mandir=/usr/share/man \
+		--disable-static \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/{doc,locale}
+}
