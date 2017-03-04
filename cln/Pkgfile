@@ -1,0 +1,23 @@
+# Description: C++ library for efficient computations with all kinds of numbers in arbitrary precision
+# URL: http://www.ginac.de/CLN/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libgmp 
+
+name=cln
+version=1.3.4
+release=1
+source=(http://www.ginac.de/CLN/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--libdir=/usr/lib \
+		--mandir=/usr/share/man \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/info
+}
