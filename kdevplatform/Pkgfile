@@ -4,17 +4,14 @@
 # Depends on: grantlee gtk kcmutils kitemmodels knewstuff knotifyconfig ktexteditor libkomparediff2 qtwebkit threadweaver
 
 name=kdevplatform
-version=5.0.3
+version=5.0.4
 release=1
 source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz
-	kdevplatform-5.0.3-kconfig.patch
 	kdevplatform-qdbus-qt5.patch)
 
 build() {
 	cd $name-$version
 
-	# https://bugs.gentoo.org/show_bug.cgi?id=606158
-	patch -Np1 -i $SRC/kdevplatform-5.0.3-kconfig.patch
 	# Rename all qdbus occurrencies to qdbus-qt5, as per CRUX default
 	patch -Np1 -i $SRC/kdevplatform-qdbus-qt5.patch
 
