@@ -1,0 +1,29 @@
+# Description: Cross Stitch Symbol Editor for KDE
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules qt5 desktop-file-utils gtk kdoctools kconfig ki18n kio kwidgetsaddons kxmlgui shared-mime-info
+
+name=symboleditor
+version=2.0.0
+release=1
+source=(http://download.kde.org/stable/$name/$version/src/SymbolEditor-$version.tar.bz2)
+
+build() {
+	cd SymbolEditor-$version
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}
