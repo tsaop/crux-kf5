@@ -4,7 +4,7 @@
 # Depends on: jasper lcms2
 
 name=libraw
-version=0.18.1
+version=0.18.2
 release=1
 source=(http://www.libraw.org/data/LibRaw-$version.tar.gz)
 
@@ -13,7 +13,8 @@ build() {
 	./configure --prefix=/usr \
 		--sysconfdir=/usr/etc \
 		--mandir=/usr/share/man \
-		--disable-examples
+		--disable-examples \
+		--disable-static
 
 	make
 	make DESTDIR=$PKG install
