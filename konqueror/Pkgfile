@@ -1,10 +1,10 @@
 # Description: File manager, browser, document viewer for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kactivities kcmutils kdelibs4support kdesu khtml qtwebengine
+# Depends on: kactivities kcmutils kdelibs4support kdesu khtml qtwebengine gtk
 
 name=konqueror
-version=16.12.2
+version=16.12.3
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

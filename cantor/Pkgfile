@@ -5,16 +5,12 @@
 # Optional: python python3 libqalculate analitza luajit
 
 name=cantor
-version=16.12.2
-release=2
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
-	cantor-16.12.2-python-kf-5.31.patch)
+version=16.12.3
+release=1
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	# remove modern C++ use to fix compile with current KDE policy
-	patch -Np1 -i $SRC/cantor-16.12.2-python-kf-5.31.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
