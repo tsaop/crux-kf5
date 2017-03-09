@@ -5,11 +5,19 @@
 
 name=audiofile
 version=0.3.6
-release=1
-source=(https://audiofile.68k.org/$name-$version.tar.gz)
+release=2
+source=(https://audiofile.68k.org/$name-$version.tar.gz
+	audiofile-0.3.6-CVE-2015-7747.patch
+	audiofile-0.3.6-gcc6-build-fixes.patch)
 
 build() {
 	cd $name-$version
+
+	# fix buffer overflow
+	patch -Np1 -i $SRC/audiofile-0.3.6-CVE-2015-7747.patch
+	# fix build with GCC 6
+	patch -Np1 -i $SRC/audiofile-0.3.6-gcc6-build-fixes.patch
+
 	./configure --prefix=/usr \
 		--disable-examples
 
