@@ -275,20 +275,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.32.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.32.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.32.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.32.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.32.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.32.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.32.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.32.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.32.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.32.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -305,12 +305,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/kcookiejar.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/proxyscout.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/remotenotifier.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/file.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/ftp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/ghelp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/help.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/http.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/remote.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/trash.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/kpasswdserver.so
