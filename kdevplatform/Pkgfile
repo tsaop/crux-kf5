@@ -4,16 +4,15 @@
 # Depends on: grantlee gtk kcmutils kitemmodels knewstuff knotifyconfig ktexteditor libkomparediff2 qtwebkit threadweaver
 
 name=kdevplatform
-version=5.0.4
+version=5.1.0
 release=1
-source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz
-	kdevplatform-qdbus-qt5.patch)
+source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
 	# Rename all qdbus occurrencies to qdbus-qt5, as per CRUX default
-	patch -Np1 -i $SRC/kdevplatform-qdbus-qt5.patch
+	sed -i 's|qdbus|qdbus-qt5|' util/kdevplatform_shell_environment.sh
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
