@@ -1,0 +1,28 @@
+# Description: Library for converting characters to X key-presses
+# URL: https://www.yoctoproject.org/tools-resources/projects/matchbox
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: xorg-libxtst
+
+name=libfakekey
+version=0.1
+release=1
+source=(http://downloads.yoctoproject.org/releases/matchbox/$name/$version/$name-$version.tar.bz2
+	libfakekey-0.1-ac.patch)
+
+build() {
+	cd $name-$version
+
+	# Fix -lX11 linking bug
+	patch -Np0 -i $SRC/libfakekey-0.1-ac.patch
+	sed -i -e 's/^fakekey_test_LDADD=/fakekey_test_LDADD=-lX11 /' \
+		tests/Makefile.am
+	sed -e "s/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/" -i configure.ac
+	autoreconf -vfi
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
