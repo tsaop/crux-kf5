@@ -1,15 +1,22 @@
 # Description: Integrated work applications suite for the KDE desktop
 # URL: https://www.calligra.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-contacts eigen gsl kcalcore kcmutils kdiagram knotifyconfig kreport kross ktexteditor okular openexr vc
-# Optional: librevenge libodfgen libwps libwpg libvisio libwpd libetonyek cauchy openjpeg
+# Depends on: akonadi-contacts cauchy gsl kcalcore kcmutils kdiagram knotifyconfig kreport kross ktexteditor libetonyek libodfgen libvisio libwpg libwps okular openexr openjpeg vc
+# Optional: librevenge libodfgen libwps libwpg libvisio libwpd libetonyek cauchy openjpeg pstoedit
 
 name=calligra
 version=3.0.0.1
-release=3
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+release=4
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
+	kreport-kproperty-version-fix.patch)
 
 build() {
+	cd $name-$version
+
+	# Fix detection of kreport/kproperty versions greater than 3.0.0
+	patch -Np1 -i $SRC/kreport-kproperty-version-fix.patch
+	cd -
+
 	mkdir build; cd build
 
 	cmake \
@@ -22,7 +29,7 @@ build() {
 	-DCMAKE_BUILD_TYPE=Release \
 	-Wno-dev \
 	../$name-$version
-	
+
 	make
 	make DESTDIR=$PKG install
 
