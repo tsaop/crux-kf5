@@ -1,0 +1,17 @@
+# Description: pstoedit translates PostScript and PDF graphics into other vector formats
+# URL: http://www.pstoedit.net/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: ghostscript
+
+name=pstoedit
+version=3.70
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,49 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/pstoedit
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/pstoedit/
+-rw-r--r--	root/root	usr/include/pstoedit/base64writer.h
+-rw-r--r--	root/root	usr/include/pstoedit/cppcomp.h
+-rw-r--r--	root/root	usr/include/pstoedit/drvbase.h
+-rw-r--r--	root/root	usr/include/pstoedit/drvfuncs.h
+-rw-r--r--	root/root	usr/include/pstoedit/genericints.h
+-rw-r--r--	root/root	usr/include/pstoedit/miscutil.h
+-rw-r--r--	root/root	usr/include/pstoedit/ordlist.h
+-rw-r--r--	root/root	usr/include/pstoedit/papersizes.h
+-rw-r--r--	root/root	usr/include/pstoedit/poptions.h
+-rw-r--r--	root/root	usr/include/pstoedit/psimage.h
+-rw-r--r--	root/root	usr/include/pstoedit/pstoedit.h
+-rw-r--r--	root/root	usr/include/pstoedit/pstoeditoptions.h
+-rw-r--r--	root/root	usr/include/pstoedit/pstoeditoutputlib.h
+-rw-r--r--	root/root	usr/include/pstoedit/pstoedll.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libpstoedit.la
+lrwxrwxrwx	root/root	usr/lib/libpstoedit.so -> libpstoedit.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libpstoedit.so.0 -> libpstoedit.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libpstoedit.so.0.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/pstoedit.pc
+drwxr-xr-x	root/root	usr/lib/pstoedit/
+-rwxr-xr-x	root/root	usr/lib/pstoedit/libp2edrvstd.la
+lrwxrwxrwx	root/root	usr/lib/pstoedit/libp2edrvstd.so -> libp2edrvstd.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/pstoedit/libp2edrvstd.so.0 -> libp2edrvstd.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/pstoedit/libp2edrvstd.so.0.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/aclocal/
+-rw-r--r--	root/root	usr/share/aclocal/pstoedit.m4
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/pstoedit.1.gz
+drwxr-xr-x	root/root	usr/share/pstoedit/
+-rw-r--r--	root/root	usr/share/pstoedit/drvhpgl.pencolors
+-rw-r--r--	root/root	usr/share/pstoedit/examplefigmap.fmp
+-rw-r--r--	root/root	usr/share/pstoedit/latex2e.fmp
+-rw-r--r--	root/root	usr/share/pstoedit/mpost.fmp
+-rw-r--r--	root/root	usr/share/pstoedit/safer.ps
+-rw-r--r--	root/root	usr/share/pstoedit/svg.fmp
+drwxr-xr-x	root/root	usr/share/pstoedit/swffonts/
+-rw-r--r--	root/root	usr/share/pstoedit/swffonts/default.fdb
+-rw-r--r--	root/root	usr/share/pstoedit/unix.fmp
+-rw-r--r--	root/root	usr/share/pstoedit/wemf.fmp
+-rw-r--r--	root/root	usr/share/pstoedit/windows.fmp
