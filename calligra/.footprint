@@ -152,6 +152,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_karbon2image.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_karbon2svg.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_karbon2wmf.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_key2odp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_kpr2odp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_kspread2tex.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_odt2ascii.so
@@ -171,7 +172,12 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_sheets2html.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_sheets2opencalc.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_svg2karbon.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_vsdx2odg.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_wmf2svg.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_wpd2odt.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_wpg2odg.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_wpg2svg.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_wps2odt.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_xfig2odg.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_xls2ods.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_xlsx2ods.so
@@ -268,6 +274,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_odt_calligra.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_powerpoint_calligra.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_pptx_calligra.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_wpd_calligra.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -283,6 +290,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_odt_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_powerpoint_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_pptx_calligra.desktop
+-rwxr-xr-x	root/root	usr/share/applications/okularApplication_wpd_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.calligraplan.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.calligraplanwork.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.calligrasheets.desktop
@@ -3115,9 +3123,9 @@ drwxr-xr-x	root/root	usr/share/calligra/stencils/Flags/
 -rw-r--r--	root/root	usr/share/calligra/stencils/Flags/cyprus.desktop
 -rw-r--r--	root/root	usr/share/calligra/stencils/Flags/cyprus.odg
 -rw-r--r--	root/root	usr/share/calligra/stencils/Flags/cyprus.png
--rw-r--r--	root/root	usr/share/calligra/stencils/Flags/czech_republic.desktop
--rw-r--r--	root/root	usr/share/calligra/stencils/Flags/czech_republic.odg
--rw-r--r--	root/root	usr/share/calligra/stencils/Flags/czech_republic.png
+-rw-r--r--	root/root	usr/share/calligra/stencils/Flags/czechia.desktop
+-rw-r--r--	root/root	usr/share/calligra/stencils/Flags/czechia.odg
+-rw-r--r--	root/root	usr/share/calligra/stencils/Flags/czechia.png
 -rw-r--r--	root/root	usr/share/calligra/stencils/Flags/denmark.desktop
 -rw-r--r--	root/root	usr/share/calligra/stencils/Flags/denmark.odg
 -rw-r--r--	root/root	usr/share/calligra/stencils/Flags/denmark.png
@@ -5068,8 +5076,11 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/calligra/
 -rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/calligra/words_print.desktop
 -rw-r--r--	root/root	usr/share/kservices5/calligra_odg_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/calligradocinfopropspage.desktop
+-rw-r--r--	root/root	usr/share/kservices5/flow_vsdx_thumbnail.desktop
+-rw-r--r--	root/root	usr/share/kservices5/flow_wpg_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/karbon_karbon1x_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/karbon_wmf_thumbnail.desktop
+-rw-r--r--	root/root	usr/share/kservices5/karbon_wpg_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/karbon_xfig_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularDoc_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularDocx_calligra.desktop
@@ -5077,9 +5088,11 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/calligra/
 -rw-r--r--	root/root	usr/share/kservices5/okularOdt_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularPowerpoint_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularPptx_calligra.desktop
+-rw-r--r--	root/root	usr/share/kservices5/okularWpd_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/sheets_excel_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/sheets_ods_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/sheets_xlsx_thumbnail.desktop
+-rw-r--r--	root/root	usr/share/kservices5/stage_key_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/stage_kpr_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/stage_odp_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/stage_powerpoint_thumbnail.desktop
@@ -5088,6 +5101,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/calligra/
 -rw-r--r--	root/root	usr/share/kservices5/words_msword_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/words_odt_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/words_rtf_thumbnail.desktop
+-rw-r--r--	root/root	usr/share/kservices5/words_wpd_thumbnail.desktop
+-rw-r--r--	root/root	usr/share/kservices5/words_wps_thumbnail.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/calligraplan/
 -rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/calligraplan.rc
@@ -5118,6 +5133,7 @@ drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/calligra_svm.xml
 -rw-r--r--	root/root	usr/share/mime/packages/msooxml-all.xml
 -rw-r--r--	root/root	usr/share/mime/packages/wiki-format.xml
+-rw-r--r--	root/root	usr/share/mime/packages/x-iwork-keynote-sffkey.xml
 drwxr-xr-x	root/root	usr/share/templates/
 drwxr-xr-x	root/root	usr/share/templates/.source/
 -rw-r--r--	root/root	usr/share/templates/.source/Illustration.odg
