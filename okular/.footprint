@@ -1,3 +1,6 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/revdep.d/
+-rw-r--r--	root/root	etc/revdep.d/okular
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/okular
@@ -54,6 +57,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_dvi.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_fax.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_fb.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_ghostview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_kimgio.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_ooo.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_plucker.so
@@ -77,6 +81,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_dvi.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_fax.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_fb.desktop
+-rwxr-xr-x	root/root	usr/share/applications/okularApplication_ghostview.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_kimgio.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_ooo.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_pdf.desktop
@@ -89,6 +94,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_dvi.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_fax.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_fb.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_ghostview.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_kimgio.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_ooo.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_pdf.desktop
@@ -98,6 +104,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_xps.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.okular.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/gssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/okular.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/okular_core.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/pdfsettings.kcfg
@@ -143,6 +150,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/okularDvi.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularFax.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularFb.desktop
+-rw-r--r--	root/root	usr/share/kservices5/okularGhostview.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularKimgio.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularOoo.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularPlucker.desktop
@@ -170,6 +178,7 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-ooo.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-plucker.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-poppler.metainfo.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-spectre.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-tiff.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-txt.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-xps.metainfo.xml
@@ -181,9 +190,11 @@ drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/okular/icons/hicolor/16x16/apps/okular-fb2.png
+-rw-r--r--	root/root	usr/share/okular/icons/hicolor/16x16/apps/okular-gv.png
 drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/okular/icons/hicolor/32x32/apps/okular-fb2.png
+-rw-r--r--	root/root	usr/share/okular/icons/hicolor/32x32/apps/okular-gv.png
 drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/okular/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/okular/icons/hicolor/48x48/apps/okular-fb2.png

@@ -1,13 +1,13 @@
 # Description: Document viewer for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kactivities khtml kpty libkexiv2 poppler-qt5 qca-qt5 threadweaver
-# Optional: libspectre
+# Depends on: gtk kactivities khtml kpty libkexiv2 libspectre poppler-qt5 qca-qt5 threadweaver
 
 name=okular
 version=16.12.3
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
-release=2
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
+	okular.revdep)
+release=3
 
 build() {
 
@@ -24,6 +24,9 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+
+	# fix revdep false positive for okularpart.so
+	install -Dm644 $SRC/okular.revdep $PKG/etc/revdep.d/okular
 
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
