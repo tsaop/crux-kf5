@@ -2,8 +2,8 @@
 
 set -x
 
-getent group sddm >/dev/null || groupadd -r sddm
-getent passwd sddm >/dev/null || useradd -r -M -g sddm -G video -s /bin/false -d /var/empty sddm
+getent group sddm >/dev/null || /usr/sbin/groupadd -r sddm
+getent passwd sddm >/dev/null || /usr/sbin/useradd -r -M -g sddm -G video -s /bin/false -d /var/empty sddm
 
 chown sddm:sddm /var/run/sddm
 chown sddm:sddm /var/lib/sddm
