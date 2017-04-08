@@ -4,7 +4,7 @@
 # Depends on: extra-cmake-modules qt5 gtk  
 
 name=breeze-icons
-version=5.32.0
+version=5.33.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
