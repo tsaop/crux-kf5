@@ -1,0 +1,32 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/nc-config
+-rwxr-xr-x	root/root	usr/bin/nccopy
+-rwxr-xr-x	root/root	usr/bin/ncdump
+-rwxr-xr-x	root/root	usr/bin/ncgen
+-rwxr-xr-x	root/root	usr/bin/ncgen3
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/netcdf.h
+-rw-r--r--	root/root	usr/include/netcdf_mem.h
+-rw-r--r--	root/root	usr/include/netcdf_meta.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/netCDF/
+-rw-r--r--	root/root	usr/lib/cmake/netCDF/netCDFConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/netCDF/netCDFConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/netCDF/netCDFTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/netCDF/netCDFTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libnetcdf.so -> libnetcdf.so.11
+lrwxrwxrwx	root/root	usr/lib/libnetcdf.so.11 -> libnetcdf.so.11.4.0
+-rwxr-xr-x	root/root	usr/lib/libnetcdf.so.11.4.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/netcdf.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/nccopy.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/ncdump.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/ncgen.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/ncgen3.1.gz
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/netcdf.3.gz

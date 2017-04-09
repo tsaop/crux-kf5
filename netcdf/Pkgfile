@@ -1,0 +1,27 @@
+# Description: Set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+# URL: https://www.unidata.ucar.edu/software/netcdf/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: hdf5 cmake 
+
+name=netcdf
+version=4.4.1.1
+release=1
+source=(https://github.com/Unidata/$name-c/archive/v${version}.tar.gz)
+
+build() {
+	cd $name-c-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_TESTING=OFF \
+		-DENABLE_EXAMPLES=OFF \
+		-DCMAKE_SKIP_BUILD_RPATH=ON \
+		..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/lib/libnetcdf.settings
+}
