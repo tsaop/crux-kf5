@@ -1,0 +1,26 @@
+# Description: Data model, library, and file format for storing and managing data
+# URL: https://support.hdfgroup.org/HDF5/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc zlib  
+
+name=hdf5
+version=1.10.0-patch1
+release=1
+source=(https://support.hdfgroup.org/ftp/HDF5/current/src/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--with-pthread=/usr/lib \
+		--disable-static \
+		--enable-build-mode=production \
+		--with-pic \
+		--disable-sharedlib-rpath
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share $PKG/usr/lib/libhdf5.settings
+}
