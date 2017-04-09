@@ -5,7 +5,7 @@
 
 name=libkdegames
 version=16.12.3
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
@@ -26,4 +26,7 @@ build() {
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
+
+	# remove junk files
+	find $PKG -name AUTHORS -delete -o -name COPYING -delete
 }
