@@ -1,0 +1,25 @@
+# Description: Data model, library, and file format for storing and managing data
+# URL: https://support.hdfgroup.org/HDF5/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc  
+
+name=cfitsio
+version=3410
+release=1
+source=(https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/${name}${version}.tar.gz)
+
+build() {
+	cd $name
+
+	./configure --prefix=/usr \
+		--disable-static \
+		--enable-reentrant \
+
+	make
+	make shared
+	make utils
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/lib/libcfitsio.a
+	rm $PKG/usr/bin/{cookbook,smem,testprog}
+}

@@ -1,0 +1,18 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/fitscopy
+-rwxr-xr-x	root/root	usr/bin/fpack
+-rwxr-xr-x	root/root	usr/bin/funpack
+-rwxr-xr-x	root/root	usr/bin/imcopy
+-rwxr-xr-x	root/root	usr/bin/speed
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/drvrsmem.h
+-rw-r--r--	root/root	usr/include/fitsio.h
+-rw-r--r--	root/root	usr/include/fitsio2.h
+-rw-r--r--	root/root	usr/include/longnam.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libcfitsio.so -> libcfitsio.so.5
+lrwxrwxrwx	root/root	usr/lib/libcfitsio.so.5 -> libcfitsio.so.5.3.41
+-rwxr-xr-x	root/root	usr/lib/libcfitsio.so.5.3.41
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/cfitsio.pc
