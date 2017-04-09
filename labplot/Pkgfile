@@ -1,0 +1,24 @@
+# Description: KDE-application for interactive graphing and analysis of scientific data
+# URL: https://labplot.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cantor cfitsio fftw gsl kdelibs4support netcdf
+
+name=labplot
+version=2.4.0
+release=1
+source=(https://download.kde.org/stable/$name/$version/$name-$version-kf5.tar.xz)
+
+build() {
+	cd $name-$version-kf5
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DSYSCONF_INSTALL_DIR=/usr/etc \
+		-DCMAKE_BUILD_TYPE=Release \
+		..
+	
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/{doc,locale}
+}
