@@ -29,7 +29,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/Kleo_Util
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MainTextJob
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposerSettings
--rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageFactory
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageFactoryNG
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageHelper
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessagePart
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageSender
@@ -146,18 +146,20 @@ drwxr-xr-x	root/root	usr/include/KF5/TemplateParser/
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/CustomTemplates
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/CustomTemplatesMenu
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/DefaultTemplates
--rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplateParser
+-rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplateParserExtractHtmlInfoResult
+-rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplateParserJob
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesConfiguration
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesInsertCommand
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesTextEdit
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesUtil
 drwxr-xr-x	root/root	usr/include/KF5/WebEngineViewer/
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlCache
--rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlFromLocalDataBaseJob
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlJob
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlUtil
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CreatePhishingUrlDataBaseJob
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/FindBarBase
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/FindBarWebEngineView
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/HashCacheManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/InterceptorManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/LocalDataBaseManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkPluginUrlInterceptor
@@ -166,6 +168,7 @@ drwxr-xr-x	root/root	usr/include/KF5/WebEngineViewer/
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkUrlInterceptor
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkUrlInterceptorPluginManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/SearchFullHashJob
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/UpdateDataBaseInfo
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineAccessKey
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineExportHtmlPageJob
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineManageScript
@@ -202,7 +205,7 @@ drwxr-xr-x	root/root	usr/include/KF5/messagecomposer/
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagecomposer_export.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagecomposersettings.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagecomposersettings_base.h
--rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagefactory.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagefactoryng.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagehelper.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagepart.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/messagesender.h
@@ -336,8 +339,9 @@ drwxr-xr-x	root/root	usr/include/KF5/templateparser/
 -rw-r--r--	root/root	usr/include/KF5/templateparser/customtemplatesmenu.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/defaulttemplates.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/globalsettings_templateparser.h
--rw-r--r--	root/root	usr/include/KF5/templateparser/templateparser.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templateparser_export.h
+-rw-r--r--	root/root	usr/include/KF5/templateparser/templateparserextracthtmlinforesult.h
+-rw-r--r--	root/root	usr/include/KF5/templateparser/templateparserjob.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templatesconfiguration.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templatesconfiguration_kfg.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templatesinsertcommand.h
@@ -347,12 +351,13 @@ drwxr-xr-x	root/root	usr/include/KF5/templateparser/
 -rw-r--r--	root/root	usr/include/KF5/templateparser_version.h
 drwxr-xr-x	root/root	usr/include/KF5/webengineviewer/
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurlcache.h
--rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurlfromlocaldatabasejob.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurljob.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurlutil.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/config-webengineviewer.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/createphishingurldatabasejob.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/findbarbase.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/findbarwebengineview.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/hashcachemanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/interceptormanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/localdatabasemanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkpluginurlinterceptor.h
@@ -361,6 +366,7 @@ drwxr-xr-x	root/root	usr/include/KF5/webengineviewer/
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkurlinterceptor.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkurlinterceptorpluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/searchfullhashjob.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/updatedatabaseinfo.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineaccesskey.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineexporthtmlpagejob.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webenginemanagescript.h
@@ -411,26 +417,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so -> libKF5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so -> libKF5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so -> libKF5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so -> libKF5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so -> libKF5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so -> libKF5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.5.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so -> libKF5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

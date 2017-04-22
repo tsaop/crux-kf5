@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressRequester
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelection
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionDialog
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionModel
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionWidget
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/SelectAddressBookDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactActionManager
@@ -54,6 +55,7 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressrequester.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselection.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectiondialog.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionmodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionwidget.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/improtocols.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/selectaddressbookdialog.h
@@ -68,8 +70,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiContact/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

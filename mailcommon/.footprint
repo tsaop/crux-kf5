@@ -9,10 +9,8 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/AccountConfigOrderDialog
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/AddTagDialog
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/BackupJob
--rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionAnnotationsAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionExpiryPage
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionGeneralPage
--rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionTypeUtil
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/DBusOperators
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/ExpireCollectionAttribute
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FavoriteCollectionWidget
@@ -32,7 +30,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderTreeView
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderTreeWidget
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderTreeWidgetProxyModel
--rw-r--r--	root/root	usr/include/KF5/MailCommon/IncidencesForWidget
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/ItemContext
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/JobScheduler
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/KMFilterDialog
@@ -56,10 +53,8 @@ drwxr-xr-x	root/root	usr/include/KF5/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/accountconfigorderdialog.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/addtagdialog.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/backupjob.h
--rw-r--r--	root/root	usr/include/KF5/mailcommon/collectionannotationsattribute.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/collectionexpirypage.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/collectiongeneralpage.h
--rw-r--r--	root/root	usr/include/KF5/mailcommon/collectiontypeutil.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/dbusoperators.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/expirecollectionattribute.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/favoritecollectionwidget.h
@@ -79,7 +74,6 @@ drwxr-xr-x	root/root	usr/include/KF5/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldertreeview.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldertreewidget.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldertreewidgetproxymodel.h
--rw-r--r--	root/root	usr/include/KF5/mailcommon/incidencesforwidget.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/itemcontext.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/jobscheduler.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/kmfilterdialog.h
@@ -111,8 +105,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailCommon/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so -> libKF5MailCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -120,3 +114,4 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/mailcommonwidgets.so
+drwxr-xr-x	root/root	usr/share/

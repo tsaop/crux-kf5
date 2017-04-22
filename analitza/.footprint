@@ -32,7 +32,7 @@ drwxr-xr-x	root/root	usr/include/Analitza5/analitzagui/
 -rw-r--r--	root/root	usr/include/Analitza5/analitzagui/expressionedit.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzagui/operatorsmodel.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzagui/plotsview2d.h
--rw-r--r--	root/root	usr/include/Analitza5/analitzagui/plotsview3d.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzagui/plotsview3d_es.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzagui/variablesmodel.h
 drwxr-xr-x	root/root	usr/include/Analitza5/analitzaplot/
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/analitzaplotexport.h
@@ -43,7 +43,7 @@ drwxr-xr-x	root/root	usr/include/Analitza5/analitzaplot/
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotsfactory.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotsmodel.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotter2d.h
--rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotter3d.h
+-rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plotter3d_es.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/plottingenums.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/spacecurve.h
 -rw-r--r--	root/root	usr/include/Analitza5/analitzaplot/surface.h
@@ -54,18 +54,18 @@ drwxr-xr-x	root/root	usr/lib/cmake/Analitza5/
 -rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5ConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Analitza5/Analitza5Targets.cmake
-lrwxrwxrwx	root/root	usr/lib/libAnalitza.so -> libAnalitza.so.7
-lrwxrwxrwx	root/root	usr/lib/libAnalitza.so.7 -> libAnalitza.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitza.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so -> libAnalitzaGui.so.7
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so.7 -> libAnalitzaGui.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitzaGui.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so -> libAnalitzaPlot.so.7
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so.7 -> libAnalitzaPlot.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitzaPlot.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so -> libAnalitzaWidgets.so.7
-lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so.7 -> libAnalitzaWidgets.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libAnalitzaWidgets.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitza.so -> libAnalitza.so.8
+lrwxrwxrwx	root/root	usr/lib/libAnalitza.so.8 -> libAnalitza.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitza.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so -> libAnalitzaGui.so.8
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaGui.so.8 -> libAnalitzaGui.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaGui.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so -> libAnalitzaPlot.so.8
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaPlot.so.8 -> libAnalitzaPlot.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaPlot.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so -> libAnalitzaWidgets.so.8
+lrwxrwxrwx	root/root	usr/lib/libAnalitzaWidgets.so.8 -> libAnalitzaWidgets.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libAnalitzaWidgets.so.8.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/

@@ -70,6 +70,7 @@ drwxr-xr-x	root/root	usr/include/marble/
 -rw-r--r--	root/root	usr/include/marble/GeoDataPolyStyle.h
 -rw-r--r--	root/root	usr/include/marble/GeoDataPolygon.h
 -rw-r--r--	root/root	usr/include/marble/GeoDataRegion.h
+-rw-r--r--	root/root	usr/include/marble/GeoDataRelation.h
 -rw-r--r--	root/root	usr/include/marble/GeoDataSnippet.h
 -rw-r--r--	root/root	usr/include/marble/GeoDataStyle.h
 -rw-r--r--	root/root	usr/include/marble/GeoDataStyleMap.h
@@ -114,6 +115,7 @@ drwxr-xr-x	root/root	usr/include/marble/
 -rw-r--r--	root/root	usr/include/marble/MarbleWidget.h
 -rw-r--r--	root/root	usr/include/marble/MarbleWidgetInputHandler.h
 -rw-r--r--	root/root	usr/include/marble/MarbleWidgetPopupMenu.h
+-rw-r--r--	root/root	usr/include/marble/OsmcSymbol.h
 -rw-r--r--	root/root	usr/include/marble/ParseRunnerPlugin.h
 -rw-r--r--	root/root	usr/include/marble/ParsingRunner.h
 -rw-r--r--	root/root	usr/include/marble/ParsingRunnerManager.h
@@ -183,9 +185,9 @@ lrwxrwxrwx	root/root	usr/lib/libastro.so -> libastro.so.1
 -rwxr-xr-x	root/root	usr/lib/libastro.so.0.17.20
 lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.0.17.20
 -rwxr-xr-x	root/root	usr/lib/libmarbledeclarative.so
-lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so -> libmarblewidget-qt5.so.26
--rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.0.26.0
-lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.26 -> libmarblewidget-qt5.so.0.26.0
+lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so -> libmarblewidget-qt5.so.27
+-rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.0.27.0
+lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.27 -> libmarblewidget-qt5.so.0.27.0
 drwxr-xr-x	root/root	usr/lib/marble/
 drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libAnnotatePlugin.so
@@ -223,6 +225,7 @@ drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libNavigationFloatItem.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libNominatimReverseGeocodingPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libNominatimSearchPlugin.so
+-rwxr-xr-x	root/root	usr/lib/marble/plugins/libNotesPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOSRMPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOpenCachingComPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOpenDesktopPlugin.so
@@ -392,6 +395,8 @@ drwxr-xr-x	root/root	usr/share/marble/data/bitmaps/editarrows/
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/media-playback-pause.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/mountain_1.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/nation.png
+-rw-r--r--	root/root	usr/share/marble/data/bitmaps/notes_closed.png
+-rw-r--r--	root/root	usr/share/marble/data/bitmaps/notes_open.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/observatory.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/ocean.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osm.png
@@ -409,6 +414,7 @@ drwxr-xr-x	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/grave_yard_generic.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/grave_yard_jewish.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/grey_vertical_hatch.png
+-rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/ice.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/military_red_hatch.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/orchard.png
 -rw-r--r--	root/root	usr/share/marble/data/bitmaps/osmcarto/patterns/quarry.png
@@ -1018,6 +1024,10 @@ drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/hillshading/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/hillshading/0/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/hillshading/0/0/
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/hillshading/0/0/0.png
+drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/humanitarian/
+drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/humanitarian/0/
+drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/humanitarian/0/0/
+-rw-r--r--	root/root	usr/share/marble/data/maps/earth/humanitarian/0/0/0.png
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/openstreetmap/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/openstreetmap/0/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/openstreetmap/0/0/
@@ -1147,6 +1157,13 @@ drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/schagen1689/legend/
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/schagen1689/schagen1689-preview.png
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/schagen1689/schagen1689.dgml
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/schagen1689/schagen1689.jpg
+drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/sentinel2/
+drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/sentinel2/0/
+drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/sentinel2/0/0/
+-rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/0/0/0.jpg
+-rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/legend.html
+-rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/sentinel2-preview.png
+-rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/sentinel2.dgml
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/srtm/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/srtm/0/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/srtm/0/000000/
@@ -1357,8 +1374,6 @@ drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/vectorosm/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/vectorosm/0/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/vectorosm/0/0/
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/vectorosm/0/0/0.o5m
--rw-r--r--	root/root	usr/share/marble/data/maps/earth/vectorosm/0/0/0.osm
--rw-r--r--	root/root	usr/share/marble/data/maps/earth/vectorosm/0/0/0.osm.zip
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/vectorosm/legend.html
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/vectorosm/vectorosm-preview.png
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/vectorosm/vectorosm.dgml
@@ -1427,6 +1442,17 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/
 -rw-r--r--	root/root	usr/share/marble/data/svg/marble-logo.png
 -rw-r--r--	root/root	usr/share/marble/data/svg/marble-logo.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/marsmap.svg
+drwxr-xr-x	root/root	usr/share/marble/data/svg/material/
+drwxr-xr-x	root/root	usr/share/marble/data/svg/material/maps/
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_bike_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_boat_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_bus_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_car_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_railway_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_run_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_subway_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_directions_walk_48px.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/material/maps/ic_tram_48px.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/moon.png
 drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/
 drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/
@@ -1435,11 +1461,14 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/airtransport/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/airtransport/helipad.svg
 drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/archaeological_site.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/artwork.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/atm.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/bank.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/bar.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/biergarten.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/cafe.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/car_wash.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/cave.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/cinema.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/community_centre-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/courthouse-16.svg
@@ -1451,6 +1480,7 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/information.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/library.20.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/monument.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/mountain_rescue.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/museum.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/nightclub.18.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/picnic.16.svg
@@ -1462,7 +1492,7 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/pub.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/recycling.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/restaurant.16.svg
--rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/shelter-14.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/social_facility.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/telephone.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/theatre.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/amenity/toilets.16.svg
@@ -1500,8 +1530,10 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/peak.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/power_tower.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/power_tower_small.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/pylon.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/railway_station.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/saddle.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/speedcamera.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/spring.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/square.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/traffic_light.svg
@@ -1509,7 +1541,11 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/tree-29-autumn.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/tree-29-winter.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/tree-29.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/volcano.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/individual/waste_basket.10.svg
+drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/leisure/
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/leisure/golf.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/leisure/miniature_golf.svg
 drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/manmade/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/manmade/communications.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/manmade/hunting-stand.16.svg
@@ -1520,7 +1556,9 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/place/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/place/place-6.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/place/place-capital-6.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/place/place-capital-8.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/place/place-capital-adminlevel2.svg
 drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/art.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/bag-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/beauty-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/beverages-14.svg
@@ -1529,6 +1567,8 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/chemist-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/computer-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/confectionery-14.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/copyshop.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/deli.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/department_store-16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/florist.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/garden_centre-14.svg
@@ -1537,6 +1577,7 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/ice-cream-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/kiosk-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/laundry-14.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/mobile_phone.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/motorcycle-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/musical_instrument-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/newsagent-14.svg
@@ -1564,7 +1605,10 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/shop_shoes.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/shop_supermarket.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/shopping_car_repair.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/sports.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/stationery-14.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/tea.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/tobacco.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/toys-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/travel_agency-14.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/shop/variety_store-14.svg
@@ -1576,6 +1620,7 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/camping.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/car_share.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/caravan_park.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/charging_station.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/elevator-12.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/embassy.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/ford.16.svg
@@ -1587,12 +1632,37 @@ drwxr-xr-x	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/motel.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/motorcycle_parking.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/parking.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/railway_crossing.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/rental_bicycle.16.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/rental_car.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/rental_ski.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/shelter.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/subway_entrance.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/taxi.16.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/traffic_light_crossing.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/wilderness_hut.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/osmcarto/svg/transportation/zebra_crossing.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/sun.png
 -rw-r--r--	root/root	usr/share/marble/data/svg/sunshine.png
+drwxr-xr-x	root/root	usr/share/marble/data/svg/thenounproject/
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/101965-inline-skater.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/204712-hiker.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/21636-gondola.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/231-chair-lift.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/2412-skiing-downhill.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/245-ski-jump.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/29366-skitour.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/30231-skiing-cross-country.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/365217-sled.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/583813-cable-car.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/61698-mountain-biking.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/78374-horse-riding.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/8803-platter-lift.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/sports-245-ski-jump.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/transportation-21636-gondola.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/transportation-231-chair-lift.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/transportation-583813-cable-car.svg
+-rw-r--r--	root/root	usr/share/marble/data/svg/thenounproject/transportation-8803-platter-lift.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/track_turtle.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/wikipedia.svg
 -rw-r--r--	root/root	usr/share/marble/data/svg/wikipedia_shadow.svg

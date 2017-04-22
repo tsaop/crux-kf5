@@ -1,10 +1,10 @@
 # Description: Program for managing various archive formats within the KDE environment
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kparts kpty
+# Depends on: gtk kitemmodels kparts kpty
 
 name=ark
-version=16.12.3
+version=17.04.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
@@ -24,6 +24,6 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/man/{ca,de,es,fr,gl,it,nl,pt,pt_BR,sr,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
 }

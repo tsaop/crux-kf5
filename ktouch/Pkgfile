@@ -1,10 +1,10 @@
 # Description: Touch typing tutor for the KDE desktop
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kcmutils kqtquickcharts xorg-libxkbfile
+# Depends on: gtk kcmutils kqtquickcharts
 
 name=ktouch
-version=16.12.3
+version=17.04.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

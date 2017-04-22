@@ -12,8 +12,8 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kmail.renamecategories
 -rw-r--r--	root/root	usr/etc/xdg/ktnef.categories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmail.so
@@ -49,12 +49,24 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kmail.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/emblems/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/emblems/gpg-key-trust-level-0.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/emblems/gpg-key-trust-level-1.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/emblems/gpg-key-trust-level-2.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/emblems/gpg-key-trust-level-3.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/emblems/gpg-key-trust-level-4.svg
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/ktnef_extract_all_to.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/ktnef_extract_to.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kmail.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/emblems/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/emblems/gpg-key-trust-level-0.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/emblems/gpg-key-trust-level-1.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/emblems/gpg-key-trust-level-2.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/emblems/gpg-key-trust-level-3.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/emblems/gpg-key-trust-level-4.svg
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kmail.png
@@ -65,6 +77,16 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kmail.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/8x8/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/8x8/emblems/
+-rw-r--r--	root/root	usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-0.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-1.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-2.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-3.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-4.svg
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kmail.svgz
 drwxr-xr-x	root/root	usr/share/icons/locolor/
 drwxr-xr-x	root/root	usr/share/icons/locolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/locolor/16x16/actions/
