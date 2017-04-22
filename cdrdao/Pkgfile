@@ -1,0 +1,30 @@
+# Description: CD recording in DAO mode, for example VCDs.
+# URL: http://cdrdao.sourceforge.net/
+# Maintainer: Tsaop, leeroy at cock dot li
+
+name=cdrdao
+version=1.2.3
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2
+    cdrdao-1.2.3-stat.patch
+    cdrdao-1.2.3-autoconf-update.patch
+    cdrdao-1.2.3-narrowing.patch
+    cdrdao-1.2.3-format_security.patch
+    cdrdao-1.2.3-k3b.patch)
+
+build() {
+	cd $name-$version
+
+	patch -p1 -i $SRC/cdrdao-1.2.3-stat.patch
+    patch -p1 -i $SRC/cdrdao-1.2.3-autoconf-update.patch
+    patch -p1 -i $SRC/cdrdao-1.2.3-narrowing.patch
+    patch -p1 -i $SRC/cdrdao-1.2.3-format_security.patch
+    patch -p1 -i $SRC/cdrdao-1.2.3-k3b.patch
+
+	./configure \
+		--prefix=/usr \
+		--without-lame
+
+	make
+	make DESTDIR=$PKG install
+}
