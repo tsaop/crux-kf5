@@ -5,7 +5,7 @@
 
 name=labplot
 version=2.4.0
-release=1
+release=2
 source=(https://download.kde.org/stable/$name/$version/$name-$version-kf5.tar.xz)
 
 build() {

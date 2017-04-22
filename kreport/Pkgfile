@@ -5,7 +5,7 @@
 
 name=kreport
 version=3.0.1
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz)
 
 build() {
