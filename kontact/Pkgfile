@@ -1,11 +1,11 @@
 # Description: Part of Kdepimlibs
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kontactinterface qtwebengine
+# Depends on: gtk kdepim-apps-libs kontactinterface
 
 name=kontact
 version=17.04.0
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {

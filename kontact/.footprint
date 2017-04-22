@@ -6,14 +6,13 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kontact.categories
 -rw-r--r--	root/root	usr/etc/xdg/kontact.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkontactprivate.so.5 -> libkontactprivate.so.5.4.3
--rwxr-xr-x	root/root	usr/lib/libkontactprivate.so.5.4.3
+lrwxrwxrwx	root/root	usr/lib/libkontactprivate.so.5 -> libkontactprivate.so.5.5.0
+-rwxr-xr-x	root/root	usr/lib/libkontactprivate.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kontact.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/kontact-admin.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kontact.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/kontact.kcfg
