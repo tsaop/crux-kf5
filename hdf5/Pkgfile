@@ -4,7 +4,7 @@
 # Depends on: glibc zlib  
 
 name=hdf5
-version=1.10.0-patch1
+version=1.10.1
 release=1
 source=(https://support.hdfgroup.org/ftp/HDF5/current/src/$name-$version.tar.bz2)
 
@@ -18,7 +18,7 @@ build() {
 		--enable-build-mode=production \
 		--with-pic \
 		--disable-sharedlib-rpath
-
+	
 	make
 	make DESTDIR=$PKG install
 
