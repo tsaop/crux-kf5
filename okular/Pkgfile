@@ -1,13 +1,13 @@
 # Description: Document viewer for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kactivities khtml kpty libkexiv2 libspectre poppler-qt5 qca-qt5 threadweaver
+# Depends on: chmlib djvulibre ebook-tools kactivities kdegraphics-mobipocket kdegraphics-thumbnailers khtml kpty libspectre poppler-qt5 qca-qt5 threadweaver
 
 name=okular
 version=17.04.0
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
 	okular.revdep)
-release=1
+release=2
 
 build() {
 
@@ -21,7 +21,7 @@ build() {
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-Wno-dev
-
+	
 	make
 	make DESTDIR=$PKG install
 
