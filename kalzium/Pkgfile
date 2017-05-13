@@ -1,0 +1,30 @@
+# Description: Periodic Table of Elements 
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: avogadrolibs kdelibs4support khtml knewstuff openbabel
+
+name=kalzium
+version=17.04.0
+release=1
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	( cd $PKG/usr/share/man
+	  find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+	)
+       	rm -rf $PKG/usr/share/doc
+}
