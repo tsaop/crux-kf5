@@ -1,0 +1,23 @@
+# Description: C library for finding and handling crystal symmetries
+# URL: http://wiki.openchemistry.org/Avogadro
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc  
+
+name=spglib
+version=1.9.9
+release=1
+source=(https://github.com/atztogo/$name/archive/v${version}.tar.gz)
+
+build() {
+	cd $name-$version
+	touch NEWS README AUTHORS
+
+	autoreconf -vfi
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--enable-shared \
+		--disable-static
+	
+	make
+	make DESTDIR=$PKG install
+}
