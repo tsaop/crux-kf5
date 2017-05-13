@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.33.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.33.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.34.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.34.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.33.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.33.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.34.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.34.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -183,6 +183,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/calendar/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/calendar/MonthMenu.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/calendar/MonthView.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/calendar/libcalendarplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/calendar/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/calendar/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/BusyIndicator.qml
@@ -212,6 +213,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/TextField.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ToolBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ToolButton.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/BusyIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/Button.qml
@@ -247,6 +249,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/ToolBarLayout.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/ToolButton.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/libplasmacomponentsplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/plugins.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/AppManager.js
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/Config.js
@@ -261,6 +264,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/core/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/core/libcorebindingsplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/core/plugins.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/core/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/core/private/DefaultToolTip.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/core/qmldir
@@ -279,9 +283,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/PressedAnimation.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/ReleasedAnimation.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/libplasmaextracomponentsplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/platformcomponents/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/platformcomponents/libplatformcomponentsplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/platformcomponents/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/platformcomponents/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/

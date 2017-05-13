@@ -1,4 +1,8 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/dbus-1/
+drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.ktexteditor.katetextbuffer.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/
@@ -65,9 +69,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextEditor/KF5TextEditorConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextEditor/KF5TextEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextEditor/KF5TextEditorTargets.cmake
+drwxr-xr-x	root/root	usr/lib/kauth/
+-rwxr-xr-x	root/root	usr/lib/kauth/kauth_ktexteditor_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so -> libKF5TextEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.33.0
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.33.0
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.34.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.34.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -77,6 +83,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/katepart.so
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
+-rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.ktexteditor.katetextbuffer.service
 drwxr-xr-x	root/root	usr/share/katepart5/
 drwxr-xr-x	root/root	usr/share/katepart5/script/
 drwxr-xr-x	root/root	usr/share/kservices5/
@@ -84,3 +93,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/ktexteditor.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/ktexteditorplugin.desktop
+drwxr-xr-x	root/root	usr/share/polkit-1/
+drwxr-xr-x	root/root	usr/share/polkit-1/actions/
+-rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.ktexteditor.katetextbuffer.policy

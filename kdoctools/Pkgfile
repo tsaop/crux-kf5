@@ -4,7 +4,7 @@
 # Depends on: docbook-xsl karchive ki18n p5-uri
 
 name=kdoctools
-version=5.33.0
+version=5.34.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
@@ -26,6 +26,8 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale $PKG/usr/share/doc
-	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,ru,sv,uk}
+	( cd $PKG/usr/share/man
+	  find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+	)
 	find $PKG -name README -delete
 }

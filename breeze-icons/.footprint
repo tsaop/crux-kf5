@@ -4401,6 +4401,7 @@ drwxr-xr-x	root/root	usr/share/icons/breeze-dark/apps/
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/apps/16/
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/accessories-text-editor.svg -> kwrite.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/applications-internet.svg -> ../../places/16/folder-html.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/kate.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/kdeconnect.svg -> ../../devices/16/smartphone.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/kwrite.svg
@@ -4415,6 +4416,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/accessories-text-editor
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/akregator.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/applications-internet.svg -> ../../places/22/folder-html.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/homerun.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/kate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/kde.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/kdeconnect.svg -> ../../devices/22/smartphone.svg
@@ -4433,6 +4435,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/preferences-plugin.svg 
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/vlc.svg
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/apps/32/
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/32/accessories-text-editor.svg -> kwrite.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/32/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/32/kate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/32/kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/32/system-file-manager.svg
@@ -4529,6 +4532,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/graphics-viewer-documen
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/help-browser.svg -> system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/homebank.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/homerun.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/htop.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/hwinfo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/im.vector.svg
@@ -4756,6 +4760,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/utilities-file-archiver
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/apps/64/
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/64/accessories-text-editor.svg -> kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/64/diaspora.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/64/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/64/kate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/64/kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/64/sharedlib.svg
@@ -7113,6 +7118,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/mediacontrol.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/nepomuk.svg -> preferences-desktop-baloo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/plasma-search.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/plasma.svg -> preferences-desktop-plasma.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/plasmagik.svg -> ./preferences-desktop-plasma.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/plasmashell.svg -> ./preferences-desktop-plasma.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/podcast-amarok.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-accessibility.svg
@@ -12008,6 +12014,7 @@ drwxr-xr-x	root/root	usr/share/icons/breeze/apps/
 drwxr-xr-x	root/root	usr/share/icons/breeze/apps/16/
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/accessories-text-editor.svg -> kwrite.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/applications-internet.svg -> ../../places/16/folder-html.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/16/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/kate.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/kdeconnect.svg -> ../../devices/16/smartphone.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/kwrite.svg
@@ -12023,6 +12030,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/accessories-text-editor.svg 
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/akregator.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/applications-internet.svg -> ../../places/22/folder-html.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/homerun.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/22/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/kate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/kde.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/kdeconnect.svg -> ../../devices/22/smartphone.svg
@@ -12042,6 +12050,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/preferences-plugin.svg -> ..
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/vlc.svg
 drwxr-xr-x	root/root	usr/share/icons/breeze/apps/32/
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/32/accessories-text-editor.svg -> kwrite.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/32/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/32/kate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/32/kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/32/plasmavault.svg
@@ -12139,6 +12148,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/graphics-viewer-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/help-browser.svg -> system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/homebank.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/homerun.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/48/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/htop.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/hwinfo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/im.vector.svg
@@ -12367,6 +12377,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/utilities-file-archiver.svg 
 drwxr-xr-x	root/root	usr/share/icons/breeze/apps/64/
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/64/accessories-text-editor.svg -> kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/64/diaspora.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/64/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/64/kate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/64/kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/64/plasmavault.svg
@@ -14745,6 +14756,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/mediacontrol.svg -> p
 lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/nepomuk.svg -> preferences-desktop-baloo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/plasma-search.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/plasma.svg -> preferences-desktop-plasma.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/plasmagik.svg -> ./preferences-desktop-plasma.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/plasmashell.svg -> ./preferences-desktop-plasma.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/podcast-amarok.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-accessibility.svg

@@ -4,7 +4,7 @@
 # Depends on: kconfig kcrash kdbusaddons kdoctools
 
 name=kservice
-version=5.33.0
+version=5.34.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
@@ -26,5 +26,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,es,nl,pt_BR,sv,uk,it}
+	( cd $PKG/usr/share/man
+	  find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+	)
 }
