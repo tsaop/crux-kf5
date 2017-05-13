@@ -1,0 +1,20 @@
+# Description: CHMLIB is a library for dealing with Microsoft ITSS/CHM format files
+# URL: http://www.jedrea.com/chmlib
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc  
+
+name=chmlib
+version=0.40
+release=1
+source=(http://www.jedrea.com/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
