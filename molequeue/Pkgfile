@@ -1,0 +1,28 @@
+# Description: Desktop integration of high performance computing resources 
+# URL: http://www.openchemistry.org/projects/molequeue
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt5
+
+name=molequeue
+version=0.8.0
+release=1
+source=(https://github.com/OpenChemistry/$name/archive/$version.tar.gz
+	gcc-version.diff)
+
+build() {
+	cd $name-$version
+
+	# fix GCC 6 detection
+	patch -Np1 -i $SRC/gcc-version.diff
+
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		..
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/doc
+}
