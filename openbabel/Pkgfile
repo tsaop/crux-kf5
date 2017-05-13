@@ -1,0 +1,27 @@
+# Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+# URL: http://openbabel.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost eigen wxgtk
+
+name=openbabel
+version=2.4.1
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz
+	gcc-version.diff)
+
+build() {
+	cd $name-$version
+
+	# Enabled GCC detection up to version 9.
+	# Patch courtesy of Debian
+	patch -Np1 -i $SRC/gcc-version.diff
+
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
