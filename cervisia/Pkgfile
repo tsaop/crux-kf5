@@ -5,7 +5,7 @@
 
 name=cervisia
 version=17.04.0
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
@@ -23,6 +23,8 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,sv,uk,ru}
+	( cd $PKG/usr/share/man
+	  find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+	)
 	rm -rf $PKG/usr/share/doc
 }
