@@ -4,8 +4,8 @@
 # Depends on: akonadi-import-wizard gtk kmail-account-wizard kontactinterface ktnef libksieve mbox-importer
 
 name=kmail
-version=17.04.0
-release=2
+version=17.04.1
+release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {

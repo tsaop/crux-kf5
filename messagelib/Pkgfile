@@ -1,10 +1,10 @@
 # Description: Library for mail messages
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-notes kdepim-apps-libs kidentitymanagement kmailtransport libgravatar kmbox
+# Depends on: akonadi-notes kdepim-apps-libs kidentitymanagement kmailtransport kmbox libgravatar
 
 name=messagelib
-version=17.04.0
+version=17.04.1
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
