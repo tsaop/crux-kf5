@@ -126,6 +126,7 @@ drwxr-xr-x	root/root	usr/include/kdevplatform/language/codegen/
 -rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/sourcefiletemplate.h
 -rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/templateclassgenerator.h
 -rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/templateengine.h
+-rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/templatepreviewicon.h
 -rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/templaterenderer.h
 -rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/templatesmodel.h
 -rw-r--r--	root/root	usr/include/kdevplatform/language/codegen/utilities.h
@@ -520,9 +521,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/actions/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/breakpoint.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/run-clean.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/run-install.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/actions/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/actions/breakpoint.svg
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/git.svg
 drwxr-xr-x	root/root	usr/share/kdevcodegen/
