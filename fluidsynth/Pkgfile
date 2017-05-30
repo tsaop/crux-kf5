@@ -2,17 +2,17 @@
 # URL: http://www.fluidsynth.org/
 # Maintainer: Jose V Beneyto, sepen at crux dot nu
 # Packager: Olle Gustafsson, ogg at linux dot se
-# Depends on:
+# Depends on: glib
 
 name=fluidsynth
 version=1.1.6
-release=1
+release=2
 source=(http://download.sourceforge.net/$name/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
   ./configure --prefix=/usr \
-              --mandir=/usr/man \
+              --mandir=/usr/share/man \
               --disable-debug \
               --disable-nls
   make
