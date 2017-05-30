@@ -33,20 +33,20 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kwin_rules_dialog
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kwin_rules_dialog.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kwin_x11.so
-lrwxrwxrwx	root/root	usr/lib/libkwin.so.5 -> libkwin.so.5.9.5
--rwxr-xr-x	root/root	usr/lib/libkwin.so.5.9.5
+lrwxrwxrwx	root/root	usr/lib/libkwin.so.5 -> libkwin.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkwin.so.5.10.0
 lrwxrwxrwx	root/root	usr/lib/libkwin4_effect_builtins.so -> libkwin4_effect_builtins.so.1
 lrwxrwxrwx	root/root	usr/lib/libkwin4_effect_builtins.so.1 -> libkwin4_effect_builtins.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libkwin4_effect_builtins.so.1.0.0
-lrwxrwxrwx	root/root	usr/lib/libkwineffects.so -> libkwineffects.so.10
-lrwxrwxrwx	root/root	usr/lib/libkwineffects.so.10 -> libkwineffects.so.5.9.5
--rwxr-xr-x	root/root	usr/lib/libkwineffects.so.5.9.5
-lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so -> libkwinglutils.so.10
-lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so.10 -> libkwinglutils.so.5.9.5
--rwxr-xr-x	root/root	usr/lib/libkwinglutils.so.5.9.5
-lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so -> libkwinxrenderutils.so.10
-lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so.10 -> libkwinxrenderutils.so.5.9.5
--rwxr-xr-x	root/root	usr/lib/libkwinxrenderutils.so.5.9.5
+lrwxrwxrwx	root/root	usr/lib/libkwineffects.so -> libkwineffects.so.11
+lrwxrwxrwx	root/root	usr/lib/libkwineffects.so.11 -> libkwineffects.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkwineffects.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so -> libkwinglutils.so.11
+lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so.11 -> libkwinglutils.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkwinglutils.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so -> libkwinxrenderutils.so.11
+lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so.11 -> libkwinxrenderutils.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkwinxrenderutils.so.5.10.0
 -rwxr-xr-x	root/root	usr/lib/org_kde_kwin_xclipboard_syncer
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -57,11 +57,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kwinrules.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kwinscreenedges.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kwintabbox.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kwintouchscreen.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/org.kde.kidletime.platforms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeKWinWaylandPrivatePlugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/kwin_packagestructure_aurorae.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/kwin_packagestructure_decoration.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/kwin_packagestructure_scripts.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/kwin_packagestructure_windowswitcher.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/
@@ -163,7 +166,9 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_eyeonscreen.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_fade.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_fadedesktop.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_frozenapp.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_login.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_logout.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_maximize.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_morphingpopups.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_effect_scalein.desktop
@@ -180,6 +185,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/kwinscreenedges.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwinscripts.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwintabbox.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kwintouchscreen.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kwindecoration.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/kwindesktopswitcher.desktop
@@ -232,6 +238,11 @@ drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_fadedesktop/contents/
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_fadedesktop/contents/code/
 -rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_fadedesktop/contents/code/main.js
 -rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_fadedesktop/metadata.desktop
+drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_frozenapp/
+drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_frozenapp/contents/
+drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_frozenapp/contents/code/
+-rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_frozenapp/contents/code/main.js
+-rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_frozenapp/metadata.desktop
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_login/
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_login/contents/
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_login/contents/code/
@@ -241,6 +252,11 @@ drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_login/contents/config/
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_login/contents/ui/
 -rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_login/contents/ui/config.ui
 -rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_login/metadata.desktop
+drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_logout/
+drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_logout/contents/
+drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_logout/contents/code/
+-rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_logout/contents/code/main.js
+-rw-r--r--	root/root	usr/share/kwin/effects/kwin4_effect_logout/metadata.desktop
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_maximize/
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_maximize/contents/
 drwxr-xr-x	root/root	usr/share/kwin/effects/kwin4_effect_maximize/contents/code/
@@ -325,7 +341,6 @@ drwxr-xr-x	root/root	usr/share/kwin/scripts/videowall/contents/ui/
 -rw-r--r--	root/root	usr/share/kwin/tm_inner.png
 -rw-r--r--	root/root	usr/share/kwin/tm_outer.png
 drwxr-xr-x	root/root	usr/share/kwin/virtualkeyboard/
--rw-r--r--	root/root	usr/share/kwin/virtualkeyboard/main-enterprise.qml
 -rw-r--r--	root/root	usr/share/kwin/virtualkeyboard/main.qml
 drwxr-xr-x	root/root	usr/share/kwincompositing/
 drwxr-xr-x	root/root	usr/share/kwincompositing/qml/

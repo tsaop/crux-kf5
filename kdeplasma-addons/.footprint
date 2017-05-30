@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_converter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_datetime.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_dictionary.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_katesessions.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_spellcheck.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/
@@ -34,6 +35,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma_comic_krossprovider.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_apodprovider.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_bingprovider.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_epodprovider.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_flickrprovider.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_natgeoprovider.so
@@ -94,6 +96,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_text.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_thumbnails.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.activitypager.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.binaryclock.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.calculator.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.colorpicker.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.comic.desktop
@@ -122,6 +125,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-datetime.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-dictionary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-dictionary_config.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-runner-katesessions.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-spellchecker.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-spellchecker_config.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.haenau.desktop
@@ -178,6 +182,7 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.haenau.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.hunyango.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.calculator.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.comic.appdata.xml
@@ -190,6 +195,7 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.notes.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.private.grouping.appdata.xml (EMPTY)
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml
@@ -212,6 +218,19 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitypager/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/config/config.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/ui/BinaryClock.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/ui/Dot.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/ui/DotColumn.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/ui/configGeneral.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.binaryclock/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calculator/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calculator/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calculator/contents/ui/
