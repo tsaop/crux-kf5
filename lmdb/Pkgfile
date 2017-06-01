@@ -1,10 +1,10 @@
 # Description: Ultra-fast, ultra-compact key-value embedded data store
 # URL: http://symas.com/mdb/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:
+# Depends on: glibc 
 
 name=lmdb
-version=0.9.19
+version=0.9.21
 release=1
 source=(https://github.com/${name^^}/lmdb/archive/${name^^}_$version.tar.gz)
 
