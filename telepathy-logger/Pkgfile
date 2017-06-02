@@ -1,0 +1,25 @@
+# Description: GLib bindings for Telepathy
+# URL: https://telepathy.freedesktop.org/components/telepathy-logger/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: telepathy-glib
+
+name=telepathy-logger
+version=0.8.2
+release=1
+source=(http://telepathy.freedesktop.org/releases/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/usr/etc \
+		--disable-gtk-doc-html
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove documentation:
+	rm -rf $PKG/usr/share/gtk-doc
+}

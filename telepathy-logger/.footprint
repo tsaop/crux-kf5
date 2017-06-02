@@ -1,0 +1,35 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/telepathy-logger-0.2/
+drwxr-xr-x	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/call-event.h
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/entity.h
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/event.h
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/log-manager.h
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/log-walker.h
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/telepathy-logger.h
+-rw-r--r--	root/root	usr/include/telepathy-logger-0.2/telepathy-logger/text-event.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/TelepathyLogger-0.2.typelib
+-rw-r--r--	root/root	usr/lib/libtelepathy-logger.a
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-logger.la
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-logger.so -> libtelepathy-logger.so.3.3.0
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-logger.so.3 -> libtelepathy-logger.so.3.3.0
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-logger.so.3.3.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/telepathy-logger-0.2.pc
+-rwxr-xr-x	root/root	usr/lib/telepathy-logger
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Logger.service
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.Telepathy.Logger.service
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/TelepathyLogger-0.2.gir
+drwxr-xr-x	root/root	usr/share/glib-2.0/
+drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
+-rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.freedesktop.Telepathy.Logger.gschema.xml
+drwxr-xr-x	root/root	usr/share/telepathy/
+drwxr-xr-x	root/root	usr/share/telepathy/clients/
+-rw-r--r--	root/root	usr/share/telepathy/clients/Logger.client
