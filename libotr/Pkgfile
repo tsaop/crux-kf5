@@ -1,0 +1,21 @@
+# Description: C library that implements the OTR protocol
+# URL: https://github.com/off-the-record/libotr
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libgcrypt
+
+name=libotr
+version=4.1.0
+release=1
+source=(https://github.com/off-the-record/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	autoreconf -vfi
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
