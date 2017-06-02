@@ -1,0 +1,21 @@
+# Description: A Linux SVG-based theme engine for Qt4/Qt5 and KDE
+# URL: https://github.com/tsujan/Kvantum
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: desktop-file-utils gtk qt5
+
+name=kvantum
+version=0.10.4
+release=1
+source=(https://github.com/tsujan/Kvantum/archive/V${version}.tar.gz)
+
+build() {
+	cd Kvantum-$version/Kvantum
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
