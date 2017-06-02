@@ -1,0 +1,26 @@
+# Description: Glib-based library for interfacing with signond
+# URL: https://gitlab.com/accounts-sso/libsignon-glib
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: git gtk-doc signond
+
+name=libsignon-glib
+version=1.14
+release=1
+source=(libsignon-glib-1.12-doc-disable.patch)
+
+build() 
+{
+	git clone https://gitlab.com/accounts-sso/$name.git --branch=VERSION_$version
+	cd $name
+	patch -Np1 -i $SRC/libsignon-glib-1.12-doc-disable.patch
+
+	./autogen.sh
+	CONFIG_SHELL="/bin/bash" ./configure --prefix=/usr \
+		--disable-gtk-doc
+
+	make
+	make DESTDIR=$PKG install
+
+	# remove vala bindings
+	rm -rf $PKG/usr/share/vala
+}
