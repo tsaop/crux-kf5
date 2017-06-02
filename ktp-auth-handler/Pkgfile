@@ -1,0 +1,30 @@
+# Description: Provide UI/KWallet Integration For Passwords and SSL Errors on Account Connect
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kdewebkit ktp-common-internals kwebkit qca-qt5
+
+name=ktp-auth-handler
+version=17.04.1
+release=1
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,es,fr,gl,it,nl,pt,pt_BR,sr,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}
