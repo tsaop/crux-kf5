@@ -1,0 +1,272 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/ktp-log-viewer
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/ktp-adiumxtra-protocol-handler
+-rwxr-xr-x	root/root	usr/lib/ktp-text-ui
+-rwxr-xr-x	root/root	usr/lib/libktpchat.so
+-rwxr-xr-x	root/root	usr/lib/libktpimagesharer.so
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktp_chat_appearance.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktp_chat_behavior.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktp_chat_messages.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktp_chat_otr.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktp_logviewer_behavior.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktptextui_message_filter_emoticons.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_ktptextui_message_filter_latex.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_bugzilla.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_emoticons.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_formatting.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_geopoint.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_highlight.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_images.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_latex.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_otr.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_searchexpansion.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_tts.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_urlexpansion.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ktptextui_message_filter_youtube.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/org.kde.ktplogviewer.desktop
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.TextUi.service
+drwxr-xr-x	root/root	usr/share/kservices5/
+-rw-r--r--	root/root	usr/share/kservices5/adiumxtra.protocol
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktp_chat_appearance.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktp_chat_behavior.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktp_chat_messages.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktp_chat_otr.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktp_logviewer_behavior.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktptextui_message_filter_emoticons.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_ktptextui_message_filter_latex.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_bugzilla.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_emoticons.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_formatting.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_geopoint.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_highlight.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_images.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_latex.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_otr.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_searchexpansion.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_tts.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_urlexpansion.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ktptextui_message_filter_youtube.desktop
+drwxr-xr-x	root/root	usr/share/kservicetypes5/
+-rw-r--r--	root/root	usr/share/kservicetypes5/ktptxtui_message_filter.desktop
+drwxr-xr-x	root/root	usr/share/ktelepathy/
+-rw-r--r--	root/root	usr/share/ktelepathy/Template.html
+-rw-r--r--	root/root	usr/share/ktelepathy/longurl.js
+-rw-r--r--	root/root	usr/share/ktelepathy/longurlServices.json
+-rw-r--r--	root/root	usr/share/ktelepathy/showBugzillaInfo.js
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Info.plist
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Footer.html (EMPTY)
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Header.html (EMPTY)
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Incoming/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Incoming/Content.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Incoming/NextContent.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Incoming/SenderColors.txt
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Outgoing/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Outgoing/Content.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Outgoing/NextContent.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/Status.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/SimKete.AdiumMessageStyle/Contents/Resources/main.css
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Info.plist
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Footer.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Header.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Incoming/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Incoming/Content.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Incoming/NextContent.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Outgoing/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Outgoing/Content.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Outgoing/NextContent.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Status.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Styles/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Styles/Header.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Template.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/Topic.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/img/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/img/sidebar_header_bg.png
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/lib/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/lib/jquery.js
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/lib/livepipe.js
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/lib/scrollbar.js
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/WoshiChat.AdiumMessageStyle/Contents/Resources/main.css
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Info.plist
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Demo.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Footer.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Header.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Incoming/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Incoming/Content.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Incoming/Context.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Incoming/NextContent.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Incoming/NextContext.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Incoming/buddy_icon.png
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Outgoing/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Outgoing/Content.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Outgoing/Context.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Outgoing/NextContent.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Outgoing/NextContext.html
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Outgoing/buddy_icon.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Status.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Styles/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Styles/Header.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Styles/Topic.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Styles/alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Styles/main.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Styles/noname.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Topic.html
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Green Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Green No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Green No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Green.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Red Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Red No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Red No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Red.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Steel Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Steel No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Steel No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Steel.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Yellow Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Yellow No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Yellow No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Blue on Yellow.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Blue Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Blue No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Blue No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Blue.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Red Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Red No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Red No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Red.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Steel Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Steel No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Steel No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Steel.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Yellow Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Yellow No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Yellow No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Green on Yellow.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Blue Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Blue No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Blue No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Blue.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Green Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Green No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Green No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Green.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Steel Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Steel No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Steel No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Steel.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Yellow Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Yellow No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Yellow No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Red on Yellow.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Blue Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Blue No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Blue No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Blue.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Green Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Green No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Green No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Green.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Red Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Red No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Red No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Red.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Yellow Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Yellow No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Yellow No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Steel on Yellow.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Blue Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Blue No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Blue No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Blue.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Green Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Green No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Green No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Green.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Red Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Red No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Red No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Red.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Steel Alternating.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Steel No Names Alt.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Steel No Names.css
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/Variants/Yellow on Steel.css
+drwxr-xr-x	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/DummyContact.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/alert.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueBackground.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueBackground.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueCurves.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueCurves.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueIndicator.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueIndicator.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueIndicator2.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/blueIndicatorAlt.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenBackground.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenBackground.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenCurves.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenCurves.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenIndicator.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenIndicator.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenIndicator2.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/greenIndicatorAlt.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redBackground.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redBackground.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redCurves.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redCurves.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redIndicator.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redIndicator.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redIndicator2.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/redIndicatorAlt.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/silverBackground.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/silverCurves.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelBackground.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelBackground.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelCurves.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelCurves.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelHeading.jpg
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelIndicator.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelIndicator.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelIndicator2.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/steelIndicatorAlt.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/typing-left.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/typing-right.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowBackground.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowBackground.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowCurves.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowCurves.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowHeading.jpg
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowIndicator.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowIndicator.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowIndicator2.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowIndicatorAlt.gif
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowTL.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/images/yellowTR.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/incoming_icon.png
+-rw-r--r--	root/root	usr/share/ktelepathy/styles/renkoo.AdiumMessageStyle/Contents/Resources/outgoing_icon.png
+drwxr-xr-x	root/root	usr/share/ktp-log-viewer/
+-rw-r--r--	root/root	usr/share/ktp-log-viewer/log-viewer.rc
+drwxr-xr-x	root/root	usr/share/kxmlgui5/
+drwxr-xr-x	root/root	usr/share/kxmlgui5/ktp-text-ui/
+-rw-r--r--	root/root	usr/share/kxmlgui5/ktp-text-ui/chatwindow.rc
+drwxr-xr-x	root/root	usr/share/telepathy/
+drwxr-xr-x	root/root	usr/share/telepathy/clients/
+-rw-r--r--	root/root	usr/share/telepathy/clients/KTp.TextUi.client
