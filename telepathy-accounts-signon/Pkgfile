@@ -1,0 +1,21 @@
+# Description: Telepathy providers for libaccounts/libsignon borrowed from Empathy
+# URL: https://gitlab.com/accounts-sso/telepathy-accounts-signon
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libaccounts-glib libsignon-glib telepathy-mission-control
+
+name=telepathy-accounts-signon
+version=1.0
+release=1
+source=()
+
+build() 
+{
+	git clone https://gitlab.com/accounts-sso/$name.git --branch=$version
+	cd $name
+
+	qmake-qt5 PREFIX=/usr LIBDIR=/usr/lib
+
+	make
+	make INSTALL_ROOT=$PKG install
+	rm -rf $PKG/usr/share/doc
+}
