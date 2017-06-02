@@ -1,0 +1,24 @@
+# Description: Qt bindigs for GStreamer
+# URL: https://gstreamer.freedesktop.org/modules/qt-gstreamer.html
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost qt5
+
+name=qt-gstreamer
+version=1.2.0
+release=1
+source=(https://gstreamer.freedesktop.org/src/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-DQT_VERSION=5 \
+		-Wno-dev \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
