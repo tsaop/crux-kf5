@@ -1,0 +1,25 @@
+# Description: Telepathy component implementing both the Account Manager and Channel Dispatcher specifications
+# URL: https://telepathy.freedesktop.org/components/telepathy-mission-control/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: telepathy-glib
+
+name=telepathy-mission-control
+version=5.16.4
+release=1
+source=(http://telepathy.freedesktop.org/releases/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/usr/etc \
+		--disable-gtk-doc-html
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove documentation:
+	rm -rf $PKG/usr/share/gtk-doc
+}
