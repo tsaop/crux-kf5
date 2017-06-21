@@ -5,7 +5,7 @@
 
 name=hdf5
 version=1.10.1
-release=1
+release=2
 source=(https://support.hdfgroup.org/ftp/HDF5/current/src/$name-$version.tar.bz2)
 
 build() {
@@ -22,5 +22,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -rf $PKG/usr/share $PKG/usr/lib/libhdf5.settings
+	rm -rf $PKG/usr/share $PKG/usr/lib/libhdf5.settings $PKG/usr/lib/libdynlib*.{so,la}
 }
