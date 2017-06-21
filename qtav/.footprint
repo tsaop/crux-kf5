@@ -47,6 +47,8 @@ drwxr-xr-x	root/root	usr/include/qt5/QtAV/5.8.0/QtAV/private/
 -rw-r--r--	root/root	usr/include/qt5/QtAV/Frame.h
 -rw-r--r--	root/root	usr/include/qt5/QtAV/FrameReader.h
 -rw-r--r--	root/root	usr/include/qt5/QtAV/GLSLFilter.h
+-rw-r--r--	root/root	usr/include/qt5/QtAV/Geometry.h
+-rw-r--r--	root/root	usr/include/qt5/QtAV/GeometryRenderer.h
 -rw-r--r--	root/root	usr/include/qt5/QtAV/LibAVFilter.h
 -rw-r--r--	root/root	usr/include/qt5/QtAV/MediaIO.h
 -rw-r--r--	root/root	usr/include/qt5/QtAV/OpenGLRendererBase.h
@@ -87,17 +89,16 @@ drwxr-xr-x	root/root	usr/include/qt5/QtAVWidgets/
 -rw-r--r--	root/root	usr/include/qt5/QtAVWidgets/version.h
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libQtAV.prl
-lrwxrwxrwx	root/root	usr/lib/libQtAV.so -> libQtAV.so.1.11.0
-lrwxrwxrwx	root/root	usr/lib/libQtAV.so.1 -> libQtAV.so.1.11.0
-lrwxrwxrwx	root/root	usr/lib/libQtAV.so.1.11 -> libQtAV.so.1.11.0
--rwxr-xr-x	root/root	usr/lib/libQtAV.so.1.11.0
+lrwxrwxrwx	root/root	usr/lib/libQtAV.so -> libQtAV.so.1.12.0
+lrwxrwxrwx	root/root	usr/lib/libQtAV.so.1 -> libQtAV.so.1.12.0
+lrwxrwxrwx	root/root	usr/lib/libQtAV.so.1.12 -> libQtAV.so.1.12.0
+-rwxr-xr-x	root/root	usr/lib/libQtAV.so.1.12.0
 -rw-r--r--	root/root	usr/lib/libQtAVWidgets.prl
-lrwxrwxrwx	root/root	usr/lib/libQtAVWidgets.so -> libQtAVWidgets.so.1.11.0
-lrwxrwxrwx	root/root	usr/lib/libQtAVWidgets.so.1 -> libQtAVWidgets.so.1.11.0
-lrwxrwxrwx	root/root	usr/lib/libQtAVWidgets.so.1.11 -> libQtAVWidgets.so.1.11.0
--rwxr-xr-x	root/root	usr/lib/libQtAVWidgets.so.1.11.0
+lrwxrwxrwx	root/root	usr/lib/libQtAVWidgets.so -> libQtAVWidgets.so.1.12.0
+lrwxrwxrwx	root/root	usr/lib/libQtAVWidgets.so.1 -> libQtAVWidgets.so.1.12.0
+lrwxrwxrwx	root/root	usr/lib/libQtAVWidgets.so.1.12 -> libQtAVWidgets.so.1.12.0
+-rwxr-xr-x	root/root	usr/lib/libQtAVWidgets.so.1.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
-drwxr-xr-x	root/root	usr/lib/qt5/bin/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/features/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/features/av.prf
