@@ -1,0 +1,16 @@
+# Description: Code generator for creating Python language bindings
+# URL: https://www.riverbankcomputing.com/software/sip
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3  
+
+name=sip
+version=4.19.2
+release=1
+source=(https://sourceforge.net/projects/pyqt/files/$name/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	python3 configure.py
+	make
+	make DESTDIR=$PKG install
+}
