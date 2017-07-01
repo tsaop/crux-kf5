@@ -1,0 +1,20 @@
+# Description: Python3 bindings for Qt5
+# URL: https://www.riverbankcomputing.com/software/pyqt
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qtwebengine qtwebkit sip
+
+name=pyqt5
+_realname=PyQt5
+version=5.8.2
+release=1
+source=(https://sourceforge.net/projects/pyqt/files/$_realname/${_realname/5/}-$version/${_realname}_gpl-$version.tar.gz)
+
+build() {
+	cd ${_realname}_gpl-$version
+	python3 configure.py --confirm-license \
+		--no-sip-files \
+		-q /usr/bin/qmake-qt5
+
+	make
+	make INSTALL_ROOT=$PKG install
+}
