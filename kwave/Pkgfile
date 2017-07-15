@@ -4,7 +4,7 @@
 # Depends on: audiofile fftw kio librsvg libsamplerate opus
 
 name=kwave
-version=17.04.2
+version=17.04.3
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
@@ -19,6 +19,7 @@ build() {
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DWITH_PULSEAUDIO=OFF \
+	-DWITH_DOC=OFF \
 	-Wno-dev
 
 	make
