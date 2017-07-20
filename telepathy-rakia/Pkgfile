@@ -1,0 +1,25 @@
+# Description: telepathy-rakia is a connection manager for the SIP protocol
+# URL: https://telepathy.freedesktop.org/components/telepathy-rakia/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: sofia-sip telepathy-glib
+
+name=telepathy-rakia
+version=0.8.0
+release=1
+source=(https://telepathy.freedesktop.org/releases/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/usr/etc \
+		--disable-gtk-doc-html
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove documentation:
+	rm -rf $PKG/usr/share
+}
