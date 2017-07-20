@@ -1,0 +1,18 @@
+# Description: Sofia-SIP is an open-source SIP User-Agent library
+# URL: http://sofia-sip.sourceforge.net/index.html
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glib
+
+name=sofia-sip
+version=1.12.11
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
