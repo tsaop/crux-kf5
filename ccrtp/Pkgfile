@@ -1,0 +1,20 @@
+# Description: GNU ccRTP is an implementation of RTP, the real-time transport protocol
+# URL: https://www.gnu.org/software/ccrtp/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libgcrypt ucommon
+
+name=ccrtp
+version=2.1.2
+release=1
+source=(https://ftp.gnu.org/gnu/ccrtp/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/info
+}

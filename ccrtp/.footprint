@@ -1,0 +1,27 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/ccrtp/
+-rw-r--r--	root/root	usr/include/ccrtp/CryptoContext.h
+-rw-r--r--	root/root	usr/include/ccrtp/CryptoContextCtrl.h
+-rw-r--r--	root/root	usr/include/ccrtp/base.h
+-rw-r--r--	root/root	usr/include/ccrtp/channel.h
+-rw-r--r--	root/root	usr/include/ccrtp/cqueue.h
+-rw-r--r--	root/root	usr/include/ccrtp/ext.h
+-rw-r--r--	root/root	usr/include/ccrtp/formats.h
+-rw-r--r--	root/root	usr/include/ccrtp/ioqueue.h
+-rw-r--r--	root/root	usr/include/ccrtp/iqueue.h
+-rw-r--r--	root/root	usr/include/ccrtp/oqueue.h
+-rw-r--r--	root/root	usr/include/ccrtp/pool.h
+-rw-r--r--	root/root	usr/include/ccrtp/queuebase.h
+-rw-r--r--	root/root	usr/include/ccrtp/rtcppkt.h
+-rw-r--r--	root/root	usr/include/ccrtp/rtp.h
+-rw-r--r--	root/root	usr/include/ccrtp/rtppkt.h
+-rw-r--r--	root/root	usr/include/ccrtp/sources.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libccrtp.la
+lrwxrwxrwx	root/root	usr/lib/libccrtp.so -> libccrtp.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib/libccrtp.so.3 -> libccrtp.so.3.0.1
+-rwxr-xr-x	root/root	usr/lib/libccrtp.so.3.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libccrtp.pc
+drwxr-xr-x	root/root	usr/share/
