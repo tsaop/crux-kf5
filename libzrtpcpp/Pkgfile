@@ -1,0 +1,24 @@
+# Description: C++ Implementation of ZRTP protocol - GNU ZRTP C++
+# URL: https://github.com/wernerd/ZRTPCPP
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: ccrtp cmake
+
+name=libzrtpcpp
+version=4.6.6
+release=1
+source=(https://github.com/wernerd/ZRTPCPP/archive/V${version}.tar.gz)
+
+build() {
+	cd ZRTPCPP-$version
+
+	# fix libdir name
+	sed 's/lib64/lib/g' -i CMakeLists.txt
+
+	mkdir build; cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
