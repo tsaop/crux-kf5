@@ -1,0 +1,22 @@
+# Description: iLBC (internet Low Bitrate Codec) is a FREE speech codec suitable for robust voice communication over IP
+# URL: https://webrtc.org/license/ilbc-freeware/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc  
+
+name=ilbc
+version=rfc3951
+release=1
+source=(http://www.ietf.org/rfc/rfc3951.txt
+	configure
+	extract-code.sh)
+
+build() {
+	bash $SRC/extract-code.sh $name-$version < $SRC/$version.txt
+	mv configure $name-$version
+	cd $name-$version
+	chmod +x configure
+	CFLAGS="-fPIC" ./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
