@@ -4,9 +4,9 @@
 # Depends on: cln gnuplot
 
 name=libqalculate
-version=0.9.12
+version=1.0.0
 release=1
-source=(https://github.com/Qalculate/$name/releases/download/v$version/$name-$version.tar.gz)
+source=(https://github.com/Qalculate/$name/releases/download/v1.0.0a/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
