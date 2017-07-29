@@ -4,12 +4,12 @@
 # Depends on: extra-cmake-modules qt5
 
 name=kdevelop-pg-qt
-version=2.0.0
+version=2.1.0
 release=1
-source=(http://download.kde.org/stable/$name/$version/src/$name-${version:0:3}.tar.xz)
+source=(http://download.kde.org/stable/$name/$version/src/$name-$version.tar.xz)
 
 build() {
-	cd $name-${version:0:3}
+	cd $name-$version
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
