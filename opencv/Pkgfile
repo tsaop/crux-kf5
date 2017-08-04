@@ -1,10 +1,10 @@
 # Description: Open Source Computer Vision Library 
 # URL: http://opencv.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: eigen ffmpeg gtkglext jasper libgphoto2 libwebp openexr qt5
+# Depends on: eigen ffmpeg gtkglext jasper libgphoto2 libwebp openexr protobuf python3 qt5
 
 name=opencv
-version=3.2.0
+version=3.3.0
 release=1
 source=(https://github.com/$name/$name/archive/$version.tar.gz)
 
@@ -27,7 +27,6 @@ build() {
 		-DWITH_V4L=OFF \
 		-DBUILD_TESTS=OFF \
 		-DBUILD_PERF_TESTS=OFF \
-		-DPYTHON3_EXECUTABLE=/dev/null \
 		..
 
 	make
