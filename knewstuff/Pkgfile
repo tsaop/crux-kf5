@@ -11,8 +11,6 @@ source=(http://download.kde.org/stable/frameworks/${version%.*}/$name-$version.t
 build() {
 	cd $name-$version
 
-	
-
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
