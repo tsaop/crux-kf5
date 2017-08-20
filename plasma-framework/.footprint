@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.36.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.36.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.37.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.37.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.36.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.36.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.37.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.37.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -170,6 +170,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls/Styles/Plasma/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls/Styles/Plasma/private/ButtonShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls/Styles/Plasma/private/RoundShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls/Styles/Plasma/private/TextFieldFocus.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls/Styles/Plasma/private/Util.js
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls/Styles/Plasma/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -252,7 +253,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/plugins.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/AppManager.js
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/Config.js
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/DualStateButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/InlineDialog.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components/private/PageStack.js

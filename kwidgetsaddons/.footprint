@@ -46,6 +46,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageWidgetItem
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPageWidgetModel
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPasswordDialog
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPasswordLineEdit
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPixmapRegionSelectorDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPixmapRegionSelectorWidget
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPixmapSequence
@@ -114,6 +115,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpagewidget.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpagewidgetmodel.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpassworddialog.h
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpasswordlineedit.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpixmapregionselectordialog.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpixmapregionselectorwidget.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpixmapsequence.h
@@ -153,8 +155,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WidgetsAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so -> libKF5WidgetsAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.36.0
--rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.36.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.37.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.37.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

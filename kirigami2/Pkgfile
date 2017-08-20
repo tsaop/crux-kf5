@@ -4,9 +4,9 @@
 # Depends on: plasma-framework
 
 name=kirigami2
-version=2.2.0
+version=5.37.0
 release=1
-source=(http://download.kde.org/stable/${name%2}/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	mkdir build; cd build
