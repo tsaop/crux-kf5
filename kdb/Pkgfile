@@ -4,12 +4,12 @@
 # Depends on: desktop-file-utils gtk icu kcoreaddons ki18n
 
 name=kdb
-version=3.0.1.1
+version=3.0.2
 release=1
 source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz)
 
 build() {
-	cd $name-${version%.1}
+	cd $name-$version
 	mkdir build; cd build
 
 	cmake \
