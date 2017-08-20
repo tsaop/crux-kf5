@@ -1,0 +1,29 @@
+# Description: Lieutenant Skat is a fun and engaging card game for two players 
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: gtk libkdegames
+
+name=lskat
+version=17.08.0
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+
+    cd $name-$version
+    mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/doc
+}
