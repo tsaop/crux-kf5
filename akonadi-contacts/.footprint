@@ -1,4 +1,8 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/akonadi-contacts.categories
+-rw-r--r--	root/root	usr/etc/xdg/contact-editor.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Akonadi/
@@ -8,7 +12,6 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactDefaultActions
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditor
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditorDialog
--rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditorPagePlugin
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGroupEditor
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGroupEditorDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGroupExpandJob
@@ -30,7 +33,9 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactActionManager
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactFormatter
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactGroupFormatter
--rw-r--r--	root/root	usr/include/KF5/akonadi-contact_version.h
+drwxr-xr-x	root/root	usr/include/KF5/ContactEditor/
+-rw-r--r--	root/root	usr/include/KF5/ContactEditor/CategoriesEditAbstractWidget
+-rw-r--r--	root/root	usr/include/KF5/ContactEditor/ContactEditorPagePlugin
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractcontactformatter.h
@@ -39,7 +44,6 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactdefaultactions.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditor.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditordialog.h
--rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditorpageplugin.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgroupeditor.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgroupeditordialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgroupexpandjob.h
@@ -57,11 +61,15 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionmodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionwidget.h
--rw-r--r--	root/root	usr/include/KF5/akonadi/contact/improtocols.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/selectaddressbookdialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactactionmanager.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactformatter.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactgroupformatter.h
+drwxr-xr-x	root/root	usr/include/KF5/contacteditor/
+-rw-r--r--	root/root	usr/include/KF5/contacteditor/categorieseditabstractwidget.h
+-rw-r--r--	root/root	usr/include/KF5/contacteditor/contacteditor_export.h
+-rw-r--r--	root/root	usr/include/KF5/contacteditor/contacteditorpageplugin.h
+-rw-r--r--	root/root	usr/include/KF5/contacteditor/improtocols.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiContact/
@@ -69,21 +77,34 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiContact/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiContact/KF5AkonadiContactTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5ContactEditor/
+-rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.6.0
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so -> libKF5ContactEditor.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.6.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_AkonadiContact.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_ContactEditor.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/contacts/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/contacts/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/contacts/plugins/categorieseditwidgetplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_akonadicontact_actions.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/akonadicontact/
-drwxr-xr-x	root/root	usr/share/akonadicontact/grantleetheme/
-drwxr-xr-x	root/root	usr/share/akonadicontact/grantleetheme/default/
--rw-r--r--	root/root	usr/share/akonadicontact/grantleetheme/default/addresseslocation.css
--rw-r--r--	root/root	usr/share/akonadicontact/grantleetheme/default/addresseslocation.html
+drwxr-xr-x	root/root	usr/share/contacteditor/
+drwxr-xr-x	root/root	usr/share/contacteditor/grantleetheme/
+drwxr-xr-x	root/root	usr/share/contacteditor/grantleetheme/default/
+-rw-r--r--	root/root	usr/share/contacteditor/grantleetheme/default/addresseslocation.css
+-rw-r--r--	root/root	usr/share/contacteditor/grantleetheme/default/addresseslocation.html
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/akonadi/
 drwxr-xr-x	root/root	usr/share/kf5/akonadi/contact/

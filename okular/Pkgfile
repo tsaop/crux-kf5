@@ -4,7 +4,7 @@
 # Depends on: chmlib djvulibre ebook-tools kactivities kdegraphics-mobipocket kdegraphics-thumbnailers khtml kpty libspectre poppler-qt5 qca-qt5 threadweaver
 
 name=okular
-version=17.04.3
+version=17.08.0
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
 	okular.revdep)
 release=1
@@ -29,6 +29,8 @@ build() {
 	install -Dm644 $SRC/okular.revdep $PKG/etc/revdep.d/okular
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,es,et,fr,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
+	( cd $PKG/usr/share/man
+	  find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+	)
 }

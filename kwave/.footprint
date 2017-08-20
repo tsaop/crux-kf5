@@ -2,10 +2,10 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kwave
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkwave.so.17 -> libkwave.so.17.04.3
--rwxr-xr-x	root/root	usr/lib/libkwave.so.17.04.3
-lrwxrwxrwx	root/root	usr/lib/libkwavegui.so.17 -> libkwavegui.so.17.04.3
--rwxr-xr-x	root/root	usr/lib/libkwavegui.so.17.04.3
+lrwxrwxrwx	root/root	usr/lib/libkwave.so.17 -> libkwave.so.17.08.0
+-rwxr-xr-x	root/root	usr/lib/libkwave.so.17.08.0
+lrwxrwxrwx	root/root	usr/lib/libkwavegui.so.17 -> libkwavegui.so.17.08.0
+-rwxr-xr-x	root/root	usr/lib/libkwavegui.so.17.08.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/
@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_codec_ogg.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_codec_wav.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_debug.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_export_k3b.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_fileinfo.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_goto.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwave/kwaveplugin_insert_at.so

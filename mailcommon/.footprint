@@ -22,11 +22,11 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FilterImporterExporter
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FilterLog
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FilterManager
--rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderCollection
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderCollectionMonitor
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderJob
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderRequester
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderSelectionDialog
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderSettings
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderTreeView
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderTreeWidget
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/FolderTreeWidgetProxyModel
@@ -66,11 +66,11 @@ drwxr-xr-x	root/root	usr/include/KF5/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/filterimporterexporter.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/filterlog.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/filtermanager.h
--rw-r--r--	root/root	usr/include/KF5/mailcommon/foldercollection.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldercollectionmonitor.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/folderjob.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/folderrequester.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/folderselectiondialog.h
+-rw-r--r--	root/root	usr/include/KF5/mailcommon/foldersettings.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldertreeview.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldertreewidget.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/foldertreewidgetproxymodel.h
@@ -105,8 +105,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailCommon/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so -> libKF5MailCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.6.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

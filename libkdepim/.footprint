@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/AddHostDialog
+-rw-r--r--	root/root	usr/include/KF5/Libkdepim/AddresseeLineEditUtil
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/BroadcastStatus
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/CustomLogWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/EmailValidator
@@ -30,6 +31,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressIndicatorWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressManager
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressStatusBarWidget
+-rw-r--r--	root/root	usr/include/KF5/Libkdepim/RecentAddresses
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/StatusbarProgressWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/UiStateSaver
 drwxr-xr-x	root/root	usr/include/KF5/LibkdepimAkonadi/
@@ -37,7 +39,6 @@ drwxr-xr-x	root/root	usr/include/KF5/LibkdepimAkonadi/
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/AddEmailAddressJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/AddEmailDisplayJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/AddresseeLineEdit
--rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/BlackListBalooEmailCompletionDialog
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/CollectionSearchJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/CompletionConfigureDialog
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/CompletionOrderEditor
@@ -45,11 +46,11 @@ drwxr-xr-x	root/root	usr/include/KF5/LibkdepimAkonadi/
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/Person
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/PersonSearchJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/ProgressManagerAkonadi
--rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/RecentAddresses
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/TagSelectionCombo
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/TagWidgets
 drwxr-xr-x	root/root	usr/include/KF5/libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/addhostdialog.h
+-rw-r--r--	root/root	usr/include/KF5/libkdepim/addresseelineeditutil.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/broadcaststatus.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/customlogwidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/emailvalidator.h
@@ -74,6 +75,7 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressindicatorwidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressmanager.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressstatusbarwidget.h
+-rw-r--r--	root/root	usr/include/KF5/libkdepim/recentaddresses.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/statusbarprogresswidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/uistatesaver.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim_version.h
@@ -82,7 +84,6 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepimakonadi/
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/addemailaddressjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/addemaildisplayjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/addresseelineedit.h
--rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/blacklistbalooemailcompletiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/collectionsearchjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/completionconfiguredialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/completionordereditor.h
@@ -91,7 +92,6 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepimakonadi/
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/person.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/personsearchjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/progressmanagerakonadi.h
--rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/recentaddresses.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/tagselectioncombo.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/tagwidgets.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi_version.h
@@ -110,11 +110,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5LibkdepimAkonadi/
 drwxr-xr-x	root/root	usr/lib/cmake/MailTransportDBusService/
 -rw-r--r--	root/root	usr/lib/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so -> libKF5Libkdepim.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so -> libKF5LibkdepimAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.6.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -11,18 +11,17 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kmail.antispamrc
 -rw-r--r--	root/root	usr/etc/xdg/kmail.antivirusrc
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/akonadi/
-drwxr-xr-x	root/root	usr/lib/akonadi/contact/
-drwxr-xr-x	root/root	usr/lib/akonadi/contact/editorpageplugins/
--rwxr-xr-x	root/root	usr/lib/akonadi/contact/editorpageplugins/cryptopageplugin.so
-lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.5.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.5.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.5.3
-lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.5.3
+drwxr-xr-x	root/root	usr/lib/contacteditor/
+drwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/
+-rwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/cryptopageplugin.so
+lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.6.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.6.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.6.0
+lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.6.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/
@@ -44,6 +43,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_changecaseeditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_checkbeforesendeditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_confirmaddresseditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_externalcomposereditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertspecialcharactereditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_logactivitiesplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_nonbreakingspaceeditorplugin.so
@@ -54,6 +54,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_thisdayinhistory.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/libksieve/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libksieve/imapfoldercompletionplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/libksieve/regexpeditorlineeditplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/mailtransport/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/mailtransport/mailtransport_sendplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_allheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_briefheaderstyleplugin.so
@@ -84,6 +87,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/pimevents.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/pimevents/
 -rw-r--r--	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/pimevents/PimEventsConfig.qml
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/templateparser/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/templateparser/templateparseraddressrequesterplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/webengineviewer_adblockplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/webengineviewer_donottrackplugin.so

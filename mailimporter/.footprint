@@ -25,6 +25,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MailImporter/
 -rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterOpera
 -rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterPMail
 -rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterPlain
+-rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterSeaMonkey
 -rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterSylpheed
 -rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterTheBat
 -rw-r--r--	root/root	usr/include/KF5/MailImporter/FilterThunderbird
@@ -56,6 +57,7 @@ drwxr-xr-x	root/root	usr/include/KF5/mailimporter/
 -rw-r--r--	root/root	usr/include/KF5/mailimporter/filterplain.h
 -rw-r--r--	root/root	usr/include/KF5/mailimporter/filterpmail.h
 -rw-r--r--	root/root	usr/include/KF5/mailimporter/filters.h
+-rw-r--r--	root/root	usr/include/KF5/mailimporter/filterseamonkey.h
 -rw-r--r--	root/root	usr/include/KF5/mailimporter/filtersylpheed.h
 -rw-r--r--	root/root	usr/include/KF5/mailimporter/filterthebat.h
 -rw-r--r--	root/root	usr/include/KF5/mailimporter/filterthunderbird.h
@@ -82,11 +84,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailImporterAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailImporterAkonadi/KF5MailImporterAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailImporterAkonadi/KF5MailImporterAkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailImporter.so -> libKF5MailImporter.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailImporter.so.5 -> libKF5MailImporter.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailImporter.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailImporter.so.5 -> libKF5MailImporter.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailImporter.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MailImporterAkonadi.so -> libKF5MailImporterAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailImporterAkonadi.so.5 -> libKF5MailImporterAkonadi.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailImporterAkonadi.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailImporterAkonadi.so.5 -> libKF5MailImporterAkonadi.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailImporterAkonadi.so.5.6.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

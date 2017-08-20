@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/autostart/konqy_preload.desktop
+-rw-r--r--	root/root	usr/etc/xdg/konqueror.categories
 -rw-r--r--	root/root	usr/etc/xdg/translaterc
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -175,11 +176,9 @@ drwxr-xr-x	root/root	usr/share/khtml/kpartplugins/
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_webarchiver.rc
 drwxr-xr-x	root/root	usr/share/konqueror/
 drwxr-xr-x	root/root	usr/share/konqueror/about/
--rw-r--r--	root/root	usr/share/konqueror/about/box-centre-konqueror.png
 -rw-r--r--	root/root	usr/share/konqueror/about/intro.html
 -rw-r--r--	root/root	usr/share/konqueror/about/konq.css
 -rw-r--r--	root/root	usr/share/konqueror/about/launch.html
--rw-r--r--	root/root	usr/share/konqueror/about/lightning.png
 -rw-r--r--	root/root	usr/share/konqueror/about/plugins.html
 -rw-r--r--	root/root	usr/share/konqueror/about/plugins_rtl.html
 -rw-r--r--	root/root	usr/share/konqueror/about/specs.html
@@ -248,8 +247,6 @@ drwxr-xr-x	root/root	usr/share/kwebkitpart/kpartplugins/
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_validators.desktop
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_validators.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/konqueror/
--rw-r--r--	root/root	usr/share/kxmlgui5/konqueror/konqueror.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/webenginepart/
 -rw-r--r--	root/root	usr/share/kxmlgui5/webenginepart/webenginepart.rc
 drwxr-xr-x	root/root	usr/share/metainfo/

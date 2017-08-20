@@ -40,6 +40,10 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendInterface
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendParams
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInit
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInitConfigureWidget
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInitInterface
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInitManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInterface
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/Recipient
@@ -69,7 +73,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageCore/
 -rw-r--r--	root/root	usr/include/KF5/MessageCore/MailingList
 -rw-r--r--	root/root	usr/include/KF5/MessageCore/MessageCoreSettings
 -rw-r--r--	root/root	usr/include/KF5/MessageCore/MessageCoreUtil
--rw-r--r--	root/root	usr/include/KF5/MessageCore/MessageHelpers
 -rw-r--r--	root/root	usr/include/KF5/MessageCore/NodeHelper
 -rw-r--r--	root/root	usr/include/KF5/MessageCore/StringUtil
 drwxr-xr-x	root/root	usr/include/KF5/MessageList/
@@ -146,6 +149,7 @@ drwxr-xr-x	root/root	usr/include/KF5/TemplateParser/
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/CustomTemplates
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/CustomTemplatesMenu
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/DefaultTemplates
+-rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplateParserEmailAddressRequesterBase
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplateParserExtractHtmlInfoResult
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplateParserJob
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesConfiguration
@@ -216,6 +220,10 @@ drwxr-xr-x	root/root	usr/include/KF5/messagecomposer/
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendinterface.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendparams.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinit.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinitconfigurewidget.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinitinterface.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinitmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinterface.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditormanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/recipient.h
@@ -248,7 +256,6 @@ drwxr-xr-x	root/root	usr/include/KF5/messagecore/
 -rw-r--r--	root/root	usr/include/KF5/messagecore/messagecore_export.h
 -rw-r--r--	root/root	usr/include/KF5/messagecore/messagecoresettings.h
 -rw-r--r--	root/root	usr/include/KF5/messagecore/messagecoreutil.h
--rw-r--r--	root/root	usr/include/KF5/messagecore/messagehelpers.h
 -rw-r--r--	root/root	usr/include/KF5/messagecore/nodehelper.h
 -rw-r--r--	root/root	usr/include/KF5/messagecore/stringutil.h
 -rw-r--r--	root/root	usr/include/KF5/messagecore_version.h
@@ -340,6 +347,7 @@ drwxr-xr-x	root/root	usr/include/KF5/templateparser/
 -rw-r--r--	root/root	usr/include/KF5/templateparser/defaulttemplates.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/globalsettings_templateparser.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templateparser_export.h
+-rw-r--r--	root/root	usr/include/KF5/templateparser/templateparseremailaddressrequesterbase.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templateparserextracthtmlinforesult.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templateparserjob.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser/templatesconfiguration.h
@@ -417,26 +425,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so -> libKF5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so -> libKF5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so -> libKF5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so -> libKF5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so -> libKF5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so -> libKF5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.6.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so -> libKF5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.5.3
--rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.5.3
+lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.6.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.6.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

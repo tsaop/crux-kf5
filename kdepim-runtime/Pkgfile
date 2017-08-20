@@ -1,10 +1,10 @@
 # Description: Kdepim runtime
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-calendar akonadi-notes gtk kalarmcal kdav kimap kmbox knotifyconfig kross libkgapi
+# Depends on: akonadi-calendar akonadi-notes gtk kalarmcal kdav kmbox knotifyconfig kross libkgapi pimcommon
 
 name=kdepim-runtime
-version=17.04.3
+version=17.08.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
