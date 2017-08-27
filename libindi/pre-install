@@ -1,0 +1,3 @@
+#!/bin/sh
+
+getent group plugdev || /usr/sbin/groupadd -g 46 plugdev

@@ -1,0 +1,26 @@
+# Description: INDI Library provides a framework for control and automation of astronomical instruments
+# URL: https://www.indilib.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cfitsio gsl libnova libusb qt5
+
+name=libindi
+version=1.5.0
+source=(https://github.com/indilib/${name/lib/}/archive/v${version}.tar.gz)
+release=1
+
+build() {
+
+    cd ${name/lib/}-$version
+
+    mkdir -p build/libindi; cd build/libindi
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DCMAKE_INSTALL_LIBDIR=lib \
+	-DUDEVRULES_INSTALL_DIR=/usr/lib/udev/rules.d \
+	../../libindi
+	
+	make
+	make DESTDIR=$PKG install
+}
