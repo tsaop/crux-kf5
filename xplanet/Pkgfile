@@ -1,0 +1,26 @@
+# Description: Renders an image of the earth into the X root window.
+# URL: http://xplanet.sourceforge.net/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: giflib libtiff pango xorg-libxscrnsaver
+
+name=xplanet
+version=1.3.1
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.gz
+	giflib6.patch
+	xplanet-1.3.1-remove-null-comparison.patch)
+
+build() {
+	cd $name-$version
+
+	patch -Np1 -i $SRC/giflib6.patch
+	patch -Np1 -i $SRC/xplanet-1.3.1-remove-null-comparison.patch
+
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/share/man
+
+	make
+	make DESTDIR=$PKG install
+	find $PKG -name "README" -type f -delete
+}
