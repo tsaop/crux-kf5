@@ -1,11 +1,11 @@
-# Description: Part of KDE-Edu
+# Description: Kig is a program for exploring geometric constructions
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
 # Depends on: gtk ktexteditor
 
 name=kig
 version=17.08.0
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
