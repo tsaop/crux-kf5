@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kaccess
+-rwxr-xr-x	root/root	usr/bin/kapplymousetheme
 -rwxr-xr-x	root/root	usr/bin/kcolorschemeeditor
 -rwxr-xr-x	root/root	usr/bin/kfontinst
 -rwxr-xr-x	root/root	usr/bin/kfontview
@@ -55,6 +56,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_fonts.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_formats.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_icons.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_input.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_joystick.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kded.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_keyboard.so
@@ -182,6 +184,13 @@ drwxr-xr-x	root/root	usr/share/kcm_componentchooser/
 -rw-r--r--	root/root	usr/share/kcm_componentchooser/kcm_terminal.desktop
 drwxr-xr-x	root/root	usr/share/kcm_phonon/
 -rw-r--r--	root/root	usr/share/kcm_phonon/listview-background.png
+drwxr-xr-x	root/root	usr/share/kcminput/
+-rw-r--r--	root/root	usr/share/kcminput/cursor_large_black.pcf.gz
+-rw-r--r--	root/root	usr/share/kcminput/cursor_large_white.pcf.gz
+-rw-r--r--	root/root	usr/share/kcminput/cursor_small_white.pcf.gz
+drwxr-xr-x	root/root	usr/share/kcminput/pics/
+-rw-r--r--	root/root	usr/share/kcminput/pics/mouse_lh.png
+-rw-r--r--	root/root	usr/share/kcminput/pics/mouse_rh.png
 drwxr-xr-x	root/root	usr/share/kcmkeyboard/
 drwxr-xr-x	root/root	usr/share/kcmkeyboard/pics/
 -rw-r--r--	root/root	usr/share/kcmkeyboard/pics/epo.png
@@ -318,6 +327,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/kcmsmserver.desktop
 -rw-r--r--	root/root	usr/share/kservices5/keys.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kfontviewpart.desktop
+-rw-r--r--	root/root	usr/share/kservices5/mouse.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.icontasks.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kicker.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kickoff.desktop
