@@ -1,0 +1,42 @@
+# Description: Library for automatic recognition of astronomical images; or standards-compliant astrometric metadata from data. 
+# URL: http://astrometry.net
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cairo cfitsio netpbm python-astropy gsl
+
+name=astrometry.net
+version=0.72
+release=1
+source=(http://astrometry.net/downloads/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	# respect user compilation flags
+	sed -e '/-O3/d' \
+		-e '/-fomit-frame-pointer/d' \
+		-i util/makefile.common
+
+	# fix underlinking
+	sed -e "s|-lm|-lm $($(pkg-config --libs wcslib gsl))|" \
+		-i util/Makefile
+
+	export SYSTEM_GSL=yes
+
+	make
+	make py
+	make extra
+	make install INSTALL_DIR="$PKG/usr" \
+		ETC_INSTALL_DIR="$PKG/usr/etc" \
+		DOC_INSTALL_DIR="$PKG/usr/share/doc/astrometry" \
+		EXAMPLE_INSTALL_DIR="$PKG/usr/share/astrometry/examples" \
+		DATA_INSTALL_DIR="$PKG/usr/share/astrometry/data" \
+		PY_BASE_INSTALL_DIR="$PKG/usr/lib/python2.7/site-packages/astrometry" \
+		PY_BASE_LINK_DIR="../lib/python2.7/site-packages/astrometry"
+	
+	sed -e "s|${PKG}/usr/data|/usr/share/astrometry/data|" -i $PKG/usr/etc/astrometry.cfg
+
+	rm -rf $PKG/usr/share/doc $PKG/usr/share/astrometry/examples
+	rm $PKG/usr/bin/{fitscopy,imcopy}
+	rm $PKG/usr/lib/lib*.a
+
+}
