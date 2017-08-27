@@ -1,0 +1,15 @@
+# Description: Python library with cross-python path, ini-parsing, io, code, log facilities
+# URL: https://pypi.python.org/pypi/py/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python-setuptools  
+
+name=python-py
+version=1.4.34
+release=1
+source=(https://pypi.python.org/packages/68/35/58572278f1c097b403879c1e9369069633d1cbad5239b9057944bb764782/${name/python-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python-/}-$version
+	python setup.py build
+	python setup.py install --prefix=/usr --root=$PKG
+}
