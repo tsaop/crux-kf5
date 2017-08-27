@@ -1,0 +1,25 @@
+# Description: A C library that implements the 'World Coordinate System' (WCS) standard in FITS
+# URL: http://www.atnf.csiro.au/people/mcalabre/WCS/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cfitsio gcc-fortran gcc-fortran  cfitsio gcc-fortran  cfitsio  
+
+name=wcslib
+version=5.16
+release=1
+source=(ftp://ftp.atnf.csiro.au/pub/software/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--without-pgplot
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+
+	# fix permissions
+	chmod g=rx,-s "$PKG"/usr/{bin/,/lib/{,pkgconfig},share/man/man1/}
+	chmod -s "$PKG"/usr/include/wcslib-$version
+}
