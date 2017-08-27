@@ -1,0 +1,34 @@
+# Description: KStars is free, open source, cross-platform Astronomy Software
+# URL: https://edu.kde.org/kstars
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw wcslib xplanet
+
+name=kstars
+version=17.08.0
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+
+    cd $name-$version
+    mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DKAUTH_HELPER_INSTALL_DIR=/usr/etc/dbus-1/system.d \
+	-DKDE_INSTALL_LIBDIR=lib \
+	-Wno-dev \
+	..
+	
+	make
+	make DESTDIR=$PKG install
+
+	mkdir $PKG/usr/etc -p
+	mv $PKG/etc/dbus-1 $PKG/usr/etc
+	rmdir $PKG/etc
+	
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/doc
+}
