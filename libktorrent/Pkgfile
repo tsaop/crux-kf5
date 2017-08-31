@@ -4,16 +4,12 @@
 # Depends on: kio qca-qt5
 
 name=libktorrent
-version=2.0.1
-release=2
-source=(http://download.kde.org/stable/ktorrent/5.0/$name-$version.tar.xz
-	fix-gmp-include-name-on-multilib.patch)
+version=2.1
+release=1
+source=(http://download.kde.org/stable/ktorrent/5.1/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	# https://bugs.kde.org/show_bug.cgi?id=361967
-	patch -Np1 -i $SRC/fix-gmp-include-name-on-multilib.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
