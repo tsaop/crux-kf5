@@ -18,9 +18,9 @@ drwxr-xr-x	root/root	usr/include/libqalculate/
 -rw-r--r--	root/root	usr/include/libqalculate/util.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libqalculate.la
-lrwxrwxrwx	root/root	usr/lib/libqalculate.so -> libqalculate.so.10.0.0
-lrwxrwxrwx	root/root	usr/lib/libqalculate.so.10 -> libqalculate.so.10.0.0
--rwxr-xr-x	root/root	usr/lib/libqalculate.so.10.0.0
+lrwxrwxrwx	root/root	usr/lib/libqalculate.so -> libqalculate.so.11.0.0
+lrwxrwxrwx	root/root	usr/lib/libqalculate.so.11 -> libqalculate.so.11.0.0
+-rwxr-xr-x	root/root	usr/lib/libqalculate.so.11.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libqalculate.pc
 drwxr-xr-x	root/root	usr/share/
@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/share/qalculate/
 -rw-r--r--	root/root	usr/share/qalculate/currencies.xml
 -rw-r--r--	root/root	usr/share/qalculate/datasets.xml
 -rw-r--r--	root/root	usr/share/qalculate/elements.xml
+-rw-r--r--	root/root	usr/share/qalculate/eurofxref-daily.xml
 -rw-r--r--	root/root	usr/share/qalculate/functions.xml
 -rw-r--r--	root/root	usr/share/qalculate/planets.xml
 -rw-r--r--	root/root	usr/share/qalculate/prefixes.xml
