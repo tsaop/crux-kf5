@@ -4,9 +4,9 @@
 # Depends on: python-setuptools  
 
 name=python-pytest
-version=3.2.1
+version=3.2.2
 release=1
-source=(https://pypi.python.org/packages/6d/9f/1fbd50be4deaa4007ef4ed8f84f888c6613c629e1f46e979ffb9d82a7324/${name/python-}-$version.tar.gz)
+source=(https://pypi.python.org/packages/63/4a/db317d848325ba77e4ed498860b40ab53a8b49f1ae13612bc8aee75634f0/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
