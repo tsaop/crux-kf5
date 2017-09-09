@@ -11,14 +11,14 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.1-py2.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy-2.0.2-py2.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/__init__.pyc
@@ -363,8 +363,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy/extern/bundled/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/bundled/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/bundled/six.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/bundled/six.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/configobj.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/configobj.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy/extern/configobj/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/configobj/__init__.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/extern/configobj/__init__.pyc
@@ -1399,8 +1397,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/.hidden_file.txt
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/alias.cfg
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/invalid.dat.bz2
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/invalid.dat.gz
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/local.dat
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/local.dat.bz2
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/astropy/utils/tests/data/local.dat.gz
