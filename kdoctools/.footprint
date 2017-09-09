@@ -16,8 +16,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5DocTools/
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so -> libKF5DocTools.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.37.0
--rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.37.0
+lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.38.0
+-rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.38.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/
@@ -187,6 +187,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/en-GB/entities/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/en/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/catalog.xml
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/en/entities/
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/ccbysa4-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/fdl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/gpl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/help-menu.docbook
@@ -196,6 +197,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/en/entities/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/report-bugs.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/underArtisticLicense.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/underBSDLicense.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/underCCBYSA4.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/underFDL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/underGPL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/en/entities/underLGPL.docbook

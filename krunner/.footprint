@@ -24,8 +24,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Runner/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Runner/KF5RunnerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Runner/KF5RunnerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Runner.so -> libKF5Runner.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Runner.so.5 -> libKF5Runner.so.5.37.0
--rwxr-xr-x	root/root	usr/lib/libKF5Runner.so.5.37.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Runner.so.5 -> libKF5Runner.so.5.38.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Runner.so.5.38.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -37,6 +37,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/runnermodel/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/runnermodel/librunnermodelplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/runnermodel/qmldir
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/kf5_org.kde.krunner1.xml
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
 -rw-r--r--	root/root	usr/share/kdevappwizard/templates/runner.tar.bz2
