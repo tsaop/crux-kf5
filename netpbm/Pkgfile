@@ -4,8 +4,8 @@
 # Depends on: libpng libtiff xorg-libx11
 
 name=netpbm
-version=10.73.14
-_svnrev=3052
+version=10.73.15
+_svnrev=3060
 source=(https://sourceforge.net/code-snapshots/svn/n/ne/netpbm/code/netpbm-code-${_svnrev}-trunk.zip
 	userguide.tar.gz)
 release=1
