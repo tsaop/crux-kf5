@@ -1,0 +1,22 @@
+# Description: Graphviz is open source graph visualization software
+# URL: http://www.graphviz.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: ghostscript glade glut gtkglext libgd swig
+
+name=graphviz
+version=2.40.1
+release=1
+source=(http://www.graphviz.org/pub/$name/stable/SOURCES/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--libdir=/usr/lib \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc $PKG/usr/share/graphviz/doc
+}
