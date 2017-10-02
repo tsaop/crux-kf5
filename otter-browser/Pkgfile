@@ -4,8 +4,8 @@
 # Depends on: hunspell qtwebengine qtwebkit
 
 name=otter-browser
-version=0.9.12
-release=2
+version=0.9.91
+release=1
 source=(https://github.com/OtterBrowser/$name/archive/v$version.tar.gz)
 
 build() {
