@@ -15,8 +15,8 @@ drwxr-xr-x	root/root	usr/include/kpmcore/core/
 -rw-r--r--	root/root	usr/include/kpmcore/core/device.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/devicescanner.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/diskdevice.h
+-rw-r--r--	root/root	usr/include/kpmcore/core/fstab.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/lvmdevice.h
--rw-r--r--	root/root	usr/include/kpmcore/core/mountentry.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/operationrunner.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/operationstack.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/partition.h
@@ -42,6 +42,7 @@ drwxr-xr-x	root/root	usr/include/kpmcore/fs/
 -rw-r--r--	root/root	usr/include/kpmcore/fs/hfs.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/hfsplus.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/hpfs.h
+-rw-r--r--	root/root	usr/include/kpmcore/fs/iso9660.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/jfs.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/linuxswap.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/luks.h
@@ -51,6 +52,7 @@ drwxr-xr-x	root/root	usr/include/kpmcore/fs/
 -rw-r--r--	root/root	usr/include/kpmcore/fs/ocfs2.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/reiser4.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/reiserfs.h
+-rw-r--r--	root/root	usr/include/kpmcore/fs/udf.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/ufs.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/unformatted.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/unknown.h
@@ -94,9 +96,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPMcore/
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.5
--rwxr-xr-x	root/root	usr/lib/libkpmcore.so.3.1.1
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.5 -> libkpmcore.so.3.1.1
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.6
+-rwxr-xr-x	root/root	usr/lib/libkpmcore.so.3.2.0
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.6 -> libkpmcore.so.3.2.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libpmdummybackendplugin.so
