@@ -4,7 +4,7 @@
 # Depends on: docutils extra-cmake-modules qt5
 
 name=sddm
-version=0.15.0
+version=0.16.0
 release=1
 source=(https://github.com/$name/$name/archive/v$version.tar.gz \
 	rc.sddm
