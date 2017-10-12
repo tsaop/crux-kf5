@@ -25,7 +25,7 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rwxr-xr-x	root/root	usr/etc/xdg/autostart/klipper.desktop
 -rw-r--r--	root/root	usr/etc/xdg/autostart/krunner.desktop
--rw-r--r--	root/root	usr/etc/xdg/autostart/plasmashell.desktop
+-rw-r--r--	root/root	usr/etc/xdg/autostart/org.kde.plasmashell.desktop
 -rw-r--r--	root/root	usr/etc/xdg/autostart/xembedsniproxy.desktop
 -rw-r--r--	root/root	usr/etc/xdg/kuiserver.categories
 -rw-r--r--	root/root	usr/etc/xdg/plasmoids.knsrc
@@ -64,6 +64,7 @@ drwxr-xr-x	root/root	usr/include/taskmanager/
 -rw-r--r--	root/root	usr/include/taskmanager/windowtasksmodel.h
 -rw-r--r--	root/root	usr/include/taskmanager/xwindowtasksmodel.h
 drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/baloorunner
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KRunnerAppDBusInterface/
 -rw-r--r--	root/root	usr/lib/cmake/KRunnerAppDBusInterface/KRunnerAppDBusInterfaceConfig.cmake
@@ -79,7 +80,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibTaskManager/
 -rw-r--r--	root/root	usr/lib/cmake/LibTaskManager/LibTaskManagerConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LibTaskManager/LibTaskManagerLibraryTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LibTaskManager/LibTaskManagerLibraryTargets.cmake
--rwxr-xr-x	root/root	usr/lib/drkonqi
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/krunnerplugins
 -rwxr-xr-x	root/root	usr/lib/ksmserver-logout-greeter
@@ -91,14 +91,14 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kuiserver5.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.10.5
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.10.5
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.11.0
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.10.5
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.10.5
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.11.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.10.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.10.5
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.11.0
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -126,7 +126,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/plasma_packagestructure_wallpaper.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/plasma_packagestructure_wallpaperimages.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_activities.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_baloosearchrunner.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_bookmarksrunner.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_calculatorrunner.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_kill.so
@@ -233,6 +232,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/taskmanager/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.klipper.desktop
+-rw-r--r--	root/root	usr/share/applications/org.kde.plasmashell.desktop
 -rw-r--r--	root/root	usr/share/applications/plasma-windowed.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/freespacenotifier.kcfg
@@ -246,6 +246,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.krunner.App.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/kf5_org.kde.kuiserver.service
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.baloorunner.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.krunner.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.plasma.Notifications.service
 drwxr-xr-x	root/root	usr/share/desktop-directories/
@@ -287,16 +288,6 @@ drwxr-xr-x	root/root	usr/share/desktop-directories/
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-utilities-pim.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-utilities-xutils.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-utilities.directory
-drwxr-xr-x	root/root	usr/share/drkonqi/
-drwxr-xr-x	root/root	usr/share/drkonqi/debuggers/
-drwxr-xr-x	root/root	usr/share/drkonqi/debuggers/external/
--rw-r--r--	root/root	usr/share/drkonqi/debuggers/external/gdbrc
--rw-r--r--	root/root	usr/share/drkonqi/debuggers/external/kdbgrc
-drwxr-xr-x	root/root	usr/share/drkonqi/debuggers/internal/
--rw-r--r--	root/root	usr/share/drkonqi/debuggers/internal/dbxrc
--rw-r--r--	root/root	usr/share/drkonqi/debuggers/internal/gdbrc
--rw-r--r--	root/root	usr/share/drkonqi/debuggers/internal/kdbgwinrc
--rw-r--r--	root/root	usr/share/drkonqi/mappings
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/krunnerplugins.upd
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
@@ -543,8 +534,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/code/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/code/logic.js
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/config/main.xml
@@ -673,6 +662,8 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/con
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/tests/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/tests/test.qml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/JobDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/JobDetailsItem.qml
