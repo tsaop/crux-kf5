@@ -4,9 +4,9 @@
 # Depends on: gtk libkdegames
 
 name=kgoldrunner
-version=17.08.1
+version=17.08.2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
-release=2
+release=1
 
 build() {
 

@@ -12,8 +12,8 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kmail.renamecategories
 -rw-r--r--	root/root	usr/etc/xdg/ktnef.categories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.6.1
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.6.1
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.6.2
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.6.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmail.so
@@ -122,6 +122,8 @@ drwxr-xr-x	root/root	usr/share/icons/locolor/32x32/apps/
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/kmail-15.08-kickoff.sh
 -rw-r--r--	root/root	usr/share/kconf_update/kmail.upd
+-rwxr-xr-x	root/root	usr/share/kconf_update/kmail2.sh
+-rw-r--r--	root/root	usr/share/kconf_update/kmail2.upd
 drwxr-xr-x	root/root	usr/share/kmail2/
 drwxr-xr-x	root/root	usr/share/kmail2/pics/
 -rw-r--r--	root/root	usr/share/kmail2/pics/pgp-keys.png
