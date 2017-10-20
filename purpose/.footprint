@@ -29,19 +29,23 @@ drwxr-xr-x	root/root	usr/lib/cmake/KDEExperimentalPurpose/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/purposeprocess
 lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so -> libKF5Purpose.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so.5 -> libKF5Purpose.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5Purpose.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so.5 -> libKF5Purpose.so.5.39.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Purpose.so.5.39.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so -> libKF5PurposeWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so.5 -> libKF5PurposeWidgets.so.5.31.0
--rwxr-xr-x	root/root	usr/lib/libKF5PurposeWidgets.so.5.31.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so.5 -> libKF5PurposeWidgets.so.5.39.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PurposeWidgets.so.5.39.0
+-rwxr-xr-x	root/root	usr/lib/libPhabricatorHelpers.so
 -rwxr-xr-x	root/root	usr/lib/libReviewboardHelpers.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/emailplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/imgurplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/kdeconnectplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/ktpsendfileplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/nextcloudplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/pastebinplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/phabricatorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/reviewboardplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/saveasplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/purpose/youtubeplugin.so
@@ -53,6 +57,10 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/purpose/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/purpose/PurposeWizard.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/purpose/RunningJob.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/purpose/libpurposequickplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/purpose/phabricator/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/purpose/phabricator/libphabricatorquickplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/purpose/phabricator/qmldir
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/purpose/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/purpose/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/purpose/reviewboard/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/purpose/reviewboard/librbpurposequickplugin.so
@@ -62,16 +70,19 @@ drwxr-xr-x	root/root	usr/share/accounts/
 drwxr-xr-x	root/root	usr/share/accounts/services/
 drwxr-xr-x	root/root	usr/share/accounts/services/kde/
 -rw-r--r--	root/root	usr/share/accounts/services/kde/google-youtube.service
+-rw-r--r--	root/root	usr/share/accounts/services/kde/nextcloud-upload.service
 -rw-r--r--	root/root	usr/share/accounts/services/kde/twitter-microblog.service
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/phabricator-purpose.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/reviewboard-purpose.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/actions/kipiplugin_youtube.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/phabricator-purpose.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/reviewboard-purpose.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/actions/
@@ -91,12 +102,15 @@ drwxr-xr-x	root/root	usr/share/kpackage/Purpose/Twitter/
 drwxr-xr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/
 -rwxr-xr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/main.js
+-rwxr-xr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/main.js.in
 -rw-r--r--	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/package.json
 drwxr-xr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/config/
 -rw-r--r--	root/root	usr/share/kpackage/Purpose/Twitter/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/kpackage/Purpose/Twitter/metadata.json
 drwxr-xr-x	root/root	usr/share/purpose/
 -rw-r--r--	root/root	usr/share/purpose/kdeconnectplugin_config.qml
+-rw-r--r--	root/root	usr/share/purpose/nextcloudplugin_config.qml
+-rw-r--r--	root/root	usr/share/purpose/phabricatorplugin_config.qml
 -rw-r--r--	root/root	usr/share/purpose/reviewboardplugin_config.qml
 -rw-r--r--	root/root	usr/share/purpose/saveasplugin_config.qml
 drwxr-xr-x	root/root	usr/share/purpose/types/
