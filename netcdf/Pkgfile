@@ -4,8 +4,8 @@
 # Depends on: hdf5 cmake
 
 name=netcdf
-version=4.4.1.1
-release=2
+version=4.5.0
+release=1
 source=(https://github.com/Unidata/$name-c/archive/v${version}.tar.gz)
 
 build() {
