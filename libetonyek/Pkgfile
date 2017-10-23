@@ -4,17 +4,13 @@
 # Depends on: glm liblangtag librevenge mdds
 
 name=libetonyek
-version=0.1.6
+version=0.1.7
 release=1
-source=(http://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz
-	libetonyek-0.1.6-mdds-1.2.patch)
+source=(http://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 	
-	# fix building with mdds 1.2
-	patch -Np1 -i $SRC/libetonyek-0.1.6-mdds-1.2.patch
-
 	autoreconf -vfi
 	./configure --prefix=/usr \
 		--libdir=/usr/lib \
