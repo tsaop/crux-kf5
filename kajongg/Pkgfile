@@ -1,0 +1,44 @@
+# Description: Kajongg is the ancient Chinese board game for 4 players.
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: desktop-file-utils gtk libkmahjongg pyqt5 python3-twisted vorbis-tools  
+
+name=kajongg
+version=17.08.2
+release=1
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	# We'll do it later
+	sed -i -e "/KDE_ADD_PYTHON_EXECUTABLE/s/^/#DONT/" CMakeLists.txt
+
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+
+	make
+	make DESTDIR=$PKG install
+
+	install -dm755 $PKG/usr/bin
+	(
+	  cd $PKG/usr/bin
+	  ln -sv /usr/share/kajongg/kajongg.py kajongg
+  	  ln -sv /usr/share/kajongg/kajonggserver.py kajonggserver
+	)
+	chmod a+x $PKG/usr/share/kajongg/kajongg{,server}.py
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+
+}
