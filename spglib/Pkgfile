@@ -5,11 +5,15 @@
 
 name=spglib
 version=1.10.1
-release=1
-source=(https://github.com/atztogo/$name/archive/v${version}.tar.gz)
+release=2
+source=(https://github.com/atztogo/$name/archive/v${version}.tar.gz
+	spglib-fix-undefined-symbols.patch)
 
 build() {
 	cd $name-$version
+
+	patch -Np1 -i $SRC/spglib-fix-undefined-symbols.patch
+
 	touch NEWS README AUTHORS
 
 	autoreconf -vfi
