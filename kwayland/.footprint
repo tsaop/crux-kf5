@@ -46,6 +46,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Client/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/surface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/textinput.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/touch.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Client/xdgforeign_v2.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/xdgshell.h
 drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/blur_interface.h
@@ -87,6 +88,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/surface_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/textinput_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/touch_interface.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Server/xdgforeign_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/xdgshell_interface.h
 -rw-r--r--	root/root	usr/include/KF5/kwayland_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -97,11 +99,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Wayland/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so -> libKF5WaylandClient.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.39.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.39.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.40.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.40.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so -> libKF5WaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.39.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.39.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.40.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.40.0
 -rwxr-xr-x	root/root	usr/lib/org-kde-kf5-kwayland-testserver
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
