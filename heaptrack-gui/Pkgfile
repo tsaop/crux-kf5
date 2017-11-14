@@ -1,0 +1,28 @@
+# Description: Qt5 GUI for heaptrack
+# URL: http://milianw.de/tag/heaptrack
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: heaptrack kdiagram kio kitemmodels threadweaver
+
+name=heaptrack-gui
+version=1.0.0
+release=1
+source=(https://github.com/KDE/${name/-gui}/archive/v${version}.tar.gz)
+
+build() {
+	cd ${name/-gui/}-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_TESTING=OFF \
+		-DHEAPTRACK_BUILD_GUI=ON \
+		..
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove files already provided by heaptrack
+	rm $PKG/usr/bin/heaptrack{,_print}
+	rm -rf $PKG/usr/include
+	rm -rf $PKG/usr/lib/heaptrack
+}
