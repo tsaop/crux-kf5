@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/heaptrack
+-rwxr-xr-x	root/root	usr/bin/heaptrack_print
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/heaptrack_api.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/heaptrack/
+drwxr-xr-x	root/root	usr/lib/heaptrack/libexec/
+-rwxr-xr-x	root/root	usr/lib/heaptrack/libexec/heaptrack_interpret
+-rwxr-xr-x	root/root	usr/lib/heaptrack/libheaptrack_inject.so
+-rwxr-xr-x	root/root	usr/lib/heaptrack/libheaptrack_preload.so

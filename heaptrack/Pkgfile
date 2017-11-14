@@ -1,0 +1,23 @@
+# Description: A heap memory profiler for Linux
+# URL: http://milianw.de/tag/heaptrack
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost cmake libunwind sparsehash
+
+name=heaptrack
+version=1.0.0
+release=1
+source=(https://github.com/KDE/$name/archive/v${version}.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_TESTING=OFF \
+		-DHEAPTRACK_BUILD_GUI=OFF \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
