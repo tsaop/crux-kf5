@@ -1,10 +1,10 @@
 # Description: Library for automatic recognition of astronomical images; or standards-compliant astrometric metadata from data. 
 # URL: http://astrometry.net
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cairo cfitsio netpbm python-astropy gsl
+# Depends on: cairo cfitsio gsl netpbm python-astropy
 
 name=astrometry.net
-version=0.72
+version=0.73
 release=1
 source=(http://astrometry.net/downloads/$name-$version.tar.gz)
 
