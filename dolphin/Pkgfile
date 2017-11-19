@@ -1,12 +1,12 @@
 # Description: The KDE file manager
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: baloo-widgets kactivities kcmutils knewstuff
+# Depends on: baloo-widgets kcmutils kio-extras knewstuff
 # Optional: ffmpegthumbs
 
 name=dolphin
 version=17.08.3
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
