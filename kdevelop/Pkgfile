@@ -5,8 +5,8 @@
 # Optional: subversion
 
 name=kdevelop
-version=5.2.0
-release=2
+version=5.2.1
+release=1
 source=(http://download.kde.org/stable/kdevelop/$version/src/$name-$version.tar.xz
 	kdevelop-qdbus-qt5.patch)
 
