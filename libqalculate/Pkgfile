@@ -4,8 +4,8 @@
 # Depends on: cln gnuplot icu
 
 name=libqalculate
-version=2.1.0
-release=2
+version=2.2.0
+release=1
 source=(https://github.com/Qalculate/$name/releases/download/v${version}/$name-$version.tar.gz)
 
 build() {
