@@ -1,0 +1,26 @@
+# Description: Cryptographic filesystem for the cloud
+# URL: https://www.cryfs.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: crypto++ cmake boost fuse boost  crypto++  fuse boost  crypto++  fuse  
+
+name=cryfs
+version=0.9.7
+release=1
+source=(https://github.com/$name/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DBoost_USE_STATIC_LIBS=OFF \
+	-DCRYFS_UPDATE_CHECKS=OFF \
+	-Wno-dev \
+	..
+
+	make
+	make DESTDIR=$PKG install
+}
