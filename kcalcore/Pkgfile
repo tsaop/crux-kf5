@@ -5,11 +5,13 @@
 
 name=kcalcore
 version=17.08.3
-release=1
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
+	kcalcore-libical3.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/$name-libical3.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
