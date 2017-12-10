@@ -16,8 +16,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5DocTools/
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so -> libKF5DocTools.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.40.0
--rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.40.0
+lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.41.0
+-rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.41.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/
@@ -663,6 +663,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/ro/entities/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/ru/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/catalog.xml
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/ru/entities/
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/ccbysa4-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/fdl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/gpl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/help-menu.docbook
@@ -672,6 +673,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/ru/entities/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/report-bugs.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/underArtisticLicense.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/underBSDLicense.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/underCCBYSA4.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/underFDL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/underGPL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/ru/entities/underLGPL.docbook
