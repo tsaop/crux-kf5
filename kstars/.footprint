@@ -64,6 +64,7 @@ drwxr-xr-x	root/root	usr/share/kstars/
 -rw-r--r--	root/root	usr/share/kstars/earth.B2.vsop
 -rw-r--r--	root/root	usr/share/kstars/earth.B3.vsop
 -rw-r--r--	root/root	usr/share/kstars/earth.B4.vsop
+-rw-r--r--	root/root	usr/share/kstars/earth.B5.vsop
 -rw-r--r--	root/root	usr/share/kstars/earth.L0.vsop
 -rw-r--r--	root/root	usr/share/kstars/earth.L1.vsop
 -rw-r--r--	root/root	usr/share/kstars/earth.L2.vsop
@@ -90,8 +91,6 @@ drwxr-xr-x	root/root	usr/share/kstars/ekos/mount/qml/
 -rw-r--r--	root/root	usr/share/kstars/ekos/mount/qml/go-west.png
 -rw-r--r--	root/root	usr/share/kstars/ekos/mount/qml/mountbox.qml
 -rw-r--r--	root/root	usr/share/kstars/ekos/mount/qml/stop.png
-drwxr-xr-x	root/root	usr/share/kstars/fr/
--rw-r--r--	root/root	usr/share/kstars/fr/info_url.dat
 -rw-r--r--	root/root	usr/share/kstars/geomap.png
 -rw-r--r--	root/root	usr/share/kstars/glossary.xml
 -rw-r--r--	root/root	usr/share/kstars/image_url.dat
@@ -161,8 +160,6 @@ drwxr-xr-x	root/root	usr/share/kstars/fr/
 -rw-r--r--	root/root	usr/share/kstars/moonLR.dat
 -rw-r--r--	root/root	usr/share/kstars/moonless-night.colors
 -rw-r--r--	root/root	usr/share/kstars/namedstars.dat
-drwxr-xr-x	root/root	usr/share/kstars/nds/
--rw-r--r--	root/root	usr/share/kstars/nds/info_url.dat
 -rw-r--r--	root/root	usr/share/kstars/neptune.B0.vsop
 -rw-r--r--	root/root	usr/share/kstars/neptune.B1.vsop
 -rw-r--r--	root/root	usr/share/kstars/neptune.B2.vsop
@@ -430,4 +427,8 @@ drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kf5auth.kstars.policy
 drwxr-xr-x	root/root	usr/share/sounds/
 -rw-r--r--	root/root	usr/share/sounds/KDE-KStars-Alert.ogg
+-rw-r--r--	root/root	usr/share/sounds/KDE-KStars-FITS-Received.ogg
+-rw-r--r--	root/root	usr/share/sounds/KDE-KStars-Finish-Success.ogg
+-rw-r--r--	root/root	usr/share/sounds/KDE-KStars-Sys-App-Error-Serious.ogg
+-rw-r--r--	root/root	usr/share/sounds/KDE-KStars-Sys-App-Message.ogg
 -rw-r--r--	root/root	usr/share/sounds/KDE-KStars-Warning.ogg
