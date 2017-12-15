@@ -4,9 +4,9 @@
 # Depends on: python-numpy python-py python-pytest
 
 name=python-astropy
-version=2.0.2
+version=2.0.3
 release=1
-source=(https://pypi.python.org/packages/3f/aa/9950a7c4bad169d903ef27b3a9caa7d55419fbe92423d30a6f4c0886bf09/${name/python-/}-$version.tar.gz)
+source=(https://pypi.python.org/packages/2b/5d/d38bcc7dfa6d84b8cd720f944a4cfdb893cda10a926786f55350ab86c137/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
