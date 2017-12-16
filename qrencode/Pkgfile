@@ -1,0 +1,23 @@
+# Description: A fast and compact QR Code encoding library
+# URL: https://fukuchi.org/works/qrencode/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libpng libpthread-stubs cmake libpng  
+
+name=qrencode
+version=4.0.0
+release=1
+source=(https://fukuchi.org/works/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DWITH_TESTS=NO \
+		-DBUILD_SHARED_LIBS=YES \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
