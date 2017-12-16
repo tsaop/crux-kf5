@@ -12,8 +12,8 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kmail.renamecategories
 -rw-r--r--	root/root	usr/etc/xdg/ktnef.categories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmail.so
@@ -156,16 +156,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kontact/
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/dbusmail.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/kmail2/
--rw-r--r--	root/root	usr/share/kxmlgui5/kmail2/kmail_part.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/kmail2/kmcomposerui.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/kmail2/kmmainwin.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/kmail2/kmreadermainwin.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kontactsummary/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc
-drwxr-xr-x	root/root	usr/share/messageviewer/
-drwxr-xr-x	root/root	usr/share/messageviewer/about/
-drwxr-xr-x	root/root	usr/share/messageviewer/about/default/
--rw-r--r--	root/root	usr/share/messageviewer/about/default/introduction_kmail.html
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kmail2.appdata.xml

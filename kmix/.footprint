@@ -19,7 +19,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_engine_mixer.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/kmix.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.kmix.desktop
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kmix.control.xml
@@ -62,6 +62,7 @@ drwxr-xr-x	root/root	usr/share/kmix/pics/
 -rw-r--r--	root/root	usr/share/kmix/pics/mixer-pcm.png
 -rw-r--r--	root/root	usr/share/kmix/pics/mixer-surround.png
 -rw-r--r--	root/root	usr/share/kmix/pics/mixer-video.png
+-rw-r--r--	root/root	usr/share/kmix/pics/show-mixer.png
 drwxr-xr-x	root/root	usr/share/kmix/profiles/
 -rw-r--r--	root/root	usr/share/kmix/profiles/ALSA.TerraTec_DMX6Fire.1.default.xml
 -rw-r--r--	root/root	usr/share/kmix/profiles/ALSA.capture.xml
@@ -79,6 +80,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/kded/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kmix/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kmix/kmixui.rc
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kmix.appdata.xml
 drwxr-xr-x	root/root	usr/share/plasma/
 drwxr-xr-x	root/root	usr/share/plasma/services/
 -rw-r--r--	root/root	usr/share/plasma/services/mixer.operations

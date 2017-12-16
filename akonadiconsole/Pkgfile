@@ -4,8 +4,8 @@
 # Depends on: calendarsupport messagelib
 
 name=akonadiconsole
-version=17.08.3
-release=2
+version=17.12.0
+release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {

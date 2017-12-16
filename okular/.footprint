@@ -46,9 +46,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/Okular5/
 -rw-r--r--	root/root	usr/lib/cmake/Okular5/Okular5ConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Okular5/Okular5Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Okular5/Okular5Targets.cmake
-lrwxrwxrwx	root/root	usr/lib/libOkular5Core.so -> libOkular5Core.so.7
-lrwxrwxrwx	root/root	usr/lib/libOkular5Core.so.7 -> libOkular5Core.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libOkular5Core.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libOkular5Core.so -> libOkular5Core.so.8
+lrwxrwxrwx	root/root	usr/lib/libOkular5Core.so.8 -> libOkular5Core.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libOkular5Core.so.8.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kio_msits.so
@@ -240,11 +240,16 @@ drwxr-xr-x	root/root	usr/share/okular/pics/
 -rw-r--r--	root/root	usr/share/okular/pics/stamps.svg
 -rw-r--r--	root/root	usr/share/okular/pics/star.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-base-okular.png
+-rw-r--r--	root/root	usr/share/okular/pics/tool-base-okular@2x.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-highlighter-okular-colorizable.png
+-rw-r--r--	root/root	usr/share/okular/pics/tool-highlighter-okular-colorizable@2x.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-ink-okular-colorizable.png
+-rw-r--r--	root/root	usr/share/okular/pics/tool-ink-okular-colorizable@2x.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-note-inline-okular-colorizable.png
+-rw-r--r--	root/root	usr/share/okular/pics/tool-note-inline-okular-colorizable@2x.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-note-inline.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-note-okular-colorizable.png
+-rw-r--r--	root/root	usr/share/okular/pics/tool-note-okular-colorizable@2x.png
 -rw-r--r--	root/root	usr/share/okular/pics/tool-note.png
 -rw-r--r--	root/root	usr/share/okular/pics/uparrow.png
 -rw-r--r--	root/root	usr/share/okular/pics/upleftarrow.png

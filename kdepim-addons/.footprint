@@ -14,16 +14,18 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/contacteditor/
 drwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/
 -rwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/cryptopageplugin.so
-lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.6.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.6.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.6.3
-lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.7.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.7.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.7.0
+lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/contacteditor/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/contacteditor/addresslocationeditorplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_checkgravatarplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_importexportcsvplugin.so
@@ -49,7 +51,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_nonbreakingspaceeditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_zoomtexteditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_datenums.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_hebrew.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_picoftheday.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_thisdayinhistory.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/libksieve/
@@ -58,6 +59,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/libksieve/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/mailtransport/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/mailtransport/mailtransport_sendplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_application_gnupgwks.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_application_mstnef.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_pkpass.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_semantic.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_calendar.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_highlighter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_vcard.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_allheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_briefheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_createeventplugin.so
@@ -71,11 +80,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_longheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_standardsheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_translatorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer_bodypartformatter_application_gnupgwks.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer_bodypartformatter_application_mstnef.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer_bodypartformatter_text_calendar.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer_bodypartformatter_text_vcard.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer_bodypartformatter_text_xdiff.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/pimcommon_isgdshorturlengineplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/pimcommon_shorturlplugin.so
@@ -100,6 +104,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/libpimcalendarsplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/qmldir
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/contacteditor/
+drwxr-xr-x	root/root	usr/share/contacteditor/grantleetheme/
+drwxr-xr-x	root/root	usr/share/contacteditor/grantleetheme/default/
+-rw-r--r--	root/root	usr/share/contacteditor/grantleetheme/default/addresseslocation.css
+-rw-r--r--	root/root	usr/share/contacteditor/grantleetheme/default/addresseslocation.html
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/webengineurlinterceptoradblock.upd
 drwxr-xr-x	root/root	usr/share/kmail2/
@@ -109,14 +118,8 @@ drwxr-xr-x	root/root	usr/share/kmail2/pics/
 drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservices5/korganizer/
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/datenums.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer/hebrew.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/picoftheday.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/thisdayinhistory.desktop
-drwxr-xr-x	root/root	usr/share/messageviewer/
-drwxr-xr-x	root/root	usr/share/messageviewer/plugins/
-drwxr-xr-x	root/root	usr/share/messageviewer/plugins/bodypartformatter/
--rw-r--r--	root/root	usr/share/messageviewer/plugins/bodypartformatter/application_gnupgwks.desktop
--rw-r--r--	root/root	usr/share/messageviewer/plugins/bodypartformatter/application_ms-tnef.desktop
--rw-r--r--	root/root	usr/share/messageviewer/plugins/bodypartformatter/text_calendar.desktop
--rw-r--r--	root/root	usr/share/messageviewer/plugins/bodypartformatter/text_vcard.desktop
--rw-r--r--	root/root	usr/share/messageviewer/plugins/bodypartformatter/text_xdiff.desktop
+drwxr-xr-x	root/root	usr/share/mime/
+drwxr-xr-x	root/root	usr/share/mime/packages/
+-rw-r--r--	root/root	usr/share/mime/packages/application-vnd-apple-pkpass.xml

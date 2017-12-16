@@ -24,9 +24,8 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/GenericPluginManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/KActionMenuChangeCase
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/KPimPrintPreviewDialog
--rw-r--r--	root/root	usr/include/KF5/PimCommon/LineEditPassword
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/LineEditWithAutoCorrection
--rw-r--r--	root/root	usr/include/KF5/PimCommon/LineEditWithCompleter
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/LineEditWithCompleterNg
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/LogActivitiesManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/MetaType
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/MigrateApplicationFiles
@@ -40,10 +39,8 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/RenameFileDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/RichTexteditWithAutoCorrection
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ShareServiceUrlManager
--rw-r--r--	root/root	usr/include/KF5/PimCommon/SieveSyntaxHighlighter
--rw-r--r--	root/root	usr/include/KF5/PimCommon/SieveSyntaxHighlighterRules
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/SieveSyntaxHighlighterUtil
--rw-r--r--	root/root	usr/include/KF5/PimCommon/SimpleStringlistEditor
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/SimpleStringListEditor
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/SpellCheckLineEdit
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/TemplateListWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/TemplateManager
@@ -85,9 +82,8 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/imapresourcesettings.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/kactionmenuchangecase.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/kpimprintpreviewdialog.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/lineeditpassword.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/lineeditwithautocorrection.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/lineeditwithcompleter.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/lineeditwithcompleterng.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/logactivitiesmanager.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/metatype.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/migrateapplicationfiles.h
@@ -104,8 +100,6 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/renamefiledialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/richtexteditwithautocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/shareserviceurlmanager.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/sievesyntaxhighlighter.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/sievesyntaxhighlighterrules.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/sievesyntaxhighlighterutil.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/simplestringlisteditor.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/spellchecklineedit.h
@@ -146,11 +140,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so -> libKF5PimCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.7.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so -> libKF5PimCommonAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

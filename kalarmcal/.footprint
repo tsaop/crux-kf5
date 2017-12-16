@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KAlarmCal/KAlarmCal/
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/KAlarmCal/KAEvent
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/KAlarmCal/KARecurrence
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/KAlarmCal/Repetition
+-rw-r--r--	root/root	usr/include/KF5/KAlarmCal/KAlarmCal/Utils
 drwxr-xr-x	root/root	usr/include/KF5/KAlarmCal/kalarmcal/
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/alarmtext.h
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/collectionattribute.h
@@ -27,6 +28,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KAlarmCal/kalarmcal/
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/kalarmcal_export.h
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/karecurrence.h
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/repetition.h
+-rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/utils.h
 -rw-r--r--	root/root	usr/include/KF5/KAlarmCal/kalarmcal/version.h
 -rw-r--r--	root/root	usr/include/KF5/kalarmcal_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -37,8 +39,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AlarmCalendar/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AlarmCalendar/KF5AlarmCalendarTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AlarmCalendar/KF5AlarmCalendarTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AlarmCalendar.so -> libKF5AlarmCalendar.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AlarmCalendar.so.5 -> libKF5AlarmCalendar.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5AlarmCalendar.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AlarmCalendar.so.5 -> libKF5AlarmCalendar.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AlarmCalendar.so.5.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

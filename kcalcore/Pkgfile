@@ -4,14 +4,12 @@
 # Depends on: kdelibs4support libical
 
 name=kcalcore
-version=17.08.3
-release=2
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
-	kcalcore-libical3.patch)
+version=17.12.0
+release=1
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/$name-libical3.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \

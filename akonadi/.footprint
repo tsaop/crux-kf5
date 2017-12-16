@@ -332,20 +332,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Akonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.7.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.7.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so -> libKF5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.7.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.7.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.6.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.6.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.7.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -410,6 +410,10 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/akonadi.svgz
+drwxr-xr-x	root/root	usr/share/kdevappwizard/
+drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
+-rw-r--r--	root/root	usr/share/kdevappwizard/templates/akonadiresource.tar.bz2
+-rw-r--r--	root/root	usr/share/kdevappwizard/templates/akonadiserializer.tar.bz2
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/akonadi/
 -rw-r--r--	root/root	usr/share/kf5/akonadi/akonadi-xml.xsd
