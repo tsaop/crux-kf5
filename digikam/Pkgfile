@@ -5,11 +5,18 @@
 
 name=digikam
 version=5.7.0
-release=2
-source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
+release=3
+source=(http://download.kde.org/stable/$name/$name-$version.tar.xz
+	digikam-kcalcore-17.12.patch)
 
 build() {
 	cd $name-$version
+
+	# add support for kcalcore >= 17.12
+	cd core
+	patch -Np1 -i $SRC/digikam-kcalcore-17.12.patch
+	cd -
+
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
