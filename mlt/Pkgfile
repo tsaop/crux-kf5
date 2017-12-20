@@ -1,11 +1,11 @@
 # Description: Open source multimedia framework, designed and developed for television broadcasting
 # URL: http://www.mltframework.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libsamplerate libsdl2 opencv sdl_image sox
+# Depends on: libsamplerate libsdl2 sdl_image sox
 
 name=mlt
 version=6.4.1
-release=3
+release=4
 source=(http://sourceforge.net/projects/$name/files/$name/$name-$version.tar.gz)
 
 build() {
