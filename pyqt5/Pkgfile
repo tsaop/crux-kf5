@@ -6,7 +6,7 @@
 name=pyqt5
 _realname=PyQt5
 version=5.9.2
-release=2
+release=3
 source=(https://sourceforge.net/projects/pyqt/files/$_realname/${_realname/5/}-$version/${_realname}_gpl-$version.tar.gz)
 
 build() {
