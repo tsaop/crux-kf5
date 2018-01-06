@@ -1,0 +1,15 @@
+# Description: Plugin and hook calling mechanisms for python
+# URL: https://pypi.python.org/pypi/pluggy
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python-setuptools
+
+name=python-pluggy
+version=0.6.0
+release=1
+source=(https://pypi.python.org/packages/11/bf/cbeb8cdfaffa9f2ea154a30ae31a9d04a1209312e2919138b4171a1f8199/${name/python-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python-/}-$version
+	python setup.py build
+	python setup.py install --prefix=/usr --root=$PKG
+}
