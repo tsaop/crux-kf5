@@ -5,15 +5,17 @@
 
 name=sddm
 version=0.17.0
-release=1
+release=2
 source=(https://github.com/$name/$name/archive/v$version.tar.gz \
 	rc.sddm
-	sddm_consolekit.diff)
+	sddm-0.16.0-ck2-revert.patch
+	sddm-dbus-consolekit-fix.patch)
 
 build() {
 	cd $name-$version
 
-	patch -Np1 -i $SRC/sddm_consolekit.diff
+	patch -Np1 -i $SRC/sddm-0.16.0-ck2-revert.patch
+	patch -Np1 -i $SRC/sddm-dbus-consolekit-fix.patch
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \

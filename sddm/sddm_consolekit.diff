@@ -1,9 +1,0 @@
---- sddm-0.14.0/data/scripts/Xsession.orig	2017-01-08 10:06:56.966906821 +0100
-+++ sddm-0.14.0/data/scripts/Xsession	2017-01-08 10:07:09.414906376 +0100
-@@ -91,5 +91,5 @@
- if [ -z "$@" ]; then
-     exec xmessage -center -buttons OK:0 -default OK "Sorry, $DESKTOP_SESSION is no valid session."
- else
--    exec $@
-+    exec ck-launch-session $@
- fi
