@@ -4,12 +4,13 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy-1.13.3-py2.7.egg-info/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.13.3-py2.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.13.3-py2.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.13.3-py2.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.13.3-py2.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy-1.14.0-py2.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.14.0-py2.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.14.0-py2.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.14.0-py2.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.14.0-py2.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/LICENSE.txt
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/__config__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/__config__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/__init__.py
@@ -31,6 +32,8 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/compat/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/compat/py3k.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/compat/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/compat/setup.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/conftest.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/conftest.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/core/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/core/__init__.pyc
@@ -112,6 +115,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/lib/npy-pkg-conf
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/test_rational.so
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/data/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/data/astype_copy.pkl
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/data/recarray_from_file.fits
@@ -142,6 +146,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/data/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_print.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_records.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_regression.py
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_scalar_ctors.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_scalarinherit.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_scalarmath.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/core/tests/test_scalarprint.py
@@ -280,9 +285,11 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/distutils/mingw/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/system_info.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/system_info.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_exec_command.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_fcompiler_gnu.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_fcompiler_intel.py
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_fcompiler_nagfor.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_misc_util.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_npy_pkg_config.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_system_info.py
@@ -356,6 +363,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/f2py/src/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/src/fortranobject.c
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/src/fortranobject.h
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/src/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/src/array_from_pyobj/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c
@@ -387,6 +395,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/src/string
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/src/string/char.f90
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/test_array_from_pyobj.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/test_assumed_shape.py
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/test_block_docstring.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/test_callback.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/test_common.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/f2py/tests/test_kind.py
@@ -416,6 +425,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/fft/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/fft/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/fft/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/fft/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/fft/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/fft/tests/test_fftpack.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/fft/tests/test_helper.py
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/lib/
@@ -462,6 +472,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/lib/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/lib/stride_tricks.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/lib/stride_tricks.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/lib/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/lib/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/lib/tests/data/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/lib/tests/data/py2-objarr.npy
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/lib/tests/data/py2-objarr.npz
@@ -514,6 +525,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/linalg/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/linalg/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/linalg/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/linalg/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/linalg/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/linalg/tests/test_build.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/linalg/tests/test_deprecations.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/linalg/tests/test_linalg.py
@@ -532,6 +544,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/ma/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/ma/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/ma/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/ma/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/ma/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/ma/tests/test_core.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/ma/tests/test_deprecations.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/ma/tests/test_extras.py
@@ -555,6 +568,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/tests/test_defmatrix.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/tests/test_multiarray.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/matrixlib/tests/test_numeric.py
@@ -581,6 +595,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/tests/test_chebyshev.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/tests/test_classes.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/polynomial/tests/test_hermite.py
@@ -600,6 +615,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/random/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/random/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/random/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/random/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/random/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/random/tests/test_random.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/random/tests/test_regression.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/setup.py
@@ -609,6 +625,19 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/testing/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/decorators.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/decorators.pyc
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/decorators.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/decorators.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/noseclasses.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/noseclasses.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/nosetester.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/nosetester.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/parameterized.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/parameterized.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/utils.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nose_tools/utils.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/noseclasses.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/noseclasses.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/nosetester.py
@@ -618,12 +647,14 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/testing/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/setup.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/setup.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/testing/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/tests/test_decorators.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/tests/test_doctesting.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/tests/test_utils.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/utils.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/testing/utils.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/tests/
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/tests/__init__.py (EMPTY)
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/tests/test_ctypeslib.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/tests/test_matlib.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/tests/test_numpy_version.py
