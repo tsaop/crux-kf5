@@ -4,9 +4,9 @@
 # Depends on: akonadi-calendar akonadi-notes akonadi-search gtk kldap kontactinterface
 
 name=zanshin
-version=0.4.1
-release=2
-source=(http://files.kde.org/$name/$name-$version.tar.bz2)
+version=0.5.0
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
