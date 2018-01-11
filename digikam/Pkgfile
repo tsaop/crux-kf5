@@ -4,18 +4,12 @@
 # Depends on: akonadi-contacts kcalcore kfilemetadata knotifyconfig lensfun libkipi liblqr opencv qtav threadweaver
 
 name=digikam
-version=5.7.0
-release=3
-source=(http://download.kde.org/stable/$name/$name-$version.tar.xz
-	digikam-kcalcore-17.12.patch)
+version=5.8.0
+release=1
+source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	# add support for kcalcore >= 17.12
-	cd core
-	patch -Np1 -i $SRC/digikam-kcalcore-17.12.patch
-	cd -
 
 	mkdir build; cd build
 
