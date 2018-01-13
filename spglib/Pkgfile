@@ -1,10 +1,10 @@
 # Description: C library for finding and handling crystal symmetries
 # URL: http://wiki.openchemistry.org/Avogadro
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: glibc  
+# Depends on:  glibc
 
 name=spglib
-version=1.10.2
+version=1.10.3
 release=1
 source=(https://github.com/atztogo/$name/archive/v${version}.tar.gz)
 
