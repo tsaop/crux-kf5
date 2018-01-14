@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kirigami2
+# Depends on: kiconthemes kirigami2
 
 name=qqc2-desktop-style
-version=5.41.0
+version=5.42.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

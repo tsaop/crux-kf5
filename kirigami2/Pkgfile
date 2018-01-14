@@ -1,10 +1,10 @@
 # Description: KDE's lightweight user interface framework for mobile and convergent applications (version 2.0)
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: plasma-framework
+# Depends on: extra-cmake-modules qt5
 
 name=kirigami2
-version=5.41.0
+version=5.42.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

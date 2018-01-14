@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KWayland/
 drwxr-xr-x	root/root	usr/include/KF5/KWayland/Client/
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Client/appmenu.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/blur.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/buffer.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/compositor.h
@@ -38,6 +39,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Client/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/relativepointer.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/seat.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/server_decoration.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Client/server_decoration_palette.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/shadow.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/shell.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/shm_pool.h
@@ -50,6 +52,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Client/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/xdgforeign_v2.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Client/xdgshell.h
 drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Server/appmenu_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/blur_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/buffer_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/clientconnection.h
@@ -84,6 +87,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/resource.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/seat_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/server_decoration_interface.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Server/server_decoration_palette_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/shadow_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/shell_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/slide_interface.h
@@ -102,11 +106,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Wayland/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so -> libKF5WaylandClient.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.41.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.41.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.42.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.42.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so -> libKF5WaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.41.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.41.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.42.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.42.0
 -rwxr-xr-x	root/root	usr/lib/org-kde-kf5-kwayland-testserver
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
