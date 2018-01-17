@@ -4,12 +4,12 @@
 # Depends on: gtk kcmutils kwayland libfakekey qca-qt5 sshfs-fuse
 
 name=kdeconnect
-version=1.2
+version=1.2.1
 release=1
-source=(http://download.kde.org/stable/$name/$version/src/$name-kde-$version.tar.xz)
+source=(http://download.kde.org/stable/$name/$version/src/$name-kde-v${version}.tar.xz)
 
 build() {
-	cd $name-kde-$version
+	cd $name-kde-v${version}
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
