@@ -1,10 +1,10 @@
 # Description: Versatile desktop calculator
 # URL: https://qalculate.github.io
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cln gnuplot icu
+# Depends on: cln gnuplot icu intltool
 
 name=libqalculate
-version=2.2.0
+version=2.2.1
 release=1
 source=(https://github.com/Qalculate/$name/releases/download/v${version}/$name-$version.tar.gz)
 
