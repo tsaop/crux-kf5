@@ -5,8 +5,12 @@ drwxr-xr-x	root/root	usr/include/KPropertyCore3/
 -rw-r--r--	root/root	usr/include/KPropertyCore3/KProperty.h
 -rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertyFactory
 -rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertyFactory.h
+-rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertyListData
+-rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertyListData.h
 -rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertySet
 -rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertySet.h
+-rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertySetBuffer
+-rw-r--r--	root/root	usr/include/KPropertyCore3/KPropertySetBuffer.h
 -rw-r--r--	root/root	usr/include/KPropertyCore3/config-kproperty.h
 -rw-r--r--	root/root	usr/include/KPropertyCore3/kproperty_version.h
 -rw-r--r--	root/root	usr/include/KPropertyCore3/kpropertycore_export.h
@@ -22,6 +26,10 @@ drwxr-xr-x	root/root	usr/include/KPropertyWidgets3/
 -rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyEditorView.h
 -rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyGenericSelectionEditor
 -rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyGenericSelectionEditor.h
+-rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyMultiLineStringEditor
+-rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyMultiLineStringEditor.h
+-rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyRectFEditor
+-rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyRectFEditor.h
 -rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyStringEditor
 -rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyStringEditor.h
 -rw-r--r--	root/root	usr/include/KPropertyWidgets3/KPropertyUrlEditor
@@ -63,11 +71,13 @@ drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KPropertyCore3/
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyCore3/KPropertyCoreConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyCore3/KPropertyCoreConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPropertyCore3/KPropertyCoreQCHTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyCore3/KPropertyCoreTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyCore3/KPropertyCoreTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/KPropertyWidgets3/
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyWidgets3/KPropertyWidgetsConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyWidgets3/KPropertyWidgetsConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPropertyWidgets3/KPropertyWidgetsQCHTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyWidgets3/KPropertyWidgetsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPropertyWidgets3/KPropertyWidgetsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPropertyCore3.so -> libKPropertyCore3.so.3
