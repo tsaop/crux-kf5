@@ -1,79 +1,74 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/kexi
+-rwxr-xr-x	root/root	usr/bin/kexi-3.1
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkexicore.so -> libkexicore.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexicore.so.15 -> libkexicore.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexicore.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexidatatable.so -> libkexidatatable.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexidatatable.so.15 -> libkexidatatable.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexidatatable.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexidataviewcommon.so -> libkexidataviewcommon.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexidataviewcommon.so.15 -> libkexidataviewcommon.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexidataviewcommon.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexiextendedwidgets.so -> libkexiextendedwidgets.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexiextendedwidgets.so.15 -> libkexiextendedwidgets.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexiextendedwidgets.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexiformutils.so -> libkexiformutils.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexiformutils.so.15 -> libkexiformutils.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexiformutils.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexiguiutils.so -> libkexiguiutils.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexiguiutils.so.15 -> libkexiguiutils.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexiguiutils.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkeximain.so -> libkeximain.so.15
-lrwxrwxrwx	root/root	usr/lib/libkeximain.so.15 -> libkeximain.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkeximain.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkeximigrate.so -> libkeximigrate.so.15
-lrwxrwxrwx	root/root	usr/lib/libkeximigrate.so.15 -> libkeximigrate.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkeximigrate.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexirelationsview.so -> libkexirelationsview.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexirelationsview.so.15 -> libkexirelationsview.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexirelationsview.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexiundo.so -> libkexiundo.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexiundo.so.15 -> libkexiundo.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexiundo.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkexiutils.so -> libkexiutils.so.15
-lrwxrwxrwx	root/root	usr/lib/libkexiutils.so.15 -> libkexiutils.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkexiutils.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkformdesigner.so -> libkformdesigner.so.15
-lrwxrwxrwx	root/root	usr/lib/libkformdesigner.so.15 -> libkformdesigner.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkformdesigner.so.15.0.0
+lrwxrwxrwx	root/root	usr/lib/libkexicore3.1.so -> libkexicore3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexicore3.1.so.3 -> libkexicore3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexicore3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexidatatable3.1.so -> libkexidatatable3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexidatatable3.1.so.3 -> libkexidatatable3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexidatatable3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexidataviewcommon3.1.so -> libkexidataviewcommon3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexidataviewcommon3.1.so.3 -> libkexidataviewcommon3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexidataviewcommon3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexiextendedwidgets3.1.so -> libkexiextendedwidgets3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexiextendedwidgets3.1.so.3 -> libkexiextendedwidgets3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexiextendedwidgets3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexiformutils3.1.so -> libkexiformutils3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexiformutils3.1.so.3 -> libkexiformutils3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexiformutils3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexiguiutils3.1.so -> libkexiguiutils3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexiguiutils3.1.so.3 -> libkexiguiutils3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexiguiutils3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkeximain3.1.so -> libkeximain3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkeximain3.1.so.3 -> libkeximain3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkeximain3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkeximigrate3.1.so -> libkeximigrate3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkeximigrate3.1.so.3 -> libkeximigrate3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkeximigrate3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexirelationsview3.1.so -> libkexirelationsview3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexirelationsview3.1.so.3 -> libkexirelationsview3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexirelationsview3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexiundo3.1.so -> libkexiundo3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexiundo3.1.so.3 -> libkexiundo3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexiundo3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkexiutils3.1.so -> libkexiutils3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkexiutils3.1.so.3 -> libkexiutils3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkexiutils3.1.so.3.0.94
+lrwxrwxrwx	root/root	usr/lib/libkformdesigner3.1.so -> libkformdesigner3.1.so.3
+lrwxrwxrwx	root/root	usr/lib/libkformdesigner3.1.so.3 -> libkformdesigner3.1.so.3.0.94
+-rwxr-xr-x	root/root	usr/lib/libkformdesigner3.1.so.3.0.94
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/forms/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/forms/widgets/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/forms/widgets/kexiforms_dbwidgetsplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/forms/widgets/kexiforms_standardwidgetsplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/forms/widgets/kexiforms_webbrowserwidgetplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/kexi_csvimportexportplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/kexi_formplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/kexi_migrationplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/kexi_queryplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/kexi_reportplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/kexi_tableplugin.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/migrate/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/migrate/keximigrate_mdb.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/migrate/keximigrate_tsv.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/forms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/forms/widgets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/forms/widgets/org.kexi-project.form.widgets.main.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/forms/widgets/org.kexi-project.form.widgets.web-browser.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/kexi_csvimportexportplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/kexi_formplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/kexi_migrationplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/kexi_queryplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/kexi_reportplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/kexi_tableplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/migrate/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/migrate/keximigrate_mdb.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kexi/3.1/migrate/keximigrate_tsv.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/org.kde.kexi.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.kexi-3.1.desktop
 drwxr-xr-x	root/root	usr/share/kexi/
-drwxr-xr-x	root/root	usr/share/kexi/icons/
-drwxr-xr-x	root/root	usr/share/kexi/icons/hicolor/
-drwxr-xr-x	root/root	usr/share/kexi/icons/hicolor/16x16/
-drwxr-xr-x	root/root	usr/share/kexi/icons/hicolor/16x16/actions/
--rw-r--r--	root/root	usr/share/kexi/icons/hicolor/16x16/actions/web_browser.png
-drwxr-xr-x	root/root	usr/share/kexi/icons/hicolor/22x22/
-drwxr-xr-x	root/root	usr/share/kexi/icons/hicolor/22x22/actions/
--rw-r--r--	root/root	usr/share/kexi/icons/hicolor/22x22/actions/web_browser.png
--rw-r--r--	root/root	usr/share/kexi/icons/kexi_breeze.rcc
-drwxr-xr-x	root/root	usr/share/kexi/status/
-drwxr-xr-x	root/root	usr/share/kexi/status/3.0.0/
--rw-r--r--	root/root	usr/share/kexi/status/3.0.0/contribution_details.ui
--rw-r--r--	root/root	usr/share/kexi/status/3.0.0/contribution_help.ui
--rw-r--r--	root/root	usr/share/kexi/status/3.0.0/status.rcc
--rw-r--r--	root/root	usr/share/kexi/status/3.0.0/status.ui
--rw-r--r--	root/root	usr/share/kexi/status/3.0.0/status_strings.ui
+drwxr-xr-x	root/root	usr/share/kexi/3.1/
+drwxr-xr-x	root/root	usr/share/kexi/3.1/icons/
+-rw-r--r--	root/root	usr/share/kexi/3.1/icons/kexi_breeze.rcc
+-rw-r--r--	root/root	usr/share/kexi/3.1/icons/org.kexi-project.form.widgets.main_breeze.rcc
+-rw-r--r--	root/root	usr/share/kexi/3.1/icons/org.kexi-project.form.widgets.web-browser_breeze.rcc
+drwxr-xr-x	root/root	usr/share/kexi/3.1/status/
+-rw-r--r--	root/root	usr/share/kexi/3.1/status/contribution_details.ui
+-rw-r--r--	root/root	usr/share/kexi/3.1/status/contribution_help.ui
+-rw-r--r--	root/root	usr/share/kexi/3.1/status/status.rcc
+-rw-r--r--	root/root	usr/share/kexi/3.1/status/status.ui
+-rw-r--r--	root/root	usr/share/kexi/3.1/status/status_strings.ui
 drwxr-xr-x	root/root	usr/share/metainfo/
--rw-r--r--	root/root	usr/share/metainfo/org.kde.kexi.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kexi-3.1.appdata.xml
