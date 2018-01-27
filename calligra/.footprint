@@ -2,8 +2,8 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/calligra
 -rwxr-xr-x	root/root	usr/bin/calligraconverter
--rwxr-xr-x	root/root	usr/bin/calligraplan
--rwxr-xr-x	root/root	usr/bin/calligraplanwork
+-rwxr-xr-x	root/root	usr/bin/calligragemini
+-rwxr-xr-x	root/root	usr/bin/calligrageminithumbnailhelper
 -rwxr-xr-x	root/root	usr/bin/calligrasheets
 -rwxr-xr-x	root/root	usr/bin/calligrawords
 -rwxr-xr-x	root/root	usr/bin/cstester
@@ -13,120 +13,104 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/calligra_stencils.knsrc
--rw-r--r--	root/root	usr/etc/xdg/calligraplanrc
--rw-r--r--	root/root	usr/etc/xdg/calligraplanworkrc
 -rw-r--r--	root/root	usr/etc/xdg/calligrasheetsrc
 -rw-r--r--	root/root	usr/etc/xdg/calligrastagerc
 -rw-r--r--	root/root	usr/etc/xdg/calligrawordsrc
 -rw-r--r--	root/root	usr/etc/xdg/karbonrc
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libRtfReader.so -> libRtfReader.so.15
-lrwxrwxrwx	root/root	usr/lib/libRtfReader.so.15 -> libRtfReader.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libRtfReader.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libbasicflakes.so -> libbasicflakes.so.15
-lrwxrwxrwx	root/root	usr/lib/libbasicflakes.so.15 -> libbasicflakes.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libbasicflakes.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libcalligrasheetscommon.so -> libcalligrasheetscommon.so.15
-lrwxrwxrwx	root/root	usr/lib/libcalligrasheetscommon.so.15 -> libcalligrasheetscommon.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libcalligrasheetscommon.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libcalligrasheetsodf.so -> libcalligrasheetsodf.so.15
-lrwxrwxrwx	root/root	usr/lib/libcalligrasheetsodf.so.15 -> libcalligrasheetsodf.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libcalligrasheetsodf.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libcalligrastageprivate.so -> libcalligrastageprivate.so.15
-lrwxrwxrwx	root/root	usr/lib/libcalligrastageprivate.so.15 -> libcalligrastageprivate.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libcalligrastageprivate.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libflake.so -> libflake.so.15
-lrwxrwxrwx	root/root	usr/lib/libflake.so.15 -> libflake.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libflake.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkarboncommon.so -> libkarboncommon.so.15
-lrwxrwxrwx	root/root	usr/lib/libkarboncommon.so.15 -> libkarboncommon.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkarboncommon.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkarbonui.so -> libkarbonui.so.15
-lrwxrwxrwx	root/root	usr/lib/libkarbonui.so.15 -> libkarbonui.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkarbonui.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkdeinit5_calligraplan.so
--rwxr-xr-x	root/root	usr/lib/libkdeinit5_calligraplanwork.so
+lrwxrwxrwx	root/root	usr/lib/libRtfReader.so -> libRtfReader.so.16
+lrwxrwxrwx	root/root	usr/lib/libRtfReader.so.16 -> libRtfReader.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libRtfReader.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libbasicflakes.so -> libbasicflakes.so.16
+lrwxrwxrwx	root/root	usr/lib/libbasicflakes.so.16 -> libbasicflakes.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libbasicflakes.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libcalligrasheetscommon.so -> libcalligrasheetscommon.so.16
+lrwxrwxrwx	root/root	usr/lib/libcalligrasheetscommon.so.16 -> libcalligrasheetscommon.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libcalligrasheetscommon.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libcalligrasheetsodf.so -> libcalligrasheetsodf.so.16
+lrwxrwxrwx	root/root	usr/lib/libcalligrasheetsodf.so.16 -> libcalligrasheetsodf.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libcalligrasheetsodf.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libcalligrastageprivate.so -> libcalligrastageprivate.so.16
+lrwxrwxrwx	root/root	usr/lib/libcalligrastageprivate.so.16 -> libcalligrastageprivate.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libcalligrastageprivate.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libflake.so -> libflake.so.16
+lrwxrwxrwx	root/root	usr/lib/libflake.so.16 -> libflake.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libflake.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libgemini.so -> libgemini.so.16
+lrwxrwxrwx	root/root	usr/lib/libgemini.so.16 -> libgemini.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libgemini.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkarboncommon.so -> libkarboncommon.so.16
+lrwxrwxrwx	root/root	usr/lib/libkarboncommon.so.16 -> libkarboncommon.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkarboncommon.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkarbonui.so -> libkarbonui.so.16
+lrwxrwxrwx	root/root	usr/lib/libkarbonui.so.16 -> libkarbonui.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkarbonui.so.16.0.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_calligrasheets.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_calligrawords.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_karbon.so
-lrwxrwxrwx	root/root	usr/lib/libkoformula.so -> libkoformula.so.15
-lrwxrwxrwx	root/root	usr/lib/libkoformula.so.15 -> libkoformula.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkoformula.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkomain.so -> libkomain.so.15
-lrwxrwxrwx	root/root	usr/lib/libkomain.so.15 -> libkomain.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkomain.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkomsooxml.so -> libkomsooxml.so.15
-lrwxrwxrwx	root/root	usr/lib/libkomsooxml.so.15 -> libkomsooxml.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkomsooxml.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkoodf.so -> libkoodf.so.15
-lrwxrwxrwx	root/root	usr/lib/libkoodf.so.15 -> libkoodf.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkoodf.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkoodf2.so -> libkoodf2.so.15
-lrwxrwxrwx	root/root	usr/lib/libkoodf2.so.15 -> libkoodf2.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkoodf2.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkoodfreader.so -> libkoodfreader.so.15
-lrwxrwxrwx	root/root	usr/lib/libkoodfreader.so.15 -> libkoodfreader.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkoodfreader.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odp.so -> libkookularGenerator_odp.so.15
-lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odp.so.15 -> libkookularGenerator_odp.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkookularGenerator_odp.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odt.so -> libkookularGenerator_odt.so.15
-lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odt.so.15 -> libkookularGenerator_odt.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkookularGenerator_odt.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkopageapp.so -> libkopageapp.so.15
-lrwxrwxrwx	root/root	usr/lib/libkopageapp.so.15 -> libkopageapp.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkopageapp.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkoplugin.so -> libkoplugin.so.15
-lrwxrwxrwx	root/root	usr/lib/libkoplugin.so.15 -> libkoplugin.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkoplugin.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkostore.so -> libkostore.so.15
-lrwxrwxrwx	root/root	usr/lib/libkostore.so.15 -> libkostore.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkostore.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkotext.so -> libkotext.so.15
-lrwxrwxrwx	root/root	usr/lib/libkotext.so.15 -> libkotext.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkotext.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkotextlayout.so -> libkotextlayout.so.15
-lrwxrwxrwx	root/root	usr/lib/libkotextlayout.so.15 -> libkotextlayout.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkotextlayout.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkovectorimage.so -> libkovectorimage.so.15
-lrwxrwxrwx	root/root	usr/lib/libkovectorimage.so.15 -> libkovectorimage.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkovectorimage.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkoversion.so -> libkoversion.so.15
-lrwxrwxrwx	root/root	usr/lib/libkoversion.so.15 -> libkoversion.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkoversion.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkowidgets.so -> libkowidgets.so.15
-lrwxrwxrwx	root/root	usr/lib/libkowidgets.so.15 -> libkowidgets.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkowidgets.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkowidgetutils.so -> libkowidgetutils.so.15
-lrwxrwxrwx	root/root	usr/lib/libkowidgetutils.so.15 -> libkowidgetutils.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkowidgetutils.so.15.0.0
+lrwxrwxrwx	root/root	usr/lib/libkoformula.so -> libkoformula.so.16
+lrwxrwxrwx	root/root	usr/lib/libkoformula.so.16 -> libkoformula.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkoformula.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkomain.so -> libkomain.so.16
+lrwxrwxrwx	root/root	usr/lib/libkomain.so.16 -> libkomain.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkomain.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkomsooxml.so -> libkomsooxml.so.16
+lrwxrwxrwx	root/root	usr/lib/libkomsooxml.so.16 -> libkomsooxml.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkomsooxml.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkoodf.so -> libkoodf.so.16
+lrwxrwxrwx	root/root	usr/lib/libkoodf.so.16 -> libkoodf.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkoodf.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkoodf2.so -> libkoodf2.so.16
+lrwxrwxrwx	root/root	usr/lib/libkoodf2.so.16 -> libkoodf2.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkoodf2.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkoodfreader.so -> libkoodfreader.so.16
+lrwxrwxrwx	root/root	usr/lib/libkoodfreader.so.16 -> libkoodfreader.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkoodfreader.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odp.so -> libkookularGenerator_odp.so.16
+lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odp.so.16 -> libkookularGenerator_odp.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkookularGenerator_odp.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odt.so -> libkookularGenerator_odt.so.16
+lrwxrwxrwx	root/root	usr/lib/libkookularGenerator_odt.so.16 -> libkookularGenerator_odt.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkookularGenerator_odt.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkopageapp.so -> libkopageapp.so.16
+lrwxrwxrwx	root/root	usr/lib/libkopageapp.so.16 -> libkopageapp.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkopageapp.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkoplugin.so -> libkoplugin.so.16
+lrwxrwxrwx	root/root	usr/lib/libkoplugin.so.16 -> libkoplugin.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkoplugin.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkostore.so -> libkostore.so.16
+lrwxrwxrwx	root/root	usr/lib/libkostore.so.16 -> libkostore.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkostore.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkotext.so -> libkotext.so.16
+lrwxrwxrwx	root/root	usr/lib/libkotext.so.16 -> libkotext.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkotext.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkotextlayout.so -> libkotextlayout.so.16
+lrwxrwxrwx	root/root	usr/lib/libkotextlayout.so.16 -> libkotextlayout.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkotextlayout.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkovectorimage.so -> libkovectorimage.so.16
+lrwxrwxrwx	root/root	usr/lib/libkovectorimage.so.16 -> libkovectorimage.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkovectorimage.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkoversion.so -> libkoversion.so.16
+lrwxrwxrwx	root/root	usr/lib/libkoversion.so.16 -> libkoversion.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkoversion.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkowidgets.so -> libkowidgets.so.16
+lrwxrwxrwx	root/root	usr/lib/libkowidgets.so.16 -> libkowidgets.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkowidgets.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libkowidgetutils.so -> libkowidgetutils.so.16
+lrwxrwxrwx	root/root	usr/lib/libkowidgetutils.so.16 -> libkowidgetutils.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkowidgetutils.so.16.0.0
 lrwxrwxrwx	root/root	usr/lib/libkowv2.so -> libkowv2.so.9
 lrwxrwxrwx	root/root	usr/lib/libkowv2.so.9 -> libkowv2.so.9.0.0
 -rwxr-xr-x	root/root	usr/lib/libkowv2.so.9.0.0
-lrwxrwxrwx	root/root	usr/lib/libkplatokernel.so -> libkplatokernel.so.15
-lrwxrwxrwx	root/root	usr/lib/libkplatokernel.so.15 -> libkplatokernel.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkplatokernel.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkplatomodels.so -> libkplatomodels.so.15
-lrwxrwxrwx	root/root	usr/lib/libkplatomodels.so.15 -> libkplatomodels.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkplatomodels.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkplatoui.so -> libkplatoui.so.15
-lrwxrwxrwx	root/root	usr/lib/libkplatoui.so.15 -> libkplatoui.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkplatoui.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libkundo2.so -> libkundo2.so.15
-lrwxrwxrwx	root/root	usr/lib/libkundo2.so.15 -> libkundo2.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libkundo2.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libpigmentcms.so -> libpigmentcms.so.15
-lrwxrwxrwx	root/root	usr/lib/libpigmentcms.so.15 -> libpigmentcms.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libpigmentcms.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libplanprivate.so -> libplanprivate.so.15
-lrwxrwxrwx	root/root	usr/lib/libplanprivate.so.15 -> libplanprivate.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libplanprivate.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libplanworkfactory.so -> libplanworkfactory.so.15
-lrwxrwxrwx	root/root	usr/lib/libplanworkfactory.so.15 -> libplanworkfactory.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libplanworkfactory.so.15.0.0
-lrwxrwxrwx	root/root	usr/lib/libwordsprivate.so -> libwordsprivate.so.15
-lrwxrwxrwx	root/root	usr/lib/libwordsprivate.so.15 -> libwordsprivate.so.15.0.0
--rwxr-xr-x	root/root	usr/lib/libwordsprivate.so.15.0.0
+lrwxrwxrwx	root/root	usr/lib/libkundo2.so -> libkundo2.so.16
+lrwxrwxrwx	root/root	usr/lib/libkundo2.so.16 -> libkundo2.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libkundo2.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libpigmentcms.so -> libpigmentcms.so.16
+lrwxrwxrwx	root/root	usr/lib/libpigmentcms.so.16 -> libpigmentcms.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libpigmentcms.so.16.0.0
+lrwxrwxrwx	root/root	usr/lib/libwordsprivate.so -> libwordsprivate.so.16
+lrwxrwxrwx	root/root	usr/lib/libwordsprivate.so.16 -> libwordsprivate.so.16.0.0
+-rwxr-xr-x	root/root	usr/lib/libwordsprivate.so.16.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/
@@ -181,12 +165,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_xfig2odg.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_xls2ods.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/calligra_filter_xlsx2ods.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/planicalexport.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/formatfilters/plankplatoimport.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/pageapptools/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/pageapptools/kopabackgroundtool.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/parts/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/parts/calligraplanpart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/parts/calligrasheetspart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/parts/calligrastagepart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/parts/calligrawordspart.so
@@ -221,10 +202,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/tools/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/tools/karbon_tools.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligradocinfopropspage.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraimagethumbnail.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/schedulers/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/schedulers/libplantjscheduler.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplanworkpart.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/extensions/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/extensions/sheetssolver.so
@@ -264,8 +241,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/karbon/extensions/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/karbon/extensions/karbon_refinepath.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/karbon/extensions/karbon_roundcorners.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/karbon/extensions/karbon_whirlpinch.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kreport/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kreport/planreport_textplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_doc_calligra.so
@@ -274,8 +249,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_odt_calligra.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_powerpoint_calligra.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_pptx_calligra.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_rtf_calligra.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_wpd_calligra.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/Calligra/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/Calligra/Gemini/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/Calligra/Gemini/Dropbox/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/Calligra/Gemini/Dropbox/libcalligrageminidropboxplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/Calligra/Gemini/Dropbox/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/calligra/
@@ -283,16 +264,15 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/calligra/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/calligra/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/calligra_filter_odt2docx.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_doc_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_docx_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_odp_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_odt_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_powerpoint_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_pptx_calligra.desktop
+-rwxr-xr-x	root/root	usr/share/applications/okularApplication_rtf_calligra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_wpd_calligra.desktop
--rwxr-xr-x	root/root	usr/share/applications/org.kde.calligraplan.desktop
--rwxr-xr-x	root/root	usr/share/applications/org.kde.calligraplanwork.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.calligragemini.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.calligrasheets.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.calligrawords.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.calligrawords_ascii.desktop
@@ -4403,61 +4383,296 @@ drwxr-xr-x	root/root	usr/share/calligra/thesaurus/
 drwxr-xr-x	root/root	usr/share/calligra_shape_music/
 drwxr-xr-x	root/root	usr/share/calligra_shape_music/fonts/
 -rw-r--r--	root/root	usr/share/calligra_shape_music/fonts/Emmentaler-14.ttf
-drwxr-xr-x	root/root	usr/share/calligraplan/
-drwxr-xr-x	root/root	usr/share/calligraplan/about/
--rw-r--r--	root/root	usr/share/calligraplan/about/intro.html
--rw-r--r--	root/root	usr/share/calligraplan/about/main.html
--rw-r--r--	root/root	usr/share/calligraplan/about/plan.css
--rw-r--r--	root/root	usr/share/calligraplan/about/tips.html
--rw-r--r--	root/root	usr/share/calligraplan/about/top-left-plan.png
--rw-r--r--	root/root	usr/share/calligraplan/about/tutorial.html
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/22x22/
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/22x22/actions/
--rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/22x22/actions/view-task-child-add.png
--rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/22x22/actions/view-time-schedule-insert.png
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/48x48/
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/48x48/actions/
--rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/48x48/actions/template_timechart.png
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/scalable/
-drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/scalable/actions/
--rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/scalable/actions/template_timechart.svgz
-drwxr-xr-x	root/root	usr/share/calligraplan/templates/
-drwxr-xr-x	root/root	usr/share/calligraplan/templates/Simple/
--rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/.directory
-drwxr-xr-x	root/root	usr/share/calligraplan/templates/Simple/.source/
--rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/.source/8HourDay-40HourWeek.plant
--rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/.source/Plain.plant
--rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/8HourDay-40HourWeek.desktop
--rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/Plain.desktop
-drwxr-xr-x	root/root	usr/share/calligraplanwork/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/128x128/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/128x128/actions/
--rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/128x128/actions/template_empty.png
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/16x16/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/16x16/actions/
--rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/16x16/actions/template_empty.png
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/22x22/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/22x22/actions/
--rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/22x22/actions/template_empty.png
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/32x32/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/32x32/actions/
--rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/32x32/actions/template_empty.png
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/48x48/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/48x48/actions/
--rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/48x48/actions/template_empty.png
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/64x64/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/64x64/actions/
--rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/64x64/actions/template_empty.png
-drwxr-xr-x	root/root	usr/share/calligraplanwork/templates/
-drwxr-xr-x	root/root	usr/share/calligraplanwork/templates/Simple/
--rw-r--r--	root/root	usr/share/calligraplanwork/templates/Simple/.directory
-drwxr-xr-x	root/root	usr/share/calligraplanwork/templates/Simple/.source/
--rw-r--r--	root/root	usr/share/calligraplanwork/templates/Simple/.source/Empty.planworkt
--rw-r--r--	root/root	usr/share/calligraplanwork/templates/Simple/Empty.desktop
+drwxr-xr-x	root/root	usr/share/calligragemini/
+-rw-r--r--	root/root	usr/share/calligragemini/calligragemini.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/MainPage.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/PresentationDJMode.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/StageDocumentPage.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/WelcomePage.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/WordsDocumentPage.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/components/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Button.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/CategorySwitcher.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/CheckBox.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/CohereButton.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/ColorSwatch.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Dialog.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Divider.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/DropShadow.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/ExpandingListView.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Header.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Label.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/ListItem.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/MessageStack.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/NewImageList.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/NewsList.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Page.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/PageStack.js
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/PageStack.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/PanelTextField.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/ProgressBar.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/RangeInput.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/RecentFilesList.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/ScrollDecorator.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Shadow.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Slider.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/TextField.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/TextFieldMultiline.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/Tooltip.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/components/VirtualKeyboard.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/panels/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/ImageToolsPanel.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/NotesPanel.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/OptionsPanel.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/TextStylePanel.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/panels/notespanelpages/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/notespanelpages/NotesPanelAddCustom.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/notespanelpages/NotesPanelMain.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/panels/notespanelpages/NotesPanelSummary.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/welcomepages/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/CustomDocWords.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/TemplatesWords.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/VariantSelector.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/WelcomePageCloud.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/WelcomePageCustom.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/WelcomePageFilebrowser.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/WelcomePageRecent.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/WelcomePageStage.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/WelcomePageWords.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/welcomepages/cloud/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/AddDropbox.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/AddGit.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/AddWebdav.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/CloudAccounts.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/Dropbox.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/EditDetailsBase.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/EditGit.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/Git.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/RemoveAccountDlg.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/Webdav.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/welcomepages/cloud/dropbox/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/dropbox/DropboxWebView.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/dropbox/FileNavigator.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/dropbox/InfoBanner.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/dropbox/LoginPage.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/dropbox/SetupPage.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/CreateCheckout.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/GetUserCredentials.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/RepositoryContent.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/createCheckoutContainer.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/repositoryContentContainer.qml
+-rw-r--r--	root/root	usr/share/calligragemini/qml/welcomepages/cloud/git/userCredentialsContainer.qml
+drwxr-xr-x	root/root	usr/share/calligragemini/themes/
+drwxr-xr-x	root/root	usr/share/calligragemini/themes/default/
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/colors.js
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts.js
+drwxr-xr-x	root/root	usr/share/calligragemini/themes/default/fonts/
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/PermanentMarker.ttf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-Black.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-BlackIt.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-Bold.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-BoldIt.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-ExtraLight.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-ExtraLightIt.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-It.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-Light.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-LightIt.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-Regular.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-Semibold.otf
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/fonts/SourceSansPro-SemiboldIt.otf
+drwxr-xr-x	root/root	usr/share/calligragemini/themes/default/icons/
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/A4landscape-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/A4portrait-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Arrow-Back-FileBrowse-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Arrow-ScrollDown-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Arrow-ScrollUp-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Calligra-MockIcon-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/ColorPalettes-1-04.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/ColorPalettes-Blue-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/ColorPalettes-Magenta-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/ColorPalettes-Red-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/ColorPalettes-gold-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Presentaton-Blue.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Presentaton-Gold.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Presentaton-Magenta.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/Presentaton-Red.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-AddComment-Inline-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Comment-DragHandle-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Exit-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-FXTransition-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-FillLabel-Green-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-FillLabel-Neutral-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-FillLabel-Red-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-FillLabel-Yellow-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Highlighter-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-Brightness-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-Contrast-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-Crop-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-ReplaceImage-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-SliderHandle-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-Sliders-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-Transparency-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-IMGTOOLS-Wand-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-AddNote-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-AddPhotoComment-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-AddShape-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-AddSlide-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-AddVoiceComment-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Animations-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Bold-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-BulletList-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Cloud-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-DesktopMode-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Fill.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Find-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Help-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Image.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-ImageAdjustment-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Italic-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Lines.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-MenuBack-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-MyDocuments-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-NewDocument-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-NewPresentation-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-NewSketch-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-NewSpreadsheet-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-NotesSummary-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-OK-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Options-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-OptionsWhite-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Pen.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-PlayPresentation-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-RecentDocuments-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Shadow.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-SmallX.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-SpellCheck-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-TextAlignment-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-TextBox-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-TextStyle-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Icon-Underline-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Label-Green-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Label-Red-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Label-SelectedRing-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Label-Yellow-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-LargeSelectedFill-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-NextSlide-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-NotesSummary-Counter-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Nudge-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-Pointer-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/SVG-PreviousSlide-1.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/add-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/add.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/apply-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/apply.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/back.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/camera-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/cancel-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/checker-small.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/close.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/color_wheel.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/colorpicker.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/combo-arrows-white.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/crop-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/crop.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/delete-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/delete.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/down.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/edit.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/erase.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fileclip-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fileclip.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filenew-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filenew.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fileopen-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fileopen.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filesave.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filesaveas.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fileshare.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fill-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/fill.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filter_delete-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filter_load-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/filter_save-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/forward.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/gradient-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/gradient.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/help.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/intel-Words-Handle-cursor.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/layer_filter-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/layer_group-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/layer_paint-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/locked_off-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/locked_off-small.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/locked_on-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/locked_on-small.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/minimize.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/mirror_c-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/mirror_h-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/mirror_v-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/move-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/move.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/paint-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/paint.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/palette-add-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/palette-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/palette-delete-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/palette.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/redo.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-add.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-apply.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-area.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-color.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-deselect.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-hide.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-intersect.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-polygon.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-rectangle.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-replace.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-reselect.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-show.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/select-sub.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/settings.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/switch.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/transform-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/transform.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/undo.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/up.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/visible_off-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/visible_off-small.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/visible_off.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/visible_on-black.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/visible_on-small.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/visible_on.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/icons/web.svg
+drwxr-xr-x	root/root	usr/share/calligragemini/themes/default/images/
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-A.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-Apple.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-ArrowTarget.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-B.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-C.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-D.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-F.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-Feather.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-Lightbulb.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-OK.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-Ribbon.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/Sticker-ThumbsUp.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/busyindicator.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/divider.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/drop-corners.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/drop-shadows.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/header_krita_sketch.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/header_krita_sketch_light.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/intel-Stage-Slide-PieChart-Default.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/intel-Stage-Slide-PieChart-PieceTappedOn.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/intel-Words-Note-Circle-Green.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/intel-Words-Note-Circle-Red.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/intel-Words-Note-Circle-Yellow.svg
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/images/shadow.png
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/sizes.js
+-rw-r--r--	root/root	usr/share/calligragemini/themes/default/theme.qml
 drwxr-xr-x	root/root	usr/share/calligrasheets/
 -rw-r--r--	root/root	usr/share/calligrasheets/CellToolOptionWidgets.xml
 drwxr-xr-x	root/root	usr/share/calligrasheets/dtd/
@@ -4931,115 +5146,79 @@ drwxr-xr-x	root/root	usr/share/color/icc/calligra/
 -rw-r--r--	root/root	usr/share/color/icc/calligra/sRGB-elle-V4-srgbtrc.icc
 -rw-r--r--	root/root	usr/share/color/icc/calligra/scRGB.icm
 drwxr-xr-x	root/root	usr/share/config.kcfg/
--rw-r--r--	root/root	usr/share/config.kcfg/calligraplansettings.kcfg
--rw-r--r--	root/root	usr/share/config.kcfg/calligraplanworksettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/calligrasheets.kcfg
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligraplan.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligrawords.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligraplan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligraplanwork.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligrawords.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.kplato.png
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.kplato.work.png
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.work.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligraplan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligraplanwork.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligrawords.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/mimetypes/application-x-vnd.kde.kplato.work.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/mimetypes/application-x-vnd.kde.plan.work.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligraplan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligraplanwork.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligrawords.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/mimetypes/application-x-vnd.kde.kplato.work.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/mimetypes/application-x-vnd.kde.plan.work.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligraplan.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligrawords.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligraplan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligraplanwork.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligrawords.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/mimetypes/application-x-vnd.kde.kplato.work.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/mimetypes/application-x-vnd.kde.plan.work.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligraplan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligraplanwork.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligrawords.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/mimetypes/application-x-vnd.kde.kplato.work.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/mimetypes/application-x-vnd.kde.plan.work.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligraplan.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligrawords.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligragemini.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligrakarbon.png
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligraplan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligraplanwork.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligrasheets.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligrastage.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligrawords.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.kplato.png
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.kplato.work.png
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.plan.png
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.plan.work.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligragemini.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligrakarbon.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligraplan.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligraplanwork.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligrasheets.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligrastage.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligrawords.svgz
-drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.kplato.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.kplato.work.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.work.svgz
 drwxr-xr-x	root/root	usr/share/karbon/
 drwxr-xr-x	root/root	usr/share/karbon/gradients/
 -rw-r--r--	root/root	usr/share/karbon/gradients/allcolors.kgr
@@ -5088,6 +5267,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/calligra/
 -rw-r--r--	root/root	usr/share/kservices5/okularOdt_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularPowerpoint_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularPptx_calligra.desktop
+-rw-r--r--	root/root	usr/share/kservices5/okularRtf_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularWpd_calligra.desktop
 -rw-r--r--	root/root	usr/share/kservices5/sheets_excel_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/sheets_ods_thumbnail.desktop
@@ -5104,13 +5284,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/calligra/
 -rw-r--r--	root/root	usr/share/kservices5/words_wpd_thumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/words_wps_thumbnail.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/calligraplan/
--rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/calligraplan.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/calligraplan_readonly.rc
-drwxr-xr-x	root/root	usr/share/kxmlgui5/calligraplanwork/
--rw-r--r--	root/root	usr/share/kxmlgui5/calligraplanwork/calligraplanwork.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/calligraplanwork/calligraplanwork_readonly.rc
--rw-r--r--	root/root	usr/share/kxmlgui5/calligraplanwork/calligraplanworkui.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/calligrasheets/
 -rw-r--r--	root/root	usr/share/kxmlgui5/calligrasheets/calligrasheets.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/calligrasheets/calligrasheets_readonly.rc
@@ -5124,7 +5297,7 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/karbon/
 -rw-r--r--	root/root	usr/share/kxmlgui5/karbon/karbon.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/karbon/karbon_readonly.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
--rw-r--r--	root/root	usr/share/metainfo/org.kde.calligraplan.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.calligragemini.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.calligrasheets.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.calligrawords.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.karbon.appdata.xml

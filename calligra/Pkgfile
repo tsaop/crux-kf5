@@ -4,19 +4,11 @@
 # Depends on: akonadi-contacts cauchy gsl kcalcore kcmutils kdiagram knotifyconfig kreport kross ktexteditor libetonyek libodfgen libvisio libwpg libwps okular openexr openjpeg pstoedit vc
 
 name=calligra
-version=3.0.1
-release=9
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
-	calligra-kcalcore-17.12.patch)
+version=3.1.0
+release=1
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-
-	# fix building with kcalcore 17.12
-	patch -Np1 -i $SRC/calligra-kcalcore-17.12.patch
-
-	cd -
-
 	mkdir build; cd build
 
 	cmake \
