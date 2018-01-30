@@ -1,11 +1,13 @@
 # Description: Color management framework for visual effects and animation
 # URL: http://opencolorio.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: git lcms2 tinyxml yaml-cpp 
+# Depends on: git lcms2 tinyxml yaml
+
+# TODO: Enable building with system yaml-cpp when version 0.6.0 is supported.
 
 name=opencolorio
 version=1.1.0
-release=1
+release=2
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version.tar.gz)
 
 build() {
@@ -23,7 +25,7 @@ build() {
 		-DOCIO_BUILD_STATIC=OFF \
 		-DOCIO_BUILD_TESTS=OFF \
 		-DUSE_EXTERNAL_TINYXML=ON \
-		-DUSE_EXTERNAL_YAML=ON \
+		-DUSE_EXTERNAL_YAML=OFF \
 		-DUSE_EXTERNAL_LCMS=ON \
 		..
 	make
