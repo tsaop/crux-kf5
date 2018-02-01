@@ -4,17 +4,12 @@
 # Depends on: qt5
 
 name=molequeue
-version=0.8.0
+version=0.9.0
 release=1
-source=(https://github.com/OpenChemistry/$name/archive/$version.tar.gz
-	gcc-version.diff)
+source=(https://github.com/OpenChemistry/$name/archive/$version.tar.gz)
 
 build() {
 	cd $name-$version
-
-	# fix GCC 6 detection
-	patch -Np1 -i $SRC/gcc-version.diff
-
 	mkdir build; cd build
 
 	cmake -DCMAKE_BUILD_TYPE=Release \
