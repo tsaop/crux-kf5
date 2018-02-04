@@ -1,0 +1,15 @@
+--- kinfocenter-5.11.5/Modules/about-distro/src/OSRelease.cpp.orig	2018-02-04 19:04:32.228200031 +0100
++++ kinfocenter-5.11.5/Modules/about-distro/src/OSRelease.cpp	2018-02-04 19:05:07.106203363 +0100
+@@ -64,9 +64,9 @@
+ OSRelease::OSRelease()
+ {
+     // Set default values for non-optional fields.
+-    name = QStringLiteral("Linux");
+-    id = QStringLiteral("linux");
+-    prettyName = QStringLiteral("Linux");
++    name = QStringLiteral("CRUX");
++    id = QStringLiteral("crux");
++    prettyName = QStringLiteral("CRUX");
+ 
+     QString fileName;
+ 
