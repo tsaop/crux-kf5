@@ -1,0 +1,20 @@
+# Description: GSettings Desktop Schemas
+# URL: https://github.com/GNOME/gsettings-desktop-schemas
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  glib intltool
+
+name=gsettings-desktop-schemas
+version=3.24.1
+release=1
+source=(https://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}
