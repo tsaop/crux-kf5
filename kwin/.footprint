@@ -33,20 +33,20 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kwin_rules_dialog
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kwin_rules_dialog.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kwin_x11.so
-lrwxrwxrwx	root/root	usr/lib/libkwin.so.5 -> libkwin.so.5.11.5
--rwxr-xr-x	root/root	usr/lib/libkwin.so.5.11.5
+lrwxrwxrwx	root/root	usr/lib/libkwin.so.5 -> libkwin.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkwin.so.5.12.0
 lrwxrwxrwx	root/root	usr/lib/libkwin4_effect_builtins.so -> libkwin4_effect_builtins.so.1
 lrwxrwxrwx	root/root	usr/lib/libkwin4_effect_builtins.so.1 -> libkwin4_effect_builtins.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libkwin4_effect_builtins.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libkwineffects.so -> libkwineffects.so.11
-lrwxrwxrwx	root/root	usr/lib/libkwineffects.so.11 -> libkwineffects.so.5.11.5
--rwxr-xr-x	root/root	usr/lib/libkwineffects.so.5.11.5
+lrwxrwxrwx	root/root	usr/lib/libkwineffects.so.11 -> libkwineffects.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkwineffects.so.5.12.0
 lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so -> libkwinglutils.so.11
-lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so.11 -> libkwinglutils.so.5.11.5
--rwxr-xr-x	root/root	usr/lib/libkwinglutils.so.5.11.5
+lrwxrwxrwx	root/root	usr/lib/libkwinglutils.so.11 -> libkwinglutils.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkwinglutils.so.5.12.0
 lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so -> libkwinxrenderutils.so.11
-lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so.11 -> libkwinxrenderutils.so.5.11.5
--rwxr-xr-x	root/root	usr/lib/libkwinxrenderutils.so.5.11.5
+lrwxrwxrwx	root/root	usr/lib/libkwinxrenderutils.so.11 -> libkwinxrenderutils.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkwinxrenderutils.so.5.12.0
 -rwxr-xr-x	root/root	usr/lib/org_kde_kwin_xclipboard_syncer
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -88,6 +88,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_presentwindows_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_resize_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_showfps_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_slide_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_thumbnailaside_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_trackmouse_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kwin/effects/configs/kwin_windowgeometry_config.so
@@ -101,6 +102,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kglobalaccel5.platforms/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.platforms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.platforms/KWinX11Platform.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.scenes/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.scenes/KWinSceneOpenGL.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.scenes/KWinSceneQPainter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.scenes/KWinSceneXRender.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kwin.waylandbackends/
@@ -134,9 +136,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kwin/private/kdecoration/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/kwin.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/kwin_colorcorrect.kcfg
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KWin.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kwin.ColorCorrect.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kwin.Compositing.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kwin.Effects.xml
 drwxr-xr-x	root/root	usr/share/icons/

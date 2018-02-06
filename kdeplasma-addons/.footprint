@@ -8,8 +8,7 @@ lrwxrwxrwx	root/root	usr/lib/libplasmacomicprovidercore.so.1 -> libplasmacomicpr
 lrwxrwxrwx	root/root	usr/lib/libplasmapotdprovidercore.so -> libplasmapotdprovidercore.so.1
 lrwxrwxrwx	root/root	usr/lib/libplasmapotdprovidercore.so.1 -> libplasmapotdprovidercore.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libplasmapotdprovidercore.so.1.0.0
-lrwxrwxrwx	root/root	usr/lib/libplasmaweather.so.1 -> libplasmaweather.so.2.0.0
--rwxr-xr-x	root/root	usr/lib/libplasmaweather.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libplasmaweatherprivate.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_krunner_dictionary.so
@@ -435,14 +434,19 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/config/config.qml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/CompactRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/DetailsView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/FiveDaysView.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/FullRepresentation.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/IconAndTextItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/Notice.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/NoticesView.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/TopPanel.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/WeatherListView.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/configUnits.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/configWeatherStation.qml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/ConfigAppearance.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/ConfigUnits.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/ConfigWeatherStation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/metadata.json
