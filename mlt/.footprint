@@ -59,12 +59,12 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.4.1
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.4.1
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.4.1
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.4.1
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.4.1
--rwxr-xr-x	root/root	usr/lib/libmlt.so.6.4.1
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.6.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.6.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.6.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.6.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.6.0
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.6.6.0
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -82,6 +82,7 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl2.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsox.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvmfx.so
@@ -476,6 +477,9 @@ drwxr-xr-x	root/root	usr/share/mlt/sdl/
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_preview.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_still.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/producer_sdl_image.yml
+drwxr-xr-x	root/root	usr/share/mlt/sdl2/
+-rw-r--r--	root/root	usr/share/mlt/sdl2/consumer_sdl2.yml
+-rw-r--r--	root/root	usr/share/mlt/sdl2/consumer_sdl2_audio.yml
 drwxr-xr-x	root/root	usr/share/mlt/sox/
 -rw-r--r--	root/root	usr/share/mlt/sox/filter_sox.yml
 -rw-r--r--	root/root	usr/share/mlt/sox/filter_sox_effect.yml

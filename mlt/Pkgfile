@@ -1,18 +1,21 @@
 # Description: Open source multimedia framework, designed and developed for television broadcasting
 # URL: http://www.mltframework.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libsamplerate libsdl2 sdl_image sox
+# Depends on: libdv libsamplerate libsdl2 opencv sdl_image sox
 
 name=mlt
-version=6.4.1
-release=4
-source=(http://sourceforge.net/projects/$name/files/$name/$name-$version.tar.gz)
+version=6.6.0
+release=1
+source=(https://github.com/mltframework/$name/archive/v${version}.tar.gz)
 
 build() {
 	cd $name-$version
 
 	# Disable PulseAudio
 	sed -i 's|-D__LINUX_PULSE__||' src/modules/rtaudio/Makefile 
+
+	# Fix qmake executable name for it to be found by configure
+	sed -i 's|qmake|qmake-qt5|' src/modules/qt/configure
 
 	./configure --prefix=/usr \
 	--sysconfdir=/usr/etc \
@@ -23,10 +26,6 @@ build() {
 	--disable-static \
 	--enable-shared
 
-	# Force usage of C++11, as required by qt5
-	sed -i 's|^CXXFLAGS.*|& -std=c++11|' config.mak
-
 	make
-
 	make DESTDIR=$PKG install
 }
