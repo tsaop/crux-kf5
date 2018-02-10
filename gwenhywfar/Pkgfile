@@ -1,0 +1,25 @@
+# Description: Multi-platform helper library for networking and security applications and libraries
+# URL: https://www.aquamaniac.de/sites/aqbanking/index.php
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: gnutls libgcrypt qt5
+
+name=gwenhywfar
+version=4.19.0
+release=1
+source=("https://www.aquamaniac.de/sites/download/download.php?package=01&release=207&file=01&dummy=$name-$version.tar.gz")
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+		--with-guis=qt5 \
+		--disable-static \
+		--with-qt5-qmake=/usr/bin/qmake-qt5 \
+		--with-qt5-moc=/usr/bin/moc-qt5 \
+		--with-qt5-uic=/usr/bin/uic-qt5
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+}
