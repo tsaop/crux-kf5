@@ -1,0 +1,18 @@
+# Description: A library to check bank account numbers and bank codes (BLZ) of German Banks
+# URL: https://sourceforge.net/projects/ktoblzcheck/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python
+
+name=ktoblzcheck
+version=1.49
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
