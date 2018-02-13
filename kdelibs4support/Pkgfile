@@ -4,7 +4,7 @@
 # Depends on: kded kdesignerplugin kemoticons kitemmodels kunitconversion networkmanager
 
 name=kdelibs4support
-version=5.42.0
+version=5.43.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 

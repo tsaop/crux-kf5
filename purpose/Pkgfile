@@ -4,12 +4,13 @@
 # Depends on: kaccounts-providers
 
 name=purpose
-version=1.2.1
+version=5.43.0
 release=1
-source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
@@ -19,7 +20,8 @@ build() {
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
