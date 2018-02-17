@@ -1,0 +1,22 @@
+# Description: KF5-based music player
+# URL: https://babe.kde.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: desktop-file-utils gtk ki18n knotifications qtwebengine taglib
+
+name=babe
+version=1.2.1
+release=1
+source=(https://download.kde.org/stable/$name/$version/src/$name-$version-1.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_TESTING=OFF \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
