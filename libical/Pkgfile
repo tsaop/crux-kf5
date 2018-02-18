@@ -1,10 +1,10 @@
 # Description: Open-source implementation of the iCalendar protocol
 # URL: https://github.com/libical/libical
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake glib perl
+# Depends on: cmake glib libxml2 perl
 
 name=libical
-version=3.0.1
+version=3.0.2
 release=1
 source=(https://github.com/$name/$name/releases/download/v$version/$name-$version.tar.gz)
 
