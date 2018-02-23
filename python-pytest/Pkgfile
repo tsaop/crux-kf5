@@ -1,12 +1,12 @@
 # Description: The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries
 # URL: https://docs.pytest.org/en/latest/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: python-attrs python-funcsigs python-pluggy
+# Depends on:  python-attrs python-funcsigs python-pluggy
 
 name=python-pytest
-version=3.4.0
+version=3.4.1
 release=1
-source=(https://pypi.python.org/packages/a8/84/25b93a15997be680fc8ce1a7b9315b03650ced546908e5008c0912b1c2e1/${name/python-/}-$version.tar.gz)
+source=(https://pypi.python.org/packages/84/11/a6fe751118861b4d6587e07633f2e055733fc3678f7e5d7ae30303d90b7e/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
