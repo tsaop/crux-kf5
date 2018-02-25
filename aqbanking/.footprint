@@ -221,9 +221,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/aqbanking-5.7/
 -rw-r--r--	root/root	usr/lib/cmake/aqbanking-5.7/aqbanking-config-version.cmake
 -rw-r--r--	root/root	usr/lib/cmake/aqbanking-5.7/aqbanking-config.cmake
 -rwxr-xr-x	root/root	usr/lib/libaqbanking.la
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.35.6.7
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.35 -> libaqbanking.so.35.6.7
--rwxr-xr-x	root/root	usr/lib/libaqbanking.so.35.6.7
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.35.6.8
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.35 -> libaqbanking.so.35.6.8
+-rwxr-xr-x	root/root	usr/lib/libaqbanking.so.35.6.8
 -rwxr-xr-x	root/root	usr/lib/libaqbankingpp.la
 lrwxrwxrwx	root/root	usr/lib/libaqbankingpp.so -> libaqbankingpp.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libaqbankingpp.so.0 -> libaqbankingpp.so.0.0.0
@@ -237,9 +237,9 @@ lrwxrwxrwx	root/root	usr/lib/libaqhbci.so -> libaqhbci.so.24.0.1
 lrwxrwxrwx	root/root	usr/lib/libaqhbci.so.24 -> libaqhbci.so.24.0.1
 -rwxr-xr-x	root/root	usr/lib/libaqhbci.so.24.0.1
 -rwxr-xr-x	root/root	usr/lib/libaqnone.la
-lrwxrwxrwx	root/root	usr/lib/libaqnone.so -> libaqnone.so.35.6.7
-lrwxrwxrwx	root/root	usr/lib/libaqnone.so.35 -> libaqnone.so.35.6.7
--rwxr-xr-x	root/root	usr/lib/libaqnone.so.35.6.7
+lrwxrwxrwx	root/root	usr/lib/libaqnone.so -> libaqnone.so.35.6.8
+lrwxrwxrwx	root/root	usr/lib/libaqnone.so.35 -> libaqnone.so.35.6.8
+-rwxr-xr-x	root/root	usr/lib/libaqnone.so.35.6.8
 -rwxr-xr-x	root/root	usr/lib/libaqofxconnect.la
 lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so -> libaqofxconnect.so.7.0.2
 lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so.7 -> libaqofxconnect.so.7.0.2
@@ -419,22 +419,3 @@ drwxr-xr-x	root/root	usr/share/aqbanking/typemaker2/c/
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_queue.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_userqueue.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_userqueue_list.tm2
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/aqbanking/
--rw-r--r--	root/root	usr/share/doc/aqbanking/AUTHORS
--rw-r--r--	root/root	usr/share/doc/aqbanking/COPYING
--rw-r--r--	root/root	usr/share/doc/aqbanking/ChangeLog
--rw-r--r--	root/root	usr/share/doc/aqbanking/README
-drwxr-xr-x	root/root	usr/share/doc/aqebics/
-drwxr-xr-x	root/root	usr/share/doc/aqebics/aqebics-tool/
--rw-r--r--	root/root	usr/share/doc/aqebics/aqebics-tool/README
-drwxr-xr-x	root/root	usr/share/doc/aqhbci/
-drwxr-xr-x	root/root	usr/share/doc/aqhbci/aqhbci-tool/
--rw-r--r--	root/root	usr/share/doc/aqhbci/aqhbci-tool/README
-drwxr-xr-x	root/root	usr/share/doc/aqpaypal/
-drwxr-xr-x	root/root	usr/share/doc/aqpaypal/aqpaypal-tool/
--rw-r--r--	root/root	usr/share/doc/aqpaypal/aqpaypal-tool/README
-drwxr-xr-x	root/root	usr/share/locale/
-drwxr-xr-x	root/root	usr/share/locale/de/
-drwxr-xr-x	root/root	usr/share/locale/de/LC_MESSAGES/
--rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/aqbanking.mo
