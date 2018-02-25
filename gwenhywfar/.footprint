@@ -136,42 +136,42 @@ drwxr-xr-x	root/root	usr/include/gwenhywfar4/gwenhywfar/
 -rw-r--r--	root/root	usr/include/gwenhywfar4/gwenhywfar/xsdnode.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/gwengui-cpp-4.19/
--rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-4.19/gwengui-cpp-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-4.19/gwengui-cpp-config.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/gwengui-qt5-4.19/
--rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-4.19/gwengui-qt5-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-4.19/gwengui-qt5-config.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/gwenhywfar-4.19/
--rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-4.19/gwenhywfar-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-4.19/gwenhywfar-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwengui-cpp-4.20/
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-4.20/gwengui-cpp-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-4.20/gwengui-cpp-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwengui-qt5-4.20/
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-4.20/gwengui-qt5-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-4.20/gwengui-qt5-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwenhywfar-4.20/
+-rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-4.20/gwenhywfar-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-4.20/gwenhywfar-config.cmake
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/
-drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/
-drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/configmgr/
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/configmgr/dir.la
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/configmgr/dir.so
--rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/59/configmgr/dir.xml
-drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/ct/
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/ct/ohbci.la
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/ct/ohbci.so
--rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/59/ct/ohbci.xml
-drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/csv.la
-lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/59/dbio/csv.so -> csv.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/59/dbio/csv.so.0 -> csv.so.0.0.1
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/csv.so.0.0.1
--rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/59/dbio/csv.xml
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/olddb.la
-lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/59/dbio/olddb.so -> olddb.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/59/dbio/olddb.so.0 -> olddb.so.0.0.1
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/olddb.so.0.0.1
--rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/59/dbio/olddb.xml
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/xmldb.la
-lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/59/dbio/xmldb.so -> xmldb.so.0.0.1
-lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/59/dbio/xmldb.so.0 -> xmldb.so.0.0.1
--rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/59/dbio/xmldb.so.0.0.1
--rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/59/dbio/xmldb.xml
+drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/
+drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/configmgr/
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/configmgr/dir.la
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/configmgr/dir.so
+-rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/configmgr/dir.xml
+drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/ct/
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/ct/ohbci.la
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/ct/ohbci.so
+-rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/ct/ohbci.xml
+drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/csv.la
+lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/csv.so -> csv.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/csv.so.0 -> csv.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/csv.so.0.0.1
+-rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/dbio/csv.xml
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/olddb.la
+lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/olddb.so -> olddb.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/olddb.so.0 -> olddb.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/olddb.so.0.0.1
+-rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/dbio/olddb.xml
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.la
+lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.so -> xmldb.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.so.0 -> xmldb.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.so.0.0.1
+-rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.xml
 -rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.la
 lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so -> libgwengui-cpp.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so.0 -> libgwengui-cpp.so.0.0.0
@@ -181,9 +181,9 @@ lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so -> libgwengui-qt5.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so.0 -> libgwengui-qt5.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgwenhywfar.la
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.59.19.0
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.59 -> libgwenhywfar.so.59.19.0
--rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.59.19.0
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.60.19.1
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.60 -> libgwenhywfar.so.60.19.1
+-rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.60.19.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwengui-qt5.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwenhywfar.pc
