@@ -1,11 +1,11 @@
 # Description: Breakout-like game for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cdrdao kcmutils kfilemetadata kjobwidgest knewstuff knotifyconfig lame libdvdread libkcddb libmad libsamplerate qtwebkit
+# Depends on: cdrdao kcmutils kfilemetadata knewstuff knotifyconfig lame libdvdread libkcddb libmad libsamplerate qtwebkit
 
 name=k3b
 version=17.12.2
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {

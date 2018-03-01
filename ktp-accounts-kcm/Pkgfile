@@ -1,11 +1,11 @@
 # Description: KCM Module for configuring Telepathy Instant Messaging Accounts
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kaccounts-integration kconfigwigdets telepathy-qt
+# Depends on: kaccounts-integration telepathy-qt
 
 name=ktp-accounts-kcm
 version=17.12.2
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {

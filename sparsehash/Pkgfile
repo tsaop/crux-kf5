@@ -1,11 +1,11 @@
 # Description: C++ associative containers
 # URL: https://github.com/sparsehash/sparsehash
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: # Depends on:  
+# Depends on:  glibc
 
 name=sparsehash
 version=2.0.3
-release=1
+release=2
 source=(https://github.com/$name/$name/archive/$name-$version.tar.gz)
 
 build() {

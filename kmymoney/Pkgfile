@@ -1,11 +1,11 @@
 # Description: Personal Finance Manager for the KDE desktop
 # URL: https://kmymoney.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: alkimia aqbanking identitymanagement kaddressbook kdiagram kholidays kross
+# Depends on: alkimia aqbanking kaddressbook kdiagram kholidays kross
 
 name=kmymoney
 version=5.0.0
-release=3
+release=4
 source=(https://download.kde.org/stable/$name/$version/src/$name-$version.tar.xz)
 
 build() {
