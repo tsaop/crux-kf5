@@ -1,10 +1,10 @@
 # Description: Data model, library, and file format for storing and managing data
 # URL: https://support.hdfgroup.org/HDF5/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: glibc  
+# Depends on:  glibc
 
 name=cfitsio
-version=3420
+version=3430
 release=1
 source=(https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/${name}${version}.tar.gz)
 
