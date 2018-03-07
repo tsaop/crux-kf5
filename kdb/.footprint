@@ -132,9 +132,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/KDb3/
 -rw-r--r--	root/root	usr/lib/cmake/KDb3/KDbQCHTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KDb3/KDbTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KDb3/KDbTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKDb3.so -> libKDb3.so.3
-lrwxrwxrwx	root/root	usr/lib/libKDb3.so.3 -> libKDb3.so.3.0
--rwxr-xr-x	root/root	usr/lib/libKDb3.so.3.0
+lrwxrwxrwx	root/root	usr/lib/libKDb3.so -> libKDb3.so.4
+lrwxrwxrwx	root/root	usr/lib/libKDb3.so.4 -> libKDb3.so.4.1.0
+-rwxr-xr-x	root/root	usr/lib/libKDb3.so.4.1.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/KDb3.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
