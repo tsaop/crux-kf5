@@ -1,10 +1,10 @@
 # Description: KDE sound mixer
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kdelibs4support libcanberra plasma-framework
+# Depends on: kdelibs4support libcanberra plasma-framework
 
 name=kmix
-version=17.12.2
+version=17.12.3
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

@@ -1,10 +1,10 @@
 # Description: KDE Download Manager
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kcmutils kdelibs4support knotifyconfig libktorrent sqlite3
+# Depends on: gtk kcmutils kdelibs4support knotifyconfig libktorrent
 
 name=kget
-version=17.12.2
+version=17.12.3
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
