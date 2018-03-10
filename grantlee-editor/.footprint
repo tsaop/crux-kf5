@@ -1,0 +1,20 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/contactprintthemeeditor
+-rwxr-xr-x	root/root	usr/bin/contactthemeeditor
+-rwxr-xr-x	root/root	usr/bin/headerthemeeditor
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/grantleeditor.categories
+-rw-r--r--	root/root	usr/etc/xdg/grantleeditor.renamecategories
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libgrantleethemeeditor.so -> libgrantleethemeeditor.so.5
+lrwxrwxrwx	root/root	usr/lib/libgrantleethemeeditor.so.5 -> libgrantleethemeeditor.so.5.7.3
+-rwxr-xr-x	root/root	usr/lib/libgrantleethemeeditor.so.5.7.3
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.contactprintthemeeditor.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.contactthemeeditor.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.headerthemeeditor.desktop
+drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/grantleethemeeditor.kcfg
