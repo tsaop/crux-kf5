@@ -107,6 +107,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/akregator.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/amarok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ark.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/artikulate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/baloo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/braindump.png
@@ -737,6 +738,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/folder-download.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/folder-grey.png
@@ -1089,6 +1091,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-map.png -> d
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-rename.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-select-all.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-select-none.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-select.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-table-cell-merge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/edit-table-cell-split.png
@@ -1371,6 +1374,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/lighttableadd.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-playback-pause.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-playback-start.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-playback-stop.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/media-playlist-repeat-amarok.png -> media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-record.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-seek-backward.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/media-seek-forward.png
@@ -1474,6 +1480,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/preferences-media
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/quickopen.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/quickview.png -> layer-visible-on.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/rating-unrated.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/rating.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/ratiocrop.png -> transform-crop.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/refactor.png -> view-refresh.png
@@ -1512,6 +1519,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/show-dialogs.png 
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/show-grid.png -> view-grid.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/show-menu.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/show-offline.png -> meeting-attending-tentative.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/shuffle.png -> media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/skg-chart-bubble.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/skrooge_credit_card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/skrooge_less.png
@@ -1565,7 +1573,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-folder.png ->
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-people.png -> edit-image-face-show.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-places.png -> ../places/folder-html.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-properties.png -> configure.png
-lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-recents.png -> appointment-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-recents.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/tag-reset.png -> edit-undo.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/tag.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/text-convert-to-regular.png -> draw-text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/text-field.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/text-frame-link.png
@@ -1725,6 +1735,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/window-close.png 
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/window-next.png -> go-next-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/window-previous.png -> go-previous-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-clementine-artist.png -> im-user.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-clementine-shuffle.png -> media-playlist-shuffle.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-shape-image.png -> view-preview.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/x-shape-text.png -> view-list-text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/xml-node-duplicate.png -> edit-copy.png
@@ -1764,6 +1775,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/akregator.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/amarok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/ark.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/artikulate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/braindump.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/calligraauthor.png
@@ -1970,10 +1982,15 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/devices/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/drive-removable-media-usb-pendrive.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/drive-removable-media-usb.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/drive-removable-media.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/hands-free.png -> smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/handset.png -> smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/headphone.png -> audio-headphones.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/headset.png -> audio-headset.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/input-gaming.png -> ../apps/preferences-desktop-gaming.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/input-keyboard.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/input-mouse.png -> ../apps/preferences-desktop-mouse.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/input-tablet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/internal.png -> audio-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/media-flash-memory-stick.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/media-flash-sd-mmc.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/media-flash-smart-media.png
@@ -1988,6 +2005,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/input-mouse.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/media-optical-video.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/media-optical.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/media-tape.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/microphone.png -> audio-input-microphone.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/modem.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/multimedia-player-apple-ipod.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/multimedia-player.png
@@ -1996,14 +2014,18 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/input-mouse.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/pda.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/phone-openmoko-freerunner.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/phone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/portable.png -> ../apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/printer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/scanner.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/secure-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/speaker.png -> ../actions/speaker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/tablet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/tv.png -> video-television.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/video-display.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/video-projector.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/devices/video-television.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/devices/webcam.png -> camera-web.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/emblems/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/emblems/emblem-added.png -> ../actions/list-add.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/emblem-encrypted-locked.png
@@ -2026,6 +2048,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/emblems/emblem-remove.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/image-has-versions.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/image-stack-open.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/image-stack.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/emblems/media-mount.png -> emblem-mounted.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/vcs-added.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/vcs-conflicting.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/emblems/vcs-locally-modified-unstaged.png
@@ -2427,6 +2450,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/folder-download.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/folder-grey.png
@@ -2580,6 +2604,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/weather-overcast.p
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-snow-scattered-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-snow-scattered.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-snow.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/weather-storm-day.png -> weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/weather-storm-night.png -> weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/window-suppressed.png
@@ -2826,6 +2851,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-map.png -> d
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-rename.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-select-all.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-select-none.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-select.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-table-cell-merge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/edit-table-cell-split.png
@@ -3123,6 +3149,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/mail-signed-fully
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-playback-pause.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-playback-start.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-playback-stop.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/media-playlist-repeat-amarok.png -> media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-record.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-seek-backward.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/media-seek-forward.png
@@ -3235,6 +3264,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/preferences-media
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/quickopen.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/quickview.png -> layer-visible-on.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/rating-unrated.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/rating.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/ratiocrop.png -> transform-crop.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/refactor.png -> view-refresh.png
@@ -3264,6 +3294,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/settings-configur
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/shallow-history.png -> appointment-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/shear.png -> transform-shear-left.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/show-menu.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/shuffle.png -> media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/skg-chart-bubble.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/skrooge_credit_card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/skrooge_less.png
@@ -3321,6 +3352,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-folder.png ->
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-people.png -> edit-image-face-show.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-places.png -> ../places/folder-html.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-properties.png -> configure.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-recents.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/tag-reset.png -> edit-undo.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/tag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/text-field.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/text-frame-link.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/text-frame-unlink.png
@@ -3484,6 +3518,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/window-close.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/window-next.png -> go-next-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/window-previous.png -> go-previous-view-page.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/x-clementine-shuffle.png -> media-playlist-shuffle.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/x-shape-image.png -> view-preview.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/x-shape-text.png -> view-list-text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/zoom-1-to-2.png
@@ -3521,6 +3556,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/akregator.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/amarok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/ark.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/artikulate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/calligraflow.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/calligrakexi.png
@@ -3727,10 +3763,16 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/devices/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/drive-removable-media-usb-pendrive.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/drive-removable-media-usb.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/drive-removable-media.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/hands-free.png -> smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/handset.png -> smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/headphone.png -> audio-headphones.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/headset.png -> audio-headset.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/hifi.png -> ../../22x22/actions/mixer-lfe.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/input-gaming.png -> ../apps/preferences-desktop-gaming.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/input-keyboard.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/input-mouse.png -> ../apps/preferences-desktop-mouse.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/input-tablet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/internal.png -> audio-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/media-flash-memory-stick.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/media-flash-sd-mmc.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/media-flash-smart-media.png
@@ -3745,28 +3787,41 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/input-mouse.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/media-optical-video.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/media-optical.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/media-tape.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/microphone.png -> audio-input-microphone.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/modem.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/multimedia-player-apple-ipod.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/multimedia-player.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-offline.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wired-disconnected.png -> network-offline.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wired.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-acquiring.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-connected-00.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-connected-100.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-connected-25.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-connected-50.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-connected-75.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-disconnected.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-signal-excellent.png -> network-wireless-connected-100.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-signal-good.png -> network-wireless-connected-75.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-signal-none.png -> network-wireless-connected-00.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-signal-ok.png -> network-wireless-connected-50.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless-signal-weak.png -> network-wireless-connected-25.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/network-wireless.png -> network-wireless-connected-100.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/pda.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/phone-openmoko-freerunner.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/phone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/portable.png -> ../apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/printer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/scanner.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/secure-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/speaker.png -> ../../22x22/actions/speaker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/tablet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/tv.png -> video-television.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/video-display.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/video-projector.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/devices/video-television.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/devices/webcam.png -> camera-web.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/emblems/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/emblems/emblem-added.png -> ../actions/list-add.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/emblem-encrypted-locked.png
@@ -3784,6 +3839,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/emblems/emblem-remove.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/image-has-versions.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/image-stack-open.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/image-stack.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/emblems/media-mount.png -> emblem-mounted.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/vcs-added.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/vcs-conflicting.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/emblems/vcs-locally-modified-unstaged.png
@@ -4224,6 +4280,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/folder-download.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/folder-grey.png
@@ -4379,6 +4436,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/weather-overcast.p
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-snow-scattered-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-snow-scattered.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-snow.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/weather-storm-day.png -> weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/weather-storm-night.png -> weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/window-suppressed.png
@@ -4439,6 +4497,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/accessories-dictionary.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/akonadi.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/akregator.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/artikulate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/clock.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/hotspot.png
@@ -4898,6 +4957,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/places/folder-download.
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/folder-grey.png
@@ -5137,6 +5197,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-rename.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-select-all.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-select-none.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-select.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-table-cell-merge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/edit-table-cell-split.png
@@ -5323,6 +5384,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/lighttable.png ->
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playback-pause.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playback-start.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playback-stop.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playlist-repeat-amarok.png -> media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-record.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-seek-backward.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/media-seek-forward.png
@@ -5377,6 +5441,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/lighttable.png ->
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/quickopen.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/quickview.png -> layer-visible-on.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/rating-unrated.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/rating.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/resource-calendar-child-insert.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/resource-calendar-child.png
@@ -5395,6 +5460,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/quickview.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/services.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/shapes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/show-menu.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/shuffle.png -> media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/skg-chart-bubble.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/skrooge_credit_card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/skrooge_less.png
@@ -5599,6 +5665,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-close.png 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-next.png -> go-next-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/window-previous.png -> go-previous-view-page.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/x-clementine-shuffle.png -> media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-1-to-2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-2-to-1.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/zoom-draw.png
@@ -5628,6 +5695,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/apps/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/amarok_change_language.png -> preferences-desktop-locale.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/application-sxw.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ark.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/artikulate.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/baloo.png -> nepomuk.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/braindump.png
@@ -5837,10 +5905,15 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/devices/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/drive-removable-media-usb-pendrive.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/drive-removable-media-usb.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/drive-removable-media.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/hands-free.png -> smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/handset.png -> smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/headphone.png -> audio-headphones.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/headset.png -> audio-headset.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/input-gaming.png -> ../apps/preferences-desktop-gaming.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/input-keyboard.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/input-mouse.png -> ../apps/preferences-desktop-mouse.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/input-tablet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/internal.png -> audio-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/media-flash-memory-stick.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/media-flash-sd-mmc.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/media-flash-smart-media.png
@@ -5856,29 +5929,42 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/input-mouse.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/media-optical-video.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/media-optical.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/media-tape.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/microphone.png -> audio-input-microphone.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/modem.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/multimedia-player-apple-ipod.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/multimedia-player.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-offline.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wired-disconnected.png -> network-offline.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wired.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-acquiring.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-connected-00.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-connected-100.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-connected-25.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-connected-50.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-connected-75.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-disconnected.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-signal-excellent.png -> network-wireless-connected-100.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-signal-good.png -> network-wireless-connected-75.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-signal-none.png -> network-wireless-connected-00.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-signal-ok.png -> network-wireless-connected-50.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless-signal-weak.png -> network-wireless-connected-25.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/network-wireless.png -> network-wireless-connected-100.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/pda.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/phone-openmoko-freerunner.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/phone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/portable.png -> ../apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/printer-laser.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/printer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/scanner.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/secure-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/smartphone.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/speaker.png -> ../actions/speaker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/tablet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/tv.png -> video-television.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/video-display.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/video-projector.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/devices/video-television.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/devices/webcam.png -> camera-web.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/emblems/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/emblems/emblem-encrypted-locked.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/emblems/emblem-encrypted-unlocked.png
@@ -6295,6 +6381,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/folder-download.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/folder-grey.png
@@ -6439,6 +6526,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-overcast.p
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-snow-scattered-night.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-snow-scattered.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-snow.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-storm-day.png -> weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/weather-storm-night.png -> weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/weather-storm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/window-suppressed.png
@@ -6597,6 +6685,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-download.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-rename.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-select-all.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-select-none.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-select.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-table-cell-merge.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/edit-table-cell-split.png
@@ -6781,6 +6870,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/lighttable.png ->
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playback-pause.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playback-start.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playback-stop.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playlist-repeat-amarok.png -> media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playlist-repeat.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-record.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-seek-backward.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/media-seek-forward.png
@@ -6829,6 +6921,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/lighttable.png ->
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/quickopen-function.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/quickopen.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/quickview.png -> layer-visible-on.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/rating-unrated.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/rating.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/resource-calendar-child-insert.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/resource-calendar-child.png
@@ -6846,6 +6939,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/quickview.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/select-rectangular.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/services.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/show-menu.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/shuffle.png -> media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/skg-chart-bubble.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/skrooge_credit_card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/skrooge_less.png
@@ -7035,6 +7129,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-close.png 
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-next.png -> go-next-view-page.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/window-previous.png -> go-previous-view-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/window-suppressed.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/x-clementine-shuffle.png -> media-playlist-shuffle.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-1-to-2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-2-to-1.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/zoom-draw.png
@@ -7062,6 +7157,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/akregator.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/amarok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/ark.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/artikulate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/braindump.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/calligraauthor.png
@@ -7324,6 +7420,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/emblems/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/emblems/emblem-mounted.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/emblems/emblem-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/emblems/emblem-symbolic-link.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/emblems/media-mount.png -> emblem-mounted.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/emotes/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/emotes/face-angel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/emotes/face-embarrassed.png
@@ -7389,7 +7486,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.stardivision.mail.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.stardivision.math.png -> application-vnd.oasis.opendocument.formula.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.sun.xml.calc.png -> application-vnd.oasis.opendocument.spreadsheet.png
-lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.sun.xml.calc.template.png -> application-vnd.oasis.opendocument.spreadsheet.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.sun.xml.calc.template.png -> application-vnd.oasis.opendocument.spreadsheet-template.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.sun.xml.draw.png -> application-vnd.oasis.opendocument.image.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.sun.xml.draw.template.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.sun.xml.impress.png -> application-vnd.oasis.opendocument.presentation.png
@@ -7712,6 +7809,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/folder-download.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/folder-grey.png
@@ -7948,6 +8046,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/akregator.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/amarok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ark.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/artikulate.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/basket.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/braindump.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/calligraauthor.png
@@ -8574,6 +8673,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/folder-download.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/folder-downloads.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/folder-dropbox.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/folder-favorites.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/folder-games.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/folder-gdrive.png -> folder-network.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/folder-green.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/folder-grey.png
