@@ -1,11 +1,11 @@
 # Description: Digital painting application
 # URL: https://www.krita.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: eigen exiv2 gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 vc xorg-xinput
+# Depends on: eigen exiv2 giflib gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 vc xorg-xinput
 
 name=krita
-version=3.3.3
-release=3
+version=4.0.0
+release=1
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
 
 build() {
@@ -23,7 +23,7 @@ build() {
 	-DCMAKE_CXX_FLAGS="-DKDE_NO_DEBUG_OUTPUT" \
 	-Wno-dev \
 	../$name-$version
-
+	
 	make
 	make DESTDIR=$PKG install
 
