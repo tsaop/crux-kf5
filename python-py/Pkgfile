@@ -1,12 +1,12 @@
 # Description: Python library with cross-python path, ini-parsing, io, code, log facilities
 # URL: https://pypi.python.org/pypi/py/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: python-setuptools  
+# Depends on:  python-setuptools
 
 name=python-py
-version=1.5.2
+version=1.5.3
 release=1
-source=(https://pypi.python.org/packages/90/e3/e075127d39d35f09a500ebb4a90afd10f9ef0a1d28a6d09abeec0e444fdd/${name/python-/}-$version.tar.gz)
+source=(https://pypi.python.org/packages/f7/84/b4c6e84672c4ceb94f727f3da8344037b62cee960d80e999b1cd9b832d83/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
