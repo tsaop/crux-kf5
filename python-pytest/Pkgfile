@@ -4,9 +4,9 @@
 # Depends on:  python-attrs python-funcsigs python-pluggy
 
 name=python-pytest
-version=3.4.2
+version=3.5.0
 release=1
-source=(https://pypi.python.org/packages/dd/05/4579d3028ba1740467690c3427d3991eff91f95cbaa6bb0280f40708721a/${name/python-/}-$version.tar.gz)
+source=(https://pypi.python.org/packages/2d/56/6019153cdd743300c5688ab3b07702355283e53c83fbf922242c053ffb7b/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
