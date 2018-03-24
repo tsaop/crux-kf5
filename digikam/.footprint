@@ -5,14 +5,14 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/digitaglinktree
 -rwxr-xr-x	root/root	usr/bin/showfoto
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libKF5kipiplugins.so -> libKF5kipiplugins.so.5.7.0
--rwxr-xr-x	root/root	usr/lib/libKF5kipiplugins.so.5.7.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.5.7.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.5.7.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.5.7.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.5.7.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.5.7.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.5.7.0
+lrwxrwxrwx	root/root	usr/lib/libKF5kipiplugins.so -> libKF5kipiplugins.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKF5kipiplugins.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.5.9.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kipiplugin_dropbox.so
@@ -111,6 +111,8 @@ drwxr-xr-x	root/root	usr/share/digikam/data/lut3d/
 -rw-r--r--	root/root	usr/share/digikam/data/lut3d/instant.png
 -rw-r--r--	root/root	usr/share/digikam/data/lut3d/original.png
 -rw-r--r--	root/root	usr/share/digikam/data/lut3d/punch.png
+-rw-r--r--	root/root	usr/share/digikam/data/lut3d/summer.png
+-rw-r--r--	root/root	usr/share/digikam/data/lut3d/tokyo.png
 -rw-r--r--	root/root	usr/share/digikam/data/lut3d/vintage.png
 -rw-r--r--	root/root	usr/share/digikam/data/lut3d/washout.png
 -rw-r--r--	root/root	usr/share/digikam/data/lut3d/washout_color.png
@@ -396,7 +398,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kipi-piwigo.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kipi-rajce.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kipi-smugmug.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kipi-zooomr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
@@ -413,7 +414,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kipi-imgur.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kipi-piwigo.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kipi-smugmug.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kipi-zooomr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
@@ -459,7 +459,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kipi-piwigo.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kipi-rajce.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kipi-smugmug.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kipi-zooomr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
@@ -478,7 +477,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kipi-piwigo.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kipi-rajce.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kipi-smugmug.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kipi-zooomr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
@@ -502,7 +500,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kipi-imgur.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kipi-piwigo.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kipi-smugmug.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kipi-zooomr.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/panorama.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/showfoto.svgz
 drwxr-xr-x	root/root	usr/share/kipiplugin_flashexport/
