@@ -1,0 +1,24 @@
+# Description: Active Window Control applet for the Plasma Desktop
+# URL: https://cgit.kde.org/plasma-active-window-control.git/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: git plasma-framework
+
+name=plasma-active-window-control
+version=9999
+release=1
+source=()
+
+build() {
+	git clone --depth=1 git://anongit.kde.org/$name.git
+	
+	cd $name
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_TESTING=OFF \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
