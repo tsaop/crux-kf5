@@ -1,10 +1,10 @@
 # Description: TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs.
 # URL: http://www.grinninglizard.com/tinyxml2/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake  
+# Depends on:  cmake
 
 name=tinyxml2
-version=6.0.0
+version=6.2.0
 release=1
 source=(https://github.com/leethomason/$name/archive/$version.tar.gz)
 
