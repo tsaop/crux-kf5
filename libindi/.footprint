@@ -7,15 +7,16 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_dsc_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_eval
 -rwxr-xr-x	root/root	usr/bin/indi_flipflat
--rwxr-xr-x	root/root	usr/bin/indi_focusmaster_focus
 -rwxr-xr-x	root/root	usr/bin/indi_gemini_focus
 -rwxr-xr-x	root/root	usr/bin/indi_getprop
 -rwxr-xr-x	root/root	usr/bin/indi_gpusb
+-rwxr-xr-x	root/root	usr/bin/indi_hid_test
 -rwxr-xr-x	root/root	usr/bin/indi_hitecastrodc_focus
 -rwxr-xr-x	root/root	usr/bin/indi_ieq_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_imager_agent
 -rwxr-xr-x	root/root	usr/bin/indi_integra_focus
 lrwxrwxrwx	root/root	usr/bin/indi_ioptronHC8406 -> indi_lx200generic
+-rwxr-xr-x	root/root	usr/bin/indi_ioptronv3_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_joystick
 -rwxr-xr-x	root/root	usr/bin/indi_lakeside_focus
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_10micron -> indi_lx200generic
@@ -23,6 +24,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200_16 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_OnStep -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200ap -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200ap_experimental -> indi_lx200generic
+lrwxrwxrwx	root/root	usr/bin/indi_lx200ap_gtocp2 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200autostar -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_lx200basic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200classic -> indi_lx200generic
@@ -45,6 +47,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_optec_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_paramount_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_perfectstar_focus
+-rwxr-xr-x	root/root	usr/bin/indi_pmc8_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_pyxis_rotator
 -rwxr-xr-x	root/root	usr/bin/indi_quantum_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_robo_focus
@@ -64,6 +67,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_skycommander_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_skysafari
 -rwxr-xr-x	root/root	usr/bin/indi_skywatcherAltAzMount
+-rwxr-xr-x	root/root	usr/bin/indi_skywatcherAltAzSimple
 -rwxr-xr-x	root/root	usr/bin/indi_smartfocus_focus
 -rwxr-xr-x	root/root	usr/bin/indi_snapcap
 -rwxr-xr-x	root/root	usr/bin/indi_sqm_weather
@@ -72,7 +76,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_synscan_telescope
 lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_tcfs_focus
--rwxr-xr-x	root/root	usr/bin/indi_temma
+-rwxr-xr-x	root/root	usr/bin/indi_temma_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_trutech_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_usbdewpoint
 -rwxr-xr-x	root/root	usr/bin/indi_usbfocusv3_focus
@@ -161,22 +165,20 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.6.2
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.6.2
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.0
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.0
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.6.2
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.6.2
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.0
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-flipflat.rules
--rw-r--r--	root/root	usr/lib/udev/rules.d/99-focusmaster.rules
+-rw-r--r--	root/root	usr/lib/udev/rules.d/99-focusers.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-gpusb.rules
--rw-r--r--	root/root	usr/lib/udev/rules.d/99-hitecastrodcfocuser.rules
--rw-r--r--	root/root	usr/lib/udev/rules.d/99-perfectstar.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-vantage.rules
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/indi/
