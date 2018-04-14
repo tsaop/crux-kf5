@@ -66,6 +66,7 @@ lrwxrwxrwx	root/root	usr/bin/icontopbm -> sunicontopnm
 -rwxr-xr-x	root/root	usr/bin/pamfunc
 -rwxr-xr-x	root/root	usr/bin/pamgauss
 -rwxr-xr-x	root/root	usr/bin/pamgradient
+-rwxr-xr-x	root/root	usr/bin/pamlevels
 -rwxr-xr-x	root/root	usr/bin/pamlookup
 -rwxr-xr-x	root/root	usr/bin/pammasksharpen
 -rwxr-xr-x	root/root	usr/bin/pammixinterlace
@@ -392,8 +393,8 @@ drwxr-xr-x	root/root	usr/include/netpbm/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libnetpbm.a
 lrwxrwxrwx	root/root	usr/lib/libnetpbm.so -> ../lib/libnetpbm.so.11
-lrwxrwxrwx	root/root	usr/lib/libnetpbm.so.11 -> libnetpbm.so.11.79
--rwxr-xr-x	root/root	usr/lib/libnetpbm.so.11.79
+lrwxrwxrwx	root/root	usr/lib/libnetpbm.so.11 -> libnetpbm.so.11.82
+-rwxr-xr-x	root/root	usr/lib/libnetpbm.so.11.82
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
@@ -464,6 +465,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/pamfunc.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pamgauss.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pamgradient.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/pamlevels.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pamlookup.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pammasksharpen.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pammixinterlace.1.gz
@@ -768,6 +770,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/libmaketmpfilefd.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libnetpbm.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libnetpbm_draw.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/libnetpbm_font.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libnetpbm_image.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libnetpbm_ug.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libpbm.3.gz
