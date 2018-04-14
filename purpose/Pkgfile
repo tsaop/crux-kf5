@@ -4,7 +4,7 @@
 # Depends on: kaccounts-providers
 
 name=purpose
-version=5.44.0
+version=5.45.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
