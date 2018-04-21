@@ -1,11 +1,10 @@
 # Description: KDE graph calculator
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: analitza gtk kio qtwebengine
-# Optional: kirigami2
+# Depends on: analitza gtk kio kirigami2 qtwebengine
 
 name=kalgebra
-version=17.12.3
+version=18.04.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

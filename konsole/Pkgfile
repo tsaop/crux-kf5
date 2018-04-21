@@ -1,10 +1,10 @@
 # Description: Terminal emulator for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kinit knotifyconfig kparts kpty
+# Depends on: kinit knewstuff knotifyconfig kparts kpty
 
 name=konsole
-version=17.12.3
+version=18.04.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

@@ -18,9 +18,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/printmanager/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/printmanager/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/org.kde.AddPrinter.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.ConfigurePrinter.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.PrintQueue.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.kde-add-printer.desktop
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/printmanager.notifyrc
 drwxr-xr-x	root/root	usr/share/kservices5/
@@ -38,7 +38,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/cont
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/CompactRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/PopupDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/PrinterItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/StatusView.qml

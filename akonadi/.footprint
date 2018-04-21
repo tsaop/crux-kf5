@@ -77,6 +77,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/EntityRightsFilterModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/EntityTreeModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/ExceptionBase
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/FavoriteCollectionAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/FavoriteCollectionsModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/GidExtractorInterface
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/IndexPolicyAttribute
@@ -179,6 +180,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entityrightsfiltermodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entitytreemodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/exceptionbase.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/favoritecollectionattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/favoritecollectionsmodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/gidextractorinterface.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/indexpolicyattribute.h
@@ -321,7 +323,6 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/private/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/scope_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/standarddirs_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/tristate_p.h
--rw-r--r--	root/root	usr/include/KF5/akonadi/private/xdgbasedirs_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -332,20 +333,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Akonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.8.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.8.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.8.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.8.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so -> libKF5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.8.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.8.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.8.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.8.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.8.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.8.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
