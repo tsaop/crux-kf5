@@ -4,13 +4,14 @@
 # Depends on: gnutls libgcrypt qt5
 
 name=gwenhywfar
-version=4.20.0
+version=4.20.1
 release=1
-source=("https://www.aquamaniac.de/sites/download/download.php?package=01&release=208&file=02&dummy=$name-$version.tar.gz")
+source=(https://github.com/aqbanking/$name/archive/$version.tar.gz)
 
 build() {
 	cd $name-$version
-	
+
+	autoreconf -vfi
 	./configure --prefix=/usr \
 		--with-guis=qt5 \
 		--disable-static \
