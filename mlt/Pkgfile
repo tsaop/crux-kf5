@@ -4,8 +4,8 @@
 # Depends on: libdv libsamplerate opencv sdl_image sox
 
 name=mlt
-version=6.6.0
-release=2
+version=6.8.0
+release=1
 source=(https://github.com/mltframework/$name/archive/v${version}.tar.gz)
 
 build() {
