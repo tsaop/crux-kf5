@@ -1,7 +1,7 @@
 # Description: Digital painting application
 # URL: https://www.krita.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: eigen exiv2 giflib gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 vc xorg-xinput
+# Depends on: boost dbus eigen exiv2 expat fftw fontconfig freetype giflib glib gsl gtk harfbuzz ilmbase jasper karchive kauth kcompletion kconfig kcoreaddons kcrash kdbusaddons kguiaddons ki18n kio kitemmodels kitemviews kservice kwidgetsaddons kwindowsystem lcms2 libdrm libffi libjpeg-turbo libpng libraw libtiff libxml2 llvm mesa3d opencolorio openexr poppler poppler-qt5 qt5 tinyxml vc xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxrender xorg-libxshmfence xorg-libxxf86vm xorg-xcb-util xorg-xcb-util-keysyms xorg-xinput
 
 name=krita
 version=4.0.2
