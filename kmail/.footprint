@@ -13,14 +13,13 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/ktnefapps.categories
 -rw-r--r--	root/root	usr/etc/xdg/ktnefapps.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.8.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmailsummary.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kontactsummary.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kpimidentities.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmailpart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact_kmailplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact_summaryplugin.so
@@ -141,13 +140,11 @@ drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
 drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/kmail_addattachmentservicemenu.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_kpimidentities.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkmailsummary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkontactsummary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_accounts.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_appearance.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_composer.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_identity.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_misc.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_plugins.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_security.desktop

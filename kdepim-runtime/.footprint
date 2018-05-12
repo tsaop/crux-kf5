@@ -33,23 +33,18 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kdepim-runtime.categories
 -rw-r--r--	root/root	usr/etc/xdg/kdepim-runtime.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.7.3
-lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.7.3
-lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.7.3
-lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.7.3
-lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.8.1
+lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.8.1
+lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.8.1
+lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.8.1
+lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.8.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_addressee.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_contactgroup.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_kalarm.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_kcalcore.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_mail.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/akonadi.so
@@ -126,13 +121,6 @@ drwxr-xr-x	root/root	usr/share/akonadi/firstrun/
 -rw-r--r--	root/root	usr/share/akonadi/firstrun/defaultaddressbook
 -rw-r--r--	root/root	usr/share/akonadi/firstrun/defaultcalendar
 -rw-r--r--	root/root	usr/share/akonadi/firstrun/defaultnotebook
-drwxr-xr-x	root/root	usr/share/akonadi/plugins/
-drwxr-xr-x	root/root	usr/share/akonadi/plugins/serializer/
--rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
--rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_contactgroup.desktop
--rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_kalarm.desktop
--rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
--rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml

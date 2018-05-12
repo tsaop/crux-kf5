@@ -5,7 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kalarmrtcwake.conf
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kalarm.rtcwake.conf
 drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/autostart/kalarm.autostart.desktop
@@ -23,7 +23,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
--rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kalarmrtcwake.service
+-rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kalarm.rtcwake.service
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -75,4 +75,4 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kalarm.appdata.xml
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
--rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy
+-rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy

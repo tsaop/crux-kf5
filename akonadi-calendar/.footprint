@@ -1,4 +1,8 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/akonadi-calendar.categories
+-rw-r--r--	root/root	usr/etc/xdg/akonadi-calendar.renamecategories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Akonadi/
@@ -44,10 +48,16 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiCalendar/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiCalendar/KF5AkonadiCalendarTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCalendar.so -> libKF5AkonadiCalendar.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCalendar.so.5 -> libKF5AkonadiCalendar.so.5.7.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCalendar.so.5.7.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCalendar.so.5 -> libKF5AkonadiCalendar.so.5.8.1
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCalendar.so.5.8.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_AkonadiCalendar.pri
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_kcalcore.so
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/akonadi/
+drwxr-xr-x	root/root	usr/share/akonadi/plugins/
+drwxr-xr-x	root/root	usr/share/akonadi/plugins/serializer/
+-rw-r--r--	root/root	usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
