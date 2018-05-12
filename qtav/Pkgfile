@@ -5,11 +5,18 @@
 
 name=qtav
 version=1.12.0
-release=1
-source=(https://github.com/wang-bin/QtAV/archive/v$version.tar.gz)
+release=2
+source=(https://github.com/wang-bin/QtAV/archive/v$version.tar.gz
+	ffmpeg4-1.patch
+	ffmpeg4-2.patch)
 
 build() {
 	cd QtAV-$version
+
+	# Fix build with FFmpeg 4
+	patch -Np1 -i $SRC/ffmpeg4-1.patch
+	patch -Np1 -i $SRC/ffmpeg4-2.patch
+
     qmake-qt5 "CONFIG+=no_rpath recheck config_libass_link config_openal_link no-tests no-examples"
 
 	make
