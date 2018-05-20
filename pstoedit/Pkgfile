@@ -1,15 +1,19 @@
 # Description: pstoedit translates PostScript and PDF graphics into other vector formats
 # URL: http://www.pstoedit.net/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: ghostscript
+# Depends on: ghostscript imagemagick libgd
 
 name=pstoedit
-version=3.70
+version=3.72
 release=1
 source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
+
+	# do not build docs (they require latex)
+	sed -i 's| doc||' Makefile.*
+
 	./configure --prefix=/usr
 
 	make
