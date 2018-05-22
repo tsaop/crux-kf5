@@ -1,10 +1,10 @@
 # Description: OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software
 # URL: http://glm.g-truc.net
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake
+# Depends on:  cmake
 
 name=glm
-version=0.9.8.5
+version=0.9.9.0
 release=1
 source=(https://github.com/g-truc/$name/archive/$version.tar.gz)
 
