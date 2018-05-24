@@ -1,7 +1,7 @@
 # Description: The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries
 # URL: https://docs.pytest.org/en/latest/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python-atomicwrites python-attrs python-funcsigs python-pluggy
+# Depends on:  python-atomicwrites python-attrs python-funcsigs python-more-itertools python-pluggy
 
 name=python-pytest
 version=3.6.0
