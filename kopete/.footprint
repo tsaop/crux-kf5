@@ -112,6 +112,8 @@ lrwxrwxrwx	root/root	usr/lib/libkyahoo.so.1 -> libkyahoo.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libqgroupwise.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/accessible/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/accessible/chatwindowaccessiblewidgetfactory.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/chattexteditpart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kopete_accountconfig.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kopete_addbookmarks.so
@@ -149,9 +151,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_webpresence.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_wp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_yahoo.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/plugins/accessible/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plugins/accessible/chatwindowaccessiblewidgetfactory.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kopete.desktop
@@ -296,6 +295,8 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/kopete-update_icq_ssl.upd
 -rwxr-xr-x	root/root	usr/share/kconf_update/kopete-update_yahoo_server.pl
 -rw-r--r--	root/root	usr/share/kconf_update/kopete-update_yahoo_server.upd
+drwxr-xr-x	root/root	usr/share/knotifications5/
+-rw-r--r--	root/root	usr/share/knotifications5/kopete.notifyrc
 drwxr-xr-x	root/root	usr/share/kopete/
 -rw-r--r--	root/root	usr/share/kopete/CompactContactListLayouts.xml
 -rw-r--r--	root/root	usr/share/kopete/DefaultContactListLayouts.xml
@@ -423,7 +424,6 @@ drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/48x48/app/
 drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/64x64/
 drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/64x64/app/
 -rw-r--r--	root/root	usr/share/kopete/icons/oxygen/64x64/app/yahoo_protocol.png
--rw-r--r--	root/root	usr/share/kopete/kopete.notifyrc
 drwxr-xr-x	root/root	usr/share/kopete/styles/
 drwxr-xr-x	root/root	usr/share/kopete/styles/Clean/
 drwxr-xr-x	root/root	usr/share/kopete/styles/Clean/Contents/
