@@ -1,0 +1,23 @@
+# Description: Mpris2 Client for Plasma5
+# URL: https://github.com/audoban/PlayBar2
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: plasma-framework
+
+name=playbar2
+version=2.5
+release=1
+source=(https://github.com/audoban/playbar2/archive/v${version}.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+}
