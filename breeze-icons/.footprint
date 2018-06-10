@@ -1884,6 +1884,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/documentinfo.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/download-amarok.svg -> edit-download.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/download-later.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/download.svg -> edit-download.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/drag-surface.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/draw-arrow-back.svg -> ./go-previous.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/draw-arrow-down.svg -> ./go-down.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/draw-arrow-forward.svg -> ./go-next.svg
@@ -2244,8 +2245,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/gtk-undelete-rtl.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/gtk-yes.svg -> dialog-ok-apply.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/guides.svg -> snap-guideline.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/hand.svg -> transform-browse.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/handle-left.svg -> handle-right.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/handle-right.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/handle-left.svg -> overflow-menu-left.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/handle-move.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/handle-right.svg -> overflow-menu-right.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/handle-sort.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/headphones.svg -> ../../devices/22/audio-headphones.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/help-about.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/help-contents.svg -> ../../apps/22/system-help.svg
@@ -2715,6 +2718,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/online.svg -> networ
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/open-for-editing.svg -> document-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/output_win.svg -> dialog-messages.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/overexposure.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/overflow-menu-left.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/overflow-menu-right.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/overflow-menu.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/package.svg -> code-block.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/page-2sides.svg
@@ -9805,6 +9810,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/documentinfo.svg -> help-
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/download-amarok.svg -> edit-download.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/download-later.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/download.svg -> edit-download.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/drag-surface.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/draw-arrow-back.svg -> ./go-previous.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/draw-arrow-down.svg -> ./go-down.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/draw-arrow-forward.svg -> ./go-next.svg
@@ -10165,8 +10171,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/gtk-undelete-rtl.svg -> e
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/gtk-yes.svg -> dialog-ok-apply.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/guides.svg -> snap-guideline.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/hand.svg -> transform-browse.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/handle-left.svg -> handle-right.svg
--rw-r--r--	root/root	usr/share/icons/breeze/actions/22/handle-right.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/handle-left.svg -> overflow-menu-left.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/handle-move.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/handle-right.svg -> overflow-menu-right.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/handle-sort.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/headphones.svg -> ../../devices/22/audio-headphones.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/help-about.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/help-contents.svg -> ../../apps/22/system-help.svg
@@ -10636,6 +10644,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/online.svg -> network-con
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/open-for-editing.svg -> document-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/output_win.svg -> dialog-messages.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/overexposure.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/overflow-menu-left.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/overflow-menu-right.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/overflow-menu.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/package.svg -> code-block.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/page-2sides.svg
