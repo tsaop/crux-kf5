@@ -4,12 +4,12 @@
 # Depends on: cantor cfitsio fftw gsl kdelibs4support netcdf
 
 name=labplot
-version=2.4.0
-release=4
-source=(https://download.kde.org/stable/$name/$version/$name-$version-kf5.tar.xz)
+version=2.5.0
+release=1
+source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version-kf5
+	cd $name-$version
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
