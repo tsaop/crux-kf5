@@ -5,10 +5,19 @@
 
 name=calligra
 version=3.1.0
-release=2
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+release=3
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
+	calligra-3.1.0-qt-5.11.patch
+	calligra-qframe.patch)
 
 build() {
+
+	cd $name-$version
+	# Fix build with QT 5.11.0
+	patch -Np1 -i $SRC/calligra-3.1.0-qt-5.11.patch
+	patch -Np1 -i $SRC/calligra-qframe.patch
+	cd -
+
 	mkdir build; cd build
 
 	cmake \
