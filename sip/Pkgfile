@@ -1,10 +1,10 @@
 # Description: Code generator for creating Python language bindings
 # URL: https://www.riverbankcomputing.com/software/sip
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: python3
+# Depends on:  python3
 
 name=sip
-version=4.19.8
+version=4.19.10
 release=1
 source=(https://sourceforge.net/projects/pyqt/files/$name/$name-$version/$name-$version.tar.gz)
 
@@ -12,5 +12,13 @@ build() {
 	cd $name-$version
 	python3 configure.py
 	make
-	make DESTDIR=$PKG install
+	make DESTDIR=$PKG install -C sipgen
+	make DESTDIR=$PKG install -C siplib
+
+	install -Dm644 sipconfig.py "$PKG"/usr/lib/python3.6/site-packages/sipconfig.py
+	install -Dm644 sipdistutils.py "$PKG"/usr/lib/python3.6/site-packages/sipdistutils.py
+
+	# create a private copy of the SIP module for PyQt5
+	mkdir -p $PKG/usr/lib/python3.6/site-packages/PyQt5
+	ln -sr $PKG/usr/lib/python3.6/site-packages/sip.* $PKG/usr/lib/python3.6/site-packages/PyQt5
 }
