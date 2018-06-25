@@ -6,7 +6,7 @@
 
 name=akonadi
 version=18.04.2
-release=2
+release=3
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
@@ -17,7 +17,6 @@ build() {
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-Wno-dev
 
