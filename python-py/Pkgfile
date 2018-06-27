@@ -4,9 +4,9 @@
 # Depends on:  python-setuptools
 
 name=python-py
-version=1.5.3
+version=1.5.4
 release=1
-source=(https://pypi.python.org/packages/f7/84/b4c6e84672c4ceb94f727f3da8344037b62cee960d80e999b1cd9b832d83/${name/python-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/35/77/a0a2a4126cf454e6ac772942898379e2fe78f2b7885df0461a5b8f8a8040/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
