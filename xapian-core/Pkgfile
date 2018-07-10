@@ -1,10 +1,10 @@
 # Description: Open Source Search Engine Library
 # URL: http://www.xapian.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: util-linux  
+# Depends on:  util-linux
 
 name=xapian-core
-version=1.4.5
+version=1.4.6
 release=1
 source=(http://oligarchy.co.uk/xapian/$version/$name-$version.tar.xz)
 
