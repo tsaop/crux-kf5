@@ -34,8 +34,8 @@ drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libcantor_config.so
 -rwxr-xr-x	root/root	usr/lib/libcantor_pythonbackend.so
 lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.18
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.18 -> libcantorlibs.so.18.04.2
--rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.18.04.2
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.18 -> libcantorlibs.so.18.04.3
+-rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.18.04.3
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/
@@ -67,18 +67,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.cantor.desktop
 drwxr-xr-x	root/root	usr/share/cantor/
--rw-r--r--	root/root	usr/share/cantor/cantor_advancedplot_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_create_matrix_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_differentiate_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_eigenvalues_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_eigenvectors_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_import_package_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_integrate_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_invert_matrix_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_plot2d_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_plot3d_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_runscript_assistant.rc
--rw-r--r--	root/root	usr/share/cantor/cantor_solve_assistant.rc
 drwxr-xr-x	root/root	usr/share/cantor/maximabackend/
 -rw-r--r--	root/root	usr/share/cantor/maximabackend/cantor-initmaxima.lisp
 drwxr-xr-x	root/root	usr/share/cantor/octavebackend/
@@ -86,6 +74,8 @@ drwxr-xr-x	root/root	usr/share/cantor/octavebackend/
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_plot2d.m
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_plot3d.m
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_print.m
+drwxr-xr-x	root/root	usr/share/cantor/sagebackend/
+-rwxr-xr-x	root/root	usr/share/cantor/sagebackend/cantor-execsage
 drwxr-xr-x	root/root	usr/share/cantor/xslt/
 -rw-r--r--	root/root	usr/share/cantor/xslt/latex.xsl
 drwxr-xr-x	root/root	usr/share/config.kcfg/
@@ -128,8 +118,20 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/cantor.png
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/cantor/
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_advancedplot_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_create_matrix_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_differentiate_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_eigenvalues_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_eigenvectors_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_import_package_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_integrate_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_invert_matrix_assistant.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_part.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_plot2d_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_plot3d_assistant.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_runscript_assistant.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_scripteditor.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_shell.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_solve_assistant.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.cantor.appdata.xml
