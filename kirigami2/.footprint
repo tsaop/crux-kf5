@@ -18,8 +18,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Kirigami2/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so -> libKF5Kirigami2.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.47.0
--rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.47.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.48.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.48.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -35,6 +35,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractItemViewHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Action.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ApplicationHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ApplicationItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml
@@ -64,6 +65,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/libkirigamiplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/plugins.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/AbstractPageHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/ActionButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml
@@ -79,9 +81,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/DefaultListItemBackground.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/PageRowGlobalToolBarStyleGroup.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/PageRowGlobalToolBarUI.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/RefreshableScrollView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/SwipeItemEventFilter.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/TitlesPageHeader.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/ToolBarPageHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/Material/
