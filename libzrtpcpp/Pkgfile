@@ -6,7 +6,7 @@
 name=libzrtpcpp
 version=4.6.6
 release=1
-source=(https://github.com/wernerd/ZRTPCPP/archive/V${version}.tar.gz)
+source=(https://github.com/wernerd/ZRTPCPP/archive/V${version}/$name-$version.tar.gz)
 
 build() {
 	cd ZRTPCPP-$version

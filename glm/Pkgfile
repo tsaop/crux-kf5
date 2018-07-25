@@ -6,7 +6,7 @@
 name=glm
 version=0.9.9.0
 release=1
-source=(https://github.com/g-truc/$name/archive/$version.tar.gz)
+source=(https://github.com/g-truc/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

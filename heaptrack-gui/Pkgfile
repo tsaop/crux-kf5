@@ -6,7 +6,7 @@
 name=heaptrack-gui
 version=1.0.0
 release=2
-source=(https://github.com/KDE/${name/-gui}/archive/v${version}.tar.gz)
+source=(https://github.com/KDE/${name/-gui}/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd ${name/-gui/}-$version

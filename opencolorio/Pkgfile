@@ -8,7 +8,7 @@
 name=opencolorio
 version=1.1.0
 release=3
-source=(https://github.com/imageworks/OpenColorIO/archive/v$version.tar.gz)
+source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd OpenColorIO-$version

@@ -6,7 +6,7 @@
 name=qoauth
 version=2.0.0
 release=1
-source=(https://github.com/ayoy/$name/archive/v$version.tar.gz)
+source=(https://github.com/ayoy/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

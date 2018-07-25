@@ -6,7 +6,7 @@
 name=twinkle-qt5
 version=1.10.1
 release=1
-source=(https://github.com/LubosD/${name/-qt5}/archive/v${version}.tar.gz)
+source=(https://github.com/LubosD/${name/-qt5}/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd ${name/-qt5}-$version

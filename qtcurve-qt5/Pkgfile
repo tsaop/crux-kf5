@@ -6,7 +6,7 @@
 name=qtcurve-qt5
 version=1.8.18
 release=3
-source=(https://github.com/QtCurve/${name/-qt5/}/archive/$version.tar.gz
+source=(https://github.com/QtCurve/${name/-qt5/}/archive/$version/$name-$version.tar.gz
 	fix-qt-5.3-build.diff)
 
 build() {

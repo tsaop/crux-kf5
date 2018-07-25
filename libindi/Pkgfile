@@ -5,7 +5,7 @@
 
 name=libindi
 version=1.7.2
-source=(https://github.com/indilib/${name/lib/}/archive/v${version}.tar.gz)
+source=(https://github.com/indilib/${name/lib/}/archive/v${version}/$name-$version.tar.gz)
 release=1
 
 build() {

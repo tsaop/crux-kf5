@@ -6,7 +6,7 @@
 name=opencv
 version=3.4.2
 release=1
-source=(https://github.com/$name/$name/archive/$version.tar.gz)
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	# Download and extract OpenCV extra modules:

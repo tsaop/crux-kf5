@@ -6,7 +6,7 @@
 name=tinyxml2
 version=6.2.0
 release=1
-source=(https://github.com/leethomason/$name/archive/$version.tar.gz)
+source=(https://github.com/leethomason/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

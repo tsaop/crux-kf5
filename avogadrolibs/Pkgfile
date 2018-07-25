@@ -6,7 +6,7 @@
 name=avogadrolibs
 version=1.90.0
 release=2
-source=(https://github.com/OpenChemistry/$name/archive/$version.tar.gz)
+source=(https://github.com/OpenChemistry/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

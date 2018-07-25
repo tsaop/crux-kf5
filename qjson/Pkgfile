@@ -7,7 +7,7 @@
 name=qjson
 version=0.9.0
 release=1
-source=(https://github.com/flavio/qjson/archive/$version.tar.gz)
+source=(https://github.com/flavio/qjson/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

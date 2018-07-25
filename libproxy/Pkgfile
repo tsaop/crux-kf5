@@ -6,7 +6,7 @@
 name=libproxy
 version=0.4.15
 release=1
-source=(https://github.com/$name/$name/archive/$version.tar.gz
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
 	libproxy.revdep)
 
 build() {

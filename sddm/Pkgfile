@@ -6,7 +6,7 @@
 name=sddm
 version=0.18.0
 release=1
-source=(https://github.com/$name/$name/archive/v$version.tar.gz \
+source=(https://github.com/$name/$name/archive/v$version/$name-$version.tar.gz
 	rc.sddm
 	sddm-0.16.0-ck2-revert.patch)
 

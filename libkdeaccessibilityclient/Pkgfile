@@ -5,7 +5,7 @@
 
 name=libkdeaccessibilityclient
 version=0.2.0
-source=(https://github.com/KDE/$name/archive/v${version}.tar.gz)
+source=(https://github.com/KDE/$name/archive/v${version}/$name-$version.tar.gz)
 release=1
 
 build() {
