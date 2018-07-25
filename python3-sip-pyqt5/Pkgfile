@@ -1,0 +1,16 @@
+# Description: Python 3.x SIP bindings for C and C++ libraries (PyQt5 version)
+# URL: https://www.riverbankcomputing.com/software/sip
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3
+
+name=python3-sip-pyqt5
+version=4.19.12
+release=1
+source=(https://sourceforge.net/projects/pyqt/files/sip/sip-$version/sip-$version.tar.gz)
+
+build() {
+	cd sip-$version
+	python3 configure.py --sip-module PyQt5.sip --no-tools --no-dist-info
+	make
+	make DESTDIR=$PKG install
+}	
