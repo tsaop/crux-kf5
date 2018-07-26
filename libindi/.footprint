@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/indi_arduinost4
 -rwxr-xr-x	root/root	usr/bin/indi_astrometry
 -rwxr-xr-x	root/root	usr/bin/indi_baader_dome
 -rwxr-xr-x	root/root	usr/bin/indi_celestron_gps
@@ -63,6 +64,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_guide
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_sqm
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_telescope
+-rwxr-xr-x	root/root	usr/bin/indi_simulator_weather
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_skycommander_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_skysafari
@@ -83,6 +85,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_v4l2_ccd
 -rwxr-xr-x	root/root	usr/bin/indi_vantage_weather
 -rwxr-xr-x	root/root	usr/bin/indi_watchdog
+-rwxr-xr-x	root/root	usr/bin/indi_watcher_weather
 -rwxr-xr-x	root/root	usr/bin/indi_wunderground_weather
 -rwxr-xr-x	root/root	usr/bin/indi_xagyl_wheel
 -rwxr-xr-x	root/root	usr/bin/indiserver
@@ -107,8 +110,6 @@ drwxr-xr-x	root/root	usr/include/libindi/alignment/
 -rw-r--r--	root/root	usr/include/libindi/base64.h
 -rw-r--r--	root/root	usr/include/libindi/baseclient.h
 -rw-r--r--	root/root	usr/include/libindi/basedevice.h
--rw-r--r--	root/root	usr/include/libindi/ccvt.h
--rw-r--r--	root/root	usr/include/libindi/ccvt_types.h
 drwxr-xr-x	root/root	usr/include/libindi/connectionplugins/
 -rw-r--r--	root/root	usr/include/libindi/connectionplugins/connectioninterface.h
 -rw-r--r--	root/root	usr/include/libindi/connectionplugins/connectionserial.h
@@ -145,6 +146,8 @@ drwxr-xr-x	root/root	usr/include/libindi/connectionplugins/
 -rw-r--r--	root/root	usr/include/libindi/indiweather.h
 -rw-r--r--	root/root	usr/include/libindi/lilxml.h
 drwxr-xr-x	root/root	usr/include/libindi/stream/
+-rw-r--r--	root/root	usr/include/libindi/stream/ccvt.h
+-rw-r--r--	root/root	usr/include/libindi/stream/ccvt_types.h
 drwxr-xr-x	root/root	usr/include/libindi/stream/encoder/
 -rw-r--r--	root/root	usr/include/libindi/stream/encoder/encoderinterface.h
 -rw-r--r--	root/root	usr/include/libindi/stream/encoder/encodermanager.h
@@ -165,13 +168,13 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.2
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.2
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.4
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.4
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.2
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.2
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.4
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
