@@ -1,15 +1,15 @@
 # Description: Latte is a dock based on plasma frameworks that provides an elegant and intuitive experience for your tasks and plasmoids
 # URL: https://github.com/psifidotos/Latte-Dock
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: plasma-framework
+# Depends on: knewstuff plasma-framework
 
 name=latte-dock
-version=0.7.4
+version=0.8.0
 release=1
-source=(https://github.com/psifidotos/Latte-Dock/archive/v${version}/$name-$version.tar.gz)
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
 
 build() {
-	cd Latte-Dock-$version
+	cd $name-$version
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
