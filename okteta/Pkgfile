@@ -4,21 +4,22 @@
 # Depends on: gtk kcmutils knewstuff kparts qca-qt5
 
 name=okteta
-version=17.12.3
+version=0.25.1
 release=1
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(https://github.com/KDE/okteta/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
