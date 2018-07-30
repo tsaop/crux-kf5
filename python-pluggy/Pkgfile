@@ -4,9 +4,9 @@
 # Depends on: python-setuptools
 
 name=python-pluggy
-version=0.6.0
+version=0.7.1
 release=1
-source=(https://pypi.python.org/packages/11/bf/cbeb8cdfaffa9f2ea154a30ae31a9d04a1209312e2919138b4171a1f8199/${name/python-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/a1/83/ef7d976c12d67a5c7a5bc2a47f0501c926cabae9d9fcfdc26d72abc9ba15/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
