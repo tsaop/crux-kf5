@@ -35,21 +35,22 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Purpose/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/purposeprocess
 lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so -> libKF5Purpose.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so.5 -> libKF5Purpose.so.5.48.0
--rwxr-xr-x	root/root	usr/lib/libKF5Purpose.so.5.48.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so.5 -> libKF5Purpose.so.5.49.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Purpose.so.5.49.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so -> libKF5PurposeWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so.5 -> libKF5PurposeWidgets.so.5.48.0
--rwxr-xr-x	root/root	usr/lib/libKF5PurposeWidgets.so.5.48.0
-lrwxrwxrwx	root/root	usr/lib/libPhabricatorHelpers.so.5 -> libPhabricatorHelpers.so.5.48.0
--rwxr-xr-x	root/root	usr/lib/libPhabricatorHelpers.so.5.48.0
-lrwxrwxrwx	root/root	usr/lib/libReviewboardHelpers.so.5 -> libReviewboardHelpers.so.5.48.0
--rwxr-xr-x	root/root	usr/lib/libReviewboardHelpers.so.5.48.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so.5 -> libKF5PurposeWidgets.so.5.49.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PurposeWidgets.so.5.49.0
+lrwxrwxrwx	root/root	usr/lib/libPhabricatorHelpers.so.5 -> libPhabricatorHelpers.so.5.49.0
+-rwxr-xr-x	root/root	usr/lib/libPhabricatorHelpers.so.5.49.0
+lrwxrwxrwx	root/root	usr/lib/libReviewboardHelpers.so.5 -> libReviewboardHelpers.so.5.49.0
+-rwxr-xr-x	root/root	usr/lib/libReviewboardHelpers.so.5.49.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/sharefileitemaction.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/purpose/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/purpose/bluetoothplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/purpose/emailplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/purpose/imgurplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/purpose/kdeconnectplugin.so
@@ -116,6 +117,7 @@ drwxrwxr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/config/
 -rw-rw-r--	root/root	usr/share/kpackage/Purpose/Twitter/contents/config/config.qml
 -rw-rw-r--	root/root	usr/share/kpackage/Purpose/Twitter/metadata.json
 drwxr-xr-x	root/root	usr/share/purpose/
+-rw-r--r--	root/root	usr/share/purpose/bluetoothplugin_config.qml
 -rw-r--r--	root/root	usr/share/purpose/kdeconnectplugin_config.qml
 -rw-r--r--	root/root	usr/share/purpose/nextcloudplugin_config.qml
 -rw-r--r--	root/root	usr/share/purpose/phabricatorplugin_config.qml

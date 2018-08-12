@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.48.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.48.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.49.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.49.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.48.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.48.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.49.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.49.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -89,7 +89,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/scriptengines/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma_engine_testengine.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/
@@ -317,7 +316,6 @@ drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
 -rw-r--r--	root/root	usr/share/kdevappwizard/templates/qml-plasmoid-with-qml-extension.tar.bz2
 -rw-r--r--	root/root	usr/share/kdevappwizard/templates/qml-plasmoid.tar.bz2
 drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-testengine.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-scriptengine-applet-declarative.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma-applet.desktop
