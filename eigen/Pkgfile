@@ -5,11 +5,18 @@
 
 name=eigen
 version=3.3.5
-release=1
-source=(http://bitbucket.org/$name/$name/get/$version.tar.bz2)
+release=2
+source=(http://bitbucket.org/$name/$name/get/$version.tar.bz2
+	fix-set-restart-return-type.patch)
 
 build() {
 	cd $SRC
+
+	# Fix build with KDE step
+	cd $name-$name-*
+	patch -Np1 -i $SRC/fix-set-restart-return-type.patch
+	cd -
+
 	mkdir build; cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_BUILD_TYPE=Release \
