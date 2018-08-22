@@ -1,0 +1,22 @@
+# Description: libmsym is a C library dealing with point group symmetry in molecules.
+# URL: https://github.com/mcodev31/libmsym
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  cmake
+
+name=libmsym
+version=0.2.3
+release=1
+source=(https://github.com/mcodev31/$name/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+	
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_SHARED_LIBS=ON \
+		..
+	
+	make
+	make DESTDIR=$PKG install
+}

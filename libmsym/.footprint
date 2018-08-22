@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libmsym/
+-rw-r--r--	root/root	usr/include/libmsym/msym.h
+-rw-r--r--	root/root	usr/include/libmsym/msym_EXPORTS.h
+-rw-r--r--	root/root	usr/include/libmsym/msym_error.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/libmsym/
+-rw-r--r--	root/root	usr/lib/cmake/libmsym/libmsymConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/libmsym/libmsymConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/libmsym/libmsymTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/libmsym/libmsymTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libmsym.so -> libmsym.so.0.2
+lrwxrwxrwx	root/root	usr/lib/libmsym.so.0.2 -> libmsym.so.0.2.2
+-rwxr-xr-x	root/root	usr/lib/libmsym.so.0.2.2
