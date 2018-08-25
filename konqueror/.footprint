@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/konqueror
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/akregatorplugin.categories
 drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/autostart/konqy_preload.desktop
 -rw-r--r--	root/root	usr/etc/xdg/konqueror.categories
@@ -45,6 +46,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_konqhtml.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_performance.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/akregatorplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/webenginepart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/khtmlsettingsplugin.so
@@ -216,6 +219,7 @@ drwxr-xr-x	root/root	usr/share/konqueror/pics/
 -rw-r--r--	root/root	usr/share/konqueror/pics/indicator_noconnect.png
 -rw-r--r--	root/root	usr/share/konqueror/pics/indicator_viewactive.png
 drwxr-xr-x	root/root	usr/share/kservices5/
+-rw-r--r--	root/root	usr/share/kservices5/akregator_konqplugin.desktop
 -rw-r--r--	root/root	usr/share/kservices5/bookmarks.desktop
 -rw-r--r--	root/root	usr/share/kservices5/filebehavior.desktop
 -rw-r--r--	root/root	usr/share/kservices5/fsview_part.desktop
@@ -251,3 +255,5 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/webenginepart/
 -rw-r--r--	root/root	usr/share/kxmlgui5/webenginepart/webenginepart.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.konqueror.appdata.xml
+drwxr-xr-x	root/root	usr/share/webenginepart/
+-rw-r--r--	root/root	usr/share/webenginepart/error.html

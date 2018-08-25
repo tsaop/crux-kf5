@@ -1,10 +1,10 @@
 # Description: addons for kdepim apps
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: incidenceeditor ktnef libksieve mailcommon
+# Depends on: incidenceeditor kitinerary ktnef libksieve mailcommon
 
 name=kdepim-addons
-version=18.04.3
+version=18.08.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

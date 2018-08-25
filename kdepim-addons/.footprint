@@ -14,14 +14,14 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/contacteditor/
 drwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/
 -rwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/cryptopageplugin.so
-lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.9.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/contacteditor/
@@ -71,6 +71,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_calendar.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_highlighter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_vcard.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/kitinerary_grantlee_extension.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_allheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_briefheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_createeventplugin.so
@@ -122,6 +125,3 @@ drwxr-xr-x	root/root	usr/share/kservices5/korganizer/
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/datenums.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/picoftheday.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/thisdayinhistory.desktop
-drwxr-xr-x	root/root	usr/share/mime/
-drwxr-xr-x	root/root	usr/share/mime/packages/
--rw-r--r--	root/root	usr/share/mime/packages/application-vnd-apple-pkpass.xml

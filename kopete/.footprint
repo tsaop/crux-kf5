@@ -106,9 +106,6 @@ lrwxrwxrwx	root/root	usr/lib/libkopeteprivacy.so.1 -> libkopeteprivacy.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libkopetestatusmenu.so -> libkopetestatusmenu.so.1
 lrwxrwxrwx	root/root	usr/lib/libkopetestatusmenu.so.1 -> libkopetestatusmenu.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libkopetestatusmenu.so.1.0.0
-lrwxrwxrwx	root/root	usr/lib/libkyahoo.so -> libkyahoo.so.1
-lrwxrwxrwx	root/root	usr/lib/libkyahoo.so.1 -> libkyahoo.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libkyahoo.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libqgroupwise.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -150,7 +147,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/accessible/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_urlpicpreview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_webpresence.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_wp.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kopete_yahoo.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kopete.desktop
@@ -293,8 +289,6 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/kopete-update_icq_server.upd
 -rwxr-xr-x	root/root	usr/share/kconf_update/kopete-update_icq_ssl.pl
 -rw-r--r--	root/root	usr/share/kconf_update/kopete-update_icq_ssl.upd
--rwxr-xr-x	root/root	usr/share/kconf_update/kopete-update_yahoo_server.pl
--rw-r--r--	root/root	usr/share/kconf_update/kopete-update_yahoo_server.upd
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kopete.notifyrc
 drwxr-xr-x	root/root	usr/share/kopete/
@@ -395,35 +389,6 @@ drwxr-xr-x	root/root	usr/share/kopete/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/kopete/icons/hicolor/64x64/apps/qq_protocol.png
 -rw-r--r--	root/root	usr/share/kopete/icons/hicolor/64x64/apps/testbed_protocol.png
 -rw-r--r--	root/root	usr/share/kopete/icons/hicolor/64x64/apps/wp_protocol.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/128x128/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/128x128/app/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/128x128/app/yahoo_protocol.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/16x16/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/16x16/action/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_away.png
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_busy.png
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_idle.png
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_invisible.png
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_mobile.png
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_stealthed.png
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/action/yahoo_tea.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/16x16/app/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/16x16/app/yahoo_protocol.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/22x22/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/22x22/action/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/22x22/action/yahoo_stealthed.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/32x32/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/32x32/action/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/32x32/action/yahoo_stealthed.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/32x32/app/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/32x32/app/yahoo_protocol.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/48x48/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/48x48/app/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/48x48/app/yahoo_protocol.png
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/64x64/
-drwxr-xr-x	root/root	usr/share/kopete/icons/oxygen/64x64/app/
--rw-r--r--	root/root	usr/share/kopete/icons/oxygen/64x64/app/yahoo_protocol.png
 drwxr-xr-x	root/root	usr/share/kopete/styles/
 drwxr-xr-x	root/root	usr/share/kopete/styles/Clean/
 drwxr-xr-x	root/root	usr/share/kopete/styles/Clean/Contents/
@@ -696,7 +661,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/kconfiguredialog/
 -rw-r--r--	root/root	usr/share/kservices5/kopete_urlpicpreview.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kopete_webpresence.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kopete_wp.desktop
--rw-r--r--	root/root	usr/share/kservices5/kopete_yahoo.desktop
 -rw-r--r--	root/root	usr/share/kservices5/xmpp.protocol
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kopeteplugin.desktop
@@ -714,6 +678,8 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/kopete_groupwise/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kopete_otr/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kopete_otr/otrchatui.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/kopete_otr/otrui.rc
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kopete.appdata.xml
 drwxr-xr-x	root/root	usr/share/sounds/
 -rw-r--r--	root/root	usr/share/sounds/Kopete_Event.ogg
 -rw-r--r--	root/root	usr/share/sounds/Kopete_Received.ogg

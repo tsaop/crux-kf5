@@ -39,7 +39,6 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/RenameFileDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/RichTexteditWithAutoCorrection
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ShareServiceUrlManager
--rw-r--r--	root/root	usr/include/KF5/PimCommon/SieveSyntaxHighlighterUtil
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/SimpleStringListEditor
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/SpellCheckLineEdit
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/TemplateListWidget
@@ -100,7 +99,6 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/renamefiledialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/richtexteditwithautocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/shareserviceurlmanager.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/sievesyntaxhighlighterutil.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/simplestringlisteditor.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/spellchecklineedit.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/templatelistwidget.h
@@ -140,11 +138,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so -> libKF5PimCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so -> libKF5PimCommonAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.9.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

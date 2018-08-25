@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/KGAPI/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Account
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AccountInfo
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AccountInfoFetchJob
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AccountManager
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AuthJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AuthWidget
 drwxr-xr-x	root/root	usr/include/KPim/KGAPI/KGAPI/Blogger/
@@ -132,6 +133,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/kgapi/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/account.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/accountinfo.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/accountinfofetchjob.h
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/accountmanager.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/authjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/authwidget.h
 drwxr-xr-x	root/root	usr/include/KPim/KGAPI/kgapi/blogger/
@@ -268,29 +270,29 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimGAPI/
 -rw-r--r--	root/root	usr/lib/cmake/KPimGAPI/KPimGAPITargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimGAPI/KPimGAPITargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIBlogger.so -> libKPimGAPIBlogger.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIBlogger.so.5 -> libKPimGAPIBlogger.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIBlogger.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIBlogger.so.5 -> libKPimGAPIBlogger.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIBlogger.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPICalendar.so -> libKPimGAPICalendar.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPICalendar.so.5 -> libKPimGAPICalendar.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPICalendar.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPICalendar.so.5 -> libKPimGAPICalendar.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPICalendar.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIContacts.so -> libKPimGAPIContacts.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIContacts.so.5 -> libKPimGAPIContacts.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIContacts.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIContacts.so.5 -> libKPimGAPIContacts.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIContacts.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPICore.so -> libKPimGAPICore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPICore.so.5 -> libKPimGAPICore.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPICore.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPICore.so.5 -> libKPimGAPICore.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPICore.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIDrive.so -> libKPimGAPIDrive.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIDrive.so.5 -> libKPimGAPIDrive.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIDrive.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIDrive.so.5 -> libKPimGAPIDrive.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIDrive.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPILatitude.so -> libKPimGAPILatitude.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPILatitude.so.5 -> libKPimGAPILatitude.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPILatitude.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPILatitude.so.5 -> libKPimGAPILatitude.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPILatitude.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIMaps.so -> libKPimGAPIMaps.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIMaps.so.5 -> libKPimGAPIMaps.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIMaps.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIMaps.so.5 -> libKPimGAPIMaps.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIMaps.so.5.9.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPITasks.so -> libKPimGAPITasks.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPITasks.so.5 -> libKPimGAPITasks.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPITasks.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPITasks.so.5 -> libKPimGAPITasks.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPITasks.so.5.9.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -302,4 +304,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KGAPILatitude.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KGAPIMaps.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KGAPITasks.pri
+drwxr-xr-x	root/root	usr/lib/sasl2/
+lrwxrwxrwx	root/root	usr/lib/sasl2/libkdexoauth2.so -> libkdexoauth2.so.3
+lrwxrwxrwx	root/root	usr/lib/sasl2/libkdexoauth2.so.3 -> libkdexoauth2.so.3.0.0
+-rwxr-xr-x	root/root	usr/lib/sasl2/libkdexoauth2.so.3.0.0
 drwxr-xr-x	root/root	usr/share/

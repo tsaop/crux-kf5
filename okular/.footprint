@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	etc/revdep.d/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/okular
+-rwxr-xr-x	root/root	usr/bin/okularkirigami
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/okular.categories
@@ -98,7 +99,6 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_tiff.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_txt.desktop
 -rwxr-xr-x	root/root	usr/share/applications/okularApplication_xps.desktop
--rw-r--r--	root/root	usr/share/applications/org.kde.mobile.okular.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_chm.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_comicbook.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_djvu.desktop
@@ -116,6 +116,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_txt.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.mobile.okular_xps.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.okular.desktop
+-rw-r--r--	root/root	usr/share/applications/org.kde.okular.kirigami.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/gssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/okular.kcfg
@@ -143,21 +144,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/okular.png
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/okular.upd
-drwxr-xr-x	root/root	usr/share/kpackage/
-drwxr-xr-x	root/root	usr/share/kpackage/genericqml/
-drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/
-drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/
-drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/Bookmarks.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/Documents.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/MainView.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/OkularDrawer.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/TableOfContents.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/Thumbnails.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/ThumbnailsBase.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/TreeDelegate.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.mobile.okular/metadata.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/ms-its.protocol
 -rw-r--r--	root/root	usr/share/kservices5/okularChm.desktop
@@ -205,6 +191,7 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-txt.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular-xps.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.okular.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.okular.kirigami.appdata.xml
 drwxr-xr-x	root/root	usr/share/okular/
 -rw-r--r--	root/root	usr/share/okular/drawingtools.xml
 drwxr-xr-x	root/root	usr/share/okular/icons/

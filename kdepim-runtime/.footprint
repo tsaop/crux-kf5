@@ -33,26 +33,22 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kdepim-runtime.categories
 -rw-r--r--	root/root	usr/etc/xdg/kdepim-runtime.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.8.3
-lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.8.3
--rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.8.3
+lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.9.0
+-rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.9.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/akonadi.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/pop3.so
-drwxr-xr-x	root/root	usr/lib/sasl2/
-lrwxrwxrwx	root/root	usr/lib/sasl2/libkdexoauth2.so -> libkdexoauth2.so.3
-lrwxrwxrwx	root/root	usr/lib/sasl2/libkdexoauth2.so.3 -> libkdexoauth2.so.3.0.0
--rwxr-xr-x	root/root	usr/lib/sasl2/libkdexoauth2.so.3.0.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/accountwizard/
