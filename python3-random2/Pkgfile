@@ -1,0 +1,15 @@
+# Description: Python 3 compatible Pytohn 2 `random` Module
+# URL: https://pypi.org/project/random2/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-setuptools
+
+name=python3-random2
+version=1.0.1
+release=1
+source=(https://files.pythonhosted.org/packages/ee/b5/5aca5217501fbd06b1e5aed6d5986baa0da5380880e6bb6f421ed18e3a32/${name/python3-/}-$version.zip)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}
