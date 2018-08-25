@@ -1,0 +1,26 @@
+# Description: Perl template processing sytem
+# URL: https://metacpan.org/release/Path-Tiny
+# Maintainer: Tsaop, leeroy at cock dot li
+
+name=p5-template-toolkit
+version=2.27
+release=1
+source=(https://cpan.metacpan.org/authors/id/A/AB/ABW/Template-Toolkit-$version.tar.gz)
+
+build() {
+	cd Template-Toolkit-$version
+
+	perl Makefile.PL
+	make
+	make install DESTDIR=$PKG
+
+	# Remove perlcrap
+	find $PKG -type f \( \
+		-name '.packlist' -or \
+		-name '*.bs' -or \
+		-name 'autosplit.ix' -or \
+		-name 'perllocal.pod' \) -delete
+
+	# Remove empty directories
+	find $PKG -depth -empty -exec rm -rf {} \;
+}
