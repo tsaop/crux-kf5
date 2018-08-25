@@ -1,0 +1,26 @@
+# Description: Data Model and Extraction System for Travel Reservation information
+# URL: https://cgit.kde.org/kitinerary.git/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcalcore kcontacts kmime kpkpass poppler zxing-cpp
+
+name=kitinerary
+version=18.08.0
+release=1
+source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_TESTING=OFF \
+		-DKDE_INSTALL_LIBDIR=lib \
+		-DKDE_INSTALL_CONFDIR=/usr/etc \
+		..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+}
