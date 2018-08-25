@@ -1,0 +1,25 @@
+# Description: A program that automatically solves layouts of Freecell and similar variants of Card Solitaire
+# URL: http://fc-solve.shlomifish.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  cmake p5-path-tiny p5-template-toolkit python3-random2 python3-six
+
+name=freecell-solver
+version=4.20.0
+release=1
+source=(http://fc-solve.shlomifish.org/downloads/fc-solve/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DFCS_WITH_TEST_SUITE=OFF \
+		-DBUILD_STATIC_LIBRARY=OFF \
+		..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
