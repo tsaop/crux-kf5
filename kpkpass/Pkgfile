@@ -1,0 +1,24 @@
+# Description: Apple Wallet Pass reader
+# URL: https://cgit.kde.org/kpkpass.git/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: karchive
+
+name=kpkpass
+version=18.08.0
+release=1
+source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_TESTING=OFF \
+		-DKDE_INSTALL_LIBDIR=lib \
+		-DKDE_INSTALL_CONFDIR=/usr/etc \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
