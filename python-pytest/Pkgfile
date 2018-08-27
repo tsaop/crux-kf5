@@ -4,9 +4,9 @@
 # Depends on:  python-atomicwrites python-attrs python-funcsigs python-more-itertools python-pluggy
 
 name=python-pytest
-version=3.7.2
+version=3.7.3
 release=1
-source=(https://files.pythonhosted.org/packages/34/73/3ad0ffb79c312022fb6d81694aff5a32d83f55ae6d2174a0437c0298cf07/${name/python-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/16/26/0b6ad8a13af3a6f20230e297d04214f221fe28f2a45b4d29562971d6210e/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
