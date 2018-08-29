@@ -1,0 +1,15 @@
+# Description: Object-oriented filesystem paths 
+# URL: https://pypi.org/project/pathlib2/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python-setuptools
+
+name=python-pathlib2
+version=2.3.2
+release=1
+source=(https://files.pythonhosted.org/packages/db/a8/7d6439c1aec525ed70810abee5b7d7f3aa35347f59bc28343e8f62019aa2/${name/python-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python-/}-$version
+	python setup.py build
+	python setup.py install --prefix=/usr --root=$PKG
+}
