@@ -4,7 +4,7 @@
 # Depends on: eigen ffmpeg gtkglext jasper libgphoto2 libwebp openexr qt5
 
 name=opencv
-version=3.4.2
+version=3.4.3
 release=1
 source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
 
