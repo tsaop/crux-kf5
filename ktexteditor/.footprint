@@ -20,6 +20,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/KTextEditor/
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/Document
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/DocumentCursor
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/Editor
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/InlineNote
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/InlineNoteInterface
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/InlineNoteProvider
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/MainWindow
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/MarkInterface
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/Message
@@ -47,6 +50,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/ktexteditor/
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/document.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/documentcursor.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/editor.h
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/inlinenote.h
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/inlinenoteinterface.h
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/inlinenoteprovider.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/mainwindow.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/markinterface.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/message.h
@@ -72,8 +78,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextEditor/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kauth_ktexteditor_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so -> libKF5TextEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.49.0
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.49.0
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.50.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.50.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
