@@ -46,12 +46,14 @@ drwxr-xr-x	root/root	usr/include/signon-qt5/SignOn/
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/Error
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/Identity
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/IdentityInfo
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/SecurityContext
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/SessionData
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/authservice.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/authsession.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/identity.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/identityinfo.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/libsignoncommon.h
+-rw-r--r--	root/root	usr/include/signon-qt5/SignOn/securitycontext.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/sessiondata.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/signon.h
 -rw-r--r--	root/root	usr/include/signon-qt5/SignOn/signonerror.h
@@ -74,6 +76,7 @@ drwxr-xr-x	root/root	usr/include/signond/
 -rw-r--r--	root/root	usr/include/signond/signonidentity.h
 -rw-r--r--	root/root	usr/include/signond/signonidentityadaptor.h
 -rw-r--r--	root/root	usr/include/signond/signonidentityinfo.h
+-rw-r--r--	root/root	usr/include/signond/signonsecuritycontext.h
 -rw-r--r--	root/root	usr/include/signond/signonsessioncore.h
 -rw-r--r--	root/root	usr/include/signond/signonsessioncoretools.h
 -rw-r--r--	root/root	usr/include/signond/signontrace.h
@@ -113,10 +116,6 @@ drwxr-xr-x	root/root	usr/lib/signon/
 -rwxr-xr-x	root/root	usr/lib/signon/libssotestplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
-drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.SingleSignOn.AuthService.xml
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.SingleSignOn.AuthSession.xml
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.SingleSignOn.Identity.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service
