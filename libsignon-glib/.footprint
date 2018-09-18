@@ -8,16 +8,16 @@ drwxr-xr-x	root/root	usr/include/libsignon-glib/
 -rw-r--r--	root/root	usr/include/libsignon-glib/signon-glib.h
 -rw-r--r--	root/root	usr/include/libsignon-glib/signon-identity-info.h
 -rw-r--r--	root/root	usr/include/libsignon-glib/signon-identity.h
+-rw-r--r--	root/root	usr/include/libsignon-glib/signon-security-context.h
 -rw-r--r--	root/root	usr/include/libsignon-glib/signon-types.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
--rw-r--r--	root/root	usr/lib/girepository-1.0/Signon-1.0.typelib
--rwxr-xr-x	root/root	usr/lib/libsignon-glib.la
-lrwxrwxrwx	root/root	usr/lib/libsignon-glib.so -> libsignon-glib.so.1.0.0
-lrwxrwxrwx	root/root	usr/lib/libsignon-glib.so.1 -> libsignon-glib.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libsignon-glib.so.1.0.0
+-rw-r--r--	root/root	usr/lib/girepository-1.0/Signon-2.0.typelib
+lrwxrwxrwx	root/root	usr/lib/libsignon-glib.so -> libsignon-glib.so.2
+lrwxrwxrwx	root/root	usr/lib/libsignon-glib.so.2 -> libsignon-glib.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libsignon-glib.so.2.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libsignon-glib.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/gir-1.0/
--rw-r--r--	root/root	usr/share/gir-1.0/Signon-1.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/Signon-2.0.gir

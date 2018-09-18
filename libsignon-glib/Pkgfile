@@ -1,28 +1,35 @@
 # Description: Glib-based library for interfacing with signond
 # URL: https://gitlab.com/accounts-sso/libsignon-glib
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: git gtk-doc signond
+# Depends on: git gtk-doc signond meson vala python-six
 
 name=libsignon-glib
-version=1.15
+version=2.0
 release=1
 source=()
 
 build() 
 {
 	git clone https://gitlab.com/accounts-sso/$name.git --branch=VERSION_$version
+	mkdir build
+
 	cd $name
 	git submodule init
 	git submodule update
+	cd -
 
-	./autogen.sh
-	CONFIG_SHELL="/bin/bash" ./configure --prefix=/usr \
-		--sysconfdir=/usr/etc \
-		--disable-gtk-doc
+	cd build
+	meson ../$name -Dprefix=/usr \
+		-Dtests=false \
+		-Ddocumentation=false \
+		-Dpython=false
 
-	make
-	make DESTDIR=$PKG install
+	ninja
+	DESTDIR=$PKG ninja install
 
 	# remove vala bindings
 	rm -rf $PKG/usr/share/vala
+
+	# remove documentation
+	rm -rf $PKG/usr/share/gtk-doc
 }
