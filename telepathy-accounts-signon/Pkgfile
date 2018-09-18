@@ -5,13 +5,18 @@
 
 name=telepathy-accounts-signon
 version=1.0
-release=1
-source=()
+release=2
+source=(libsignon-glib-2.0.patch)
 
 build() 
 {
 	git clone https://gitlab.com/accounts-sso/$name.git --branch=$version
 	cd $name
+
+	cd mcp-account-manager-accounts-sso
+	# fix build with libsignon-glib 2.0
+	patch -Np2 -i $SRC/libsignon-glib-2.0.patch
+	cd -
 
 	qmake-qt5 PREFIX=/usr LIBDIR=/usr/lib
 
