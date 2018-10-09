@@ -4,11 +4,11 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/oxygen-settings5
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/liboxygenstyle5.so -> liboxygenstyle5.so.5
-lrwxrwxrwx	root/root	usr/lib/liboxygenstyle5.so.5 -> liboxygenstyle5.so.5.13.5
--rwxr-xr-x	root/root	usr/lib/liboxygenstyle5.so.5.13.5
+lrwxrwxrwx	root/root	usr/lib/liboxygenstyle5.so.5 -> liboxygenstyle5.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/liboxygenstyle5.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/liboxygenstyleconfig5.so -> liboxygenstyleconfig5.so.5
-lrwxrwxrwx	root/root	usr/lib/liboxygenstyleconfig5.so.5 -> liboxygenstyleconfig5.so.5.13.5
--rwxr-xr-x	root/root	usr/lib/liboxygenstyleconfig5.so.5.13.5
+lrwxrwxrwx	root/root	usr/lib/liboxygenstyleconfig5.so.5 -> liboxygenstyleconfig5.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/liboxygenstyleconfig5.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kstyle_oxygen_config.so
@@ -35,7 +35,7 @@ lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/all-scroll -> fleur
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/bottom_side
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/center_ptr
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/closedhand
-lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/col-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/col-resize -> split_h
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/cross
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/crossed_circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/crosshair
@@ -67,7 +67,7 @@ lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/progress -> half-busy
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/question_arrow
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/right_ptr
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/right_side
-lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/row-resize -> split_h
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/s-resize -> size_ver
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/sb_h_double_arrow
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/sb_v_double_arrow
@@ -113,7 +113,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/all-scroll -> fleur
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/circle
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/closedhand
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/col-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/col-resize -> split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/color-picker
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/cross
@@ -148,7 +148,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/pointer -> pointing_ha
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/progress -> half-busy
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/question_arrow -> help
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/row-resize -> split_h
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sb_v_double_arrow -> size_ver
@@ -190,7 +190,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/all-scroll -> fleur
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/circle
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/closedhand
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/col-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/col-resize -> split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/color-picker
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/cross
@@ -225,7 +225,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/pointer -> pointing_han
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/progress -> half-busy
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/question_arrow -> help
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/row-resize -> split_h
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sb_v_double_arrow -> size_ver
@@ -267,7 +267,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/all-scroll -> fleur
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/circle
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/closedhand
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/col-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/col-resize -> split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/color-picker
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/cross
@@ -302,7 +302,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/pointer -> pointing_ha
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/progress -> half-busy
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/question_arrow -> help
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/row-resize -> split_h
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sb_v_double_arrow -> size_ver
@@ -344,7 +344,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/all-scroll -> fleur
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/circle
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/closedhand
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/col-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/col-resize -> split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/color-picker
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/cross
@@ -379,7 +379,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/pointer -> pointing_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/progress -> half-busy
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/question_arrow -> help
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/row-resize -> split_h
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sb_v_double_arrow -> size_ver
@@ -421,7 +421,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/all-scroll -> fleur
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/circle
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/closedhand
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/col-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/col-resize -> split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/color-picker
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/copy
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/cross
@@ -456,7 +456,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/pointer -> pointing_han
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/progress -> half-busy
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/question_arrow -> help
-lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/row-resize -> split_h
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sb_v_double_arrow -> size_ver
