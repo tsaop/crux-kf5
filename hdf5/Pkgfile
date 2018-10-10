@@ -1,11 +1,11 @@
 # Description: Data model, library, and file format for storing and managing data
 # URL: https://support.hdfgroup.org/HDF5/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: glibc zlib  
+# Depends on:  glibc zlib
 
 name=hdf5
-version=1.10.1
-release=2
+version=1.10.4
+release=1
 source=(https://support.hdfgroup.org/ftp/HDF5/current/src/$name-$version.tar.bz2)
 
 build() {
