@@ -1,12 +1,12 @@
 # Description: Plugin and hook calling mechanisms for python
 # URL: https://pypi.python.org/pypi/pluggy
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: python-setuptools
+# Depends on:  python-setuptools
 
 name=python-pluggy
-version=0.7.1
+version=0.8.0
 release=1
-source=(https://files.pythonhosted.org/packages/a1/83/ef7d976c12d67a5c7a5bc2a47f0501c926cabae9d9fcfdc26d72abc9ba15/${name/python-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/65/25/81d0de17cd00f8ca994a4e74e3c4baf7cd25072c0b831dad5c7d9d6138f8/${name/python-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python-/}-$version
