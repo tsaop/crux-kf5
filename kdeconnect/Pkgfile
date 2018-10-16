@@ -4,7 +4,7 @@
 # Depends on: gtk kcmutils kwayland libfakekey qca-qt5 sshfs-fuse
 
 name=kdeconnect
-version=1.3.1
+version=1.3.2
 release=1
 source=(http://download.kde.org/stable/$name/$version/src/$name-kde-${version}.tar.xz)
 
