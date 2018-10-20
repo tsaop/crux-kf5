@@ -1,10 +1,14 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/kpeople.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KPeople/
 drwxr-xr-x	root/root	usr/include/KF5/KPeople/KPeople/
 -rw-r--r--	root/root	usr/include/KF5/KPeople/KPeople/Global
 -rw-r--r--	root/root	usr/include/KF5/KPeople/KPeople/PersonData
+-rw-r--r--	root/root	usr/include/KF5/KPeople/KPeople/PersonPluginManager
 -rw-r--r--	root/root	usr/include/KF5/KPeople/KPeople/PersonsModel
 drwxr-xr-x	root/root	usr/include/KF5/KPeople/KPeople/Widgets/
 -rw-r--r--	root/root	usr/include/KF5/KPeople/KPeople/Widgets/AbstractFieldWidgetFactory
@@ -22,6 +26,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPeople/kpeople/
 -rw-r--r--	root/root	usr/include/KF5/KPeople/kpeople/global.h
 -rw-r--r--	root/root	usr/include/KF5/KPeople/kpeople/kpeople_export.h
 -rw-r--r--	root/root	usr/include/KF5/KPeople/kpeople/persondata.h
+-rw-r--r--	root/root	usr/include/KF5/KPeople/kpeople/personpluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/KPeople/kpeople/personsmodel.h
 drwxr-xr-x	root/root	usr/include/KF5/KPeople/kpeople/widgets/
 -rw-r--r--	root/root	usr/include/KF5/KPeople/kpeople/widgets/abstractfieldwidgetfactory.h
@@ -45,14 +50,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5People/
 -rw-r--r--	root/root	usr/lib/cmake/KF5People/KPeopleTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5People/KPeopleTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5People.so -> libKF5People.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5People.so.5 -> libKF5People.so.5.50.0
--rwxr-xr-x	root/root	usr/lib/libKF5People.so.5.50.0
+lrwxrwxrwx	root/root	usr/lib/libKF5People.so.5 -> libKF5People.so.5.51.0
+-rwxr-xr-x	root/root	usr/lib/libKF5People.so.5.51.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PeopleBackend.so -> libKF5PeopleBackend.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PeopleBackend.so.5 -> libKF5PeopleBackend.so.5.50.0
--rwxr-xr-x	root/root	usr/lib/libKF5PeopleBackend.so.5.50.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PeopleBackend.so.5 -> libKF5PeopleBackend.so.5.51.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PeopleBackend.so.5.51.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PeopleWidgets.so -> libKF5PeopleWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PeopleWidgets.so.5 -> libKF5PeopleWidgets.so.5.50.0
--rwxr-xr-x	root/root	usr/lib/libKF5PeopleWidgets.so.5.50.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PeopleWidgets.so.5 -> libKF5PeopleWidgets.so.5.51.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PeopleWidgets.so.5.51.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
