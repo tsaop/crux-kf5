@@ -4,23 +4,21 @@
 # Depends on: libaccounts-glib libsignon-glib telepathy-mission-control
 
 name=telepathy-accounts-signon
-version=1.0
-release=2
-source=(libsignon-glib-2.0.patch)
+version=2.0
+release=1
+source=()
 
 build() 
 {
 	git clone https://gitlab.com/accounts-sso/$name.git --branch=$version
 	cd $name
+	mkdir build ; cd build
 
-	cd mcp-account-manager-accounts-sso
-	# fix build with libsignon-glib 2.0
-	patch -Np2 -i $SRC/libsignon-glib-2.0.patch
-	cd -
+	meson -Dprefix=/usr \
+		..
 
-	qmake-qt5 PREFIX=/usr LIBDIR=/usr/lib
+	ninja
 
-	make
-	make INSTALL_ROOT=$PKG install
+	DESTDIR=$PKG ninja install
 	rm -rf $PKG/usr/share/doc
 }
