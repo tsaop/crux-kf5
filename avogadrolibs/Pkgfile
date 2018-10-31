@@ -4,7 +4,7 @@
 # Depends on: boost eigen libmsym molequeue spglib
 
 name=avogadrolibs
-version=1.91.0
+version=1.92.0
 release=1
 source=(https://github.com/OpenChemistry/$name/archive/$version/$name-$version.tar.gz)
 
@@ -19,6 +19,7 @@ build() {
 	cmake -DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DUSE_MMTF=OFF \
 		..
 	
 	make
