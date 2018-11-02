@@ -1,10 +1,10 @@
 # Description: GLib-based client library for the accounts database
 # URL: https://gitlab.com/accounts-sso/libaccounts-glib
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: git gobject-introspection gtk-doc util-linux
+# Depends on: check git gtk-doc python-six python3-gobject util-linux vala
 
 name=libaccounts-glib
-version=1.23
+version=1.24
 release=1
 source=()
 
@@ -12,11 +12,13 @@ build()
 {
 	git clone https://gitlab.com/accounts-sso/$name.git --branch=VERSION_$version
 	cd $name
+	mkdir build; cd build
 
-	./autogen.sh
-	./configure --prefix=/usr \
-		--disable-gtk-doc
+	meson -Dprefix=/usr \
+		-Dtests=false \
+		..
 
-	make
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
+
+	rm -rf $PKG/usr/share/gtk-doc
 }

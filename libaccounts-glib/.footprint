@@ -15,28 +15,35 @@ drwxr-xr-x	root/root	usr/include/libaccounts-glib/
 -rw-r--r--	root/root	usr/include/libaccounts-glib/ag-service-type.h
 -rw-r--r--	root/root	usr/include/libaccounts-glib/ag-service.h
 -rw-r--r--	root/root	usr/include/libaccounts-glib/ag-types.h
+-rw-r--r--	root/root	usr/include/libaccounts-glib/libaccounts-glib.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Accounts-1.0.typelib
--rwxr-xr-x	root/root	usr/lib/libaccounts-glib.la
-lrwxrwxrwx	root/root	usr/lib/libaccounts-glib.so -> libaccounts-glib.so.0.2.0
-lrwxrwxrwx	root/root	usr/lib/libaccounts-glib.so.0 -> libaccounts-glib.so.0.2.0
--rwxr-xr-x	root/root	usr/lib/libaccounts-glib.so.0.2.0
+lrwxrwxrwx	root/root	usr/lib/libaccounts-glib.so -> libaccounts-glib.so.1
+-rwxr-xr-x	root/root	usr/lib/libaccounts-glib.so.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libaccounts-glib.pc
+drwxr-xr-x	root/root	usr/lib/python3.6/
+drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/gi/
+drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/gi/overrides/
+-rw-r--r--	root/root	usr/lib/python3.6/site-packages/gi/overrides/Accounts.py
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/backup-framework/
-drwxr-xr-x	root/root	usr/share/backup-framework/applications/
--rw-r--r--	root/root	usr/share/backup-framework/applications/accounts.conf
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.google.code.AccountsSSO.Accounts.Manager.xml
+drwxr-xr-x	root/root	usr/share/gettext/
+drwxr-xr-x	root/root	usr/share/gettext/its/
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-application.its
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-application.loc
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-provider.its
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-provider.loc
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-service-type.its
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-service-type.loc
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-service.its
+-rw-r--r--	root/root	usr/share/gettext/its/accounts-service.loc
 drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/Accounts-1.0.gir
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/ag-backup.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ag-tool.1.gz
 drwxr-xr-x	root/root	usr/share/vala/
 drwxr-xr-x	root/root	usr/share/vala/vapi/
 -rw-r--r--	root/root	usr/share/vala/vapi/libaccounts-glib.deps
