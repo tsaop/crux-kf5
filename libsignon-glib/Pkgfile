@@ -1,10 +1,10 @@
 # Description: Glib-based library for interfacing with signond
 # URL: https://gitlab.com/accounts-sso/libsignon-glib
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: git gtk-doc signond meson vala python-six
+# Depends on: gtk-doc python-six signond vala
 
 name=libsignon-glib
-version=2.0
+version=2.1
 release=1
 source=()
 
