@@ -5,23 +5,26 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/kmymoney/
 -rw-r--r--	root/root	usr/include/kmymoney/amountedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/amountvalidator.h
+-rw-r--r--	root/root	usr/include/kmymoney/appinterface.h
+-rw-r--r--	root/root	usr/include/kmymoney/bicvalidator.h
 -rw-r--r--	root/root	usr/include/kmymoney/creditdebithelper.h
--rw-r--r--	root/root	usr/include/kmymoney/databasestoreableobject.h
 -rw-r--r--	root/root	usr/include/kmymoney/fancydategroupmarker.h
 -rw-r--r--	root/root	usr/include/kmymoney/groupmarker.h
+-rw-r--r--	root/root	usr/include/kmymoney/ibanbicitemdelegate.h
+-rw-r--r--	root/root	usr/include/kmymoney/ibanvalidator.h
 -rw-r--r--	root/root	usr/include/kmymoney/importinterface.h
 -rw-r--r--	root/root	usr/include/kmymoney/imymoneyprocessingcalendar.h
--rw-r--r--	root/root	usr/include/kmymoney/imymoneyserialize.h
--rw-r--r--	root/root	usr/include/kmymoney/imymoneystorage.h
 -rw-r--r--	root/root	usr/include/kmymoney/imymoneystorageformat.h
 -rw-r--r--	root/root	usr/include/kmymoney/investtransaction.h
 -rw-r--r--	root/root	usr/include/kmymoney/investtransactioneditor.h
 -rw-r--r--	root/root	usr/include/kmymoney/kaccounttemplateselector.h
--rw-r--r--	root/root	usr/include/kmymoney/kbudgetvalues.h
+-rw-r--r--	root/root	usr/include/kmymoney/kbicedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kcurrencycalculator.h
 -rw-r--r--	root/root	usr/include/kmymoney/kguiutils.h
+-rw-r--r--	root/root	usr/include/kmymoney/kibanlineedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmm_mymoney_export.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmm_plugin_export.h
+-rw-r--r--	root/root	usr/include/kmymoney/kmm_settings_export.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmm_widgets_export.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyaccountcombo.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyaccountcompletion.h
@@ -33,12 +36,12 @@ drwxr-xr-x	root/root	usr/include/kmymoney/
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneydateedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneydateinput.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyedit.h
--rw-r--r--	root/root	usr/include/kmymoney/kmymoneyglobalsettings.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneylineedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneymvccombo.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyplugin.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyselector.h
--rw-r--r--	root/root	usr/include/kmymoney/kmymoneystorageplugin.h
+-rw-r--r--	root/root	usr/include/kmymoney/kmymoneysettings.h
+-rw-r--r--	root/root	usr/include/kmymoney/kmymoneysettings_addons.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneytitlelabel.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyutils.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyvalidationfeedback.h
@@ -46,6 +49,7 @@ drwxr-xr-x	root/root	usr/include/kmymoney/
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneybudget.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneycategory.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneycostcenter.h
+-rw-r--r--	root/root	usr/include/kmymoney/mymoneyenums.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyexception.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyfile.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyfinancialcalculator.h
@@ -55,7 +59,6 @@ drwxr-xr-x	root/root	usr/include/kmymoney/
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneykeyvaluecontainer.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneymoney.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyobject.h
--rw-r--r--	root/root	usr/include/kmymoney/mymoneyobjectcontainer.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneypayee.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneypayeeidentifiercontainer.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyprice.h
@@ -64,12 +67,15 @@ drwxr-xr-x	root/root	usr/include/kmymoney/
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneysecurity.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneysplit.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneystatement.h
+-rw-r--r--	root/root	usr/include/kmymoney/mymoneystoragemgr.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneytag.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneytemplate.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneytransaction.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneytransactionfilter.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyunittestable.h
 -rw-r--r--	root/root	usr/include/kmymoney/mymoneyutils.h
+-rw-r--r--	root/root	usr/include/kmymoney/nationalaccountdelegate.h
+-rw-r--r--	root/root	usr/include/kmymoney/nationalaccountedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinejob.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinejobfolder.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinejobmessage.h
@@ -84,12 +90,8 @@ drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/interfaces/
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetask.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetaskconverter.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetasksettingsfactory.h
-drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/sepa/
--rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/sepa/sepaonlinetransfer.h
 -rw-r--r--	root/root	usr/include/kmymoney/register.h
 -rw-r--r--	root/root	usr/include/kmymoney/registeritem.h
--rw-r--r--	root/root	usr/include/kmymoney/reportcontrolimpl.h
--rw-r--r--	root/root	usr/include/kmymoney/reporttabimpl.h
 -rw-r--r--	root/root	usr/include/kmymoney/scheduledtransaction.h
 -rw-r--r--	root/root	usr/include/kmymoney/selectedtransaction.h
 -rw-r--r--	root/root	usr/include/kmymoney/selectedtransactions.h
@@ -107,54 +109,59 @@ drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/sepa/
 -rw-r--r--	root/root	usr/include/kmymoney/viewinterface.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so -> libkmm_csvimportercore.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so.5 -> libkmm_csvimportercore.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libkmm_csvimportercore.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so.5 -> libkmm_csvimportercore.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_csvimportercore.so.5.0.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so -> libkmm_icons.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so.5 -> libkmm_icons.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libkmm_icons.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so.5 -> libkmm_icons.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_icons.so.5.0.2
+lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so -> libkmm_menus.so.5
+lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so.5 -> libkmm_menus.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_menus.so.5.0.2
+lrwxrwxrwx	root/root	usr/lib/libkmm_models.so -> libkmm_models.so.5
+lrwxrwxrwx	root/root	usr/lib/libkmm_models.so.5 -> libkmm_models.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_models.so.5.0.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so -> libkmm_mymoney.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so.5 -> libkmm_mymoney.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libkmm_mymoney.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so.5 -> libkmm_mymoney.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_mymoney.so.5.0.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so -> libkmm_payeeidentifier.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so.5 -> libkmm_payeeidentifier.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libkmm_payeeidentifier.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so.5 -> libkmm_payeeidentifier.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_payeeidentifier.so.5.0.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so -> libkmm_plugin.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so.5 -> libkmm_plugin.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libkmm_plugin.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so.5 -> libkmm_plugin.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_plugin.so.5.0.2
+lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so -> libkmm_settings.so.5
+lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so.5 -> libkmm_settings.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_settings.so.5.0.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so -> libkmm_widgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so.5 -> libkmm_widgets.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libkmm_widgets.so.5.0.0
-lrwxrwxrwx	root/root	usr/lib/libpayeeidentifier_iban_bic.so -> libpayeeidentifier_iban_bic.so.5
-lrwxrwxrwx	root/root	usr/lib/libpayeeidentifier_iban_bic.so.5 -> libpayeeidentifier_iban_bic.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libpayeeidentifier_iban_bic.so.5.0.0
-lrwxrwxrwx	root/root	usr/lib/libpayeeidentifier_iban_bic_widgets.so -> libpayeeidentifier_iban_bic_widgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libpayeeidentifier_iban_bic_widgets.so.5 -> libpayeeidentifier_iban_bic_widgets.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libpayeeidentifier_iban_bic_widgets.so.5.0.0
-lrwxrwxrwx	root/root	usr/lib/libpayeeidentifier_nationalAccount.so -> libpayeeidentifier_nationalAccount.so.5
-lrwxrwxrwx	root/root	usr/lib/libpayeeidentifier_nationalAccount.so.5 -> libpayeeidentifier_nationalAccount.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libpayeeidentifier_nationalAccount.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so.5 -> libkmm_widgets.so.5.0.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_widgets.so.5.0.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/budgetview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/checkprinting.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/csvexporter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/csvimporter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/forecastview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/gncimporter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/icalendarexporter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kbanking.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_checkprinting.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_csvimporter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_forecastview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_icalendarexporter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_qif.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_reportsview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/kcm_xmlstorage.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/konlinetasks_sepa.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/ofximporter.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/payeeidentifier_iban_bic_delegates.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/payeeidentifier_ibanbic_storageplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/payeeidentifier_nationalAccount_ui.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/payeeidentifier_nationalaccount_storageplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/onlinejoboutboxview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/qifexporter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/qifimporter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/reconciliationreport.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/reportsview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/sqlstorage.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/xmlstorage.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/org.kde.kmymoney.desktop
@@ -1283,19 +1290,15 @@ drwxr-xr-x	root/root	usr/share/kmymoney/templates/zh_TW/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kcm_checkprinting.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_csvimporter.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_forecastview.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_icalendarexporter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_qifexporter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_qifimporter.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmymoney-ibanbic-delegate.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmymoney-ibanbic-storageplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmymoney-nationalaccount-delegate.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmymoney-nationalaccount-storageplugin.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_reportsview.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_xmlstorage.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/ibanbicdata.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/kmymoney-importerplugin.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/kmymoney-nationalaccountnumberplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/kmymoney-payeeidentifierdelegate.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/kmymoney-sqlstorageplugin.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/checkprinting/
 -rw-r--r--	root/root	usr/share/kxmlgui5/checkprinting/checkprinting.rc
@@ -1303,8 +1306,6 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/csvexporter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/csvexporter/csvexporter.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/csvimporter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/csvimporter/csvimporter.rc
-drwxr-xr-x	root/root	usr/share/kxmlgui5/gncimporter/
--rw-r--r--	root/root	usr/share/kxmlgui5/gncimporter/gncimporter.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/icalendarexporter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/icalendarexporter/icalendarexporter.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kbanking/
@@ -1315,6 +1316,8 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/qifexporter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/qifexporter/qifexporter.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/qifimporter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/qifimporter/qifimporter.rc
+drwxr-xr-x	root/root	usr/share/kxmlgui5/sqlstorage/
+-rw-r--r--	root/root	usr/share/kxmlgui5/sqlstorage/sqlstorage.rc
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/kmymoney.1.gz
