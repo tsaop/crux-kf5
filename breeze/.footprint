@@ -8,8 +8,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/Breeze/
 -rw-r--r--	root/root	usr/lib/cmake/Breeze/BreezeConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kde4breeze
-lrwxrwxrwx	root/root	usr/lib/libbreezecommon5.so.5 -> libbreezecommon5.so.5.14.2
--rwxr-xr-x	root/root	usr/lib/libbreezecommon5.so.5.14.2
+lrwxrwxrwx	root/root	usr/lib/libbreezecommon5.so.5 -> libbreezecommon5.so.5.14.3
+-rwxr-xr-x	root/root	usr/lib/libbreezecommon5.so.5.14.3
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kstyle_breeze_config.so
@@ -127,8 +127,10 @@ lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/left_ptr_watch -> progr
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/link -> alias
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/move -> dnd-move
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/ne-resize -> size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/no-drop
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/not-allowed
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/nw-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/pirate
@@ -144,6 +146,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/question_arrow -> help
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/size-bdiag -> default
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/size-fdiag -> default
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/size-hor -> default
@@ -155,6 +158,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/split_h -> col-resize
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/split_v -> row-resize
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/sw-resize -> size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/text
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/top_left_arrow -> default
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/top_left_corner
@@ -234,8 +238,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/left_ptr_watch -> pr
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/link -> alias
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/move -> dnd-move
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/ne-resize -> size_bdiag
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/no-drop
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/not-allowed
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/nw-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/pirate
@@ -251,6 +257,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/question_arrow -> he
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/size-bdiag -> default
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/size-fdiag -> default
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/size-hor -> default
@@ -262,6 +269,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/size_ver
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/split_h -> col-resize
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/split_v -> row-resize
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/sw-resize -> size_bdiag
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/text
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/top_left_arrow -> default
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/top_left_corner
