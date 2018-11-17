@@ -19,6 +19,8 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/BluezQt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Input
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Job
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Manager
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Media
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaEndpoint
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaPlayer
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaPlayerTrack
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/ObexAgent
@@ -44,6 +46,8 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/bluezqt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/input.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/job.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/manager.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/media.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediaendpoint.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediaplayer.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediaplayertrack.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/obexagent.h
@@ -67,8 +71,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5BluezQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so -> libKF5BluezQt.so.6
--rwxr-xr-x	root/root	usr/lib/libKF5BluezQt.so.5.51.0
-lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so.6 -> libKF5BluezQt.so.5.51.0
+-rwxr-xr-x	root/root	usr/lib/libKF5BluezQt.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so.6 -> libKF5BluezQt.so.5.52.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

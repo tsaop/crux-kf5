@@ -1,6 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/desktoptojson
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/kcoreaddons.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
@@ -75,8 +78,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.51.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.51.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.52.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.52.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
