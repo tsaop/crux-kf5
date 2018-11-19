@@ -1,12 +1,13 @@
 # Description: Open Source Computer Vision Library 
 # URL: http://opencv.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: eigen ffmpeg gtkglext jasper libgphoto2 libwebp openexr qt5
+# Depends on: eigen ffmpeg gtk3 gtkglext jasper libgphoto2 libwebp openexr qt5
 
 name=opencv
-version=3.4.3
+version=4.0.0
 release=1
-source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
+	opencv-legacy-headers.patch)
 
 build() {
 	# Download and extract OpenCV extra modules:
@@ -15,6 +16,9 @@ build() {
 	tar xf $name-contrib-$version.tar.gz
 
 	cd $name-$version
+
+	patch -Np1 -i $SRC/opencv-legacy-headers.patch
+
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
@@ -23,15 +27,28 @@ build() {
 		-DOPENCV_EXTRA_MODULES_PATH=../../${name}_contrib-$version/modules \
 		-DWITH_QT=ON \
 		-DWITH_OPENGL=ON \
-		-DWITH_GTK_2_X=ON \
+		-DOpenGL_GL_PREFERENCE=GLVND \
+		-DOPENCV_GENERATE_PKGCONFIG=ON \
 		-DWITH_GSTREAMER=OFF \
 		-DWITH_V4L=OFF \
 		-DBUILD_TESTS=OFF \
 		-DBUILD_PERF_TESTS=OFF \
-		-DPYTHON3_EXECUTABLE=/dev/null \
+		-DBUILD_WITH_DEBUG_INFO=OFF \
+		-DBUILD_EXAMPLES=OFF \
+		-DBUILD_opencv_cvv=OFF \
+		-DINSTALL_C_EXAMPLES=OFF \
+		-DINSTALL_PYTHON_EXAMPLES=OFF \
+		-DPYTHON3_EXECUTABLE=/usr/bin/python3 \
+		-DPYTHON2_EXECUTABLE=/usr/bin/python2 \
 		..
 
 	make
 	make DESTDIR=$PKG install
+
+	# python3 bindings
+	cd python_loader
+	python3 setup.py install --root=$PKG
+	rm -rf $PKG/usr/python	
+
 	rm -rf $PKG/usr/share/licenses
 }
