@@ -5,11 +5,15 @@
 
 name=digikam
 version=5.9.0
-release=1
-source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/$name/$name-$version.tar.xz
+	digikam-opencv4.patch)
 
 build() {
 	cd $name-$version
+
+	# fix build with OpenCV 4
+	patch -Np1 -i $SRC/digikam-opencv4.patch
 
 	mkdir build; cd build
 
