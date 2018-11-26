@@ -4,12 +4,16 @@
 # Depends on: libdv libsamplerate opencv sdl_image sox
 
 name=mlt
-version=6.10.0
-release=2
-source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz)
+version=6.12.0
+release=1
+source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz
+	mlt-opencv4.patch)
 
 build() {
 	cd $name-$version
+
+	# Fix build with opencv 4.0.0
+	patch -Np1 -i $SRC/mlt-opencv4.patch
 
 	# Disable PulseAudio
 	sed -i 's|-D__LINUX_PULSE__||' src/modules/rtaudio/Makefile 
@@ -24,7 +28,8 @@ build() {
 	--enable-gpl \
 	--enable-gpl3 \
 	--disable-static \
-	--enable-shared
+	--enable-shared \
+	--enable-opencv
 
 	make
 	make DESTDIR=$PKG install

@@ -59,12 +59,12 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.10.0
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.10.0
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.10.0
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.10.0
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.10.0
--rwxr-xr-x	root/root	usr/lib/libmlt.so.6.10.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.12.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.12.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.12.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.12.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.12.0
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.6.12.0
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -82,7 +82,6 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltresample.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltrtaudio.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl.so
--rwxr-xr-x	root/root	usr/lib/mlt/libmltsdl2.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsox.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvmfx.so
@@ -252,6 +251,9 @@ drwxr-xr-x	root/root	usr/share/mlt/plus/
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_lumakey.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_rgblut.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_sepia.yml
+-rw-r--r--	root/root	usr/share/mlt/plus/filter_spot_remover.yml
+-rw-r--r--	root/root	usr/share/mlt/plus/filter_text.yml
+-rw-r--r--	root/root	usr/share/mlt/plus/filter_timer.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/producer_blipflash.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/producer_count.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/transition_affine.yml
@@ -278,6 +280,11 @@ drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/WMV
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/XDCAM-HD422
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/YouTube
+drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/alpha/
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/alpha/Quicktime Animation
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/alpha/Ut Video
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/alpha/vp8
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/alpha/vp9
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/atsc_1080i_50/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/atsc_1080i_50/DNxHD
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/atsc_1080i_5994/
@@ -352,6 +359,7 @@ drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/lossless/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/FFV1
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/H.264
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/HuffYUV
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/Ut Video
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/stills/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/stills/BMP
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/stills/DPX
@@ -439,6 +447,8 @@ drwxr-xr-x	root/root	usr/share/mlt/profiles/
 -rw-r--r--	root/root	usr/share/mlt/profiles/quarter_pal_wide
 -rw-r--r--	root/root	usr/share/mlt/profiles/sdi_486i_5994
 -rw-r--r--	root/root	usr/share/mlt/profiles/sdi_486p_2398
+-rw-r--r--	root/root	usr/share/mlt/profiles/square_1080p_30
+-rw-r--r--	root/root	usr/share/mlt/profiles/square_1080p_60
 -rw-r--r--	root/root	usr/share/mlt/profiles/square_ntsc
 -rw-r--r--	root/root	usr/share/mlt/profiles/square_ntsc_wide
 -rw-r--r--	root/root	usr/share/mlt/profiles/square_pal
@@ -477,9 +487,6 @@ drwxr-xr-x	root/root	usr/share/mlt/sdl/
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_preview.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/consumer_sdl_still.yml
 -rw-r--r--	root/root	usr/share/mlt/sdl/producer_sdl_image.yml
-drwxr-xr-x	root/root	usr/share/mlt/sdl2/
--rw-r--r--	root/root	usr/share/mlt/sdl2/consumer_sdl2.yml
--rw-r--r--	root/root	usr/share/mlt/sdl2/consumer_sdl2_audio.yml
 drwxr-xr-x	root/root	usr/share/mlt/sox/
 -rw-r--r--	root/root	usr/share/mlt/sox/filter_sox.yml
 -rw-r--r--	root/root	usr/share/mlt/sox/filter_sox_effect.yml
