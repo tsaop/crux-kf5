@@ -1,21 +1,28 @@
 # Description: Integrated work applications suite for the KDE desktop
 # URL: https://www.calligra.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-contacts cauchy gsl kcalcore kcmutils kdiagram knotifyconfig kreport kross ktexteditor libetonyek libodfgen libvisio libwpg libwps okular openexr openjpeg pstoedit vc
+# Depends on: akonadi-contacts cauchy gsl kcalcore kcmutils kdiagram knotifyconfig kreport kross ktexteditor libetonyek libodfgen libvisio libwpg libwps okular openexr openjpeg pstoedit vc kholidays
 
 name=calligra
 version=3.1.0
-release=3
+release=4
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
-	calligra-3.1.0-qt-5.11.patch
-	calligra-qframe.patch)
+	calligra-qt5.11.patch
+	calligra-poppler-0.69.patch
+	calligra-poppler-0.71.patch
+	calligra-poppler-0.72.patch)
 
 build() {
 
 	cd $name-$version
 	# Fix build with QT 5.11.0
-	patch -Np1 -i $SRC/calligra-3.1.0-qt-5.11.patch
-	patch -Np1 -i $SRC/calligra-qframe.patch
+	patch -Np1 -i $SRC/calligra-qt5.11.patch
+
+	# Fix build with poppler > 0.72
+	patch -Np1 -i $SRC/calligra-poppler-0.69.patch
+	patch -Np1 -i $SRC/calligra-poppler-0.71.patch
+	patch -Np1 -i $SRC/calligra-poppler-0.72.patch
+
 	cd -
 
 	mkdir build; cd build
