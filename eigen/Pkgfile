@@ -4,18 +4,12 @@
 # Depends on: fftw freeglut glew
 
 name=eigen
-version=3.3.5
-release=2
-source=(http://bitbucket.org/$name/$name/get/$version.tar.bz2
-	fix-set-restart-return-type.patch)
+version=3.3.6
+release=1
+source=(http://bitbucket.org/$name/$name/get/$version.tar.bz2)
 
 build() {
 	cd $SRC
-
-	# Fix build with KDE step
-	cd $name-$name-*
-	patch -Np1 -i $SRC/fix-set-restart-return-type.patch
-	cd -
 
 	mkdir build; cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
