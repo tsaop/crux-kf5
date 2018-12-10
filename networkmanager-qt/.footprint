@@ -37,6 +37,7 @@ drwxr-xr-x	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpConfig
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpRoute
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpTunnelDevice
+-rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpTunnelSetting
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Ipv4Setting
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Ipv6Setting
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/MacVlanDevice
@@ -103,6 +104,7 @@ drwxr-xr-x	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/ipconfig.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/iproute.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/iptunneldevice.h
+-rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/iptunnelsetting.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/ipv4setting.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/ipv6setting.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/macvlandevice.h
@@ -147,8 +149,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NetworkManagerQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NetworkManagerQt.so -> libKF5NetworkManagerQt.so.6
--rwxr-xr-x	root/root	usr/lib/libKF5NetworkManagerQt.so.5.52.0
-lrwxrwxrwx	root/root	usr/lib/libKF5NetworkManagerQt.so.6 -> libKF5NetworkManagerQt.so.5.52.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NetworkManagerQt.so.5.53.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NetworkManagerQt.so.6 -> libKF5NetworkManagerQt.so.5.53.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

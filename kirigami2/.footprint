@@ -18,8 +18,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Kirigami2/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so -> libKF5Kirigami2.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.53.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AboutPage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractApplicationHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractApplicationItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml
@@ -51,6 +52,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/InlineMessage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ItemViewHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Label.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/LinkButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ListItemDragHandle.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/OverlaySheet.qml
@@ -62,6 +64,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Theme.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ToolBarApplicationHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Units.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/UrlButton.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/libkirigamiplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/plugins.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/

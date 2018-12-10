@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/
 drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/KTextEditor/
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/AbstractAnnotationItemDelegate
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/AnnotationInterface
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/Application
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/Attribute
@@ -39,6 +40,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/KTextEditor/
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/TextHintInterface
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/KTextEditor/View
 drwxr-xr-x	root/root	usr/include/KF5/KTextEditor/ktexteditor/
+-rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/abstractannotationitemdelegate.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/annotationinterface.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/application.h
 -rw-r--r--	root/root	usr/include/KF5/KTextEditor/ktexteditor/attribute.h
@@ -80,8 +82,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextEditor/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kauth_ktexteditor_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so -> libKF5TextEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.53.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

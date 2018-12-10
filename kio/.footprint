@@ -145,6 +145,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOFileWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KEncodingFileDialog
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KFileCopyToMenu
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KFileFilterCombo
+-rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KFilePlaceEditDialog
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KFilePlacesModel
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KFilePlacesView
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/KFilePreviewGenerator
@@ -162,6 +163,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOFileWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kencodingfiledialog.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kfilecopytomenu.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kfilefiltercombo.h
+-rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kfileplaceeditdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kfileplacesmodel.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kfileplacesview.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kfilepreviewgenerator.h
@@ -278,20 +280,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.53.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.53.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.53.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.53.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.52.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.52.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.53.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.53.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -389,7 +391,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/de2fr.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/deb.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/dictfr.desktop
--rw-r--r--	root/root	usr/share/kservices5/searchproviders/dmoz.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/docbook.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/doi.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/duckduckgo.desktop
@@ -401,7 +402,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/en2fr.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/en2it.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/es2en.desktop
--rw-r--r--	root/root	usr/share/kservices5/searchproviders/ethicle.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/facebook.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/feedster.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/flickr.desktop
@@ -427,7 +427,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/grec.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/hyperdictionary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/hyperdictionary_thesaurus.desktop
--rw-r--r--	root/root	usr/share/kservices5/searchproviders/ibl.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/identica_groups.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/identica_notices.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/identica_people.desktop
