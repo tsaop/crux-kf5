@@ -146,11 +146,11 @@ drwxr-xr-x	root/root	usr/include/avogadro/rendering/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/avogadro2/
 drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/
+drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/commands/
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/commands/scale.py
 drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/formatScripts/
 -rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/formatScripts/cclibScript.py
 -rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/formatScripts/zyx.py
-drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/workflows/
--rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/workflows/scale.py
 drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/BallStick.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/BondCentric.a
@@ -193,8 +193,8 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/VanDerWaals.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/VanDerWaalsAO.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Wireframe.a
--rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Workflows.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/apbs.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/commands.a
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/avogadrolibs/
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/AvogadroLibsConfig.cmake
