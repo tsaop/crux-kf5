@@ -1,4 +1,7 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+-rw-r--r--	root/root	usr/etc/xdg/kio_audiocd.categories
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/audiocdencoder.h
 -rw-r--r--	root/root	usr/include/audiocdplugins_export.h
@@ -26,6 +29,8 @@ drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/services/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/audiocd.desktop
 -rw-r--r--	root/root	usr/share/kservices5/audiocd.protocol
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kio_audiocd.appdata.xml
 drwxr-xr-x	root/root	usr/share/solid/
 drwxr-xr-x	root/root	usr/share/solid/actions/
 -rw-r--r--	root/root	usr/share/solid/actions/solid_audiocd.desktop

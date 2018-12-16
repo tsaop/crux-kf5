@@ -27,7 +27,6 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/LineEditWithAutoCorrection
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/LineEditWithCompleterNg
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/LogActivitiesManager
--rw-r--r--	root/root	usr/include/KF5/PimCommon/MetaType
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/MigrateApplicationFiles
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/MigrateFileInfo
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/MinimumComboBox
@@ -36,6 +35,7 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommonSettings
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimUtil
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PluginUtil
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/PurposeMenuWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/RenameFileDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/RichTexteditWithAutoCorrection
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ShareServiceUrlManager
@@ -67,6 +67,7 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/autocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/autocorrectionlanguage.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/autocorrectionwidget.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/config-pimcommon.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configureimmutablewidgetutils.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configureplugindialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configurepluginslistwidget.h
@@ -84,7 +85,6 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/lineeditwithautocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/lineeditwithcompleterng.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/logactivitiesmanager.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/metatype.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/migrateapplicationfiles.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/migratefileinfo.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/minimumcombobox.h
@@ -96,6 +96,7 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/pimcommonsettings.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/pimutil.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/pluginutil.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/purposemenuwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/renamefiledialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/richtexteditwithautocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/shareserviceurlmanager.h
@@ -138,11 +139,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so -> libKF5PimCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.10.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so -> libKF5PimCommonAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

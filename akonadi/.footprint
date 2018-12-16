@@ -37,6 +37,8 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiAgentBase/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/transportresourcebase.h
 drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AbstractDifferencesReporter
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentConfigurationBase
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentConfigurationFactoryBase
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentFilterProxyModel
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentInstance
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentInstanceCreateJob
@@ -139,6 +141,8 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/UnlinkJob
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/VectorHelper
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/abstractdifferencesreporter.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agentconfigurationbase.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agentconfigurationfactorybase.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agentfilterproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agentinstance.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agentinstancecreatejob.h
@@ -245,6 +249,8 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/vectorhelper.h
 drwxr-xr-x	root/root	usr/include/KF5/AkonadiWidgets/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/AgentActionManager
+-rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/AgentConfigurationDialog
+-rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/AgentConfigurationWidget
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/AgentInstanceWidget
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/AgentTypeDialog
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/AgentTypeWidget
@@ -271,6 +277,8 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiWidgets/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/TagSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/TagWidget
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/agentactionmanager.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/agentconfigurationdialog.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/agentconfigurationwidget.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/agentinstancewidget.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/agenttypedialog.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiWidgets/agenttypewidget.h
@@ -333,20 +341,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Akonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.10.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.10.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so -> libKF5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.10.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.10.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -8,10 +8,10 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/knotes.renamecategories
 -rw-r--r--	root/root	usr/etc/xdg/knotes_printing_theme.knsrc
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.9.3
-lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_knote.so
@@ -55,6 +55,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/knotes.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/knotes.svg
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/knotes-15.08-kickoff.sh
 -rw-r--r--	root/root	usr/share/kconf_update/knotes.upd

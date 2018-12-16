@@ -6,8 +6,8 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kaddressbook.categories
 -rw-r--r--	root/root	usr/etc/xdg/kaddressbook.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook_config_plugins.so
@@ -37,6 +37,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kaddressbook.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kaddressbook.svg
 drwxr-xr-x	root/root	usr/share/kaddressbook/
 drwxr-xr-x	root/root	usr/share/kaddressbook/printing/
 -rw-r--r--	root/root	usr/share/kaddressbook/printing/compact-style.png

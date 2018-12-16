@@ -4,7 +4,7 @@
 # Depends on:  desktop-file-utils gtk libkmahjongg pyqt5 python3-twisted vorbis-tools
 
 name=kajongg
-version=18.08.3
+version=18.12.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
@@ -32,8 +32,8 @@ build() {
 	install -dm755 $PKG/usr/bin
 	(
 	  cd $PKG/usr/bin
-	  ln -sv /usr/share/kajongg/kajongg.py kajongg
-  	  ln -sv /usr/share/kajongg/kajonggserver.py kajonggserver
+	  ln -sv /usr/share/kajongg/kajongg.py
+  	  ln -sv /usr/share/kajongg/kajonggserver.pyserver
 	)
 	chmod a+x $PKG/usr/share/kajongg/kajongg{,server}.py
 

@@ -33,16 +33,16 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kdepim-runtime.categories
 -rw-r--r--	root/root	usr/etc/xdg/kdepim-runtime.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.9.3
-lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.9.3
-lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.9.3
-lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.9.3
-lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.10.0
+lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
@@ -156,6 +156,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/96x96/apps/akonadi-ews.png
 drwxr-xr-x	root/root	usr/share/knotifications5/
+-rw-r--r--	root/root	usr/share/knotifications5/akonadi_ews_resource.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_maildispatcher_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_newmailnotifier_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_pop3_resource.notifyrc
@@ -166,6 +167,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/akonadi/davgroupware-providers/
 -rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/citadel.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/davical.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/egroupware.desktop
+-rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/nextcloud.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/opengroupware.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/owncloud-pre5.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akonadi/davgroupware-providers/owncloud-pre9.desktop

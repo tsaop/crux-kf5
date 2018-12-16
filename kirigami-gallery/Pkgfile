@@ -1,0 +1,30 @@
+# Description: Gallery application built using Kirigami
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt5 extra-cmake-modules
+
+name=kirigami-gallery
+version=18.12.0
+release=1
+source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+
+build() {
+	mkdir build; cd build
+	
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	../$name-$version
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}

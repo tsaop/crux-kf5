@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/cantor
+-rwxr-xr-x	root/root	usr/bin/cantor_python2server
 -rwxr-xr-x	root/root	usr/bin/cantor_scripteditor
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
@@ -33,9 +34,9 @@ drwxr-xr-x	root/root	usr/include/cantor/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libcantor_config.so
 -rwxr-xr-x	root/root	usr/lib/libcantor_pythonbackend.so
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.18
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.18 -> libcantorlibs.so.18.08.3
--rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.18.08.3
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.20
+-rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.18.12.0
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.20 -> libcantorlibs.so.18.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/

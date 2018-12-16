@@ -41,7 +41,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailInterfaces
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailKernel
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailUtil
--rw-r--r--	root/root	usr/include/KF5/MailCommon/MetaType
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/RedirectDialog
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/ResourceReadConfigFile
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/SearchPattern
@@ -90,7 +89,6 @@ drwxr-xr-x	root/root	usr/include/KF5/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/mailkernel.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/mailutil.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/mdnstateattribute.h
--rw-r--r--	root/root	usr/include/KF5/mailcommon/metatype.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/pop3settings.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/redirectdialog.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/resourcereadconfigfile.h
@@ -111,8 +109,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailCommon/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so -> libKF5MailCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

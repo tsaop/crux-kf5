@@ -1,10 +1,10 @@
 # Description: Audiocd KIO for listening to audio CDs
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: flac libkcddb libkcompactdisc
+# Depends on: flac kcmutils libkcddb libkcompactdisc
 
 name=audiocd-kio
-version=18.08.3
+version=18.12.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_followupreminder_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_mailfilter_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_sendlater_agent
+-rwxr-xr-x	root/root	usr/bin/akonadi_unifiedmailbox_agent
 -rwxr-xr-x	root/root	usr/bin/kmail
 -rwxr-xr-x	root/root	usr/bin/ktnef
 drwxr-xr-x	root/root	usr/etc/
@@ -13,8 +14,8 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/ktnefapps.categories
 -rw-r--r--	root/root	usr/etc/xdg/ktnefapps.renamecategories
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.9.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.9.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmail.so
@@ -30,6 +31,7 @@ drwxr-xr-x	root/root	usr/share/akonadi/agents/
 -rw-r--r--	root/root	usr/share/akonadi/agents/followupreminder.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/mailfilteragent.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/sendlateragent.desktop
+-rw-r--r--	root/root	usr/share/akonadi/agents/unifiedmailboxagent.desktop
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kmail_view.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kmail2.desktop
@@ -108,7 +110,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/8x8/emblems/
 -rw-r--r--	root/root	usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-4.svg
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kmail.svgz
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kmail.svg
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/kmail-15.08-kickoff.sh
 -rw-r--r--	root/root	usr/share/kconf_update/kmail.upd
@@ -128,8 +130,6 @@ drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
 -rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/kmail.setdlg
 -rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/summary.setdlg
 drwxr-xr-x	root/root	usr/share/kservices5/
-drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
--rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/kmail_addattachmentservicemenu.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkmailsummary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkontactsummary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kmail_config_accounts.desktop
