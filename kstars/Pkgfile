@@ -4,7 +4,7 @@
 # Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw xplanet
 
 name=kstars
-version=2.9.8
+version=3.0.0
 source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
 release=1
 
@@ -25,10 +25,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	mkdir $PKG/usr/etc -p
-	mv $PKG/etc/dbus-1 $PKG/usr/etc
-	rmdir $PKG/etc
-	
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/doc
 }
