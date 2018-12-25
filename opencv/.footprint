@@ -143,6 +143,15 @@ drwxr-xr-x	root/root	usr/include/opencv4/opencv2/core/utils/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core/vsx_utils.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core_detect.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/cvconfig.h
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv.hpp
+drwxr-xr-x	root/root	usr/include/opencv4/opencv2/cvv/
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/call_meta_data.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/cvv.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/debug_mode.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/dmatch.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/filter.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/final_show.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/cvv/show_image.hpp
 drwxr-xr-x	root/root	usr/include/opencv4/opencv2/datasets/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/datasets/ar_hmdb.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/datasets/ar_sports.hpp
@@ -528,6 +537,9 @@ lrwxrwxrwx	root/root	usr/lib/libopencv_ccalib.so.4.0 -> libopencv_ccalib.so.4.0.
 lrwxrwxrwx	root/root	usr/lib/libopencv_core.so -> libopencv_core.so.4.0
 lrwxrwxrwx	root/root	usr/lib/libopencv_core.so.4.0 -> libopencv_core.so.4.0.1
 -rwxr-xr-x	root/root	usr/lib/libopencv_core.so.4.0.1
+lrwxrwxrwx	root/root	usr/lib/libopencv_cvv.so -> libopencv_cvv.so.4.0
+lrwxrwxrwx	root/root	usr/lib/libopencv_cvv.so.4.0 -> libopencv_cvv.so.4.0.1
+-rwxr-xr-x	root/root	usr/lib/libopencv_cvv.so.4.0.1
 lrwxrwxrwx	root/root	usr/lib/libopencv_datasets.so -> libopencv_datasets.so.4.0
 lrwxrwxrwx	root/root	usr/lib/libopencv_datasets.so.4.0 -> libopencv_datasets.so.4.0.1
 -rwxr-xr-x	root/root	usr/lib/libopencv_datasets.so.4.0.1
