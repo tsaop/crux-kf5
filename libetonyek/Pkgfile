@@ -4,7 +4,7 @@
 # Depends on: glm liblangtag librevenge mdds
 
 name=libetonyek
-version=0.1.8
+version=0.1.9
 release=1
 source=(http://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz)
 
@@ -14,7 +14,8 @@ build() {
 	autoreconf -vfi
 	./configure --prefix=/usr \
 		--libdir=/usr/lib \
-		--disable-tests
+		--disable-tests \
+		--with-mdds=1.4
 
 	make
 	make DESTDIR=$PKG install
