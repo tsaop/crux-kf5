@@ -1,15 +1,16 @@
 # Description: Opensource implementation of both encoder and decoder of the ITU G729 Annex A/B speech codec.
 # URL: https://www.linphone.org/technical-corner/bcg729/overview
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: glibc  
+# Depends on:  glibc
 
 name=bcg729
-version=1.0.0
+version=1.0.4
 release=1
-source=(http://download-mirror.savannah.gnu.org/releases/linphone/plugins/sources/$name-$version.tar.gz)
+source=(https://linphone.org/releases/sources/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
+	./autogen.sh
 	./configure --prefix=/usr \
 		--disable-strict \
 		--disable-static
