@@ -1,10 +1,10 @@
 # Description: Chess board program
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdbusaddons kconfigwidgets kcrash ktextwidgets kxmlgui kio kplotting kdoctools kwallet plasma-framework libkdegames
+# Depends on: kplotting libkdegames plasma-framework
 
 name=knights
-version=18.12.0
+version=18.12.1
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
