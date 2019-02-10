@@ -16,6 +16,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KConfigWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KConfigViewStateSaver
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KHelpClient
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KLanguageButton
+-rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KLanguageName
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KPasteTextAction
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KRecentFilesAction
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KStandardAction
@@ -31,6 +32,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KConfigWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kconfigwidgets_export.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/khelpclient.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/klanguagebutton.h
+-rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/klanguagename.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kpastetextaction.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/krecentfilesaction.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kstandardaction.h
@@ -46,8 +48,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ConfigWidgets/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5ConfigWidgets.so -> libKF5ConfigWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ConfigWidgets.so.5 -> libKF5ConfigWidgets.so.5.54.0
--rwxr-xr-x	root/root	usr/lib/libKF5ConfigWidgets.so.5.54.0
+lrwxrwxrwx	root/root	usr/lib/libKF5ConfigWidgets.so.5 -> libKF5ConfigWidgets.so.5.55.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ConfigWidgets.so.5.55.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
