@@ -4,17 +4,12 @@
 # Depends on: akonadi-contacts kcalcore kfilemetadata knotifyconfig lensfun libkipi liblqr opencv qtav threadweaver
 
 name=digikam
-version=5.9.0
-release=2
-source=(http://download.kde.org/stable/$name/$name-$version.tar.xz
-	digikam-opencv4.patch)
+version=6.0.0
+release=1
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	# fix build with OpenCV 4
-	patch -Np1 -i $SRC/digikam-opencv4.patch
-
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
