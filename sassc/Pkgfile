@@ -1,0 +1,20 @@
+# Description: libsass command line driver
+# URL: http://libsass.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libsass
+
+name=sassc
+version=3.5.0
+release=1
+source=(https://github.com/sass/$name/archive/${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	autoreconf -vfi
+	./configure --prefix=/usr \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
