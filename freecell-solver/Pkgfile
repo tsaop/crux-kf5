@@ -1,10 +1,10 @@
 # Description: A program that automatically solves layouts of Freecell and similar variants of Card Solitaire
 # URL: http://fc-solve.shlomifish.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  cmake p5-path-tiny p5-template-toolkit python3-random2 python3-six
+# Depends on:  cmake p5-path-tiny p5-template-toolkit python3-pysol-cards python3-random2 python3-six
 
 name=freecell-solver
-version=5.0.0
+version=5.2.0
 release=1
 source=(http://fc-solve.shlomifish.org/downloads/fc-solve/$name-$version.tar.xz)
 
