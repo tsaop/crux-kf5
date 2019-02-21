@@ -1,0 +1,17 @@
+# Description: PBR is a library that injects some useful and sensible default behaviors into your setuptools run
+# URL: https://pypi.org/project/pbr/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3-setuptools
+
+name=python3-pbr
+version=5.1.2
+release=1
+source=(https://files.pythonhosted.org/packages/4e/cc/691ba51448695510978855c07753344ca27af1d881a05f03b56dd8087570/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+
+	find $PKG -perm -o+w -exec chmod o-w {} \;
+}
