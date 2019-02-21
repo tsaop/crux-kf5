@@ -1,0 +1,15 @@
+# Description: Python 3 modules for freecell-solver
+# URL: https://pypi.org/project/pysol-cards/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3-setuptools python3-pbr
+
+name=python3-pysol-cards
+version=0.4.1
+release=1
+source=(https://files.pythonhosted.org/packages/f6/52/67acf3034de6e3d44169015fa1dbd486ed5a28b6af846c86176b201a45f9/pysol_cards-0.4.1.tar.gz)
+
+build() {
+	cd pysol_cards-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}
