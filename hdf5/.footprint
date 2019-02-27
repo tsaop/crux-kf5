@@ -39,6 +39,7 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5FDpublic.h
 -rw-r--r--	root/root	usr/include/H5FDsec2.h
 -rw-r--r--	root/root	usr/include/H5FDstdio.h
+-rw-r--r--	root/root	usr/include/H5FDwindows.h
 -rw-r--r--	root/root	usr/include/H5Fpublic.h
 -rw-r--r--	root/root	usr/include/H5Gpublic.h
 -rw-r--r--	root/root	usr/include/H5IMpublic.h
@@ -66,10 +67,10 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/hdf5_hl.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libhdf5.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.103.0.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so.103 -> libhdf5.so.103.0.0
--rwxr-xr-x	root/root	usr/lib/libhdf5.so.103.0.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.103.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so.103 -> libhdf5.so.103.1.0
+-rwxr-xr-x	root/root	usr/lib/libhdf5.so.103.1.0
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.100.1.1
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.100 -> libhdf5_hl.so.100.1.1
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.100.1.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.100.1.2
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.100 -> libhdf5_hl.so.100.1.2
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.100.1.2
