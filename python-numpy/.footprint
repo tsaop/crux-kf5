@@ -6,13 +6,13 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.1-py2.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy-1.16.2-py2.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/LICENSE.txt
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/__config__.py
@@ -55,7 +55,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/core/_internal.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/core/_methods.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/core/_methods.pyc
--rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/_multiarray_module_test.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/_multiarray_tests.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/_multiarray_umath.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/core/_operand_flag_tests.so
@@ -194,6 +193,8 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/distutils/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/__version__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/__version__.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/_shell_utils.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/_shell_utils.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/ccompiler.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/ccompiler.pyc
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/distutils/command/
@@ -322,6 +323,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_from_template.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_misc_util.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_npy_pkg_config.py
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_shell_utils.py
 -rw-rw-r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/tests/test_system_info.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/unixccompiler.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/numpy/distutils/unixccompiler.pyc
