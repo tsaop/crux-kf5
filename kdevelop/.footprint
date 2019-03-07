@@ -323,6 +323,7 @@ drwxr-xr-x	root/root	usr/include/kdevplatform/shell/
 -rw-r--r--	root/root	usr/include/kdevplatform/shell/problemconstants.h
 -rw-r--r--	root/root	usr/include/kdevplatform/shell/problemmodel.h
 -rw-r--r--	root/root	usr/include/kdevplatform/shell/problemmodelset.h
+-rw-r--r--	root/root	usr/include/kdevplatform/shell/problemstore.h
 -rw-r--r--	root/root	usr/include/kdevplatform/shell/project.h
 -rw-r--r--	root/root	usr/include/kdevplatform/shell/projectcontroller.h
 -rw-r--r--	root/root	usr/include/kdevplatform/shell/runcontroller.h
@@ -431,38 +432,38 @@ drwxr-xr-x	root/root	usr/lib/cmake/KDevelop/
 -rw-r--r--	root/root	usr/lib/cmake/KDevelop/KDevelopTargets.cmake
 -rwxr-xr-x	root/root	usr/lib/libKDevClangPrivate.so.31
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so -> libKDevPlatformDebugger.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformDebugger.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so.53 -> libKDevPlatformDebugger.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformDebugger.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so.53 -> libKDevPlatformDebugger.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so -> libKDevPlatformDocumentation.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformDocumentation.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so.53 -> libKDevPlatformDocumentation.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformDocumentation.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so.53 -> libKDevPlatformDocumentation.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so -> libKDevPlatformInterfaces.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformInterfaces.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so.53 -> libKDevPlatformInterfaces.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformInterfaces.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so.53 -> libKDevPlatformInterfaces.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so -> libKDevPlatformLanguage.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformLanguage.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so.53 -> libKDevPlatformLanguage.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformLanguage.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so.53 -> libKDevPlatformLanguage.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so -> libKDevPlatformOutputView.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformOutputView.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so.53 -> libKDevPlatformOutputView.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformOutputView.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so.53 -> libKDevPlatformOutputView.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so -> libKDevPlatformProject.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformProject.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so.53 -> libKDevPlatformProject.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformProject.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so.53 -> libKDevPlatformProject.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so -> libKDevPlatformSerialization.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformSerialization.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so.53 -> libKDevPlatformSerialization.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformSerialization.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so.53 -> libKDevPlatformSerialization.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so -> libKDevPlatformShell.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformShell.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so.53 -> libKDevPlatformShell.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformShell.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so.53 -> libKDevPlatformShell.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so -> libKDevPlatformSublime.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformSublime.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so.53 -> libKDevPlatformSublime.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformSublime.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so.53 -> libKDevPlatformSublime.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so -> libKDevPlatformUtil.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformUtil.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so.53 -> libKDevPlatformUtil.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformUtil.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so.53 -> libKDevPlatformUtil.so.5.3.2
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so -> libKDevPlatformVcs.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformVcs.so.5.3.1
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so.53 -> libKDevPlatformVcs.so.5.3.1
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformVcs.so.5.3.2
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so.53 -> libKDevPlatformVcs.so.5.3.2
 -rwxr-xr-x	root/root	usr/lib/libkdevcmakecommon.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -548,6 +549,9 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdevelop_ps.desktop
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/bazaar.png
@@ -579,6 +583,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kdevelop.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/kdevelop.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/cmake.png
@@ -588,6 +595,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/actions/breakpoint.svg
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/git.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdevelop.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/qtlogo.svg
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
