@@ -15,9 +15,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5DocTools/
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsMacros.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsTargets.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so -> libKF5DocTools.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.55.0
--rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.55.0
+lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.56.0
+-rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.56.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/
@@ -234,6 +236,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/eo/entities/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/es/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/catalog.xml
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/es/entities/
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/ccbysa4-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/fdl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/gpl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/help-menu.docbook
@@ -243,6 +246,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/es/entities/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/report-bugs.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/underArtisticLicense.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/underBSDLicense.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/underCCBYSA4.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/underFDL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/underGPL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/es/entities/underLGPL.docbook

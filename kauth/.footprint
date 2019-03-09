@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KAuth/
 -rw-r--r--	root/root	usr/include/KF5/KAuth/kauth_export.h
 -rw-r--r--	root/root	usr/include/KF5/KAuth/kauthaction.h
 -rw-r--r--	root/root	usr/include/KF5/KAuth/kauthactionreply.h
+-rw-r--r--	root/root	usr/include/KF5/KAuth/kauthcore_export.h
 -rw-r--r--	root/root	usr/include/KF5/KAuth/kauthexecutejob.h
 -rw-r--r--	root/root	usr/include/KF5/KAuth/kauthhelpersupport.h
 -rw-r--r--	root/root	usr/include/KF5/KAuth/kauthobjectdecorator.h
@@ -35,8 +36,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Auth/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kauth-policy-gen
 lrwxrwxrwx	root/root	usr/lib/libKF5Auth.so -> libKF5Auth.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Auth.so.5 -> libKF5Auth.so.5.55.0
--rwxr-xr-x	root/root	usr/lib/libKF5Auth.so.5.55.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Auth.so.5 -> libKF5Auth.so.5.56.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Auth.so.5.56.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AuthCore.so -> libKF5AuthCore.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5AuthCore.so.5 -> libKF5AuthCore.so.5.56.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AuthCore.so.5.56.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
