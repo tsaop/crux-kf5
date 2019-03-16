@@ -5,22 +5,26 @@
 
 name=kdoctools
 version=5.56.0
-release=1
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz
+	kdoctools-fix-id-translations.patch)
 
 build() {
 	cd $name-$version
 
-	
+	# fix Indonesian translations
+	patch -Np1 -i $SRC/kdoctools-fix-id-translations.patch
+
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/usr/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
