@@ -1,10 +1,10 @@
 # Description: A Linux SVG-based theme engine for Qt4/Qt5 and KDE
 # URL: https://github.com/tsujan/Kvantum
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: desktop-file-utils gtk qt5
+# Depends on: desktop-file-utils gtk kwindowsystem
 
 name=kvantum
-version=0.10.8
+version=0.10.10
 release=1
 source=(https://github.com/tsujan/Kvantum/archive/V${version}/$name-$version.tar.gz)
 
