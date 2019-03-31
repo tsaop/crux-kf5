@@ -4,7 +4,7 @@
 # Depends on: libdv libsamplerate opencv sdl_image sox
 
 name=mlt
-version=6.12.0
+version=6.14.0
 release=1
 source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz
 	mlt-opencv4.patch)
@@ -12,7 +12,7 @@ source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version
 build() {
 	cd $name-$version
 
-	# Fix build with opencv 4.0.0
+	# Fix build witn opencv4
 	patch -Np1 -i $SRC/mlt-opencv4.patch
 
 	# Disable PulseAudio
