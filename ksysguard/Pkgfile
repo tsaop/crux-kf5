@@ -1,11 +1,11 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk knewstuff libksysguard
+# Depends on: gtk kinit knewstuff libksysguard
 # Optional: lm_sensors
 
 name=ksysguard
-version=5.15.3
+version=5.15.4
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
