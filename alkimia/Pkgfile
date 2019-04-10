@@ -1,10 +1,10 @@
 # Description: Library used by KDE Finance applications
 # URL: https://kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: extra-cmake-modules libgmp qt5
+# Depends on: gtk kdelibs4support knewstuff plasma-framework
 
 name=alkimia
-version=7.0.2
+version=8.0.1
 release=1
 source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
@@ -13,6 +13,7 @@ build() {
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DSYSCONF_INSTALL_DIR=/usr/etc \
 		-DKDE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DBUILD_TESTING=OFF \
@@ -20,4 +21,6 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
 }
