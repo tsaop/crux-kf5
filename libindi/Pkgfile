@@ -1,10 +1,10 @@
 # Description: INDI Library provides a framework for control and automation of astronomical instruments
 # URL: https://www.indilib.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cfitsio gsl libnova libusb qt5
+# Depends on: cfitsio fftw gsl libnova libusb qt5
 
 name=libindi
-version=1.7.5
+version=1.7.7
 source=(https://github.com/indilib/${name/lib/}/archive/v${version}/$name-$version.tar.gz)
 release=1
 

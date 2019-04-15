@@ -4,6 +4,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_astrometry
 -rwxr-xr-x	root/root	usr/bin/indi_baader_dome
 -rwxr-xr-x	root/root	usr/bin/indi_celestron_gps
+-rwxr-xr-x	root/root	usr/bin/indi_celestron_sct_focus
+-rwxr-xr-x	root/root	usr/bin/indi_deepskydad_af1_focus
 -rwxr-xr-x	root/root	usr/bin/indi_dmfc_focus
 -rwxr-xr-x	root/root	usr/bin/indi_dsc_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_eval
@@ -19,6 +21,7 @@ drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/indi_ioptronHC8406 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_ioptronv3_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_joystick
+-rwxr-xr-x	root/root	usr/bin/indi_lacerta_mfoc_focus
 -rwxr-xr-x	root/root	usr/bin/indi_lakeside_focus
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_10micron -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_16 -> indi_lx200generic
@@ -43,6 +46,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_meta_weather
 -rwxr-xr-x	root/root	usr/bin/indi_microtouch_focus
 -rwxr-xr-x	root/root	usr/bin/indi_moonlite_focus
+-rwxr-xr-x	root/root	usr/bin/indi_moonlitedro_focus
 -rwxr-xr-x	root/root	usr/bin/indi_nfocus
 -rwxr-xr-x	root/root	usr/bin/indi_nightcrawler_focus
 -rwxr-xr-x	root/root	usr/bin/indi_nstep_focus
@@ -50,6 +54,8 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_openweathermap_weather
 -rwxr-xr-x	root/root	usr/bin/indi_optec_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_paramount_telescope
+-rwxr-xr-x	root/root	usr/bin/indi_pegasus_ppb
+-rwxr-xr-x	root/root	usr/bin/indi_pegasus_upb
 -rwxr-xr-x	root/root	usr/bin/indi_perfectstar_focus
 -rwxr-xr-x	root/root	usr/bin/indi_pmc8_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_pyxis_rotator
@@ -58,6 +64,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_quantum_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_robo_focus
 -rwxr-xr-x	root/root	usr/bin/indi_rolloff_dome
+-rwxr-xr-x	root/root	usr/bin/indi_scopedome_dome
 -rwxr-xr-x	root/root	usr/bin/indi_script_dome
 -rwxr-xr-x	root/root	usr/bin/indi_script_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_sestosenso_focus
@@ -81,6 +88,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_star2000
 -rwxr-xr-x	root/root	usr/bin/indi_steeldrive_focus
 -rwxr-xr-x	root/root	usr/bin/indi_synscan_telescope
+-rwxr-xr-x	root/root	usr/bin/indi_synscanlegacy_telescope
 lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_temma_telescope
@@ -91,6 +99,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_vantage_weather
 -rwxr-xr-x	root/root	usr/bin/indi_watchdog
 -rwxr-xr-x	root/root	usr/bin/indi_watcher_weather
+-rwxr-xr-x	root/root	usr/bin/indi_weather_safety_proxy
 -rwxr-xr-x	root/root	usr/bin/indi_wunderground_weather
 -rwxr-xr-x	root/root	usr/bin/indi_xagyl_wheel
 -rwxr-xr-x	root/root	usr/bin/indiserver
@@ -120,12 +129,14 @@ drwxr-xr-x	root/root	usr/include/libindi/connectionplugins/
 -rw-r--r--	root/root	usr/include/libindi/connectionplugins/connectionserial.h
 -rw-r--r--	root/root	usr/include/libindi/connectionplugins/connectiontcp.h
 -rw-r--r--	root/root	usr/include/libindi/defaultdevice.h
+-rw-r--r--	root/root	usr/include/libindi/dsp.h
 -rw-r--r--	root/root	usr/include/libindi/eventloop.h
 -rw-r--r--	root/root	usr/include/libindi/hidapi.h
 -rw-r--r--	root/root	usr/include/libindi/indiapi.h
 -rw-r--r--	root/root	usr/include/libindi/indibase.h
 -rw-r--r--	root/root	usr/include/libindi/indibasetypes.h
 -rw-r--r--	root/root	usr/include/libindi/indiccd.h
+-rw-r--r--	root/root	usr/include/libindi/indiccdchip.h
 -rw-r--r--	root/root	usr/include/libindi/indicom.h
 -rw-r--r--	root/root	usr/include/libindi/indicontroller.h
 -rw-r--r--	root/root	usr/include/libindi/indidetector.h
@@ -149,7 +160,11 @@ drwxr-xr-x	root/root	usr/include/libindi/connectionplugins/
 -rw-r--r--	root/root	usr/include/libindi/indiusbdevice.h
 -rw-r--r--	root/root	usr/include/libindi/indiversion.h
 -rw-r--r--	root/root	usr/include/libindi/indiweather.h
+-rw-r--r--	root/root	usr/include/libindi/indiweatherinterface.h
 -rw-r--r--	root/root	usr/include/libindi/lilxml.h
+drwxr-xr-x	root/root	usr/include/libindi/mounts/
+-rw-r--r--	root/root	usr/include/libindi/mounts/lx200driver.h
+-rw-r--r--	root/root	usr/include/libindi/mounts/lx200telescope.h
 drwxr-xr-x	root/root	usr/include/libindi/stream/
 -rw-r--r--	root/root	usr/include/libindi/stream/ccvt.h
 -rw-r--r--	root/root	usr/include/libindi/stream/ccvt_types.h
@@ -173,20 +188,22 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.5
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.5
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.7
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.7
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.5
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.5
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.7
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.7
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.7.7
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.7.7
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
--rw-r--r--	root/root	usr/lib/udev/rules.d/99-flipflat.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-focusers.rules
--rw-r--r--	root/root	usr/lib/udev/rules.d/99-gpusb.rules
+-rw-r--r--	root/root	usr/lib/udev/rules.d/99-indi_auxiliary.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-vantage.rules
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/indi/
