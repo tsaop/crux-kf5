@@ -4,17 +4,12 @@
 # Depends on: docbook-xsl karchive ki18n p5-uri
 
 name=kdoctools
-version=5.56.0
-release=2
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz
-	kdoctools-fix-id-translations.patch)
+version=5.57.0
+release=1
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	# fix Indonesian translations
-	patch -Np1 -i $SRC/kdoctools-fix-id-translations.patch
-
 	mkdir build; cd build
 
 	cmake \

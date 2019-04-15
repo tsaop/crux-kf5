@@ -18,8 +18,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5DocTools/
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so -> libKF5DocTools.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.56.0
--rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.56.0
+lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.57.0
+-rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.57.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/
@@ -396,6 +396,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/hu/entities/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/id/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/catalog.xml
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/id/entities/
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/ccbysa4-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/fdl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/gpl-notice.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/help-menu.docbook
@@ -405,8 +406,10 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/id/entities/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/report-bugs.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underArtisticLicense.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underBSDLicense.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underCCBYSA4.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underFDL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underGPL.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underLGPL.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/underX11License.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/entities/update-doc.docbook
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/id/lang.entities
@@ -937,6 +940,7 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/xsl/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/fr.xml
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/gl.xml
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/hu.xml
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/id.xml
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/it.xml
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/lt.xml
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/xsl/nds.xml
