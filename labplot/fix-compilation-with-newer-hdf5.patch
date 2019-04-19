@@ -1,0 +1,10 @@
+--- CMakeLists.txt.old	2019-04-18 18:02:39.005598227 +0200
++++ CMakeLists.txt	2019-04-19 20:01:41.667327208 +0200
+@@ -262,6 +262,7 @@
+ 		add_definitions (-DHAVE_AT_LEAST_HDF5_1_10_0)
+ 	ENDIF ()
+ 	IF (HDF5_VERSION VERSION_GREATER "1.10.0.1")
++		add_definitions (-DHAVE_AT_LEAST_HDF5_1_10_0)
+ 		add_definitions (-DHAVE_AT_LEAST_HDF5_1_10_1)
+ 	ENDIF ()
+ 	include_directories (${HDF5_INCLUDE_DIRS})
