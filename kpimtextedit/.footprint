@@ -8,10 +8,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/
 drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/AbstractTextToSpeechInterface
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EditorUtil
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EmoticonTextEditAction
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/InsertImageWidget
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/InsertTableDialog
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/InsertTableWidget
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EmoticonUnicodeTab
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditFindBar
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditor
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditorWidget
@@ -27,9 +24,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/RichTextExternalComposer
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/SelectSpecialCharDialog
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/SlideContainer
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TableActionMenu
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TableCellFormatDialog
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TableFormatDialog
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextEditFindBarBase
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextEditorCompleter
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextGotoLineWidget
@@ -41,10 +35,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/abstracttexttospeechinterface.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/editorutil.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/emoticontexteditaction.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/insertimagewidget.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/inserttabledialog.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/inserttablewidget.h
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/emoticonunicodetab.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/kpimtextedit_export.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditfindbar.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditor.h
@@ -61,9 +52,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/richtextexternalcomposer.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/selectspecialchardialog.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/slidecontainer.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/tableactionmenu.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/tablecellformatdialog.h
--rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/tableformatdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texteditfindbarbase.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texteditorcompleter.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/textgotolinewidget.h
@@ -81,8 +69,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimTextEdit/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so -> libKF5PimTextEdit.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

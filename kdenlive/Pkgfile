@@ -1,10 +1,10 @@
 # Description: Free and open-source video editor for GNU/Linux
 # URL: https://kdenlive.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kfilemetadata knewstuff knotifyconfig mlt qtwebkit
+# Depends on: kfilemetadata knewstuff knotifyconfig mlt purpose rttr
 
 name=kdenlive
-version=18.12.3
+version=19.04.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

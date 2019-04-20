@@ -1,10 +1,10 @@
 # Description: Additional KIO protocols
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: exiv2 kactivities kdelibs4support kdnssd khtml kpty libmtp openexr qtwebengine
+# Depends on: exiv2 kactivities kdelibs4support kdnssd khtml kpty libmtp openexr qtwebengine syntax-highlighting
 
 name=kio-extras
-version=18.12.3
+version=19.04.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

@@ -14,14 +14,20 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/contacteditor/
 drwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/
 -rwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/cryptopageplugin.so
-lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.10.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.10.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.10.3
-lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libgrammarcommon.so.5 -> libgrammarcommon.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libgrammarcommon.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libkmailgrammalecte.so.5 -> libkmailgrammalecte.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libkmailgrammalecte.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libkmaillanguagetool.so.5 -> libkmaillanguagetool.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libkmaillanguagetool.so.5.11.0
+lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/contacteditor/
@@ -47,9 +53,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_confirmaddresseditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_expertplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_externalcomposereditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_grammalecteplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertemaileditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertshorturleditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertspecialcharactereditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_languagetoolplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_logactivitiesplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_nonbreakingspaceeditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_sharetexteditorplugin.so
@@ -83,6 +91,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_externalscriptplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_fancyheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_grantleeheaderstyleplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_gravatarconfigplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_longheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_standardsheaderstyleplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_translatorplugin.so

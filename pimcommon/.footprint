@@ -16,6 +16,7 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ConfigurePluginsListWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ConfigurePluginsWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsPlugin
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsPluginManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsViewInterface
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsWidgetng
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomTreeView
@@ -73,6 +74,7 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configurepluginslistwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configurepluginswidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolsplugin.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolspluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolsviewinterface.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolswidgetng.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtreeview.h
@@ -90,7 +92,6 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/minimumcombobox.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/networkmanager.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/networkutil.h
--rw-r--r--	root/root	usr/include/KF5/pimcommon/pimcommon_debug.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/pimcommon_export.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/pimcommonsetting_base.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/pimcommonsettings.h
@@ -121,7 +122,6 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommonakonadi/
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/incidencesforwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/mailutil.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/manageserversidesubscriptionjob.h
--rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/pimcommonakonadi_debug.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/pimcommonakonadi_export.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/plugininterface.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/selectmulticollectiondialog.h
@@ -139,11 +139,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so -> libKF5PimCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.11.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so -> libKF5PimCommonAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/LdapClient
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/LdapClientSearch
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/LdapClientSearchConfig
+-rw-r--r--	root/root	usr/include/KF5/Libkdepim/LdapConfigureWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/LdapSearchDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/MaillistDrag
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/MultiplyingLine
@@ -64,6 +65,7 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/ldapclient.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/ldapclientsearch.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/ldapclientsearchconfig.h
+-rw-r--r--	root/root	usr/include/KF5/libkdepim/ldapconfigurewidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/ldapsearchdialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/maillistdrag.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/multiplyingline.h
@@ -110,11 +112,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5LibkdepimAkonadi/
 drwxr-xr-x	root/root	usr/lib/cmake/MailTransportDBusService/
 -rw-r--r--	root/root	usr/lib/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so -> libKF5Libkdepim.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.11.0
 lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so -> libKF5LibkdepimAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

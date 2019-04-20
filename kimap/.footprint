@@ -33,7 +33,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/KIMAP/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/MetaDataJobBase
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/MoveJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/MyRightsJob
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/NamespaceJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/QuotaJobBase
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/RFCCodecs
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/RenameJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/SearchJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/KIMAP/SelectJob
@@ -73,7 +75,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/MetaDataJobBase
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/MoveJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/MyRightsJob
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/NamespaceJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/QuotaJobBase
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/RFCCodecs
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/RenameJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/SearchJob
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/SelectJob
@@ -137,8 +141,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IMAP/
 -rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so -> libKF5IMAP.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

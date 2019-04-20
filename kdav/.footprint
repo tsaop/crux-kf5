@@ -50,7 +50,6 @@ drwxr-xr-x	root/root	usr/include/KPim/kdav/
 -rw-r--r--	root/root	usr/include/KPim/kdav/enums.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/etagcache.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/kpimkdav_export.h
--rw-r--r--	root/root	usr/include/KPim/kdav/libkdav_debug.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/utils.h
 -rw-r--r--	root/root	usr/include/KPim/kpimkdav_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -61,8 +60,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimKDAV/
 -rw-r--r--	root/root	usr/lib/cmake/KPimKDAV/KPimKDAVTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimKDAV/KPimKDAVTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimKDAV.so -> libKPimKDAV.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimKDAV.so.5 -> libKPimKDAV.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKPimKDAV.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKPimKDAV.so.5 -> libKPimKDAV.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKPimKDAV.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -148,7 +148,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_k3blameencoder.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_k3boggvorbisencoder.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_k3bsoxencoder.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kio_videodvd.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/videodvd.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.k3b.desktop

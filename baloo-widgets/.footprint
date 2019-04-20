@@ -21,11 +21,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5BalooWidgets/
 -rw-r--r--	root/root	usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5BalooWidgets.so -> libKF5BalooWidgets.so.5
--rwxr-xr-x	root/root	usr/lib/libKF5BalooWidgets.so.18.12.3
-lrwxrwxrwx	root/root	usr/lib/libKF5BalooWidgets.so.5 -> libKF5BalooWidgets.so.18.12.3
+-rwxr-xr-x	root/root	usr/lib/libKF5BalooWidgets.so.19.4.0
+lrwxrwxrwx	root/root	usr/lib/libKF5BalooWidgets.so.5 -> libKF5BalooWidgets.so.19.4.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/baloofilepropertiesplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/tagsfileitemaction.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/baloofilepropertiesplugin.desktop

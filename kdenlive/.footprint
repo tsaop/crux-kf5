@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/kdenlive.categories
+-rw-r--r--	root/root	usr/etc/xdg/kdenlive_keyboardschemes.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/kdenlive_renderprofiles.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/kdenlive_titles.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/kdenlive_wipes.knsrc
@@ -138,8 +139,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/video-mlt-playlist.svgz
 drwxr-xr-x	root/root	usr/share/kdenlive/
 -rw-r--r--	root/root	usr/share/kdenlive/banner.png
--rw-r--r--	root/root	usr/share/kdenlive/blacklisted_effects.txt
--rw-r--r--	root/root	usr/share/kdenlive/blacklisted_transitions.txt
 drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/acompressor.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/aecho.xml
@@ -287,6 +286,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/update/
 -rw-r--r--	root/root	usr/share/kdenlive/encodingprofiles.rc
 drwxr-xr-x	root/root	usr/share/kdenlive/export/
 -rw-r--r--	root/root	usr/share/kdenlive/export/profiles.xml
+-rw-r--r--	root/root	usr/share/kdenlive/externalproxies.rc
 drwxr-xr-x	root/root	usr/share/kdenlive/generators/
 -rw-r--r--	root/root	usr/share/kdenlive/generators/count.xml
 -rw-r--r--	root/root	usr/share/kdenlive/generators/frei0r_test_pat_b.xml
@@ -354,9 +354,16 @@ drwxr-xr-x	root/root	usr/share/kdenlive/titles/
 -rw-r--r--	root/root	usr/share/kdenlive/titles/simple-with-date.kdenlivetitle
 -rw-r--r--	root/root	usr/share/kdenlive/titles/simple.kdenlivetitle
 drwxr-xr-x	root/root	usr/share/kdenlive/transitions/
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/affine.xml
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/composite.xml
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/dissolve.xml
 -rw-r--r--	root/root	usr/share/kdenlive/transitions/frei0r_cairoaffineblend.xml
 -rw-r--r--	root/root	usr/share/kdenlive/transitions/frei0r_cairoblend.xml
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/luma.xml
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/mix.xml
 -rw-r--r--	root/root	usr/share/kdenlive/transitions/qtblend.xml
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/region.xml
+-rw-r--r--	root/root	usr/share/kdenlive/transitions/slide.xml
 -rw-r--r--	root/root	usr/share/kdenlive/transitions/wipe.xml
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kdenlive.notifyrc

@@ -6,23 +6,18 @@ drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/IncidenceEditor/
--rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/CategoryEditDialog
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/EditorItemManager
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/GroupwareUiDelegate
--rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IncidenceAttendee
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IncidenceDefaults
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IncidenceDialog
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IncidenceDialogFactory
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IncidenceEditor-Ng
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IncidenceEditorSettings
 -rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/IndividualMailComponentFactory
--rw-r--r--	root/root	usr/include/KF5/IncidenceEditor/OpenComposerJob
 drwxr-xr-x	root/root	usr/include/KF5/incidenceeditor/
--rw-r--r--	root/root	usr/include/KF5/incidenceeditor/categoryeditdialog.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/editoritemmanager.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/globalsettings_incidenceeditor.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/groupwareuidelegate.h
--rw-r--r--	root/root	usr/include/KF5/incidenceeditor/incidenceattendee.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/incidencedefaults.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/incidencedialog.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/incidencedialogfactory.h
@@ -30,7 +25,6 @@ drwxr-xr-x	root/root	usr/include/KF5/incidenceeditor/
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/incidenceeditor_export.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/incidenceeditorsettings.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor/individualmailcomponentfactory.h
--rw-r--r--	root/root	usr/include/KF5/incidenceeditor/opencomposerjob.h
 -rw-r--r--	root/root	usr/include/KF5/incidenceeditor_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -40,8 +34,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IncidenceEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5IncidenceEditor/KF5IncidenceEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5IncidenceEditor/KF5IncidenceEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5IncidenceEditor.so -> libKF5IncidenceEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5IncidenceEditor.so.5 -> libKF5IncidenceEditor.so.5.10.3
--rwxr-xr-x	root/root	usr/lib/libKF5IncidenceEditor.so.5.10.3
+lrwxrwxrwx	root/root	usr/lib/libKF5IncidenceEditor.so.5 -> libKF5IncidenceEditor.so.5.11.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IncidenceEditor.so.5.11.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
