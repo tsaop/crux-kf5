@@ -1,0 +1,24 @@
+# Description: An open source library, which adds reflection to C++
+# URL: https://www.rttr.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  cmake
+
+name=rttr
+version=0.9.6
+release=1
+source=(https://github.com/rttrorg/$name/releases/download/v${version}/$name-$version-src.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_{DOCUMENTATION,EXAMPLES,UNIT_TESTS}=OFF \
+		..
+	make
+	make DESTDIR=$PKG install
+
+	rm $PKG/usr/share/rttr/{LICENSE.txt,README.md}
+}
