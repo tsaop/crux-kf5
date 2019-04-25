@@ -4,17 +4,12 @@
 # Depends on: ca-certificates-compat cyrus-sasl libgcrypt nss qt5
 
 name=qca-qt5
-version=2.2.0
+version=2.2.1
 release=1
-source=(http://download.kde.org/stable/${name/-qt5/}/$version/${name/-qt5/}-$version.tar.xz
-	qca-fix-build-qt-prefix.patch)
+source=(http://download.kde.org/stable/${name/-qt5/}/$version/${name/-qt5/}-$version.tar.xz)
 
 build() {
 	cd ${name/-qt5/}-$version
-
-	# fix build when installing in QT5 prefix:
-	patch -Np1 -i $SRC/qca-fix-build-qt-prefix.patch
-
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
