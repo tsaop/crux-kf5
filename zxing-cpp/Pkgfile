@@ -6,6 +6,7 @@
 name=zxing-cpp
 version=20180320
 release=1
+source=()
 
 build() {
 	git clone --depth=1 https://github.com/glassechidna/${name}
