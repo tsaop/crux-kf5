@@ -4,13 +4,14 @@
 # Depends on: glibc  
 
 name=libdmtx
-version=0.7.4
+version=0.7.5
 release=1
-source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.bz2)
+source=(https://github.com/dmtx/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
+	./autogen.sh
 	./configure --prefix=/usr \
 		--libdir=/usr/lib \
 		--disable-static
