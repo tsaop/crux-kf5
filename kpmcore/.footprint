@@ -1,17 +1,16 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/dbus-1/
+drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kpmcore.applicationinterface.conf
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kpmcore.externalcommand.conf
+-rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/kpmcore/
 drwxr-xr-x	root/root	usr/include/kpmcore/backend/
 -rw-r--r--	root/root	usr/include/kpmcore/backend/corebackend.h
--rw-r--r--	root/root	usr/include/kpmcore/backend/corebackenddevice.h
 -rw-r--r--	root/root	usr/include/kpmcore/backend/corebackendmanager.h
--rw-r--r--	root/root	usr/include/kpmcore/backend/corebackendpartition.h
--rw-r--r--	root/root	usr/include/kpmcore/backend/corebackendpartitiontable.h
 drwxr-xr-x	root/root	usr/include/kpmcore/core/
--rw-r--r--	root/root	usr/include/kpmcore/core/copysource.h
--rw-r--r--	root/root	usr/include/kpmcore/core/copysourcedevice.h
--rw-r--r--	root/root	usr/include/kpmcore/core/copytarget.h
--rw-r--r--	root/root	usr/include/kpmcore/core/copytargetdevice.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/device.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/devicescanner.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/diskdevice.h
@@ -26,8 +25,11 @@ drwxr-xr-x	root/root	usr/include/kpmcore/core/
 -rw-r--r--	root/root	usr/include/kpmcore/core/partitiontable.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/smartattribute.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/smartstatus.h
+-rw-r--r--	root/root	usr/include/kpmcore/core/softwareraid.h
 -rw-r--r--	root/root	usr/include/kpmcore/core/volumemanagerdevice.h
 drwxr-xr-x	root/root	usr/include/kpmcore/fs/
+-rw-r--r--	root/root	usr/include/kpmcore/fs/apfs.h
+-rw-r--r--	root/root	usr/include/kpmcore/fs/bitlocker.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/btrfs.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/exfat.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/ext2.h
@@ -35,6 +37,7 @@ drwxr-xr-x	root/root	usr/include/kpmcore/fs/
 -rw-r--r--	root/root	usr/include/kpmcore/fs/ext4.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/extended.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/f2fs.h
+-rw-r--r--	root/root	usr/include/kpmcore/fs/fat12.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/fat16.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/fat32.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/filesystem.h
@@ -44,8 +47,10 @@ drwxr-xr-x	root/root	usr/include/kpmcore/fs/
 -rw-r--r--	root/root	usr/include/kpmcore/fs/hpfs.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/iso9660.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/jfs.h
+-rw-r--r--	root/root	usr/include/kpmcore/fs/linuxraidmember.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/linuxswap.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/luks.h
+-rw-r--r--	root/root	usr/include/kpmcore/fs/luks2.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/lvm2_pv.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/nilfs2.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/ntfs.h
@@ -96,16 +101,19 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPMcore/
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.7
--rwxr-xr-x	root/root	usr/lib/libkpmcore.so.3.3.0
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.7 -> libkpmcore.so.3.3.0
+drwxr-xr-x	root/root	usr/lib/kauth/
+-rwxr-xr-x	root/root	usr/lib/kauth/kpmcore_externalcommand
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.8
+-rwxr-xr-x	root/root	usr/lib/libkpmcore.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.8 -> libkpmcore.so.4.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libpmdummybackendplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/libpmlibpartedbackendplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/libpmsfdiskbackendplugin.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/pmdummybackendplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/pmlibpartedbackendplugin.desktop
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/pmcorebackendplugin.desktop
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
+-rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kpmcore.externalcommand.service
+drwxr-xr-x	root/root	usr/share/polkit-1/
+drwxr-xr-x	root/root	usr/share/polkit-1/actions/
+-rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kpmcore.externalcommand.policy
