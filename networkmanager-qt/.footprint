@@ -66,6 +66,7 @@ drwxr-xr-x	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxDevice
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxNsp
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxSetting
+-rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WireGuardDevice
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WiredDevice
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WiredSetting
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WireguardSetting
@@ -137,6 +138,7 @@ drwxr-xr-x	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wimaxsetting.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wireddevice.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wiredsetting.h
+-rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wireguarddevice.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wireguardsetting.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wirelessdevice.h
 -rw-r--r--	root/root	usr/include/KF5/NetworkManagerQt/networkmanagerqt/wirelessnetwork.h
@@ -151,8 +153,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NetworkManagerQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NetworkManagerQt.so -> libKF5NetworkManagerQt.so.6
--rwxr-xr-x	root/root	usr/lib/libKF5NetworkManagerQt.so.5.57.0
-lrwxrwxrwx	root/root	usr/lib/libKF5NetworkManagerQt.so.6 -> libKF5NetworkManagerQt.so.5.57.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NetworkManagerQt.so.5.58.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NetworkManagerQt.so.6 -> libKF5NetworkManagerQt.so.5.58.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.57.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.57.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.58.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.58.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.57.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.57.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.58.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.58.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -133,11 +133,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/ToolBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/ToolButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/ToolTip.qml
+drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/mobiletextselection/
+-rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/mobiletextselection/MobileCursor.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/mobiletextselection/MobileTextActionsToolBar.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/mobiletextselection/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/ButtonShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/DefaultListItemBackground.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/MobileCursor.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/MobileTextActionsToolBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/RoundShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/TextFieldFocus.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/private/qmldir
@@ -231,11 +233,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/TextField.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ToolBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ToolButton.qml
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/mobiletextselection/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/mobiletextselection/MobileCursor.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/mobiletextselection/MobileTextActionsToolBar.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/mobiletextselection/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/ButtonShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/DefaultListItemBackground.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/MobileCursor.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/MobileTextActionsToolBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/RoundShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/TextFieldFocus.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/private/qmldir

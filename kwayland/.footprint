@@ -68,6 +68,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/datasource_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/display.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/dpms_interface.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Server/eglstream_controller_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/fakeinput_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/filtered_display.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/global.h
@@ -114,11 +115,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Wayland/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so -> libKF5WaylandClient.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.57.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.57.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.58.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.58.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so -> libKF5WaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.57.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.57.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.58.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.58.0
 -rwxr-xr-x	root/root	usr/lib/org-kde-kf5-kwayland-testserver
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
