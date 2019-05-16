@@ -4,19 +4,22 @@
 # Depends on: cmake glib icu libxml2 perl
 
 name=libical
-version=3.0.4
+version=3.0.5
 release=1
 source=(https://github.com/$name/$name/releases/download/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_INSTALL_LIBDIR=/usr/lib \
 	-DSHARED_ONLY=True \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-DENABLE_GTK_DOC=OFF \
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
