@@ -1,0 +1,15 @@
+# Description: Updated configparser from Python 3.7 for Python 2.6+
+# URL: https://pypi.python.org/pypi/configparser
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python-setuptools
+
+name=python-configparser
+version=3.7.4
+release=1
+source=(https://files.pythonhosted.org/packages/e2/1c/83fd53748d8245cb9a3399f705c251d3fc0ce7df04450aac1cfc49dd6a0f/${name/python-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python-/}-$version
+	python setup.py build
+	python setup.py install --prefix=/usr --root=$PKG
+}
