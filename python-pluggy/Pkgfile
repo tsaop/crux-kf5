@@ -1,11 +1,11 @@
 # Description: Plugin and hook calling mechanisms for python
 # URL: https://pypi.python.org/pypi/pluggy
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python-setuptools
+# Depends on:  python-configparser python-contextlib2 python-importlib-metadata
 
 name=python-pluggy
 version=0.12.0
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/75/21/cdabca0144cfa282c2893dc8e07957245ac8657896ef3ea26f18b6fda710/${name/python-/}-$version.tar.gz)
 
 build() {
