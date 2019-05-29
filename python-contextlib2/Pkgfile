@@ -1,0 +1,15 @@
+# Description: Backports and enhancements for the contextlib module
+# URL: https://pypi.python.org/pypi/contextlib2
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python-setuptools
+
+name=python-contextlib2
+version=0.5.5
+release=1
+source=(https://files.pythonhosted.org/packages/6e/db/41233498c210b03ab8b072c8ee49b1cd63b3b0c76f8ea0a0e5d02df06898/${name/python-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python-/}-$version
+	python setup.py build
+	python setup.py install --prefix=/usr --root=$PKG
+}
