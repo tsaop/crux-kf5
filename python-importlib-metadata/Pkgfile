@@ -1,0 +1,18 @@
+# Description: Read metadata from Python packages
+# URL: https://pypi.python.org/pypi/importlib-metadata
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python-setuptools python-zipp
+
+name=python-importlib-metadata
+version=0.15
+release=1
+source=(https://files.pythonhosted.org/packages/38/e1/f7c966af017f15701081641ab69f3b08949c0738a7c9ab582d0076187d25/importlib_metadata-$version.tar.gz)
+
+build() {
+	cd importlib_metadata-$version
+	python setup.py build
+	python setup.py install --prefix=/usr --root=$PKG
+
+	# fix permissions
+	find $PKG -perm -a=w -exec chmod a-w {} \;
+}
