@@ -1,12 +1,12 @@
 # Description: Read metadata from Python packages
 # URL: https://pypi.python.org/pypi/importlib-metadata
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python-setuptools python-zipp
+# Depends on: python-zipp
 
 name=python-importlib-metadata
-version=0.15
+version=0.17
 release=1
-source=(https://files.pythonhosted.org/packages/38/e1/f7c966af017f15701081641ab69f3b08949c0738a7c9ab582d0076187d25/importlib_metadata-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/0e/e0/9b28879fb8e2b7062279ef50b489a9e3b49d850df068d90571a4881905ee/importlib_metadata-$version.tar.gz)
 
 build() {
 	cd importlib_metadata-$version
