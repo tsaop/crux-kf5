@@ -1,0 +1,23 @@
+# Description: KIO GDrive is a KIO slave that enables KIO-aware applications (such as Dolphin, Kate or Gwenview) to access and edit Google Drive files on the cloud
+# URL: https://community.kde.org/KIO_GDrive
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kaccounts-integration libkgapi
+
+name=kio-gdrive
+version=1.2.6
+release=1
+source=(https://download.kde.org/stable/$name/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/{doc,locale}
+}
