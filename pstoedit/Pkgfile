@@ -4,7 +4,7 @@
 # Depends on: ghostscript imagemagick libgd
 
 name=pstoedit
-version=3.73
+version=3.74
 release=1
 source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
 
@@ -13,6 +13,10 @@ build() {
 
 	# do not build docs (they require latex)
 	sed -i 's| doc||' Makefile.*
+
+	sed -e 's|ImageMagick++|Magick++|' -i configure.ac
+	sed -i 's/-pedantic//' configure.ac
+	autoreconf -vfi
 
 	./configure --prefix=/usr
 
