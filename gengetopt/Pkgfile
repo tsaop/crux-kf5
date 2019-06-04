@@ -4,12 +4,18 @@
 # Depends on:  glibc
 
 name=gengetopt
-version=2.22.6
+version=2.23
 release=1
-source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
+source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.xz
+	gengetopt-2.22.6-no-docs.patch)
 
 build() {
 	cd $name-$version
+
+	# disable docs
+	patch -Np1 -i $SRC/gengetopt-2.22.6-no-docs.patch
+
+	autoreconf -vfi
 
 	./configure --prefix=/usr \
 		--disable-static

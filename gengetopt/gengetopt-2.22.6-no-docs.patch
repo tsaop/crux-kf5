@@ -1,0 +1,13 @@
+--- gengetopt-2.23/Makefile.am.orig	2019-06-04 19:54:55.620130095 +0200
++++ gengetopt-2.23/Makefile.am	2019-06-04 19:55:11.842131645 +0200
+@@ -18,9 +18,7 @@
+ ACLOCAL_AMFLAGS = -I m4 -I gl/m4
+ 
+ EXTRA_DIST = configure TODO LICENSE gl/m4/gnulib-cache.m4
+-SUBDIRS = gl src doc tests
+-
+-gengetoptdoc_DATA = ChangeLog COPYING NEWS THANKS INSTALL README LICENSE
++SUBDIRS = gl src tests
+ 
+ TARBALL = $(top_builddir)/gengetopt-$(PACKAGE_VERSION).tar.xz
+ 
