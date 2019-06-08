@@ -1,0 +1,31 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/telepathy-gabble-xmpp-console
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/telepathy-gabble
+drwxr-xr-x	root/root	usr/lib/telepathy/
+drwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/
+drwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/lib/
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/lib/libgabble-plugins-0.18.3.so
+-rw-r--r--	root/root	usr/lib/telepathy/gabble-0/lib/libgabble-plugins.a
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/lib/libgabble-plugins.la
+lrwxrwxrwx	root/root	usr/lib/telepathy/gabble-0/lib/libgabble-plugins.so -> libgabble-plugins-0.18.3.so
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/lib/libwocky-telepathy-gabble-0.18.3.so
+-rw-r--r--	root/root	usr/lib/telepathy/gabble-0/lib/libwocky.a
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/lib/libwocky.la
+lrwxrwxrwx	root/root	usr/lib/telepathy/gabble-0/lib/libwocky.so -> libwocky-telepathy-gabble-0.18.3.so
+drwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/plugins/
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/plugins/libconsole.la
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/plugins/libconsole.so
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/plugins/libgateways.la
+-rwxr-xr-x	root/root	usr/lib/telepathy/gabble-0/plugins/libgateways.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.gabble.service
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man8/
+-rw-r--r--	root/root	usr/share/man/man8/telepathy-gabble.8.gz
+drwxr-xr-x	root/root	usr/share/telepathy/
+drwxr-xr-x	root/root	usr/share/telepathy/managers/
+-rw-r--r--	root/root	usr/share/telepathy/managers/gabble.manager

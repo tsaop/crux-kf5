@@ -1,0 +1,26 @@
+# Description: Telepathy connection manager for the XMPP (Jabber) protocol   
+# URL: https://telepathy.freedesktop.org/components/telepathy-gabble/ 
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libnice libsoup telepathy-glib
+
+name=telepathy-gabble
+version=0.18.3
+release=1
+source=(https://telepathy.freedesktop.org/releases/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/usr/etc \
+		--with-ca-certificates-path=/etc/pki/tls/certs/ca-bundle.crt \
+		--disable-gtk-doc-html
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove documentation:
+	rm -rf $PKG/usr/share/gtk-doc $PKG/usr/share/doc
+}
