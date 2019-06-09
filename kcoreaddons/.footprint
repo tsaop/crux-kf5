@@ -26,6 +26,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KPluginLoader
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KPluginMetaData
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KProcess
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KProcessList
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KRandom
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KRandomSequence
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KSharedDataCache
@@ -59,6 +60,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kpluginloader.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kpluginmetadata.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kprocess.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kprocesslist.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/krandom.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/krandomsequence.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kshareddatacache.h
@@ -80,8 +82,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.58.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.58.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.59.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.59.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

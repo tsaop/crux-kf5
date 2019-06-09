@@ -1,8 +1,5 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/dbus-1/
-drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.ktexteditor.katetextbuffer.conf
 drwxr-xr-x	root/root	usr/etc/xdg/
 -rw-r--r--	root/root	usr/etc/xdg/ktexteditor.categories
 drwxr-xr-x	root/root	usr/include/
@@ -82,8 +79,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextEditor/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kauth_ktexteditor_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so -> libKF5TextEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.58.0
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.58.0
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.59.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.59.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -96,6 +93,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.ktexteditor.katetextbuffer.service
+drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.ktexteditor.katetextbuffer.conf
 drwxr-xr-x	root/root	usr/share/katepart5/
 drwxr-xr-x	root/root	usr/share/katepart5/script/
 drwxr-xr-x	root/root	usr/share/kdevappwizard/
