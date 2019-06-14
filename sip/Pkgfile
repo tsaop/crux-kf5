@@ -4,9 +4,9 @@
 # Depends on:  python3
 
 name=sip
-version=4.19.13
+version=4.19.17
 release=1
-source=(https://sourceforge.net/projects/pyqt/files/$name/$name-$version/$name-$version.tar.gz)
+source=(https://www.riverbankcomputing.com/static/Downloads/$name/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
