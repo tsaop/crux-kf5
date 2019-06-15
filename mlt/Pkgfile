@@ -22,7 +22,7 @@ build() {
 	sed -i 's|qmake|qmake-qt5|' src/modules/qt/configure
 
 	./configure --prefix=/usr \
-	--sysconfdir=/usr/etc \
+	--sysconfdir=/etc \
 	--qt-includedir=/usr/include/qt5 \
 	--qt-libdir=/usr/lib \
 	--enable-gpl \
