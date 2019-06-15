@@ -1,0 +1,9 @@
+#
+# /etc/pam.d/kde  -  KDE configuration file for PAM
+#
+
+auth       include      common-auth
+account    include      common-account
+password   include      common-password
+session    include      common-session
+
