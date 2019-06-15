@@ -11,7 +11,7 @@ source=(https://ftp.gnu.org/gnu/commoncpp/$name-$version.tar.gz)
 build() {
 	cd $name-$version
 	./configure --prefix=/usr \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--disable-static
 
 	make
