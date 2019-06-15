@@ -18,7 +18,7 @@ build() {
 
 	../$name-$version/configure --prefix=/usr \
 		--libdir=/usr/lib \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--disable-static
 
 	make CXXFLAGS+=-std=c++11 -j1
