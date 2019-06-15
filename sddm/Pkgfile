@@ -7,7 +7,10 @@ name=sddm
 version=0.18.1
 release=1
 source=(https://github.com/$name/$name/archive/v$version/$name-$version.tar.gz
-	rc.sddm)
+	rc.sddm
+    sddm.pam
+    sddm-autologin.pam
+    sddm-greeter.pam)
 
 build() {
 	cd $name-$version
@@ -34,7 +37,10 @@ build() {
 	install -dm755 $PKG/var/lib/sddm
 	install -Dm755 $SRC/rc.sddm $PKG/etc/rc.d/sddm
 
+	# replace pam config files with CRUX-specific ones:
+	rm -rf $PKG/usr/etc/pam.d
 	install -d $PKG/etc/pam.d
-	mv $PKG/usr/etc/pam.d/* $PKG/etc/pam.d
-	rmdir $PKG/usr/etc/pam.d
+	install -Dm644 $SRC/sddm.pam $PKG/etc/pam.d/sddm
+	install -Dm644 $SRC/sddm-autologin.pam $PKG/etc/pam.d/sddm-autologin
+	install -Dm644 $SRC/sddm-greeter.pam $PKG/etc/pam.d/sddm-greeter
 }
