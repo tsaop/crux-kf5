@@ -13,7 +13,7 @@ build() {
 	cd ${_realname}-$version
 
 	./configure --prefix=/usr \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--libexecdir=/usr/lib \
 		--disable-static \
 		--disable-nls \
