@@ -4,8 +4,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/ksysguardd
 drwxr-xr-x	root/root	usr/etc/
 -rw-r--r--	root/root	usr/etc/ksysguarddrc
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/ksysguard.knsrc
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksysguard.so
 drwxr-xr-x	root/root	usr/share/
@@ -26,6 +24,8 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/waiting.png
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/ksysguard.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/ksysguard.knsrc
 drwxr-xr-x	root/root	usr/share/ksysguard/
 -rw-r--r--	root/root	usr/share/ksysguard/ProcessTable.sgrd
 -rw-r--r--	root/root	usr/share/ksysguard/SystemLoad2.sgrd

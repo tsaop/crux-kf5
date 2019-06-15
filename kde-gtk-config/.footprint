@@ -1,8 +1,4 @@
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/cgcgtk3.knsrc
--rw-r--r--	root/root	usr/etc/xdg/cgctheme.knsrc
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/gtk3_preview
 -rwxr-xr-x	root/root	usr/lib/gtk_preview
@@ -45,5 +41,8 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kde-gtk-config.svgz
 drwxr-xr-x	root/root	usr/share/kcm-gtk-module/
 -rw-r--r--	root/root	usr/share/kcm-gtk-module/preview.ui
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/cgcgtk3.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/cgctheme.knsrc
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kde-gtk-config.desktop

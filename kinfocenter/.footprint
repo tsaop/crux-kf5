@@ -3,7 +3,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kinfocenter
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/kcm-about-distrorc
 drwxr-xr-x	root/root	usr/etc/xdg/menus/
 -rw-r--r--	root/root	usr/etc/xdg/menus/kinfocenter.menu
 drwxr-xr-x	root/root	usr/lib/
@@ -22,8 +21,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_energyinfo.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_fileindexermonitor.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/about-distro/
--rw-r--r--	root/root	usr/share/about-distro/cruxlogo.png
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kinfocenter.desktop
 drwxr-xr-x	root/root	usr/share/desktop-directories/
@@ -71,3 +68,5 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kinfocenter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kinfocenter/kinfocenterui.rc
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kinfocenter.appdata.xml

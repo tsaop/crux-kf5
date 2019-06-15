@@ -9,20 +9,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/lookandfeeltool
 -rwxr-xr-x	root/root	usr/bin/solid-action-desktop-gen
 drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/dbus-1/
-drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.fontinst.conf
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/colorschemes.knsrc
--rw-r--r--	root/root	usr/etc/xdg/emoticons.knsrc
--rw-r--r--	root/root	usr/etc/xdg/icons.knsrc
--rw-r--r--	root/root	usr/etc/xdg/kfontinst.knsrc
--rw-r--r--	root/root	usr/etc/xdg/ksplash.knsrc
--rw-r--r--	root/root	usr/etc/xdg/lookandfeel.knsrc
 -rw-r--r--	root/root	usr/etc/xdg/plasma-desktop.categories
--rw-r--r--	root/root	usr/etc/xdg/plasma-themes.knsrc
--rw-r--r--	root/root	usr/etc/xdg/xcursor.knsrc
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/fontinst
@@ -34,11 +22,11 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kfontprint
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kaccess.so
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.15.5
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.15.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.15.5
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.15.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.16.0
 -rwxr-xr-x	root/root	usr/lib/plasma-changeicons
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -49,7 +37,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_autostart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_baloofile.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_clock.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_colors.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_componentchooser.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_desktoppaths.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_emoticons.so
@@ -59,7 +46,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kded.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_keyboard.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_keys.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_knotify.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_phonon.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_plasmasearch.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_smserver.so
@@ -67,6 +53,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_standard_actions.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_style.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_colors.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_cursortheme.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_desktoptheme.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_fonts.so
@@ -74,6 +61,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_launchfeedback.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_lookandfeel.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_nightcolor.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_notifications.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_splashscreen.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_workspace.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcmspellchecking.so
@@ -111,6 +99,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/kimpanel/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/pager/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/pager/libpagerplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/pager/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/showdesktop/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/showdesktop/libshowdesktopplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/showdesktop/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/taskmanager/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/taskmanager/libtaskmanagerplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/taskmanager/qmldir
@@ -146,6 +137,9 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.fontinst.service
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
+drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.fontinst.conf
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -262,6 +256,15 @@ drwxr-xr-x	root/root	usr/share/kfontinst/icons/hicolor/22x22/actions/
 -rw-r--r--	root/root	usr/share/kfontinst/icons/hicolor/22x22/actions/fontstatus.png
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kaccess.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/colorschemes.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/emoticons.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/icons.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/kfontinst.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/ksplash.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/lookandfeel.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/plasma-themes.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/xcursor.knsrc
 drwxr-xr-x	root/root	usr/share/konqsidebartng/
 drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/
 drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/services/
@@ -275,6 +278,12 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm5_icons/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/metadata.desktop
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/metadata.json
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_colors/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_colors/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_colors/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_colors/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_colors/metadata.desktop
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_colors/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_cursortheme/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_cursortheme/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_cursortheme/contents/ui/
@@ -320,6 +329,16 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/metadata.desktop
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/metadata.json
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/ApplicationConfiguration.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/PopupPositionPage.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/ScreenPositionSelector.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/SourcesPage.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/metadata.desktop
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_splashscreen/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_splashscreen/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_splashscreen/contents/ui/
@@ -337,7 +356,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/installfont.desktop
 -rw-r--r--	root/root	usr/share/kservices5/autostart.desktop
 -rw-r--r--	root/root	usr/share/kservices5/clock.desktop
--rw-r--r--	root/root	usr/share/kservices5/colors.desktop
 -rw-r--r--	root/root	usr/share/kservices5/componentchooser.desktop
 -rw-r--r--	root/root	usr/share/kservices5/desktoppath.desktop
 -rw-r--r--	root/root	usr/share/kservices5/device_automounter_kcm.desktop
@@ -350,6 +368,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/kaccess.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_activities.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_baloofile.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_colors.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_cursortheme.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_desktoptheme.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_fonts.desktop
@@ -358,13 +377,13 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/kcm_launchfeedback.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_lookandfeel.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_nightcolor.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_notifications.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_phonon.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_plasmasearch.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_splashscreen.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_workspace.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmaccess.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkded.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcmnotify.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmsmserver.desktop
 -rw-r--r--	root/root	usr/share/kservices5/keys.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kfontviewpart.desktop
@@ -372,8 +391,10 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kicker.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kickoff.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kimpanel.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.minimizeall.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.pager.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.showActivityManager.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.showdesktop.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.taskmanager.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.trash.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.windowlist.desktop
@@ -414,8 +435,10 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.kicker.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.pager.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.showActivityManager.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.taskmanager.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.trash.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.windowlist.appdata.xml
@@ -575,6 +598,14 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/config/
@@ -591,6 +622,14 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showActivityManag
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/
@@ -599,7 +638,8 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/conte
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/AudioStream.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/Badge.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ConfigGeneral.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ConfigAppearance.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ConfigBehavior.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ContextMenu.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/GroupDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/GroupExpanderOverlay.qml
