@@ -1,7 +1,7 @@
 # Description: GLib bindings for Telepathy
 # URL: https://telepathy.freedesktop.org/wiki/Components/Telepathy_GLib/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: dbus-glib libxslt gobject-introspection
+# Depends on: dbus-glib gobject-introspection libxslt
 
 name=telepathy-glib
 version=0.24.1
@@ -13,7 +13,7 @@ build() {
 
 	./configure --prefix=/usr \
 		--libdir=/usr/lib \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--disable-gtk-doc-html
 
 	make
