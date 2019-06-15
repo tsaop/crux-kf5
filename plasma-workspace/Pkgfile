@@ -30,7 +30,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	# Add polkit rule to enable shutdown/restart
-	install -Dm644 $SRC/52-upower.rules $PKG/usr/etc/polkit-1/rules.d/52-upower.rules
+	install -Dm644 $SRC/52-upower.rules $PKG/etc/polkit-1/rules.d/52-upower.rules
 
 	# Install PAM config file
 	install -Dm644 $SRC/kde.pam $PKG/etc/pam.d/kde
