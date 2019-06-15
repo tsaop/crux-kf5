@@ -11,7 +11,7 @@ source=(http://oligarchy.co.uk/xapian/$version/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 	./configure --prefix=/usr \
-	--sysconfdir=/usr/etc
+	--sysconfdir=/etc
 
 	make
 	make DESTDIR=$PKG install
