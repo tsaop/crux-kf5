@@ -12,7 +12,7 @@ build() {
 	cd $name-$version
 
 	./configure --prefix=/usr \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--enable-gwenhywfar \
 		--disable-static \
 		--disable-tutorials
