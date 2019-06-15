@@ -13,7 +13,7 @@ build() {
 
 	./mkdist.sh
 	./configure --prefix=/usr \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--mandir=/usr/share/man \
 		--disable-examples \
 		--disable-static
