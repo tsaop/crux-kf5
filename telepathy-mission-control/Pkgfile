@@ -14,7 +14,7 @@ build() {
 	./configure --prefix=/usr \
 		--libdir=/usr/lib \
 		--libexecdir=/usr/lib \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--disable-gtk-doc-html
 
 	make
