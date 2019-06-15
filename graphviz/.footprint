@@ -86,6 +86,10 @@ lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gd.so.6 -> libgvplugin_gd.so.6
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gdk.so -> libgvplugin_gdk.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gdk.so.6 -> libgvplugin_gdk.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_gdk.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_gs.la
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gs.so -> libgvplugin_gs.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gs.so.6 -> libgvplugin_gs.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_gs.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_gtk.la
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gtk.so -> libgvplugin_gtk.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gtk.so.6 -> libgvplugin_gtk.so.6.0.0
@@ -142,10 +146,10 @@ lrwxrwxrwx	root/root	usr/lib/libxdot.so.4 -> libxdot.so.4.0.0
 -rwxr-xr-x	root/root	usr/lib/libxdot.so.4.0.0
 drwxr-xr-x	root/root	usr/lib/perl5/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
-drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/
-drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/
--rw-r--r--	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/gv.pm
--rwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/gv.so
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/
+-rw-r--r--	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/gv.pm
+-rwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/gv.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libcdt.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libcgraph.pc

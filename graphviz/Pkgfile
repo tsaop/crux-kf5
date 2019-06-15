@@ -11,7 +11,7 @@ source=(http://www.graphviz.org/pub/$name/stable/SOURCES/$name.tar.gz)
 build() {
 	cd $name-$version
 	./configure --prefix=/usr \
-		--sysconfdir=/usr/etc \
+		--sysconfdir=/etc \
 		--libdir=/usr/lib \
 		--disable-static
 
