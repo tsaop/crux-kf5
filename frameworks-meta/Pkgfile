@@ -6,9 +6,8 @@
 name=frameworks-meta
 version=5.59.0
 release=1
-source=(kde.sh)
+source=()
 
 build() {
-	install -dm755 $PKG/etc/profile.d
-	cp $SRC/kde.sh $PKG/etc/profile.d
+	mkdir $PKG/usr
 }

@@ -16,7 +16,7 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DBUILD_TESTING=OFF \
 		-DKDE_INSTALL_LIBDIR=lib \
-		-DKDE_INSTALL_CONFDIR=/usr/etc \
+		-DKDE_INSTALL_CONFDIR=/etc \
 		..
 
 	make

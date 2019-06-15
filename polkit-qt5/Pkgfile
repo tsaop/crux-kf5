@@ -16,7 +16,7 @@ build() {
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DSYSCONF_INSTALL_DIR=/etc \
 	-DCMAKE_INSTALL_LIBDIR=/usr/lib \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DUSE_QT5=ON .

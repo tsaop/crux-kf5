@@ -17,7 +17,7 @@ build() {
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DBUILD_TESTING=OFF \
 	-DCMAKE_BUILD_TYPE=Release \
-	-DKAUTH_HELPER_INSTALL_DIR=/usr/etc/dbus-1/system.d \
+	-DKAUTH_HELPER_INSTALL_DIR=/etc/dbus-1/system.d \
 	-DKDE_INSTALL_LIBDIR=lib \
 	-Wno-dev \
 	..

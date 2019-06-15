@@ -1,3 +1,8 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+drwxr-xr-x	root/root	etc/xdg/autostart/
+-rw-r--r--	root/root	etc/xdg/autostart/baloo_file.desktop
+-rw-r--r--	root/root	etc/xdg/baloo.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/baloo_file
@@ -5,11 +10,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/balooctl
 -rwxr-xr-x	root/root	usr/bin/baloosearch
 -rwxr-xr-x	root/root	usr/bin/balooshow
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
-drwxr-xr-x	root/root	usr/etc/xdg/autostart/
--rw-r--r--	root/root	usr/etc/xdg/autostart/baloo_file.desktop
--rw-r--r--	root/root	usr/etc/xdg/baloo.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Baloo/

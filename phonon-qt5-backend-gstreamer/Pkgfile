@@ -15,7 +15,7 @@ build() {
 	mkdir build; cd build
 	cmake \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DSYSCONF_INSTALL_DIR=/usr/etc \
+		-DSYSCONF_INSTALL_DIR=/etc \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
 		-D__KDE_HAVE_GCC_VISIBILITY=NO \
 		-DCMAKE_BUILD_TYPE=RELEASE \

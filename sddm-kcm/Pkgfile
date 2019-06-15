@@ -13,7 +13,7 @@ build() {
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DSYSCONF_INSTALL_DIR=/etc \
 	-DSDDM_CONFIG_FILE=/usr/etc/sddm.conf \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \

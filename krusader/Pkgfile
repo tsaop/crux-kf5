@@ -14,7 +14,7 @@ build() {
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/usr/etc \
+	-DSYSCONF_INSTALL_DIR=/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DCMAKE_INSTALL_LIBEXECDIR=lib \
 	-DBUILD_TESTING=OFF \
