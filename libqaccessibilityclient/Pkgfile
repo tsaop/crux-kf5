@@ -1,0 +1,26 @@
+# Description: Helper to make writing accessibility tools easier
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules qt5
+
+name=libqaccessibilityclient
+version=0.4.1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+release=1
+
+build() {
+
+    cd $name-$version
+    mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DKDE_INSTALL_LIBDIR=lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+	
+	make
+	make DESTDIR=$PKG install
+}

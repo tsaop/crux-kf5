@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/qaccessibilityclient/
+-rw-r--r--	root/root	usr/include/qaccessibilityclient/accessibleobject.h
+-rw-r--r--	root/root	usr/include/qaccessibilityclient/libqaccessibilityclient-version.h
+-rw-r--r--	root/root	usr/include/qaccessibilityclient/qaccessibilityclient_export.h
+-rw-r--r--	root/root	usr/include/qaccessibilityclient/registry.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/QAccessibilityClient/
+-rw-r--r--	root/root	usr/lib/cmake/QAccessibilityClient/QAccessibilityClient-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/QAccessibilityClient/QAccessibilityClient.cmake
+-rw-r--r--	root/root	usr/lib/cmake/QAccessibilityClient/QAccessibilityClientConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/QAccessibilityClient/QAccessibilityClientConfigVersion.cmake
+lrwxrwxrwx	root/root	usr/lib/libqaccessibilityclient-qt5.so -> libqaccessibilityclient-qt5.so.0
+lrwxrwxrwx	root/root	usr/lib/libqaccessibilityclient-qt5.so.0 -> libqaccessibilityclient-qt5.so.0.4.1
+-rwxr-xr-x	root/root	usr/lib/libqaccessibilityclient-qt5.so.0.4.1
