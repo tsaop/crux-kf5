@@ -1,3 +1,10 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+-rw-r--r--	root/root	etc/xdg/calligra_stencils.knsrc
+-rw-r--r--	root/root	etc/xdg/calligrasheetsrc
+-rw-r--r--	root/root	etc/xdg/calligrastagerc
+-rw-r--r--	root/root	etc/xdg/calligrawordsrc
+-rw-r--r--	root/root	etc/xdg/karbonrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/calligra
@@ -10,13 +17,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/cstrunner
 -rwxr-xr-x	root/root	usr/bin/karbon
 -rwxr-xr-x	root/root	usr/bin/visualimagecompare
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/calligra_stencils.knsrc
--rw-r--r--	root/root	usr/etc/xdg/calligrasheetsrc
--rw-r--r--	root/root	usr/etc/xdg/calligrastagerc
--rw-r--r--	root/root	usr/etc/xdg/calligrawordsrc
--rw-r--r--	root/root	usr/etc/xdg/karbonrc
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libRtfReader.so -> libRtfReader.so.16
 lrwxrwxrwx	root/root	usr/lib/libRtfReader.so.16 -> libRtfReader.so.16.0.0
