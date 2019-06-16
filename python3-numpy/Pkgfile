@@ -1,0 +1,15 @@
+# Description: NumPy: array processing for numbers, strings, records, and objects
+# URL: https://www.scipy.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-setuptools
+
+name=python3-numpy
+version=1.16.4
+release=1
+source=(https://github.com/numpy/${name/python3-/}/releases/download/v${version}/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}

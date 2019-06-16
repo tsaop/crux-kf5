@@ -1,0 +1,15 @@
+# Description: Plugin and hook calling mechanisms for python
+# URL: https://pypi.python.org/pypi/pluggy
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-importlib-metadata
+
+name=python3-pluggy
+version=0.12.0
+release=2
+source=(https://files.pythonhosted.org/packages/75/21/cdabca0144cfa282c2893dc8e07957245ac8657896ef3ea26f18b6fda710/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}

@@ -1,0 +1,15 @@
+# Description: The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries
+# URL: https://docs.pytest.org/en/latest/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3-atomicwrites python3-attrs python3-more-itertools python3-packaging python3-pluggy python3-py
+
+name=python3-pytest
+version=4.6.3
+release=1
+source=(https://files.pythonhosted.org/packages/80/0f/6e9c66f70c16dff5b31a1493fea55ecd5b8fc138fe6a21c21365c33b5d62/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}

@@ -1,0 +1,15 @@
+# Description: The Astropy Project is a community effort to develop a single core package for Astronomy in Python and foster interoperability between Python astronomy packages
+# URL: http://www.astropy.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-numpy python3-pytest
+
+name=python3-astropy
+version=3.2.1
+release=1
+source=(https://files.pythonhosted.org/packages/b9/10/523355eb8cb9839552c8f0fbc9425a1c87c8ff2e55f4df85469a5a4164d3/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}

@@ -1,0 +1,15 @@
+# Description: Python library with cross-python path, ini-parsing, io, code, log facilities
+# URL: https://pypi.python.org/pypi/py/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3-setuptools
+
+name=python3-py
+version=1.8.0
+release=1
+source=(https://files.pythonhosted.org/packages/f1/5a/87ca5909f400a2de1561f1648883af74345fe96349f34f737cdfc94eba8c/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}

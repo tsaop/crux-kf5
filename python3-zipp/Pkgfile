@@ -1,0 +1,15 @@
+# Description: Backport of pathlib-compatible object wrapper for zip files
+# URL: https://pypi.python.org/pypi/zipp
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3-setuptools
+
+name=python3-zipp
+version=0.5.1
+release=1
+source=(https://files.pythonhosted.org/packages/f9/c4/15a1260171956ed4f8190962b1771c7dbca4a39360c15f9c2b77e667a489/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}

@@ -1,0 +1,15 @@
+# Description: Atomic file writes
+# URL: https://github.com/untitaker/python-atomicwrites
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  python3-setuptools
+
+name=python3-atomicwrites
+version=1.1.5
+release=1
+source=(https://files.pythonhosted.org/packages/a1/e1/2d9bc76838e6e6667fde5814aa25d7feb93d6fa471bf6816daac2596e8b2/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}
