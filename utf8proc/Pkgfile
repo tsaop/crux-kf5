@@ -1,0 +1,22 @@
+# Description: A clean C library for processing UTF-8 Unicode data: normalization, case-folding, graphemes, and more
+# URL: https://juliastrings.github.io/utf8proc/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  cmake
+
+name=utf8proc
+version=2.4.0
+release=1
+source=(https://github.com/JuliaStrings/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_SHARED_LIBS=ON \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
