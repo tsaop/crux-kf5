@@ -6,19 +6,29 @@
 name=kmplayer
 version=0.12.0b
 release=1
-source=(http://download.kde.org/stable/$name/${version%.0b}/$name-$version.tar.bz2)
+source=(http://download.kde.org/stable/$name/${version%.0b}/$name-$version.tar.bz2
+	kmplayer-desktop.patch
+	kmplayer-qt-5.9.patch
+	kmplayer-qt-5.11.patch)
 
 build() {
 	cd $name-$version
+	
+	sed -e 's/org.kde.//g' -i $SRC/kmplayer-desktop.patch
+	patch -Np1 -i $SRC/kmplayer-desktop.patch
+	patch -Np1 -i $SRC/kmplayer-qt-5.9.patch
+	patch -Np1 -i $SRC/kmplayer-qt-5.11.patch
+
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
