@@ -1,9 +1,7 @@
 # Description: Color management framework for visual effects and animation
 # URL: http://opencolorio.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: git lcms2 tinyxml
-
-# TODO: Enable building with system yaml-cpp when version 0.6.0 is supported.
+# Depends on: boost lcms2 python3 tinyxml yaml-cpp
 
 name=opencolorio
 version=1.1.1
@@ -16,6 +14,8 @@ build() {
 	# Remove -Werror, as it fails to build otherwise:
 	sed -i 's|-Werror||' src/pyglue/CMakeLists.txt
 	sed -i 's|-Werror||' src/core/CMakeLists.txt
+	# Fix build with system yaml-cpp:
+	sed -i "s/push(hidden)/push(default)/g" src/core/OCIOYaml.cpp
 
 	mkdir build; cd build
 
@@ -25,8 +25,9 @@ build() {
 		-DOCIO_BUILD_STATIC=OFF \
 		-DOCIO_BUILD_TESTS=OFF \
 		-DUSE_EXTERNAL_TINYXML=ON \
-		-DUSE_EXTERNAL_YAML=OFF \
+		-DUSE_EXTERNAL_YAML=ON \
 		-DUSE_EXTERNAL_LCMS=ON \
+		-DPYTHON=/usr/bin/python3 \
 		..
 	make
 	make DESTDIR=$PKG install
