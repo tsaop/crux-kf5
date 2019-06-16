@@ -1,7 +1,7 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+-rw-r--r--	root/root	etc/xdg/kio-extras.categories
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/kio-extras.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 -rw-r--r--	root/root	usr/include/KF5/kio_archivebase.h
@@ -19,6 +19,7 @@ lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.19 -> libmolletnetwork5.so.19.
 -rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.19.04.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/audiothumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/comicbookthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/djvuthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/ebookthumbnail.so
@@ -85,6 +86,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/about.protocol
 -rw-r--r--	root/root	usr/share/kservices5/activities.protocol
 -rw-r--r--	root/root	usr/share/kservices5/ar.protocol
+-rw-r--r--	root/root	usr/share/kservices5/audiothumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/bookmarks.protocol
 -rw-r--r--	root/root	usr/share/kservices5/bzip.protocol
 -rw-r--r--	root/root	usr/share/kservices5/bzip2.protocol

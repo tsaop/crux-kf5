@@ -1,3 +1,9 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+-rw-r--r--	root/root	etc/xdg/kmail.categories
+-rw-r--r--	root/root	etc/xdg/kmail.renamecategories
+-rw-r--r--	root/root	etc/xdg/ktnefapps.categories
+-rw-r--r--	root/root	etc/xdg/ktnefapps.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_archivemail_agent
@@ -7,12 +13,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_unifiedmailbox_agent
 -rwxr-xr-x	root/root	usr/bin/kmail
 -rwxr-xr-x	root/root	usr/bin/ktnef
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/kmail.categories
--rw-r--r--	root/root	usr/etc/xdg/kmail.renamecategories
--rw-r--r--	root/root	usr/etc/xdg/ktnefapps.categories
--rw-r--r--	root/root	usr/etc/xdg/ktnefapps.renamecategories
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.11.2
 -rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.11.2

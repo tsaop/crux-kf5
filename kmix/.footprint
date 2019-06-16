@@ -1,13 +1,13 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+drwxr-xr-x	root/root	etc/xdg/autostart/
+-rw-r--r--	root/root	etc/xdg/autostart/kmix_autostart.desktop
+-rw-r--r--	root/root	etc/xdg/autostart/restore_kmix_volumes.desktop
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kmix
 -rwxr-xr-x	root/root	usr/bin/kmixctrl
 -rwxr-xr-x	root/root	usr/bin/kmixremote
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
-drwxr-xr-x	root/root	usr/etc/xdg/autostart/
--rw-r--r--	root/root	usr/etc/xdg/autostart/kmix_autostart.desktop
--rw-r--r--	root/root	usr/etc/xdg/autostart/restore_kmix_volumes.desktop
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkmixcore.so.5 -> libkmixcore.so.5.13.80
 -rwxr-xr-x	root/root	usr/lib/libkmixcore.so.5.13.80
