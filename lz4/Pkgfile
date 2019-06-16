@@ -1,0 +1,16 @@
+# Description: Extremely Fast Compression algorithm
+# URL: https://lz4.github.io/lz4/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc
+
+name=lz4
+version=1.9.1
+release=1
+source=(https://github.com/$name/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make PREFIX=/usr
+	make DESTDIR=$PKG PREFIX=/usr install
+}
