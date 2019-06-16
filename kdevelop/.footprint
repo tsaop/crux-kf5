@@ -1,3 +1,7 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+-rw-r--r--	root/root	etc/xdg/kdevelop.categories
+-rw-r--r--	root/root	etc/xdg/kdevplatform.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdev_dbus_socket_transformer
@@ -6,10 +10,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdevelop
 -rwxr-xr-x	root/root	usr/bin/kdevelop!
 -rwxr-xr-x	root/root	usr/bin/kdevplatform_shell_environment.sh
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/kdevelop.categories
--rw-r--r--	root/root	usr/etc/xdg/kdevplatform.categories
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/kdevelop/
 drwxr-xr-x	root/root	usr/include/kdevelop/custom-definesandincludes/
