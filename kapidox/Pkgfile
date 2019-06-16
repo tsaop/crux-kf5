@@ -1,7 +1,7 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  cmake python
+# Depends on:  cmake python3
 
 name=kapidox
 version=5.59.0
@@ -10,17 +10,16 @@ source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.t
 
 build() {
 	cd $name-$version
-
-	
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
-	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
