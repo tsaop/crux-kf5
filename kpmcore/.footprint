@@ -1,10 +1,9 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/dbus-1/
+drwxr-xr-x	root/root	etc/dbus-1/system.d/
+-rw-r--r--	root/root	etc/dbus-1/system.d/org.kde.kpmcore.applicationinterface.conf
+-rw-r--r--	root/root	etc/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/dbus-1/
-drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kpmcore.applicationinterface.conf
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kpmcore.externalcommand.conf
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/kpmcore/
 drwxr-xr-x	root/root	usr/include/kpmcore/backend/
@@ -114,6 +113,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kpmcore.externalcommand.service
+drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.kpmcore.externalcommand.conf
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kpmcore.externalcommand.policy
