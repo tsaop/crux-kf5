@@ -1,9 +1,9 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+-rw-r--r--	root/root	etc/xdg/marble.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/marble
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
--rw-r--r--	root/root	usr/etc/xdg/marble.knsrc
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/astro/
 -rw-r--r--	root/root	usr/include/astro/astr2lib.h
@@ -111,11 +111,10 @@ drwxr-xr-x	root/root	usr/include/marble/
 -rw-r--r--	root/root	usr/include/marble/MarbleMath.h
 -rw-r--r--	root/root	usr/include/marble/MarbleModel.h
 -rw-r--r--	root/root	usr/include/marble/MarbleNavigator.h
+-rw-r--r--	root/root	usr/include/marble/MarbleWebView.h
 -rw-r--r--	root/root	usr/include/marble/MarbleWidget.h
 -rw-r--r--	root/root	usr/include/marble/MarbleWidgetInputHandler.h
 -rw-r--r--	root/root	usr/include/marble/MarbleWidgetPopupMenu.h
--rw-r--r--	root/root	usr/include/marble/NullMarbleWebView.h
--rw-r--r--	root/root	usr/include/marble/NullTinyWebBrowser.h
 -rw-r--r--	root/root	usr/include/marble/OsmcSymbol.h
 -rw-r--r--	root/root	usr/include/marble/ParseRunnerPlugin.h
 -rw-r--r--	root/root	usr/include/marble/ParsingRunner.h
@@ -160,6 +159,7 @@ drwxr-xr-x	root/root	usr/include/marble/
 -rw-r--r--	root/root	usr/include/marble/TileCreatorDialog.h
 -rw-r--r--	root/root	usr/include/marble/TileId.h
 -rw-r--r--	root/root	usr/include/marble/TileLevelRangeWidget.h
+-rw-r--r--	root/root	usr/include/marble/TinyWebBrowser.h
 -rw-r--r--	root/root	usr/include/marble/TourControlEditWidget.h
 -rw-r--r--	root/root	usr/include/marble/TourItemDelegate.h
 -rw-r--r--	root/root	usr/include/marble/TourPlayback.h
@@ -227,10 +227,12 @@ drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libNominatimSearchPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libNotesPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOSRMPlugin.so
+-rwxr-xr-x	root/root	usr/lib/marble/plugins/libOpenDesktopPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOpenLocationCodeSearchPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOpenRouteServicePlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOsmPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libOverviewMap.so
+-rwxr-xr-x	root/root	usr/lib/marble/plugins/libPhoto.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libPn2Plugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libPntPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libPositionMarker.so
@@ -243,6 +245,8 @@ drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libSpeedometer.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libStarsPlugin.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libSunPlugin.so
+-rwxr-xr-x	root/root	usr/lib/marble/plugins/libWeather.so
+-rwxr-xr-x	root/root	usr/lib/marble/plugins/libWikipedia.so
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/libYoursPlugin.so
 drwxr-xr-x	root/root	usr/lib/plugins/
 drwxr-xr-x	root/root	usr/lib/plugins/designer/

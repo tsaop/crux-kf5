@@ -1,7 +1,7 @@
 # Description: Virtual globe and world atlas for the KDE desktop
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk knewstuff kparts krunner qtwebkit
+# Depends on: gtk knewstuff kparts krunner qtwebengine
 
 name=marble
 version=19.04.2
@@ -19,8 +19,8 @@ build() {
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
 	-DCMAKE_INSTALL_LIBDIR=lib \
+	-DCMAKE_INSTALL_SYSCONFDIR=/etc \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
