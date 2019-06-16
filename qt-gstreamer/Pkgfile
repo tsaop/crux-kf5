@@ -6,15 +6,21 @@
 name=qt-gstreamer
 version=1.2.0
 release=1
-source=(https://gstreamer.freedesktop.org/src/$name/$name-$version.tar.xz)
+source=(https://gstreamer.freedesktop.org/src/$name/$name-$version.tar.xz
+	qt-gstreamer-1.6.patch)
 
 build() {
 	cd $name-$version
+
+	patch -Np1 -i $SRC/qt-gstreamer-1.6.patch
+
 	mkdir build; cd build
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DQTGSTREAMER_EXAMPLES=OFF \
+		-DCMAKE_DISABLE_FIND_PACKAGE_Qt5Declarative=ON \
 		-DQT_VERSION=5 \
 		-Wno-dev \
 		..
