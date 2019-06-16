@@ -1,10 +1,10 @@
 # Description: Library for automatic recognition of astronomical images; or standards-compliant astrometric metadata from data. 
 # URL: http://astrometry.net
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cairo gsl netpbm python-astropy wcslib
+# Depends on: cairo gsl netpbm python3-astropy wcslib
 
 name=astrometry.net
-version=0.76
+version=0.78
 release=1
 source=(http://astrometry.net/downloads/$name-$version.tar.gz)
 
@@ -21,6 +21,7 @@ build() {
 		-i util/Makefile
 
 	export SYSTEM_GSL=yes
+	export PYTHON=/usr/bin/python3
 
 	make
 	make py
@@ -30,8 +31,8 @@ build() {
 		DOC_INSTALL_DIR="$PKG/usr/share/doc/astrometry" \
 		EXAMPLE_INSTALL_DIR="$PKG/usr/share/astrometry/examples" \
 		DATA_INSTALL_DIR="$PKG/usr/share/astrometry/data" \
-		PY_BASE_INSTALL_DIR="$PKG/usr/lib/python2.7/site-packages/astrometry" \
-		PY_BASE_LINK_DIR="../lib/python2.7/site-packages/astrometry"
+		PY_BASE_INSTALL_DIR="$PKG/usr/lib/python3.7/site-packages/astrometry" \
+		PY_BASE_LINK_DIR="../lib/python3.7/site-packages/astrometry"
 	
 	sed -e "s|${PKG}/usr/data|/usr/share/astrometry/data|" -i $PKG/usr/etc/astrometry.cfg
 
