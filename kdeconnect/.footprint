@@ -1,12 +1,12 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+drwxr-xr-x	root/root	etc/xdg/autostart/
+-rw-r--r--	root/root	etc/xdg/autostart/kdeconnectd.desktop
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-cli
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-handler
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-indicator
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/xdg/
-drwxr-xr-x	root/root	usr/etc/xdg/autostart/
--rw-r--r--	root/root	usr/etc/xdg/autostart/kdeconnectd.desktop
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
 lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.1 -> libkdeconnectcore.so.1.3.4
