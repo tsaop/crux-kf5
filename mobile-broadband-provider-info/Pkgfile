@@ -1,10 +1,10 @@
 # Description: Mobile Service Provider Database
 # URL: https://git.gnome.org/browse/mobile-broadband-provider-info
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: glibc
+# Depends on:  glibc libxslt
 
 name=mobile-broadband-provider-info
-version=20190116
+version=20190618
 release=1
 source=(http://ftp.gnome.org/pub/gnome/sources/$name/$version/$name-$version.tar.xz)
 
