@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_aaf2_focus
 -rwxr-xr-x	root/root	usr/bin/indi_arduinost4
+-rwxr-xr-x	root/root	usr/bin/indi_astromech_lpm
 -rwxr-xr-x	root/root	usr/bin/indi_astrometry
 -rwxr-xr-x	root/root	usr/bin/indi_baader_dome
 -rwxr-xr-x	root/root	usr/bin/indi_celestron_gps
@@ -12,6 +13,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_dsc_telescope
 lrwxrwxrwx	root/root	usr/bin/indi_eq500x_telescope -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_eval
+-rwxr-xr-x	root/root	usr/bin/indi_fcusb_focus
 -rwxr-xr-x	root/root	usr/bin/indi_flipflat
 -rwxr-xr-x	root/root	usr/bin/indi_gemini_focus
 -rwxr-xr-x	root/root	usr/bin/indi_getprop
@@ -72,6 +74,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_script_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_sestosenso_focus
 -rwxr-xr-x	root/root	usr/bin/indi_setprop
+-rwxr-xr-x	root/root	usr/bin/indi_siefs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_ccd
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_detector
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_dome
@@ -192,20 +195,21 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.8
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.8
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.7.9
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.7.9
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.8
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.8
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.7.9
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.7.9
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.7.8
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.7.8
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.7.9
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.7.9
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
+-rw-r--r--	root/root	usr/lib/udev/rules.d/80-dbk21-camera.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-focusers.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-indi_auxiliary.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-vantage.rules
