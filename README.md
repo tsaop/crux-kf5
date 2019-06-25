@@ -41,11 +41,7 @@ Please note that only a handful of KF5 applications are packaged. More will foll
 
 Once everything is compiled, you can now try to start your fresh KF5 environment.
 
-First of all, you must source the file `/etc/profile.d/kde.sh`, otherwise KDE won't find its configuration files and will fail to start.
-
-You can add something like `source /etc/profile.d/kde.sh` to your shell initialization file in your home directory, or to `/etc/profile`.
-
-Add dbus to the `SERVICES` array in `/etc/rc.conf`:
+In order to do so, add dbus to the `SERVICES` array in `/etc/rc.conf`:
 
     SERVICES=(lo crond dbus [...]) 
 
