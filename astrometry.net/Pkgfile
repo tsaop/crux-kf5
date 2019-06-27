@@ -5,7 +5,7 @@
 
 name=astrometry.net
 version=0.78
-release=1
+release=2
 source=(http://astrometry.net/downloads/$name-$version.tar.gz)
 
 build() {
@@ -27,14 +27,14 @@ build() {
 	make py
 	make extra
 	make install INSTALL_DIR="$PKG/usr" \
-		ETC_INSTALL_DIR="$PKG/usr/etc" \
+		ETC_INSTALL_DIR="$PKG/etc" \
 		DOC_INSTALL_DIR="$PKG/usr/share/doc/astrometry" \
 		EXAMPLE_INSTALL_DIR="$PKG/usr/share/astrometry/examples" \
 		DATA_INSTALL_DIR="$PKG/usr/share/astrometry/data" \
 		PY_BASE_INSTALL_DIR="$PKG/usr/lib/python3.7/site-packages/astrometry" \
 		PY_BASE_LINK_DIR="../lib/python3.7/site-packages/astrometry"
 	
-	sed -e "s|${PKG}/usr/data|/usr/share/astrometry/data|" -i $PKG/usr/etc/astrometry.cfg
+	sed -e "s|${PKG}/usr/data|/usr/share/astrometry/data|" -i $PKG/etc/astrometry.cfg
 
 	rm -rf $PKG/usr/share/doc $PKG/usr/share/astrometry/examples
 	rm $PKG/usr/bin/{fitscopy,imcopy}

@@ -1,3 +1,5 @@
+drwxr-xr-x	root/root	etc/
+-rw-r--r--	root/root	etc/astrometry.cfg
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/an-fitstopnm
@@ -49,8 +51,6 @@ lrwxrwxrwx	root/root	usr/bin/plotann.py -> ../lib/python3.7/site-packages/astrom
 -rwxr-xr-x	root/root	usr/bin/wcs-to-tan
 -rwxr-xr-x	root/root	usr/bin/wcs-xy2rd
 -rwxr-xr-x	root/root	usr/bin/wcsinfo
-drwxr-xr-x	root/root	usr/etc/
--rw-r--r--	root/root	usr/etc/astrometry.cfg
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/astrometry/
 -rw-r--r--	root/root	usr/include/astrometry/2mass-fits.h
