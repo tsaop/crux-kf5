@@ -4,14 +4,13 @@
 # Depends on: jasper lcms2
 
 name=libraw
-version=0.19.2
+version=0.19.3
 release=1
 source=(http://www.libraw.org/data/LibRaw-$version.tar.gz)
 
 build() {
 	cd LibRaw-$version
 
-	./mkdist.sh
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--mandir=/usr/share/man \
