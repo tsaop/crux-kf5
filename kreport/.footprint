@@ -79,8 +79,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KReport3/
 -rw-r--r--	root/root	usr/lib/cmake/KReport3/KReportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KReport3/KReportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKReport3.so -> libKReport3.so.4
-lrwxrwxrwx	root/root	usr/lib/libKReport3.so.4 -> libKReport3.so.4.1.0
--rwxr-xr-x	root/root	usr/lib/libKReport3.so.4.1.0
+lrwxrwxrwx	root/root	usr/lib/libKReport3.so.4 -> libKReport3.so.4.2.0
+-rwxr-xr-x	root/root	usr/lib/libKReport3.so.4.2.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/KReport3.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
@@ -91,13 +91,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kreport3/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kreport3/org.kde.kreport.barcode.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kreport3/org.kde.kreport.maps.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kreport3/org.kde.kreport.web.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kreport3/
 drwxr-xr-x	root/root	usr/share/kreport3/icons/
 -rw-r--r--	root/root	usr/share/kreport3/icons/kreport_breeze.rcc
 -rw-r--r--	root/root	usr/share/kreport3/icons/org.kde.kreport.barcode_breeze.rcc
 -rw-r--r--	root/root	usr/share/kreport3/icons/org.kde.kreport.maps_breeze.rcc
--rw-r--r--	root/root	usr/share/kreport3/icons/org.kde.kreport.web_breeze.rcc
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kreport_elementplugin.desktop
