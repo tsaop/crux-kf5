@@ -102,6 +102,10 @@ lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_neato_layout.so.6 -> libgvplug
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_pango.so -> libgvplugin_pango.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_pango.so.6 -> libgvplugin_pango.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_pango.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_visio.la
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_visio.so -> libgvplugin_visio.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_visio.so.6 -> libgvplugin_visio.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_visio.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_xlib.la
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_xlib.so -> libgvplugin_xlib.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_xlib.so.6 -> libgvplugin_xlib.so.6.0.0
@@ -116,6 +120,36 @@ lrwxrwxrwx	root/root	usr/lib/graphviz/python/_gv.so -> libgv_python.so
 -rw-r--r--	root/root	usr/lib/graphviz/python/gv.py
 -rwxr-xr-x	root/root	usr/lib/graphviz/python/libgv_python.la
 -rwxr-xr-x	root/root	usr/lib/graphviz/python/libgv_python.so
+drwxr-xr-x	root/root	usr/lib/graphviz/python2/
+lrwxrwxrwx	root/root	usr/lib/graphviz/python2/_gv.so -> libgv_python.so
+-rw-r--r--	root/root	usr/lib/graphviz/python2/gv.py
+-rwxr-xr-x	root/root	usr/lib/graphviz/python2/libgv_python2.la
+-rwxr-xr-x	root/root	usr/lib/graphviz/python2/libgv_python2.so
+drwxr-xr-x	root/root	usr/lib/graphviz/python3/
+lrwxrwxrwx	root/root	usr/lib/graphviz/python3/_gv.so -> libgv_python.so
+-rw-r--r--	root/root	usr/lib/graphviz/python3/gv.py
+-rwxr-xr-x	root/root	usr/lib/graphviz/python3/libgv_python3.la
+-rwxr-xr-x	root/root	usr/lib/graphviz/python3/libgv_python3.so
+drwxr-xr-x	root/root	usr/lib/graphviz/tcl/
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libgdtclft.la
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libgdtclft.so -> libgdtclft.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libgdtclft.so.0 -> libgdtclft.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libgdtclft.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libgv_tcl.la
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libgv_tcl.so
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libtcldot.la
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libtcldot.so -> libtcldot.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libtcldot.so.0 -> libtcldot.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libtcldot.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libtcldot_builtin.la
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libtcldot_builtin.so -> libtcldot_builtin.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libtcldot_builtin.so.0 -> libtcldot_builtin.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libtcldot_builtin.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libtclplan.la
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libtclplan.so -> libtclplan.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/tcl/libtclplan.so.0 -> libtclplan.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/tcl/libtclplan.so.0.0.0
+-rw-r--r--	root/root	usr/lib/graphviz/tcl/pkgIndex.tcl
 -rwxr-xr-x	root/root	usr/lib/libcdt.la
 lrwxrwxrwx	root/root	usr/lib/libcdt.so -> libcdt.so.5.0.0
 lrwxrwxrwx	root/root	usr/lib/libcdt.so.5 -> libcdt.so.5.0.0
@@ -162,11 +196,60 @@ drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/_gv.so
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gv.py
+drwxr-xr-x	root/root	usr/lib/python3.7/
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
+-rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_gv.so
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/gv.py
+drwxr-xr-x	root/root	usr/lib64/
+drwxr-xr-x	root/root	usr/lib64/tcl8.6/
+drwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.la
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.so -> libgdtclft.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.so.0 -> libgdtclft.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgv_tcl.la
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgv_tcl.so
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.la
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.so -> libtcldot.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.so.0 -> libtcldot.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.la
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.so -> libtcldot_builtin.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.so.0 -> libtcldot_builtin.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.la
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.so -> libtclplan.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.so.0 -> libtclplan.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.so.0.0.0
+-rw-r--r--	root/root	usr/lib64/tcl8.6/graphviz/pkgIndex.tcl
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/graphviz/
 drwxr-xr-x	root/root	usr/share/graphviz/demo/
+-rwxr-xr-x	root/root	usr/share/graphviz/demo/doted.tcl
+-rw-r--r--	root/root	usr/share/graphviz/demo/doted.tcl.README
+-rw-r--r--	root/root	usr/share/graphviz/demo/entities.html
+-rwxr-xr-x	root/root	usr/share/graphviz/demo/entities.tcl
+-rw-r--r--	root/root	usr/share/graphviz/demo/entities.tcl.README
+-rwxr-xr-x	root/root	usr/share/graphviz/demo/gcat.tcl
+-rw-r--r--	root/root	usr/share/graphviz/demo/gcat.tcl.README
 -rwxr-xr-x	root/root	usr/share/graphviz/demo/modgraph.pl
 -rwxr-xr-x	root/root	usr/share/graphviz/demo/modgraph.py
+-rwxr-xr-x	root/root	usr/share/graphviz/demo/modgraph.tcl
+-rwxr-xr-x	root/root	usr/share/graphviz/demo/pathplan.tcl
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan.tcl.README
+drwxr-xr-x	root/root	usr/share/graphviz/demo/pathplan_data/
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/boxes.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/dpd.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/funny.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/maze.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/nested.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/northo.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/obs.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/other.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/paths.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/rotor.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/u.dat
+-rw-r--r--	root/root	usr/share/graphviz/demo/pathplan_data/unknown.dat
 drwxr-xr-x	root/root	usr/share/graphviz/graphs/
 drwxr-xr-x	root/root	usr/share/graphviz/graphs/directed/
 -rw-r--r--	root/root	usr/share/graphviz/graphs/directed/KW91.gv
@@ -291,6 +374,7 @@ lrwxrwxrwx	root/root	usr/share/man/man1/circo.1.gz -> dot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/diffimg.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/dijkstra.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/dot.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/dot2gxl.1.gz -> gv2gxl.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/dotty.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/edgepaint.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/fdp.1.gz -> dot.1.gz
@@ -305,6 +389,7 @@ lrwxrwxrwx	root/root	usr/share/man/man1/gv2gxl.1.gz -> gxl2gv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvmap.sh.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvpack.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvpr.1.gz
+lrwxrwxrwx	root/root	usr/share/man/man1/gxl2dot.1.gz -> gxl2gv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gxl2gv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/lefty.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/lneato.1.gz
@@ -317,7 +402,6 @@ lrwxrwxrwx	root/root	usr/share/man/man1/neato.1.gz -> dot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/prune.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/sccmap.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/sfdp.1.gz -> dot.1.gz
--rw-r--r--	root/root	usr/share/man/man1/smyrna.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/tred.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/twopi.1.gz -> dot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/unflatten.1.gz
@@ -326,13 +410,16 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/cdt.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/cgraph.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/expr.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/gdtclft.3tcl.gz
 -rw-r--r--	root/root	usr/share/man/man3/gv.3perl.gz
 -rw-r--r--	root/root	usr/share/man/man3/gv.3python.gz
+-rw-r--r--	root/root	usr/share/man/man3/gv.3tcl.gz
 -rw-r--r--	root/root	usr/share/man/man3/gvc.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/gvpr.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/lab_gamut.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/pack.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/pathplan.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/tcldot.3tcl.gz
 -rw-r--r--	root/root	usr/share/man/man3/xdot.3.gz
 drwxr-xr-x	root/root	usr/share/man/man7/
 -rw-r--r--	root/root	usr/share/man/man7/graphviz.7.gz

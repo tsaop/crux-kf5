@@ -1,15 +1,17 @@
 # Description: Graphviz is open source graph visualization software
 # URL: http://www.graphviz.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: freeglut ghostscript glade gtkglext libgd swig
+# Depends on: freeglut ghostscript glade gtkglext libgd swig tcl
 
 name=graphviz
-version=2.40.1
-release=2
-source=(http://www.graphviz.org/pub/$name/stable/SOURCES/$name.tar.gz)
+version=2.42.0
+release=1
+source=(https://gitlab.com/graphviz/graphviz/-/archive/stable_release_2.42.0/$name-stable_release_$version.tar.bz2)
 
 build() {
-	cd $name-$version
+	cd $name-stable_release_${version}
+
+	./autogen.sh
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--libdir=/usr/lib \
