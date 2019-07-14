@@ -2,7 +2,6 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/autostart/
 -rw-r--r--	root/root	etc/xdg/autostart/baloo_file.desktop
--rw-r--r--	root/root	etc/xdg/baloo.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/baloo_file
@@ -39,10 +38,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Baloo/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Baloo/KF5BalooTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Baloo/KF5BalooTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Baloo.so -> libKF5Baloo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Baloo.so.5 -> libKF5Baloo.so.5.59.0
--rwxr-xr-x	root/root	usr/lib/libKF5Baloo.so.5.59.0
-lrwxrwxrwx	root/root	usr/lib/libKF5BalooEngine.so.5 -> libKF5BalooEngine.so.5.59.0
--rwxr-xr-x	root/root	usr/lib/libKF5BalooEngine.so.5.59.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Baloo.so.5 -> libKF5Baloo.so.5.60.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Baloo.so.5.60.0
+lrwxrwxrwx	root/root	usr/lib/libKF5BalooEngine.so.5 -> libKF5BalooEngine.so.5.60.0
+-rwxr-xr-x	root/root	usr/lib/libKF5BalooEngine.so.5.60.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/Baloo.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
@@ -83,3 +82,5 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/baloosearch.protocol
 -rw-r--r--	root/root	usr/share/kservices5/tags.protocol
 -rw-r--r--	root/root	usr/share/kservices5/timeline.protocol
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/baloo.categories

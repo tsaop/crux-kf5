@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kpackage.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kpackagetool5
@@ -30,8 +27,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Package/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Package/KF5PackageToolsTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Package/qrc.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Package.so -> libKF5Package.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Package.so.5 -> libKF5Package.so.5.59.0
--rwxr-xr-x	root/root	usr/lib/libKF5Package.so.5.59.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Package.so.5 -> libKF5Package.so.5.60.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Package.so.5.60.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kpackage-generic.desktop
@@ -40,3 +37,5 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/kpackagetool5.1.gz
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kpackage.categories
