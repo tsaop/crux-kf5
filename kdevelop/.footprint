@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kdevelop.categories
--rw-r--r--	root/root	etc/xdg/kdevplatform.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdev_dbus_socket_transformer
@@ -432,38 +428,38 @@ drwxr-xr-x	root/root	usr/lib/cmake/KDevelop/
 -rw-r--r--	root/root	usr/lib/cmake/KDevelop/KDevelopTargets.cmake
 -rwxr-xr-x	root/root	usr/lib/libKDevClangPrivate.so.31
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so -> libKDevPlatformDebugger.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformDebugger.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so.53 -> libKDevPlatformDebugger.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformDebugger.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so.53 -> libKDevPlatformDebugger.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so -> libKDevPlatformDocumentation.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformDocumentation.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so.53 -> libKDevPlatformDocumentation.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformDocumentation.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so.53 -> libKDevPlatformDocumentation.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so -> libKDevPlatformInterfaces.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformInterfaces.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so.53 -> libKDevPlatformInterfaces.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformInterfaces.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so.53 -> libKDevPlatformInterfaces.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so -> libKDevPlatformLanguage.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformLanguage.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so.53 -> libKDevPlatformLanguage.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformLanguage.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so.53 -> libKDevPlatformLanguage.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so -> libKDevPlatformOutputView.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformOutputView.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so.53 -> libKDevPlatformOutputView.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformOutputView.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so.53 -> libKDevPlatformOutputView.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so -> libKDevPlatformProject.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformProject.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so.53 -> libKDevPlatformProject.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformProject.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so.53 -> libKDevPlatformProject.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so -> libKDevPlatformSerialization.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformSerialization.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so.53 -> libKDevPlatformSerialization.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformSerialization.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so.53 -> libKDevPlatformSerialization.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so -> libKDevPlatformShell.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformShell.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so.53 -> libKDevPlatformShell.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformShell.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so.53 -> libKDevPlatformShell.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so -> libKDevPlatformSublime.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformSublime.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so.53 -> libKDevPlatformSublime.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformSublime.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so.53 -> libKDevPlatformSublime.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so -> libKDevPlatformUtil.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformUtil.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so.53 -> libKDevPlatformUtil.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformUtil.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so.53 -> libKDevPlatformUtil.so.5.3.3
 lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so -> libKDevPlatformVcs.so.53
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformVcs.so.5.3.2
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so.53 -> libKDevPlatformVcs.so.5.3.2
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformVcs.so.5.3.3
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so.53 -> libKDevPlatformVcs.so.5.3.3
 -rwxr-xr-x	root/root	usr/lib/libkdevcmakecommon.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -836,3 +832,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/kdevelopsessions/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/kdevelopsessions/metadata.desktop
 drwxr-xr-x	root/root	usr/share/plasma/services/
 -rw-r--r--	root/root	usr/share/plasma/services/org.kde.plasma.dataengine.kdevelopsessions.operations
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kdevelop.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kdevplatform.categories
