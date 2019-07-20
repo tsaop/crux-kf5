@@ -4,7 +4,7 @@
 # Depends on: extra-cmake-modules qt5
 
 name=phonon-qt5
-version=4.10.2
+version=4.10.3
 release=1
 source=(http://download.kde.org/stable/${name%-qt5}/$version/${name%-qt5}-$version.tar.xz)
 
@@ -24,4 +24,5 @@ build() {
 	make DESTDIR=$PKG install
 	rm -f $PKG/usr/share/phonon/buildsystem/COPYING-CMAKE-SCRIPTS
 	rm -f $PKG/usr/share/phonon4qt5/buildsystem/COPYING-CMAKE-SCRIPTS
+	rm -rf $PKG/usr/share/locale
 }
