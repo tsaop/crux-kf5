@@ -4,8 +4,8 @@
 # Depends on: phonon-qt5
 
 name=phonon-qt5-backend-gstreamer
-version=4.9.0
-release=3
+version=4.9.1
+release=1
 source=(http://download.kde.org/stable/phonon/${name/-qt5/}/$version/${name/-qt5/}-$version.tar.xz)
 
 build() {
@@ -24,6 +24,6 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/lib64 
-
 	rm -f $PKG/usr/share/phonon/buildsystem/COPYING-CMAKE-SCRIPTS
+	rm -rf $PKG/usr/share/locale
 }
