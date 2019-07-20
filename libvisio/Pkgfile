@@ -1,11 +1,11 @@
 # Description: Library that parses the file format of Microsoft Visio documents of all versions
 # URL: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: librevenge libxml2
+# Depends on: icu librevenge libxml2
 
 name=libvisio
 version=0.1.6
-release=2
+release=3
 source=(http://dev-www.libreoffice.org/src/$name/$name-$version.tar.xz)
 
 build() {
