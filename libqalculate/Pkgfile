@@ -4,7 +4,7 @@
 # Depends on: cln gnuplot icu intltool
 
 name=libqalculate
-version=3.2.0
+version=3.3.0
 release=1
 source=(https://github.com/Qalculate/$name/releases/download/v${version}/$name-$version.tar.gz)
 
