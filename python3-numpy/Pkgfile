@@ -4,7 +4,7 @@
 # Depends on: python3-setuptools
 
 name=python3-numpy
-version=1.16.4
+version=1.17.0
 release=1
 source=(https://github.com/numpy/${name/python3-/}/releases/download/v${version}/${name/python3-/}-$version.tar.gz)
 
