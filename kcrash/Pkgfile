@@ -5,22 +5,23 @@
 
 name=kcrash
 version=5.60.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
+	-DCMAKE_INSTALL_LIBEXECDIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
