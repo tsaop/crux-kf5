@@ -4,9 +4,9 @@
 # Depends on:  python3-pbr
 
 name=python3-pysol-cards
-version=0.8.4
+version=0.8.5
 release=1
-source=(https://files.pythonhosted.org/packages/d7/fd/663ec6422e5ed875275d09703ae01ff306c52afd360fbe273bd1176b472e/pysol_cards-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/d5/7a/49aeb8a77729938444261677fb601282f2e63daa853f45a5ca438a239a29/pysol_cards-$version.tar.gz)
 
 build() {
 	cd pysol_cards-$version
