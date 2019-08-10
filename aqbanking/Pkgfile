@@ -4,13 +4,17 @@
 # Depends on: gwenhywfar ktoblzcheck libofx xmlsec1
 
 name=aqbanking
-version=5.7.8
+version=5.8.0
 release=1
-source=("https://www.aquamaniac.de/sites/download/download.php?package=03&release=217&file=02&dummy=$name-$version.tar.gz")
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
+	fix-libaqhbci-la.diff)
 
 build() {
 	cd $name-$version
 
+	patch -Np1 -i $SRC/fix-libaqhbci-la.diff
+
+	autoreconf -vfi
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--enable-gwenhywfar \

@@ -217,13 +217,13 @@ drwxr-xr-x	root/root	usr/lib/aqbanking/plugins/35/providers/
 -rwxr-xr-x	root/root	usr/lib/aqbanking/plugins/35/providers/aqpaypal.so
 -rw-r--r--	root/root	usr/lib/aqbanking/plugins/35/providers/aqpaypal.xml
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/aqbanking-5.7/
--rw-r--r--	root/root	usr/lib/cmake/aqbanking-5.7/aqbanking-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/aqbanking-5.7/aqbanking-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/aqbanking-5.8/
+-rw-r--r--	root/root	usr/lib/cmake/aqbanking-5.8/aqbanking-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/aqbanking-5.8/aqbanking-config.cmake
 -rwxr-xr-x	root/root	usr/lib/libaqbanking.la
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.35.6.8
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.35 -> libaqbanking.so.35.6.8
--rwxr-xr-x	root/root	usr/lib/libaqbanking.so.35.6.8
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.35.7.8
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.35 -> libaqbanking.so.35.7.8
+-rwxr-xr-x	root/root	usr/lib/libaqbanking.so.35.7.8
 -rwxr-xr-x	root/root	usr/lib/libaqbankingpp.la
 lrwxrwxrwx	root/root	usr/lib/libaqbankingpp.so -> libaqbankingpp.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libaqbankingpp.so.0 -> libaqbankingpp.so.0.0.0
@@ -237,9 +237,9 @@ lrwxrwxrwx	root/root	usr/lib/libaqhbci.so -> libaqhbci.so.24.0.1
 lrwxrwxrwx	root/root	usr/lib/libaqhbci.so.24 -> libaqhbci.so.24.0.1
 -rwxr-xr-x	root/root	usr/lib/libaqhbci.so.24.0.1
 -rwxr-xr-x	root/root	usr/lib/libaqnone.la
-lrwxrwxrwx	root/root	usr/lib/libaqnone.so -> libaqnone.so.35.6.8
-lrwxrwxrwx	root/root	usr/lib/libaqnone.so.35 -> libaqnone.so.35.6.8
--rwxr-xr-x	root/root	usr/lib/libaqnone.so.35.6.8
+lrwxrwxrwx	root/root	usr/lib/libaqnone.so -> libaqnone.so.35.7.8
+lrwxrwxrwx	root/root	usr/lib/libaqnone.so.35 -> libaqnone.so.35.7.8
+-rwxr-xr-x	root/root	usr/lib/libaqnone.so.35.7.8
 -rwxr-xr-x	root/root	usr/lib/libaqofxconnect.la
 lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so -> libaqofxconnect.so.7.0.2
 lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so.7 -> libaqofxconnect.so.7.0.2

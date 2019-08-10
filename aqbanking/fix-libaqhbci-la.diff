@@ -1,0 +1,11 @@
+--- aqbanking-5.8.0/src/plugins/backends/aqhbci/plugin/Makefile.am.orig	2019-08-10 20:35:09.266623081 +0200
++++ aqbanking-5.8.0/src/plugins/backends/aqhbci/plugin/Makefile.am	2019-08-10 20:36:10.727321995 +0200
+@@ -74,7 +74,7 @@
+ 
+ testlib_SOURCES=testlib.c
+ testlib_LDADD = \
+-  $(aqhbci_internal_libs) \
++  libaqhbci.la \
+   $(aqbanking_internal_libs) \
+   $(gwenhywfar_libs)
+ 
