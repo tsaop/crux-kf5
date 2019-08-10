@@ -4,8 +4,8 @@
 # Depends on: libpng libtiff subversion xorg-libx11
 
 name=netpbm
-version=10.73.27
-_svnrev=3603
+version=10.86.05
+_svnrev=3658
 source=(userguide.tar.gz)
 release=1
 
@@ -28,7 +28,8 @@ build() {
 	echo "NETPBM_DOCURL = file://$SRC/$name-code-${_svnrev}-trunk/doc" >> config.mk
 
 	sed -i 's|misc|share/netpbm|' common.mk
-	sed -i 's|/link|/lib|' lib/Makefile
+	sed -i 's|/sharedlink|/lib|' lib/Makefile
+	sed -i 's|/staticlink|/lib|' lib/Makefile
 	sed -i 's|install.manwebmain install.manweb install.man|install.man|' GNUmakefile
 
 	make -j1
