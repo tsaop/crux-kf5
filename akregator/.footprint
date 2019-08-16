@@ -1,17 +1,13 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/akregator.categories
--rw-r--r--	root/root	etc/xdg/akregator.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akregator
 -rwxr-xr-x	root/root	usr/bin/akregatorstorageexporter
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libakregatorinterfaces.so -> libakregatorinterfaces.so.5
-lrwxrwxrwx	root/root	usr/lib/libakregatorinterfaces.so.5 -> libakregatorinterfaces.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libakregatorinterfaces.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libakregatorprivate.so.5 -> libakregatorprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libakregatorprivate.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libakregatorinterfaces.so.5 -> libakregatorinterfaces.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libakregatorinterfaces.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libakregatorprivate.so.5 -> libakregatorprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libakregatorprivate.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_advanced.so
@@ -86,3 +82,6 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/akregator_plugin.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.akregator.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/akregator.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/akregator.renamecategories

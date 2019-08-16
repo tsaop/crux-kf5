@@ -1,6 +1,5 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kdenlive.categories
 -rw-r--r--	root/root	etc/xdg/kdenlive_keyboardschemes.knsrc
 -rw-r--r--	root/root	etc/xdg/kdenlive_renderprofiles.knsrc
 -rw-r--r--	root/root	etc/xdg/kdenlive_titles.knsrc
@@ -233,6 +232,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/invert.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/lift_gamma_gain.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/loudness.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/luma.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/mirror.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/movit_blur.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/movit_deconvolution_sharpen.xml
@@ -382,3 +382,5 @@ drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/org.kde.kdenlive.xml
 -rw-r--r--	root/root	usr/share/mime/packages/westley.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kdenlive.categories

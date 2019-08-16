@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kcalutils.categories
--rw-r--r--	root/root	etc/xdg/kcalutils.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -12,7 +8,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KCalUtils/KCalUtils/
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/KCalUtils/ICalDrag
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/KCalUtils/IncidenceFormatter
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/KCalUtils/RecurrenceActions
--rw-r--r--	root/root	usr/include/KF5/KCalUtils/KCalUtils/Scheduler
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/KCalUtils/Stringify
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/KCalUtils/VCalDrag
 drwxr-xr-x	root/root	usr/include/KF5/KCalUtils/kcalutils/
@@ -24,7 +19,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KCalUtils/kcalutils/
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/kcalutils/incidenceformatter.h
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/kcalutils/kcalutils_export.h
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/kcalutils/recurrenceactions.h
--rw-r--r--	root/root	usr/include/KF5/KCalUtils/kcalutils/scheduler.h
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/kcalutils/stringify.h
 -rw-r--r--	root/root	usr/include/KF5/KCalUtils/kcalutils/vcaldrag.h
 -rw-r--r--	root/root	usr/include/KF5/kcalutils_version.h
@@ -39,10 +33,13 @@ drwxr-xr-x	root/root	usr/lib/grantlee/
 drwxr-xr-x	root/root	usr/lib/grantlee/5.1/
 -rwxr-xr-x	root/root	usr/lib/grantlee/5.1/kcalendar_grantlee_plugin.so
 lrwxrwxrwx	root/root	usr/lib/libKF5CalendarUtils.so -> libKF5CalendarUtils.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CalendarUtils.so.5 -> libKF5CalendarUtils.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5CalendarUtils.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5CalendarUtils.so.5 -> libKF5CalendarUtils.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CalendarUtils.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KCalUtils.pri
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kcalutils.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kcalutils.renamecategories

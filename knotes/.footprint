@@ -1,17 +1,12 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/knotes.categories
--rw-r--r--	root/root	etc/xdg/knotes.renamecategories
--rw-r--r--	root/root	etc/xdg/knotes_printing_theme.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_notes_agent
 -rwxr-xr-x	root/root	usr/bin/knotes
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_knote.so
@@ -75,6 +70,8 @@ drwxr-xr-x	root/root	usr/share/knotes/print/themes/default/
 -rw-r--r--	root/root	usr/share/knotes/print/themes/default/theme.html
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_notes_agent.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/knotes_printing_theme.knsrc
 drwxr-xr-x	root/root	usr/share/kontact/
 drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
 -rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/knotes.setdlg
@@ -96,3 +93,6 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/knotes/
 -rw-r--r--	root/root	usr/share/kxmlgui5/knotes/knotesui.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.knotes.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/knotes.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/knotes.renamecategories

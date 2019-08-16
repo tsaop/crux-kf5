@@ -1,11 +1,12 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kdepim-addons.categories
--rw-r--r--	root/root	etc/xdg/kdepim-addons.renamecategories
 -rw-r--r--	root/root	etc/xdg/kmail.antispamrc
 -rw-r--r--	root/root	etc/xdg/kmail.antivirusrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/akonadimailreader
+-rwxr-xr-x	root/root	usr/bin/coisceim
+-rwxr-xr-x	root/root	usr/bin/etm_usage
 -rwxr-xr-x	root/root	usr/bin/kmail_antivir.sh
 -rwxr-xr-x	root/root	usr/bin/kmail_clamav.sh
 -rwxr-xr-x	root/root	usr/bin/kmail_fprot.sh
@@ -14,22 +15,25 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/contacteditor/
 drwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/
 -rwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/cryptopageplugin.so
-lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libgrammarcommon.so.5 -> libgrammarcommon.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libgrammarcommon.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libkmailgrammalecte.so.5 -> libkmailgrammalecte.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkmailgrammalecte.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libkmaillanguagetool.so.5 -> libkmaillanguagetool.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkmaillanguagetool.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libcoisceim_widget.so.5 -> libcoisceim_widget.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libcoisceim_widget.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libgrammarcommon.so.5 -> libgrammarcommon.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libgrammarcommon.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libkmailgrammalecte.so.5 -> libkmailgrammalecte.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkmailgrammalecte.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libkmaillanguagetool.so.5 -> libkmaillanguagetool.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkmaillanguagetool.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/coisceimpart.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/contacteditor/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/contacteditor/addresslocationeditorplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/
@@ -117,22 +121,45 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/libpimcalendarsplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/qmldir
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.akonadimailreader.desktop
+drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/mailreader.kcfg
 drwxr-xr-x	root/root	usr/share/contacteditor/
 drwxr-xr-x	root/root	usr/share/contacteditor/grantleetheme/
 drwxr-xr-x	root/root	usr/share/contacteditor/grantleetheme/default/
 -rw-r--r--	root/root	usr/share/contacteditor/grantleetheme/default/addresseslocation.css
 -rw-r--r--	root/root	usr/share/contacteditor/grantleetheme/default/addresseslocation.html
 drwxr-xr-x	root/root	usr/share/kconf_update/
+-rw-r--r--	root/root	usr/share/kconf_update/languagetool_kmail.upd
 -rw-r--r--	root/root	usr/share/kconf_update/webengineurlinterceptoradblock.upd
 drwxr-xr-x	root/root	usr/share/kmail2/
 drwxr-xr-x	root/root	usr/share/kmail2/pics/
 -rw-r--r--	root/root	usr/share/kmail2/pics/kmwizard.png
 -rw-r--r--	root/root	usr/share/kmail2/pics/kmwizard.svg
 drwxr-xr-x	root/root	usr/share/kservices5/
+-rw-r--r--	root/root	usr/share/kservices5/coisceimpart.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/korganizer/
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/datenums.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/picoftheday.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/thisdayinhistory.desktop
+drwxr-xr-x	root/root	usr/share/kxmlgui5/
+drwxr-xr-x	root/root	usr/share/kxmlgui5/akonadimailreader/
+-rw-r--r--	root/root	usr/share/kxmlgui5/akonadimailreader/akonadimailreaderui.rc
+drwxr-xr-x	root/root	usr/share/messageviewer/
+drwxr-xr-x	root/root	usr/share/messageviewer/themes/
+drwxr-xr-x	root/root	usr/share/messageviewer/themes/example/
+-rw-r--r--	root/root	usr/share/messageviewer/themes/example/header.desktop
+-rw-r--r--	root/root	usr/share/messageviewer/themes/example/header.html
+-rw-r--r--	root/root	usr/share/messageviewer/themes/example/header_row.html
+drwxr-xr-x	root/root	usr/share/messageviewer/themes/example_fancy/
+-rw-r--r--	root/root	usr/share/messageviewer/themes/example_fancy/header.desktop
+-rw-r--r--	root/root	usr/share/messageviewer/themes/example_fancy/header.html
+drwxr-xr-x	root/root	usr/share/messageviewerplugins/
+-rw-r--r--	root/root	usr/share/messageviewerplugins/externalscriptexample.desktop
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kdepim-addons.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kdepim-addons.renamecategories
 drwxr-xr-x	root/root	usr/share/qtcreator/
 drwxr-xr-x	root/root	usr/share/qtcreator/templates/
 drwxr-xr-x	root/root	usr/share/qtcreator/templates/kmaileditorconvertertextplugins/

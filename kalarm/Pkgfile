@@ -1,10 +1,10 @@
 # Description: Personal alarm message, command and email scheduler
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kalarmcal mailcommon
+# Depends on: kalarmcal mailcommon
 
 name=kalarm
-version=19.04.3
+version=19.08.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

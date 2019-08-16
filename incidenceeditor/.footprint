@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/incidenceeditor.categories
--rw-r--r--	root/root	etc/xdg/incidenceeditor.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -34,10 +30,13 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IncidenceEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5IncidenceEditor/KF5IncidenceEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5IncidenceEditor/KF5IncidenceEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5IncidenceEditor.so -> libKF5IncidenceEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5IncidenceEditor.so.5 -> libKF5IncidenceEditor.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5IncidenceEditor.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5IncidenceEditor.so.5 -> libKF5IncidenceEditor.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IncidenceEditor.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_IncidenceEditor.pri
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/incidenceeditor.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/incidenceeditor.renamecategories

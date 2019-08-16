@@ -1,9 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kmail.categories
--rw-r--r--	root/root	etc/xdg/kmail.renamecategories
--rw-r--r--	root/root	etc/xdg/ktnefapps.categories
--rw-r--r--	root/root	etc/xdg/ktnefapps.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_archivemail_agent
@@ -12,10 +6,11 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_sendlater_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_unifiedmailbox_agent
 -rwxr-xr-x	root/root	usr/bin/kmail
+-rwxr-xr-x	root/root	usr/bin/kmail-refresh-settings
 -rwxr-xr-x	root/root	usr/bin/ktnef
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
@@ -38,6 +33,7 @@ drwxr-xr-x	root/root	usr/share/akonadi/agents/
 -rw-r--r--	root/root	usr/share/akonadi/agents/unifiedmailboxagent.desktop
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kmail_view.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.kmail-refresh-settings.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kmail2.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.ktnef.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
@@ -47,6 +43,8 @@ drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kmail.kmail.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kmail.kmailpart.xml
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kmail.service
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/16x16/
@@ -145,10 +143,13 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservices5/kontact/
 -rw-r--r--	root/root	usr/share/kservices5/kontact/kmailplugin.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kontact/summaryplugin.desktop
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/dbusmail.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kontactsummary/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kmail2.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kmail.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kmail.renamecategories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/ktnefapps.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/ktnefapps.renamecategories

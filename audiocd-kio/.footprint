@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kio_audiocd.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/audiocdencoder.h
@@ -35,6 +32,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/audiocd.protocol
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kio_audiocd.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kio_audiocd.categories
 drwxr-xr-x	root/root	usr/share/solid/
 drwxr-xr-x	root/root	usr/share/solid/actions/
 -rw-r--r--	root/root	usr/share/solid/actions/solid_audiocd.desktop

@@ -1,21 +1,20 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/pimsettingexporter.categories
--rw-r--r--	root/root	etc/xdg/pimsettingexporter.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/pimsettingexporter
--rwxr-xr-x	root/root	usr/bin/pimsettingexporterconsole
+-rwxr-xr-x	root/root	usr/bin/pimdataexporter
+-rwxr-xr-x	root/root	usr/bin/pimdataexporterconsole
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libpimsettingexporterprivate.so.5 -> libpimsettingexporterprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libpimsettingexporterprivate.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libpimdataexporterprivate.so.5 -> libpimdataexporterprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libpimdataexporterprivate.so.5.12.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/org.kde.pimsettingexporter.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.pimdataexporter.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
--rw-r--r--	root/root	usr/share/config.kcfg/pimsettingexporterglobalconfig.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/pimdataexporterglobalconfig.kcfg
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/pimsettingexporter-15.08-kickoff.sh
 -rw-r--r--	root/root	usr/share/kconf_update/pimsettingexporter.upd
 drwxr-xr-x	root/root	usr/share/metainfo/
--rw-r--r--	root/root	usr/share/metainfo/org.kde.pimsettingexporter.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.pimdataexporter.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/pimdataexporter.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/pimdataexporter.renamecategories

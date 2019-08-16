@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/akonadi-contacts.categories
--rw-r--r--	root/root	etc/xdg/akonadi-contacts.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -71,7 +67,6 @@ drwxr-xr-x	root/root	usr/include/KF5/contacteditor/
 -rw-r--r--	root/root	usr/include/KF5/contacteditor/categorieseditabstractwidget.h
 -rw-r--r--	root/root	usr/include/KF5/contacteditor/contacteditor_export.h
 -rw-r--r--	root/root	usr/include/KF5/contacteditor/contacteditorpageplugin.h
--rw-r--r--	root/root	usr/include/KF5/contacteditor/improtocols.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiContact/
@@ -85,11 +80,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ContactEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.12.0
 lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so -> libKF5ContactEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -117,23 +112,7 @@ drwxr-xr-x	root/root	usr/share/kf5/akonadi/contact/data/
 drwxr-xr-x	root/root	usr/share/kf5/akonadi/contact/pics/
 -rw-r--r--	root/root	usr/share/kf5/akonadi/contact/pics/world.jpg
 drwxr-xr-x	root/root	usr/share/kservices5/
-drwxr-xr-x	root/root	usr/share/kservices5/akonadi/
-drwxr-xr-x	root/root	usr/share/kservices5/akonadi/contact/
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/aimprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/facebookprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/gaduprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/googletalkprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/groupwiseprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/icqprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/ircprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/jabberprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/meanwhileprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/msnprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/qqprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/skypeprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/smsprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/twitterprotocol.desktop
--rw-r--r--	root/root	usr/share/kservices5/akonadi/contact/yahooprotocol.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akonadicontact_actions.desktop
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/kaddressbookimprotocol.desktop
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/akonadi-contacts.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/akonadi-contacts.renamecategories

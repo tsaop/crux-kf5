@@ -1,15 +1,11 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/konsole.categories
--rw-r--r--	root/root	etc/xdg/konsole.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/konsole
 -rwxr-xr-x	root/root	usr/bin/konsoleprofile
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konsole.so
-lrwxrwxrwx	root/root	usr/lib/libkonsoleprivate.so.19 -> libkonsoleprivate.so.19.04.3
--rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so.19.04.3
+lrwxrwxrwx	root/root	usr/lib/libkonsoleprivate.so.19 -> libkonsoleprivate.so.19.08.0
+-rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so.19.08.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konsolepart.so
@@ -20,6 +16,8 @@ drwxr-xr-x	root/root	usr/share/khotkeys/
 -rw-r--r--	root/root	usr/share/khotkeys/konsole.khotkeys
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/konsole.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/konsole.knsrc
 drwxr-xr-x	root/root	usr/share/konsole/
 -rw-r--r--	root/root	usr/share/konsole/BlackOnLightYellow.colorscheme
 -rw-r--r--	root/root	usr/share/konsole/BlackOnRandomLight.colorscheme
@@ -45,3 +43,5 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/terminalemulator.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.konsole.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/konsole.categories

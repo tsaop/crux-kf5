@@ -2,22 +2,19 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/autostart/
 -rw-r--r--	root/root	etc/xdg/autostart/org.kde.korgac.desktop
--rw-r--r--	root/root	etc/xdg/korganizer.categories
--rw-r--r--	root/root	etc/xdg/korganizer.knsrc
--rw-r--r--	root/root	etc/xdg/korganizer.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/korgac
 -rwxr-xr-x	root/root	usr/bin/korganizer
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so -> libkorganizer_core.so.5
-lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so.5 -> libkorganizer_core.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkorganizer_core.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so.5 -> libkorganizer_core.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizer_core.so.5.12.0
 lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so -> libkorganizer_interfaces.so.5
-lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so.5 -> libkorganizer_interfaces.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkorganizer_interfaces.so.5.11.3
-lrwxrwxrwx	root/root	usr/lib/libkorganizerprivate.so.5 -> libkorganizerprivate.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libkorganizerprivate.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so.5 -> libkorganizer_interfaces.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizer_interfaces.so.5.12.0
+lrwxrwxrwx	root/root	usr/lib/libkorganizerprivate.so.5 -> libkorganizerprivate.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizerprivate.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_apptsummary.so
@@ -40,6 +37,8 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.Korganizer.Calendar.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.korganizer.KOrgac.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.korganizer.Korganizer.xml
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.korganizer.service
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -98,6 +97,8 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/22x22/actions/
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/korganizer-15.08-kickoff.sh
 -rw-r--r--	root/root	usr/share/kconf_update/korganizer.upd
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/korganizer.knsrc
 drwxr-xr-x	root/root	usr/share/kontact/
 drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
 -rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/korganizer.setdlg
@@ -150,6 +151,9 @@ drwxr-xr-x	root/root	usr/share/kservices5/kontact/
 -rw-r--r--	root/root	usr/share/kservices5/korganizer_part.desktop
 -rw-r--r--	root/root	usr/share/kservices5/webcal.protocol
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/dbuscalendar.desktop
+-rw-r--r--	root/root	usr/share/kservicetypes5/korganizerpart.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.korganizer.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/korganizer.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/korganizer.renamecategories

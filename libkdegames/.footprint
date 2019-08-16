@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/libkdegames.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -76,8 +73,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5KDEGames/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesLibraryDepends-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesLibraryDepends.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KDEGames.so -> libKF5KDEGames.so.7
-lrwxrwxrwx	root/root	usr/lib/libKF5KDEGames.so.7 -> libKF5KDEGames.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libKF5KDEGames.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KDEGames.so.7 -> libKF5KDEGames.so.7.1.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KDEGames.so.7.1.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KDEGamesPrivate.so -> libKF5KDEGamesPrivate.so.1
 lrwxrwxrwx	root/root	usr/lib/libKF5KDEGamesPrivate.so.1 -> libKF5KDEGamesPrivate.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libKF5KDEGamesPrivate.so.1.0.0
@@ -161,3 +158,5 @@ drwxr-xr-x	root/root	usr/share/carddecks/svg-xskat-german/
 -rw-r--r--	root/root	usr/share/carddecks/svg-xskat-german/index.desktop
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/kgthemeprovider-migration.upd
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/libkdegames.categories

@@ -2,8 +2,6 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/autostart/
 -rw-r--r--	root/root	etc/xdg/autostart/kalarm.autostart.desktop
--rw-r--r--	root/root	etc/xdg/kalarm.categories
--rw-r--r--	root/root	etc/xdg/kalarm.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kalarm
@@ -75,3 +73,6 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kalarm.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kalarm.renamecategories

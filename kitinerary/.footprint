@@ -1,5 +1,3 @@
-drwxr-xr-x	root/root	etc/
--rw-r--r--	root/root	etc/org_kde_kitinerary.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KPim/
@@ -24,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KItinerary/
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/MergeUtil
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Organization
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/PdfDocument
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/PdfImage
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Person
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Place
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Rct2Ticket
@@ -57,6 +56,7 @@ drwxr-xr-x	root/root	usr/include/KPim/kitinerary/
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/mergeutil.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/organization.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/pdfdocument.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/pdfimage.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/person.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/place.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/rct2ticket.h
@@ -76,9 +76,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimItinerary/
 -rw-r--r--	root/root	usr/lib/cmake/KPimItinerary/KPimItineraryTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimItinerary/KPimItineraryTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so -> libKPimItinerary.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so.5 -> libKPimItinerary.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKPimItinerary.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so.5 -> libKPimItinerary.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKPimItinerary.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/libexec/
 drwxr-xr-x	root/root	usr/lib/libexec/kf5/
 -rwxr-xr-x	root/root	usr/lib/libexec/kf5/kitinerary-extractor
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/org_kde_kitinerary.categories

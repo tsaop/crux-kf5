@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kio-extras.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -15,8 +12,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.97.0
-lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.19 -> libmolletnetwork5.so.19.04.3
--rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.19.04.3
+lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.19 -> libmolletnetwork5.so.19.08.0
+-rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.19.08.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/comicbookthumbnail.so
@@ -123,6 +120,8 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/kf5_network.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kio-extras.categories
 drwxr-xr-x	root/root	usr/share/remoteview/
 -rw-r--r--	root/root	usr/share/remoteview/mtp-network.desktop
 -rw-r--r--	root/root	usr/share/remoteview/network.desktop

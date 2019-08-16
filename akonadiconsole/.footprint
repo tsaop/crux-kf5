@@ -1,13 +1,9 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/akonadiconsole.categories
--rw-r--r--	root/root	etc/xdg/akonadiconsole.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadiconsole
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libakonadiconsole.so.5 -> libakonadiconsole.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libakonadiconsole.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libakonadiconsole.so.5 -> libakonadiconsole.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libakonadiconsole.so.5.12.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.akonadiconsole.desktop
@@ -37,3 +33,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/akonadiconsole-15.08-kickoff.sh
 -rw-r--r--	root/root	usr/share/kconf_update/akonadiconsole.upd
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/akonadiconsole.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/akonadiconsole.renamecategories

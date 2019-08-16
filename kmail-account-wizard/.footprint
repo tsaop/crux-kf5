@@ -1,8 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/accountwizard.categories
--rw-r--r--	root/root	etc/xdg/accountwizard.knsrc
--rw-r--r--	root/root	etc/xdg/accountwizard.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/accountwizard
@@ -20,6 +15,11 @@ drwxr-xr-x	root/root	usr/share/akonadi/accountwizard/tine20/
 -rw-r--r--	root/root	usr/share/akonadi/accountwizard/tine20/tine20wizard.ui
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.accountwizard.desktop
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/accountwizard.knsrc
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/accountwizard-mime.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/accountwizard.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/accountwizard.renamecategories

@@ -1,8 +1,6 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/revdep.d/
 -rw-r--r--	root/root	etc/revdep.d/okular
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/okular.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/okular
@@ -24,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/okular/core/
 -rw-r--r--	root/root	usr/include/okular/core/page.h
 -rw-r--r--	root/root	usr/include/okular/core/pagesize.h
 -rw-r--r--	root/root	usr/include/okular/core/pagetransition.h
+-rw-r--r--	root/root	usr/include/okular/core/printoptionswidget.h
 -rw-r--r--	root/root	usr/include/okular/core/settings_core.h
 -rw-r--r--	root/root	usr/include/okular/core/signatureutils.h
 -rw-r--r--	root/root	usr/include/okular/core/sound.h
@@ -243,3 +242,5 @@ drwxr-xr-x	root/root	usr/share/okular/pics/
 -rw-r--r--	root/root	usr/share/okular/pics/uparrow.png
 -rw-r--r--	root/root	usr/share/okular/pics/upleftarrow.png
 -rw-r--r--	root/root	usr/share/okular/tools.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/okular.categories

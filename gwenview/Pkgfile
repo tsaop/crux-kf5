@@ -1,11 +1,10 @@
 # Description: Image viewer/editor for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: baloo kactivities kdelibs4support
-# Optional: libkdcraw libkipi
+# Depends on: baloo kactivities kdelibs4support kipi-plugins libkdcraw
 
 name=gwenview
-version=19.04.3
+version=19.08.0
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 

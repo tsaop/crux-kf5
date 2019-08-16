@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/libkdepim.categories
--rw-r--r--	root/root	etc/xdg/libkdepim.renamecategories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
@@ -40,12 +36,9 @@ drwxr-xr-x	root/root	usr/include/KF5/LibkdepimAkonadi/
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/AddEmailAddressJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/AddEmailDisplayJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/AddresseeLineEdit
--rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/CollectionSearchJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/CompletionConfigureDialog
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/CompletionOrderEditor
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/OpenEmailAddressJob
--rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/Person
--rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/PersonSearchJob
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/ProgressManagerAkonadi
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/TagSelectionCombo
 -rw-r--r--	root/root	usr/include/KF5/LibkdepimAkonadi/TagWidgets
@@ -86,13 +79,10 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepimakonadi/
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/addemailaddressjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/addemaildisplayjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/addresseelineedit.h
--rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/collectionsearchjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/completionconfiguredialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/completionordereditor.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/kdepimakonadi_export.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/openemailaddressjob.h
--rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/person.h
--rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/personsearchjob.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/progressmanagerakonadi.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/tagselectioncombo.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepimakonadi/tagwidgets.h
@@ -112,11 +102,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5LibkdepimAkonadi/
 drwxr-xr-x	root/root	usr/lib/cmake/MailTransportDBusService/
 -rw-r--r--	root/root	usr/lib/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so -> libKF5Libkdepim.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.12.0
 lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so -> libKF5LibkdepimAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -140,3 +130,6 @@ drwxr-xr-x	root/root	usr/share/kdepimwidgets/pics/
 -rw-r--r--	root/root	usr/share/kdepimwidgets/pics/ktimeedit.png
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kcmldap.desktop
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/libkdepim.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/libkdepim.renamecategories

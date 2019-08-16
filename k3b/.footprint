@@ -124,6 +124,8 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/k3bvideodvdvideostream.h
 -rw-r--r--	root/root	usr/include/k3bwavefilewriter.h
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/libexec/
+-rwxr-xr-x	root/root	usr/lib/libexec/k3bhelper
 lrwxrwxrwx	root/root	usr/lib/libk3bdevice.so -> libk3bdevice.so.7
 lrwxrwxrwx	root/root	usr/lib/libk3bdevice.so.7 -> libk3bdevice.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libk3bdevice.so.7.0.0
@@ -154,6 +156,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.k3b.desktop
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
+-rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.k3b.service
+drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.k3b.conf
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -402,6 +409,9 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/x-k3b.xml
+drwxr-xr-x	root/root	usr/share/polkit-1/
+drwxr-xr-x	root/root	usr/share/polkit-1/actions/
+-rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.k3b.policy
 drwxr-xr-x	root/root	usr/share/solid/
 drwxr-xr-x	root/root	usr/share/solid/actions/
 -rw-r--r--	root/root	usr/share/solid/actions/k3b_audiocd_rip.desktop

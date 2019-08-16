@@ -6,11 +6,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/artikulate
 -rwxr-xr-x	root/root	usr/bin/artikulate_editor
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libartikulatecore.so -> libartikulatecore.so.0
 -rwxr-xr-x	root/root	usr/lib/libartikulatecore.so.0
-lrwxrwxrwx	root/root	usr/lib/libartikulatelearnerprofile.so -> libartikulatelearnerprofile.so.0
 -rwxr-xr-x	root/root	usr/lib/libartikulatelearnerprofile.so.0
-lrwxrwxrwx	root/root	usr/lib/libartikulatesound.so -> libartikulatesound.so.0
 -rwxr-xr-x	root/root	usr/lib/libartikulatesound.so.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -25,24 +22,6 @@ drwxr-xr-x	root/root	usr/share/artikulate/images/
 -rw-r--r--	root/root	usr/share/artikulate/images/course-gray.png
 -rw-r--r--	root/root	usr/share/artikulate/images/course.png
 -rw-r--r--	root/root	usr/share/artikulate/images/new-course.png
-drwxr-xr-x	root/root	usr/share/artikulate/languages/
--rw-r--r--	root/root	usr/share/artikulate/languages/ba.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/ca.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/de.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/du.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/en_BE.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/en_US.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/fr.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/gr.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/hi.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/it.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/mr.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/pl.xml
--rw-r--r--	root/root	usr/share/artikulate/languages/sp.xml
-drwxr-xr-x	root/root	usr/share/artikulate/schemes/
--rw-r--r--	root/root	usr/share/artikulate/schemes/course.xsd
--rw-r--r--	root/root	usr/share/artikulate/schemes/language.xsd
--rw-r--r--	root/root	usr/share/artikulate/schemes/skeleton.xsd
 drwxr-xr-x	root/root	usr/share/artikulate/sounds/
 -rw-r--r--	root/root	usr/share/artikulate/sounds/testsound.ogg
 drwxr-xr-x	root/root	usr/share/config.kcfg/

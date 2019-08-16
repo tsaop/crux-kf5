@@ -1,12 +1,10 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/dolphin.categories
 -rw-r--r--	root/root	etc/xdg/servicemenu.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/dolphin
--rwxr-xr-x	root/root	usr/bin/servicemenudeinstallation
--rwxr-xr-x	root/root	usr/bin/servicemenuinstallation
+-rwxr-xr-x	root/root	usr/bin/servicemenuinstaller
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/Dolphin/
 -rw-r--r--	root/root	usr/include/Dolphin/KVersionControlPlugin
@@ -49,6 +47,8 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.FileManager1.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.dolphin.FileManager1.service
+drwxr-xr-x	root/root	usr/share/kglobalaccel/
+lrwxrwxrwx	root/root	usr/share/kglobalaccel/org.kde.dolphin.desktop -> /usr/share/applications/org.kde.dolphin.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/dolphinpart.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmdolphingeneral.desktop
@@ -59,3 +59,5 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/fileviewversioncontrolplugin.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.dolphin.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/dolphin.categories

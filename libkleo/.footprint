@@ -1,7 +1,5 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/libkleo.categories
--rw-r--r--	root/root	etc/xdg/libkleo.renamecategories
 -rw-r--r--	root/root	etc/xdg/libkleopatrarc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
@@ -90,8 +88,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Libkleo/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so -> libKF5Libkleo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.11.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.11.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.12.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -111,3 +109,6 @@ drwxr-xr-x	root/root	usr/share/libkleopatra/pics/
 -rw-r--r--	root/root	usr/share/libkleopatra/pics/key_ok.png
 -rw-r--r--	root/root	usr/share/libkleopatra/pics/key_unknown.png
 -rw-r--r--	root/root	usr/share/libkleopatra/pics/smartcard.xpm
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/libkleo.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/libkleo.renamecategories
