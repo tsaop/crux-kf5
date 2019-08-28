@@ -1,4 +1,6 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/phononsettings
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/phonon4qt5/
 drwxr-xr-x	root/root	usr/include/phonon4qt5/KDE/
@@ -152,6 +154,7 @@ drwxr-xr-x	root/root	usr/include/phonon4qt5/phonon/experimental/
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/objectdescriptionmodel.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/path.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/phonon_export.h
+-rw-r--r--	root/root	usr/include/phonon4qt5/phonon/phonon_version.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/phonondefs.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/phononnamespace.h
 -rw-r--r--	root/root	usr/include/phonon4qt5/phonon/platformplugin.h
@@ -176,11 +179,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/phonon4qt5/
 -rw-r--r--	root/root	usr/lib/cmake/phonon4qt5/PhononTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/phonon4qt5/PhononTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libphonon4qt5.so -> libphonon4qt5.so.4
-lrwxrwxrwx	root/root	usr/lib/libphonon4qt5.so.4 -> libphonon4qt5.so.4.10.3
--rwxr-xr-x	root/root	usr/lib/libphonon4qt5.so.4.10.3
+lrwxrwxrwx	root/root	usr/lib/libphonon4qt5.so.4 -> libphonon4qt5.so.4.11.0
+-rwxr-xr-x	root/root	usr/lib/libphonon4qt5.so.4.11.0
 lrwxrwxrwx	root/root	usr/lib/libphonon4qt5experimental.so -> libphonon4qt5experimental.so.4
-lrwxrwxrwx	root/root	usr/lib/libphonon4qt5experimental.so.4 -> libphonon4qt5experimental.so.4.10.3
--rwxr-xr-x	root/root	usr/lib/libphonon4qt5experimental.so.4.10.3
+lrwxrwxrwx	root/root	usr/lib/libphonon4qt5experimental.so.4 -> libphonon4qt5experimental.so.4.11.0
+-rwxr-xr-x	root/root	usr/lib/libphonon4qt5experimental.so.4.11.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/phonon4qt5.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
@@ -191,18 +194,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/phononwidgets.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/dbus-1/
-drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.Phonon4Qt5.AudioOutput.xml
 drwxr-xr-x	root/root	usr/share/phonon4qt5/
 drwxr-xr-x	root/root	usr/share/phonon4qt5/buildsystem/
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/FindPackageHandleStandardArgs.cmake
 -rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/FindPhononInternal.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/MacroEnsureVersion.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/MacroLogFeature.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/MacroOptionalFindPackage.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/MacroPushRequiredVars.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/PhononMacros.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/PhononQt4.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/PhononQt5.cmake
--rw-r--r--	root/root	usr/share/phonon4qt5/buildsystem/cmake_uninstall.cmake.in
