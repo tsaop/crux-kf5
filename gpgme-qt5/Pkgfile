@@ -1,0 +1,37 @@
+# Description: gpgme bindings for qt5.
+# URL: http://www.gnupg.org/gpgme.html
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Danny Rawlins, crux at romster dot me
+# Depends on: gpgme qt5
+
+name=gpgme-qt5
+version=1.13.1
+release=1
+source=(https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2)
+
+build() {
+	cd gpgme-$version
+
+	./configure \
+		--prefix=/usr \
+		--enable-languages='cpp qt'
+
+	make
+	make DESTDIR=$PKG install
+
+	install -d $PKG/usr/etc/gpgme
+	echo qt > $PKG/usr/etc/gpgme/qt
+
+	rm \
+		$PKG/usr/bin/{gpgme-config,gpgme-tool,gpgme-json} \
+		$PKG/usr/include/gpgme.h \
+		$PKG/usr/lib/libgpgme.* \
+		$PKG/usr/lib/pkgconfig/gpgme.pc \
+		$PKG/usr/lib/pkgconfig/gpgme-glib.pc \
+		$PKG/usr/share/aclocal/gpgme.m4
+
+	rm $PKG/usr/lib/libgpgmepp.*
+	rm -r $PKG/usr/include/gpgme++ $PKG/usr/lib/cmake/Gpgmepp		
+
+	rm -r $PKG/usr/share/info
+}
