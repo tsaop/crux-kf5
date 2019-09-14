@@ -75,6 +75,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWayland/Server/
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/keyboard_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/keystate_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/kwaylandserver_export.h
+-rw-r--r--	root/root	usr/include/KF5/KWayland/Server/linuxdmabuf_v1_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/output_interface.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/outputchangeset.h
 -rw-r--r--	root/root	usr/include/KF5/KWayland/Server/outputconfiguration_interface.h
@@ -114,11 +115,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Wayland/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Wayland/KF5WaylandTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so -> libKF5WaylandClient.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandClient.so.5 -> libKF5WaylandClient.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandClient.so.5.62.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so -> libKF5WaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WaylandServer.so.5 -> libKF5WaylandServer.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WaylandServer.so.5.62.0
 -rwxr-xr-x	root/root	usr/lib/org-kde-kf5-kwayland-testserver
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/

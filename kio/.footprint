@@ -272,29 +272,29 @@ drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5KIO/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets-debug.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KIO/KF5KIOTargets.cmake
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kio_http_cache_cleaner
 -rwxr-xr-x	root/root	usr/lib/kf5/kiod5
 -rwxr-xr-x	root/root	usr/lib/kf5/kioexec
--rwxr-xr-x	root/root	usr/lib/kf5/kioslave
+-rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.62.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.62.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.62.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.62.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.61.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.61.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.62.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.62.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -304,6 +304,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KIOWidgets.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KNTLM.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/kio5widgets.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kio.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_trash.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_webshortcuts.so
