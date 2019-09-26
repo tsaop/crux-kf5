@@ -4,7 +4,7 @@
 # Depends on:  cmake
 
 name=yaml-cpp
-version=0.6.2
+version=0.6.3
 release=1
 source=(https://github.com/jbeder/$name/archive/$name-$version.tar.gz)
 
@@ -14,7 +14,7 @@ build() {
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
-		-DBUILD_SHARED_LIBS=ON \
+		-DYAML_BUILD_SHARED_LIBS=ON \
 		..
 
 	make
