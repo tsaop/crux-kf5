@@ -4,7 +4,7 @@
 # Depends on: extra-cmake-modules qt5
 
 name=phonon-qt5
-version=4.11.0
+version=4.11.1
 release=1
 source=(http://download.kde.org/stable/${name%-qt5}/$version/${name%-qt5}-$version.tar.xz)
 
