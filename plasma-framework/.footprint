@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.62.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.62.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.63.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.63.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.62.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.62.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.63.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.63.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -212,15 +212,23 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Container.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Control.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Dial.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Dialog.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/DialogButtonBox.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Drawer.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Frame.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/GroupBox.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ItemDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Label.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Menu.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/MenuItem.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/PageIndicator.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Popup.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ProgressBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/RadioButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/RadioDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/RadioIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/RangeSlider.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/RoundButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ScrollBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ScrollView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Slider.qml
@@ -654,3 +662,5 @@ drwxr-xr-x	root/root	usr/share/plasma/services/
 -rw-r--r--	root/root	usr/share/plasma/services/dataengineservice.operations
 -rw-r--r--	root/root	usr/share/plasma/services/plasmoidservice.operations
 -rw-r--r--	root/root	usr/share/plasma/services/storage.operations
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/plasma-framework.categories

@@ -4,7 +4,7 @@
 # Depends on: kparts qtwebkit
 
 name=kdewebkit
-version=5.62.0
+version=5.63.0
 release=1
 source=(https://download.kde.org/stable/frameworks/${version/.0/}/portingAids/$name-$version.tar.xz)
 
