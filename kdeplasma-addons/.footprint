@@ -53,6 +53,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_flickrprovider.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_natgeoprovider.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_noaaprovider.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_unsplashprovider.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/potd/plasma_potd_wcpotdprovider.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
@@ -222,8 +223,6 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 drwxr-xr-x	root/root	usr/share/plasma/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/
-drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/icons/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/quota.svg
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/weather/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/weather/wind-arrows.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/widgets/
@@ -351,6 +350,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/co
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/ui/ShortcutMenuItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/ui/configAppearance.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/metadata.desktop

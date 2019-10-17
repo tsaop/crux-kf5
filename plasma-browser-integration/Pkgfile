@@ -1,10 +1,10 @@
 # Description: Components necessary to integrate browsers into the Plasma Desktop
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: krunner
+# Depends on: kfilemetadata krunner purpose
 
 name=plasma-browser-integration
-version=5.16.5
+version=5.17.0
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 

@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/systemsettings.categories
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/systemsettings5
@@ -18,7 +15,6 @@ lrwxrwxrwx	root/root	usr/lib/libsystemsettingsview.so -> libsystemsettingsview.s
 -rwxr-xr-x	root/root	usr/lib/libsystemsettingsview.so.3
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/classic_mode.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/icon_mode.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/systemsettings_sidebar_mode.so
 drwxr-xr-x	root/root	usr/share/
@@ -30,7 +26,6 @@ drwxr-xr-x	root/root	usr/share/kpackage/genericqml/
 drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/
 drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/
--rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/ActionMenu.qml
 -rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/CategoriesPage.qml
 -rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/IntroIcon.qml
 -rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/SubCategoryPage.qml
@@ -42,9 +37,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance-color.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance-font.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance-icons.desktop
--rw-r--r--	root/root	usr/share/kservices5/settings-appearance-workspacetheme.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance.desktop
--rw-r--r--	root/root	usr/share/kservices5/settings-classic-view.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-hardware-display.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-hardware-input.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-hardware-multimedia.desktop
@@ -64,6 +57,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/settings-personalization-regionalsettings.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-personalization.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-sidebar-view.desktop
+-rw-r--r--	root/root	usr/share/kservices5/settings-system-administration.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-workspace-desktopbehavior.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-workspace-search.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-workspace-session.desktop
@@ -79,8 +73,7 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/systemsettings/
 -rw-r--r--	root/root	usr/share/kxmlgui5/systemsettings/systemsettingsui.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.systemsettings.metainfo.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/systemsettings.categories
 drwxr-xr-x	root/root	usr/share/systemsettings/
-drwxr-xr-x	root/root	usr/share/systemsettings/classic/
--rw-r--r--	root/root	usr/share/systemsettings/classic/main.html
--rw-r--r--	root/root	usr/share/systemsettings/classic/systemsettings-classic.css
 -rw-r--r--	root/root	usr/share/systemsettings/systemsettings.kcfg
