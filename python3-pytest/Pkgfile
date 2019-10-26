@@ -4,9 +4,9 @@
 # Depends on:  python3-atomicwrites python3-attrs python3-more-itertools python3-packaging python3-pluggy python3-py
 
 name=python3-pytest
-version=5.2.1
+version=5.2.2
 release=1
-source=(https://files.pythonhosted.org/packages/3a/3b/f839b8431582e0f4e5f98230300db70b795f467503b2cdb0bf7eb9b18351/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/24/67/051f7622814613980a03c9722233a4d7f8b0e21787a46b41a1057c903992/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
