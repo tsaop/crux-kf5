@@ -1,24 +1,25 @@
 # Description:	Storage media interface
 # URL:		http://udisks.freedesktop.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: acl docbook-xsl libatasmart libgudev polkit
+# Depends on: docbook-xsl libatasmart libblockdev libgudev polkit
 
 name=udisks
-version=2.1.8
+version=2.8.4
 release=1
-source=(http://$name.freedesktop.org/releases/$name-$version.tar.bz2)
+source=(https://github.com/storaged-project/udisks/releases/download/$name-$version/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
+
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--libexecdir=/usr/lib \
 		--localstatedir=/var \
-		--disable-introspection 
-	sed -i -e 's|^SUBDIRS = data udisks src tools po doc|SUBDIRS = data udisks src tools|g' Makefile
+		--disable-nls
+	
 	make
 	make DESTDIR=$PKG install
-	sed -i -e 's|http://docbook.sourceforge.net/release/xsl/current/|/usr/share/xml/docbook/xsl-stylesheets/|g' doc/man/Makefile
-	make DESTDIR=$PKG -C doc/man install
+
+	rm -rf $PKG/usr/share/gtk-doc
 }
