@@ -5,11 +5,16 @@
 
 name=kitinerary
 version=19.08.2
-release=1
-source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+release=2
+source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
+	poppler-0.82-fix.patch)
 
 build() {
 	cd $name-$version
+
+	# fix build with poppler 0.82
+	patch -Np1 -i $SRC/poppler-0.82-fix.patch
+
 	mkdir build; cd build
 
 	cmake -DCMAKE_BUILD_TYPE=Release \
