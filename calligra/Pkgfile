@@ -12,7 +12,8 @@ source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
 	calligra-poppler-0.71.patch
 	calligra-poppler-0.72.patch
 	calligra-poppler-0.73.patch
-	calligra-qdate-fix.patch)
+	calligra-qdate-fix.patch
+	getNextChar-unicode.patch)
 
 build() {
 
@@ -28,6 +29,9 @@ build() {
 
 	# Add missing include
 	patch -Np1 -i $SRC/calligra-qdate-fix.patch
+
+	# https://cgit.freedesktop.org/poppler/poppler/commit/poppler/GfxFont.cc?id=f197ca2dc7b5f70392e99e18917fb39f20cfc585
+	patch -Np1 -i $SRC/getNextChar-unicode.patch
 
 	cd -
 
