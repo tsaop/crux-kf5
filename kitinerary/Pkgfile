@@ -1,20 +1,15 @@
 # Description: Data Model and Extraction System for Travel Reservation information
 # URL: https://cgit.kde.org/kitinerary.git/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcalcore kcontacts kmime kpkpass poppler zxing-cpp
+# Depends on: kcalendarcore kcontacts kmime kpkpass poppler zxing-cpp
 
 name=kitinerary
-version=19.08.2
-release=2
-source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
-	poppler-0.82-fix.patch)
+version=19.08.3
+release=1
+source=(https://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	# fix build with poppler 0.82
-	patch -Np1 -i $SRC/poppler-0.82-fix.patch
-
 	mkdir build; cd build
 
 	cmake -DCMAKE_BUILD_TYPE=Release \

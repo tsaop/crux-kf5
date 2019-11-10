@@ -1,10 +1,10 @@
 # Description: Library providing client-side support for blogging APIs
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcalcore kxmlrpcclient syndication
+# Depends on: kcalendarcore kxmlrpcclient syndication
 
 name=kblog
-version=19.08.2
+version=19.08.3
 release=1
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
