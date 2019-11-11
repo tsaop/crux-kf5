@@ -433,14 +433,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/TelepathyQt5Service/
 -rw-r--r--	root/root	usr/lib/cmake/TelepathyQt5Service/TelepathyQt5ServiceConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/TelepathyQt5Service/TelepathyQt5ServiceConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-farstream.so -> libtelepathy-qt5-farstream.so.0
-lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-farstream.so.0 -> libtelepathy-qt5-farstream.so.0.0.9.7
--rwxr-xr-x	root/root	usr/lib/libtelepathy-qt5-farstream.so.0.0.9.7
-lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-service.so -> libtelepathy-qt5-service.so.0
-lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-service.so.0 -> libtelepathy-qt5-service.so.0.0.9.7
--rwxr-xr-x	root/root	usr/lib/libtelepathy-qt5-service.so.0.0.9.7
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-farstream.so.0 -> libtelepathy-qt5-farstream.so.0.0.9.8
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-qt5-farstream.so.0.0.9.8
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-service.so -> libtelepathy-qt5-service.so.1
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-qt5-service.so.0.0.9.8
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5-service.so.1 -> libtelepathy-qt5-service.so.0.0.9.8
 lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5.so -> libtelepathy-qt5.so.0
-lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5.so.0 -> libtelepathy-qt5.so.0.0.9.7
--rwxr-xr-x	root/root	usr/lib/libtelepathy-qt5.so.0.0.9.7
+lrwxrwxrwx	root/root	usr/lib/libtelepathy-qt5.so.0 -> libtelepathy-qt5.so.0.0.9.8
+-rwxr-xr-x	root/root	usr/lib/libtelepathy-qt5.so.0.0.9.8
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/TelepathyQt5.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/TelepathyQt5Farstream.pc
