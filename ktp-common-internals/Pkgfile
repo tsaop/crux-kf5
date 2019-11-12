@@ -5,11 +5,16 @@
 
 name=ktp-common-internals
 version=19.08.3
-release=1
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz
+	missing-qtxml-include.patch)
 
 build() {
 	cd $name-$version
+
+	patch -Np1 -i $SRC/missing-qtxml-include.patch
+
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
@@ -17,9 +22,9 @@ build() {
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DLIBEXEC_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
