@@ -1,0 +1,27 @@
+# Description: Thunderbolt 3 device manager
+# URL: https://gitlab.freedesktop.org/bolt/bolt
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: asciidoc polkit
+
+name=bolt
+version=0.8
+release=1
+source=(https://gitlab.freedesktop.org/$name/$name/-/archive/$version/$name-$version.tar.bz2
+	rc.boltd)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	meson -Dprefix=/usr \
+		-Dlibexecdir=lib \
+		-Dman=true \
+		-Dsystemd=false \
+		..
+
+	ninja
+	DESTDIR=$PKG ninja install
+
+	# install start script
+	install -Dm755 $SRC/rc.boltd $PKG/etc/rc.d/boltd
+}
