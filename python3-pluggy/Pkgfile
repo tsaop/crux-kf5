@@ -4,9 +4,9 @@
 # Depends on:  python3-importlib-metadata
 
 name=python3-pluggy
-version=0.13.0
+version=0.13.1
 release=1
-source=(https://files.pythonhosted.org/packages/d7/9d/ae82a5facf2dd89f557a33ad18eb68e5ac7b7a75cf52bf6a208f29077ecf/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/f8/04/7a8542bed4b16a65c2714bf76cf5a0b026157da7f75e87cc88774aa10b14/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
