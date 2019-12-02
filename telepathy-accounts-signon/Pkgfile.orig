@@ -1,7 +1,7 @@
 # Description: Telepathy providers for libaccounts/libsignon borrowed from Empathy
 # URL: https://gitlab.com/accounts-sso/telepathy-accounts-signon
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libaccounts-glib libsignon-glib telepathy-mission-control
+# Depends on: dbus dbus-glib glib libaccounts-glib libffi libsignon-glib libxml2 sqlite3 telepathy-glib telepathy-mission-control
 
 name=telepathy-accounts-signon
 version=2.1
