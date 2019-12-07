@@ -11,6 +11,8 @@ source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.t
 build() {
 	cd $name-$version
 
+	sed -i -e 's|set(KDEINIT_OOM_PROTECT 1)|set(KDEINIT_OOM_PROTECT 0)|' src/CMakeLists.txt
+
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
