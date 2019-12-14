@@ -1,4 +1,8 @@
 drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/apparmor.d/
+-rw-r--r--	root/root	etc/apparmor.d/mysqld_akonadi
+-rw-r--r--	root/root	etc/apparmor.d/postgresql_akonadi
+-rw-r--r--	root/root	etc/apparmor.d/usr.bin.akonadiserver
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/akonadi/
 -rw-r--r--	root/root	etc/xdg/akonadi/mysql-global-mobile.conf
@@ -19,12 +23,14 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/AkonadiAgentBase/
+-rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/AccountsIntegration
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/AgentBase
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/AgentSearchInterface
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/PreprocessorBase
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/ResourceBase
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/ResourceSettings
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/TransportResourceBase
+-rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/accountsintegration.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/agentbase.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/agentsearchinterface.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiAgentBase/akonadiagentbase_export.h
@@ -44,6 +50,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentManager
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentType
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AgentTypeModel
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AkOptional
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/Attribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/AttributeFactory
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/CachePolicy
@@ -148,6 +155,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agenttype.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/agenttypemodel.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/akonadicore_export.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/akoptional.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/attribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/attributefactory.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/cachepolicy.h
@@ -170,6 +178,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionstatistics.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionstatisticsjob.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/collectionutils.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/config-akonadi.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/control.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/differencesalgorithminterface.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/entityannotationsattribute.h
@@ -205,6 +214,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiCore/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/monitor.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/newmailnotifierattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/notificationsubscriber.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiCore/optional.hpp
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/partfetcher.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/persistentsearchattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiCore/pop3resourceattribute.h
@@ -335,20 +345,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Akonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.13.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.13.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so -> libKF5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.13.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.13.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.13.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -360,7 +370,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/akonadi_test_searchplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/akonadi5widgets.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/akonadiwidgets.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/sqldrivers/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/sqldrivers/libqsqlite3.so
 drwxr-xr-x	root/root	usr/share/

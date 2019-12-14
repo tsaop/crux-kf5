@@ -16,14 +16,12 @@ drwxr-xr-x	root/root	usr/include/KPim/KDAV/
 -rw-r--r--	root/root	usr/include/KPim/KDAV/DavItemsFetchJob
 -rw-r--r--	root/root	usr/include/KPim/KDAV/DavItemsListJob
 -rw-r--r--	root/root	usr/include/KPim/KDAV/DavJobBase
--rw-r--r--	root/root	usr/include/KPim/KDAV/DavManager
 -rw-r--r--	root/root	usr/include/KPim/KDAV/DavPrincipalHomesetsFetchJob
 -rw-r--r--	root/root	usr/include/KPim/KDAV/DavPrincipalSearchJob
--rw-r--r--	root/root	usr/include/KPim/KDAV/DavProtocolBase
 -rw-r--r--	root/root	usr/include/KPim/KDAV/DavUrl
 -rw-r--r--	root/root	usr/include/KPim/KDAV/Enums
 -rw-r--r--	root/root	usr/include/KPim/KDAV/EtagCache
--rw-r--r--	root/root	usr/include/KPim/KDAV/Utils
+-rw-r--r--	root/root	usr/include/KPim/KDAV/ProtocolInfo
 drwxr-xr-x	root/root	usr/include/KPim/kdav/
 -rw-r--r--	root/root	usr/include/KPim/kdav/davcollection.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/davcollectiondeletejob.h
@@ -39,15 +37,13 @@ drwxr-xr-x	root/root	usr/include/KPim/kdav/
 -rw-r--r--	root/root	usr/include/KPim/kdav/davitemsfetchjob.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/davitemslistjob.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/davjobbase.h
--rw-r--r--	root/root	usr/include/KPim/kdav/davmanager.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/davprincipalhomesetsfetchjob.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/davprincipalsearchjob.h
--rw-r--r--	root/root	usr/include/KPim/kdav/davprotocolbase.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/davurl.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/enums.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/etagcache.h
 -rw-r--r--	root/root	usr/include/KPim/kdav/kpimkdav_export.h
--rw-r--r--	root/root	usr/include/KPim/kdav/utils.h
+-rw-r--r--	root/root	usr/include/KPim/kdav/protocolinfo.h
 -rw-r--r--	root/root	usr/include/KPim/kpimkdav_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -57,8 +53,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimKDAV/
 -rw-r--r--	root/root	usr/lib/cmake/KPimKDAV/KPimKDAVTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimKDAV/KPimKDAVTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimKDAV.so -> libKPimKDAV.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimKDAV.so.5 -> libKPimKDAV.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKPimKDAV.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKPimKDAV.so.5 -> libKPimKDAV.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKPimKDAV.so.5.13.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

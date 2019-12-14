@@ -1,12 +1,12 @@
-# Description: Part of KDE applications 
+# Description: Application to show programs documentation
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
 # Depends on: grantlee khtml kinit xapian-core
 
 name=khelpcenter
-version=19.08.3
+version=19.12.0
 release=1
-source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version

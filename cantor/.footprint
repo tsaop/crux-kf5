@@ -27,8 +27,12 @@ drwxr-xr-x	root/root	usr/include/cantor/
 -rw-r--r--	root/root	usr/include/cantor/expression.h
 -rw-r--r--	root/root	usr/include/cantor/extension.h
 -rw-r--r--	root/root	usr/include/cantor/helpresult.h
+-rw-r--r--	root/root	usr/include/cantor/htmlresult.h
 -rw-r--r--	root/root	usr/include/cantor/imageresult.h
+-rw-r--r--	root/root	usr/include/cantor/jupyterutils.h
 -rw-r--r--	root/root	usr/include/cantor/latexresult.h
+-rw-r--r--	root/root	usr/include/cantor/mimeresult.h
+-rw-r--r--	root/root	usr/include/cantor/renderer.h
 -rw-r--r--	root/root	usr/include/cantor/result.h
 -rw-r--r--	root/root	usr/include/cantor/session.h
 -rw-r--r--	root/root	usr/include/cantor/syntaxhelpobject.h
@@ -43,9 +47,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/Cantor/
 -rw-r--r--	root/root	usr/lib/cmake/Cantor/CantorTargets.cmake
 -rwxr-xr-x	root/root	usr/lib/libcantor_config.so
 -rwxr-xr-x	root/root	usr/lib/libcantor_pythonbackend.so
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.23
--rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.19.08.3
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.23 -> libcantorlibs.so.19.08.3
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.24
+-rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.19.12.0
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.24 -> libcantorlibs.so.19.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/
@@ -64,7 +68,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/assistants/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/assistants/cantor_solveassistant.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_maximabackend.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_nullbackend.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_octavebackend.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_python2backend.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_python3backend.so
@@ -78,6 +81,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.cantor.desktop
 drwxr-xr-x	root/root	usr/share/cantor/
+drwxr-xr-x	root/root	usr/share/cantor/latex/
+-rw-r--r--	root/root	usr/share/cantor/latex/preview.sty
 drwxr-xr-x	root/root	usr/share/cantor/maximabackend/
 -rw-r--r--	root/root	usr/share/cantor/maximabackend/cantor-initmaxima.lisp
 drwxr-xr-x	root/root	usr/share/cantor/octavebackend/

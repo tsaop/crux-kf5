@@ -12,8 +12,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.97.0
-lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.19 -> libmolletnetwork5.so.19.08.3
--rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.19.08.3
+lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.19 -> libmolletnetwork5.so.19.12.0
+-rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.19.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/comicbookthumbnail.so
@@ -46,8 +46,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/thumbnail.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/kmtpd.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/kmanpart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kfileaudiopreview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kritathumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/opendocumentthumbnail.so
@@ -97,7 +95,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/info.protocol
 -rw-r--r--	root/root	usr/share/kservices5/jpegthumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kactivitymanagerd_fileitem_linking_plugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmanpart.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kraorathumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/lzma.protocol
 -rw-r--r--	root/root	usr/share/kservices5/man.protocol

@@ -25,7 +25,6 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/PIMMessageBox
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressIndicatorLabel
--rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressIndicatorWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressManager
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressStatusBarWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/RecentAddresses
@@ -67,7 +66,6 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/pimmessagebox.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressdialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressindicatorlabel.h
--rw-r--r--	root/root	usr/include/KF5/libkdepim/progressindicatorwidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressmanager.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressstatusbarwidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/recentaddresses.h
@@ -102,11 +100,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5LibkdepimAkonadi/
 drwxr-xr-x	root/root	usr/lib/cmake/MailTransportDBusService/
 -rw-r--r--	root/root	usr/lib/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so -> libKF5Libkdepim.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.13.0
 lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so -> libKF5LibkdepimAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5 -> libKF5LibkdepimAkonadi.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5LibkdepimAkonadi.so.5.13.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

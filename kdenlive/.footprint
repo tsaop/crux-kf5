@@ -144,6 +144,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/agate.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/audiobalance.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/audiopan.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/audiospectrum.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/audiowave.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/audiowaveform.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/automask.xml
@@ -175,6 +176,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_colgate.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_coloradj_rgb.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_colordistance.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_colorize.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_colortap.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_contrast0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_curves.xml
@@ -183,7 +185,9 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_delay0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_delaygrab.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_distort0r.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_dither.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_edgeglow.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_emboss.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_equaliz0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_facebl0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_facedetect.xml
@@ -206,13 +210,16 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_pr0be.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_pr0file.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_primaries.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_rgbnoise.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_rgbparade.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_saturat0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_scale0tilt.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_scanline0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_select0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_sharpness.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_sigmoidaltransfer.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_sobel.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_softglow.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_sopsat.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_squareblur.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_tehroxx0r.xml
@@ -259,6 +266,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/scratchlines.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/selectivecolor.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/sepia.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/shape.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/sox_band.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/sox_bass.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/sox_echo.xml
@@ -267,10 +275,12 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/sox_phaser.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/sox_stretch.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/speed.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/subtitles.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/swapchannels.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/tcolor.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/threshold.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/tracker.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/unsharp.xml
 drwxr-xr-x	root/root	usr/share/kdenlive/effects/update/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/update/frei0r.balanc0r.js
 -rw-r--r--	root/root	usr/share/kdenlive/effects/update/frei0r.cartoon.js

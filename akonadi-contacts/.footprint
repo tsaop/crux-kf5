@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/
 drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AbstractContactFormatter
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AbstractContactGroupFormatter
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AbstractEmailAddressSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactDefaultActions
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditor
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditorDialog
@@ -25,18 +26,20 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionModel
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionWidget
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecipientsEditorManager
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecipientsPickerWidget
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/SelectAddressBookDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactActionManager
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactFormatter
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/StandardContactGroupFormatter
 drwxr-xr-x	root/root	usr/include/KF5/ContactEditor/
--rw-r--r--	root/root	usr/include/KF5/ContactEditor/AbstractAddressLocationWidget
 -rw-r--r--	root/root	usr/include/KF5/ContactEditor/CategoriesEditAbstractWidget
 -rw-r--r--	root/root	usr/include/KF5/ContactEditor/ContactEditorPagePlugin
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractcontactformatter.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractcontactgroupformatter.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractemailaddressselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/akonadi-contact_export.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactdefaultactions.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditor.h
@@ -58,12 +61,13 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionmodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionwidget.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recipientseditormanager.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recipientspickerwidget.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/selectaddressbookdialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactactionmanager.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactformatter.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/standardcontactgroupformatter.h
 drwxr-xr-x	root/root	usr/include/KF5/contacteditor/
--rw-r--r--	root/root	usr/include/KF5/contacteditor/abstractaddresslocationwidget.h
 -rw-r--r--	root/root	usr/include/KF5/contacteditor/categorieseditabstractwidget.h
 -rw-r--r--	root/root	usr/include/KF5/contacteditor/contacteditor_export.h
 -rw-r--r--	root/root	usr/include/KF5/contacteditor/contacteditorpageplugin.h
@@ -80,11 +84,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ContactEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.13.0
 lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so -> libKF5ContactEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.12.3
--rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.12.3
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.13.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.13.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
