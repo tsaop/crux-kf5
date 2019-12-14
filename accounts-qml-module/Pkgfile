@@ -1,0 +1,21 @@
+# Description: QML bindings for libaccounts-qt + libsignon-qt 
+# URL: https://gitlab.com/accounts-sso/accounts-qml-module
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libaccounts-qt signond
+
+name=accounts-qml-module
+version=0.7
+release=1
+source=()
+
+build() 
+{
+	git clone https://gitlab.com/accounts-sso/$name --branch=VERSION_$version
+	cd $name
+	sed -e 's/-Werror//' -i common-project-config.pri
+	sed '/doc.pri/d; /^\s*tests/d; s/src \\/src/' -i accounts-qml-module.pro
+
+	qmake-qt5 PREFIX=/usr
+	make
+	make INSTALL_ROOT=$PKG install
+}
