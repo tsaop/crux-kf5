@@ -6,7 +6,7 @@
 name=python3-toml
 version=0.10.0
 release=1
-source=(https://files.pythonhosted.org/packages/b9/19/5cbd78eac8b1783671c40e34bb0fa83133a06d340a38b55c645076d40094/${name/python3-}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/b9/19/5cbd78eac8b1783671c40e34bb0fa83133a06d340a38b55.65.076d40094/${name/python3-}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-}-$version

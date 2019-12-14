@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KXmlGui/
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/KAboutApplicationDialog
+-rw-r--r--	root/root	usr/include/KF5/KXmlGui/KAboutPluginDialog
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/KActionCategory
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/KActionCollection
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/KBugReport
@@ -25,12 +26,11 @@ drwxr-xr-x	root/root	usr/include/KF5/KXmlGui/
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/KXMLGUIFactory
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/KXmlGuiWindow
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kaboutapplicationdialog.h
+-rw-r--r--	root/root	usr/include/KF5/KXmlGui/kaboutplugindialog.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kactioncategory.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kactioncollection.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kbugreport.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kedittoolbar.h
--rw-r--r--	root/root	usr/include/KF5/KXmlGui/kgesture_p.h
--rw-r--r--	root/root	usr/include/KF5/KXmlGui/kgesturemap_p.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/khelpmenu.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kkeysequencewidget.h
 -rw-r--r--	root/root	usr/include/KF5/KXmlGui/kmainwindow.h
@@ -56,8 +56,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5XmlGui/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/ksendbugmail
 lrwxrwxrwx	root/root	usr/lib/libKF5XmlGui.so -> libKF5XmlGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5XmlGui.so.5 -> libKF5XmlGui.so.5.64.0
--rwxr-xr-x	root/root	usr/lib/libKF5XmlGui.so.5.64.0
+lrwxrwxrwx	root/root	usr/lib/libKF5XmlGui.so.5 -> libKF5XmlGui.so.5.65.0
+-rwxr-xr-x	root/root	usr/lib/libKF5XmlGui.so.5.65.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

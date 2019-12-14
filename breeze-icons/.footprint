@@ -5121,6 +5121,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/apper.svg -> muon.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/audacity.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/author.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/babe.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/baloo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/bitcoin128.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/bittorrent-sync.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/bleachbit.svg
@@ -5443,6 +5444,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/64/plasma-browser-integrat
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/breeze-icons-dark.rcc
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/categories/
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/categories/32/
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/categories/32/applications-all.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/categories/32/applications-development.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/categories/32/applications-education-language.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/categories/32/applications-education-mathematics.svg
@@ -8025,7 +8027,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/user-trash-symb
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/preferences/
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/preferences/32/
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/amarok_change_language.svg -> preferences-desktop-locale.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/baloo.svg -> preferences-desktop-baloo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/device-notifier.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/drive-removable-media.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/face-smile.svg -> preferences-desktop-emoticons.svg
@@ -8072,6 +8073,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desk
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-plasma-theme.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-plasma.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-screensaver.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-search.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-sound.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-text-to-speech.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-theme-applications.svg
@@ -13696,6 +13698,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/apper.svg -> muon.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/audacity.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/author.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/babe.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/48/baloo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/bitcoin128.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/bittorrent-sync.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/bleachbit.svg
@@ -14087,6 +14090,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/64/plasma-browser-integration.s
 -rw-r--r--	root/root	usr/share/icons/breeze/breeze-icons.rcc
 drwxr-xr-x	root/root	usr/share/icons/breeze/categories/
 drwxr-xr-x	root/root	usr/share/icons/breeze/categories/32/
+-rw-r--r--	root/root	usr/share/icons/breeze/categories/32/applications-all.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/categories/32/applications-development.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/categories/32/applications-education-language.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/categories/32/applications-education-mathematics.svg
@@ -16678,7 +16682,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/user-trash-symbolic.
 drwxr-xr-x	root/root	usr/share/icons/breeze/preferences/
 drwxr-xr-x	root/root	usr/share/icons/breeze/preferences/32/
 lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/amarok_change_language.svg -> preferences-desktop-locale.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/baloo.svg -> preferences-desktop-baloo.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/device-notifier.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/drive-removable-media.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/face-smile.svg -> preferences-desktop-emoticons.svg
@@ -16725,6 +16728,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-n
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-plasma-theme.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-plasma.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-screensaver.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-search.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-sound.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-text-to-speech.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-theme-applications.svg
