@@ -1,0 +1,229 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+-rw-r--r--	root/root	etc/xdg/calligraplanrc
+-rw-r--r--	root/root	etc/xdg/calligraplanworkrc
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/calligraplan
+-rwxr-xr-x	root/root	usr/bin/calligraplanwork
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libkdeinit5_calligraplan.so
+-rwxr-xr-x	root/root	usr/lib/libkdeinit5_calligraplanwork.so
+lrwxrwxrwx	root/root	usr/lib/libplankernel.so -> libplankernel.so.17
+lrwxrwxrwx	root/root	usr/lib/libplankernel.so.17 -> libplankernel.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplankernel.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplankundo2.so -> libplankundo2.so.17
+lrwxrwxrwx	root/root	usr/lib/libplankundo2.so.17 -> libplankundo2.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplankundo2.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanmain.so -> libplanmain.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanmain.so.17 -> libplanmain.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanmain.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanmodels.so -> libplanmodels.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanmodels.so.17 -> libplanmodels.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanmodels.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanodf.so -> libplanodf.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanodf.so.17 -> libplanodf.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanodf.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanplugin.so -> libplanplugin.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanplugin.so.17 -> libplanplugin.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanplugin.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanprivate.so -> libplanprivate.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanprivate.so.17 -> libplanprivate.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanprivate.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanstore.so -> libplanstore.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanstore.so.17 -> libplanstore.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanstore.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanui.so -> libplanui.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanui.so.17 -> libplanui.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanui.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanwidgets.so -> libplanwidgets.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanwidgets.so.17 -> libplanwidgets.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanwidgets.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanwidgetutils.so -> libplanwidgetutils.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanwidgetutils.so.17 -> libplanwidgetutils.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanwidgetutils.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libplanworkfactory.so -> libplanworkfactory.so.17
+lrwxrwxrwx	root/root	usr/lib/libplanworkfactory.so.17 -> libplanworkfactory.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libplanworkfactory.so.17.0.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/formatfilters/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/formatfilters/planicalexport.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/formatfilters/plankplatoimport.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/formatfilters/planplannerimport.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/parts/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/parts/calligraplanpart.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/schedulers/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplan/schedulers/libplantjscheduler.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraplanworkpart.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.calligraplan.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.calligraplanwork.desktop
+drwxr-xr-x	root/root	usr/share/calligraplan/
+drwxr-xr-x	root/root	usr/share/calligraplan/about/
+-rw-r--r--	root/root	usr/share/calligraplan/about/intro.html
+-rw-r--r--	root/root	usr/share/calligraplan/about/main.html
+-rw-r--r--	root/root	usr/share/calligraplan/about/plan.css
+-rw-r--r--	root/root	usr/share/calligraplan/about/tips.html
+-rw-r--r--	root/root	usr/share/calligraplan/about/top-left-plan.png
+-rw-r--r--	root/root	usr/share/calligraplan/about/tutorial.html
+-rw-r--r--	root/root	usr/share/calligraplan/calligraplan_shell.rc
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/22x22/actions/
+-rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/22x22/actions/view-task-child-add.png
+-rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/22x22/actions/view-time-schedule-insert.png
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/48x48/actions/
+-rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/48x48/actions/template_timechart.png
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/calligraplan/icons/hicolor/scalable/actions/
+-rw-r--r--	root/root	usr/share/calligraplan/icons/hicolor/scalable/actions/template_timechart.svgz
+drwxr-xr-x	root/root	usr/share/calligraplan/reports/
+-rw-r--r--	root/root	usr/share/calligraplan/reports/EmptyTemplate.odt
+-rw-r--r--	root/root	usr/share/calligraplan/reports/ProjectPerformanceCost.odt
+-rw-r--r--	root/root	usr/share/calligraplan/reports/ProjectPerformanceEffort.odt
+-rw-r--r--	root/root	usr/share/calligraplan/reports/TaskStatus.odt
+drwxr-xr-x	root/root	usr/share/calligraplan/templates/
+drwxr-xr-x	root/root	usr/share/calligraplan/templates/.source/
+-rw-r--r--	root/root	usr/share/calligraplan/templates/.source/SharedResources.plant
+drwxr-xr-x	root/root	usr/share/calligraplan/templates/Simple/
+-rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/.directory
+drwxr-xr-x	root/root	usr/share/calligraplan/templates/Simple/.source/
+-rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/.source/8HourDay-40HourWeek.plant
+-rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/.source/Plain.plant
+-rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/8HourDay-40HourWeek.desktop
+-rw-r--r--	root/root	usr/share/calligraplan/templates/Simple/Plain.desktop
+drwxr-xr-x	root/root	usr/share/calligraplanwork/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/128x128/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/128x128/actions/
+-rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/128x128/actions/template_empty.png
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/16x16/actions/
+-rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/16x16/actions/template_empty.png
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/22x22/actions/
+-rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/22x22/actions/template_empty.png
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/32x32/actions/
+-rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/32x32/actions/template_empty.png
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/48x48/actions/
+-rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/48x48/actions/template_empty.png
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/64x64/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/icons/hicolor/64x64/actions/
+-rw-r--r--	root/root	usr/share/calligraplanwork/icons/hicolor/64x64/actions/template_empty.png
+drwxr-xr-x	root/root	usr/share/calligraplanwork/templates/
+drwxr-xr-x	root/root	usr/share/calligraplanwork/templates/Simple/
+-rw-r--r--	root/root	usr/share/calligraplanwork/templates/Simple/.directory
+drwxr-xr-x	root/root	usr/share/calligraplanwork/templates/Simple/.source/
+-rw-r--r--	root/root	usr/share/calligraplanwork/templates/Simple/.source/Empty.planworkt
+-rw-r--r--	root/root	usr/share/calligraplanwork/templates/Simple/Empty.desktop
+drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/calligraplansettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/calligraplanworksettings.kcfg
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/calligraplan.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligraplan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/calligraplanwork.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.kplato.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.kplato.work.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.work.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligraplan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/calligraplanwork.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/mimetypes/application-x-vnd.kde.kplato.work.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/mimetypes/application-x-vnd.kde.plan.work.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligraplan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/calligraplanwork.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/mimetypes/application-x-vnd.kde.kplato.work.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/mimetypes/application-x-vnd.kde.plan.work.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/calligraplan.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligraplan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/calligraplanwork.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/mimetypes/application-x-vnd.kde.kplato.work.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/mimetypes/application-x-vnd.kde.plan.work.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligraplan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/calligraplanwork.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/mimetypes/application-x-vnd.kde.kplato.work.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/mimetypes/application-x-vnd.kde.plan.work.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/calligraplan.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligraplan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/calligraplanwork.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.kplato.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.kplato.work.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.plan.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/mimetypes/application-x-vnd.kde.plan.work.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligraplan.svgz
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/calligraplanwork.svgz
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.kplato.svgz
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.kplato.work.svgz
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.svgz
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.work.svgz
+drwxr-xr-x	root/root	usr/share/kxmlgui5/
+drwxr-xr-x	root/root	usr/share/kxmlgui5/calligraplan/
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/AccountsEditorUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/AccountsEditorUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/AccountsViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/CalendarEditorUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/CalendarEditorUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/DependencyEditorUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/DependencyEditorUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/GanttViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/PerformanceStatusViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/PertResultUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ProjectStatusViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ReportsGeneratorViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ReportsGeneratorViewUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ResourceAppointmentsViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ResourceEditorUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ResourceEditorUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ScheduleEditorUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/ScheduleEditorUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/TaskEditorUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/TaskEditorUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/TaskStatusViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/TaskViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/WorkPackageViewUi.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/WorkPackageViewUi_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/calligraplan.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplan/calligraplan_readonly.rc
+drwxr-xr-x	root/root	usr/share/kxmlgui5/calligraplanwork/
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplanwork/calligraplanwork.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplanwork/calligraplanwork_readonly.rc
+-rw-r--r--	root/root	usr/share/kxmlgui5/calligraplanwork/calligraplanworkui.rc
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.calligraplan.appdata.xml
