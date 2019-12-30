@@ -1,0 +1,22 @@
+# Description: C11 / gnu11 utilities C library by Shlomi Fish / Rindolf
+# URL: https://github.com/shlomif/rinutils
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  cmake
+
+name=rinutils
+version=0.2.0
+release=1
+source=(https://github.com/shlomif/$name/releases/download/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DWITH_TEST_SUITE=OFF \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}
