@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_deepskydad_af2_focus
 -rwxr-xr-x	root/root	usr/bin/indi_deepskydad_af3_focus
 -rwxr-xr-x	root/root	usr/bin/indi_dmfc_focus
+-rwxr-xr-x	root/root	usr/bin/indi_domepro2_dome
 -rwxr-xr-x	root/root	usr/bin/indi_dsc_telescope
 lrwxrwxrwx	root/root	usr/bin/indi_eq500x_telescope -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_eval
@@ -71,6 +72,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_qhycfw2_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_qhycfw3_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_quantum_wheel
+-rwxr-xr-x	root/root	usr/bin/indi_rainbow_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_rigel_dome
 -rwxr-xr-x	root/root	usr/bin/indi_robo_focus
 -rwxr-xr-x	root/root	usr/bin/indi_rolloff_dome
@@ -201,16 +203,16 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.8.2
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.8.2
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.8.3
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.8.3
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.8.2
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.8.2
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.8.3
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.8.3
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.8.2
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.8.2
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.8.3
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.8.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
