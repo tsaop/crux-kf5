@@ -1,6 +1,8 @@
---- calligra-3.1.0/filters/karbon/pdf/SvgOutputDev.cpp.orig	2018-12-07 21:15:08.609967924 +0100
-+++ calligra-3.1.0/filters/karbon/pdf/SvgOutputDev.cpp	2018-12-07 21:15:53.407972204 +0100
-@@ -402,7 +402,7 @@
+diff --git a/filters/karbon/pdf/SvgOutputDev.cpp b/filters/karbon/pdf/SvgOutputDev.cpp
+index 80f01a5f76f..ea69228dbc1 100644
+--- a/filters/karbon/pdf/SvgOutputDev.cpp
++++ b/filters/karbon/pdf/SvgOutputDev.cpp
+@@ -407,7 +407,7 @@ void SvgOutputDev::drawString(GfxState * state, const GooString * s)
  
      QString str;
  
@@ -9,7 +11,7 @@
      int len = s->getLength();
      CharCode code;
      Unicode *u = nullptr;
-@@ -451,11 +451,11 @@
+@@ -459,11 +459,11 @@ void SvgOutputDev::drawString(GfxState * state, const GooString * s)
      *d->body << " y=\"" << y << "px\"";
  
      if (font && font->getFamily()) {
