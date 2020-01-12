@@ -4,8 +4,8 @@
 # Depends on:  desktop-file-utils gtk libkmahjongg python3-pyqt5 python3-twisted vorbis-tools
 
 name=kajongg
-version=19.12.0
-release=2
+version=19.12.1
+release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
