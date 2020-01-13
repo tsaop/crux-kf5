@@ -4,22 +4,23 @@
 # Depends on: gwenhywfar ktoblzcheck libofx xmlsec
 
 name=aqbanking
-version=5.8.2
+version=5.99.44beta
 release=1
-source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
-	fix-libaqhbci-la.diff)
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-
-	patch -Np1 -i $SRC/fix-libaqhbci-la.diff
 
 	autoreconf -vfi
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--enable-gwenhywfar \
 		--disable-static \
-		--disable-tutorials
+		--disable-tutorials \
+		--with-backends="aqhbci aqofxconnect aqpaypal"
+
+	make typedefs
+	make typefiles
 
 	make -j1
 	make -j1 DESTDIR=$PKG install
