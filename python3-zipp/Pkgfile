@@ -4,9 +4,9 @@
 # Depends on:  python3-setuptools
 
 name=python3-zipp
-version=2.0.1
+version=2.1.0
 release=1
-source=(https://files.pythonhosted.org/packages/69/d2/daa94177e934b0b1b0780f5c856c41c248a88b2f43c046ae23afb0116ec0/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/11/b5/89f3ab6d45b2709863761bab58c574b2344ef215749abb5407818c21c9ca/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
