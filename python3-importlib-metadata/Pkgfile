@@ -4,9 +4,9 @@
 # Depends on:  python3-zipp
 
 name=python3-importlib-metadata
-version=1.3.0
+version=1.5.0
 release=1
-source=(https://files.pythonhosted.org/packages/cb/bb/7a935a48bf751af244090a7bd558769942cf13a7eba874b8b25538f3db01/importlib_metadata-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/0d/e4/638f3bde506b86f62235c595073066e7b8472fc9ee2b8c6491347f31d726/importlib_metadata-$version.tar.gz)
 
 build() {
 	cd importlib_metadata-$version
