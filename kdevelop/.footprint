@@ -342,6 +342,7 @@ drwxr-xr-x	root/root	usr/include/kdevplatform/sublime/
 -rw-r--r--	root/root	usr/include/kdevplatform/sublime/document.h
 -rw-r--r--	root/root	usr/include/kdevplatform/sublime/mainwindow.h
 -rw-r--r--	root/root	usr/include/kdevplatform/sublime/mainwindowoperator.h
+-rw-r--r--	root/root	usr/include/kdevplatform/sublime/message.h
 -rw-r--r--	root/root	usr/include/kdevplatform/sublime/sublimedefs.h
 -rw-r--r--	root/root	usr/include/kdevplatform/sublime/sublimeexport.h
 -rw-r--r--	root/root	usr/include/kdevplatform/sublime/tooldocument.h
@@ -426,109 +427,110 @@ drwxr-xr-x	root/root	usr/lib/cmake/KDevelop/
 -rw-r--r--	root/root	usr/lib/cmake/KDevelop/KDevelopConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KDevelop/KDevelopConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KDevelop/KDevelopTargets.cmake
--rwxr-xr-x	root/root	usr/lib/libKDevClangPrivate.so.32
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so -> libKDevPlatformDebugger.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformDebugger.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so.54 -> libKDevPlatformDebugger.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so -> libKDevPlatformDocumentation.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformDocumentation.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so.54 -> libKDevPlatformDocumentation.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so -> libKDevPlatformInterfaces.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformInterfaces.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so.54 -> libKDevPlatformInterfaces.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so -> libKDevPlatformLanguage.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformLanguage.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so.54 -> libKDevPlatformLanguage.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so -> libKDevPlatformOutputView.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformOutputView.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so.54 -> libKDevPlatformOutputView.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so -> libKDevPlatformProject.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformProject.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so.54 -> libKDevPlatformProject.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so -> libKDevPlatformSerialization.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformSerialization.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so.54 -> libKDevPlatformSerialization.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so -> libKDevPlatformShell.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformShell.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so.54 -> libKDevPlatformShell.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so -> libKDevPlatformSublime.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformSublime.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so.54 -> libKDevPlatformSublime.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so -> libKDevPlatformUtil.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformUtil.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so.54 -> libKDevPlatformUtil.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so -> libKDevPlatformVcs.so.54
--rwxr-xr-x	root/root	usr/lib/libKDevPlatformVcs.so.5.4.6
-lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so.54 -> libKDevPlatformVcs.so.5.4.6
--rwxr-xr-x	root/root	usr/lib/libkdevcmakecommon.so
+-rwxr-xr-x	root/root	usr/lib/libKDevCMakeCommon.so.33
+-rwxr-xr-x	root/root	usr/lib/libKDevClangPrivate.so.33
+-rwxr-xr-x	root/root	usr/lib/libKDevCompileAnalyzerCommon.so.33
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so -> libKDevPlatformDebugger.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformDebugger.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDebugger.so.55 -> libKDevPlatformDebugger.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so -> libKDevPlatformDocumentation.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformDocumentation.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformDocumentation.so.55 -> libKDevPlatformDocumentation.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so -> libKDevPlatformInterfaces.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformInterfaces.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformInterfaces.so.55 -> libKDevPlatformInterfaces.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so -> libKDevPlatformLanguage.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformLanguage.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformLanguage.so.55 -> libKDevPlatformLanguage.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so -> libKDevPlatformOutputView.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformOutputView.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformOutputView.so.55 -> libKDevPlatformOutputView.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so -> libKDevPlatformProject.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformProject.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformProject.so.55 -> libKDevPlatformProject.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so -> libKDevPlatformSerialization.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformSerialization.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSerialization.so.55 -> libKDevPlatformSerialization.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so -> libKDevPlatformShell.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformShell.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformShell.so.55 -> libKDevPlatformShell.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so -> libKDevPlatformSublime.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformSublime.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformSublime.so.55 -> libKDevPlatformSublime.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so -> libKDevPlatformUtil.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformUtil.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformUtil.so.55 -> libKDevPlatformUtil.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so -> libKDevPlatformVcs.so.55
+-rwxr-xr-x	root/root	usr/lib/libKDevPlatformVcs.so.5.5.0
+lrwxrwxrwx	root/root	usr/lib/libKDevPlatformVcs.so.55 -> libKDevPlatformVcs.so.5.5.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/grantlee/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/grantlee/5.2/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/grantlee/5.2/kdev_filters.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevandroid.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevappwizard.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevastyle.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevbazaar.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevclangsupport.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevclangtidy.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevclassbrowser.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevclazy.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcmakebuilder.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcmakedocumentation.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcmakemanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcodeutils.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcontextbrowser.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcppcheck.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcustombuildsystem.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcustommakemanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevcustomscript.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevdefinesandincludesmanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevdocker.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevdocumentswitcher.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevdocumentview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevexecute.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevexecuteplasmoid.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevexecutescript.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevexternalscript.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevfilemanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevfiletemplates.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevflatpak.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevgdb.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevgenericmanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevghprovider.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevgit.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevgrepview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevheaptrack.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevkdeprovider.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevkonsoleview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevlldb.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevmakebuilder.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevmanpage.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevmesonmanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevninja.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevokteta.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevopenwith.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevoutlineview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevpatchreview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevperforce.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevproblemreporter.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevprojectfilter.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevprojectmanagerview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevqmakebuilder.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevqmakemanager.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevqmljslanguagesupport.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevqthelp.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevquickopen.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevscratchpad.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevsourceformatter.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevstandardoutputview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevswitchtobuddy.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevtestview.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevvcschangesviewplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/32/kdevwelcomepage.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevandroid.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevappwizard.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevastyle.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevbazaar.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevclangsupport.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevclangtidy.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevclassbrowser.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevclazy.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcmakebuilder.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcmakedocumentation.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcmakemanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcodeutils.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcontextbrowser.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcppcheck.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcustombuildsystem.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcustommakemanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevcustomscript.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevdefinesandincludesmanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevdocker.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevdocumentswitcher.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevdocumentview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevexecute.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevexecuteplasmoid.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevexecutescript.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevexternalscript.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevfilemanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevfiletemplates.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevflatpak.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevgdb.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevgenericmanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevghprovider.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevgit.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevgrepview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevheaptrack.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevkdeprovider.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevkonsoleview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevlldb.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevmakebuilder.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevmanpage.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevmesonmanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevninja.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevokteta.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevopenwith.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevoutlineview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevpatchreview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevperforce.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevproblemreporter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevprojectfilter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevprojectmanagerview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevqmakebuilder.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevqmakemanager.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevqmljslanguagesupport.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevqthelp.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevquickopen.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevscratchpad.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevsourceformatter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevstandardoutputview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevswitchtobuddy.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevtestview.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevvcschangesviewplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdevplatform/33/kdevwelcomepage.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/krunner_kdevelopsessions.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
@@ -816,6 +818,10 @@ drwxr-xr-x	root/root	usr/share/kdevqmljssupport/propertywidgets/
 -rw-r--r--	root/root	usr/share/kdevqmljssupport/propertywidgets/Width.qml
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kdevelop.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kdevappwizard.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/kdevelop-qthelp.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/kdevfiletemplates.knsrc
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kdevelopsessions.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-kdevelopsessions.desktop
