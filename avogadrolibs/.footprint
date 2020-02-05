@@ -172,6 +172,7 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/MeasureTool.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Meshes.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/MolecularProperties.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/MongoChem.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Navigator.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/NetworkDatabases.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OpenBabel.a
@@ -206,28 +207,28 @@ drwxr-xr-x	root/root	usr/lib/cmake/avogadrolibs/
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/FindLibArchive.cmake
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/Findlibmsym.cmake
 lrwxrwxrwx	root/root	usr/lib/libAvogadroCore.so -> libAvogadroCore.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroCore.so.1 -> libAvogadroCore.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroCore.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroCore.so.1 -> libAvogadroCore.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroCore.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroIO.so -> libAvogadroIO.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroIO.so.1 -> libAvogadroIO.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroIO.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroIO.so.1 -> libAvogadroIO.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroIO.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroMoleQueue.so -> libAvogadroMoleQueue.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroMoleQueue.so.1 -> libAvogadroMoleQueue.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroMoleQueue.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroMoleQueue.so.1 -> libAvogadroMoleQueue.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroMoleQueue.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQtGui.so -> libAvogadroQtGui.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQtGui.so.1 -> libAvogadroQtGui.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQtGui.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQtGui.so.1 -> libAvogadroQtGui.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQtGui.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQtOpenGL.so -> libAvogadroQtOpenGL.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQtOpenGL.so.1 -> libAvogadroQtOpenGL.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQtOpenGL.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQtOpenGL.so.1 -> libAvogadroQtOpenGL.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQtOpenGL.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQtPlugins.so -> libAvogadroQtPlugins.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQtPlugins.so.1 -> libAvogadroQtPlugins.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQtPlugins.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQtPlugins.so.1 -> libAvogadroQtPlugins.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQtPlugins.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so -> libAvogadroQuantumIO.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so.1 -> libAvogadroQuantumIO.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQuantumIO.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so.1 -> libAvogadroQuantumIO.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQuantumIO.so.1.93.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so -> libAvogadroRendering.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so.1 -> libAvogadroRendering.so.1.92.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroRendering.so.1.92.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so.1 -> libAvogadroRendering.so.1.93.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroRendering.so.1.93.0
 -rw-r--r--	root/root	usr/lib/liblibgwavi.a
 drwxr-xr-x	root/root	usr/share/
