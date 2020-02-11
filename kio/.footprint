@@ -208,6 +208,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/PixmapLoader
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/PreviewJob
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/RenameDialog
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/RenameFileDialog
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/SkipDialog
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/SslUi
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/ThumbCreator
@@ -247,6 +248,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/pixmaploader.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/previewjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/renamedialog.h
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/renamefiledialog.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/skipdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/sslui.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/thumbcreator.h
@@ -283,20 +285,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.66.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.66.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.67.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.67.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.66.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.66.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.67.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.67.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.66.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.66.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.67.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.67.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.66.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.66.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.67.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.67.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.66.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.66.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.67.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.67.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

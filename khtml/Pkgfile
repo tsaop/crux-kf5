@@ -4,7 +4,7 @@
 # Depends on: giflib kjs kparts
 
 name=khtml
-version=5.66.0
+version=5.67.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 
