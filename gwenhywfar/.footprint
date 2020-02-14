@@ -141,15 +141,15 @@ drwxr-xr-x	root/root	usr/include/gwenhywfar5/gwenhywfar/
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/xsdnode.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/gwengui-cpp-5.1/
--rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.1/gwengui-cpp-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.1/gwengui-cpp-config.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/gwengui-qt5-5.1/
--rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.1/gwengui-qt5-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.1/gwengui-qt5-config.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/gwenhywfar-5.1/
--rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.1/gwenhywfar-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.1/gwenhywfar-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwengui-cpp-5.2/
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.2/gwengui-cpp-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.2/gwengui-cpp-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwengui-qt5-5.2/
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.2/gwengui-qt5-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.2/gwengui-qt5-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwenhywfar-5.2/
+-rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.2/gwenhywfar-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.2/gwenhywfar-config.cmake
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/79/
@@ -178,17 +178,17 @@ lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/79/dbio/xmldb.so.0 -> xmldb.so.0
 -rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/79/dbio/xmldb.so.0.0.1
 -rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/79/dbio/xmldb.xml
 -rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.la
-lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so -> libgwengui-cpp.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so.0 -> libgwengui-cpp.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so -> libgwengui-cpp.so.79.2.0
+lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so.79 -> libgwengui-cpp.so.79.2.0
+-rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.so.79.2.0
 -rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.la
-lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so -> libgwengui-qt5.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so.0 -> libgwengui-qt5.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so -> libgwengui-qt5.so.79.2.0
+lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so.79 -> libgwengui-qt5.so.79.2.0
+-rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.so.79.2.0
 -rwxr-xr-x	root/root	usr/lib/libgwenhywfar.la
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.79.1.3
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.79 -> libgwenhywfar.so.79.1.3
--rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.79.1.3
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.79.2.0
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.79 -> libgwenhywfar.so.79.2.0
+-rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.79.2.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwengui-qt5.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwenhywfar.pc
