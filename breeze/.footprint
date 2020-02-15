@@ -8,8 +8,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/Breeze/
 -rw-r--r--	root/root	usr/lib/cmake/Breeze/BreezeConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kde4breeze
-lrwxrwxrwx	root/root	usr/lib/libbreezecommon5.so.5 -> libbreezecommon5.so.5.17.5
--rwxr-xr-x	root/root	usr/lib/libbreezecommon5.so.5.17.5
+lrwxrwxrwx	root/root	usr/lib/libbreezecommon5.so.5 -> libbreezecommon5.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libbreezecommon5.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kstyle_breeze_config.so
@@ -70,6 +70,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/dnd-none -> dnd-move
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/draft
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/e-resize -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/e29285e634086352946a0e7090d73106 -> pointer
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/ew-resize -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> dnd-move
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/fleur
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/forbidden -> no-drop
@@ -88,9 +89,12 @@ lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/link -> alias
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/move -> dnd-move
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/n-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/nesw-resize -> size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/no-drop
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/not-allowed
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/ns-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Breeze_Snow/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Breeze_Snow/cursors/pirate
@@ -181,6 +185,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/dnd-none -> dnd-move
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/draft
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/e-resize -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/e29285e634086352946a0e7090d73106 -> pointer
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/ew-resize -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> dnd-move
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/fleur
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/forbidden -> no-drop
@@ -199,9 +204,12 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/link -> alias
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/move -> dnd-move
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/n-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/nesw-resize -> size_bdiag
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/no-drop
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/not-allowed
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/ns-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/breeze_cursors/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/breeze_cursors/cursors/pirate
@@ -276,20 +284,20 @@ drwxr-xr-x	root/root	usr/share/wallpapers/
 drwxr-xr-x	root/root	usr/share/wallpapers/Next/
 drwxr-xr-x	root/root	usr/share/wallpapers/Next/contents/
 drwxr-xr-x	root/root	usr/share/wallpapers/Next/contents/images/
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1024x768.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1280x1024.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1280x800.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1366x768.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1440x900.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1600x1200.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1680x1050.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1920x1080.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1920x1200.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/2560x1440.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/2560x1600.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/3200x1800.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/3200x2000.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/3840x2160.png
--rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/5120x2880.png
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1024x768.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1280x1024.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1280x800.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1366x768.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1440x900.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1600x1200.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1680x1050.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/1920x1200.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/2560x1440.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/2560x1600.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/3200x1800.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/3200x2000.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/3840x2160.jpg
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images/5120x2880.jpg
 -rw-r--r--	root/root	usr/share/wallpapers/Next/contents/screenshot.png
 -rw-r--r--	root/root	usr/share/wallpapers/Next/metadata.desktop

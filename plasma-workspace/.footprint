@@ -108,24 +108,24 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/ksmserver-logout-greeter
 -rwxr-xr-x	root/root	usr/lib/ksyncdbusenv
 lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so -> libcolorcorrect.so.5
-lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.17.5
--rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.17.5
+lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.18.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit_startup.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_klipper.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.17.5
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.17.5
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so -> libnotificationmanager.so.1
-lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.17.5
--rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.17.5
+lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.17.5
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.17.5
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.17.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.17.5
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -317,6 +317,7 @@ drwxr-xr-x	root/root	usr/share/desktop-directories/
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-main.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-more.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-multimedia.directory
+-rw-r--r--	root/root	usr/share/desktop-directories/kf5-network.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-office.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-science.directory
 -rw-r--r--	root/root	usr/share/desktop-directories/kf5-settingsmenu.directory
@@ -686,6 +687,8 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/CompactRepresentation.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/DraggableDelegate.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/DraggableFileArea.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/EditContextMenu.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/FullRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/JobDetails.qml
@@ -693,6 +696,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/con
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/NotificationHeader.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/NotificationItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/NotificationPopup.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/NotificationReplyField.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/SelectableLabel.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/ThumbnailStrip.qml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/global/
@@ -719,7 +723,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtra
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ConfigEntries.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ConfigGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/CurrentItemHighLight.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ExpandedRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ExpanderArrow.qml
@@ -799,6 +802,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/ConfigGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/DoublePlotter.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/SinglePlotter.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/displayConfig.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/net.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/netConfig.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/metadata.desktop
@@ -891,6 +895,7 @@ drwxr-xr-x	root/root	usr/share/sddm/themes/breeze/components/artwork/
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/components/artwork/logout_primary.svgz
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/components/artwork/restart_primary.svgz
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/components/artwork/shutdown_primary.svgz
+-rw-r--r--	root/root	usr/share/sddm/themes/breeze/default-logo.svg
 drwxr-xr-x	root/root	usr/share/sddm/themes/breeze/faces/
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/faces/.face.icon
 -rw-r--r--	root/root	usr/share/sddm/themes/breeze/metadata.desktop

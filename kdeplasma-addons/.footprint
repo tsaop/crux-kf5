@@ -72,6 +72,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/fifteenpuzzle/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/mediaframe/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/mediaframe/libmediaframeplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/mediaframe/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/nightcolorcontrol/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/nightcolorcontrol/libnightcolorcontrolplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/nightcolorcontrol/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/notes/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/notes/libnotesplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/notes/qmldir
@@ -111,6 +114,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_present_windows.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_small_icons.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_text.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_thumbnail_grid.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwin/kwin4_window_switcher_thumbnails.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.activitypager.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.binaryclock.desktop
@@ -125,6 +129,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.kickerdash.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.konsoleprofiles.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.mediaframe.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.nightcolorcontrol.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.notes.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.private.grouping.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.quicklaunch.desktop
@@ -191,6 +196,11 @@ drwxr-xr-x	root/root	usr/share/kwin/tabbox/text/contents/
 drwxr-xr-x	root/root	usr/share/kwin/tabbox/text/contents/ui/
 -rw-r--r--	root/root	usr/share/kwin/tabbox/text/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kwin/tabbox/text/metadata.desktop
+drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnail_grid/
+drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnail_grid/contents/
+drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnail_grid/contents/ui/
+-rw-r--r--	root/root	usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/kwin/tabbox/thumbnail_grid/metadata.desktop
 drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnails/
 drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnails/contents/
 drwxr-xr-x	root/root	usr/share/kwin/tabbox/thumbnails/contents/ui/
@@ -212,6 +222,7 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.nightcolorcontrol.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.notes.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml
@@ -344,6 +355,12 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/conten
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediaframe/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.nightcolorcontrol/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.nightcolorcontrol/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.nightcolorcontrol/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.nightcolorcontrol/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.nightcolorcontrol/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.nightcolorcontrol/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/config/
