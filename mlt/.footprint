@@ -60,12 +60,12 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.18.0
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.18.0
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.18.0
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.18.0
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.18.0
--rwxr-xr-x	root/root	usr/lib/libmlt.so.6.18.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.20.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.20.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.20.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.20.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.20.0
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.6.20.0
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -86,6 +86,7 @@ drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltsox.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvideostab.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltvmfx.so
+-rwxr-xr-x	root/root	usr/lib/mlt/libmltvorbis.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltxine.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltxml.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
@@ -222,6 +223,8 @@ drwxr-xr-x	root/root	usr/share/mlt/presets/
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/AAC
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/ALAC
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/FLAC
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/Flash
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/GIF
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/MJPEG
@@ -306,10 +309,12 @@ drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_50p/
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_60p/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/hdv_720_60p/HDV
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/DNxHR-HQ
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/MJPEG
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/MPEG-2
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/MPEG-4
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/ProRes
+-rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/ProRes HQ
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/intermediate/ProRes-Kostya
 drwxr-xr-x	root/root	usr/share/mlt/presets/consumer/avformat/lossless/
 -rw-r--r--	root/root	usr/share/mlt/presets/consumer/avformat/lossless/FFV1
@@ -458,6 +463,8 @@ drwxr-xr-x	root/root	usr/share/mlt/vmfx/
 -rw-r--r--	root/root	usr/share/mlt/vmfx/filter_mono.yml
 -rw-r--r--	root/root	usr/share/mlt/vmfx/filter_shape.yml
 -rw-r--r--	root/root	usr/share/mlt/vmfx/producer_pgm.yml
+drwxr-xr-x	root/root	usr/share/mlt/vorbis/
+-rw-r--r--	root/root	usr/share/mlt/vorbis/producer_vorbis.yml
 drwxr-xr-x	root/root	usr/share/mlt/xml/
 -rw-r--r--	root/root	usr/share/mlt/xml/consumer_xml.yml
 -rw-r--r--	root/root	usr/share/mlt/xml/mlt-xml.dtd
