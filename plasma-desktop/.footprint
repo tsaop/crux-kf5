@@ -20,11 +20,11 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kfontprint
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kaccess.so
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.18.1
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.18.1
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.18.0
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.18.1
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.18.1
 -rwxr-xr-x	root/root	usr/lib/plasma-changeicons
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -718,6 +718,7 @@ drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/exp
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
+-rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/Desktop.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/Panel.qml
