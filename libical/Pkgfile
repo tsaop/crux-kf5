@@ -4,7 +4,7 @@
 # Depends on: cmake glib icu libxml2 perl
 
 name=libical
-version=3.0.7
+version=3.0.8
 release=1
 source=(https://github.com/$name/$name/releases/download/v$version/$name-$version.tar.gz)
 
