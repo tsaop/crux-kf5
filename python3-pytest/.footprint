@@ -42,6 +42,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/setupplan.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/skipping.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/stepwise.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/store.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/terminal.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/tmpdir.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/__pycache__/unittest.cpython-37.pyc
@@ -57,7 +58,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_pytest/_code/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/_code/code.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/_code/source.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_pytest/_io/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/_io/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/_io/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_pytest/_io/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/_io/__pycache__/__init__.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/_io/__pycache__/saferepr.cpython-37.pyc
@@ -124,19 +125,20 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_pytest/mark/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/setupplan.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/skipping.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/stepwise.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/store.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/terminal.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/tmpdir.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/unittest.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/warning_types.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/_pytest/warnings.py
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.3.5-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest-5.4.1-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pytest/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pytest/__main__.py
