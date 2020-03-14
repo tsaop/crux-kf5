@@ -4,7 +4,7 @@
 # Depends on: extra-cmake-modules telepathy-logger telepathy-qt
 
 name=telepathy-logger-qt
-version=17.08.0
+version=17.09.0
 release=1
 source=(https://download.kde.org/stable/$name/${version:0:5}/src/$name-$version.tar.xz)
 
