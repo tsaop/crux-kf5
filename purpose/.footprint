@@ -32,15 +32,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Purpose/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/purposeprocess
 lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so -> libKF5Purpose.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so.5 -> libKF5Purpose.so.5.67.0
--rwxr-xr-x	root/root	usr/lib/libKF5Purpose.so.5.67.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Purpose.so.5 -> libKF5Purpose.so.5.68.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Purpose.so.5.68.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so -> libKF5PurposeWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so.5 -> libKF5PurposeWidgets.so.5.67.0
--rwxr-xr-x	root/root	usr/lib/libKF5PurposeWidgets.so.5.67.0
-lrwxrwxrwx	root/root	usr/lib/libPhabricatorHelpers.so.5 -> libPhabricatorHelpers.so.5.67.0
--rwxr-xr-x	root/root	usr/lib/libPhabricatorHelpers.so.5.67.0
-lrwxrwxrwx	root/root	usr/lib/libReviewboardHelpers.so.5 -> libReviewboardHelpers.so.5.67.0
--rwxr-xr-x	root/root	usr/lib/libReviewboardHelpers.so.5.67.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PurposeWidgets.so.5 -> libKF5PurposeWidgets.so.5.68.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PurposeWidgets.so.5.68.0
+lrwxrwxrwx	root/root	usr/lib/libPhabricatorHelpers.so.5 -> libPhabricatorHelpers.so.5.68.0
+-rwxr-xr-x	root/root	usr/lib/libPhabricatorHelpers.so.5.68.0
+lrwxrwxrwx	root/root	usr/lib/libReviewboardHelpers.so.5 -> libReviewboardHelpers.so.5.68.0
+-rwxr-xr-x	root/root	usr/lib/libReviewboardHelpers.so.5.68.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
@@ -79,7 +79,6 @@ drwxr-xr-x	root/root	usr/share/accounts/services/
 drwxr-xr-x	root/root	usr/share/accounts/services/kde/
 -rw-r--r--	root/root	usr/share/accounts/services/kde/google-youtube.service
 -rw-r--r--	root/root	usr/share/accounts/services/kde/nextcloud-upload.service
--rw-r--r--	root/root	usr/share/accounts/services/kde/twitter-microblog.service
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -104,16 +103,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/actions/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/actions/kipiplugin_youtube.png
-drwxr-xr-x	root/root	usr/share/kpackage/
-drwxr-xr-x	root/root	usr/share/kpackage/Purpose/
-drwxrwxr-x	root/root	usr/share/kpackage/Purpose/Twitter/
-drwxrwxr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/
-drwxrwxr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/
--rwxrwxr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/main.js
--rw-rw-r--	root/root	usr/share/kpackage/Purpose/Twitter/contents/code/package.json
-drwxrwxr-x	root/root	usr/share/kpackage/Purpose/Twitter/contents/config/
--rw-rw-r--	root/root	usr/share/kpackage/Purpose/Twitter/contents/config/config.qml
--rw-rw-r--	root/root	usr/share/kpackage/Purpose/Twitter/metadata.json
 drwxr-xr-x	root/root	usr/share/purpose/
 -rw-r--r--	root/root	usr/share/purpose/bluetoothplugin_config.qml
 -rw-r--r--	root/root	usr/share/purpose/kdeconnectplugin_config.qml

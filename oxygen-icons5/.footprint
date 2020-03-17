@@ -790,6 +790,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/stock_folder.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/user-trash.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/status/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/data-error.png -> dialog-error.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/data-information.png -> dialog-information.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/data-warning.png -> dialog-warning.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/dialog-error.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/dialog-information.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/status/dialog-password.png
@@ -1461,6 +1464,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/photos-amarok.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/player-time.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/actions/player-volume.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/playlist-sort.png -> view-sort-ascending.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/plugins.png -> ../apps/preferences-plugin.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/polygon-add-nodes.png -> format-add-node.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/polygon-merge-nodes.png -> format-join-node.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/actions/postalcode.png -> mail-mark-unread.png
@@ -2531,6 +2535,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/appointment-remind
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/battery-low.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/battery-missing.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/cloudstatus.png -> ../places/folder-cloud.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/data-error.png -> dialog-error.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/data-information.png -> ../actions/help-about.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/data-warning.png -> dialog-warning.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/dialog-error.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/status/dialog-information.png -> ../actions/help-about.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/status/dialog-password.png
@@ -3246,6 +3253,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/photos-amarok.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/player-volume-muted.png -> ../status/audio-volume-muted.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/player-volume.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/playlist-sort.png -> view-sort-ascending.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/plugins.png -> ../apps/preferences-plugin.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/polygon-add-nodes.png -> format-add-node.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/polygon-merge-nodes.png -> format-join-node.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/postalcode.png -> mail-mark-unread.png
@@ -4362,6 +4370,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/appointment-remind
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/battery-low.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/battery-missing.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/cloudstatus.png -> ../places/folder-cloud.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/data-error.png -> dialog-error.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/data-information.png -> ../actions/help-about.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/data-warning.png -> dialog-warning.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/dialog-error.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/status/dialog-information.png -> ../actions/help-about.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/status/dialog-password.png
@@ -5431,6 +5442,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/media-playlist-re
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/page-zoom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/player-time.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/player-volume.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/plugins.png -> ../apps/preferences-plugin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/preferences-activities.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/preflight-verifier.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/process-stop.png
@@ -6459,6 +6471,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/appointment-remind
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/battery-charging.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/battery-low.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/battery-missing.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/data-error.png -> dialog-error.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/data-information.png -> ../actions/help-about.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/data-warning.png -> dialog-warning.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/dialog-error.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/dialog-information.png -> ../actions/help-about.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/status/dialog-password.png
@@ -6912,6 +6927,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/media-playlist-re
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/page-zoom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/player-time.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/player-volume.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/plugins.png -> ../apps/preferences-plugin.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/preferences-activities.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/preflight-verifier.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/process-stop.png
@@ -7886,6 +7902,9 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/battery-charging.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/battery-low.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/battery-missing.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/status/data-error.png -> dialog-error.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/status/data-information.png -> ../actions/help-about.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/status/data-warning.png -> dialog-warning.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/dialog-error.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/status/dialog-information.png -> ../actions/help-about.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/status/dialog-password.png
@@ -8732,6 +8751,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/stock_folder.png -
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/user-trash.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/64x64/status/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/data-error.png -> dialog-error.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/data-information.png -> dialog-information.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/data-warning.png -> dialog-warning.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/dialog-error.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/dialog-information.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/status/dialog-password.png
