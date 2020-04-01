@@ -5,7 +5,7 @@
 
 name=graphviz
 version=2.42.2
-release=1
+release=2
 source=(https://gitlab.com/graphviz/graphviz/-/archive/stable_release_${version}/$name-stable_release_$version.tar.bz2)
 
 build() {
@@ -21,4 +21,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/doc $PKG/usr/share/graphviz/doc
+	find $PKG -iname "*.readme" -delete
 }
