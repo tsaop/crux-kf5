@@ -1,11 +1,11 @@
 # Description: Database connectivity and creation framework
 # URL: http://www.kexi-project.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: desktop-file-utils gtk icu kcoreaddons ki18n
+# Depends on: desktop-file-utils gtk icu kcoreaddons ki18n python
 
 name=kdb
 version=3.2.0
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz)
 
 build() {
