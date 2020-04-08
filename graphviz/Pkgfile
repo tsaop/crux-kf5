@@ -4,8 +4,8 @@
 # Depends on: freeglut ghostscript glade gtkglext libgd swig tcl
 
 name=graphviz
-version=2.42.2
-release=2
+version=2.44.0
+release=1
 source=(https://gitlab.com/graphviz/graphviz/-/archive/stable_release_${version}/$name-stable_release_$version.tar.bz2)
 
 build() {
