@@ -1,11 +1,10 @@
 # Description: KDE micro-blogging client
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kcmutils kdewebkit kemoticons knotifyconfig qoauth
-# Optional: telepathy-qt
+# Depends on: gtk kcmutils kdewebkit kemoticons knotifyconfig qoauth purpose telepathy-qt
 
 name=choqok
-version=1.6.0
+version=1.7.0
 release=1
 source=(http://download.kde.org/stable/$name/${version:0:3}/src/$name-$version.tar.xz)
 
