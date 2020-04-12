@@ -4,7 +4,7 @@
 # Depends on: kdewebkit kplotting
 
 name=kdesignerplugin
-version=5.68.0
+version=5.69.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 

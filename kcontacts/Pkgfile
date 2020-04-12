@@ -4,7 +4,7 @@
 # Depends on: kcodecs kconfig kcoreaddons ki18n
 
 name=kcontacts
-version=5.68.0
+version=5.69.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

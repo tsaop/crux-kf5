@@ -8,15 +8,18 @@ drwxr-xr-x	root/root	usr/include/KF5/SonnetCore/
 drwxr-xr-x	root/root	usr/include/KF5/SonnetCore/Sonnet/
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/Sonnet/BackgroundChecker
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/Sonnet/GuessLanguage
+-rw-r--r--	root/root	usr/include/KF5/SonnetCore/Sonnet/Settings
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/Sonnet/Speller
 drwxr-xr-x	root/root	usr/include/KF5/SonnetCore/sonnet/
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/sonnet/backgroundchecker.h
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/sonnet/guesslanguage.h
+-rw-r--r--	root/root	usr/include/KF5/SonnetCore/sonnet/settings.h
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/sonnet/sonnetcore_export.h
 -rw-r--r--	root/root	usr/include/KF5/SonnetCore/sonnet/speller.h
 drwxr-xr-x	root/root	usr/include/KF5/SonnetUi/
 drwxr-xr-x	root/root	usr/include/KF5/SonnetUi/Sonnet/
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/Sonnet/ConfigDialog
+-rw-r--r--	root/root	usr/include/KF5/SonnetUi/Sonnet/ConfigView
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/Sonnet/ConfigWidget
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/Sonnet/Dialog
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/Sonnet/DictionaryComboBox
@@ -24,6 +27,7 @@ drwxr-xr-x	root/root	usr/include/KF5/SonnetUi/Sonnet/
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/Sonnet/SpellCheckDecorator
 drwxr-xr-x	root/root	usr/include/KF5/SonnetUi/sonnet/
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/sonnet/configdialog.h
+-rw-r--r--	root/root	usr/include/KF5/SonnetUi/sonnet/configview.h
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/sonnet/configwidget.h
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/sonnet/dialog.h
 -rw-r--r--	root/root	usr/include/KF5/SonnetUi/sonnet/dictionarycombobox.h
@@ -39,11 +43,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Sonnet/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Sonnet/KF5SonnetTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Sonnet/KF5SonnetTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5SonnetCore.so -> libKF5SonnetCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5SonnetCore.so.5 -> libKF5SonnetCore.so.5.68.0
--rwxr-xr-x	root/root	usr/lib/libKF5SonnetCore.so.5.68.0
+lrwxrwxrwx	root/root	usr/lib/libKF5SonnetCore.so.5 -> libKF5SonnetCore.so.5.69.0
+-rwxr-xr-x	root/root	usr/lib/libKF5SonnetCore.so.5.69.0
 lrwxrwxrwx	root/root	usr/lib/libKF5SonnetUi.so -> libKF5SonnetUi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5SonnetUi.so.5 -> libKF5SonnetUi.so.5.68.0
--rwxr-xr-x	root/root	usr/lib/libKF5SonnetUi.so.5.68.0
+lrwxrwxrwx	root/root	usr/lib/libKF5SonnetUi.so.5 -> libKF5SonnetUi.so.5.69.0
+-rwxr-xr-x	root/root	usr/lib/libKF5SonnetUi.so.5.69.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

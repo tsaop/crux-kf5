@@ -3,12 +3,14 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KNotifications/
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/KNotification
+-rw-r--r--	root/root	usr/include/KF5/KNotifications/KNotificationJobUiDelegate
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/KNotificationPlugin
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/KNotificationRestrictions
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/KNotifyConfig
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/KPassivePopup
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/KStatusNotifierItem
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/knotification.h
+-rw-r--r--	root/root	usr/include/KF5/KNotifications/knotificationjobuidelegate.h
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/knotificationplugin.h
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/knotificationrestrictions.h
 -rw-r--r--	root/root	usr/include/KF5/KNotifications/knotifications_export.h
@@ -24,8 +26,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Notifications/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Notifications/KF5NotificationsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Notifications/KF5NotificationsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Notifications.so -> libKF5Notifications.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Notifications.so.5 -> libKF5Notifications.so.5.68.0
--rwxr-xr-x	root/root	usr/lib/libKF5Notifications.so.5.68.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Notifications.so.5 -> libKF5Notifications.so.5.69.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Notifications.so.5.69.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
