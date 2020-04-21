@@ -139,6 +139,8 @@ drwxr-xr-x	root/root	usr/include/KGantt/
 -rw-r--r--	root/root	usr/include/KGantt/KGanttConstraintModel
 -rw-r--r--	root/root	usr/include/KGantt/KGanttConstraintProxy
 -rw-r--r--	root/root	usr/include/KGantt/KGanttDateTimeGrid
+-rw-r--r--	root/root	usr/include/KGantt/KGanttDateTimeTimeLine
+-rw-r--r--	root/root	usr/include/KGantt/KGanttDateTimeTimeLineDialog
 -rw-r--r--	root/root	usr/include/KGantt/KGanttForwardingProxyModel
 -rw-r--r--	root/root	usr/include/KGantt/KGanttGlobal
 -rw-r--r--	root/root	usr/include/KGantt/KGanttGraphicsItem
@@ -147,6 +149,7 @@ drwxr-xr-x	root/root	usr/include/KGantt/
 -rw-r--r--	root/root	usr/include/KGantt/KGanttItemDelegate
 -rw-r--r--	root/root	usr/include/KGantt/KGanttLegend
 -rw-r--r--	root/root	usr/include/KGantt/KGanttListViewRowController
+-rw-r--r--	root/root	usr/include/KGantt/KGanttPenStyleComboBox
 -rw-r--r--	root/root	usr/include/KGantt/KGanttProxyModel
 -rw-r--r--	root/root	usr/include/KGantt/KGanttStyleOptionGanttItem
 -rw-r--r--	root/root	usr/include/KGantt/KGanttSummaryHandlingProxyModel
@@ -154,12 +157,15 @@ drwxr-xr-x	root/root	usr/include/KGantt/
 -rw-r--r--	root/root	usr/include/KGantt/KGanttView
 -rw-r--r--	root/root	usr/include/KGantt/kgantt_export.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttabstractgrid.h
+-rw-r--r--	root/root	usr/include/KGantt/kganttabstractgrid_p.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttabstractrowcontroller.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttconstraint.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttconstraintgraphicsitem.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttconstraintmodel.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttconstraintproxy.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttdatetimegrid.h
+-rw-r--r--	root/root	usr/include/KGantt/kganttdatetimetimeline.h
+-rw-r--r--	root/root	usr/include/KGantt/kganttdatetimetimelinedialog.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttforwardingproxymodel.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttglobal.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttgraphicsitem.h
@@ -168,6 +174,7 @@ drwxr-xr-x	root/root	usr/include/KGantt/
 -rw-r--r--	root/root	usr/include/KGantt/kganttitemdelegate.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttlegend.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttlistviewrowcontroller.h
+-rw-r--r--	root/root	usr/include/KGantt/kganttpenstylecombobox.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttproxymodel.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttstyleoptionganttitem.h
 -rw-r--r--	root/root	usr/include/KGantt/kganttsummaryhandlingproxymodel.h
@@ -188,11 +195,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KGantt/
 -rw-r--r--	root/root	usr/lib/cmake/KGantt/KGanttTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KGantt/KGanttTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKChart.so -> libKChart.so.2
-lrwxrwxrwx	root/root	usr/lib/libKChart.so.2 -> libKChart.so.2.6.3
--rwxr-xr-x	root/root	usr/lib/libKChart.so.2.6.3
+lrwxrwxrwx	root/root	usr/lib/libKChart.so.2 -> libKChart.so.2.7.0
+-rwxr-xr-x	root/root	usr/lib/libKChart.so.2.7.0
 lrwxrwxrwx	root/root	usr/lib/libKGantt.so -> libKGantt.so.2
-lrwxrwxrwx	root/root	usr/lib/libKGantt.so.2 -> libKGantt.so.2.6.3
--rwxr-xr-x	root/root	usr/lib/libKGantt.so.2.6.3
+lrwxrwxrwx	root/root	usr/lib/libKGantt.so.2 -> libKGantt.so.2.7.0
+-rwxr-xr-x	root/root	usr/lib/libKGantt.so.2.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
