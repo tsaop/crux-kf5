@@ -4,9 +4,6 @@ drwxr-xr-x	root/root	etc/xdg/
 -rw-r--r--	root/root	etc/xdg/kmail.antivirusrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/akonadimailreader
--rwxr-xr-x	root/root	usr/bin/coisceim
--rwxr-xr-x	root/root	usr/bin/etm_usage
 -rwxr-xr-x	root/root	usr/bin/kmail_antivir.sh
 -rwxr-xr-x	root/root	usr/bin/kmail_clamav.sh
 -rwxr-xr-x	root/root	usr/bin/kmail_fprot.sh
@@ -15,62 +12,66 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/contacteditor/
 drwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/
 -rwxr-xr-x	root/root	usr/lib/contacteditor/editorpageplugins/cryptopageplugin.so
-lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libcoisceim_widget.so.5 -> libcoisceim_widget.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libcoisceim_widget.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libdkimverifyconfigure.so.5 -> libdkimverifyconfigure.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libdkimverifyconfigure.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libgrammarcommon.so.5 -> libgrammarcommon.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libgrammarcommon.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libkmailgrammalecte.so.5 -> libkmailgrammalecte.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libkmailgrammalecte.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libkmaillanguagetool.so.5 -> libkmaillanguagetool.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libkmaillanguagetool.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libkmailquicktextpluginprivate.so.5 -> libkmailquicktextpluginprivate.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libkmailquicktextpluginprivate.so.5.13.3
-lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libadblocklibprivate.so.5 -> libadblocklibprivate.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libadblocklibprivate.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libdkimverifyconfigure.so.5 -> libdkimverifyconfigure.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libdkimverifyconfigure.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libgrammarcommon.so.5 -> libgrammarcommon.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libgrammarcommon.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5 -> libkaddressbookimportexportlibprivate.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookimportexportlibprivate.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookmergelibprivate.so.5 -> libkaddressbookmergelibprivate.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookmergelibprivate.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libkmailgrammalecte.so.5 -> libkmailgrammalecte.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libkmailgrammalecte.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libkmaillanguagetool.so.5 -> libkmaillanguagetool.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libkmaillanguagetool.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libkmailquicktextpluginprivate.so.5 -> libkmailquicktextpluginprivate.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libkmailquicktextpluginprivate.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libshorturlpluginprivate.so.5 -> libshorturlpluginprivate.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libshorturlpluginprivate.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/emailaddressselectionldapdialogplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/coisceimpart.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_checkgravatarplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_importexportcsvplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_importexportgmxplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_importexportldapplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_importexportldifplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_importexportvcardplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_mergecontactsplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_searchduplicatesplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_sendmailplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/kaddressbook_sendvcardsplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/importexportplugin/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/importexportplugin/kaddressbook_importexportcsvplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/importexportplugin/kaddressbook_importexportgmxplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/importexportplugin/kaddressbook_importexportldapplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/importexportplugin/kaddressbook_importexportldifplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/importexportplugin/kaddressbook_importexportvcardplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/mainview/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/mainview/kaddressbook_checkgravatarplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/mainview/kaddressbook_mergecontactsplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/mainview/kaddressbook_searchduplicatesplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/mainview/kaddressbook_sendmailplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook/mainview/kaddressbook_sendvcardsplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_antispamplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_antivirusplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_autocorrectioneditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_automaticaddcontactseditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_changecaseeditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_checkbeforesendeditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_confirmaddresseditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_expertplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_externalcomposereditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_grammalecteplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertemaileditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertshorturleditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_insertspecialcharactereditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_languagetoolplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_logactivitiesplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_nonbreakingspaceeditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_quicktextplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_sharetexteditorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/kmail_zoomtexteditorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/mainview/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/mainview/kmail_antispamplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/mainview/kmail_antivirusplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/mainview/kmail_expertplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/mainview/kmail_logactivitiesplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugincheckbeforesend/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugincheckbeforesend/kmail_automaticaddcontactseditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugincheckbeforesend/kmail_checkbeforesendeditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugincheckbeforesend/kmail_confirmaddresseditorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_autocorrectioneditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_changecaseeditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_insertemaileditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_insertshorturleditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_insertspecialcharactereditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_nonbreakingspaceeditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_quicktextplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_sharetexteditorplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditor/kmail_zoomtexteditorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditorgrammar/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditorgrammar/kmail_grammalecteplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditorgrammar/kmail_languagetoolplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditorinit/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmail/plugineditorinit/kmail_externalcomposereditorplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_datenums.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_picoftheday.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korg_thisdayinhistory.so
@@ -88,28 +89,35 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_semantic.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_calendar.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_highlighter.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_markdown.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/bodypartformatter/messageviewer_bodypartformatter_text_vcard.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/configuresettings/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/configuresettings/messageviewer_dkimconfigplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/configuresettings/messageviewer_gravatarconfigplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/kitinerary_grantlee_extension.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_briefheaderstyleplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_createeventplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_createnoteplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_createtodoplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_dkimconfigplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_expandurlplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_externalscriptplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_fancyheaderstyleplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_grantleeheaderstyleplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_gravatarconfigplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_longheaderstyleplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_standardsheaderstyleplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_translatorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/messageviewer_briefheaderstyleplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/messageviewer_fancyheaderstyleplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/messageviewer_grantleeheaderstyleplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/messageviewer_longheaderstyleplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/messageviewer_standardsheaderstyleplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewercommonplugin/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewercommonplugin/messageviewer_expandurlplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewercommonplugin/messageviewer_translatorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewerplugin/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewerplugin/messageviewer_createeventplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewerplugin/messageviewer_createnoteplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewerplugin/messageviewer_createtodoplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/viewerplugin/messageviewer_externalscriptplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/pimcommon_isgdshorturlengineplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/pimcommon_tinyurlengineplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/pimcommon_translatorplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/pimcommon_triopabshorturlengineplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/customtools/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/customtools/pimcommon_translatorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/shorturlengine/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/shorturlengine/pimcommon_isgdshorturlengineplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/shorturlengine/pimcommon_tinyurlengineplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pimcommon/shorturlengine/pimcommon_triopabshorturlengineplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/pimevents.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/pimevents/
@@ -117,8 +125,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/pimevents/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/templateparser/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/templateparser/templateparseraddressrequesterplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/webengineviewer_adblockplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/webengineviewer_donottrackplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/urlinterceptor/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/urlinterceptor/webengineviewer_adblockplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/webengineviewer/urlinterceptor/webengineviewer_donottrackplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -127,24 +136,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/libpimcalendarsplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/PimCalendars/qmldir
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/applications/
--rwxr-xr-x	root/root	usr/share/applications/org.kde.akonadimailreader.desktop
-drwxr-xr-x	root/root	usr/share/config.kcfg/
--rw-r--r--	root/root	usr/share/config.kcfg/mailreader.kcfg
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/languagetool_kmail.upd
 -rw-r--r--	root/root	usr/share/kconf_update/webengineurlinterceptoradblock.upd
 drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/coisceimpart.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/korganizer/
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/datenums.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/picoftheday.desktop
 -rw-r--r--	root/root	usr/share/kservices5/korganizer/thisdayinhistory.desktop
-drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/akonadimailreader/
--rw-r--r--	root/root	usr/share/kxmlgui5/akonadimailreader/akonadimailreaderui.rc
-drwxr-xr-x	root/root	usr/share/messageviewerplugins/
--rw-r--r--	root/root	usr/share/messageviewerplugins/externalscriptexample.desktop
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kdepim-addons.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kdepim-addons.renamecategories

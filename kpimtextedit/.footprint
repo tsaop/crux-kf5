@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditFindBar
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditor
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditorWidget
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextMarkupBuilder
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextSyntaxSpellCheckingHighlighter
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/RichTextComposer
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/RichTextComposerActions
@@ -24,6 +25,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextEditFindBarBase
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextEditorCompleter
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextGotoLineWidget
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextHTMLBuilder
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextToSpeech
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextToSpeechActions
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextToSpeechInterface
@@ -37,6 +39,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditfindbar.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditor.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditorwidget.h
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintextmarkupbuilder.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintextsyntaxspellcheckinghighlighter.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/richtextcomposer.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/richtextcomposeractions.h
@@ -52,6 +55,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texteditfindbarbase.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texteditorcompleter.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/textgotolinewidget.h
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texthtmlbuilder.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texttospeech.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texttospeechactions.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/texttospeechinterface.h
@@ -66,8 +70,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimTextEdit/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so -> libKF5PimTextEdit.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -4,35 +4,29 @@ drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KLDAP/
 drwxr-xr-x	root/root	usr/include/KF5/KLDAP/KLDAP/
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/Ber
--rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapAttributeProxyModel
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapConfigWidget
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapConnection
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapControl
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapDN
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapDefs
--rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapModel
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapObject
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapOperation
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapSearch
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapServer
--rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapStructureProxyModel
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/LdapUrl
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/KLDAP/Ldif
 drwxr-xr-x	root/root	usr/include/KF5/KLDAP/kldap/
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ber.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/kldap_export.h
--rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapattributeproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapconfigwidget.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapconnection.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapcontrol.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapdefs.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapdn.h
--rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapmodel.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapobject.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapoperation.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapsearch.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapserver.h
--rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapstructureproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldapurl.h
 -rw-r--r--	root/root	usr/include/KF5/KLDAP/kldap/ldif.h
 -rw-r--r--	root/root	usr/include/KF5/kldap_version.h
@@ -44,8 +38,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Ldap/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Ldap/KF5LdapTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Ldap/KF5LdapTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Ldap.so -> libKF5Ldap.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Ldap.so.5 -> libKF5Ldap.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5Ldap.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Ldap.so.5 -> libKF5Ldap.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Ldap.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

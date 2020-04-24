@@ -111,12 +111,16 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageViewer/
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMHeaderParser
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMInfo
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMKeyRecord
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManageRulesDialog
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManageRulesWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManager
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManagerAuthenticationServer
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManagerKey
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManagerKeyDialog
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManagerKeyWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMManagerRules
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMRule
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMViewerMenu
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/DKIMWidgetInfo
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/EditorWatcher
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/FileHtmlWriter
@@ -208,6 +212,7 @@ drwxr-xr-x	root/root	usr/include/KF5/WebEngineViewer/
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/UpdateDataBaseInfo
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineAccessKey
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineExportHtmlPageJob
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineExportPdfPageJob
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineManageScript
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEnginePage
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineScript
@@ -337,11 +342,15 @@ drwxr-xr-x	root/root	usr/include/KF5/messageviewer/
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkiminfo.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimkeyrecord.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanager.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanagerauthenticationserver.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanagerkey.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanagerkeydialog.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanagerkeywidget.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanagerrules.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanagerulesdialog.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimmanageruleswidget.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimrule.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimviewermenu.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/dkimwidgetinfo.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/editorwatcher.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/filehtmlwriter.h
@@ -445,6 +454,7 @@ drwxr-xr-x	root/root	usr/include/KF5/webengineviewer/
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/updatedatabaseinfo.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineaccesskey.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineexporthtmlpagejob.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineexportpdfpagejob.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webenginemanagescript.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webenginepage.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webenginescript.h
@@ -492,26 +502,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so -> libKF5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so -> libKF5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so -> libKF5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so -> libKF5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so -> libKF5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so -> libKF5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.14.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so -> libKF5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.13.3
--rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.13.3
+lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.14.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.14.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -526,7 +536,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/grantlee/5.0/messageviewer_grantlee_extension.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/messageviewer_defaultgrantleeheaderstyleplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/customtemplates_kfg.kcfg

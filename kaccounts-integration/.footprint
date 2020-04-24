@@ -1,16 +1,30 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KAccounts/
+-rw-r--r--	root/root	usr/include/KAccounts/AccountServiceToggleJob
+-rw-r--r--	root/root	usr/include/KAccounts/AccountsModel
+-rw-r--r--	root/root	usr/include/KAccounts/ChangeAccountDisplayNameJob
 -rw-r--r--	root/root	usr/include/KAccounts/Core
+-rw-r--r--	root/root	usr/include/KAccounts/CreateAccountJob
 -rw-r--r--	root/root	usr/include/KAccounts/GetCredentialsJob
 -rw-r--r--	root/root	usr/include/KAccounts/KAccountsDPlugin
 -rw-r--r--	root/root	usr/include/KAccounts/KAccountsUiPlugin
+-rw-r--r--	root/root	usr/include/KAccounts/ProvidersModel
+-rw-r--r--	root/root	usr/include/KAccounts/RemoveAccountJob
+-rw-r--r--	root/root	usr/include/KAccounts/ServicesModel
+-rw-r--r--	root/root	usr/include/KAccounts/accountservicetogglejob.h
+-rw-r--r--	root/root	usr/include/KAccounts/accountsmodel.h
+-rw-r--r--	root/root	usr/include/KAccounts/changeaccountdisplaynamejob.h
 -rw-r--r--	root/root	usr/include/KAccounts/core.h
+-rw-r--r--	root/root	usr/include/KAccounts/createaccountjob.h
 -rw-r--r--	root/root	usr/include/KAccounts/getcredentialsjob.h
 -rw-r--r--	root/root	usr/include/KAccounts/kaccounts_export.h
 -rw-r--r--	root/root	usr/include/KAccounts/kaccounts_version.h
 -rw-r--r--	root/root	usr/include/KAccounts/kaccountsdplugin.h
 -rw-r--r--	root/root	usr/include/KAccounts/kaccountsuiplugin.h
+-rw-r--r--	root/root	usr/include/KAccounts/providersmodel.h
+-rw-r--r--	root/root	usr/include/KAccounts/removeaccountjob.h
+-rw-r--r--	root/root	usr/include/KAccounts/servicesmodel.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KAccounts/
@@ -21,15 +35,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/KAccounts/
 -rw-r--r--	root/root	usr/lib/cmake/KAccounts/KAccountsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KAccounts/KAccountsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libkaccounts.so -> libkaccounts.so.1
-lrwxrwxrwx	root/root	usr/lib/libkaccounts.so.1 -> libkaccounts.so.19.12.3
--rwxr-xr-x	root/root	usr/lib/libkaccounts.so.19.12.3
+lrwxrwxrwx	root/root	usr/lib/libkaccounts.so.1 -> libkaccounts.so.20.04.0
+-rwxr-xr-x	root/root	usr/lib/libkaccounts.so.20.04.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_kaccounts.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/accounts.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/kded_accounts.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -42,9 +56,12 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_kaccounts/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/AccountDetails.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/Accounts.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/AvailableAccounts.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/AvailableServices.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/MessageBoxSheet.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/RemoveAccountDialog.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/RenameAccountDialog.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/metadata.desktop
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kaccounts/metadata.json
 drwxr-xr-x	root/root	usr/share/kservices5/
