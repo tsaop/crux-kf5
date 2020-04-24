@@ -5,11 +5,14 @@
 
 name=ktp-kded-module
 version=20.04.0
-release=1
-source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
+	fix-kded-module-name.diff)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/fix-kded-module-name.diff
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
@@ -17,9 +20,9 @@ build() {
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DLIBEXEC_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-Wno-dev \
+	..
 
 	make
 	make DESTDIR=$PKG install
