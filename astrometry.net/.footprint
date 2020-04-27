@@ -120,10 +120,9 @@ drwxr-xr-x	root/root	usr/include/astrometry/
 -rw-r--r--	root/root	usr/include/astrometry/merge-index.h
 -rw-r--r--	root/root	usr/include/astrometry/multiindex.h
 -rw-r--r--	root/root	usr/include/astrometry/new-wcs.h
--rw-r--r--	root/root	usr/include/astrometry/ngc2000.h
--rw-r--r--	root/root	usr/include/astrometry/ngcic-accurate.h
 -rw-r--r--	root/root	usr/include/astrometry/nomad-fits.h
 -rw-r--r--	root/root	usr/include/astrometry/nomad.h
+-rw-r--r--	root/root	usr/include/astrometry/openngc.h
 -rw-r--r--	root/root	usr/include/astrometry/os-features-config.h
 -rw-r--r--	root/root	usr/include/astrometry/os-features.h
 -rw-r--r--	root/root	usr/include/astrometry/permutedsort.h
@@ -163,7 +162,6 @@ drwxr-xr-x	root/root	usr/include/astrometry/
 -rw-r--r--	root/root	usr/include/astrometry/sip-utils.h
 -rw-r--r--	root/root	usr/include/astrometry/sip.h
 -rw-r--r--	root/root	usr/include/astrometry/sip_qfits.h
--rw-r--r--	root/root	usr/include/astrometry/solvedclient.h
 -rw-r--r--	root/root	usr/include/astrometry/solvedfile.h
 -rw-r--r--	root/root	usr/include/astrometry/solver.h
 -rw-r--r--	root/root	usr/include/astrometry/starkd.h
@@ -202,7 +200,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astrometry/blind/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/blind/plotstuff_c.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astrometry/catalogs/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/catalogs/__init__.py (EMPTY)
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/catalogs/ngc2000.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astrometry/libkd/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/libkd/__init__.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/libkd/spherematch.py
@@ -232,7 +229,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astrometry/util/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/util/__init__.py (EMPTY)
 -rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astrometry/util/_util.cpython-37m-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/util/addpath.py
--rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astrometry/util/casjobs.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/util/file.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/util/filetype.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astrometry/util/find_data_file.py
