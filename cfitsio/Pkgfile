@@ -4,12 +4,12 @@
 # Depends on:  glibc
 
 name=cfitsio
-version=3450
+version=3.48
 release=1
-source=(https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/${name}${version}.tar.gz)
+source=(https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/${name}-${version}.tar.gz)
 
 build() {
-	cd $name
+	cd $name-$version
 
 	./configure --prefix=/usr \
 		--disable-static \
