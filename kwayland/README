@@ -1,0 +1,10 @@
+WARNING!!!
+
+In order to build this port, you need to rebuild qt5 with wayland-protocols
+installed.
+
+Note that this isn't sufficient to have a wayland desktop, since you'd need to
+rebuild mesa3d adding "wayland to the -Dplatforms switch.
+
+See Tim Biermann's mesa3d port with optional wayland dependency:
+https://github.com/TimB87/crux-wayland/blob/master/mesa3d/Pkgfile
