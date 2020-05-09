@@ -78,11 +78,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuffQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so -> libKF5NewStuff.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.69.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.69.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.70.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.70.0
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so -> libKF5NewStuffCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.69.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.69.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.70.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.70.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -108,7 +108,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryCommentDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryCommentsPage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryScreenshots.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/ErrorDisplayer.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/GridTileDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/MessageBoxSheet.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/Rating.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/Shadow.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates/
@@ -165,8 +167,8 @@ drwxr-xr-x	root/root	usr/share/kf5/kmoretools/presets-kmoretools/
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/shutter.desktop
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/shutter.svg
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/simplescreenrecorder.desktop
--rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/vokoscreen.desktop
--rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/vokoscreen.png
+-rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/vokoscreenNG.desktop
+-rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/vokoscreenNG.png
 -rw-r--r--	root/root	usr/share/kf5/kmoretools/presets-kmoretools/xfce4-taskmanager.desktop
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/knewstuff.categories
