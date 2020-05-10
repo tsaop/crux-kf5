@@ -4,18 +4,12 @@
 # Depends on: boost eigen wxgtk
 
 name=openbabel
-version=2.4.1
+version=3.1.1
 release=1
-source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz
-	gcc-version.diff)
+source=(https://github.com/$name/$name/releases/download/$name-${version//./-}/$name-$version-source.tar.bz2)
 
 build() {
 	cd $name-$version
-
-	# Enabled GCC detection up to version 9.
-	# Patch courtesy of Debian
-	patch -Np1 -i $SRC/gcc-version.diff
-
 	mkdir build; cd build
 
 	cmake -DCMAKE_BUILD_TYPE=Release \
