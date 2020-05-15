@@ -4,8 +4,8 @@
 # Depends on: akonadi-contacts cauchy gsl kcalendarcore kcmutils kdiagram kholidays knotifyconfig kreport kross ktexteditor libetonyek libodfgen libvisio libwpg libwps okular openexr openjpeg pstoedit vc
 
 name=calligra
-version=3.1.0
-release=6
+version=3.2.1
+release=1
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
 	calligra-poppler-0.69.patch
 	calligra-poppler-0.71.patch
@@ -17,19 +17,6 @@ source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
 	calligra-qt5.13.patch)
 
 build() {
-
-	cd $name-$version
-
-	patch -Np1 -i $SRC/calligra-poppler-0.69.patch
-	patch -Np1 -i $SRC/calligra-poppler-0.71.patch
-	patch -Np1 -i $SRC/calligra-poppler-0.72.patch
-	patch -Np1 -i $SRC/calligra-poppler-0.73.patch
-	patch -Np1 -i $SRC/calligra-poppler-0.82.patch
-	patch -Np1 -i $SRC/calligra-poppler-0.83.patch
-	patch -Np1 -i $SRC/calligra-qt5.11.patch
-	patch -Np1 -i $SRC/calligra-qt5.13.patch
-
-	cd -	
 	mkdir build; cd build
 
 	cmake \
