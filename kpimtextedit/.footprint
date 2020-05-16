@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/AbstractTextToSpeechInterface
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EditorUtil
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EmoticonUnicodeTab
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/MarkupDirector
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditFindBar
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditor
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/PlainTextEditorWidget
@@ -36,6 +37,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/editorutil.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/emoticonunicodetab.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/kpimtextedit_export.h
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/markupdirector.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditfindbar.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditor.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/plaintexteditorwidget.h
@@ -70,8 +72,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimTextEdit/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so -> libKF5PimTextEdit.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.14.0
--rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.14.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.14.1
+-rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.14.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

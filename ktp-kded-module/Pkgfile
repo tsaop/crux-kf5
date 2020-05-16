@@ -4,14 +4,12 @@
 # Depends on: kactivities kidletime ktp-common-internals
 
 name=ktp-kded-module
-version=20.04.0
-release=2
-source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
-	fix-kded-module-name.diff)
+version=20.04.1
+release=1
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/fix-kded-module-name.diff
 	mkdir build; cd build
 
 	cmake \
