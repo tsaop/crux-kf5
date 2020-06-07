@@ -4,9 +4,9 @@
 # Depends on: kio qca-qt5
 
 name=libktorrent
-version=2.1
+version=2.2.0
 release=1
-source=(http://download.kde.org/stable/ktorrent/5.1/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/ktorrent/5.2.0/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
