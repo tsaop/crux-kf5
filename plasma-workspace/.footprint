@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/krunner
 -rwxr-xr-x	root/root	usr/bin/ksmserver
 -rwxr-xr-x	root/root	usr/bin/ksplashqml
+-rwxr-xr-x	root/root	usr/bin/plasma-shutdown
 -rwxr-xr-x	root/root	usr/bin/plasma_session
 -rwxr-xr-x	root/root	usr/bin/plasma_waitforname
 -rwxr-xr-x	root/root	usr/bin/plasmashell
@@ -41,12 +42,18 @@ drwxr-xr-x	root/root	usr/include/kworkspace5/
 -rw-r--r--	root/root	usr/include/kworkspace5/kworkspace.h
 -rw-r--r--	root/root	usr/include/kworkspace5/kworkspace_export.h
 -rw-r--r--	root/root	usr/include/kworkspace5/sessionmanagement.h
+-rw-r--r--	root/root	usr/include/kworkspace5/updatelaunchenvjob.h
 drwxr-xr-x	root/root	usr/include/notificationmanager/
+-rw-r--r--	root/root	usr/include/notificationmanager/badgesettings.h
+-rw-r--r--	root/root	usr/include/notificationmanager/behaviorsettings.h
+-rw-r--r--	root/root	usr/include/notificationmanager/donotdisturbsettings.h
 -rw-r--r--	root/root	usr/include/notificationmanager/job.h
+-rw-r--r--	root/root	usr/include/notificationmanager/jobsettings.h
 -rw-r--r--	root/root	usr/include/notificationmanager/jobsmodel.h
 -rw-r--r--	root/root	usr/include/notificationmanager/notification.h
 -rw-r--r--	root/root	usr/include/notificationmanager/notificationmanager_export.h
 -rw-r--r--	root/root	usr/include/notificationmanager/notifications.h
+-rw-r--r--	root/root	usr/include/notificationmanager/notificationsettings.h
 -rw-r--r--	root/root	usr/include/notificationmanager/server.h
 -rw-r--r--	root/root	usr/include/notificationmanager/settings.h
 drwxr-xr-x	root/root	usr/include/plasma/
@@ -108,24 +115,23 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/ksmserver-logout-greeter
 -rwxr-xr-x	root/root	usr/lib/ksyncdbusenv
 lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so -> libcolorcorrect.so.5
-lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.18.5
--rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.18.5
+lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.19.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit_startup.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_klipper.so
--rwxr-xr-x	root/root	usr/lib/libkdeinit5_ksmserver.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.18.5
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.18.5
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so -> libnotificationmanager.so.1
-lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.18.5
--rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.18.5
+lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.18.5
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.18.5
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.18.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.18.5
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.19.0
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -174,12 +180,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/phonon_platform/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma-geolocation-ip.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.panelspacer.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.private.systemtray.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.systemtray.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_appmenu.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_calendar.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_icon.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_notifications.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_systemmonitor.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/containmentactions/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/containmentactions/plasma_containmentactions_applauncher.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/containmentactions/plasma_containmentactions_contextmenu.so
@@ -288,7 +296,9 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.kappmenu.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.krunner.App.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.KSplash.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.LogoutPrompt.service
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.Shutdown.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.baloorunner.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.krunner.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.plasma.Notifications.service
@@ -381,6 +391,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.private.systemtray.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.cpu.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.cpucore.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.diskactivity.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.diskusage.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.memory.desktop
@@ -487,7 +499,9 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.cpucore.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml
@@ -730,6 +744,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtra
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/PlasmoidPopupsContainer.qml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/AbstractItem.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/ItemLoader.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/PlasmoidItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/PulseAnimation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/StatusNotifierItem.qml
@@ -739,74 +754,54 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtra
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/config.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/main.xml
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/Applet.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/ConfigGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/DoublePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/SinglePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/cpu.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/ui/cpuConfig.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/faceproperties
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/config/faceproperties
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/config/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/config/config.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/config/main.xml
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/Applet.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/ConfigGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/DoublePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/SinglePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/diskactivity.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/ui/diskactivityConfig.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/config/faceproperties
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/config/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/config/config.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/config/main.xml
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/Applet.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/ConfigGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/DoublePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/SinglePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/diskusage.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/ui/diskusageConfig.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/config/faceproperties
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/config/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/config/config.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/config/main.xml
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/Applet.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/ConfigGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/DoublePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/SinglePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/memory.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/ui/memoryConfig.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/config/faceproperties
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/config/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/config/config.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/config/main.xml
-drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/Applet.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/ConfigGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/DoublePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/SinglePlotter.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/displayConfig.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/net.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/ui/netConfig.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/config/faceproperties
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/config/config.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/CompactRepresentation.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/FullRepresentation.qml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/config/ConfigAppearance.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/config/ConfigSensors.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/config/FaceDetails.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/
