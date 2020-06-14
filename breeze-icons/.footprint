@@ -5962,6 +5962,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/kdeconnect.svg -> ../..
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/libreoffice-impress.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/libreoffice-main.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/libreoffice-math.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/libreoffice-startcenter.svg -> libreoffice-main.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/libreoffice-writer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/plasmavault.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/preferences-system-bluetooth.svg -> ../../devices/16/network-bluetooth.svg
@@ -6180,7 +6181,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/keepassx2.svg -> keepas
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/kmail.svg -> mail-client.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kmenuedit.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kmix.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kmousetool.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/kmousetool.svg -> ../../devices/64/input-mouse.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kmouth.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/knetattach.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/knights.svg
@@ -6864,10 +6865,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-rss+xm
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -7335,10 +7336,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-rss+xm
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -7806,10 +7807,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-rss+xm
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -8277,10 +8278,10 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-rss+xm
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -9016,6 +9017,72 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/32/stock_folder.svg -> f
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/32/user-home.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/32/user-trash-full.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/32/user-trash.svg
+drwxr-xr-x	root/root	usr/share/icons/breeze-dark/places/48/
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/certificate-server.svg -> folder-locked.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/desktop.svg -> user-desktop.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/favorites.svg -> folder-favorites.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-activities.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-black.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-blue.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-bookmark.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-brown.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-cloud.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-cyan.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-decrypted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-development.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-documents.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-download.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-downloads.svg -> folder-download.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-dropbox.svg -> folder-cloud.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-encrypted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-favorites.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-games.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-gdrive.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-green.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-grey.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-html.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-image-people.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-image.svg -> folder-pictures.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-images.svg -> folder-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-important.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-magenta.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-mail.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-music.svg -> ./folder-sound.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-network.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-onedrive.svg -> folder-cloud.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-open.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-orange.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-owncloud.svg -> folder-cloud.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-picture.svg -> folder-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-print.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-public.svg -> folder-publicshare.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-publicshare.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-recent.svg -> folder-temp.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-red.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-remote.svg -> folder-html.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-root.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-script.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-sound.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-tar.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-temp.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-templates.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-text.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-txt.svg -> folder-text.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-unlocked.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder-video.svg -> folder-videos.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-videos.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-violet.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder-yellow.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/folder.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/folder_html.svg -> folder-html.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/library-music.svg -> folder-music.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/network-server.svg -> network-workgroup.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/network-workgroup.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/48/stock_folder.svg -> folder.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/user-desktop.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/places/48/user-home.svg
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/places/64/
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/64/certificate-server.svg -> folder-locked.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/64/desktop.svg -> user-desktop.svg
@@ -9146,7 +9213,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desk
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-keyboard.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-launch-feedback.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-locale.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-mouse.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-mouse.svg -> ../../devices/64/input-mouse.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-multimedia.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-navigation.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/preferences/32/preferences-desktop-notification-bell.svg
@@ -15805,6 +15872,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/kdeconnect.svg -> ../../devi
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/libreoffice-impress.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/libreoffice-main.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/libreoffice-math.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/libreoffice-startcenter.svg -> libreoffice-main.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/libreoffice-writer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/plasmavault.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/preferences-system-bluetooth.svg -> ../../devices/16/network-bluetooth.svg
@@ -16054,7 +16122,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/kmail.svg -> mail-client.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmenuedit.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmines.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmix.svg
--rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmousetool.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/kmousetool.svg -> ../../devices/64/input-mouse.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmouth.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmplayer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kmplot.svg
@@ -16776,11 +16844,11 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-rss+xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.appimage.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -17249,11 +17317,11 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-rss+xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.appimage.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -17722,11 +17790,11 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-rss+xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.appimage.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -18195,11 +18263,11 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-rss+xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-rtf.svg -> text-rtf.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-sql.svg -> application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-sxw.svg -> x-office-document.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd-google-earth-kml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.android.package-archive.svg -> android-package-archive.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.appimage.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.apple.pkpass.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.debian.binary-package.svg -> application-x-deb.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.google-earth.kml+xml.svg -> text-xml.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.iccprofile.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.ms-access.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.ms-excel.addin.macroenabled.12.svg
@@ -18937,6 +19005,72 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/32/stock_folder.svg -> folder
 -rw-r--r--	root/root	usr/share/icons/breeze/places/32/user-home.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/32/user-trash-full.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/32/user-trash.svg
+drwxr-xr-x	root/root	usr/share/icons/breeze/places/48/
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/certificate-server.svg -> folder-locked.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/desktop.svg -> user-desktop.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/favorites.svg -> folder-favorites.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-activities.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-black.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-blue.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-bookmark.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-brown.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-cloud.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-cyan.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-decrypted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-development.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-documents.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-download.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-downloads.svg -> folder-download.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-dropbox.svg -> folder-cloud.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-encrypted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-favorites.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-games.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-gdrive.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-green.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-grey.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-html.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-image-people.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-image.svg -> folder-pictures.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-images.svg -> folder-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-important.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-magenta.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-mail.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-music.svg -> ./folder-sound.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-network.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-onedrive.svg -> folder-cloud.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-open.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-orange.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-owncloud.svg -> folder-cloud.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-picture.svg -> folder-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-pictures.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-print.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-public.svg -> folder-publicshare.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-publicshare.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-recent.svg -> folder-temp.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-red.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-remote.svg -> folder-html.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-root.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-script.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-sound.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-tar.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-temp.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-templates.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-text.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-txt.svg -> folder-text.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-unlocked.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder-video.svg -> folder-videos.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-videos.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-violet.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder-yellow.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/folder.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/folder_html.svg -> folder-html.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/library-music.svg -> folder-music.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/network-server.svg -> network-workgroup.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/network-workgroup.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/48/stock_folder.svg -> folder.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/user-desktop.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/places/48/user-home.svg
 drwxr-xr-x	root/root	usr/share/icons/breeze/places/64/
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/64/certificate-server.svg -> folder-locked.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/64/desktop.svg -> user-desktop.svg
@@ -19067,7 +19201,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-g
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-keyboard.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-launch-feedback.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-locale.svg
--rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-mouse.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-mouse.svg -> ../../devices/64/input-mouse.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-multimedia.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-navigation.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/preferences/32/preferences-desktop-notification-bell.svg
