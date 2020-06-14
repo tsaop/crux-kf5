@@ -4,7 +4,7 @@
 # Depends on: gnutls libgcrypt libjpeg-turbo libpng libsdl
 
 name=libvncserver
-version=0.9.12
+version=0.9.13
 release=1
 source=(https://github.com/LibVNC/$name/archive/LibVNCServer-$version.tar.gz)
 
@@ -14,7 +14,7 @@ build() {
 	
         cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DLIB_INSTALL_DIR=/usr/lib \
+	-DCMAKE_INSTALL_LIBDIR=lib \
 	-DCMAKE_BUILD_TYPE=Release \
 	-Wno-dev \
 	..
