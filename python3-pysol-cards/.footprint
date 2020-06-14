@@ -2,14 +2,14 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/pbr.json
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.8.18-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/pbr.json
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards-0.10.1-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards/__pycache__/
@@ -19,11 +19,13 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/__pycache__/errors.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/__pycache__/random.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/__pycache__/random_base.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/__pycache__/single_deal_args_parse.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/cards.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/deal_game.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/errors.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/random.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/random_base.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/single_deal_args_parse.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards/tests/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/pysol_cards/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/pysol_cards/tests/__pycache__/
