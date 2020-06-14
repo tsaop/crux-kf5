@@ -36,7 +36,6 @@ drwxr-xr-x	root/root	usr/include/kmymoney/
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneycurrencyselector.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneydateedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneydateinput.h
--rw-r--r--	root/root	usr/include/kmymoney/kmymoneyedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneylineedit.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneymvccombo.h
 -rw-r--r--	root/root	usr/include/kmymoney/kmymoneyplugin.h
@@ -91,6 +90,7 @@ drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/interfaces/
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetask.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetaskconverter.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetasksettingsfactory.h
+-rw-r--r--	root/root	usr/include/kmymoney/payeesmodel.h
 -rw-r--r--	root/root	usr/include/kmymoney/register.h
 -rw-r--r--	root/root	usr/include/kmymoney/registeritem.h
 -rw-r--r--	root/root	usr/include/kmymoney/scheduledtransaction.h
@@ -110,35 +110,35 @@ drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/interfaces/
 -rw-r--r--	root/root	usr/include/kmymoney/viewinterface.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so -> libkmm_csvimportercore.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so.5 -> libkmm_csvimportercore.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_csvimportercore.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so.5 -> libkmm_csvimportercore.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_csvimportercore.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so -> libkmm_icons.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so.5 -> libkmm_icons.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_icons.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so.5 -> libkmm_icons.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_icons.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so -> libkmm_menus.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so.5 -> libkmm_menus.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_menus.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so.5 -> libkmm_menus.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_menus.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_models.so -> libkmm_models.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_models.so.5 -> libkmm_models.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_models.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_models.so.5 -> libkmm_models.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_models.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so -> libkmm_mymoney.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so.5 -> libkmm_mymoney.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_mymoney.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so.5 -> libkmm_mymoney.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_mymoney.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so -> libkmm_payeeidentifier.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so.5 -> libkmm_payeeidentifier.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_payeeidentifier.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so.5 -> libkmm_payeeidentifier.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_payeeidentifier.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so -> libkmm_plugin.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so.5 -> libkmm_plugin.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_plugin.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so.5 -> libkmm_plugin.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_plugin.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_printer.so -> libkmm_printer.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_printer.so.5 -> libkmm_printer.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_printer.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_printer.so.5 -> libkmm_printer.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_printer.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so -> libkmm_settings.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so.5 -> libkmm_settings.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_settings.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so.5 -> libkmm_settings.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_settings.so.5.1.0
 lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so -> libkmm_widgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so.5 -> libkmm_widgets.so.5.0.8
--rwxr-xr-x	root/root	usr/lib/libkmm_widgets.so.5.0.8
+lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so.5 -> libkmm_widgets.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libkmm_widgets.so.5.1.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/
@@ -449,39 +449,39 @@ drwxr-xr-x	root/root	usr/share/kmymoney/icons/Tango/64x64/actions/
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/64x64/actions/transaction-find.png
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/Tango/scalable/
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_asset.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_cash.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_checking.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_closed.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_credit-card.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_expense.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_income.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_investments.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_liability.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_loan.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types_savings.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-add.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-asset.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-cash.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-checking.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-closed.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-credit-card.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-expense.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-income.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-investments.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-liability.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-loan.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account-types-savings.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/account_add.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/accounts.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/backup.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/bank.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/budget.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/categories.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/forcast.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/hide_categories.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/hide_reconciled.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/institution_add.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/forecast.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/hide-categories.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/hide-reconciled.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/institution-add.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/institutions.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/investments.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/ledger.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/onlinebanking.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/online-banking.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/payee.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/personal_data.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/personal-data.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/reconcile.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/report.svgz
 -rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/schedule.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/transaction_find.svgz
--rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/view_info.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/transaction-find.svgz
+-rw-r--r--	root/root	usr/share/kmymoney/icons/Tango/scalable/actions/view-info.svgz
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/
@@ -500,16 +500,16 @@ drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/hide-reconciled.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/institution-add.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/ledger.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/pay_edit.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/personal_data.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/pay-edit.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/personal-data.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/reconcile.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction-export.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction-find.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction-import.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction-split.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction_export.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/transaction_import.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/unreconciled.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/update_prices.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/16x16/actions/update-prices.png
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/account-add.png
@@ -531,21 +531,21 @@ drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/hide-reconciled.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/institution-add.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/ledger.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/pay_edit.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/personal_data.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/pay-edit.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/personal-data.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/reconcile.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/report-bar.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/report-line.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/report-pie.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/report-solid.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/report-text.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/set_as.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/set-as.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/transaction-export.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/transaction-find.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/transaction-import.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/transaction.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/transaction_export.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/transaction_import.png
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/unreconciled.png
--rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/update_prices.png
+-rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/22x22/actions/update-prices.png
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/kmymoney/icons/hicolor/32x32/actions/
 -rw-r--r--	root/root	usr/share/kmymoney/icons/hicolor/32x32/actions/account-types-asset.png
@@ -910,6 +910,8 @@ drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/de/
 -rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/de/startlogo.png
 drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/es/
 -rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/es/startlogo.png
+drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/fr/
+-rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/fr/startlogo.png
 drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/hu/
 -rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/hu/startlogo.png
 drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/it/
