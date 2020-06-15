@@ -4,9 +4,9 @@
 # Depends on:  python3-setuptools
 
 name=python3-py
-version=1.8.1
+version=1.8.2
 release=1
-source=(https://files.pythonhosted.org/packages/bd/8f/169d08dcac7d6e311333c96b63cbe92e7947778475e1a619b674989ba1ed/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/1b/2b/396ff4b82f58c1152daf3b335999b493541a9d141bf102e22b4294b3b6aa/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
