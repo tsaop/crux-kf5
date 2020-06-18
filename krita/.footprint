@@ -7,7 +7,6 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/krita_colorspaces_extensions.so
--rwxr-xr-x	root/root	usr/lib/kritaplugins/krita_filtereffects.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/krita_flaketools.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/krita_karbontools.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/krita_raw_import.so
@@ -37,6 +36,8 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritacompositiondocker.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaconvertheighttonormalmap.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaconvolutionfilters.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritacsvexport.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritacsvimport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritacurvepaintop.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritadefaultpaintops.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritadefaulttools.so
@@ -53,6 +54,7 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritafastcolortransferfilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritafilterop.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritagamutmask.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritagaussianhighpassfilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritagifexport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritagifimport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritagradientmap.so
@@ -90,6 +92,7 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaoraimport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaoverviewdocker.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritapalettedocker.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritapalettize.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaparticlepaintop.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritapatterndocker.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritapatterngenerator.so
@@ -120,6 +123,7 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritasketchpaintop.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritasmallcolorselector.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritasmalltilesfilter.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritasnapshotdocker.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaspecificcolorselector.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaspraypaintop.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaspriterexport.so
@@ -144,81 +148,81 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritawavefilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritawaveletdecompose.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaxcfimport.so
-lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so -> libkritabasicflakes.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so.18 -> libkritabasicflakes.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritabasicflakes.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritacolor.so -> libkritacolor.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritacolor.so.18 -> libkritacolor.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritacolor.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritacolord.so -> libkritacolord.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritacolord.so.18 -> libkritacolord.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritacolord.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritacommand.so -> libkritacommand.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritacommand.so.18 -> libkritacommand.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritacommand.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaflake.so -> libkritaflake.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaflake.so.18 -> libkritaflake.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaflake.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so -> libkritaglobal.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so.18 -> libkritaglobal.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaglobal.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaimage.so -> libkritaimage.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaimage.so.18 -> libkritaimage.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaimage.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so -> libkritaimpex.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so.18 -> libkritaimpex.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaimpex.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so -> libkritalibbrush.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so.18 -> libkritalibbrush.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibbrush.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so -> libkritalibkis.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so.18 -> libkritalibkis.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibkis.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so -> libkritalibkra.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so.18 -> libkritalibkra.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibkra.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so -> libkritalibpaintop.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so.18 -> libkritalibpaintop.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibpaintop.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritametadata.so -> libkritametadata.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritametadata.so.18 -> libkritametadata.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritametadata.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaodf.so -> libkritaodf.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaodf.so.18 -> libkritaodf.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaodf.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritapigment.so -> libkritapigment.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritapigment.so.18 -> libkritapigment.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritapigment.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so -> libkritaplugin.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so.18 -> libkritaplugin.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaplugin.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritapsd.so -> libkritapsd.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritapsd.so.18 -> libkritapsd.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritapsd.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaqml.so -> libkritaqml.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaqml.so.18 -> libkritaqml.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaqml.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritastore.so -> libkritastore.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritastore.so.18 -> libkritastore.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritastore.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritatext.so -> libkritatext.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritatext.so.18 -> libkritatext.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritatext.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritatextlayout.so -> libkritatextlayout.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritatextlayout.so.18 -> libkritatextlayout.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritatextlayout.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaui.so -> libkritaui.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaui.so.18 -> libkritaui.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaui.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaversion.so -> libkritaversion.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaversion.so.18 -> libkritaversion.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaversion.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so -> libkritawidgets.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so.18 -> libkritawidgets.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritawidgets.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so -> libkritawidgetutils.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so.18 -> libkritawidgetutils.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritawidgetutils.so.18.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so -> libkritabasicflakes.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so.19 -> libkritabasicflakes.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritabasicflakes.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritacolor.so -> libkritacolor.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritacolor.so.19 -> libkritacolor.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritacolor.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritacolord.so -> libkritacolord.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritacolord.so.19 -> libkritacolord.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritacolord.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritacommand.so -> libkritacommand.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritacommand.so.19 -> libkritacommand.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritacommand.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaflake.so -> libkritaflake.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaflake.so.19 -> libkritaflake.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaflake.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so -> libkritaglobal.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so.19 -> libkritaglobal.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaglobal.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaimage.so -> libkritaimage.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaimage.so.19 -> libkritaimage.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaimage.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so -> libkritaimpex.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so.19 -> libkritaimpex.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaimpex.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so -> libkritalibbrush.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so.19 -> libkritalibbrush.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibbrush.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so -> libkritalibkis.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so.19 -> libkritalibkis.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibkis.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so -> libkritalibkra.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so.19 -> libkritalibkra.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibkra.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so -> libkritalibpaintop.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so.19 -> libkritalibpaintop.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibpaintop.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritametadata.so -> libkritametadata.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritametadata.so.19 -> libkritametadata.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritametadata.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaodf.so -> libkritaodf.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaodf.so.19 -> libkritaodf.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaodf.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritapigment.so -> libkritapigment.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritapigment.so.19 -> libkritapigment.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritapigment.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so -> libkritaplugin.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so.19 -> libkritaplugin.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaplugin.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritapsd.so -> libkritapsd.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritapsd.so.19 -> libkritapsd.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritapsd.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaqml.so -> libkritaqml.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaqml.so.19 -> libkritaqml.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaqml.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritastore.so -> libkritastore.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritastore.so.19 -> libkritastore.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritastore.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritatext.so -> libkritatext.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritatext.so.19 -> libkritatext.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritatext.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritatextlayout.so -> libkritatextlayout.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritatextlayout.so.19 -> libkritatextlayout.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritatextlayout.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaui.so -> libkritaui.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaui.so.19 -> libkritaui.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaui.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaversion.so -> libkritaversion.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaversion.so.19 -> libkritaversion.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaversion.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so -> libkritawidgets.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so.19 -> libkritawidgets.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritawidgets.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so -> libkritawidgetutils.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so.19 -> libkritawidgetutils.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritawidgetutils.so.19.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
@@ -263,6 +267,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/krita/sketch/components/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/krita_brush.desktop
+-rwxr-xr-x	root/root	usr/share/applications/krita_csv.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_exr.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_gif.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_heightmap.desktop
@@ -376,6 +381,7 @@ drwxr-xr-x	root/root	usr/share/krita/actions/
 -rw-r--r--	root/root	usr/share/krita/actions/KisToolPolyline.action
 -rw-r--r--	root/root	usr/share/krita/actions/KisToolSelectContiguous.action
 -rw-r--r--	root/root	usr/share/krita/actions/KisToolSelectElliptical.action
+-rw-r--r--	root/root	usr/share/krita/actions/KisToolSelectMagnetic.action
 -rw-r--r--	root/root	usr/share/krita/actions/KisToolSelectOutline.action
 -rw-r--r--	root/root	usr/share/krita/actions/KisToolSelectPath.action
 -rw-r--r--	root/root	usr/share/krita/actions/KisToolSelectPolygonal.action
@@ -413,6 +419,8 @@ drwxr-xr-x	root/root	usr/share/krita/defaultpresets/
 -rw-r--r--	root/root	usr/share/krita/defaultpresets/smudge.kpp
 -rw-r--r--	root/root	usr/share/krita/defaultpresets/spraybrush.kpp
 -rw-r--r--	root/root	usr/share/krita/defaultpresets/tangentnormal.kpp
+drwxr-xr-x	root/root	usr/share/krita/donation/
+-rw-r--r--	root/root	usr/share/krita/donation/banner.png
 drwxr-xr-x	root/root	usr/share/krita/dtd/
 -rw-r--r--	root/root	usr/share/krita/dtd/krita.dtd
 drwxr-xr-x	root/root	usr/share/krita/gamutmasks/
@@ -477,6 +485,20 @@ drwxr-xr-x	root/root	usr/share/krita/metadata/schemas/
 drwxr-xr-x	root/root	usr/share/krita/paintoppresets/
 -rw-r--r--	root/root	usr/share/krita/paintoppresets/a)_Eraser_Circle.kpp
 -rw-r--r--	root/root	usr/share/krita/paintoppresets/b)_Basic-5_Size_default.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Basic_Lines-Dry.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Basic_Lines-Wet-Pattern.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Basic_Lines-Wet.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Basic_Round-Fringe_02.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Basic_Round-Grain.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Basic_Round-Grunge.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Flat_Big-Grain_Tilt.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Flat_Decay_Tilt.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Special_Blobs.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Special_Splats.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Spread-Pattern.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Spread.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Spread_WideArea.kpp
+-rw-r--r--	root/root	usr/share/krita/paintoppresets/j)_WaterC_Water-Pattern.kpp
 drwxr-xr-x	root/root	usr/share/krita/palettes/
 -rw-r--r--	root/root	usr/share/krita/palettes/concept-cookie.gpl
 -rw-r--r--	root/root	usr/share/krita/palettes/default.gpl
@@ -528,6 +550,37 @@ drwxr-xr-x	root/root	usr/share/krita/patterns/
 -rw-r--r--	root/root	usr/share/krita/patterns/Cross06.pat
 -rw-r--r--	root/root	usr/share/krita/patterns/Cross07.pat
 -rw-r--r--	root/root	usr/share/krita/patterns/Crumpled_Paper.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0202_CLUS.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0202_GEN_.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0202_HORZ.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0202_VERT.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_ALT_.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_BL22.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_CLUS.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_CURL.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_DIAG.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_ELL2.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_ELL3.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_ELLS.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_GEN_.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_HORZ.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_SHUR.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_SLIC.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_VERT.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_WAV2.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_WAVE.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0404_ZORO.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_BL22.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_BL22_v.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_BUBL.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_CIRC.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_CLUS.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_DIAM.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_PANL.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_SPOT.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_SWRL.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_0808_WAVE.pat
+-rw-r--r--	root/root	usr/share/krita/patterns/DITH_3232_CSTR.pat
 -rw-r--r--	root/root	usr/share/krita/patterns/Grid01.pat
 -rw-r--r--	root/root	usr/share/krita/patterns/Grid02.pat
 -rw-r--r--	root/root	usr/share/krita/patterns/Grid03.pat
@@ -660,91 +713,102 @@ drwxr-xr-x	root/root	usr/share/krita/preset_icons/emblem_icons/
 -rw-r--r--	root/root	usr/share/krita/preset_icons/emblem_icons/wet.png
 -rw-r--r--	root/root	usr/share/krita/preset_icons/emblem_icons/whirlpool.png
 drwxr-xr-x	root/root	usr/share/krita/preset_icons/tool_icons/
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/acrylic-angled.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/acrylic-fan-used.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/acrylic-flat-old.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/acrylic-flat.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/acrylic-mop.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/acrylic-rounded-used.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/adjustement-contrast.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/adjustement-dark.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/airbrush.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/blending-stump.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/blur_soft.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/chalk-square.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/charcoal-block.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/charcoal-pencil-large.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/charcoal-pencil-medium.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/charcoal-pencil-thin.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/clone.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/color-effect.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/colored-pencil.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/deform.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/eraser-hard.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/eraser-kneaded.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/eraser-large.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/eraser-mechanical.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/experimental.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/filter.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/gel-pen.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/graphite.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/grid.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/ink-G-pen.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/ink-brush.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/ink-pen-atom.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/ink-pen-glass.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_brush.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_brush_blurry.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_dynamic_pen.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_dynamic_pen_though.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_fine-line_medium.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_fine-line_tiny.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_pen_bumpy.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_pen_bumpy_though.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/inking_pen_calligraphic.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/knife-rake.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/knife.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/large-rounded-cut.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/marker-large.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/marker-old.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/marker.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/mechanical-pencil.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/oil-filbert.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/oil-flat-large.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/oil-round-hard.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/paint-roller.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/pastel.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/pencil-black-stone.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/pencil-double-ring.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/rigger-brush.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/round_marker_detail.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/screentone-indicator.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/shape.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/sketching_wide_47.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/sketching_wide_bristles.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/special-effect-used-brush.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/stamp.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/stylus-colored-ring.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/stylus-colored.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/stylus-experimental.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/stylus-white.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/stylus.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/sumi-e.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/synthetic-filbert.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/synthetic-large-bright-used.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/synthetic-large-bright.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/synthetic-medium.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/synthetic-thin.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/synthetic-very-old.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/technical-pen.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/texture-indicator.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/thin-stylus-tablet.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/wand.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/watercolor-brush-medium.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/watercolor-flat.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/wide_brush_big.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/wide_brush_blurry.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/wide_dull_round.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/00_01_eraser-mechanical.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/00_02_eraser-large.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/00_03_eraser-hard.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/00_04_eraser-kneaded.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/01_01_mechanical-pencil.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/01_01_pencil-black-stone.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/01_02_pencil-double-ring.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/01_04_graphite.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/02_01_charcoal-pencil-thin.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/02_02_charcoal-pencil-medium.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/02_03_charcoal-pencil-large.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/02_04_charcoal-block.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/03_01colored-pencil.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/03_02_chalk-square.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/03_03_pastel.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_01_technical-pen.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_02_gel-pen.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_03_inking_fine-line_tiny.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_04_inking_fine-line_medium.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_05_ink-pen-atom.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_06_ink-G-pen.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_07_inking_dynamic_pen.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_08_inking_dynamic_pen_though.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_09_inking_pen_bumpy.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_10_inking_pen_bumpy_though.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_11_inking_pen_calligraphic.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_12_rigger-brush.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_13_inking_brush.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_14_inking_brush_blurry.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_15_ink-brush.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_16_large-rounded-cut.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/04_17_ink-pen-glass.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_01_airbrush.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_02_thin-stylus-tablet.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_03_stylus-white.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_04_stylus.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_05_stylus-colored-ring.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_06_stylus-colored.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/05_07_stylus-experimental.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/06_01_marker.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/06_02_marker-old.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/06_03_marker-large.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/06_04_round_marker_detail.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/06_05_sketching_wide_47.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/06_06_sketching_wide_bristles.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_01_synthetic-thin.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_02_synthetic-medium.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_03_synthetic-filbert.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_04_synthetic-large-bright.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_05_synthetic-large-bright-used.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_06_oil-filbert.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_07_oil-flat-large.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_08_acrylic-rounded-used.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_09_acrylic-angled.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_10_acrylic-flat.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_11_acrylic-mop.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_12_wide_dull_round.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_13_wide_brush_blurry.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_14_watercolor-flat.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_15_acrylic-fan-used.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_16_acrylic-flat-old.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_17_synthetic-very-old.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/07_18_special-effect-used-brush.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/08_01_watercolor-brush-medium.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/08_02_oil-round-hard.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/08_03_sumi-e.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/08_04_wide_brush_big.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_01_blending-stump.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_02_blur_soft.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_03_knife.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_04_knife-rake.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_05_paint-roller.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_01_color-effect.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_02_adjustement-contrast.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_03_adjustement-dark.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_04_filter.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_05_deform.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_06_clone.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_01_wand.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_02_shape.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_03_experimental.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_03stamp.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_04_texture-indicator.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_05_screentone-indicator.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/11_06_grid.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_01_Mechanical_Pencil.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_02_Fineliner.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_03_Marker_Permanent.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_04_PenBrush_01.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_05_Pen_01.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_06_Pen_02.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_07_Pen_03.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_08_Graphite_stick.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_09_Pastel_Bar_01.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_10_Pastel_Bar_04.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/12_11_Pastel_Bar_02.png
 drwxr-xr-x	root/root	usr/share/krita/qmlthemes/
 drwxr-xr-x	root/root	usr/share/krita/qmlthemes/default/
 -rw-r--r--	root/root	usr/share/krita/qmlthemes/default/colors.js
@@ -954,6 +1018,9 @@ drwxr-xr-x	root/root	usr/share/krita/templates/texture/.source/
 -rw-r--r--	root/root	usr/share/krita/templates/texture/Texture512x5128bitsrgb.desktop
 -rw-r--r--	root/root	usr/share/krita/templates/texture/Texture8k32bitscalar.desktop
 -rw-r--r--	root/root	usr/share/krita/templates/texture/Texture8k8bitsrgb.desktop
+drwxr-xr-x	root/root	usr/share/krita/windowlayouts/
+-rw-r--r--	root/root	usr/share/krita/windowlayouts/Cockpit (laptop mode).kwl
+-rw-r--r--	root/root	usr/share/krita/windowlayouts/Dual screen editing.kwl
 drwxr-xr-x	root/root	usr/share/krita/workspaces/
 -rw-r--r--	root/root	usr/share/krita/workspaces/Animation.kws
 -rw-r--r--	root/root	usr/share/krita/workspaces/Big_Paint.kws
