@@ -4,7 +4,7 @@
 # Depends on: baloo iso-codes kactivities-stats kdelibs4support kdesu kholidays kjsembed knotifyconfig kpeople krunner ksysguard ktexteditor kwin kxmlrpcclient libkscreen libqalculate networkmanager-qt phonon-qt5-backend-gstreamer prison
 
 name=plasma-workspace
-version=5.19.0
+version=5.19.1
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
 	52-upower.rules
