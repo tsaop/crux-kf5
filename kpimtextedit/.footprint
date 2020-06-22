@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/
 drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/AbstractMarkupBuilder
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/AbstractTextToSpeechInterface
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EditorUtil
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/EmoticonUnicodeTab
@@ -33,6 +34,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextToSpeechWidget
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/KPIMTextEdit/TextUtils
 drwxr-xr-x	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/
+-rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/abstractmarkupbuilder.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/abstracttexttospeechinterface.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/editorutil.h
 -rw-r--r--	root/root	usr/include/KF5/KPIMTextEdit/kpimtextedit/emoticonunicodetab.h
@@ -72,8 +74,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimTextEdit/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimTextEdit/KF5PimTextEditTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so -> libKF5PimTextEdit.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.14.1
--rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.14.1
+lrwxrwxrwx	root/root	usr/lib/libKF5PimTextEdit.so.5 -> libKF5PimTextEdit.so.5.14.2
+-rwxr-xr-x	root/root	usr/lib/libKF5PimTextEdit.so.5.14.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
