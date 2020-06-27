@@ -2,12 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.6.1-py3.7.egg-info/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.6.1-py3.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.6.1-py3.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.6.1-py3.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.6.1-py3.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.6.1-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.7.0-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.7.0-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.7.0-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.7.0-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.7.0-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata-1.7.0-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/__pycache__/
@@ -19,10 +19,10 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/__pycache__/__init__.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/__pycache__/conf.cpython-37.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/changelog.rst
+-r--r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/changelog.rst
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/conf.py
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/index.rst
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/using.rst
+-r--r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/index.rst
+-r--r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/docs/using.rst
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/__pycache__/
@@ -36,8 +36,8 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/da
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/__pycache__/__init__.cpython-37.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/example-21.12-py3-none-any.whl
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/example-21.12-py3.6.egg
+-r--r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/example-21.12-py3-none-any.whl
+-r--r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/data/example-21.12-py3.6.egg
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/fixtures.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/test_api.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/importlib_metadata/tests/test_integration.py
