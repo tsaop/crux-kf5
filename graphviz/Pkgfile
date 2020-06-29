@@ -4,12 +4,12 @@
 # Depends on: freeglut ghostscript glade gtkglext libgd swig tcl
 
 name=graphviz
-version=2.44.0
+version=2.44.1
 release=1
-source=(https://gitlab.com/graphviz/graphviz/-/archive/stable_release_${version}/$name-stable_release_$version.tar.bz2)
+source=(https://gitlab.com/graphviz/graphviz/-/archive/${version}/$name-$version.tar.bz2)
 
 build() {
-	cd $name-stable_release_${version}
+	cd $name-${version}
 
 	./autogen.sh
 	./configure --prefix=/usr \
