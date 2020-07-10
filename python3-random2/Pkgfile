@@ -6,7 +6,7 @@
 name=python3-random2
 version=1.0.1
 release=1
-source=(https://files.pythonhosted.org/packages/ee/b5/5aca5.19.21fbd06b1e5aed6d5986baa0da5380880e6bb6f421ed18e3a32/${name/python3-/}-$version.zip)
+source=(https://files.pythonhosted.org/packages/ee/b5/5aca5.19.31fbd06b1e5aed6d5986baa0da5380880e6bb6f421ed18e3a32/${name/python3-/}-$version.zip)
 
 build() {
 	cd ${name/python3-/}-$version
