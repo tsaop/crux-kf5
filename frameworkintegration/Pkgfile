@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: knewstuff kpackage
+# Depends on: knewstuff
 
 name=frameworkintegration
-version=5.71.0
+version=5.72.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
