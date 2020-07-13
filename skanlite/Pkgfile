@@ -4,9 +4,9 @@
 # Depends on: kio libksane
 
 name=skanlite
-version=2.1.0.1
+version=2.2.0
 release=1
-source=(http://download.kde.org/stable/$name/${version%.0.1}/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/$name/${version/.0//}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
