@@ -1,0 +1,29 @@
+# Description: The new KDE screenshotting utility
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: attica dbus freetype glib harfbuzz karchive kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kglobalaccel kguiaddons ki18n kiconthemes kio kipi-plugins kitemviews kjobwidgets knewstuff knotifications kpackage kservice ktextwidgets kwayland kwidgetsaddons kwindowsystem kxmlgui libdbusmenu-qt5 libffi libglvnd libkipi libpng phonon-qt5 purpose qt5 sonnet wayland xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxrender xorg-libxtst xorg-xcb-util xorg-xcb-util-cursor xorg-xcb-util-image xorg-xcb-util-keysyms xorg-xcb-util-renderutil
+
+name=spectacle
+version=20.04.3
+release=1
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}
