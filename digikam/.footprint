@@ -23,12 +23,14 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/dcolorblend.h
 -rw-r--r--	root/root	usr/include/digikam/dcolorcomposer.h
 -rw-r--r--	root/root	usr/include/digikam/dcolorpixelaccess.h
+-rw-r--r--	root/root	usr/include/digikam/dcolorselector.h
 -rw-r--r--	root/root	usr/include/digikam/dhistoryview.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_config.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_core_export.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_database_export.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_export.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_globals.h
+-rw-r--r--	root/root	usr/include/digikam/digikam_gui_export.h
 -rw-r--r--	root/root	usr/include/digikam/dimg.h
 -rw-r--r--	root/root	usr/include/digikam/dimgbuiltinfilter.h
 -rw-r--r--	root/root	usr/include/digikam/dimgloaderobserver.h
@@ -40,6 +42,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/dmessagebox.h
 -rw-r--r--	root/root	usr/include/digikam/dmetainfoiface.h
 -rw-r--r--	root/root	usr/include/digikam/dplugin.h
+-rw-r--r--	root/root	usr/include/digikam/dpluginaboutdlg.h
 -rw-r--r--	root/root	usr/include/digikam/dpluginaction.h
 -rw-r--r--	root/root	usr/include/digikam/dpluginauthor.h
 -rw-r--r--	root/root	usr/include/digikam/dpluginbqm.h
@@ -55,9 +58,9 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/drawdecoding.h
 -rw-r--r--	root/root	usr/include/digikam/drawinfo.h
 -rw-r--r--	root/root	usr/include/digikam/dsavesettingswidget.h
--rw-r--r--	root/root	usr/include/digikam/dshareddata.h
 -rw-r--r--	root/root	usr/include/digikam/dwizarddlg.h
 -rw-r--r--	root/root	usr/include/digikam/dwizardpage.h
+-rw-r--r--	root/root	usr/include/digikam/dynamicthread.h
 -rw-r--r--	root/root	usr/include/digikam/editortool.h
 -rw-r--r--	root/root	usr/include/digikam/filesaveconflictbox.h
 -rw-r--r--	root/root	usr/include/digikam/filteraction.h
@@ -70,6 +73,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/historyimageid.h
 -rw-r--r--	root/root	usr/include/digikam/iccprofile.h
 -rw-r--r--	root/root	usr/include/digikam/icctransform.h
+-rw-r--r--	root/root	usr/include/digikam/imagedialog.h
 -rw-r--r--	root/root	usr/include/digikam/imageiface.h
 -rw-r--r--	root/root	usr/include/digikam/imageregionwidget.h
 -rw-r--r--	root/root	usr/include/digikam/imagezoomsettings.h
@@ -77,6 +81,8 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/iteminfo.h
 -rw-r--r--	root/root	usr/include/digikam/iteminfolist.h
 -rw-r--r--	root/root	usr/include/digikam/loadingdescription.h
+-rw-r--r--	root/root	usr/include/digikam/loadsavethread.h
+-rw-r--r--	root/root	usr/include/digikam/managedloadsavethread.h
 -rw-r--r--	root/root	usr/include/digikam/metaengine.h
 -rw-r--r--	root/root	usr/include/digikam/metaengine_data.h
 -rw-r--r--	root/root	usr/include/digikam/photoinfocontainer.h
@@ -86,6 +92,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/queuesettings.h
 -rw-r--r--	root/root	usr/include/digikam/rginfo.h
 -rw-r--r--	root/root	usr/include/digikam/thumbnailinfo.h
+-rw-r--r--	root/root	usr/include/digikam/thumbnailloadthread.h
 -rw-r--r--	root/root	usr/include/digikam/wbcontainer.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -101,12 +108,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/DigikamGui/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfig-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.6.4.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.6.4.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.6.4.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.6.4.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.6.4.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.6.4.0
+drwxr-xr-x	root/root	usr/lib/cmake/DigikamPlugin/
+-rw-r--r--	root/root	usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/
@@ -234,9 +243,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_PrintCreator_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Rajce_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SendByMail_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SlideShow_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SmugMug_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_TimeAdjust_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Twitter_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_VKontakte_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_VideoSlideShow_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Wallpaper_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_YandexFotki_Plugin.so
@@ -361,16 +372,9 @@ drwxr-xr-x	root/root	usr/share/digikam/database/
 -rw-r--r--	root/root	usr/share/digikam/database/dbconfig.xml
 -rw-r--r--	root/root	usr/share/digikam/database/mysql-global.conf
 drwxr-xr-x	root/root	usr/share/digikam/facesengine/
--rw-r--r--	root/root	usr/share/digikam/facesengine/dlib_face_recognition_resnet_model_v1.dat
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_frontalface_alt.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_frontalface_alt2.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_frontalface_alt_tree.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_frontalface_default.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_mcs_lefteye.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_mcs_mouth.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_mcs_nose.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_mcs_righteye.xml
--rw-r--r--	root/root	usr/share/digikam/facesengine/haarcascade_profileface.xml
+-rw-r--r--	root/root	usr/share/digikam/facesengine/deploy.prototxt
+-rw-r--r--	root/root	usr/share/digikam/facesengine/openface_nn4.small2.v1.t7
+-rw-r--r--	root/root	usr/share/digikam/facesengine/res10_300x300_ssd_iter_140000_fp16.caffemodel
 -rw-r--r--	root/root	usr/share/digikam/facesengine/shapepredictor.dat
 drwxr-xr-x	root/root	usr/share/digikam/geoiface/
 -rw-r--r--	root/root	usr/share/digikam/geoiface/backend-googlemaps-js.js
@@ -553,6 +557,46 @@ drwxr-xr-x	root/root	usr/share/digikam/themes/frames/
 -rw-r--r--	root/root	usr/share/digikam/themes/frames/preview.png
 -rw-r--r--	root/root	usr/share/digikam/themes/frames/style.css
 -rw-r--r--	root/root	usr/share/digikam/themes/frames/template.xsl
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/README
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/html5responsive.desktop
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/preview.png
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/css/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/basic.css
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/brownCard.css
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/css/default-skin/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/default-skin/default-skin.css
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/default-skin/default-skin.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/default-skin/default-skin.svg
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/default-skin/preloader.gif
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/feed.css
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/fundament.css
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/lightbox.css
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/css/photoswipe.css
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/images/
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/images/BrownCard/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/BrownCard/brownCard.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/BrownCard/brownCardAlbum.jpg
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/BrownCard/photoCorners.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/BrownCard/roughPhotoCard.png
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/Contact_corners.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/Large_contact.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/LightBox_topless.jpg
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/Lightbox_top.jpg
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/Monochrome-strip.jpg
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/SafetyFilm-strip.jpg
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/SlideFrame_landscape.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/SlideFrame_portrait.png
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/images/Lightbox/SlideFrame_square.png
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/js/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/js/photoswipe-ui-default.min.js
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/js/photoswipe.min.js
+drwxr-xr-x	root/root	usr/share/digikam/themes/html5responsive/resources/xslt/
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/xslt/convertNewlinesToHtmlBreaksTemplate.xsl
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/resources/xslt/xmlJsEscapeTemplate.xsl
+-rw-r--r--	root/root	usr/share/digikam/themes/html5responsive/template.xsl
 drwxr-xr-x	root/root	usr/share/digikam/themes/matrix/
 -rw-r--r--	root/root	usr/share/digikam/themes/matrix/bg.png
 -rw-r--r--	root/root	usr/share/digikam/themes/matrix/matrix.desktop
