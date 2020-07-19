@@ -1,19 +1,22 @@
 # Description: Open source multimedia framework, designed and developed for television broadcasting
 # URL: http://www.mltframework.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libdv libsamplerate opencv sdl_image sox
+# Depends on: libdv libsamplerate opencv sdl_image sox gtk
 
 name=mlt
 version=6.20.0
 release=1
 source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz
-	mlt-opencv4.patch)
+	mlt-opencv4.patch
+	fix-qt-5.15-build.patch)
 
 build() {
 	cd $name-$version
 
 	# Fix build witn opencv4
 	patch -Np1 -i $SRC/mlt-opencv4.patch
+	# Fix build with qt 5.15
+	patch -Np1 -i $SRC/fix-qt-5.15-build.patch
 
 	# Disable PulseAudio
 	sed -i 's|-D__LINUX_PULSE__||' src/modules/rtaudio/Makefile 
