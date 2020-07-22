@@ -1,0 +1,26 @@
+# Description: Minimalist Object Orientation (with Moose compatibility)
+# URL: https://metacpan.org/release/Moo
+# Maintainer: Tsaop, leeroy at cock dot li
+
+name=p5-moo
+version=2.004000
+release=1
+source=(https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-$version.tar.gz)
+
+build() {
+	cd Moo-$version
+
+	perl Makefile.PL
+	make
+	make install DESTDIR=$PKG
+
+	# Remove perlcrap
+	find $PKG -type f \( \
+		-name '.packlist' -or \
+		-name '*.bs' -or \
+		-name 'autosplit.ix' -or \
+		-name 'perllocal.pod' \) -delete
+
+	# Remove empty directories
+	find $PKG -depth -empty -exec rm -rf {} \;
+}
