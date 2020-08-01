@@ -6,6 +6,8 @@ drwxr-xr-x	root/root	usr/include/ZXing/
 -rw-r--r--	root/root	usr/include/ZXing/BitArray.h
 -rw-r--r--	root/root	usr/include/ZXing/BitHacks.h
 -rw-r--r--	root/root	usr/include/ZXing/BitMatrix.h
+-rw-r--r--	root/root	usr/include/ZXing/BitMatrixCursor.h
+-rw-r--r--	root/root	usr/include/ZXing/BitMatrixIO.h
 -rw-r--r--	root/root	usr/include/ZXing/BitSource.h
 -rw-r--r--	root/root	usr/include/ZXing/ByteArray.h
 -rw-r--r--	root/root	usr/include/ZXing/ByteMatrix.h
@@ -16,16 +18,22 @@ drwxr-xr-x	root/root	usr/include/ZXing/
 -rw-r--r--	root/root	usr/include/ZXing/DecodeStatus.h
 -rw-r--r--	root/root	usr/include/ZXing/DecoderResult.h
 -rw-r--r--	root/root	usr/include/ZXing/DetectorResult.h
+-rw-r--r--	root/root	usr/include/ZXing/GTIN.h
 -rw-r--r--	root/root	usr/include/ZXing/GenericGF.h
 -rw-r--r--	root/root	usr/include/ZXing/GenericGFPoly.h
 -rw-r--r--	root/root	usr/include/ZXing/GenericLuminanceSource.h
 -rw-r--r--	root/root	usr/include/ZXing/GlobalHistogramBinarizer.h
 -rw-r--r--	root/root	usr/include/ZXing/GridSampler.h
 -rw-r--r--	root/root	usr/include/ZXing/HybridBinarizer.h
+-rw-r--r--	root/root	usr/include/ZXing/LogMatrix.h
 -rw-r--r--	root/root	usr/include/ZXing/LuminanceSource.h
+-rw-r--r--	root/root	usr/include/ZXing/Matrix.h
 -rw-r--r--	root/root	usr/include/ZXing/MultiFormatReader.h
 -rw-r--r--	root/root	usr/include/ZXing/MultiFormatWriter.h
+-rw-r--r--	root/root	usr/include/ZXing/Pattern.h
 -rw-r--r--	root/root	usr/include/ZXing/PerspectiveTransform.h
+-rw-r--r--	root/root	usr/include/ZXing/Point.h
+-rw-r--r--	root/root	usr/include/ZXing/Quadrilateral.h
 -rw-r--r--	root/root	usr/include/ZXing/ReadBarcode.h
 -rw-r--r--	root/root	usr/include/ZXing/Reader.h
 -rw-r--r--	root/root	usr/include/ZXing/ReedSolomonDecoder.h
@@ -36,11 +44,12 @@ drwxr-xr-x	root/root	usr/include/ZXing/
 -rw-r--r--	root/root	usr/include/ZXing/TextDecoder.h
 -rw-r--r--	root/root	usr/include/ZXing/TextEncoder.h
 -rw-r--r--	root/root	usr/include/ZXing/TextUtfEncoding.h
+-rw-r--r--	root/root	usr/include/ZXing/TritMatrix.h
 -rw-r--r--	root/root	usr/include/ZXing/WhiteRectDetector.h
 -rw-r--r--	root/root	usr/include/ZXing/ZXBigInteger.h
 -rw-r--r--	root/root	usr/include/ZXing/ZXConfig.h
 -rw-r--r--	root/root	usr/include/ZXing/ZXContainerAlgorithms.h
--rw-r--r--	root/root	usr/include/ZXing/ZXFilesystem.h
+-rw-r--r--	root/root	usr/include/ZXing/ZXFlags.h
 -rw-r--r--	root/root	usr/include/ZXing/ZXNullable.h
 -rw-r--r--	root/root	usr/include/ZXing/ZXNumeric.h
 -rw-r--r--	root/root	usr/include/ZXing/ZXStrConvWorkaround.h
@@ -172,10 +181,11 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/ZXing/
 -rw-r--r--	root/root	usr/lib/cmake/ZXing/ZXingConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/ZXing/ZXingConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/ZXing/ZXingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/ZXing/ZXingTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libZXingCore.so -> libZXingCore.so.1
-lrwxrwxrwx	root/root	usr/lib/libZXingCore.so.1 -> libZXingCore.so.1.0.7
--rwxr-xr-x	root/root	usr/lib/libZXingCore.so.1.0.7
+lrwxrwxrwx	root/root	usr/lib/libZXing.so -> libZXing.so.1
+lrwxrwxrwx	root/root	usr/lib/libZXing.so.1 -> libZXing.so.1.1.0
+-rwxr-xr-x	root/root	usr/lib/libZXing.so.1.1.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/zxing.pc
