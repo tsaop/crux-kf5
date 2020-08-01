@@ -5,11 +5,16 @@
 
 name=kitinerary
 version=20.04.3
-release=1
-source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=2
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
+	8bf24e23.patch)
 
 build() {
 	cd $name-$version
+
+	# fix build with zxing-cpp 1.1.0
+	patch -Np1 -i $SRC/8bf24e23.patch
+
 	mkdir build; cd build
 
 	cmake -DCMAKE_BUILD_TYPE=Release \
