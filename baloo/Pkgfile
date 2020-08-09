@@ -4,26 +4,17 @@
 # Depends on: gtk kfilemetadata kidletime kio lmdb
 
 name=baloo
-version=5.72.0
+version=5.73.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
+	cmake -B build -S $name-$version \
+		-DBUILD_TESTING=OFF \
+		-DCMAKE_INSTALL_LIBDIR=lib
 
-	
-
-	cmake \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
-
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 }

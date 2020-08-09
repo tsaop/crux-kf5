@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KGuiAddons/
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KColorCollection
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KColorMimeData
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KColorUtils
+-rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KCursorSaver
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KDateValidator
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KFontUtils
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/KIconUtils
@@ -14,6 +15,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KGuiAddons/
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kcolorcollection.h
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kcolormimedata.h
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kcolorutils.h
+-rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kcursorsaver.h
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kdatevalidator.h
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kfontutils.h
 -rw-r--r--	root/root	usr/include/KF5/KGuiAddons/kguiaddons_export.h
@@ -32,8 +34,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5GuiAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5GuiAddons.so -> libKF5GuiAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5GuiAddons.so.5 -> libKF5GuiAddons.so.5.72.0
--rwxr-xr-x	root/root	usr/lib/libKF5GuiAddons.so.5.72.0
+lrwxrwxrwx	root/root	usr/lib/libKF5GuiAddons.so.5 -> libKF5GuiAddons.so.5.73.0
+-rwxr-xr-x	root/root	usr/lib/libKF5GuiAddons.so.5.73.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -43,3 +45,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kguiaddons/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kguiaddons/kmodifierkey/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kguiaddons/kmodifierkey/kmodifierkey_xcb.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kguiaddons.categories

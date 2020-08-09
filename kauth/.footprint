@@ -30,11 +30,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Auth/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kauth-policy-gen
 lrwxrwxrwx	root/root	usr/lib/libKF5Auth.so -> libKF5Auth.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Auth.so.5 -> libKF5Auth.so.5.72.0
--rwxr-xr-x	root/root	usr/lib/libKF5Auth.so.5.72.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Auth.so.5 -> libKF5Auth.so.5.73.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Auth.so.5.73.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AuthCore.so -> libKF5AuthCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AuthCore.so.5 -> libKF5AuthCore.so.5.72.0
--rwxr-xr-x	root/root	usr/lib/libKF5AuthCore.so.5.72.0
+lrwxrwxrwx	root/root	usr/lib/libKF5AuthCore.so.5 -> libKF5AuthCore.so.5.73.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AuthCore.so.5.73.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -56,3 +56,4 @@ drwxr-xr-x	root/root	usr/share/kf5/kauth/
 -rw-r--r--	root/root	usr/share/kf5/kauth/dbus_service.stub
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kauth.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kauth.renamecategories
