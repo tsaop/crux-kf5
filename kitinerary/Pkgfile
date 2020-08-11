@@ -5,15 +5,18 @@
 
 name=kitinerary
 version=20.04.3
-release=2
+release=3
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
-	8bf24e23.patch)
+	8bf24e23.patch
+	0001-Fix-build-with-latest-Poppler.patch)
 
 build() {
 	cd $name-$version
 
 	# fix build with zxing-cpp 1.1.0
 	patch -Np1 -i $SRC/8bf24e23.patch
+	# fix build with latest poppler
+	patch -Np1 -i $SRC/0001-Fix-build-with-latest-Poppler.patch
 
 	mkdir build; cd build
 
