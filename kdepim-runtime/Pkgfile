@@ -1,10 +1,10 @@
 # Description: Kdepim runtime
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-calendar akonadi-notes kalarmcal kdav kmbox knotifyconfig kross pimcommon
+# Depends on: akonadi-calendar akonadi-notes kalarmcal kdav kmbox knotifyconfig kross pimcommon qca-qt5
 
 name=kdepim-runtime
-version=20.04.3
+version=20.08.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

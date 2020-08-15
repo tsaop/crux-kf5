@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/cantor/
 -rw-r--r--	root/root	usr/include/cantor/epsresult.h
 -rw-r--r--	root/root	usr/include/cantor/expression.h
 -rw-r--r--	root/root	usr/include/cantor/extension.h
+-rw-r--r--	root/root	usr/include/cantor/graphicpackage.h
 -rw-r--r--	root/root	usr/include/cantor/helpresult.h
 -rw-r--r--	root/root	usr/include/cantor/htmlresult.h
 -rw-r--r--	root/root	usr/include/cantor/imageresult.h
@@ -45,9 +46,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/Cantor/
 -rw-r--r--	root/root	usr/lib/cmake/Cantor/CantorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Cantor/CantorTargets.cmake
 -rwxr-xr-x	root/root	usr/lib/libcantor_config.so
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.24
--rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.20.04.3
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.24 -> libcantorlibs.so.20.04.3
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.27
+-rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.20.08.0
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.27 -> libcantorlibs.so.20.08.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/
@@ -71,6 +72,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_sagebackend.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/cantor_scilabbackend.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_filebrowserpanelplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_helppanelplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_variablemanagerplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libcantorpart.so
@@ -82,11 +84,15 @@ drwxr-xr-x	root/root	usr/share/cantor/latex/
 -rw-r--r--	root/root	usr/share/cantor/latex/preview.sty
 drwxr-xr-x	root/root	usr/share/cantor/maximabackend/
 -rw-r--r--	root/root	usr/share/cantor/maximabackend/cantor-initmaxima.lisp
+drwxr-xr-x	root/root	usr/share/cantor/octave/
+-rw-r--r--	root/root	usr/share/cantor/octave/graphic_packages.xml
 drwxr-xr-x	root/root	usr/share/cantor/octavebackend/
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_eigenvectors.m
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_plot2d.m
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_plot3d.m
 -rw-r--r--	root/root	usr/share/cantor/octavebackend/cantor_print.m
+drwxr-xr-x	root/root	usr/share/cantor/python/
+-rw-r--r--	root/root	usr/share/cantor/python/graphic_packages.xml
 drwxr-xr-x	root/root	usr/share/cantor/sagebackend/
 -rwxr-xr-x	root/root	usr/share/cantor/sagebackend/cantor-execsage
 drwxr-xr-x	root/root	usr/share/cantor/xslt/

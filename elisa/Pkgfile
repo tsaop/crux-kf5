@@ -4,9 +4,9 @@
 # Depends on: baloo kcmutils kirigami2
 
 name=elisa
-version=0.4.2
+version=20.08.0
 release=1
-source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version

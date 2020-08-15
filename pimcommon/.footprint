@@ -7,15 +7,18 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/AutoCorrection
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/AutoCorrectionLanguage
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/AutoCorrectionWidget
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/BroadcastStatus
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ConfigureImmutableWidgetUtils
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ConfigurePluginDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ConfigurePluginsListWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/ConfigurePluginsWidget
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomLogWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsPlugin
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsPluginManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsViewInterface
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomToolsWidgetng
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/CustomTreeView
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/EmailValidator
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/GenericPlugin
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/GenericPluginManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/KActionMenuChangeCase
@@ -39,21 +42,26 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/TemplateManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/TranslatorWidget
 drwxr-xr-x	root/root	usr/include/KF5/PimCommonAkonadi/
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/AddresseeLineEdit
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/AnnotationDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CheckedCollectionWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CollectionAclPage
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CollectionAnnotationsAttribute
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CollectionTypeUtil
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CompletionConfigureDialog
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CompletionOrderEditor
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/ContentTypeWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/CreateResource
--rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/FetchRecursiveCollectionsJob
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/GenericPluginInterface
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/ImapAclAttribute
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/ImapResourceCapabilitiesManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/IncidencesForWidget
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/LdapSearchDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/MailUtil
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/ManageServerSideSubscriptionJob
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/PluginInterface
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/ProgressManagerAkonadi
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/RecentAddresses
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/SelectMultiCollectionDialog
 drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/abstractgenericplugin.h
@@ -61,15 +69,18 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/autocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/autocorrectionlanguage.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/autocorrectionwidget.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/broadcaststatus.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configureimmutablewidgetutils.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configureplugindialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configurepluginslistwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/configurepluginswidget.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/customlogwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolsplugin.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolspluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolsviewinterface.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtoolswidgetng.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/customtreeview.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommon/emailvalidator.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/genericplugin.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/genericpluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/imapresourcesettings.h
@@ -97,22 +108,27 @@ drwxr-xr-x	root/root	usr/include/KF5/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/pimcommon/translatorwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommon_version.h
 drwxr-xr-x	root/root	usr/include/KF5/pimcommonakonadi/
+-rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/addresseelineedit.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/annotationdialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/checkedcollectionwidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/collectionaclpage.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/collectionannotationsattribute.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/collectiontypeutil.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/completionconfiguredialog.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/completionordereditor.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/contenttypewidget.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/createresource.h
--rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/fetchrecursivecollectionsjob.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/genericplugininterface.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/imapaclattribute.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/imapresourcecapabilitiesmanager.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/incidencesforwidget.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/ldapsearchdialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/mailutil.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/manageserversidesubscriptionjob.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/pimcommonakonadi_export.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/plugininterface.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/progressmanagerakonadi.h
+-rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/recentaddresses.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi/selectmulticollectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/pimcommonakonadi_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -128,11 +144,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so -> libKF5PimCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.15.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so -> libKF5PimCommonAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.15.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -140,6 +156,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_PimCommonAkonadi.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/pimcommoniakonadiwidgets.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/pimcommonwidgets.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/

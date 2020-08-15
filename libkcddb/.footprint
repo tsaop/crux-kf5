@@ -4,14 +4,12 @@ drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KCddb/
 -rw-r--r--	root/root	usr/include/KF5/KCddb/Categories
 -rw-r--r--	root/root	usr/include/KF5/KCddb/Cdinfo
--rw-r--r--	root/root	usr/include/KF5/KCddb/CdinfoDialog
 -rw-r--r--	root/root	usr/include/KF5/KCddb/Client
 -rw-r--r--	root/root	usr/include/KF5/KCddb/Genres
 -rw-r--r--	root/root	usr/include/KF5/KCddb/Kcddb
 -rw-r--r--	root/root	usr/include/KF5/KCddb/KcddbConfig
 -rw-r--r--	root/root	usr/include/KF5/KCddb/categories.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/cdinfo.h
--rw-r--r--	root/root	usr/include/KF5/KCddb/cdinfodialog.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/client.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/configbase.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/genres.h
@@ -29,9 +27,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Cddb/
 lrwxrwxrwx	root/root	usr/lib/libKF5Cddb.so -> libKF5Cddb.so.5
 lrwxrwxrwx	root/root	usr/lib/libKF5Cddb.so.5 -> libKF5Cddb.so.5.0.0
 -rwxr-xr-x	root/root	usr/lib/libKF5Cddb.so.5.0.0
-lrwxrwxrwx	root/root	usr/lib/libKF5CddbWidgets.so -> libKF5CddbWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CddbWidgets.so.5 -> libKF5CddbWidgets.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libKF5CddbWidgets.so.5.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

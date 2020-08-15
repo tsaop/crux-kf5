@@ -6,14 +6,12 @@ drwxr-xr-x	root/root	usr/lib/elisa/
 lrwxrwxrwx	root/root	usr/lib/elisa/libelisaLib.so.0 -> libelisaLib.so.0.1
 -rwxr-xr-x	root/root	usr/lib/elisa/libelisaLib.so.0.1
 drwxr-xr-x	root/root	usr/lib/qt5/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_elisa_local_file.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/elisa/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/elisa/libelisaqmlplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/elisa/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/elisa/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
@@ -41,12 +39,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/elisa.svg
-drwxr-xr-x	root/root	usr/share/kpackage/
-drwxr-xr-x	root/root	usr/share/kpackage/kcms/
-drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_elisa_local_file/
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_elisa_local_file/contents.rcc
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_elisa_local_file/metadata.json
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcm_elisa_local_file.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.elisa.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/elisa.categories

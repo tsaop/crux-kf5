@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/servicemenu.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/dolphin
@@ -49,6 +46,8 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.dolphin.FileManager1.service
 drwxr-xr-x	root/root	usr/share/kglobalaccel/
 lrwxrwxrwx	root/root	usr/share/kglobalaccel/org.kde.dolphin.desktop -> /usr/share/applications/org.kde.dolphin.desktop
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/servicemenu.knsrc
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/dolphinpart.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmdolphingeneral.desktop

@@ -6,6 +6,9 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AbstractContactFormatter
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AbstractContactGroupFormatter
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AbstractEmailAddressSelectionDialog
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AddContactJob
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AddEmailAddressJob
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/AddEmailDisplayJob
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactDefaultActions
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditor
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditorDialog
@@ -26,6 +29,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionModel
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionWidget
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/OpenEmailAddressJob
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecipientsEditorManager
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecipientsPickerWidget
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/SelectAddressBookDialog
@@ -40,6 +44,9 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractcontactformatter.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractcontactgroupformatter.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/abstractemailaddressselectiondialog.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/addcontactjob.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/addemailaddressjob.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/addemaildisplayjob.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/akonadi-contact_export.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactdefaultactions.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditor.h
@@ -61,6 +68,7 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionmodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionwidget.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/openemailaddressjob.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recipientseditormanager.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recipientspickerwidget.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/selectaddressbookdialog.h
@@ -84,11 +92,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ContactEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.15.0
 lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so -> libKF5ContactEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.15.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

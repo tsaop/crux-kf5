@@ -12,8 +12,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.97.0
-lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.20 -> libmolletnetwork5.so.20.04.3
--rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.20.04.3
+lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.20 -> libmolletnetwork5.so.20.08.0
+-rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.20.08.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/comicbookthumbnail.so
@@ -81,7 +81,6 @@ drwxr-xr-x	root/root	usr/share/konqueror/dirtree/remote/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/about.protocol
 -rw-r--r--	root/root	usr/share/kservices5/activities.protocol
--rw-r--r--	root/root	usr/share/kservices5/ar.protocol
 -rw-r--r--	root/root	usr/share/kservices5/bookmarks.protocol
 -rw-r--r--	root/root	usr/share/kservices5/bzip.protocol
 -rw-r--r--	root/root	usr/share/kservices5/bzip2.protocol
@@ -106,15 +105,12 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/opendocumentthumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/recentdocuments.protocol
 -rw-r--r--	root/root	usr/share/kservices5/settings.protocol
--rw-r--r--	root/root	usr/share/kservices5/sevenz.protocol
 -rw-r--r--	root/root	usr/share/kservices5/svgthumbnail.desktop
--rw-r--r--	root/root	usr/share/kservices5/tar.protocol
 -rw-r--r--	root/root	usr/share/kservices5/textthumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/thumbnail.protocol
 -rw-r--r--	root/root	usr/share/kservices5/windowsexethumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/windowsimagethumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/xz.protocol
--rw-r--r--	root/root	usr/share/kservices5/zip.protocol
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/thumbcreator.desktop
 drwxr-xr-x	root/root	usr/share/mime/

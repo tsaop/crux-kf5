@@ -19,9 +19,12 @@ drwxr-xr-x	root/root	usr/include/KF5/CalendarSupport/
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/IdentityManager
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/IncidenceViewer
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/KCalPrefs
+-rw-r--r--	root/root	usr/include/KF5/CalendarSupport/KDatePickerPopup
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/MessageWidget
+-rw-r--r--	root/root	usr/include/KF5/CalendarSupport/NoteEditDialog
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/Plugin
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/PrintPlugin
+-rw-r--r--	root/root	usr/include/KF5/CalendarSupport/UriHandler
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/Utils
 drwxr-xr-x	root/root	usr/include/KF5/calendarsupport/
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/archivedialog.h
@@ -43,7 +46,9 @@ drwxr-xr-x	root/root	usr/include/KF5/calendarsupport/
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/incidenceviewer.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/kcalprefs.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/kcalprefs_base.h
+-rw-r--r--	root/root	usr/include/KF5/calendarsupport/kdatepickerpopup.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/messagewidget.h
+-rw-r--r--	root/root	usr/include/KF5/calendarsupport/noteeditdialog.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/plugin.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/printplugin.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/ui_calprintdayconfig_base.h
@@ -51,6 +56,7 @@ drwxr-xr-x	root/root	usr/include/KF5/calendarsupport/
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/ui_calprintmonthconfig_base.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/ui_calprinttodoconfig_base.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/ui_calprintweekconfig_base.h
+-rw-r--r--	root/root	usr/include/KF5/calendarsupport/urihandler.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport/utils.h
 -rw-r--r--	root/root	usr/include/KF5/calendarsupport_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -61,8 +67,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CalendarSupport/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CalendarSupport/KF5CalendarSupportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CalendarSupport/KF5CalendarSupportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CalendarSupport.so -> libKF5CalendarSupport.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CalendarSupport.so.5 -> libKF5CalendarSupport.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5CalendarSupport.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5CalendarSupport.so.5 -> libKF5CalendarSupport.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CalendarSupport.so.5.15.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

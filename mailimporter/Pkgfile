@@ -1,10 +1,10 @@
 # Description: Mail importer library
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libkdepim
+# Depends on: pimcommon
 
 name=mailimporter
-version=20.04.3
+version=20.08.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

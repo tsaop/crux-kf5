@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/autostart/
 -rw-r--r--	root/root	etc/xdg/autostart/konqy_preload.desktop
+-rw-r--r--	root/root	etc/xdg/konqsidebartngrc
 -rw-r--r--	root/root	etc/xdg/translaterc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
@@ -16,6 +17,7 @@ drwxr-xr-x	root/root	usr/include/KF5/
 -rw-r--r--	root/root	usr/include/KF5/konq_popupmenu.h
 -rw-r--r--	root/root	usr/include/KF5/konq_version.h
 -rw-r--r--	root/root	usr/include/KF5/libkonq_export.h
+-rw-r--r--	root/root	usr/include/konqsidebarplugin.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Konq/
@@ -28,8 +30,11 @@ lrwxrwxrwx	root/root	usr/lib/libKF5Konq.so -> libKF5Konq.so.6
 lrwxrwxrwx	root/root	usr/lib/libKF5Konq.so.6 -> libKF5Konq.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kfmclient.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konqueror.so
-lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.5.0.97
--rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.5.0.97
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so -> libkonqsidebarplugin.so.5
+-rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.20.08.0
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.20.08.0
+-rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.20.08.0
+lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.20.08.0
 -rwxr-xr-x	root/root	usr/lib/libkwebenginepart.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -39,6 +44,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/dirfilterplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/fsviewpart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_bookmarks.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_history.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_konq.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_konqhtml.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_performance.so
@@ -51,7 +57,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/khtmlttsplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kimgallery.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konq_shellcmdplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/konq_sidebar.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_bookmarks.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_history.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_places.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_tree.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/searchbarplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/uachangerplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akregator/
 drwxr-xr-x	root/root	usr/share/akregator/pics/
@@ -76,8 +88,6 @@ drwxr-xr-x	root/root	usr/share/dolphinpart/kpartplugins/
 -rw-r--r--	root/root	usr/share/dolphinpart/kpartplugins/kimgalleryplugin.rc
 -rw-r--r--	root/root	usr/share/dolphinpart/kpartplugins/kshellcmdplugin.desktop
 -rw-r--r--	root/root	usr/share/dolphinpart/kpartplugins/kshellcmdplugin.rc
-drwxr-xr-x	root/root	usr/share/fsview/
--rw-r--r--	root/root	usr/share/fsview/fsview_part.rc
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -133,6 +143,24 @@ drwxr-xr-x	root/root	usr/share/khtml/kpartplugins/
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/khtmltts.rc
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_babelfish.rc
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_translator.desktop
+-rw-r--r--	root/root	usr/share/khtml/kpartplugins/uachangerplugin.desktop
+-rw-r--r--	root/root	usr/share/khtml/kpartplugins/uachangerplugin.rc
+drwxr-xr-x	root/root	usr/share/konqsidebartng/
+drwxr-xr-x	root/root	usr/share/konqsidebartng/entries/
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/bookmarks.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/fonts.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/history.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/home.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/places.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/remote.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/root.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/services.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/entries/settings.desktop
+drwxr-xr-x	root/root	usr/share/konqsidebartng/plugins/
+-rw-r--r--	root/root	usr/share/konqsidebartng/plugins/konqsidebar_bookmarks.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/plugins/konqsidebar_history.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/plugins/konqsidebar_places.desktop
+-rw-r--r--	root/root	usr/share/konqsidebartng/plugins/konqsidebar_tree.desktop
 drwxr-xr-x	root/root	usr/share/konqueror/
 drwxr-xr-x	root/root	usr/share/konqueror/about/
 -rw-r--r--	root/root	usr/share/konqueror/about/intro.html
@@ -178,6 +206,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/bookmarks.desktop
 -rw-r--r--	root/root	usr/share/kservices5/filebehavior.desktop
 -rw-r--r--	root/root	usr/share/kservices5/fsview_part.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcmhistory.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkonqyperformance.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmperformance.desktop
 -rw-r--r--	root/root	usr/share/kservices5/khtml_appearance.desktop
@@ -185,6 +214,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/khtml_filter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/khtml_general.desktop
 -rw-r--r--	root/root	usr/share/kservices5/khtml_java_js.desktop
+-rw-r--r--	root/root	usr/share/kservices5/konq_sidebartng.desktop
 -rw-r--r--	root/root	usr/share/kservices5/org.kde.konqueror.desktop
 -rw-r--r--	root/root	usr/share/kservices5/webenginepart.desktop
 drwxr-xr-x	root/root	usr/share/kwebkitpart/
@@ -199,13 +229,18 @@ drwxr-xr-x	root/root	usr/share/kwebkitpart/kpartplugins/
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/khtmltts.rc
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_babelfish.rc
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_translator.desktop
+-rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/uachangerplugin.desktop
+-rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/uachangerplugin.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
+drwxr-xr-x	root/root	usr/share/kxmlgui5/fsview/
+-rw-r--r--	root/root	usr/share/kxmlgui5/fsview/fsview_part.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/webenginepart/
 -rw-r--r--	root/root	usr/share/kxmlgui5/webenginepart/webenginepart.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.konqueror.appdata.xml
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/akregatorplugin.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/fsview.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/konqueror.categories
 drwxr-xr-x	root/root	usr/share/webenginepart/
 -rw-r--r--	root/root	usr/share/webenginepart/error.html
@@ -220,3 +255,5 @@ drwxr-xr-x	root/root	usr/share/webenginepart/kpartplugins/
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/khtmltts.rc
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/plugin_babelfish.rc
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/plugin_translator.desktop
+-rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/uachangerplugin.desktop
+-rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/uachangerplugin.rc

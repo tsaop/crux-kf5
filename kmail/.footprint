@@ -9,8 +9,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kmail-refresh-settings
 -rwxr-xr-x	root/root	usr/bin/ktnef
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.15.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
@@ -21,8 +21,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kmailsummary.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kontactsummary.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmailpart.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact_kmailplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact_summaryplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_kmailplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_summaryplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/agents/

@@ -1,9 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
-drwxr-xr-x	root/root	usr/include/KF5/FollowupReminder/
--rw-r--r--	root/root	usr/include/KF5/FollowupReminder/FollowUpReminderInfo
--rw-r--r--	root/root	usr/include/KF5/FollowupReminder/FollowUpReminderUtil
 drwxr-xr-x	root/root	usr/include/KF5/KAddressBookImportExport/
 -rw-r--r--	root/root	usr/include/KF5/KAddressBookImportExport/KAddressBookContactSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/KAddressBookImportExport/KAddressBookContactSelectionWidget
@@ -17,19 +14,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KaddressbookGrantlee/
 -rw-r--r--	root/root	usr/include/KF5/KaddressbookGrantlee/GrantleeContactGroupFormatter
 -rw-r--r--	root/root	usr/include/KF5/KaddressbookGrantlee/GrantleeContactViewer
 -rw-r--r--	root/root	usr/include/KF5/KaddressbookGrantlee/GrantleePrint
-drwxr-xr-x	root/root	usr/include/KF5/KdepimDBusInterfaces/
--rw-r--r--	root/root	usr/include/KF5/KdepimDBusInterfaces/ReminderClient
--rw-r--r--	root/root	usr/include/KF5/KdepimDBusInterfaces/UriHandler
-drwxr-xr-x	root/root	usr/include/KF5/SendLater/
--rw-r--r--	root/root	usr/include/KF5/SendLater/SendLaterDialog
--rw-r--r--	root/root	usr/include/KF5/SendLater/SendLaterInfo
--rw-r--r--	root/root	usr/include/KF5/SendLater/SendLaterUtil
-drwxr-xr-x	root/root	usr/include/KF5/followupreminder/
--rw-r--r--	root/root	usr/include/KF5/followupreminder/followupreminder_export.h
--rw-r--r--	root/root	usr/include/KF5/followupreminder/followupreminderagentsettings.h
--rw-r--r--	root/root	usr/include/KF5/followupreminder/followupreminderinfo.h
--rw-r--r--	root/root	usr/include/KF5/followupreminder/followupreminderutil.h
--rw-r--r--	root/root	usr/include/KF5/followupreminder_version.h
 drwxr-xr-x	root/root	usr/include/KF5/kaddressbookgrantlee/
 -rw-r--r--	root/root	usr/include/KF5/kaddressbookgrantlee/grantleecontactformatter.h
 -rw-r--r--	root/root	usr/include/KF5/kaddressbookgrantlee/grantleecontactgroupformatter.h
@@ -48,25 +32,8 @@ drwxr-xr-x	root/root	usr/include/KF5/kaddressbookimportexport/
 -rw-r--r--	root/root	usr/include/KF5/kaddressbookimportexport/kaddressbookimportexportplugininterface.h
 -rw-r--r--	root/root	usr/include/KF5/kaddressbookimportexport/kaddressbookimportexportpluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/kaddressbookimportexport_version.h
-drwxr-xr-x	root/root	usr/include/KF5/kdepimdbusinterfaces/
--rw-r--r--	root/root	usr/include/KF5/kdepimdbusinterfaces/kdepimdbusinterfaces_export.h
--rw-r--r--	root/root	usr/include/KF5/kdepimdbusinterfaces/reminderclient.h
--rw-r--r--	root/root	usr/include/KF5/kdepimdbusinterfaces/urihandler.h
--rw-r--r--	root/root	usr/include/KF5/kdepimdbusinterfaces_version.h
-drwxr-xr-x	root/root	usr/include/KF5/sendlater/
--rw-r--r--	root/root	usr/include/KF5/sendlater/sendlater_export.h
--rw-r--r--	root/root	usr/include/KF5/sendlater/sendlateragentsettings.h
--rw-r--r--	root/root	usr/include/KF5/sendlater/sendlaterdialog.h
--rw-r--r--	root/root	usr/include/KF5/sendlater/sendlaterinfo.h
--rw-r--r--	root/root	usr/include/KF5/sendlater/sendlaterutil.h
--rw-r--r--	root/root	usr/include/KF5/sendlater_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/KF5FollowupReminder/
--rw-r--r--	root/root	usr/lib/cmake/KF5FollowupReminder/KF5FollowupReminderConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5FollowupReminder/KF5FollowupReminderConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5FollowupReminder/KF5FollowupReminderTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5FollowupReminder/KF5FollowupReminderTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/KF5KaddressbookGrantlee/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KaddressbookGrantlee/KF5KaddressbookGrantleeConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KaddressbookGrantlee/KF5KaddressbookGrantleeConfigVersion.cmake
@@ -77,40 +44,17 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5KaddressbookImportExport/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KaddressbookImportExport/KF5KaddressbookImportExportConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KaddressbookImportExport/KF5KaddressbookImportExportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KaddressbookImportExport/KF5KaddressbookImportExportTargets.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/KF5KdepimDBusInterfaces/
--rw-r--r--	root/root	usr/lib/cmake/KF5KdepimDBusInterfaces/KF5KdepimDBusInterfacesConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KdepimDBusInterfaces/KF5KdepimDBusInterfacesConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KdepimDBusInterfaces/KF5KdepimDBusInterfacesTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KdepimDBusInterfaces/KF5KdepimDBusInterfacesTargets.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/KF5SendLater/
--rw-r--r--	root/root	usr/lib/cmake/KF5SendLater/KF5SendLaterConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5SendLater/KF5SendLaterConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5SendLater/KF5SendLaterTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5SendLater/KF5SendLaterTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKF5FollowupReminder.so -> libKF5FollowupReminder.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5FollowupReminder.so.5 -> libKF5FollowupReminder.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5FollowupReminder.so.5.14.3
 lrwxrwxrwx	root/root	usr/lib/libKF5KaddressbookGrantlee.so -> libKF5KaddressbookGrantlee.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KaddressbookGrantlee.so.5 -> libKF5KaddressbookGrantlee.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5KaddressbookGrantlee.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5KaddressbookGrantlee.so.5 -> libKF5KaddressbookGrantlee.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KaddressbookGrantlee.so.5.15.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KaddressbookImportExport.so -> libKF5KaddressbookImportExport.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KaddressbookImportExport.so.5 -> libKF5KaddressbookImportExport.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5KaddressbookImportExport.so.5.14.3
-lrwxrwxrwx	root/root	usr/lib/libKF5KdepimDBusInterfaces.so -> libKF5KdepimDBusInterfaces.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KdepimDBusInterfaces.so.5 -> libKF5KdepimDBusInterfaces.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5KdepimDBusInterfaces.so.5.14.3
-lrwxrwxrwx	root/root	usr/lib/libKF5SendLater.so -> libKF5SendLater.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5SendLater.so.5 -> libKF5SendLater.so.5.14.3
--rwxr-xr-x	root/root	usr/lib/libKF5SendLater.so.5.14.3
+lrwxrwxrwx	root/root	usr/lib/libKF5KaddressbookImportExport.so.5 -> libKF5KaddressbookImportExport.so.5.15.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KaddressbookImportExport.so.5.15.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_FollowupReminder.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KaddressbookGrantlee.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KaddressbookImportExport.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KdepimDBusInterfaces.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_SendLater.pri
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kdepim-apps-lib.categories
--rw-r--r--	root/root	usr/share/qlogging-categories5/kdepim-apps-lib.renamecategories
