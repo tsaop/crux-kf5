@@ -1,11 +1,11 @@
 # Description: Plugin and hook calling mechanisms for python
 # URL: https://pypi.python.org/pypi/pluggy
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python3-importlib-metadata
+# Depends on:  python3-importlib_metadata
 
 name=python3-pluggy
 version=0.13.1
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/f8/04/7a8542bed4b16a65c2714bf76cf5a0b026157da7f75e87cc88774aa10b14/${name/python3-/}-$version.tar.gz)
 
 build() {
