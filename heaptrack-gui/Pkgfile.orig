@@ -1,7 +1,7 @@
 # Description: Qt5 GUI for heaptrack
 # URL: http://milianw.de/tag/heaptrack
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: heaptrack kdiagram kio kitemmodels threadweaver
+# Depends on: boost dbus freetype glib harfbuzz heaptrack karchive kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdiagram kguiaddons ki18n kiconthemes kio kitemmodels kitemviews kjobwidgets kservice kwidgetsaddons kwindowsystem libglvnd libpng qt5 threadweaver xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-xcb-util-keysyms
 
 name=heaptrack-gui
 version=1.2.0
