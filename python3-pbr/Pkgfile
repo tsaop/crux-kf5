@@ -4,9 +4,9 @@
 # Depends on:  python3-setuptools
 
 name=python3-pbr
-version=5.4.5
+version=5.5.0
 release=1
-source=(https://files.pythonhosted.org/packages/8a/a8/bb34d7997eb360bc3e98d201a20b5ef44e54098bb2b8e978ae620d933002/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/f1/6b/25479e6b27c7fdf2550b97611c55e58245fc6c1ee8fb297056e1168832ff/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
