@@ -110,12 +110,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/DigikamGui/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/DigikamPlugin/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.1.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.1.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.1.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.1.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.1.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.1.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/
@@ -143,6 +143,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_CurvesAdjust_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_FilmGrain_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Flip_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_HotPixels_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_HslCorrection_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_IccConvert_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Invert_Plugin.so
@@ -155,6 +156,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Restoration_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Rotate_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Sharpen_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Texture_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_TimeAdjust_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_UserScript_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_WaterMark_Plugin.so
