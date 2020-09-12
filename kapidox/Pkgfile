@@ -1,27 +1,15 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  cmake python3
+# Depends on: python3-setuptools python3-yaml python3-jinja
 
 name=kapidox
-version=5.73.0
+version=5.74.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev \
-	..
-
-	make
-	make DESTDIR=$PKG install
-
+	python3 setup.py install --prefix=/usr --root=$PKG
 }
