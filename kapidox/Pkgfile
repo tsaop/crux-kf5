@@ -1,11 +1,11 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: python3-setuptools python3-yaml python3-jinja
+# Depends on: python3-setuptools python3-yaml python3-jinja python3-requests
 
 name=kapidox
 version=5.74.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {

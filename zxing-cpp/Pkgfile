@@ -4,20 +4,18 @@
 # Depends on:  cmake
 
 name=zxing-cpp
-version=1.1.0
+version=1.1.1
 release=1
 source=(https://github.com/nu-book/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_BUILD_TYPE=Release \
+	cmake -B build \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_SHARED_LIBRARY=ON \
-		..
+		-DBUILD_SHARED_LIBRARY=ON
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
