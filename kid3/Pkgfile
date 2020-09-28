@@ -1,10 +1,10 @@
 # Description: Kid3 is an audio tag editor supporting MP3, Ogg/Vorbis, FLAC, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA, WAV and AIFF files 
 # URL: https://kid3.kde.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: chromaprint desktop-file-utils flac id3lib kxmlgui taglib
+# Depends on: chromaprint flac id3lib kio taglib
 
 name=kid3
-version=3.8.3
+version=3.8.4
 release=1
 source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
