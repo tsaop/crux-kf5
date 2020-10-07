@@ -66,9 +66,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/aqbanking-6.2/
 -rw-r--r--	root/root	usr/lib/cmake/aqbanking-6.2/aqbanking-config-version.cmake
 -rw-r--r--	root/root	usr/lib/cmake/aqbanking-6.2/aqbanking-config.cmake
 -rwxr-xr-x	root/root	usr/lib/libaqbanking.la
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.44.2.2
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.44 -> libaqbanking.so.44.2.2
--rwxr-xr-x	root/root	usr/lib/libaqbanking.so.44.2.2
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.44.2.5
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.44 -> libaqbanking.so.44.2.5
+-rwxr-xr-x	root/root	usr/lib/libaqbanking.so.44.2.5
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/aqbanking.pc
 drwxr-xr-x	root/root	usr/share/
@@ -266,6 +266,8 @@ drwxr-xr-x	root/root	usr/share/aqbanking/typemaker2/c/
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_security.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_security_list.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_security_list2.tm2
+-rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_swift_descr.tm2
+-rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_swift_descr_list.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_transaction.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_transaction_limits.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_transaction_limits_list.tm2
