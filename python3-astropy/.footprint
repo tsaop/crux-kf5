@@ -12,14 +12,14 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.1-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy-4.0.2-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/CITATION
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/__init__.py
@@ -649,6 +649,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/__pyc
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/arange.fits
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/ascii.fits
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/ascii_i4-i20.fits
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/blank.fits
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/btable.fits
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/fits/tests/data/chandra_time.fits
@@ -957,6 +958,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/da
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/irsa-nph-error.xml
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/irsa-nph-m31.xml
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/names.xml
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/no_field_not_empty_table.xml
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/no_resource.txt
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/no_resource.xml
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/io/votable/tests/data/nonstandard_units.xml
@@ -2010,6 +2012,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__pycache__/__init__.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__pycache__/test_auxprm.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__pycache__/test_pickle.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__pycache__/test_profiling.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/__pycache__/test_utils.cpython-37.pyc
@@ -2089,6 +2092,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/extension
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/extension/setup.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/extension/test_extension.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/extension/wcsapi_test.c
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/test_auxprm.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/test_pickle.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/test_profiling.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/astropy/wcs/tests/test_utils.py
