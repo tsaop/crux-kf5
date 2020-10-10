@@ -6,11 +6,16 @@
 name=krita
 version=4.3.0
 release=1
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz
+	krita-quazip1.patch)
 
 build() {
 
 	cd $SRC
+
+	( cd $name-$version
+ 	patch -Np1 -i $SRC/krita-quazip1.patch )
+
 	mkdir build; cd build
 
 	cmake \
