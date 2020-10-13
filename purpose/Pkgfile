@@ -1,10 +1,10 @@
 # Description: Framework for providing abstractions to get the developer's purposes fulfilled
 # URL: http://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: accounts-qml-module kaccounts-providers kirigami2
+# Depends on: accounts-qml-module kaccounts-providers kirigami2 qtwebengine
 
 name=purpose
-version=5.74.0
+version=5.75.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

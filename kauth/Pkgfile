@@ -4,7 +4,7 @@
 # Depends on: kcoreaddons polkit-qt5
 
 name=kauth
-version=5.74.0
+version=5.75.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
