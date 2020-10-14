@@ -17,11 +17,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/ScreenSaverDBusInterface/
 -rwxr-xr-x	root/root	usr/lib/kcheckpass
 -rwxr-xr-x	root/root	usr/lib/kscreenlocker_greet
 lrwxrwxrwx	root/root	usr/lib/libKScreenLocker.so -> libKScreenLocker.so.5
-lrwxrwxrwx	root/root	usr/lib/libKScreenLocker.so.5 -> libKScreenLocker.so.5.19.5
--rwxr-xr-x	root/root	usr/lib/libKScreenLocker.so.5.19.5
+lrwxrwxrwx	root/root	usr/lib/libKScreenLocker.so.5 -> libKScreenLocker.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKScreenLocker.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/screenlocker_kcm.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_screenlocker.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
@@ -32,6 +33,17 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rwxr-xr-x	root/root	usr/share/kconf_update/ksreenlocker_5_3_separate_autologin.pl
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/ksmserver.notifyrc
+drwxr-xr-x	root/root	usr/share/kpackage/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_screenlocker/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_screenlocker/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/Appearance.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/LnfConfig.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/WallpaperConfig.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_screenlocker/metadata.desktop
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_screenlocker/metadata.json
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/screenlocker.desktop
 drwxr-xr-x	root/root	usr/share/ksmserver/
