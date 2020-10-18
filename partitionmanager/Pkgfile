@@ -4,21 +4,21 @@
 # Depends on: gtk kpmcore
 
 name=partitionmanager
-version=4.1.0
+version=4.2.0
 release=1
 source=(http://download.kde.org/stable/$name/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
+	mkdir build; cd build
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	..
 
 	make
 	make DESTDIR=$PKG install
