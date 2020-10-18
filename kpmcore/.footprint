@@ -34,7 +34,6 @@ drwxr-xr-x	root/root	usr/include/kpmcore/fs/
 -rw-r--r--	root/root	usr/include/kpmcore/fs/fat12.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/fat16.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/fat32.h
--rw-r--r--	root/root	usr/include/kpmcore/fs/feature.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/filesystem.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/filesystemfactory.h
 -rw-r--r--	root/root	usr/include/kpmcore/fs/hfs.h
@@ -97,11 +96,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPMcore/
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
-drwxr-xr-x	root/root	usr/lib/kauth/
--rwxr-xr-x	root/root	usr/lib/kauth/kpmcore_externalcommand
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.9
--rwxr-xr-x	root/root	usr/lib/libkpmcore.so.4.1.0
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.9 -> libkpmcore.so.4.1.0
+drwxr-xr-x	root/root	usr/lib/libexec/
+-rwxr-xr-x	root/root	usr/lib/libexec/kpmcore_externalcommand
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.10
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.10 -> libkpmcore.so.4.2.0
+-rwxr-xr-x	root/root	usr/lib/libkpmcore.so.4.2.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libpmdummybackendplugin.so
@@ -109,10 +108,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
--rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kpmcore.externalcommand.service
+-rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kpmcore.helperinterface.service
 drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
--rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.kpmcore.applicationinterface.conf
--rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.kpmcore.externalcommand.conf
 -rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
