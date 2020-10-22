@@ -3,10 +3,10 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/oxygen-demo5
 -rwxr-xr-x	root/root	usr/bin/oxygen-settings5
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/liboxygenstyle5.so.5 -> liboxygenstyle5.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/liboxygenstyle5.so.5.20.0
-lrwxrwxrwx	root/root	usr/lib/liboxygenstyleconfig5.so.5 -> liboxygenstyleconfig5.so.5.20.0
--rwxr-xr-x	root/root	usr/lib/liboxygenstyleconfig5.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/liboxygenstyle5.so.5 -> liboxygenstyle5.so.5.20.1
+-rwxr-xr-x	root/root	usr/lib/liboxygenstyle5.so.5.20.1
+lrwxrwxrwx	root/root	usr/lib/liboxygenstyleconfig5.so.5 -> liboxygenstyleconfig5.so.5.20.1
+-rwxr-xr-x	root/root	usr/lib/liboxygenstyleconfig5.so.5.20.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kstyle_oxygen_config.so
@@ -59,7 +59,11 @@ lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/left_ptr_watch -> half-
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/left_side
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/move -> closedhand
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/nesw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/pirate
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/pointer -> pointing_hand
@@ -72,6 +76,7 @@ lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/s-resize -> size_ver
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/sb_h_double_arrow
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/sb_v_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/se-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_all
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_bdiag
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_fdiag
@@ -79,6 +84,7 @@ lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/s-resize -> size_ver
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_ver
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/split_h
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/sw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/text -> xterm
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/top_left_corner
 -rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/top_right_corner
@@ -140,7 +146,11 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/left_ptr_watch -> half
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/link
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/move -> closedhand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/nesw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/pirate
@@ -153,6 +163,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_fdiag
@@ -160,6 +171,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_ver
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/text -> xterm
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/up_arrow
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/v_double_arrow -> size_ver
@@ -217,7 +229,11 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/left_ptr_watch -> half-
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/link
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/move -> closedhand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/nesw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/pirate
@@ -230,6 +246,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_fdiag
@@ -237,6 +254,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_ver
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/text -> xterm
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/up_arrow
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/v_double_arrow -> size_ver
@@ -294,7 +312,11 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/left_ptr_watch -> half
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/link
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/move -> closedhand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/nesw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/pirate
@@ -307,6 +329,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_fdiag
@@ -314,6 +337,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_ver
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/text -> xterm
 -rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/up_arrow
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/v_double_arrow -> size_ver
@@ -371,7 +395,11 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/left_ptr_watch -> hal
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/link
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/move -> closedhand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/nesw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/pirate
@@ -384,6 +412,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_fdiag
@@ -391,6 +420,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_ver
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/text -> xterm
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/up_arrow
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/v_double_arrow -> size_ver
@@ -448,7 +478,11 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/left_ptr_watch -> half-
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/link
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/move -> closedhand
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/nesw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/nwse-resize -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/openhand
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/pencil
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/pirate
@@ -461,6 +495,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/row-resize -> split_v
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/s-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sb_h_double_arrow -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_bdiag
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_fdiag
@@ -468,6 +503,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/size_all -> fleur
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_ver
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/split_h
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sw-resize -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/text -> xterm
 -rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/up_arrow
 lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/v_double_arrow -> size_ver
