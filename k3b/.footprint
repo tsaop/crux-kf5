@@ -121,8 +121,8 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/k3bvideodvdvideostream.h
 -rw-r--r--	root/root	usr/include/k3bwavefilewriter.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/libexec/
--rwxr-xr-x	root/root	usr/lib/libexec/k3bhelper
+drwxr-xr-x	root/root	usr/lib/kauth/
+-rwxr-xr-x	root/root	usr/lib/kauth/k3bhelper
 lrwxrwxrwx	root/root	usr/lib/libk3bdevice.so -> libk3bdevice.so.7
 lrwxrwxrwx	root/root	usr/lib/libk3bdevice.so.7 -> libk3bdevice.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libk3bdevice.so.7.0.0

@@ -1,10 +1,10 @@
 # Description: KDE personal organizer
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-notes incidenceeditor kontactinterface
+# Depends on: incidenceeditor kontactinterface
 
 name=korganizer
-version=20.08.0
+version=20.08.2
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
