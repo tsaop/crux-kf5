@@ -19,9 +19,9 @@ drwxr-xr-x	root/root	usr/include/libqalculate/
 -rw-r--r--	root/root	usr/include/libqalculate/util.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libqalculate.la
-lrwxrwxrwx	root/root	usr/lib/libqalculate.so -> libqalculate.so.21.9.3
-lrwxrwxrwx	root/root	usr/lib/libqalculate.so.21 -> libqalculate.so.21.9.3
--rwxr-xr-x	root/root	usr/lib/libqalculate.so.21.9.3
+lrwxrwxrwx	root/root	usr/lib/libqalculate.so -> libqalculate.so.21.9.4
+lrwxrwxrwx	root/root	usr/lib/libqalculate.so.21 -> libqalculate.so.21.9.4
+-rwxr-xr-x	root/root	usr/lib/libqalculate.so.21.9.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libqalculate.pc
 drwxr-xr-x	root/root	usr/share/
@@ -36,5 +36,6 @@ drwxr-xr-x	root/root	usr/share/qalculate/
 -rw-r--r--	root/root	usr/share/qalculate/functions.xml
 -rw-r--r--	root/root	usr/share/qalculate/planets.xml
 -rw-r--r--	root/root	usr/share/qalculate/prefixes.xml
+-rw-r--r--	root/root	usr/share/qalculate/rates.json
 -rw-r--r--	root/root	usr/share/qalculate/units.xml
 -rw-r--r--	root/root	usr/share/qalculate/variables.xml
