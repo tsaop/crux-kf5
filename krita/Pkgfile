@@ -4,18 +4,13 @@
 # Depends on: eigen exiv2 giflib gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 quazip5 vc xorg-xinput
 
 name=krita
-version=4.4.0
+version=4.4.1
 release=1
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz
-	krita-quazip1.patch)
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
 
 build() {
 
 	cd $SRC
-
-	( cd $name-$version
- 	patch -Np1 -i $SRC/krita-quazip1.patch )
-
 	mkdir build; cd build
 
 	cmake \
