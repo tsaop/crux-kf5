@@ -4,14 +4,13 @@
 # Depends on: signond
 
 name=signon-plugin-oauth2
-version=0.24
-release=2
-source=()
+version=0.25
+release=1
+source=(https://gitlab.com/accounts-sso/$name/-/archive/VERSION_${version}/$name-VERSION_${version}.tar.bz2)
 
 build() 
 {
-	git clone https://gitlab.com/accounts-sso/$name.git --branch=VERSION_$version
-	cd $name
+	cd $name-VERSION_${version}
 
 	# Remove -Werror
 	sed -i '/-Werror/d' common-project-config.pri	
