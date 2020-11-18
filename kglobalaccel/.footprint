@@ -22,10 +22,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5GlobalAccel/
 -rw-r--r--	root/root	usr/lib/cmake/KF5GlobalAccel/KF5GlobalAccelTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5GlobalAccel/KF5GlobalAccelTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5GlobalAccel.so -> libKF5GlobalAccel.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5GlobalAccel.so.5 -> libKF5GlobalAccel.so.5.75.0
--rwxr-xr-x	root/root	usr/lib/libKF5GlobalAccel.so.5.75.0
-lrwxrwxrwx	root/root	usr/lib/libKF5GlobalAccelPrivate.so.5 -> libKF5GlobalAccelPrivate.so.5.75.0
--rwxr-xr-x	root/root	usr/lib/libKF5GlobalAccelPrivate.so.5.75.0
+lrwxrwxrwx	root/root	usr/lib/libKF5GlobalAccel.so.5 -> libKF5GlobalAccel.so.5.76.0
+-rwxr-xr-x	root/root	usr/lib/libKF5GlobalAccel.so.5.76.0
+lrwxrwxrwx	root/root	usr/lib/libKF5GlobalAccelPrivate.so.5 -> libKF5GlobalAccelPrivate.so.5.76.0
+-rwxr-xr-x	root/root	usr/lib/libKF5GlobalAccelPrivate.so.5.76.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -33,6 +33,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kglobalaccel5.platforms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kglobalaccel5.platforms/KF5GlobalAccelPrivateXcb.so
+drwxr-xr-x	root/root	usr/lib/systemd/
+drwxr-xr-x	root/root	usr/lib/systemd/user/
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-kglobalaccel.service
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
