@@ -4,9 +4,9 @@
 # Depends on: python3-extension-helpers python3-jinja python3-numpy python3-pytest
 
 name=python3-astropy
-version=4.1
+version=4.2
 release=1
-source=(https://files.pythonhosted.org/packages/c0/28/926fb3982234c3b60c5b963fd4523474383d9334bb8354c4b8110bbe4d85/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/b9/ce/1cfa22a5cb8a04b716f7649ee10d82f751d4bc954f468a617551a78c05d4/${name/python3-}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
