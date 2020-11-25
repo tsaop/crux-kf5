@@ -1,0 +1,20 @@
+# Description: Cross Platform Sextractor and Astrometry.net-Based Internal Astrometric Solver
+# URL: https://github.com/rlancaste/stellarsolver
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake ninja cfitsio gsl wcslib qt5
+
+name=stellarsolver
+version=1.5
+release=1
+source=(https://github.com/rlancaste/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild -GNinja \
+		-DCMAKE_BUILD_TYPE=Relase \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
