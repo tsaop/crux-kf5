@@ -62,12 +62,12 @@ drwxr-xr-x	root/root	usr/include/mlt/framework/
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_types.h
 -rw-r--r--	root/root	usr/include/mlt/framework/mlt_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.22.1
-lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.22.1
--rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.22.1
-lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.22.1
-lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.22.1
--rwxr-xr-x	root/root	usr/lib/libmlt.so.6.22.1
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so -> libmlt++.so.6.24.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++.so.3 -> libmlt++.so.6.24.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++.so.6.24.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so -> libmlt.so.6.24.0
+lrwxrwxrwx	root/root	usr/lib/libmlt.so.6 -> libmlt.so.6.24.0
+-rwxr-xr-x	root/root	usr/lib/libmlt.so.6.24.0
 drwxr-xr-x	root/root	usr/lib/mlt/
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt/libmltcore.so
@@ -107,6 +107,7 @@ drwxr-xr-x	root/root	usr/share/mlt/core/
 -rw-r--r--	root/root	usr/share/mlt/core/filter_audiowave.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_brightness.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_channelcopy.yml
+-rw-r--r--	root/root	usr/share/mlt/core/filter_choppy.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_crop.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_data_show.yml
 -rw-r--r--	root/root	usr/share/mlt/core/filter_fieldorder.yml
@@ -205,6 +206,7 @@ drwxr-xr-x	root/root	usr/share/mlt/plus/
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_loudness.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_loudness_meter.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_lumakey.yml
+-rw-r--r--	root/root	usr/share/mlt/plus/filter_pillar_echo.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_rgblut.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_sepia.yml
 -rw-r--r--	root/root	usr/share/mlt/plus/filter_spot_remover.yml
@@ -436,6 +438,7 @@ drwxr-xr-x	root/root	usr/share/mlt/qt/
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_audiowaveform.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_lightshow.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_qtblend.yml
+-rw-r--r--	root/root	usr/share/mlt/qt/filter_qtcrop.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/filter_qtext.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_kdenlivetitle.yml
 -rw-r--r--	root/root	usr/share/mlt/qt/producer_qimage.yml
