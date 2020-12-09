@@ -1,11 +1,11 @@
 # Description: Color management framework for visual effects and animation
 # URL: http://opencolorio.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: boost lcms2 python3 tinyxml yaml-cpp
+# Depends on: boost lcms2 tinyxml yaml-cpp
 
 name=opencolorio
 version=1.1.1
-release=3
+release=4
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz)
 
 build() {

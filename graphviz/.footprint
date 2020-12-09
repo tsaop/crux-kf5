@@ -107,16 +107,6 @@ drwxr-xr-x	root/root	usr/lib/graphviz/perl/
 lrwxrwxrwx	root/root	usr/lib/graphviz/perl/gv.so -> libgv_perl.so
 -rwxr-xr-x	root/root	usr/lib/graphviz/perl/libgv_perl.la
 -rwxr-xr-x	root/root	usr/lib/graphviz/perl/libgv_perl.so
-drwxr-xr-x	root/root	usr/lib/graphviz/python/
-lrwxrwxrwx	root/root	usr/lib/graphviz/python/_gv.so -> libgv_python.so
--rw-r--r--	root/root	usr/lib/graphviz/python/gv.py
--rwxr-xr-x	root/root	usr/lib/graphviz/python/libgv_python.la
--rwxr-xr-x	root/root	usr/lib/graphviz/python/libgv_python.so
-drwxr-xr-x	root/root	usr/lib/graphviz/python2/
-lrwxrwxrwx	root/root	usr/lib/graphviz/python2/_gv.so -> libgv_python2.so
--rw-r--r--	root/root	usr/lib/graphviz/python2/gv.py
--rwxr-xr-x	root/root	usr/lib/graphviz/python2/libgv_python2.la
--rwxr-xr-x	root/root	usr/lib/graphviz/python2/libgv_python2.so
 drwxr-xr-x	root/root	usr/lib/graphviz/python3/
 lrwxrwxrwx	root/root	usr/lib/graphviz/python3/_gv.so -> libgv_python3.so
 -rw-r--r--	root/root	usr/lib/graphviz/python3/gv.py
@@ -172,10 +162,10 @@ lrwxrwxrwx	root/root	usr/lib/libxdot.so.4 -> libxdot.so.4.0.0
 -rwxr-xr-x	root/root	usr/lib/libxdot.so.4.0.0
 drwxr-xr-x	root/root	usr/lib/perl5/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
-drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/
-drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/
--rw-r--r--	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/gv.pm
--rwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/gv.so
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/linux-thread-multi/
+-rw-r--r--	root/root	usr/lib/perl5/site_perl/5.32/linux-thread-multi/gv.pm
+-rwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/linux-thread-multi/gv.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libcdt.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libcgraph.pc
@@ -184,36 +174,12 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/liblab_gamut.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libpathplan.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libxdot.pc
-drwxr-xr-x	root/root	usr/lib/python2.7/
-drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/_gv.so
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/gv.py
-drwxr-xr-x	root/root	usr/lib/python3.7/
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
--rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/_gv.so
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/gv.py
-drwxr-xr-x	root/root	usr/lib64/
-drwxr-xr-x	root/root	usr/lib64/tcl8.6/
-drwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.la
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.so -> libgdtclft.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.so.0 -> libgdtclft.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgdtclft.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgv_tcl.la
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libgv_tcl.so
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.la
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.so -> libtcldot.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.so.0 -> libtcldot.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.la
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.so -> libtcldot_builtin.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.so.0 -> libtcldot_builtin.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtcldot_builtin.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.la
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.so -> libtclplan.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.so.0 -> libtclplan.so.0.0.0
--rwxr-xr-x	root/root	usr/lib64/tcl8.6/graphviz/libtclplan.so.0.0.0
--rw-r--r--	root/root	usr/lib64/tcl8.6/graphviz/pkgIndex.tcl
+drwxr-xr-x	root/root	usr/lib/python3.9/
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/_gv.so
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/gv.py
+drwxr-xr-x	root/root	usr/lib/tcl8.6/
+lrwxrwxrwx	root/root	usr/lib/tcl8.6/graphviz -> ../graphviz/tcl
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/graphviz/
 drwxr-xr-x	root/root	usr/share/graphviz/demo/

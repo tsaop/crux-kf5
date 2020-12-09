@@ -5,7 +5,7 @@
 
 name=python3-extension-helpers
 version=0.1
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/81/78/056daee475dfc41cc0b62540388703cddcae4d4f6bef10c6ce1aea76ebaf/${name/python3-/}-$version.tar.gz)
 
 build() {

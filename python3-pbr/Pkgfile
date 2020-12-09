@@ -5,7 +5,7 @@
 
 name=python3-pbr
 version=5.5.1
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/65/e2/8cb5e718a3a63e8c22677fde5e3d8d18d12a551a1bbd4557217e38a97ad0/${name/python3-/}-$version.tar.gz)
 
 build() {
