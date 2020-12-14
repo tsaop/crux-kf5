@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.76.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.76.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.77.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.77.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.76.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.76.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.77.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.77.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -332,6 +332,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/core/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/core/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/App.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/BasicPlasmoidHeading.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ConditionalLoader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/DescriptiveLabel.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ExpandableListItem.qml
@@ -341,6 +342,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Paragraph.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/PlaceholderMessage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/PlasmoidHeading.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Representation.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ScrollArea.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Title.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/
@@ -351,6 +353,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/ReleasedAnimation.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/libplasmaextracomponentsplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/plugins.qmltypes
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/private/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/private/BackgroundMetrics.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/private/qmldir
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/platformcomponents/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/platformcomponents/libplatformcomponentsplugin.so
@@ -531,6 +536,7 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/icons/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kruler.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kteatime.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/ktorrent.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/kup.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/list.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/mail.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/icons/media.svgz
@@ -593,6 +599,7 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/line.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/lineedit.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/listitem.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/margins-highlight.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/media-delegate.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/monitor.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/notes.svgz
