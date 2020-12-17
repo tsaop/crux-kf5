@@ -5,10 +5,15 @@
 
 name=krita
 version=4.4.1
-release=1
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
+release=2
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz
+	krita-c++14.patch)
 
 build() {
+
+	( cd $name-$version
+	  patch -Np1 -i $SRC/krita-c++14.patch
+	)
 
 	cd $SRC
 	mkdir build; cd build
