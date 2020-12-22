@@ -1,11 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/cantor.knsrc
--rw-r--r--	root/root	etc/xdg/cantor_maxima.knsrc
--rw-r--r--	root/root	etc/xdg/cantor_octave.knsrc
--rw-r--r--	root/root	etc/xdg/cantor_python.knsrc
--rw-r--r--	root/root	etc/xdg/cantor_sage.knsrc
--rw-r--r--	root/root	etc/xdg/cantor_scilab.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/cantor
@@ -31,6 +23,8 @@ drwxr-xr-x	root/root	usr/include/cantor/
 -rw-r--r--	root/root	usr/include/cantor/jupyterutils.h
 -rw-r--r--	root/root	usr/include/cantor/latexresult.h
 -rw-r--r--	root/root	usr/include/cantor/mimeresult.h
+-rw-r--r--	root/root	usr/include/cantor/panelplugin.h
+-rw-r--r--	root/root	usr/include/cantor/panelpluginhandler.h
 -rw-r--r--	root/root	usr/include/cantor/renderer.h
 -rw-r--r--	root/root	usr/include/cantor/result.h
 -rw-r--r--	root/root	usr/include/cantor/session.h
@@ -46,9 +40,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/Cantor/
 -rw-r--r--	root/root	usr/lib/cmake/Cantor/CantorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Cantor/CantorTargets.cmake
 -rwxr-xr-x	root/root	usr/lib/libcantor_config.so
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.27
--rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.20.08.3
-lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.27 -> libcantorlibs.so.20.08.3
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so -> libcantorlibs.so.28
+-rwxr-xr-x	root/root	usr/lib/libcantorlibs.so.20.12.0
+lrwxrwxrwx	root/root	usr/lib/libcantorlibs.so.28 -> libcantorlibs.so.20.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/
@@ -74,6 +68,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/backends/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_filebrowserpanelplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_helppanelplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_tocpanelplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/cantor/panels/cantor_variablemanagerplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libcantorpart.so
 drwxr-xr-x	root/root	usr/share/
@@ -135,6 +130,13 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/cantor.png
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/cantor.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/cantor_maxima.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/cantor_octave.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/cantor_python.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/cantor_sage.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/cantor_scilab.knsrc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/cantor/
 -rw-r--r--	root/root	usr/share/kxmlgui5/cantor/cantor_advancedplot_assistant.rc

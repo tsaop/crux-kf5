@@ -12,14 +12,12 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.1 -> libkdeconnectcore.so.1.4.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.1.4.0
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.1 -> libkdeconnectinterfaces.so.1.4.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.1.4.0
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.1 -> libkdeconnectpluginkcm.so.1.4.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.1.4.0
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectsmshelper.so.1 -> libkdeconnectsmshelper.so.1.4.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectsmshelper.so.1.4.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.20 -> libkdeconnectcore.so.20.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.20.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.20 -> libkdeconnectinterfaces.so.20.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.20.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.20 -> libkdeconnectpluginkcm.so.20.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.20.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
@@ -137,6 +135,12 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdeconnect.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdeconnectindicator.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdeconnectindicatordark.svg
+drwxr-xr-x	root/root	usr/share/kdeconnect/
+-rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_findthisdevice_config.qml
+-rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_pausemusic_config.qml
+-rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_runcommand_config.qml
+-rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_sendnotifications_config.qml
+-rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_share_config.qml
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kdeconnect.notifyrc
 drwxr-xr-x	root/root	usr/share/kservices5/

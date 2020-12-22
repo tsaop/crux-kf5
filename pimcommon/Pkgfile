@@ -1,10 +1,10 @@
 # Description: Part of Kdepimlibs
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kimap knewstuff kpimtextedit libkdepim purpose
+# Depends on: kimap libkdepim purpose
 
 name=pimcommon
-version=20.08.3
+version=20.12.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

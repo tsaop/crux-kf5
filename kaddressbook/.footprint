@@ -1,10 +1,46 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kaddressbook
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KPim/
+drwxr-xr-x	root/root	usr/include/KPim/KAddressBookImportExport/
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/ContactFields
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/ContactList
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/ContactSelectionDialog
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/ContactSelectionWidget
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/ExportSelectionWidget
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/ImportExportEngine
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/Plugin
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/PluginInterface
+-rw-r--r--	root/root	usr/include/KPim/KAddressBookImportExport/PluginManager
+drwxr-xr-x	root/root	usr/include/KPim/kaddressbookimportexport/
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/contactfields.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/contactlist.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/contactselectiondialog.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/contactselectionwidget.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/exportselectionwidget.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/importexportengine.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/kaddressbook_importexport_export.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/plugin.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/plugininterface.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport/pluginmanager.h
+-rw-r--r--	root/root	usr/include/KPim/kaddressbookimportexport_version.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.15.3
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KPimAddressbookImportExport/
+-rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so -> libKPimAddressbookImportExport.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so.5 -> libKPimAddressbookImportExport.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimAddressbookImportExport.so.5.16.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KAddressbookImportExport.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbook_config_plugins.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbookpart.so

@@ -6,7 +6,11 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/AddTagDialog
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/BackupJob
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionExpiryPage
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionExpiryWidget
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionGeneralPage
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionGeneralWidget
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionTemplatesWidget
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/CollectionViewWidget
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/CryptoUtils
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/DBusOperators
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/ExpireCollectionAttribute
@@ -55,7 +59,11 @@ drwxr-xr-x	root/root	usr/include/KF5/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/addtagdialog.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/backupjob.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/collectionexpirypage.h
+-rw-r--r--	root/root	usr/include/KF5/mailcommon/collectionexpirywidget.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/collectiongeneralpage.h
+-rw-r--r--	root/root	usr/include/KF5/mailcommon/collectiongeneralwidget.h
+-rw-r--r--	root/root	usr/include/KF5/mailcommon/collectiontemplateswidget.h
+-rw-r--r--	root/root	usr/include/KF5/mailcommon/collectionviewwidget.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/cryptoutils.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/dbusoperators.h
 -rw-r--r--	root/root	usr/include/KF5/mailcommon/expirecollectionattribute.h
@@ -111,8 +119,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailCommon/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so -> libKF5MailCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -1,10 +1,10 @@
 # Description: KDE library for calendar support
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-calendar akonadi-notes kdepim-apps-libs kholidays
+# Depends on: akonadi-calendar akonadi-notes kholidays pimcommon
 
 name=calendarsupport
-version=20.08.3
+version=20.12.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kigo-games.knsrc
--rw-r--r--	root/root	etc/xdg/kigo.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kigo
@@ -41,6 +37,9 @@ drwxr-xr-x	root/root	usr/share/kigo/themes/
 -rw-r--r--	root/root	usr/share/kigo/themes/kigo_plain.png
 -rw-r--r--	root/root	usr/share/kigo/themes/kigo_plain.svgz
 -rw-r--r--	root/root	usr/share/kigo/themes/plain.desktop
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kigo-games.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/kigo.knsrc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kigo/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kigo/kigoui.rc

@@ -3,8 +3,6 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/KCheckComboBox
--rw-r--r--	root/root	usr/include/KF5/Libkdepim/KCursorSaver
--rw-r--r--	root/root	usr/include/KF5/Libkdepim/KPrefsDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/KWidgetLister
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/LineEditCatchReturnKey
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/MultiplyingLine
@@ -14,12 +12,9 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressManager
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/ProgressStatusBarWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkdepim/StatusbarProgressWidget
--rw-r--r--	root/root	usr/include/KF5/Libkdepim/UiStateSaver
 drwxr-xr-x	root/root	usr/include/KF5/libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/kcheckcombobox.h
--rw-r--r--	root/root	usr/include/KF5/libkdepim/kcursorsaver.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/kdepim_export.h
--rw-r--r--	root/root	usr/include/KF5/libkdepim/kprefsdialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/kwidgetlister.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/lineeditcatchreturnkey.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/multiplyingline.h
@@ -29,7 +24,6 @@ drwxr-xr-x	root/root	usr/include/KF5/libkdepim/
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressmanager.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/progressstatusbarwidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim/statusbarprogresswidget.h
--rw-r--r--	root/root	usr/include/KF5/libkdepim/uistatesaver.h
 -rw-r--r--	root/root	usr/include/KF5/libkdepim_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -41,8 +35,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Libkdepim/
 drwxr-xr-x	root/root	usr/lib/cmake/MailTransportDBusService/
 -rw-r--r--	root/root	usr/lib/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so -> libKF5Libkdepim.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkdepim.so.5 -> libKF5Libkdepim.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkdepim.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

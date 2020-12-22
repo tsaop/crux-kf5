@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kwordquiz.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kwordquiz
@@ -41,6 +38,8 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kwordquiz.png
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kwordquiz.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kwordquiz.knsrc
 drwxr-xr-x	root/root	usr/share/kwordquiz/
 drwxr-xr-x	root/root	usr/share/kwordquiz/examples/
 -rw-r--r--	root/root	usr/share/kwordquiz/examples/example.kvtml

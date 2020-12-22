@@ -1,7 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kcardtheme.knsrc
--rw-r--r--	root/root	etc/xdg/kpat.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kpat
@@ -38,6 +34,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kpat.png
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kcardtheme.knsrc
+-rw-r--r--	root/root	usr/share/knsrcfiles/kpat.knsrc
 drwxr-xr-x	root/root	usr/share/kpat/
 drwxr-xr-x	root/root	usr/share/kpat/previews/
 -rw-r--r--	root/root	usr/share/kpat/previews/1.png

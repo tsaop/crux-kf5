@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	etc/xdg/autostart/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fsview
+-rwxr-xr-x	root/root	usr/bin/kcreatewebarchive
 -rwxr-xr-x	root/root	usr/bin/kfmclient
 -rwxr-xr-x	root/root	usr/bin/konqueror
 drwxr-xr-x	root/root	usr/include/
@@ -31,10 +32,10 @@ lrwxrwxrwx	root/root	usr/lib/libKF5Konq.so.6 -> libKF5Konq.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kfmclient.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konqueror.so
 lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so -> libkonqsidebarplugin.so.5
--rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.20.08.3
-lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.20.08.3
--rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.20.08.3
-lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.20.08.3
+-rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.20.12.0
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.20.12.0
+-rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.20.12.0
+lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.20.12.0
 -rwxr-xr-x	root/root	usr/lib/libkwebenginepart.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -64,6 +65,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_tree.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/searchbarplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/uachangerplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/webarchiverplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/webarchivethumbnail.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akregator/
 drwxr-xr-x	root/root	usr/share/akregator/pics/
@@ -75,6 +78,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kfmclient_war.desktop
 -rwxr-xr-x	root/root	usr/share/applications/konqbrowser.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/kcreatewebarchive.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/konqueror.kcfg
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
@@ -98,6 +102,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/actions/babelfish.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/actions/imagegallery.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/actions/webarchiver.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/webengine.png
@@ -105,6 +110,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/babelfish.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/imagegallery.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/webarchiver.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/fsview.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/konqueror.png
@@ -124,6 +130,8 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/webengine.png
 drwxr-xr-x	root/root	usr/share/kcmcss/
 -rw-r--r--	root/root	usr/share/kcmcss/template.css
+drwxr-xr-x	root/root	usr/share/kconf_update/
+-rw-r--r--	root/root	usr/share/kconf_update/webenginepart.upd
 drwxr-xr-x	root/root	usr/share/kcontrol/
 drwxr-xr-x	root/root	usr/share/kcontrol/pics/
 -rw-r--r--	root/root	usr/share/kcontrol/pics/onlyone.png
@@ -143,6 +151,8 @@ drwxr-xr-x	root/root	usr/share/khtml/kpartplugins/
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/khtmltts.rc
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_babelfish.rc
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_translator.desktop
+-rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_webarchiver.desktop
+-rw-r--r--	root/root	usr/share/khtml/kpartplugins/plugin_webarchiver.rc
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/uachangerplugin.desktop
 -rw-r--r--	root/root	usr/share/khtml/kpartplugins/uachangerplugin.rc
 drwxr-xr-x	root/root	usr/share/konqsidebartng/
@@ -216,6 +226,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/khtml_java_js.desktop
 -rw-r--r--	root/root	usr/share/kservices5/konq_sidebartng.desktop
 -rw-r--r--	root/root	usr/share/kservices5/org.kde.konqueror.desktop
+-rw-r--r--	root/root	usr/share/kservices5/webarchivethumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/webenginepart.desktop
 drwxr-xr-x	root/root	usr/share/kwebkitpart/
 drwxr-xr-x	root/root	usr/share/kwebkitpart/kpartplugins/
@@ -229,6 +240,8 @@ drwxr-xr-x	root/root	usr/share/kwebkitpart/kpartplugins/
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/khtmltts.rc
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_babelfish.rc
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_translator.desktop
+-rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_webarchiver.desktop
+-rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/plugin_webarchiver.rc
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/uachangerplugin.desktop
 -rw-r--r--	root/root	usr/share/kwebkitpart/kpartplugins/uachangerplugin.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
@@ -255,5 +268,7 @@ drwxr-xr-x	root/root	usr/share/webenginepart/kpartplugins/
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/khtmltts.rc
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/plugin_babelfish.rc
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/plugin_translator.desktop
+-rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/plugin_webarchiver.desktop
+-rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/plugin_webarchiver.rc
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/uachangerplugin.desktop
 -rw-r--r--	root/root	usr/share/webenginepart/kpartplugins/uachangerplugin.rc

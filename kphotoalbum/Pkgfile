@@ -1,11 +1,11 @@
 # Description: KDE applications to easily sort and annotate images 
 # URL: http://www.kphotoalbum.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libkdcraw libkgeomap libkipi purpose
+# Depends on: libkdcraw libkipi purpose marble
 
 name=kphotoalbum
 version=5.7.0
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {

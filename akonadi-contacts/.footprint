@@ -12,6 +12,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactDefaultActions
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditor
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactEditorDialog
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGrantleeWrapper
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGroupEditor
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGroupEditorDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/ContactGroupExpandJob
@@ -29,6 +30,10 @@ drwxr-xr-x	root/root	usr/include/KF5/Akonadi/Contact/
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionDialog
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionModel
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/EmailAddressSelectionWidget
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/GrantleeContactFormatter
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/GrantleeContactGroupFormatter
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/GrantleeContactViewer
+-rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/GrantleePrint
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/OpenEmailAddressJob
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecipientsEditorManager
 -rw-r--r--	root/root	usr/include/KF5/Akonadi/Contact/RecipientsPickerWidget
@@ -51,6 +56,7 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactdefaultactions.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditor.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contacteditordialog.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgrantleewrapper.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgroupeditor.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgroupeditordialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/contactgroupexpandjob.h
@@ -68,6 +74,10 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/contact/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionmodel.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/emailaddressselectionwidget.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/grantleecontactformatter.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/grantleecontactgroupformatter.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/grantleecontactviewer.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/contact/grantleeprint.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/openemailaddressjob.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recipientseditormanager.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/contact/recipientspickerwidget.h
@@ -92,11 +102,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ContactEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so -> libKF5ContactEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kblocks.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kblocks
@@ -43,6 +40,8 @@ drwxr-xr-x	root/root	usr/share/kblocks/themes/
 -rw-r--r--	root/root	usr/share/kblocks/themes/oxygen.desktop
 -rw-r--r--	root/root	usr/share/kblocks/themes/oxygen.svg
 -rw-r--r--	root/root	usr/share/kblocks/themes/oxygen_preview.png
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kblocks.knsrc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kblocks/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kblocks/kblocksui.rc

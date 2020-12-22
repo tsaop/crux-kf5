@@ -15,7 +15,6 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/DirectoryServicesWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Dn
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Enum
--rw-r--r--	root/root	usr/include/KF5/Libkleo/Exception
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/FileNameRequester
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/FileSystemWatcher
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Formatting
@@ -34,6 +33,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeyResolver
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeySelectionCombo
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeySelectionDialog
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/KleoException
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/MessageBox
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/NewKeyApprovalDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/OidMap
@@ -53,7 +53,6 @@ drwxr-xr-x	root/root	usr/include/KF5/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/libkleo/dn.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/dnattributeorderconfigwidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/enum.h
--rw-r--r--	root/root	usr/include/KF5/libkleo/exception.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/filenamerequester.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/filesystemwatcher.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/formatting.h
@@ -73,6 +72,7 @@ drwxr-xr-x	root/root	usr/include/KF5/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyselectioncombo.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyselectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/kleo_export.h
+-rw-r--r--	root/root	usr/include/KF5/libkleo/kleoexception.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/messagebox.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/newkeyapprovaldialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/oidmap.h
@@ -90,8 +90,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Libkleo/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so -> libKF5Libkleo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

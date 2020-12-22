@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kdiamond.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdiamond
@@ -41,6 +38,8 @@ drwxr-xr-x	root/root	usr/share/kdiamond/themes/
 -rw-r--r--	root/root	usr/share/kdiamond/themes/funny_zoo.svgz
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kdiamond.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kdiamond.knsrc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kdiamond/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kdiamond/kdiamondui.rc

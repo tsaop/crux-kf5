@@ -8,7 +8,6 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/KGAPI/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AccountInfoFetchJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AccountManager
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AuthJob
--rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/AuthWidget
 drwxr-xr-x	root/root	usr/include/KPim/KGAPI/KGAPI/Blogger/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Blogger/Blog
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Blogger/BlogFetchJob
@@ -79,6 +78,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/File
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileAbstractDataJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileAbstractModifyJob
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileAbstractResumableJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileAbstractUploadJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileCopyJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileCreateJob
@@ -86,6 +86,8 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileFetchContentJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileFetchJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileModifyJob
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileResumableCreateJob
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileResumableModifyJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileSearchQuery
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileTouchJob
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/KGAPI/Drive/FileTrashJob
@@ -147,7 +149,6 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/kgapi/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/accountinfofetchjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/accountmanager.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/authjob.h
--rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/authwidget.h
 drwxr-xr-x	root/root	usr/include/KPim/KGAPI/kgapi/blogger/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/blogger/blog.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/blogger/blogfetchjob.h
@@ -221,6 +222,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/kgapi/drive/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/file.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/fileabstractdatajob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/fileabstractmodifyjob.h
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/fileabstractresumablejob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/fileabstractuploadjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filecopyjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filecreatejob.h
@@ -228,6 +230,8 @@ drwxr-xr-x	root/root	usr/include/KPim/KGAPI/kgapi/drive/
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filefetchcontentjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filefetchjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filemodifyjob.h
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/fileresumablecreatejob.h
+-rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/fileresumablemodifyjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filesearchquery.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filetouchjob.h
 -rw-r--r--	root/root	usr/include/KPim/KGAPI/kgapi/drive/filetrashjob.h
@@ -297,29 +301,29 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimGAPI/
 -rw-r--r--	root/root	usr/lib/cmake/KPimGAPI/KPimGAPITargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimGAPI/KPimGAPITargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIBlogger.so -> libKPimGAPIBlogger.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIBlogger.so.5 -> libKPimGAPIBlogger.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIBlogger.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIBlogger.so.5 -> libKPimGAPIBlogger.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIBlogger.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPICalendar.so -> libKPimGAPICalendar.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPICalendar.so.5 -> libKPimGAPICalendar.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPICalendar.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPICalendar.so.5 -> libKPimGAPICalendar.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPICalendar.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIContacts.so -> libKPimGAPIContacts.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIContacts.so.5 -> libKPimGAPIContacts.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIContacts.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIContacts.so.5 -> libKPimGAPIContacts.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIContacts.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPICore.so -> libKPimGAPICore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPICore.so.5 -> libKPimGAPICore.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPICore.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPICore.so.5 -> libKPimGAPICore.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPICore.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIDrive.so -> libKPimGAPIDrive.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIDrive.so.5 -> libKPimGAPIDrive.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIDrive.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIDrive.so.5 -> libKPimGAPIDrive.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIDrive.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPILatitude.so -> libKPimGAPILatitude.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPILatitude.so.5 -> libKPimGAPILatitude.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPILatitude.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPILatitude.so.5 -> libKPimGAPILatitude.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPILatitude.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPIMaps.so -> libKPimGAPIMaps.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPIMaps.so.5 -> libKPimGAPIMaps.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPIMaps.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPIMaps.so.5 -> libKPimGAPIMaps.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPIMaps.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKPimGAPITasks.so -> libKPimGAPITasks.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimGAPITasks.so.5 -> libKPimGAPITasks.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKPimGAPITasks.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKPimGAPITasks.so.5 -> libKPimGAPITasks.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKPimGAPITasks.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

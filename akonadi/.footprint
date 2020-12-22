@@ -318,6 +318,7 @@ drwxr-xr-x	root/root	usr/include/KF5/akonadi/
 drwxr-xr-x	root/root	usr/include/KF5/akonadi/private/
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/akonadiprivate_export.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/capabilities_p.h
+-rw-r--r--	root/root	usr/include/KF5/akonadi/private/compressionstream_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/dbus_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/externalpartstorage_p.h
 -rw-r--r--	root/root	usr/include/KF5/akonadi/private/imapparser_p.h
@@ -339,20 +340,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Akonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Akonadi/KF5AkonadiTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so -> libKF5AkonadiAgentBase.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiAgentBase.so.5 -> libKF5AkonadiAgentBase.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiAgentBase.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so -> libKF5AkonadiCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiCore.so.5 -> libKF5AkonadiCore.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiCore.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so -> libKF5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiPrivate.so.5 -> libKF5AkonadiPrivate.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiPrivate.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so -> libKF5AkonadiWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiWidgets.so.5 -> libKF5AkonadiWidgets.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiWidgets.so.5.16.0
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so -> libKF5AkonadiXml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.15.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.15.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiXml.so.5 -> libKF5AkonadiXml.so.5.16.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiXml.so.5.16.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
