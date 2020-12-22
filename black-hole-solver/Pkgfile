@@ -1,0 +1,19 @@
+# Description: Solver, written in C, to solve Golf solitaire, the Solitaire variant called “Black Hole” and the one called “All in a Row”. 
+# URL: https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:
+
+name=black-hole-solver
+version=1.10.1
+release=1
+source=(https://fc-solve.shlomifish.org/downloads/fc-solve/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
