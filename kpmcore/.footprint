@@ -94,13 +94,13 @@ drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KPMcore/
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
 drwxr-xr-x	root/root	usr/lib/libexec/
 -rwxr-xr-x	root/root	usr/lib/libexec/kpmcore_externalcommand
 lrwxrwxrwx	root/root	usr/lib/libkpmcore.so -> libkpmcore.so.10
-lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.10 -> libkpmcore.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkpmcore.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkpmcore.so.10 -> libkpmcore.so.20.12.0
+-rwxr-xr-x	root/root	usr/lib/libkpmcore.so.20.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/libpmdummybackendplugin.so
