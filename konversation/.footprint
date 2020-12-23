@@ -49,6 +49,8 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/konversation.upd
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/konversation.notifyrc
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/konversation_nicklist_theme.knsrc
 drwxr-xr-x	root/root	usr/share/konversation/
 drwxr-xr-x	root/root	usr/share/konversation/scripting_support/
 drwxr-xr-x	root/root	usr/share/konversation/scripting_support/python/
@@ -62,7 +64,6 @@ drwxr-xr-x	root/root	usr/share/konversation/scripts/
 -rwxr-xr-x	root/root	usr/share/konversation/scripts/fortune
 -rw-r--r--	root/root	usr/share/konversation/scripts/fortunes.dat
 -rwxr-xr-x	root/root	usr/share/konversation/scripts/gauge
--rwxr-xr-x	root/root	usr/share/konversation/scripts/mail
 -rwxr-xr-x	root/root	usr/share/konversation/scripts/media
 -rwxr-xr-x	root/root	usr/share/konversation/scripts/sayclip
 -rwxr-xr-x	root/root	usr/share/konversation/scripts/sysinfo
@@ -152,8 +153,7 @@ drwxr-xr-x	root/root	usr/share/konversation/themes/square/
 -rw-r--r--	root/root	usr/share/konversation/themes/square/irc_op.png
 -rw-r--r--	root/root	usr/share/konversation/themes/square/irc_owner.png
 -rw-r--r--	root/root	usr/share/konversation/themes/square/irc_voice.png
-drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/konversation/
--rw-r--r--	root/root	usr/share/kxmlgui5/konversation/konversationui.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.konversation.appdata.xml
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/konversation.categories
