@@ -82,14 +82,11 @@ drwxr-xr-x	root/root	usr/include/KF5/libktorrent/interfaces/
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/interfaces/trackerslist.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/interfaces/webseedinterface.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/ktorrent_export.h
+-rw-r--r--	root/root	usr/include/KF5/libktorrent/libktorrent_version.h
 drwxr-xr-x	root/root	usr/include/KF5/libktorrent/magnet/
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/magnet/magnetdownloader.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/magnet/magnetlink.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/magnet/metadatadownload.h
-drwxr-xr-x	root/root	usr/include/KF5/libktorrent/migrate/
--rw-r--r--	root/root	usr/include/KF5/libktorrent/migrate/cachemigrate.h
--rw-r--r--	root/root	usr/include/KF5/libktorrent/migrate/ccmigrate.h
--rw-r--r--	root/root	usr/include/KF5/libktorrent/migrate/migrate.h
 drwxr-xr-x	root/root	usr/include/KF5/libktorrent/mse/
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/mse/bigint.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/mse/encryptedauthenticate.h
@@ -154,7 +151,6 @@ drwxr-xr-x	root/root	usr/include/KF5/libktorrent/torrent/
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/torrent/torrentstats.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/torrent/uploader.h
 drwxr-xr-x	root/root	usr/include/KF5/libktorrent/tracker/
--rw-r--r--	root/root	usr/include/KF5/libktorrent/tracker/httpannouncejob.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/tracker/httptracker.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/tracker/kioannouncejob.h
 -rw-r--r--	root/root	usr/include/KF5/libktorrent/tracker/tracker.h
@@ -210,9 +206,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Torrent/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Torrent/FindLibGcrypt.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Torrent/KF5TorrentConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Torrent/KF5TorrentConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5Torrent/KF5TorrentTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Torrent/KF5TorrentTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Torrent/KF5TorrentTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Torrent.so -> libKF5Torrent.so.6
-lrwxrwxrwx	root/root	usr/lib/libKF5Torrent.so.6 -> libKF5Torrent.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libKF5Torrent.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Torrent.so.20.12.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Torrent.so.6 -> libKF5Torrent.so.20.12.0
 drwxr-xr-x	root/root	usr/share/
