@@ -1,0 +1,24 @@
+# Description: KPart for rendering Markdown content
+# URL: https://kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kparts
+
+name=markdownpart
+version=20.12.0
+release=1
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+#	rm -rf $PKG/usr/share/locale
+#	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+#	rm -rf $PKG/usr/share/doc
+}
