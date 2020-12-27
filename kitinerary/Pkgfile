@@ -5,7 +5,7 @@
 
 name=kitinerary
 version=20.12.0
-release=1
+release=2
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
@@ -14,6 +14,7 @@ build() {
 
 	cmake -DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib \
 		-DBUILD_TESTING=OFF \
 		-DKDE_INSTALL_LIBDIR=lib \
 		-DKDE_INSTALL_CONFDIR=/etc \
