@@ -5,7 +5,7 @@
 
 name=plasma-framework
 version=5.77.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
@@ -23,9 +23,9 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/{locale,doc}
 	( cd $PKG/usr/share/man
 	  find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
 	)	
-	rm -rf $PKG/usr/share/doc
+	find $PKG -name README.md -delete
 }

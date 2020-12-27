@@ -5,7 +5,7 @@
 
 name=digikam
 version=7.1.0
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
@@ -30,4 +30,6 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+
+	find $PKG -name README -delete
 }

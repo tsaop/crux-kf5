@@ -14,5 +14,5 @@ build() {
 	python3 setup.py install --prefix=/usr --root=$PKG
 
 	find $PKG -perm -o+w -exec chmod o-w {} \;
-	find $PKG -name "README.TXT" -delete
+	find $PKG \( -name "README.TXT" -o -name "README.txt" \) -delete
 }
