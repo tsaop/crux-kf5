@@ -4,12 +4,12 @@
 # Depends on: glibc
 
 name=lmdb
-version=0.9.24
+version=0.9.27
 release=1
-source=(https://github.com/${name^^}/lmdb/archive/${name^^}_$version.tar.gz)
+source=(https://git.openldap.org/openldap/openldap/-/archive/${name^^}_${version}/openldap-${name^^}_${version}.tar.bz2)
 
 build() {
-	cd $name-${name^^}_$version/libraries/liblmdb
+	cd openldap-${name^^}_$version/libraries/liblmdb
 	make PREFIX=/usr
 
 	sed -i 's|prefix\t= /usr/local|prefix\t= /usr|' Makefile
