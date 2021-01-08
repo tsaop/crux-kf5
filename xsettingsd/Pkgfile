@@ -4,7 +4,7 @@
 # Depends on: python scons xorg-libx11
 
 name=xsettingsd
-version=1.0.0
+version=1.0.2
 release=1
 source=(https://github.com/derat/$name/archive/v${version}/$name-$version.tar.gz)
 
