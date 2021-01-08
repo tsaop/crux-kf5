@@ -1,10 +1,10 @@
 # Description: KPatience offers a selection of solitaire card games 
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: freecell-solver libkdegames black-hole-solver
+# Depends on: black-hole-solver freecell-solver libkdegames
 
 name=kpat
-version=20.12.0
+version=20.12.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
