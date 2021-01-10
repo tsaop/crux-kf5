@@ -4,8 +4,8 @@
 # Depends on: kactivities kdeclarative kirigami2 kwayland
 
 name=plasma-framework
-version=5.77.0
-release=2
+version=5.78.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
