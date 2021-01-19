@@ -4,8 +4,8 @@
 # Depends on: eigen exiv2 giflib gsl gtk kio kitemmodels libraw opencolorio openexr poppler-qt5 quazip5 vc xorg-xinput
 
 name=krita
-version=4.4.1
-release=2
+version=4.4.2
+release=1
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz
 	krita-c++14.patch)
 
