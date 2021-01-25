@@ -1,12 +1,12 @@
 # Description: The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries
 # URL: https://docs.pytest.org/en/latest/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python3-atomicwrites python3-attrs python3-more-itertools python3-packaging python3-pluggy python3-py
+# Depends on:  python3-atomicwrites python3-attrs python3-more-itertools python3-packaging python3-pip python3-pluggy python3-py
 
 name=python3-pytest
-version=6.2.1
+version=6.2.2
 release=1
-source=(https://files.pythonhosted.org/packages/a3/98/a3dcf1b749aaddd5b6f01e8dc2a1da08dbaebc94d5c0c5bb8743316d4093/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/d1/80/b4f47a1f933699cd531a7b336a6f3d82912e3e5e66e4a3bb1d8f0d1d98b0/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
