@@ -1,43 +1,22 @@
 # Description: Color management framework for visual effects and animation
 # URL: http://opencolorio.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: boost lcms2 tinyxml yaml-cpp
+# Depends on: lcms2 openexr pybind11 pystring tinyxml yaml-cpp
 
 name=opencolorio
-version=1.1.1
-release=4
+version=2.0.0
+release=1
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd OpenColorIO-$version
 
-	# Remove -Werror, as it fails to build otherwise:
-	sed -i 's|-Werror||' src/pyglue/CMakeLists.txt
-	sed -i 's|-Werror||' src/core/CMakeLists.txt
-	# Fix build with system yaml-cpp:
-	sed -i "s/push(hidden)/push(default)/g" src/core/OCIOYaml.cpp
-
-	mkdir build; cd build
-
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_BUILD_TYPE=Release \
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DOCIO_BUILD_SHARED=ON \
-		-DOCIO_BUILD_STATIC=OFF \
-		-DOCIO_BUILD_TESTS=OFF \
-		-DUSE_EXTERNAL_TINYXML=ON \
-		-DUSE_EXTERNAL_YAML=ON \
-		-DUSE_EXTERNAL_LCMS=ON \
-		-DPYTHON=/usr/bin/python3 \
-		..
-	make
-	make DESTDIR=$PKG install
+		-DOCIO_BUILD_TESTS=OFF
 
-	# Move stuff around...
-	install -dm755 $PKG/usr/lib/cmake/OpenColorIO
-	mv $PKG/usr/cmake/* $PKG/usr/lib/cmake/OpenColorIO
-	rmdir $PKG/usr/cmake
-	mv $PKG/usr/OpenColorIOConfig.cmake $PKG/usr/lib/cmake/OpenColorIO
-	
-	# Fix path in .cmake file
-	sed -i 's|/cmake/OpenColorIO.cmake|/lib/cmake/OpenColorIO/OpenColorIO.cmake|' $PKG/usr/lib/cmake/OpenColorIO/OpenColorIOConfig.cmake
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
