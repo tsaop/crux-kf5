@@ -1,0 +1,20 @@
+# Description: Seamless operability between C++11 and Python
+# URL: https://pybind11.readthedocs.io/en/stable
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost eigen
+
+name=pybind11
+version=2.6.2
+release=1
+source=(https://github.com/pybind/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DPYBIND11_TEST=OFF 
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
