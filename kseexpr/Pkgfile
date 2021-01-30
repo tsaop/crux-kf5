@@ -1,0 +1,22 @@
+# Description: The embeddable expression engine fork for Krita
+# URL: https://invent.kde.org/graphics/kseexpr
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake qt5
+
+name=kseexpr
+version=4.0.1.0
+release=1
+source=(https://download.kde.org/stable/$name/${version%.0}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TRANSLATIONS=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+}
