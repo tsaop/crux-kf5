@@ -72,6 +72,7 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaimagesize.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaimagesplit.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaindexcolors.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritajp2import.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritajpegexport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritajpegimport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritakraexport.so
@@ -82,7 +83,6 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalcmsengine.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalevelfilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalogdocker.so
--rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalutdocker.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritametadataeditor.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritamodifyselection.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritamultigridpatterngenerator.so
@@ -119,6 +119,7 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaroundcornersfilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaroundmarkerpaintop.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritascreentonegenerator.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaseexprgenerator.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaselectiontools.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaseparatechannels.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritashearimage.so
@@ -274,6 +275,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/krita_exr.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_gif.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_heightmap.desktop
+-rwxr-xr-x	root/root	usr/share/applications/krita_jp2.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_jpeg.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_kra.desktop
 -rwxr-xr-x	root/root	usr/share/applications/krita_ora.desktop
@@ -938,6 +940,8 @@ drwxr-xr-x	root/root	usr/share/krita/qmlthemes/default/images/
 -rw-r--r--	root/root	usr/share/krita/qmlthemes/default/images/shadow.png
 -rw-r--r--	root/root	usr/share/krita/qmlthemes/default/sizes.js
 -rw-r--r--	root/root	usr/share/krita/qmlthemes/default/theme.qml
+drwxr-xr-x	root/root	usr/share/krita/seexpr_scripts/
+-rw-r--r--	root/root	usr/share/krita/seexpr_scripts/Disney_noisecolor2.kse
 drwxr-xr-x	root/root	usr/share/krita/shortcuts/
 -rw-r--r--	root/root	usr/share/krita/shortcuts/krita_default.shortcuts
 -rw-r--r--	root/root	usr/share/krita/shortcuts/paint_tool_sai_compatible.shortcuts
