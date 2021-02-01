@@ -5,10 +5,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kid3-qt
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kid3/
-lrwxrwxrwx	root/root	usr/lib/kid3/libkid3-core.so -> libkid3-core.so.3.8.4
--rwxr-xr-x	root/root	usr/lib/kid3/libkid3-core.so.3.8.4
-lrwxrwxrwx	root/root	usr/lib/kid3/libkid3-gui.so -> libkid3-gui.so.3.8.4
--rwxr-xr-x	root/root	usr/lib/kid3/libkid3-gui.so.3.8.4
+-rwxr-xr-x	root/root	usr/lib/kid3/libkid3-core.so
+-rwxr-xr-x	root/root	usr/lib/kid3/libkid3-gui.so
 drwxr-xr-x	root/root	usr/lib/kid3/plugins/
 drwxr-xr-x	root/root	usr/lib/kid3/plugins/imports/
 drwxr-xr-x	root/root	usr/lib/kid3/plugins/imports/Kid3/
@@ -71,6 +69,7 @@ drwxr-xr-x	root/root	usr/share/kid3/qml/script/
 -rw-r--r--	root/root	usr/share/kid3/qml/script/QmlConsole.qml
 -rw-r--r--	root/root	usr/share/kid3/qml/script/ReplayGain2SoundCheck.qml
 -rw-r--r--	root/root	usr/share/kid3/qml/script/ResizeAlbumArt.qml
+-rw-r--r--	root/root	usr/share/kid3/qml/script/RewriteTags.qml
 -rw-r--r--	root/root	usr/share/kid3/qml/script/ShowTextEncodingV1.qml
 -rw-r--r--	root/root	usr/share/kid3/qml/script/Tag1ToAscii.qml
 -rw-r--r--	root/root	usr/share/kid3/qml/script/TitleCase.qml
