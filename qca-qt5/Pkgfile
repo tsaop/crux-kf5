@@ -4,22 +4,21 @@
 # Depends on: ca-certificates-compat cyrus-sasl libgcrypt nss qt5
 
 name=qca-qt5
-version=2.3.1
+version=2.3.2
 release=1
 source=(http://download.kde.org/stable/${name/-qt5/}/$version/${name/-qt5/}-$version.tar.xz)
 
 build() {
 	cd ${name/-qt5/}-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_BUILD_TYPE=Release \
-	-DBUILD_TESTS=OFF \
-	-DQCA_INSTALL_IN_QT_PREFIX=On \
-	-DQCA_LIBRARY_INSTALL_DIR=/usr/lib \
-	-DQCA_MAN_INSTALL_DIR=/usr/share/man \
-	..
+	cmake -Bbuild \
+		 -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_TESTS=OFF \
+		-DQCA_INSTALL_IN_QT_PREFIX=On \
+		-DQCA_LIBRARY_INSTALL_DIR=/usr/lib \
+		-DQCA_MAN_INSTALL_DIR=/usr/share/man \
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
