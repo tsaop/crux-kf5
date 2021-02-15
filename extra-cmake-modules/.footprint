@@ -48,10 +48,14 @@ drwxr-xr-x	root/root	usr/share/ECM/kde-modules/
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEClangFormat.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDECompilerSettings.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEFrameworkCompilerSettings.cmake
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEGitCommitHooks.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirs.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEPackageAppTemplates.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/appstreamtest.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/clang-format.cmake
+drwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/
+-rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/clang-format.sh
+-rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/pre-commit.in
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/prefix.sh.cmake
 drwxr-xr-x	root/root	usr/share/ECM/modules/
 -rw-r--r--	root/root	usr/share/ECM/modules/CheckAtomic.cmake
