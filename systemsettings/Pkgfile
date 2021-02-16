@@ -4,7 +4,7 @@
 # Depends on: khtml plasma-workspace
 
 name=systemsettings
-version=5.20.5
+version=5.21.0
 release=1
 source=(http://download.kde.org/stable/plasma/${version/.1/}/$name-$version.tar.xz)
 

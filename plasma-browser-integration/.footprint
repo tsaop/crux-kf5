@@ -6,6 +6,9 @@ drwxr-xr-x	root/root	etc/opt/
 drwxr-xr-x	root/root	etc/opt/chrome/
 drwxr-xr-x	root/root	etc/opt/chrome/native-messaging-hosts/
 -rw-r--r--	root/root	etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
+drwxr-xr-x	root/root	etc/opt/edge/
+drwxr-xr-x	root/root	etc/opt/edge/native-messaging-hosts/
+-rw-r--r--	root/root	etc/opt/edge/native-messaging-hosts/org.kde.plasma.browser_integration.json
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/plasma-browser-integration-host
@@ -18,6 +21,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/browserintegrationreminder.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_browsertabs.so
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/krunner/
+drwxr-xr-x	root/root	usr/share/krunner/dbusplugins/
+-rw-r--r--	root/root	usr/share/krunner/dbusplugins/plasma-runner-browserhistory.desktop
+-rw-r--r--	root/root	usr/share/krunner/dbusplugins/plasma-runner-browsertabs.desktop

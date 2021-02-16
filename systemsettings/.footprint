@@ -1,22 +1,12 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/systemsettings5
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/systemsettingsview/
--rw-r--r--	root/root	usr/include/systemsettingsview/BaseData.h
--rw-r--r--	root/root	usr/include/systemsettingsview/BaseMode.h
--rw-r--r--	root/root	usr/include/systemsettingsview/MenuItem.h
--rw-r--r--	root/root	usr/include/systemsettingsview/MenuModel.h
--rw-r--r--	root/root	usr/include/systemsettingsview/MenuProxyModel.h
--rw-r--r--	root/root	usr/include/systemsettingsview/ModuleView.h
--rw-r--r--	root/root	usr/include/systemsettingsview/systemsettingsview_export.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libsystemsettingsview.so -> libsystemsettingsview.so.3
--rwxr-xr-x	root/root	usr/lib/libsystemsettingsview.so.3
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/icon_mode.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/systemsettings_sidebar_mode.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/systemsettingsview/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/systemsettingsview/icon_mode.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/systemsettingsview/systemsettings_sidebar_mode.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kdesystemsettings.desktop
@@ -38,7 +28,6 @@ drwxr-xr-x	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sideba
 -rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kpackage/genericqml/org.kde.systemsettings.sidebar/metadata.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/settings-appearance-applicationstyle.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance-color.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance-font.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-appearance-icons.desktop
@@ -50,7 +39,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/settings-hardware-powermanagement.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-hardware-removable-storage.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-hardware.desktop
--rw-r--r--	root/root	usr/share/kservices5/settings-icon-view.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-network-bluetooth.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-network-connectivity.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-network-networksettings.desktop
@@ -61,7 +49,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/settings-personalization-notification.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-personalization-regionalsettings.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-personalization.desktop
--rw-r--r--	root/root	usr/share/kservices5/settings-sidebar-view.desktop
+-rw-r--r--	root/root	usr/share/kservices5/settings-root-category.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-system-administration.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-workspace-desktopbehavior.desktop
 -rw-r--r--	root/root	usr/share/kservices5/settings-workspace-search.desktop

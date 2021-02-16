@@ -14,8 +14,12 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_globalplugin_network.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_ksgrd.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_nvidiaglobal.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_cpu.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_disk.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_gpu.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_memory.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_osinfo.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/ksysguard_plugin_power.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/process/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/process/ksysguard_plugin_nvidia.so
 drwxr-xr-x	root/root	usr/share/
