@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/include/avogadro/core/
 -rw-r--r--	root/root	usr/include/avogadro/core/nameatomtyper.h
 -rw-r--r--	root/root	usr/include/avogadro/core/residue.h
 -rw-r--r--	root/root	usr/include/avogadro/core/ringperceiver.h
+-rw-r--r--	root/root	usr/include/avogadro/core/sharedmutex.h
 -rw-r--r--	root/root	usr/include/avogadro/core/slaterset.h
 -rw-r--r--	root/root	usr/include/avogadro/core/slatersettools.h
 -rw-r--r--	root/root	usr/include/avogadro/core/spacegroups.h
@@ -145,6 +146,7 @@ drwxr-xr-x	root/root	usr/include/avogadro/rendering/
 -rw-r--r--	root/root	usr/include/avogadro/rendering/vrmlvisitor.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/avogadro2/
+-rw-r--r--	root/root	usr/lib/avogadro2/libgwavi.a
 drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/
 drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/commands/
 -rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/commands/scale.py
@@ -157,6 +159,7 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Bonding.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CoordinateEditor.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CopyPaste.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Cp2kInput.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Crystal.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CrystalScene.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CustomElements.a
@@ -176,11 +179,13 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Navigator.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/NetworkDatabases.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OpenBabel.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OpenMMInput.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OverlayAxes.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/POVRay.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/PlayerTool.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/PluginDownloader.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/QuantumInput.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/ResetView.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/ScriptFileFormats.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Select.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Selection.a
@@ -230,5 +235,4 @@ lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so.1 -> libAvogadroQuantumIO.s
 lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so -> libAvogadroRendering.so.1
 lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so.1 -> libAvogadroRendering.so.1.93.0
 -rwxr-xr-x	root/root	usr/lib/libAvogadroRendering.so.1.93.0
--rw-r--r--	root/root	usr/lib/liblibgwavi.a
 drwxr-xr-x	root/root	usr/share/
