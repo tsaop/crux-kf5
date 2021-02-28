@@ -4,23 +4,19 @@
 # Depends on: cfitsio fftw gsl libnova libusb qt5
 
 name=libindi
-version=1.8.8
+version=1.8.9
 source=(https://github.com/indilib/${name/lib/}/archive/v${version}/$name-$version.tar.gz)
 release=1
 
 build() {
 
     cd ${name/lib/}-$version
-
-    mkdir build; cd build
-
-	cmake \
+    cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DCMAKE_INSTALL_LIBDIR=lib \
-	-DUDEVRULES_INSTALL_DIR=/usr/lib/udev/rules.d \
-	..
+	-DUDEVRULES_INSTALL_DIR=/usr/lib/udev/rules.d
 	
-	make
-	make DESTDIR=$PKG install
+   cmake --build build
+   DESTDIR=$PKG cmake --install build
 }
