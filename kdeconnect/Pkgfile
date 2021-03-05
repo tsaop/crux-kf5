@@ -4,7 +4,7 @@
 # Depends on: gtk kcmutils kirigami2 kpeoplevcard kwayland libfakekey pulseaudio-qt qca-qt5 sshfs-fuse
 
 name=kdeconnect
-version=20.12.2
+version=20.12.3
 release=1
 source=(https://download.kde.org/stable/release-service/$version/src/$name-kde-$version.tar.xz)
 build() {

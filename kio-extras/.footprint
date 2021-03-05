@@ -12,8 +12,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.97.0
-lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.20 -> libmolletnetwork5.so.20.12.2
--rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.20.12.2
+lrwxrwxrwx	root/root	usr/lib/libmolletnetwork5.so.20 -> libmolletnetwork5.so.20.12.3
+-rwxr-xr-x	root/root	usr/lib/libmolletnetwork5.so.20.12.3
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/comicbookthumbnail.so
@@ -40,14 +40,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/fish.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/info.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/man.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/mtp.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/network.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/nfs.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/recentdocuments.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/settings.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/thumbnail.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/kmtpd.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kfileaudiopreview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kritathumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/opendocumentthumbnail.so
@@ -61,8 +58,6 @@ drwxr-xr-x	root/root	usr/share/config.kcfg/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/kf5_org.kde.network.kioslavenotifier.xml
-drwxr-xr-x	root/root	usr/share/dbus-1/services/
--rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kmtp.daemon.service
 drwxr-xr-x	root/root	usr/share/kio_bookmarks/
 -rw-r--r--	root/root	usr/share/kio_bookmarks/kio_bookmarks.css
 drwxr-xr-x	root/root	usr/share/kio_docfilter/
@@ -74,10 +69,6 @@ drwxr-xr-x	root/root	usr/share/konqsidebartng/
 drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/
 drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/remote/
 -rw-r--r--	root/root	usr/share/konqsidebartng/virtual_folders/remote/virtualfolder_network.desktop
-drwxr-xr-x	root/root	usr/share/konqueror/
-drwxr-xr-x	root/root	usr/share/konqueror/dirtree/
-drwxr-xr-x	root/root	usr/share/konqueror/dirtree/remote/
--rw-r--r--	root/root	usr/share/konqueror/dirtree/remote/mtp-network.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/about.protocol
 -rw-r--r--	root/root	usr/share/kservices5/activities.protocol
@@ -99,7 +90,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kraorathumbnail.desktop
 -rw-r--r--	root/root	usr/share/kservices5/lzma.protocol
 -rw-r--r--	root/root	usr/share/kservices5/man.protocol
--rw-r--r--	root/root	usr/share/kservices5/mtp.protocol
 -rw-r--r--	root/root	usr/share/kservices5/network.protocol
 -rw-r--r--	root/root	usr/share/kservices5/nfs.protocol
 -rw-r--r--	root/root	usr/share/kservices5/opendocumentthumbnail.desktop
@@ -119,8 +109,4 @@ drwxr-xr-x	root/root	usr/share/mime/packages/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kio-extras.categories
 drwxr-xr-x	root/root	usr/share/remoteview/
--rw-r--r--	root/root	usr/share/remoteview/mtp-network.desktop
 -rw-r--r--	root/root	usr/share/remoteview/network.desktop
-drwxr-xr-x	root/root	usr/share/solid/
-drwxr-xr-x	root/root	usr/share/solid/actions/
--rw-r--r--	root/root	usr/share/solid/actions/solid_mtp.desktop
