@@ -14,6 +14,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/coredbfields.h
 -rw-r--r--	root/root	usr/include/digikam/coredburl.h
 -rw-r--r--	root/root	usr/include/digikam/curvescontainer.h
+-rw-r--r--	root/root	usr/include/digikam/dactivelabel.h
 -rw-r--r--	root/root	usr/include/digikam/dbengineaction.h
 -rw-r--r--	root/root	usr/include/digikam/dbengineconfig.h
 -rw-r--r--	root/root	usr/include/digikam/dbengineconfigsettings.h
@@ -53,6 +54,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/dpluginrawimport.h
 -rw-r--r--	root/root	usr/include/digikam/dpreviewimage.h
 -rw-r--r--	root/root	usr/include/digikam/dpreviewmanager.h
+-rw-r--r--	root/root	usr/include/digikam/dprogresswdg.h
 -rw-r--r--	root/root	usr/include/digikam/drawdecoder.h
 -rw-r--r--	root/root	usr/include/digikam/drawdecodersettings.h
 -rw-r--r--	root/root	usr/include/digikam/drawdecoding.h
@@ -94,6 +96,8 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/thumbnailinfo.h
 -rw-r--r--	root/root	usr/include/digikam/thumbnailloadthread.h
 -rw-r--r--	root/root	usr/include/digikam/wbcontainer.h
+-rw-r--r--	root/root	usr/include/digikam/wstooldialog.h
+-rw-r--r--	root/root	usr/include/digikam/wstoolutils.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/DigikamCore/
@@ -110,12 +114,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/DigikamGui/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/DigikamPlugin/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.1.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.1.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.1.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.1.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.1.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.1.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.2.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.2.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.2.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.2.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.2.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.2.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/
@@ -222,7 +226,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_DigitalScanner_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_DropBox_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_ExpoBlending_Plugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_FaceBook_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_FileCopy_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_FileTransfer_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Flickr_Plugin.so
@@ -232,7 +235,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_HtmlGallery_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_ImageShack_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_ImgUr_Plugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_IpFs_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_JAlbum_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_MediaServer_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_MediaWiki_Plugin.so
@@ -311,6 +313,7 @@ drwxr-xr-x	root/root	usr/share/digikam/data/
 -rw-r--r--	root/root	usr/share/digikam/data/craters-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/curvefree.png
 -rw-r--r--	root/root	usr/share/digikam/data/curvemooth.png
+-rw-r--r--	root/root	usr/share/digikam/data/detectFacesImg.png
 -rw-r--r--	root/root	usr/share/digikam/data/dried-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/duplicatebothhorz.png
 -rw-r--r--	root/root	usr/share/digikam/data/duplicatebothvert.png
@@ -322,6 +325,7 @@ drwxr-xr-x	root/root	usr/share/digikam/data/
 -rw-r--r--	root/root	usr/share/digikam/data/histogram-log.png
 -rw-r--r--	root/root	usr/share/digikam/data/histogram.png
 -rw-r--r--	root/root	usr/share/digikam/data/ice-pattern.png
+-rw-r--r--	root/root	usr/share/digikam/data/ignoreImg.png
 -rw-r--r--	root/root	usr/share/digikam/data/image-full.png
 -rw-r--r--	root/root	usr/share/digikam/data/image-selection.png
 -rw-r--r--	root/root	usr/share/digikam/data/leaf-pattern.png
@@ -352,6 +356,7 @@ drwxr-xr-x	root/root	usr/share/digikam/data/lut3d/
 -rw-r--r--	root/root	usr/share/digikam/data/modern-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/moss-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/original.png
+-rw-r--r--	root/root	usr/share/digikam/data/overlayImg.png
 -rw-r--r--	root/root	usr/share/digikam/data/paper-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/paper-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/paper2-texture.png
@@ -365,19 +370,16 @@ drwxr-xr-x	root/root	usr/share/digikam/data/lut3d/
 -rw-r--r--	root/root	usr/share/digikam/data/splash-digikam.png
 -rw-r--r--	root/root	usr/share/digikam/data/stone-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/stone-texture.png
+-rw-r--r--	root/root	usr/share/digikam/data/tagFacesImg.gif
 -rw-r--r--	root/root	usr/share/digikam/data/target.png
 -rw-r--r--	root/root	usr/share/digikam/data/togglemouseover.png
 -rw-r--r--	root/root	usr/share/digikam/data/wall-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/wall-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/wood-pattern.png
+-rw-r--r--	root/root	usr/share/digikam/data/workOnAllCoresImg.png
 drwxr-xr-x	root/root	usr/share/digikam/database/
 -rw-r--r--	root/root	usr/share/digikam/database/dbconfig.xml
 -rw-r--r--	root/root	usr/share/digikam/database/mysql-global.conf
-drwxr-xr-x	root/root	usr/share/digikam/facesengine/
--rw-r--r--	root/root	usr/share/digikam/facesengine/deploy.prototxt
--rw-r--r--	root/root	usr/share/digikam/facesengine/openface_nn4.small2.v1.t7
--rw-r--r--	root/root	usr/share/digikam/facesengine/res10_300x300_ssd_iter_140000_fp16.caffemodel
--rw-r--r--	root/root	usr/share/digikam/facesengine/shapepredictor.dat
 drwxr-xr-x	root/root	usr/share/digikam/geoiface/
 -rw-r--r--	root/root	usr/share/digikam/geoiface/backend-googlemaps-js.js
 -rw-r--r--	root/root	usr/share/digikam/geoiface/backend-googlemaps.html
@@ -707,14 +709,11 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-dropbox.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-facebook-white.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-facebook.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-flickr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-googledrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-googlephoto.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-imageshack.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-imgur.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-ipfs.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-mediawiki.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-onedrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-pinterest.png
@@ -729,14 +728,11 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-dropbox.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-facebook-white.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-facebook.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-flickr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-googledrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-googlephoto.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-imageshack.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-imgur.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-ipfs.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-mediawiki.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-onedrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-pinterest.png
@@ -774,14 +770,11 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-dropbox.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-facebook-white.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-facebook.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-flickr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-googledrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-googlephoto.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-imageshack.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-imgur.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-ipfs.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-mediawiki.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-onedrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-pinterest.png
@@ -796,14 +789,11 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-dropbox.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-facebook-white.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-facebook.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-flickr.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-googledrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-googlephoto.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-imageshack.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-imgur.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-ipfs.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-mediawiki.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-onedrive.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-pinterest.png
@@ -824,12 +814,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/digikam.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-facebook-white.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-facebook.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-flickr.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-googlephoto.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-imgur.svgz
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-ipfs.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-mediawiki.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-piwigo.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-smugmug.svgz
