@@ -6,8 +6,8 @@
 #TODO: re-enable opencolorio once version 2.0.0 is supported
 
 name=krita
-version=4.4.2
-release=2
+version=4.4.3
+release=1
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz
 	krita-c++14.patch)
 
