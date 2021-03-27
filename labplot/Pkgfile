@@ -1,24 +1,23 @@
 # Description: KDE-application for interactive graphing and analysis of scientific data
 # URL: https://labplot.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cantor cfitsio fftw gsl kdelibs4support netcdf
+# Depends on: cantor cfitsio fftw gsl kdelibs4support lz4 netcdf
 
 name=labplot
-version=2.8.1
-release=2
+version=2.8.2
+release=1
 source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	cmake -Bbuild \
+		 -DCMAKE_INSTALL_PREFIX=/usr \
 		-DSYSCONF_INSTALL_DIR=/etc \
-		-DCMAKE_BUILD_TYPE=Release \
-		..
-	
-	make
-	make DESTDIR=$PKG install
+		-DCMAKE_BUILD_TYPE=Release
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/{doc,locale}
 	( cd $PKG/usr/share/man
