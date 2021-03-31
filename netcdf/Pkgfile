@@ -4,24 +4,23 @@
 # Depends on: cmake hdf5
 
 name=netcdf
-version=4.7.4
+version=4.8.0
 release=1
 source=(https://github.com/Unidata/$name-c/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-c-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	cmake -Bbuild \
+		 -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DBUILD_TESTING=OFF \
 		-DENABLE_EXAMPLES=OFF \
-		-DCMAKE_SKIP_BUILD_RPATH=ON \
-		..
+		-DCMAKE_SKIP_BUILD_RPATH=ON
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/lib/libnetcdf.settings
 }
