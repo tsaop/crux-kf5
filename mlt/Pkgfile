@@ -4,7 +4,7 @@
 # Depends on: gtk libdv libsamplerate opencv sdl_image sox
 
 name=mlt
-version=6.24.0
+version=6.26.0
 release=1
 source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz)
 
