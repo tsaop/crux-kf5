@@ -1,0 +1,20 @@
+# Description: A tool for static C/C++ code analysis
+# URL: http://cppcheck.sourceforge.net/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libxml2 tinyxml2
+
+name=cppcheck
+version=2.4.1
+release=1
+source=(https://github.com/danmar/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DUSE_BUNDLED_TINYXML2=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
