@@ -1,0 +1,19 @@
+# Description: A library to access MTP (Media Transfer Protocol) Devices
+# URL: https://sourceforge.net/projects/libmtp
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:
+
+name=libmtp
+version=1.1.18
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+		--with-udev=/lib/udev
+
+	make
+	make DESTDIR=$PKG install
+}
