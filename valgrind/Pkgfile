@@ -1,0 +1,23 @@
+# Description: Valgrind is an instrumentation framework for building dynamic analysis tools
+# URL: https://valgrind.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc
+
+name=valgrind
+version=3.17.0
+release=1
+source=(https://sourceware.org/pub/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	CFLAGS="-O2 -pipe" \
+	CXXFLAGS="-O2 -pipe" \
+	 ./configure --prefix=/usr \
+		--libexecdir=/usr/lib
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
