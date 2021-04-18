@@ -21,4 +21,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/info
+	rm $PKG/usr/bin/pinentry
 }
