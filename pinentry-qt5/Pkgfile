@@ -1,0 +1,24 @@
+# Description: PIN or passphrase entry dialogs which utilize the Assuan protocol
+# URL: https://gnupg.org/download/index.html
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libassuan libsecret qt5
+
+name=pinentry-qt5
+version=1.1.1
+release=1
+source=(https://gnupg.org/ftp/gcrypt/${name/-qt5/}/${name/-qt5/}-$version.tar.bz2)
+
+build() {
+	cd ${name/-qt5/}-$version
+
+	./configure --prefix=/usr \
+		--enable-pinentry-qt5 \
+		--disable-pinentry-{curses,tty,emacs} \
+		--disable-fallback-curses \
+		--disable-inside-emacs
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/info
+}
