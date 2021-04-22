@@ -1,0 +1,40 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KOpeningHours/
+-rw-r--r--	root/root	usr/include/KOpeningHours/Display
+-rw-r--r--	root/root	usr/include/KOpeningHours/Interval
+-rw-r--r--	root/root	usr/include/KOpeningHours/IntervalModel
+-rw-r--r--	root/root	usr/include/KOpeningHours/OpeningHours
+drwxr-xr-x	root/root	usr/include/kopeninghours/
+-rw-r--r--	root/root	usr/include/kopeninghours/display.h
+-rw-r--r--	root/root	usr/include/kopeninghours/interval.h
+-rw-r--r--	root/root	usr/include/kopeninghours/intervalmodel.h
+-rw-r--r--	root/root	usr/include/kopeninghours/kopeninghours_export.h
+-rw-r--r--	root/root	usr/include/kopeninghours/openinghours.h
+-rw-r--r--	root/root	usr/include/kopeninghours_version.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KOpeningHours/
+-rw-r--r--	root/root	usr/lib/cmake/KOpeningHours/KOpeningHoursConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KOpeningHours/KOpeningHoursConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KOpeningHours/KOpeningHoursTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KOpeningHours/KOpeningHoursTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKOpeningHours.so -> libKOpeningHours.so.1
+lrwxrwxrwx	root/root	usr/lib/libKOpeningHours.so.1 -> libKOpeningHours.so.21.4.0
+-rwxr-xr-x	root/root	usr/lib/libKOpeningHours.so.21.4.0
+drwxr-xr-x	root/root	usr/lib/python3.9/
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/PyKOpeningHours/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/PyKOpeningHours/PyKOpeningHours.pyi
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/PyKOpeningHours/PyKOpeningHours.so
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/PyKOpeningHours/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kopeninghours/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kopeninghours/qmldir
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/org_kde_kopeninghours.categories

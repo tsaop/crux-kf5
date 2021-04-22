@@ -1,0 +1,23 @@
+# Description: Library for parsing and evaluating OSM opening hours expressions
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost kholidays ki18n
+
+name=kopeninghours
+version=21.04.0
+release=1
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DKDE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}
