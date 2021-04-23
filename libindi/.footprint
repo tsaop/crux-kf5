@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_deepskydad_af1_focus
 -rwxr-xr-x	root/root	usr/bin/indi_deepskydad_af2_focus
 -rwxr-xr-x	root/root	usr/bin/indi_deepskydad_af3_focus
+-rwxr-xr-x	root/root	usr/bin/indi_deepskydad_fp1
 -rwxr-xr-x	root/root	usr/bin/indi_dmfc_focus
 -rwxr-xr-x	root/root	usr/bin/indi_domepro2_dome
 -rwxr-xr-x	root/root	usr/bin/indi_dsc_telescope
@@ -69,8 +70,10 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_openweathermap_weather
 -rwxr-xr-x	root/root	usr/bin/indi_optec_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_paramount_telescope
+-rwxr-xr-x	root/root	usr/bin/indi_pegasus_focuscube
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_ppb
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_ppba
+-rwxr-xr-x	root/root	usr/bin/indi_pegasus_scopsoag
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_upb
 -rwxr-xr-x	root/root	usr/bin/indi_perfectstar_focus
 -rwxr-xr-x	root/root	usr/bin/indi_planewave_deltat
@@ -118,6 +121,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_synscanlegacy_telescope
 lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_tcfs_focus
+-rwxr-xr-x	root/root	usr/bin/indi_teenastro_focus
 -rwxr-xr-x	root/root	usr/bin/indi_temma_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_trutech_wheel
 -rwxr-xr-x	root/root	usr/bin/indi_usbdewpoint
@@ -176,6 +180,7 @@ drwxr-xr-x	root/root	usr/include/libindi/dsp/
 -rw-r--r--	root/root	usr/include/libindi/indidome.h
 -rw-r--r--	root/root	usr/include/libindi/indidriver.h
 -rw-r--r--	root/root	usr/include/libindi/indidustcapinterface.h
+-rw-r--r--	root/root	usr/include/libindi/indielapsedtimer.h
 -rw-r--r--	root/root	usr/include/libindi/indifilterinterface.h
 -rw-r--r--	root/root	usr/include/libindi/indifilterwheel.h
 -rw-r--r--	root/root	usr/include/libindi/indifocuser.h
@@ -186,13 +191,21 @@ drwxr-xr-x	root/root	usr/include/libindi/dsp/
 -rw-r--r--	root/root	usr/include/libindi/indilogger.h
 -rw-r--r--	root/root	usr/include/libindi/indimacros.h
 -rw-r--r--	root/root	usr/include/libindi/indiproperty.h
+-rw-r--r--	root/root	usr/include/libindi/indipropertybasic.h
+-rw-r--r--	root/root	usr/include/libindi/indipropertyblob.h
+-rw-r--r--	root/root	usr/include/libindi/indipropertylight.h
+-rw-r--r--	root/root	usr/include/libindi/indipropertynumber.h
+-rw-r--r--	root/root	usr/include/libindi/indipropertyswitch.h
+-rw-r--r--	root/root	usr/include/libindi/indipropertytext.h
 -rw-r--r--	root/root	usr/include/libindi/indipropertyview.h
 -rw-r--r--	root/root	usr/include/libindi/indirotator.h
 -rw-r--r--	root/root	usr/include/libindi/indirotatorinterface.h
 -rw-r--r--	root/root	usr/include/libindi/indisensorinterface.h
+-rw-r--r--	root/root	usr/include/libindi/indisinglethreadpool.h
 -rw-r--r--	root/root	usr/include/libindi/indispectrograph.h
 -rw-r--r--	root/root	usr/include/libindi/indistandardproperty.h
 -rw-r--r--	root/root	usr/include/libindi/inditelescope.h
+-rw-r--r--	root/root	usr/include/libindi/inditimer.h
 -rw-r--r--	root/root	usr/include/libindi/indiusbdevice.h
 -rw-r--r--	root/root	usr/include/libindi/indiutility.h
 -rw-r--r--	root/root	usr/include/libindi/indiversion.h
@@ -232,16 +245,16 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.8.9
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.8.9
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.0
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.0
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.8.9
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.8.9
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.0
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.0
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.8.9
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.8.9
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.0
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
