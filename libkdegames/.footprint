@@ -2,23 +2,22 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KF5KDEGames/
-drwxr-xr-x	root/root	usr/include/KF5/KF5KDEGames/KDE/
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KGameClock
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KGamePopupItem
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KGameRenderedItem
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KGameRenderedObjectItem
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KGameRenderer
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KGameRendererClient
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KHighscore
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KScoreDialog
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KStandardGameAction
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgAudioScene
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgDeclarativeView
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgDifficulty
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgSound
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgTheme
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgThemeProvider
--rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KDE/KgThemeSelector
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KGameClock
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KGamePopupItem
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KGameRenderedItem
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KGameRenderedObjectItem
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KGameRenderer
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KGameRendererClient
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KHighscore
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KScoreDialog
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KStandardGameAction
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgAudioScene
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgDeclarativeView
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgDifficulty
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgSound
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgTheme
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgThemeProvider
+-rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/KgThemeSelector
 drwxr-xr-x	root/root	usr/include/KF5/KF5KDEGames/highscore/
 -rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/highscore/khighscore.h
 -rw-r--r--	root/root	usr/include/KF5/KF5KDEGames/highscore/kscoredialog.h
@@ -69,14 +68,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5KDEGames/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesLibraryDepends-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesLibraryDepends.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KDEGames/KF5KDEGamesTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KDEGames.so -> libKF5KDEGames.so.7
-lrwxrwxrwx	root/root	usr/lib/libKF5KDEGames.so.7 -> libKF5KDEGames.so.7.2.0
--rwxr-xr-x	root/root	usr/lib/libKF5KDEGames.so.7.2.0
-lrwxrwxrwx	root/root	usr/lib/libKF5KDEGamesPrivate.so -> libKF5KDEGamesPrivate.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5KDEGamesPrivate.so.1 -> libKF5KDEGamesPrivate.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libKF5KDEGamesPrivate.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KDEGames.so.7 -> libKF5KDEGames.so.7.3.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KDEGames.so.7.3.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KDEGamesPrivate.so -> libKF5KDEGamesPrivate.so.7
+lrwxrwxrwx	root/root	usr/lib/libKF5KDEGamesPrivate.so.7 -> libKF5KDEGamesPrivate.so.7.3.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KDEGamesPrivate.so.7.3.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/

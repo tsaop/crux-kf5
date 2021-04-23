@@ -3,14 +3,15 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_archivemail_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_followupreminder_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_mailfilter_agent
+-rwxr-xr-x	root/root	usr/bin/akonadi_mailmerge_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_sendlater_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_unifiedmailbox_agent
 -rwxr-xr-x	root/root	usr/bin/kmail
 -rwxr-xr-x	root/root	usr/bin/kmail-refresh-settings
 -rwxr-xr-x	root/root	usr/bin/ktnef
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.16.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.16.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.17.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.17.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
@@ -30,6 +31,7 @@ drwxr-xr-x	root/root	usr/share/akonadi/agents/
 -rw-r--r--	root/root	usr/share/akonadi/agents/archivemailagent.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/followupreminder.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/mailfilteragent.desktop
+-rw-r--r--	root/root	usr/share/akonadi/agents/mailmergeagent.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/sendlateragent.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/unifiedmailboxagent.desktop
 drwxr-xr-x	root/root	usr/share/applications/
@@ -126,6 +128,7 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_archivemail_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_followupreminder_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_mailfilter_agent.notifyrc
+-rw-r--r--	root/root	usr/share/knotifications5/akonadi_mailmerge_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_sendlater_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/kmail2.notifyrc
 drwxr-xr-x	root/root	usr/share/kontact/

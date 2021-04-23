@@ -32,10 +32,10 @@ lrwxrwxrwx	root/root	usr/lib/libKF5Konq.so.6 -> libKF5Konq.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kfmclient.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konqueror.so
 lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so -> libkonqsidebarplugin.so.5
--rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.20.12.3
-lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.20.12.3
--rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.20.12.3
-lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.20.12.3
+-rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.21.04.0
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.21.04.0
+-rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.21.04.0
+lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.21.04.0
 -rwxr-xr-x	root/root	usr/lib/libkwebenginepart.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -43,7 +43,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/autorefresh.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/babelfishplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/dirfilterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/fsviewpart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_bookmarks.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_history.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_konq.so
@@ -53,12 +52,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/akregatorplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/fsviewpart.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/konq_sidebar.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/parts/webenginepart.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/khtmlsettingsplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/khtmlttsplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kimgallery.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konq_shellcmdplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/konq_sidebar.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_bookmarks.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_history.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqsidebar_places.so

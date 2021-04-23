@@ -2,6 +2,9 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KF5KMahjongg/
+-rw-r--r--	root/root	usr/include/KF5/KF5KMahjongg/KMahjonggBackground
+-rw-r--r--	root/root	usr/include/KF5/KF5KMahjongg/KMahjonggConfigDialog
+-rw-r--r--	root/root	usr/include/KF5/KF5KMahjongg/KMahjonggTileset
 -rw-r--r--	root/root	usr/include/KF5/KF5KMahjongg/kmahjonggbackground.h
 -rw-r--r--	root/root	usr/include/KF5/KF5KMahjongg/kmahjonggconfigdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KF5KMahjongg/kmahjongglib_version.h
@@ -10,13 +13,13 @@ drwxr-xr-x	root/root	usr/include/KF5/KF5KMahjongg/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5KMahjongglib/
--rw-r--r--	root/root	usr/lib/cmake/KF5KMahjongglib/KF5KMahjonggLibraryDepends-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5KMahjongglib/KF5KMahjonggLibraryDepends.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KMahjongglib/KF5KMahjonggTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5KMahjongglib/KF5KMahjonggTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KMahjongglib/KF5KMahjongglibConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KMahjongglib/KF5KMahjongglibConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KMahjongglib.so -> libKF5KMahjongglib.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KMahjongglib.so.5 -> libKF5KMahjongglib.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libKF5KMahjongglib.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KMahjongglib.so.5 -> libKF5KMahjongglib.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KMahjongglib.so.5.1.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kmahjongglib/
 drwxr-xr-x	root/root	usr/share/kmahjongglib/backgrounds/
