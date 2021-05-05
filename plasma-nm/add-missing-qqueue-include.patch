@@ -1,0 +1,12 @@
+diff --git a/libs/models/networkmodel.h b/libs/models/networkmodel.h
+index ebe6db52a2f45be7478f254854413784b0f41173..749cb91908f5908e8cf6b2da8228ad9b32ce83ac 100644
+--- a/libs/models/networkmodel.h
++++ b/libs/models/networkmodel.h
+@@ -22,6 +22,7 @@
+ #define PLASMA_NM_NETWORK_MODEL_H
+ 
+ #include <QAbstractListModel>
++#include <QQueue>
+ 
+ #include "networkitemslist.h"
+ 
