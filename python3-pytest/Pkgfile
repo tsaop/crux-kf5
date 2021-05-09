@@ -4,7 +4,7 @@
 # Depends on: python3-atomicwrites python3-attrs python3-more-itertools python3-packaging python3-pluggy python3-py
 
 name=python3-pytest
-version=6.2.3
+version=6.2.4
 release=1
 source=(https://pypi.python.org/packages/source/p/${name/python3-/}/${name/python3-/}-$version.tar.gz)
 
