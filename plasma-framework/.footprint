@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.81.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.81.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.82.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.82.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.81.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.81.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.82.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.82.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -127,6 +127,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/ScrollView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/Slider.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/SpinBox.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/SwipeView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/Switch.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/SwitchDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/Plasma/SwitchIndicator.qml
@@ -248,6 +249,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/ScrollView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Slider.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/SpinBox.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/SwipeView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/Switch.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/SwitchDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/components.3/SwitchIndicator.qml

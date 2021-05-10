@@ -4,17 +4,19 @@
 # Depends on: gtk kfilemetadata kidletime kio lmdb
 
 name=baloo
-version=5.81.0
+version=5.82.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cmake -B build -S $name-$version \
 		-DBUILD_TESTING=OFF \
-		-DCMAKE_INSTALL_LIBDIR=lib
+		-DKDE_INSTALL_LIBDIR=lib \
+		-DKDE_INSTALL_LIBEXECDIR=lib
 
 	cmake --build build
 	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/lib/systemd
 }

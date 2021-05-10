@@ -1287,6 +1287,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/show-offline.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/show_table_column.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/show_table_row.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/shuffle.svg -> media-playlist-shuffle.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/sidebar-collapse.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/sidebar-expand.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/similarartists-amarok.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/slanted.svg -> format-text-italic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/smallclock.svg -> appointment-new.svg
@@ -3146,6 +3148,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/shear.svg -> transfo
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/show_table_column.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/show_table_row.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/shuffle.svg -> media-playlist-shuffle.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/sidebar-collapse.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/sidebar-expand.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/similarartists-amarok.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/skg-chart-bubble.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/skrooge_credit_card.svg -> view-financial-account-credit-card.svg
@@ -3762,6 +3766,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/expand.svg -> ./go-d
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/file-zoom-in.svg -> zoom-in.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/file-zoom-out.svg -> zoom-out.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/32/financial-account.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/financial-budget.svg -> office-chart-pie.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/32/financial-list.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/financial-payees.svg -> ../../preferences/32/preferences-system-users.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/32/flash.svg
@@ -9465,6 +9470,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/show-offline.svg -> meeti
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/show_table_column.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/show_table_row.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/shuffle.svg -> media-playlist-shuffle.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/sidebar-collapse.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/sidebar-expand.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/similarartists-amarok.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/slanted.svg -> format-text-italic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/smallclock.svg -> appointment-new.svg
@@ -11317,6 +11324,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/shear.svg -> transform-sh
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/show_table_column.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/show_table_row.svg -> visibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/shuffle.svg -> media-playlist-shuffle.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/sidebar-collapse.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/sidebar-expand.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/similarartists-amarok.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/skg-chart-bubble.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/skrooge_credit_card.svg -> view-financial-account-credit-card.svg
@@ -11938,6 +11947,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/expand.svg -> ./go-down.s
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/file-zoom-in.svg -> zoom-in.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/file-zoom-out.svg -> zoom-out.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/32/financial-account.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/financial-budget.svg -> office-chart-pie.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/32/financial-list.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/financial-payees.svg -> ../../preferences/32/preferences-system-users.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/32/flash.svg
