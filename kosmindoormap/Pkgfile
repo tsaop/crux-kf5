@@ -1,10 +1,10 @@
 # Description: OSM multi-floor indoor map renderer 
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: ki18n kpublictransport
+# Depends on: kopeninghours kpublictransport
 
 name=kosmindoormap
-version=21.04.0
+version=21.04.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

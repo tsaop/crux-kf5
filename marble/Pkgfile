@@ -1,10 +1,10 @@
 # Description: Virtual globe and world atlas for the KDE desktop
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk knewstuff kparts krunner qtwebengine
+# Depends on: gtk knewstuff kparts krunner protobuf qtwebengine
 
 name=marble
-version=21.04.0
+version=21.04.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
