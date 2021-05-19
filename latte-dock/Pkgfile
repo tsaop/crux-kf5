@@ -1,10 +1,10 @@
 # Description: Latte is a dock based on plasma frameworks that provides an elegant and intuitive experience for your tasks and plasmoids
 # URL: https://github.com/psifidotos/Latte-Dock
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: knewstuff libksysguard
+# Depends on: libksysguard
 
 name=latte-dock
-version=0.9.11
+version=0.9.12
 release=1
 source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
 
