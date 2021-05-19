@@ -4,21 +4,19 @@
 # Depends on:  cmake
 
 name=tinyxml2
-version=8.0.0
+version=8.1.0
 release=1
 source=(https://github.com/leethomason/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
-
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
-		-DBUILD_TESTING=OFF \
-		-DBUILD_TESTS=OFF \
-		..
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_TESTING=OFF
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
