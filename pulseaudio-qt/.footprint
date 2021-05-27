@@ -4,9 +4,11 @@ drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KF5PulseAudioQt/
 drwxr-xr-x	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Card
+-rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/CardPort
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Client
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Context
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Device
+-rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/IndexedPulseObject
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Models
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Module
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Port
@@ -21,14 +23,16 @@ drwxr-xr-x	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/StreamRestore
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/VolumeObject
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/card.h
+-rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/cardport.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/client.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/context.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/device.h
--rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/kf5pulseaudioqt_export.h
+-rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/indexedpulseobject.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/models.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/module.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/port.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/profile.h
+-rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/pulseaudioqt_export.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/pulseobject.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/server.h
 -rw-r--r--	root/root	usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/sink.h
@@ -46,6 +50,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PulseAudioQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PulseAudioQt/KF5PulseAudioQtConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PulseAudioQt/KF5PulseAudioQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PulseAudioQt/KF5PulseAudioQtTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so -> libKF5PulseAudioQt.so.2
--rwxr-xr-x	root/root	usr/lib/libKF5PulseAudioQt.so.1.1.0
-lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so.2 -> libKF5PulseAudioQt.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so -> libKF5PulseAudioQt.so.3
+-rwxr-xr-x	root/root	usr/lib/libKF5PulseAudioQt.so.1.3.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so.3 -> libKF5PulseAudioQt.so.1.3.0
