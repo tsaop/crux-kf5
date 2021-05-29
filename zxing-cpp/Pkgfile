@@ -1,10 +1,10 @@
 # Description: ZXing ("Zebra Crossing") barcode scanning library
 # URL: https://github.com/glassechidna/zxing-cpp
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  cmake
+# Depends on: qt5
 
 name=zxing-cpp
-version=1.1.1
+version=1.2.0
 release=1
 source=(https://github.com/nu-book/$name/archive/v${version}/$name-$version.tar.gz)
 
@@ -14,7 +14,9 @@ build() {
 	cmake -B build \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_SHARED_LIBRARY=ON
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_BLACKBOX_TESTS=OFF \
+		-DBUILD_EXAMPLES=OFF
 
 	cmake --build build
 	DESTDIR=$PKG cmake --install build
