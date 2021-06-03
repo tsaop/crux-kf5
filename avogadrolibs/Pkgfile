@@ -4,7 +4,7 @@
 # Depends on: boost eigen libmsym molequeue spglib
 
 name=avogadrolibs
-version=1.93.1
+version=1.94.0
 release=1
 source=(https://github.com/OpenChemistry/$name/archive/$version/$name-$version.tar.gz)
 
@@ -24,7 +24,5 @@ build() {
 	
 	make
 	make DESTDIR=$PKG install
-	# FIXME: Try to remove the statically linked jsoncpp.a without breaking cmake
-	# rm -rf $PKG/usr/lib/libjsoncpp.a
 	rm -rf $PKG/usr/share/doc
 }
