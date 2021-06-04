@@ -1,0 +1,18 @@
+# Description: Common molecule fragments for visualization in Avogadro
+# URL: https://github.com/OpenChemistry/molecules
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc
+
+name=avogadro-molecules
+version=1.0.0
+release=1
+source=(https://github.com/OpenChemistry/molecules/archive/$version/molecules-$version.tar.gz)
+
+build() {
+	cd molecules-$version
+	install -dm755 $PKG/usr/share/avogadro2/molecules
+	cp -a * $PKG/usr/share/avogadro2/molecules
+
+	# remove junk
+	find $PKG \( -name README.md -o -name LICENSE \) -delete
+}
