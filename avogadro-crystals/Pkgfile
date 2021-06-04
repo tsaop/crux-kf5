@@ -1,0 +1,18 @@
+# Description: Crystallographic files of common materials, elements, oxides, for visualization in Avogadro
+# URL: https://github.com/OpenChemistry/crystals
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc
+
+name=avogadro-crystals
+version=1.0.1
+release=1
+source=(https://github.com/OpenChemistry/crystals/archive/$version/crystals-$version.tar.gz)
+
+build() {
+	cd crystals-$version
+	install -dm755 $PKG/usr/share/avogadro2/crystals
+	cp -a * $PKG/usr/share/avogadro2/crystals
+
+	# remove junk
+	find $PKG \( -name README.md -o -name LICENSE \) -delete
+}
