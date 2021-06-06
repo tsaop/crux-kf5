@@ -54,16 +54,16 @@ drwxr-xr-x	root/root	usr/include/KSeExprUI/
 -rw-r--r--	root/root	usr/include/KSeExprUI/ExprTextEdit.h
 -rw-r--r--	root/root	usr/include/KSeExprUI/Utils.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libKSeExpr.so -> libKSeExpr.so.4.0.1.0
--rwxr-xr-x	root/root	usr/lib/libKSeExpr.so.4.0.1.0
-lrwxrwxrwx	root/root	usr/lib/libKSeExprUI.so -> libKSeExprUI.so.4.0.1.0
--rwxr-xr-x	root/root	usr/lib/libKSeExprUI.so.4.0.1.0
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KSeExpr/
+-rw-r--r--	root/root	usr/lib/cmake/KSeExpr/KSeExprTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KSeExpr/KSeExprTargets.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KSeExpr/kseexpr-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KSeExpr/kseexpr-config.cmake
+lrwxrwxrwx	root/root	usr/lib/libKSeExpr.so -> libKSeExpr.so.4.0.2.0
+-rwxr-xr-x	root/root	usr/lib/libKSeExpr.so.4.0.2.0
+lrwxrwxrwx	root/root	usr/lib/libKSeExprUI.so -> libKSeExprUI.so.4.0.2.0
+-rwxr-xr-x	root/root	usr/lib/libKSeExprUI.so.4.0.2.0
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/cmake/
-drwxr-xr-x	root/root	usr/share/cmake/KSeExpr/
--rw-r--r--	root/root	usr/share/cmake/KSeExpr/KSeExprTargets-release.cmake
--rw-r--r--	root/root	usr/share/cmake/KSeExpr/KSeExprTargets.cmake
--rw-r--r--	root/root	usr/share/cmake/KSeExpr/kseexpr-config-version.cmake
--rw-r--r--	root/root	usr/share/cmake/KSeExpr/kseexpr-config.cmake
 drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/kseexpr.pc
