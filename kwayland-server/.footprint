@@ -43,7 +43,6 @@ drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointerconstraints_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointergestures_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectiondevicemanager_v1_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/region_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/relativepointer_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/resource.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/screencast_v1_interface.h
@@ -74,8 +73,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KWaylandServer/
 -rw-r--r--	root/root	usr/lib/cmake/KWaylandServer/KWaylandServerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KWaylandServer/KWaylandServerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so -> libKWaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so.5 -> libKWaylandServer.so.5.21.5
--rwxr-xr-x	root/root	usr/lib/libKWaylandServer.so.5.21.5
+lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so.5 -> libKWaylandServer.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKWaylandServer.so.5.22.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kwaylandserver.categories

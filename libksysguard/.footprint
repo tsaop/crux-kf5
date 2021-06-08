@@ -39,6 +39,18 @@ drwxr-xr-x	root/root	usr/include/ksysguard/sensors/
 -rw-r--r--	root/root	usr/include/ksysguard/sensors/SensorQuery.h
 -rw-r--r--	root/root	usr/include/ksysguard/sensors/SensorTreeModel.h
 -rw-r--r--	root/root	usr/include/ksysguard/sensors/sensors_export.h
+drwxr-xr-x	root/root	usr/include/ksysguard/systemstats/
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/AggregateSensor.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/DBusInterface.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SensorContainer.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SensorInfo.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SensorObject.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SensorPlugin.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SensorProperty.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SysFsSensor.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/SysctlSensor.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/org.kde.ksystemstats.h
+-rw-r--r--	root/root	usr/include/ksysguard/systemstats/systemstats_export.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5SysGuard/
@@ -51,29 +63,32 @@ drwxr-xr-x	root/root	usr/lib/cmake/KSysGuard/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/ksysguardprocesslist_helper
 lrwxrwxrwx	root/root	usr/lib/libKSysGuardFormatter.so -> libKSysGuardFormatter.so.1
-lrwxrwxrwx	root/root	usr/lib/libKSysGuardFormatter.so.1 -> libKSysGuardFormatter.so.5.21.5
--rwxr-xr-x	root/root	usr/lib/libKSysGuardFormatter.so.5.21.5
+lrwxrwxrwx	root/root	usr/lib/libKSysGuardFormatter.so.1 -> libKSysGuardFormatter.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKSysGuardFormatter.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKSysGuardSensorFaces.so -> libKSysGuardSensorFaces.so.1
-lrwxrwxrwx	root/root	usr/lib/libKSysGuardSensorFaces.so.1 -> libKSysGuardSensorFaces.so.5.21.5
--rwxr-xr-x	root/root	usr/lib/libKSysGuardSensorFaces.so.5.21.5
+lrwxrwxrwx	root/root	usr/lib/libKSysGuardSensorFaces.so.1 -> libKSysGuardSensorFaces.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKSysGuardSensorFaces.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKSysGuardSensors.so -> libKSysGuardSensors.so.1
-lrwxrwxrwx	root/root	usr/lib/libKSysGuardSensors.so.1 -> libKSysGuardSensors.so.5.21.5
--rwxr-xr-x	root/root	usr/lib/libKSysGuardSensors.so.5.21.5
+lrwxrwxrwx	root/root	usr/lib/libKSysGuardSensors.so.1 -> libKSysGuardSensors.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKSysGuardSensors.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/libKSysGuardSystemStats.so -> libKSysGuardSystemStats.so.1
+lrwxrwxrwx	root/root	usr/lib/libKSysGuardSystemStats.so.1 -> libKSysGuardSystemStats.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKSysGuardSystemStats.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libksgrd.so -> libksgrd.so.9
--rwxr-xr-x	root/root	usr/lib/libksgrd.so.5.21.5
-lrwxrwxrwx	root/root	usr/lib/libksgrd.so.9 -> libksgrd.so.5.21.5
+-rwxr-xr-x	root/root	usr/lib/libksgrd.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/libksgrd.so.9 -> libksgrd.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libksignalplotter.so -> libksignalplotter.so.9
--rwxr-xr-x	root/root	usr/lib/libksignalplotter.so.5.21.5
-lrwxrwxrwx	root/root	usr/lib/libksignalplotter.so.9 -> libksignalplotter.so.5.21.5
+-rwxr-xr-x	root/root	usr/lib/libksignalplotter.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/libksignalplotter.so.9 -> libksignalplotter.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/liblsofui.so -> liblsofui.so.9
--rwxr-xr-x	root/root	usr/lib/liblsofui.so.5.21.5
-lrwxrwxrwx	root/root	usr/lib/liblsofui.so.9 -> liblsofui.so.5.21.5
+-rwxr-xr-x	root/root	usr/lib/liblsofui.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/liblsofui.so.9 -> liblsofui.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libprocesscore.so -> libprocesscore.so.9
--rwxr-xr-x	root/root	usr/lib/libprocesscore.so.5.21.5
-lrwxrwxrwx	root/root	usr/lib/libprocesscore.so.9 -> libprocesscore.so.5.21.5
+-rwxr-xr-x	root/root	usr/lib/libprocesscore.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/libprocesscore.so.9 -> libprocesscore.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libprocessui.so -> libprocessui.so.9
--rwxr-xr-x	root/root	usr/lib/libprocessui.so.5.21.5
-lrwxrwxrwx	root/root	usr/lib/libprocessui.so.9 -> libprocessui.so.5.21.5
+-rwxr-xr-x	root/root	usr/lib/libprocessui.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/libprocessui.so.9 -> libprocessui.so.5.22.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
@@ -83,6 +98,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/sensorface_packagestructure.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/process/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/ksysguard/process/ksysguard_plugin_nvidia.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -103,6 +121,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/ksysguard/sensors/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/ksysguard/sensors/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.ksystemstats.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
 drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
