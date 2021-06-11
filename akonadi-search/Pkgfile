@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks (Tier 1)
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-mime kcalendarcore kcmutils kcontacts krunner xapian-core
+# Depends on: akonadi-mime kcalendarcore kcontacts krunner xapian-core
 
 name=akonadi-search
-version=21.04.1
+version=21.04.2
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
