@@ -8,6 +8,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KConfigWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KCodecAction
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KColorScheme
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KColorSchemeManager
+-rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KCommandBar
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KConfigDialog
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KConfigDialogManager
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/KConfigViewStateSaver
@@ -24,6 +25,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KConfigWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kcodecaction.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kcolorscheme.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kcolorschememanager.h
+-rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kcommandbar.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kconfigdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kconfigdialogmanager.h
 -rw-r--r--	root/root	usr/include/KF5/KConfigWidgets/kconfigviewstatesaver.h
@@ -47,8 +49,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ConfigWidgets/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5ConfigWidgets.so -> libKF5ConfigWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ConfigWidgets.so.5 -> libKF5ConfigWidgets.so.5.82.0
--rwxr-xr-x	root/root	usr/lib/libKF5ConfigWidgets.so.5.82.0
+lrwxrwxrwx	root/root	usr/lib/libKF5ConfigWidgets.so.5 -> libKF5ConfigWidgets.so.5.83.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ConfigWidgets.so.5.83.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

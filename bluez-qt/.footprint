@@ -26,6 +26,8 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/BluezQt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaEndpoint
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaPlayer
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaPlayerTrack
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaTransport
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/MediaTypes
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/ObexAgent
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/ObexFileTransfer
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/ObexFileTransferEntry
@@ -38,6 +40,7 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/BluezQt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Request
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Rfkill
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Services
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/TPendingCall
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Types
 drwxr-xr-x	root/root	usr/include/KF5/BluezQt/bluezqt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/adapter.h
@@ -60,6 +63,8 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/bluezqt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediaendpoint.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediaplayer.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediaplayertrack.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediatransport.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/mediatypes.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/obexagent.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/obexfiletransfer.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/obexfiletransferentry.h
@@ -72,6 +77,7 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/bluezqt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/request.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/rfkill.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/services.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/tpendingcall.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/types.h
 -rw-r--r--	root/root	usr/include/KF5/bluezqt_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -82,8 +88,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5BluezQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so -> libKF5BluezQt.so.6
--rwxr-xr-x	root/root	usr/lib/libKF5BluezQt.so.5.82.0
-lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so.6 -> libKF5BluezQt.so.5.82.0
+-rwxr-xr-x	root/root	usr/lib/libKF5BluezQt.so.5.83.0
+lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so.6 -> libKF5BluezQt.so.5.83.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

@@ -789,6 +789,10 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/stock_folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/user-identity.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/places/user-trash.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/preferences/
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/preferences/preferences-desktop-wallpaper.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/preferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/preferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/128x128/status/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/data-error.png -> dialog-error.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/status/data-information.png -> dialog-information.png
@@ -2510,6 +2514,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/stock_folder.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/user-identity.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/places/user-trash.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/preferences/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/preferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/preferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/16x16/special/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/special/file-zoom-in.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/special/file-zoom-out.png
@@ -4345,6 +4352,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/stock_folder.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/user-identity.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/places/user-trash.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/preferences/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/preferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/preferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/22x22/special/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/special/file-zoom-in.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/special/file-zoom-out.png
@@ -4608,6 +4618,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/devices/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/devices/network-wireless-disconnected.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/devices/network-wireless.png -> network-wireless-connected-100.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/devices/printer-laser.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/devices/printer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/devices/secure-card.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/devices/smartphone.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/devices/tablet.png
@@ -5020,6 +5031,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/places/stock_folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/user-home.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/places/user-trash.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/preferences/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/preferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/preferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/status/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/status/user-trash-full.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/
@@ -6452,6 +6466,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/stock_folder.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/user-identity.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/places/user-trash.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/preferences/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/preferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/preferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/32x32/status/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/appointment-recurring.png -> ../actions/view-refresh.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/status/appointment-reminder.png -> ../apps/preferences-desktop-notification-bell.png
@@ -7812,6 +7829,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/x-office-calend
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/x-office-drawing.png -> application-vnd.oasis.opendocument.graphics.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/x-office-presentation.png -> application-vnd.oasis.opendocument.presentation.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/x-office-spreadsheet.png -> application-vnd.oasis.opendocument.spreadsheet.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/perferences/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/perferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/perferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/48x48/places/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/bookmarks.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/places/certificate-server.png
@@ -8751,6 +8771,9 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/stock_folder.png -
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/user-identity.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/places/user-trash-full.png -> ../status/user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/places/user-trash.png
+drwxr-xr-x	root/root	usr/share/icons/oxygen/base/64x64/preferences/
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/preferences/preferences-devices-printer.png -> ../devices/printer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/preferences/preferences-kde-connect.png
 drwxr-xr-x	root/root	usr/share/icons/oxygen/base/64x64/status/
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/data-error.png -> dialog-error.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/status/data-information.png -> dialog-information.png

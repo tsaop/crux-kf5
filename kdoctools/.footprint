@@ -18,8 +18,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5DocTools/
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so -> libKF5DocTools.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.82.0
--rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.82.0
+lrwxrwxrwx	root/root	usr/lib/libKF5DocTools.so.5 -> libKF5DocTools.so.5.83.0
+-rwxr-xr-x	root/root	usr/lib/libKF5DocTools.so.5.83.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/
@@ -730,6 +730,26 @@ drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/sl/entities/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sl/lang.entities
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sl/strings.entities
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sl/user.entities
+drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/sq/
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/catalog.xml
+drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/sq/entities/
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/fdl-notice.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/gpl-notice.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/help-menu.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/install-compile.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/install-intro.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/lgpl-notice.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/report-bugs.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/underArtisticLicense.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/underBSDLicense.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/underFDL.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/underGPL.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/underLGPL.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/underX11License.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/entities/update-doc.docbook
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/lang.entities
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/strings.entities
+-rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sq/user.entities
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/sr/
 -rw-r--r--	root/root	usr/share/kf5/kdoctools/customization/sr/catalog.xml
 drwxr-xr-x	root/root	usr/share/kf5/kdoctools/customization/sr/entities/

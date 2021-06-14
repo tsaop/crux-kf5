@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.82.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.82.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.83.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.83.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.82.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.82.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.83.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.83.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
@@ -576,10 +576,12 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/solid/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/solid/dialogs/background.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/solid/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/solid/widgets/panel-background.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/solid/widgets/tooltip.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/translucent/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/translucent/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/translucent/dialogs/background.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/translucent/widgets/
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/translucent/widgets/background.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/translucent/widgets/panel-background.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/translucent/widgets/tooltip.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/widgets/
@@ -606,6 +608,7 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/listitem.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/margins-highlight.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/media-delegate.svgz
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/menubaritem.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/monitor.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/notes.svgz
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/widgets/pager.svgz
