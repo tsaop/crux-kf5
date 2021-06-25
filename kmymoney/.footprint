@@ -91,6 +91,7 @@ drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/interfaces/
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetaskconverter.h
 -rw-r--r--	root/root	usr/include/kmymoney/onlinetasks/interfaces/onlinetasksettingsfactory.h
 -rw-r--r--	root/root	usr/include/kmymoney/payeesmodel.h
+-rw-r--r--	root/root	usr/include/kmymoney/popuppositioner.h
 -rw-r--r--	root/root	usr/include/kmymoney/register.h
 -rw-r--r--	root/root	usr/include/kmymoney/registeritem.h
 -rw-r--r--	root/root	usr/include/kmymoney/scheduledtransaction.h
@@ -110,35 +111,35 @@ drwxr-xr-x	root/root	usr/include/kmymoney/onlinetasks/interfaces/
 -rw-r--r--	root/root	usr/include/kmymoney/viewinterface.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so -> libkmm_csvimportercore.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so.5 -> libkmm_csvimportercore.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_csvimportercore.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_csvimportercore.so.5 -> libkmm_csvimportercore.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_csvimportercore.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so -> libkmm_icons.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so.5 -> libkmm_icons.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_icons.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_icons.so.5 -> libkmm_icons.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_icons.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so -> libkmm_menus.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so.5 -> libkmm_menus.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_menus.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_menus.so.5 -> libkmm_menus.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_menus.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_models.so -> libkmm_models.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_models.so.5 -> libkmm_models.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_models.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_models.so.5 -> libkmm_models.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_models.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so -> libkmm_mymoney.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so.5 -> libkmm_mymoney.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_mymoney.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_mymoney.so.5 -> libkmm_mymoney.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_mymoney.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so -> libkmm_payeeidentifier.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so.5 -> libkmm_payeeidentifier.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_payeeidentifier.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_payeeidentifier.so.5 -> libkmm_payeeidentifier.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_payeeidentifier.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so -> libkmm_plugin.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so.5 -> libkmm_plugin.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_plugin.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_plugin.so.5 -> libkmm_plugin.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_plugin.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_printer.so -> libkmm_printer.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_printer.so.5 -> libkmm_printer.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_printer.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_printer.so.5 -> libkmm_printer.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_printer.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so -> libkmm_settings.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so.5 -> libkmm_settings.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_settings.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_settings.so.5 -> libkmm_settings.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_settings.so.5.1.2
 lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so -> libkmm_widgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so.5 -> libkmm_widgets.so.5.1.1
--rwxr-xr-x	root/root	usr/lib/libkmm_widgets.so.5.1.1
+lrwxrwxrwx	root/root	usr/lib/libkmm_widgets.so.5 -> libkmm_widgets.so.5.1.2
+-rwxr-xr-x	root/root	usr/lib/libkmm_widgets.so.5.1.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/
@@ -165,6 +166,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/reconciliationreport.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/reportsview.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/sqlstorage.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/weboob.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kmymoney/xmlstorage.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
@@ -177,6 +179,11 @@ drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/kmymoney.kcfg
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/apps/kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/1024x1024/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/1024x1024/mimetypes/application-x-kmymoney.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/kmymoney.png
@@ -187,9 +194,19 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kmymoney.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/mimetypes/application-x-kmymoney.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/mimetypes/
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/mimetypes/application-x-kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/20x20/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/20x20/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/20x20/apps/kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/mimetypes/application-x-kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/256x256/mimetypes/application-x-kmymoney.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kmymoney.png
@@ -200,6 +217,11 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kmymoney.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/mimetypes/application-x-kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/512x512/apps/kmymoney.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/512x512/mimetypes/
+-rw-r--r--	root/root	usr/share/icons/hicolor/512x512/mimetypes/application-x-kmymoney.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kmymoney.png
@@ -924,6 +946,8 @@ drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/ro/
 -rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/ro/startlogo.png
 drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/ru/
 -rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/ru/startlogo.png
+drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/sl/
+-rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/sl/startlogo.png
 drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/sv/
 -rw-r--r--	root/root	usr/share/kmymoney/pics/l10n/sv/startlogo.png
 drwxr-xr-x	root/root	usr/share/kmymoney/pics/l10n/uk/
@@ -951,6 +975,11 @@ drwxr-xr-x	root/root	usr/share/kmymoney/templates/C/
 -rw-r--r--	root/root	usr/share/kmymoney/templates/C/retiremt.kmt
 -rw-r--r--	root/root	usr/share/kmymoney/templates/C/spouseinc.kmt
 -rw-r--r--	root/root	usr/share/kmymoney/templates/C/spouseretire.kmt
+drwxr-xr-x	root/root	usr/share/kmymoney/templates/da/
+-rw-r--r--	root/root	usr/share/kmymoney/templates/da/car.kmt
+-rw-r--r--	root/root	usr/share/kmymoney/templates/da/common.kmt
+-rw-r--r--	root/root	usr/share/kmymoney/templates/da/homeloan.kmt
+-rw-r--r--	root/root	usr/share/kmymoney/templates/da/homeown.kmt
 drwxr-xr-x	root/root	usr/share/kmymoney/templates/de_AT/
 -rw-r--r--	root/root	usr/share/kmymoney/templates/de_AT/auto.kmt
 -rw-r--r--	root/root	usr/share/kmymoney/templates/de_AT/autoloan.kmt
@@ -986,11 +1015,6 @@ drwxr-xr-x	root/root	usr/share/kmymoney/templates/de_DE/
 -rw-r--r--	root/root	usr/share/kmymoney/templates/de_DE/skr49.kmt
 -rw-r--r--	root/root	usr/share/kmymoney/templates/de_DE/studium.kmt
 -rw-r--r--	root/root	usr/share/kmymoney/templates/de_DE/wohnungsw.kmt
-drwxr-xr-x	root/root	usr/share/kmymoney/templates/dk/
--rw-r--r--	root/root	usr/share/kmymoney/templates/dk/car.kmt
--rw-r--r--	root/root	usr/share/kmymoney/templates/dk/common.kmt
--rw-r--r--	root/root	usr/share/kmymoney/templates/dk/homeloan.kmt
--rw-r--r--	root/root	usr/share/kmymoney/templates/dk/homeown.kmt
 drwxr-xr-x	root/root	usr/share/kmymoney/templates/el_GR/
 -rw-r--r--	root/root	usr/share/kmymoney/templates/el_GR/brokerage.kmt
 -rw-r--r--	root/root	usr/share/kmymoney/templates/el_GR/carloan.kmt
@@ -1308,9 +1332,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kcm_qifimporter.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_reportsview.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_xmlstorage.desktop
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/kmymoney-importerplugin.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/kmymoney-payeeidentifierdelegate.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/checkprinting/
 -rw-r--r--	root/root	usr/share/kxmlgui5/checkprinting/checkprinting.rc
@@ -1330,6 +1351,8 @@ drwxr-xr-x	root/root	usr/share/kxmlgui5/qifimporter/
 -rw-r--r--	root/root	usr/share/kxmlgui5/qifimporter/qifimporter.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/sqlstorage/
 -rw-r--r--	root/root	usr/share/kxmlgui5/sqlstorage/sqlstorage.rc
+drwxr-xr-x	root/root	usr/share/kxmlgui5/weboob/
+-rw-r--r--	root/root	usr/share/kxmlgui5/weboob/weboob.rc
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/kmymoney.1.gz
