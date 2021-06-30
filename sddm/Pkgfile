@@ -1,11 +1,11 @@
 # Description: QML based X11 and Wayland display manager
 # URL: https://github.com/sddm/sddm
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: docutils extra-cmake-modules qt5
+# Depends on: extra-cmake-modules python3-docutils qt5
 
 name=sddm
 version=0.19.0
-release=1
+release=2
 source=(https://github.com/$name/$name/archive/v$version/$name-$version.tar.gz
 	rc.sddm
     sddm.pam
