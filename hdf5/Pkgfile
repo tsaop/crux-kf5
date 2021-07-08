@@ -4,9 +4,9 @@
 # Depends on:  glibc zlib
 
 name=hdf5
-version=1.12.0
-release=2
-source=(https://support.hdfgroup.org/ftp/HDF5/releases/$name-${version/.0/}/$name-$version/src/$name-$version.tar.bz2)
+version=1.12.1
+release=1
+source=(https://support.hdfgroup.org/ftp/HDF5/releases/$name-${version::-2}/$name-$version/src/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version

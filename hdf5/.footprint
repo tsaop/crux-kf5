@@ -21,6 +21,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/h5stat
 -rwxr-xr-x	root/root	usr/bin/h5unjam
 -rwxr-xr-x	root/root	usr/bin/h5watch
+-rwxr-xr-x	root/root	usr/bin/mirror_server
+-rwxr-xr-x	root/root	usr/bin/mirror_server_stop
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5ACpublic.h
 -rw-r--r--	root/root	usr/include/H5AbstractDs.h
@@ -53,12 +55,14 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5FDfamily.h
 -rw-r--r--	root/root	usr/include/H5FDhdfs.h
 -rw-r--r--	root/root	usr/include/H5FDlog.h
+-rw-r--r--	root/root	usr/include/H5FDmirror.h
 -rw-r--r--	root/root	usr/include/H5FDmpi.h
 -rw-r--r--	root/root	usr/include/H5FDmpio.h
 -rw-r--r--	root/root	usr/include/H5FDmulti.h
 -rw-r--r--	root/root	usr/include/H5FDpublic.h
 -rw-r--r--	root/root	usr/include/H5FDros3.h
 -rw-r--r--	root/root	usr/include/H5FDsec2.h
+-rw-r--r--	root/root	usr/include/H5FDsplitter.h
 -rw-r--r--	root/root	usr/include/H5FDstdio.h
 -rw-r--r--	root/root	usr/include/H5FDwindows.h
 -rw-r--r--	root/root	usr/include/H5FaccProp.h
@@ -114,18 +118,19 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libhdf5.la
 -rw-r--r--	root/root	usr/lib/libhdf5.settings
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.200.0.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so.200 -> libhdf5.so.200.0.0
--rwxr-xr-x	root/root	usr/lib/libhdf5.so.200.0.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.200.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so.200 -> libhdf5.so.200.1.0
+-rwxr-xr-x	root/root	usr/lib/libhdf5.so.200.1.0
 -rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.200.0.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.200 -> libhdf5_cpp.so.200.0.0
--rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.200.0.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.200.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.200 -> libhdf5_cpp.so.200.1.0
+-rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.200.1.0
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.200.0.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.200 -> libhdf5_hl.so.200.0.0
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.200.0.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.200.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.200 -> libhdf5_hl.so.200.0.1
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.200.0.1
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.200.0.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.200 -> libhdf5_hl_cpp.so.200.0.0
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.200.0.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.200.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.200 -> libhdf5_hl_cpp.so.200.0.1
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.200.0.1
+drwxr-xr-x	root/root	usr/share/
