@@ -802,11 +802,15 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-deleffect.s
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-down.svg -> go-down.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-lock.svg -> document-encrypted.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-menu.svg -> application-menu.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-ripple.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-rolling.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-select-rects.svg -> select-rectangular.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-select-tool.svg -> edit-select.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-show-audiothumb.svg -> view-media-visualization.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-show-video.svg -> ../../places/16/folder-videos.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-show-videothumb.svg -> kdenlive-show-video.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-slide.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-slip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-snap.svg -> snap-extension.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-spacer-tool.svg -> transform-move.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/kdenlive-unlock.svg -> document-decrypt.svg
@@ -1351,6 +1355,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/step_object_Pin.svg 
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/step_object_Polygon.svg -> draw-polyline.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/step_object_Rope.svg -> draw-bezier-curves.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/step_object_Stick.svg -> draw-connector.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/stickers.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/sticky_zoom.svg -> zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/story-editor.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/straight-connector.svg -> draw-connector.svg
@@ -2617,6 +2622,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-menu.svg ->
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-object-height.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-object-width.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-overwrite-edit.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-ripple.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-rolling.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-select-all.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-select-images.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-select-rects.svg -> select-rectangular.svg
@@ -2627,6 +2634,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-show-audiot
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-show-markers.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-show-video.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-show-videothumb.svg -> kdenlive-show-video.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-slide.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-slip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-snap.svg -> snap-extension.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-spacer-tool.svg -> transform-move.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/kdenlive-split-audio.svg
@@ -3238,6 +3247,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/step_object_Rope.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/step_object_Stick.svg -> draw-connector.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/step_object_Tracer.svg -> overexposure.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/step_object_WeightForce.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/stickers.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/story-editor.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/straight-connector.svg -> draw-connector.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/stroke-cap-bevel.svg -> stroke-join-bevel.svg
@@ -5240,6 +5250,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.ms
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -5727,6 +5738,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.ms
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -6214,6 +6226,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.ms
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -6700,6 +6713,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.ms
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -8998,11 +9012,15 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-deleffect.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-down.svg -> go-down.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-lock.svg -> document-encrypted.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-menu.svg -> application-menu.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/kdenlive-ripple.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/kdenlive-rolling.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-select-rects.svg -> select-rectangular.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-select-tool.svg -> edit-select.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-show-audiothumb.svg -> view-media-visualization.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-show-video.svg -> ../../places/16/folder-videos.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-show-videothumb.svg -> kdenlive-show-video.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/kdenlive-slide.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/kdenlive-slip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-snap.svg -> snap-extension.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-spacer-tool.svg -> transform-move.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/kdenlive-unlock.svg -> document-decrypt.svg
@@ -9545,6 +9563,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/step_object_Pin.svg -> po
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/step_object_Polygon.svg -> draw-polyline.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/step_object_Rope.svg -> draw-bezier-curves.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/step_object_Stick.svg -> draw-connector.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/stickers.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/sticky_zoom.svg -> zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/story-editor.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/straight-connector.svg -> draw-connector.svg
@@ -10806,6 +10825,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/kdenlive-menu.svg -> appl
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-object-height.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-object-width.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-overwrite-edit.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-ripple.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-rolling.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-select-all.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-select-images.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/kdenlive-select-rects.svg -> select-rectangular.svg
@@ -10816,6 +10837,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/kdenlive-show-audiothumb.
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-show-markers.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-show-video.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/kdenlive-show-videothumb.svg -> kdenlive-show-video.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-slide.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-slip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/kdenlive-snap.svg -> snap-extension.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/kdenlive-spacer-tool.svg -> transform-move.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/kdenlive-split-audio.svg
@@ -11425,6 +11448,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/step_object_Rope.svg -> d
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/step_object_Stick.svg -> draw-connector.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/step_object_Tracer.svg -> overexposure.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/step_object_WeightForce.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/stickers.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/story-editor.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/straight-connector.svg -> draw-connector.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/stroke-cap-bevel.svg -> stroke-join-bevel.svg
@@ -13463,6 +13487,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.ms-word
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -13953,6 +13978,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.ms-word
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -14443,6 +14469,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.ms-word
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -14932,6 +14959,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.ms-word
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.ms-word.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.ms-word.template.macroenabled.12.svg -> application-msword-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.nintendo.snes.rom.svg -> application-x-apple-diskimage.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.nokia.xml.qt.resource.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.opendocument.chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.opendocument.database.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.opendocument.draw.template.svg -> application-vnd.sun.xml.draw.template.svg
@@ -16252,7 +16280,111 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/irc-channel-parted.svg -> 
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/microphone-sensitivity-low.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/microphone-sensitivity-medium.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/microphone-sensitivity-muted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-bluetooth-activated-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-bluetooth-activated.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-bluetooth.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-flightmode-off.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-flightmode-on.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-limited.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-edge-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-edge.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-gprs-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-gprs.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-hsdpa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-hsdpa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-hspa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-hspa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-hsupa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-hsupa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-lte-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-lte.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-umts-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0-umts.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-0.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-edge-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-edge.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-gprs-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-gprs.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-hsdpa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-hsdpa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-hspa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-hspa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-hsupa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-hsupa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-lte-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-lte.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-umts-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100-umts.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-100.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-edge-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-edge.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-gprs-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-gprs.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-hsdpa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-hsdpa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-hspa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-hspa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-hsupa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-hsupa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-lte-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-lte.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-umts-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20-umts.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-20.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-edge-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-edge.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-gprs-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-gprs.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-hsdpa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-hsdpa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-hspa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-hspa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-hsupa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-hsupa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-lte-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-lte.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-umts-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40-umts.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-40.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-edge-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-edge.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-gprs-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-gprs.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-hsdpa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-hsdpa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-hspa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-hspa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-hsupa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-hsupa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-lte-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-lte.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-umts-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60-umts.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-60.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-edge-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-edge.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-gprs-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-gprs.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-hsdpa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-hsdpa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-hspa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-hspa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-hsupa-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-hsupa.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-lte-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-lte.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-umts-locked.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80-umts.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-80.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-available.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-mobile-off.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/network-mobile-on.svg -> network-mobile-100.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/network-offline.svg -> network-wired-unavailable.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/network-wired-activated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/network-wired-disconnected.svg -> network-wired-unavailable.svg

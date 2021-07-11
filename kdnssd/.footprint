@@ -11,16 +11,34 @@ drwxr-xr-x	root/root	usr/include/KF5/KDNSSD/DNSSD/
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/DNSSD/ServiceBrowser
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/DNSSD/ServiceModel
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/DNSSD/ServiceTypeBrowser
+drwxr-xr-x	root/root	usr/include/KF5/KDNSSD/KDNSSD/
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/DomainBrowser
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/DomainModel
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/PublicService
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/RemoteService
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/ServiceBase
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/ServiceBrowser
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/ServiceModel
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/KDNSSD/ServiceTypeBrowser
 drwxr-xr-x	root/root	usr/include/KF5/KDNSSD/dnssd/
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/domainbrowser.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/domainmodel.h
--rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/kdnssd_export.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/publicservice.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/remoteservice.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/servicebase.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/servicebrowser.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/servicemodel.h
 -rw-r--r--	root/root	usr/include/KF5/KDNSSD/dnssd/servicetypebrowser.h
+drwxr-xr-x	root/root	usr/include/KF5/KDNSSD/kdnssd/
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/domainbrowser.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/domainmodel.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/kdnssd_export.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/publicservice.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/remoteservice.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/servicebase.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/servicebrowser.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/servicemodel.h
+-rw-r--r--	root/root	usr/include/KF5/KDNSSD/kdnssd/servicetypebrowser.h
 -rw-r--r--	root/root	usr/include/KF5/kdnssd_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -30,8 +48,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5DNSSD/
 -rw-r--r--	root/root	usr/lib/cmake/KF5DNSSD/KF5DNSSDTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5DNSSD/KF5DNSSDTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5DNSSD.so -> libKF5DNSSD.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5DNSSD.so.5 -> libKF5DNSSD.so.5.83.0
--rwxr-xr-x	root/root	usr/lib/libKF5DNSSD.so.5.83.0
+lrwxrwxrwx	root/root	usr/lib/libKF5DNSSD.so.5 -> libKF5DNSSD.so.5.84.0
+-rwxr-xr-x	root/root	usr/lib/libKF5DNSSD.so.5.84.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
