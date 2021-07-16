@@ -4,7 +4,7 @@
 # Depends on: boost eigen
 
 name=pybind11
-version=2.6.2
+version=2.7.0
 release=1
 source=(https://github.com/pybind/$name/archive/v${version}/$name-$version.tar.gz)
 
