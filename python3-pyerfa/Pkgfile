@@ -1,0 +1,15 @@
+# Description: Python bindings for ERFA
+# URL: https://pypi.org/project/pyerfa/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-numpy python3-packaging python3-pip
+
+name=python3-pyerfa
+version=2.0.0
+release=1
+source=(https://files.pythonhosted.org/packages/source/p/${name/python3-/}/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+}
