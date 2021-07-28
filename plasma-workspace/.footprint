@@ -131,29 +131,29 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kfontprint
 -rwxr-xr-x	root/root	usr/lib/ksmserver-logout-greeter
 lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so -> libcolorcorrect.so.5
-lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.22.4
+-rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.22.4
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kcminit_startup.so
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.22.4
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.22.4
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.22.4
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.22.4
 -rwxr-xr-x	root/root	usr/lib/libkrdb.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.22.4
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.22.4
 lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so -> libnotificationmanager.so.1
-lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.22.4
+-rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.22.4
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.22.4
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.22.4
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.22.3
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.22.3
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.22.4
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.22.4
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -625,28 +625,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/kcm_style.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcm_translations.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kfontviewpart.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.appmenu.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.battery.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.calendar.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.clipboard.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.devicenotifier.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.digitalclock.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.icon.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.lock_logout.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.mediacontroller.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.notifications.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.private.systemtray.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.cpu.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.cpucore.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.diskactivity.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.diskusage.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.memory.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.net.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-containmentactions-switchactivity.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-activities.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-applicationjobs.desktop
@@ -672,12 +650,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-time.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-weather.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-geolocation-ip.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-lookandfeel-org.kde.breeze.desktop.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-kill_config.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-runner-webshortcuts_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.color.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.image.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.slideshow.desktop
 -rw-r--r--	root/root	usr/share/kservices5/programs.protocol
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/phononbackend.desktop
