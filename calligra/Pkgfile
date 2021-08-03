@@ -5,10 +5,16 @@
 
 name=calligra
 version=3.2.1
-release=1
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
+	62f51070.patch)
 
 build() {
+
+	( cd $name-$version
+	  patch -Np1 -i $SRC/62f51070.patch
+	)
+
 	mkdir build; cd build
 
 	cmake \
