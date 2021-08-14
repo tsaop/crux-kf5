@@ -1,28 +1,22 @@
 # Description: Open source multimedia framework, designed and developed for television broadcasting
 # URL: http://www.mltframework.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk libdv libsamplerate opencv sdl_image sox
+# Depends on: gtk libdv libsamplerate opencv sdl_image sox cmake libsdl2
 
 name=mlt
-version=6.26.1
+version=7.0.1
 release=1
 source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	# Disable PulseAudio, if it is not installed
-	[ ! -e '/usr/lib/pkgconfig/libpulse.pc' ] && sed -i 's|-D__LINUX_PULSE__||' src/modules/rtaudio/Makefile 
 
-	./configure --prefix=/usr \
-	--sysconfdir=/etc \
-	--qt-includedir=/usr/include/qt5 \
-	--qt-libdir=/usr/lib \
-	--enable-gpl \
-	--enable-gpl3 \
-	--disable-static \
-	--enable-shared \
-	--enable-opencv
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DMOD_OPENCV=ON
 
-	make
-	make DESTDIR=$PKG install
-}
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}	
