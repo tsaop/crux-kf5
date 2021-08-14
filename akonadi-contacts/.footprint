@@ -102,11 +102,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5ContactEditor/
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5ContactEditor/KF5ContactEditorTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so -> libKF5AkonadiContact.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiContact.so.5 -> libKF5AkonadiContact.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiContact.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so -> libKF5ContactEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5ContactEditor.so.5 -> libKF5ContactEditor.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5ContactEditor.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -119,7 +119,10 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/contacts/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/contacts/plugins/categorieseditwidgetplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_addressee.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi_serializer_contactgroup.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_akonadicontact_actions.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kaddressbook/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kaddressbook/kcm_akonadicontact_actions.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/plugins/

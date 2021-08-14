@@ -3,16 +3,26 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_notes_agent
 -rwxr-xr-x	root/root	usr/bin/knotes
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.17.3
-lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_knote.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_knotessummary.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_knotesplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_action.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_collection.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_display.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_editor.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_misc.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_network.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/knotes/kcm_knote_print.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/summary/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/summary/kcmknotessummary.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/agents/
@@ -77,14 +87,14 @@ drwxr-xr-x	root/root	usr/share/kontact/
 drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
 -rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/knotes.setdlg
 drwxr-xr-x	root/root	usr/share/kservices5/
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_action.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_collection.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_display.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_editor.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_misc.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_network.desktop
+-rw-r--r--	root/root	usr/share/kservices5/kcm_knote_print.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmknotessummary.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_action.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_collection.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_display.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_editor.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_misc.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_network.desktop
--rw-r--r--	root/root	usr/share/kservices5/knote_config_print.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/kontact/
 -rw-r--r--	root/root	usr/share/kservices5/kontact/knotesplugin.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/

@@ -3,23 +3,26 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akregator
 -rwxr-xr-x	root/root	usr/bin/akregatorstorageexporter
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libakregatorinterfaces.so -> libakregatorinterfaces.so.5
-lrwxrwxrwx	root/root	usr/lib/libakregatorinterfaces.so.5 -> libakregatorinterfaces.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libakregatorinterfaces.so.5.17.3
-lrwxrwxrwx	root/root	usr/lib/libakregatorprivate.so.5 -> libakregatorprivate.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libakregatorprivate.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libakregatorinterfaces.so.5 -> libakregatorinterfaces.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libakregatorinterfaces.so.5.18.0
+lrwxrwxrwx	root/root	usr/lib/libakregatorprivate.so.5 -> libakregatorprivate.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libakregatorprivate.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_advanced.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_appearance.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_archive.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_browser.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_general.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_config_plugins.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregator_mk4storage_plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregatorpart.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_akregatorplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_advanced.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_appearance.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_archive.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_browser.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_general.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_plugins.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/akregator/akregator_config_security.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akregator/
 drwxr-xr-x	root/root	usr/share/akregator/grantleetheme/
@@ -74,8 +77,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/akregator_config_browser.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akregator_config_general.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akregator_config_plugins.desktop
+-rw-r--r--	root/root	usr/share/kservices5/akregator_config_security.desktop
 -rw-r--r--	root/root	usr/share/kservices5/akregator_mk4storage_plugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/feed.protocol
 drwxr-xr-x	root/root	usr/share/kservices5/kontact/
 -rw-r--r--	root/root	usr/share/kservices5/kontact/akregatorplugin.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/

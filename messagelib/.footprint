@@ -43,12 +43,11 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditor
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorBase
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSend
--rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendConfigureWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendInterface
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorCheckBeforeSendParams
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorConfigureBaseWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorConvertText
--rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorConvertTextConfigureWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorConvertTextInterface
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorConvertTextManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorConverterBeforeConvertingData
@@ -56,7 +55,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorGrammarCustomToolsViewInterface
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorGrammarManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInit
--rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInitConfigureWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInitInterface
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInitManager
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/PluginEditorInterface
@@ -115,7 +113,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageList/
 -rw-r--r--	root/root	usr/include/KF5/MessageList/WidgetBase
 drwxr-xr-x	root/root	usr/include/KF5/MessageViewer/
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/AttachmentStrategy
--rw-r--r--	root/root	usr/include/KF5/MessageViewer/BlockMailTrackingUrlInterceptor
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/BodyPartURLHandler
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/BufferedHtmlWriter
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/CSSHelper
@@ -159,6 +156,11 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageViewer/
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessagePartRenderPlugin
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessagePartRendererBase
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessagePartRendererManager
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerCheckBeforeDeletingInterface
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerCheckBeforeDeletingParameters
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerCheckBeforeDeletingPlugin
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerCheckBeforeDeletingPluginManager
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerCheckBeforeDeletingPluginWidget
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerConfigureSettingsPlugin
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerConfigureSettingsPluginManager
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/MessageViewerConfigureSettingsPluginWidget
@@ -211,14 +213,18 @@ drwxr-xr-x	root/root	usr/include/KF5/TemplateParser/
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesTextEdit
 -rw-r--r--	root/root	usr/include/KF5/TemplateParser/TemplatesUtil
 drwxr-xr-x	root/root	usr/include/KF5/WebEngineViewer/
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/BlockExternalResourcesUrlInterceptor
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/BlockTrackingUrlInterceptor
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlCache
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlJob
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CheckPhishingUrlUtil
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/CreatePhishingUrlDataBaseJob
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/DeveloperToolDialog
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/FindBarBase
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/FindBarWebEngineView
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/HashCacheManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/InterceptorManager
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/LoadExternalReferencesUrlInterceptor
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/LocalDataBaseManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkPluginUrlInterceptor
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkPluginUrlInterceptorConfigureWidget
@@ -226,6 +232,8 @@ drwxr-xr-x	root/root	usr/include/KF5/WebEngineViewer/
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkUrlInterceptor
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/NetworkUrlInterceptorPluginManager
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/SearchFullHashJob
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/SubmittedFormWarningWidget
+-rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/TrackingWarningWidget
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/UpdateDataBaseInfo
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineAccessKey
 -rw-r--r--	root/root	usr/include/KF5/WebEngineViewer/WebEngineExportHtmlPageJob
@@ -282,20 +290,18 @@ drwxr-xr-x	root/root	usr/include/KF5/messagecomposer/
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditor.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorbase.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesend.h
--rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendconfigurewidget.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendinterface.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorcheckbeforesendparams.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconfigurebasewidget.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconverterbeforeconvertingdata.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconverterinitialdata.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconverttext.h
--rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconverttextconfigurewidget.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconverttextinterface.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorconverttextmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorgrammarcustomtoolsviewinterface.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorgrammarmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinit.h
--rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinitconfigurewidget.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinitinterface.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinitmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/plugineditorinterface.h
@@ -361,7 +367,6 @@ drwxr-xr-x	root/root	usr/include/KF5/messagelist/
 -rw-r--r--	root/root	usr/include/KF5/messagelist_version.h
 drwxr-xr-x	root/root	usr/include/KF5/messageviewer/
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/attachmentstrategy.h
--rw-r--r--	root/root	usr/include/KF5/messageviewer/blockmailtrackingurlinterceptor.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/bodyparturlhandler.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/bufferedhtmlwriter.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/config-messageviewer.h
@@ -409,6 +414,11 @@ drwxr-xr-x	root/root	usr/include/KF5/messageviewer/
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/messagepartrenderplugin.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewer_debug.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewer_export.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewercheckbeforedeletinginterface.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewercheckbeforedeletingparameters.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewercheckbeforedeletingplugin.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewercheckbeforedeletingpluginmanager.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewercheckbeforedeletingpluginwidget.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewerconfiguresettingsplugin.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewerconfiguresettingspluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/messageviewerconfiguresettingspluginwidget.h
@@ -470,14 +480,18 @@ drwxr-xr-x	root/root	usr/include/KF5/templateparser/
 -rw-r--r--	root/root	usr/include/KF5/templateparser/ui_templatesconfiguration_base.h
 -rw-r--r--	root/root	usr/include/KF5/templateparser_version.h
 drwxr-xr-x	root/root	usr/include/KF5/webengineviewer/
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/blockexternalresourcesurlinterceptor.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/blocktrackingurlinterceptor.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurlcache.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurljob.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/checkphishingurlutil.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/createphishingurldatabasejob.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/developertooldialog.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/findbarbase.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/findbarwebengineview.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/hashcachemanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/interceptormanager.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/loadexternalreferencesurlinterceptor.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/localdatabasemanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkpluginurlinterceptor.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkpluginurlinterceptorconfigurewidget.h
@@ -485,6 +499,8 @@ drwxr-xr-x	root/root	usr/include/KF5/webengineviewer/
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkurlinterceptor.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/networkurlinterceptorpluginmanager.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/searchfullhashjob.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/submittedformwarningwidget.h
+-rw-r--r--	root/root	usr/include/KF5/webengineviewer/trackingwarningwidget.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/updatedatabaseinfo.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineaccesskey.h
 -rw-r--r--	root/root	usr/include/KF5/webengineviewer/webengineexporthtmlpagejob.h
@@ -536,26 +552,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so -> libKF5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so -> libKF5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so -> libKF5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so -> libKF5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so -> libKF5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so -> libKF5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.18.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so -> libKF5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

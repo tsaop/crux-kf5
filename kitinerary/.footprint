@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KPim/
 drwxr-xr-x	root/root	usr/include/KPim/KItinerary/
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/AbstractExtractor
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Action
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/AlphaId
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/BarcodeDecoder
@@ -13,18 +14,19 @@ drwxr-xr-x	root/root	usr/include/KPim/KItinerary/
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Datatypes
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/DocumentUtil
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Event
--rw-r--r--	root/root	usr/include/KPim/KItinerary/Extractor
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorCapabilities
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorDocumentNode
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorDocumentNodeFactory
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorDocumentProcessor
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorEngine
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorFilter
--rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorInput
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorPostprocessor
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorRepository
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorResult
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/ExtractorValidator
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/File
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Flight
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/HtmlDocument
--rw-r--r--	root/root	usr/include/KPim/KItinerary/IataBcbpParser
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/JsonLdDocument
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/KnowledgeDb
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/LocationUtil
@@ -37,6 +39,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KItinerary/
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Rct2Ticket
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/RentalCar
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Reservation
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/ScriptExtractor
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/SortUtil
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Taxi
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Ticket
@@ -50,6 +53,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KItinerary/
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Vendor0080Block
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Visit
 drwxr-xr-x	root/root	usr/include/KPim/kitinerary/
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/abstractextractor.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/action.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/alphaid.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/barcodedecoder.h
@@ -61,18 +65,19 @@ drwxr-xr-x	root/root	usr/include/KPim/kitinerary/
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/datatypes.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/documentutil.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/event.h
--rw-r--r--	root/root	usr/include/KPim/kitinerary/extractor.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorcapabilities.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/extractordocumentnode.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/extractordocumentnodefactory.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/extractordocumentprocessor.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorengine.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorfilter.h
--rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorinput.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorpostprocessor.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorrepository.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorresult.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/extractorvalidator.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/file.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/flight.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/htmldocument.h
--rw-r--r--	root/root	usr/include/KPim/kitinerary/iatabcbpparser.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/jsonlddocument.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/kitinerary_export.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/knowledgedb.h
@@ -86,6 +91,7 @@ drwxr-xr-x	root/root	usr/include/KPim/kitinerary/
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/rct2ticket.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/rentalcar.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/reservation.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/scriptextractor.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/sortutil.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/taxi.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/ticket.h
@@ -109,8 +115,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimItinerary/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kitinerary-extractor
 lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so -> libKPimItinerary.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so.5 -> libKPimItinerary.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKPimItinerary.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so.5 -> libKPimItinerary.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKPimItinerary.so.5.18.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/

@@ -4,16 +4,12 @@
 # Depends on: kcalendarcore kcontacts kmime kpkpass poppler zxing-cpp
 
 name=kitinerary
-version=21.04.3
-release=2
-source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
-	poppler-21.8.0.patch)
+version=21.08.0
+release=1
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	patch -Np1 -i $SRC/poppler-21.8.0.patch
-
 	mkdir build; cd build
 
 	cmake -DCMAKE_BUILD_TYPE=Release \

@@ -5,10 +5,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Libkleo/
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/Algorithm
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/ChecksumDefinition
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Classify
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Compat
--rw-r--r--	root/root	usr/include/KF5/Libkleo/CryptoConfigDialog
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/CryptoConfig
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/CryptoConfigModule
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/DNAttributeOrderConfigWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Debug
@@ -16,6 +17,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/DefaultKeyGenerationJob
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/DirectoryServicesWidget
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Dn
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/EditDirectoryServiceDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Enum
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/FileNameRequester
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/FileSystemWatcher
@@ -35,8 +37,10 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeyRearrangeColumnsProxyModel
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeyRequester
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeyResolver
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/KeyResolverCore
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeySelectionCombo
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KeySelectionDialog
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/KeyserverConfig
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/KleoException
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/MessageBox
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/NewKeyApprovalDialog
@@ -45,12 +49,14 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/ProgressDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Stl_Util
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/SubkeyListModel
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/Test
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/UserIDListModel
 drwxr-xr-x	root/root	usr/include/KF5/libkleo/
+-rw-r--r--	root/root	usr/include/KF5/libkleo/algorithm.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/checksumdefinition.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/classify.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/compat.h
--rw-r--r--	root/root	usr/include/KF5/libkleo/cryptoconfigdialog.h
+-rw-r--r--	root/root	usr/include/KF5/libkleo/cryptoconfig.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/cryptoconfigmodule.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/debug.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/defaultkeyfilter.h
@@ -58,6 +64,7 @@ drwxr-xr-x	root/root	usr/include/KF5/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/libkleo/directoryserviceswidget.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/dn.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/dnattributeorderconfigwidget.h
+-rw-r--r--	root/root	usr/include/KF5/libkleo/editdirectoryservicedialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/enum.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/filenamerequester.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/filesystemwatcher.h
@@ -77,8 +84,10 @@ drwxr-xr-x	root/root	usr/include/KF5/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyrearrangecolumnsproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyrequester.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyresolver.h
+-rw-r--r--	root/root	usr/include/KF5/libkleo/keyresolvercore.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyselectioncombo.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/keyselectiondialog.h
+-rw-r--r--	root/root	usr/include/KF5/libkleo/keyserverconfig.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/kleo_export.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/kleoexception.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/messagebox.h
@@ -88,6 +97,7 @@ drwxr-xr-x	root/root	usr/include/KF5/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/libkleo/progressdialog.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/stl_util.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/subkeylistmodel.h
+-rw-r--r--	root/root	usr/include/KF5/libkleo/test.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo/useridlistmodel.h
 -rw-r--r--	root/root	usr/include/KF5/libkleo_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -98,8 +108,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Libkleo/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so -> libKF5Libkleo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

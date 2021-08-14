@@ -54,8 +54,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Ldap/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Ldap/KF5LdapTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Ldap/KF5LdapTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Ldap.so -> libKF5Ldap.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Ldap.so.5 -> libKF5Ldap.so.5.17.3
--rwxr-xr-x	root/root	usr/lib/libKF5Ldap.so.5.17.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Ldap.so.5 -> libKF5Ldap.so.5.18.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Ldap.so.5.18.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -65,9 +65,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/ldap.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/ldap.protocol
--rw-r--r--	root/root	usr/share/kservices5/ldaps.protocol
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kldap.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kldap.renamecategories

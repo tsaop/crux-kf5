@@ -50,7 +50,9 @@ lrwxrwxrwx	root/root	usr/lib/libOkular5Core.so.9 -> libOkular5Core.so.9.0.0
 -rwxr-xr-x	root/root	usr/lib/libOkular5Core.so.9.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kio_msits.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/kio_msits.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/okular/generators/okularGenerator_chmlib.so
@@ -130,7 +132,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/okular.upd
 drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/ms-its.protocol
 -rw-r--r--	root/root	usr/share/kservices5/okularChm.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularComicbook.desktop
 -rw-r--r--	root/root	usr/share/kservices5/okularDjvu.desktop
