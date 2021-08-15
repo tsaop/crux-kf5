@@ -26,6 +26,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/KNSCore/
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Installation
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/ItemsModel
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Provider
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/ProvidersModel
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/Question
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/QuestionListener
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/KNSCore/QuestionManager
@@ -57,6 +58,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KNewStuff3/knscore/
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/itemsmodel.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/knewstuffcore_export.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/provider.h
+-rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/providersmodel.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/question.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/questionlistener.h
 -rw-r--r--	root/root	usr/include/KF5/KNewStuff3/knscore/questionmanager.h
@@ -82,11 +84,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuffQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so -> libKF5NewStuff.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.84.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.84.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.85.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.85.0
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so -> libKF5NewStuffCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.84.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.84.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.85.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.85.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -108,6 +110,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/NewStuffList.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/Page.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/QuestionAsker.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/UploadPage.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/ConditionalLoader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryCommentDelegate.qml

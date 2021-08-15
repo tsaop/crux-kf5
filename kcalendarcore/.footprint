@@ -10,6 +10,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCalendarCore/KCalCore/
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/CalFormat
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/CalStorage
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/Calendar
+-rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/CalendarPlugin
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/Conference
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/CustomProperties
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalCore/Duration
@@ -42,6 +43,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/CalFormat
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/CalStorage
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/Calendar
+-rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/CalendarPlugin
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/Conference
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/CustomProperties
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/KCalendarCore/Duration
@@ -71,6 +73,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCalendarCore/kcalcore/
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/attachment.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/attendee.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/calendar.h
+-rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/calendarplugin.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/calfilter.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/calformat.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalcore/calstorage.h
@@ -104,6 +107,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/attachment.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/attendee.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/calendar.h
+-rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/calendarplugin.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/calfilter.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/calformat.h
 -rw-r--r--	root/root	usr/include/KF5/KCalendarCore/kcalendarcore/calstorage.h
@@ -143,8 +147,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CalendarCore/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CalendarCore/KF5CalendarCoreTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CalendarCore/KF5CalendarCoreTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CalendarCore.so -> libKF5CalendarCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CalendarCore.so.5 -> libKF5CalendarCore.so.5.84.0
--rwxr-xr-x	root/root	usr/lib/libKF5CalendarCore.so.5.84.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CalendarCore.so.5 -> libKF5CalendarCore.so.5.85.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CalendarCore.so.5.85.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/KF5CalendarCore.pc
 drwxr-xr-x	root/root	usr/lib/qt5/

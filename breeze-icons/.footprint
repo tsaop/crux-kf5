@@ -1279,6 +1279,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/set-language.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/settings-configure.svg -> configure.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/shallow-history.svg -> appointment-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/shape-choose.svg -> shapes.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/shape-cuboid.svg -> draw-cuboid.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/shapes.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/shear.svg -> transform-shear-left.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/show-dialogs.svg -> show-menu.svg
@@ -3149,6 +3150,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/set-language.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/settings-configure.svg -> configure.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/shallow-history.svg -> appointment-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/shape-choose.svg -> shapes.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/shape-cuboid.svg -> draw-cuboid.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/shapes.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/sharpenimage.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/shear.svg -> transform-shear-left.svg
@@ -3657,6 +3659,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/x-shape-text.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/zoom-draw.svg -> zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/zoom-fit-height.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/zoom-fit-page.svg -> zoom-fit-best.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/zoom-fit-selection.svg -> zoom-select.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/zoom-fit-width.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/zoom-in-large.svg -> zoom-in.svg
@@ -3947,6 +3950,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/view-calendar-holida
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/zoom-draw.svg -> zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/32/zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/32/zoom-fit-height.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/zoom-fit-page.svg -> zoom-fit-best.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/zoom-fit-selection.svg -> zoom-select.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/32/zoom-fit-width.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/32/zoom-in-large.svg -> zoom-in.svg
@@ -4670,7 +4674,9 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/office-calendar.svg -> 
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/okular.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/openbravo-erp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/org.fedoraproject.AnacondaInstaller.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.inkscape.Inkscape.svg -> inkscape.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/org.kde.Ikona.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.telegram.desktop.svg -> telegram.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/partitionmanager.svg -> gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/phonon-gstreamer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/photolayoutseditor.svg
@@ -7912,6 +7918,9 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/16/pidgin-tray-xa.svg ->
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/16/task-complete.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/16/task-recurring.svg -> ../../actions/16/view-refresh.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/16/task-reminder.svg -> ../../actions/16/notifications.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/16/temperature-cold.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/16/temperature-normal.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/16/temperature-warm.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/16/user-available.svg -> user-online.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/16/user-away-extended.svg -> user-idle.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/16/user-away.svg -> ../../actions/16/im-user-away.svg
@@ -8071,6 +8080,9 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/task-reminder.svg -> 
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/telegram-attention-panel.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/telegram-mute-panel.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/telegram-panel.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/temperature-cold.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/temperature-normal.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/temperature-warm.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/transmission-tray-icon.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/uninstall.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/update-high.svg
@@ -9487,6 +9499,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/set-language.svg -> amaro
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/settings-configure.svg -> configure.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/shallow-history.svg -> appointment-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/shape-choose.svg -> shapes.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/shape-cuboid.svg -> draw-cuboid.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/shapes.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/shear.svg -> transform-shear-left.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/show-dialogs.svg -> show-menu.svg
@@ -11350,6 +11363,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/set-language.svg -> amaro
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/settings-configure.svg -> configure.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/shallow-history.svg -> appointment-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/shape-choose.svg -> shapes.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/shape-cuboid.svg -> draw-cuboid.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/shapes.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/sharpenimage.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/shear.svg -> transform-shear-left.svg
@@ -11863,6 +11877,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/x-shape-text.svg -> view-
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/zoom-draw.svg -> zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/zoom-fit-height.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/zoom-fit-page.svg -> zoom-fit-best.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/zoom-fit-selection.svg -> zoom-select.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/zoom-fit-width.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/zoom-in-large.svg -> zoom-in.svg
@@ -12151,6 +12166,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/view-calendar-holiday.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/zoom-draw.svg -> zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/32/zoom-fit-best.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/32/zoom-fit-height.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/zoom-fit-page.svg -> zoom-fit-best.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/zoom-fit-selection.svg -> zoom-select.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/32/zoom-fit-width.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/32/zoom-in-large.svg -> zoom-in.svg
@@ -12898,9 +12914,11 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/office-calendar.svg -> plan.
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/okular.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/openbravo-erp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/org.fedoraproject.AnacondaInstaller.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.inkscape.Inkscape.svg -> inkscape.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/org.kde.Ikona.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/org.kde.kontrast.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/org.kde.neochat.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.telegram.desktop.svg -> telegram.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/parley.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/partitionmanager.svg -> gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/phonon-gstreamer.svg
@@ -16161,6 +16179,9 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/status/16/pidgin-tray-xa.svg -> user
 -rw-r--r--	root/root	usr/share/icons/breeze/status/16/task-complete.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/16/task-recurring.svg -> ../../actions/16/view-refresh.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/16/task-reminder.svg -> ../../actions/16/notifications.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/16/temperature-cold.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/16/temperature-normal.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/16/temperature-warm.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/16/user-available.svg -> user-online.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/16/user-away-extended.svg -> user-idle.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/16/user-away.svg -> ../../actions/16/im-user-away.svg
@@ -16424,6 +16445,9 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/task-reminder.svg -> ../..
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/telegram-attention-panel.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/telegram-mute-panel.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/telegram-panel.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/temperature-cold.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/temperature-normal.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/temperature-warm.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/transmission-tray-icon.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/uninstall.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/update-high.svg

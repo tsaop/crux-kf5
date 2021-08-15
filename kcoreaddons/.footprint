@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KListOpenFilesJob
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMacroExpander
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMessage
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KNetworkMounts
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KOSRelease
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KPluginFactory
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KPluginLoader
@@ -58,6 +59,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/klistopenfilesjob.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmacroexpander.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmessage.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/knetworkmounts.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kosrelease.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kpluginfactory.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kpluginloader.h
@@ -85,8 +87,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.84.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.84.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.85.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.85.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
