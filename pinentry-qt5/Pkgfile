@@ -4,7 +4,7 @@
 # Depends on: libassuan libsecret qt5
 
 name=pinentry-qt5
-version=1.1.1
+version=1.2.0
 release=1
 source=(https://gnupg.org/ftp/gcrypt/${name/-qt5/}/${name/-qt5/}-$version.tar.bz2)
 
