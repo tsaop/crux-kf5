@@ -4,15 +4,13 @@
 # Depends on: lcms2 openexr pybind11 pystring tinyxml yaml-cpp
 
 name=opencolorio
-version=2.0.1
-release=2
+version=2.1.0
+release=1
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz
-	opencolorio-openexr3.patch
 	fix-yaml-cpp-detection.patch)
 
 build() {
 	cd OpenColorIO-$version
-	patch -Np1 -i $SRC/opencolorio-openexr3.patch
 
 	# yaml-cpp cmake files are broken. Revert to pkg-config detection
 	patch -Np1 -i $SRC/fix-yaml-cpp-detection.patch
