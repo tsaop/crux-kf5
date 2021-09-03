@@ -1,10 +1,10 @@
 # Description: Gallery application built using Kirigami
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: extra-cmake-modules qt5 kitemmodels kirigami2
+# Depends on: kirigami2 kitemmodels
 
 name=kirigami-gallery
-version=21.08.0
+version=21.08.1
 release=1
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
