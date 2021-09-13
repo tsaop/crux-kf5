@@ -5,10 +5,12 @@ drwxr-xr-x	root/root	usr/include/KF5/Kirigami2/
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/KirigamiPluginFactory
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/PlatformTheme
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/TabletModeWatcher
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/Units
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami2_export.h
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigamipluginfactory.h
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/platformtheme.h
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/tabletmodewatcher.h
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/units.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Kirigami2/
@@ -18,8 +20,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Kirigami2/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so -> libKF5Kirigami2.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.85.0
--rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.85.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.86.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.86.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -74,7 +76,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ShadowedImage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/SwipeListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ToolBarApplicationHeader.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Units.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/UrlButton.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/libkirigamiplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/plugins.qmltypes
@@ -104,6 +105,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/TitlesPageHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/settingscomponents/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/settingscomponents/CategorizedSettings.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/settingscomponents/SettingAction.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/Material/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/Material/AbstractListItem.qml
@@ -116,7 +120,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/SwipeListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/Theme.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/Units.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/swipenavigator/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/swipenavigator/PageTab.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeHighlight.qml

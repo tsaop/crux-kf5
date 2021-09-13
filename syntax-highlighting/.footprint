@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KSyntaxHighlighting/
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/State
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/SyntaxHighlighter
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/Theme
+-rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/WildcardMatcher
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/abstracthighlighter.h
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/definition.h
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/definitiondownloader.h
@@ -23,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KSyntaxHighlighting/
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/state.h
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/syntaxhighlighter.h
 -rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/theme.h
+-rw-r--r--	root/root	usr/include/KF5/KSyntaxHighlighting/wildcardmatcher.h
 -rw-r--r--	root/root	usr/include/KF5/ksyntaxhighlighting_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -32,12 +34,18 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5SyntaxHighlighting/
 -rw-r--r--	root/root	usr/lib/cmake/KF5SyntaxHighlighting/KF5SyntaxHighlightingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5SyntaxHighlighting/KF5SyntaxHighlightingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5SyntaxHighlighting.so -> libKF5SyntaxHighlighting.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5SyntaxHighlighting.so.5 -> libKF5SyntaxHighlighting.so.5.85.0
--rwxr-xr-x	root/root	usr/lib/libKF5SyntaxHighlighting.so.5.85.0
+lrwxrwxrwx	root/root	usr/lib/libKF5SyntaxHighlighting.so.5 -> libKF5SyntaxHighlighting.so.5.86.0
+-rwxr-xr-x	root/root	usr/lib/libKF5SyntaxHighlighting.so.5.86.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KSyntaxHighlighting.pri
+drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/syntaxhighlighting/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/syntaxhighlighting/libkquicksyntaxhighlightingplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/syntaxhighlighting/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/ksyntaxhighlighting.categories
