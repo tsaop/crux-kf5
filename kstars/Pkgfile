@@ -4,27 +4,25 @@
 # Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw stellarsolver xplanet
 
 name=kstars
-version=3.5.3
+version=3.5.5
 source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
 release=1
 
 build() {
 
     cd $name-$version
-    mkdir build; cd build
 
-	cmake \
+    cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DBUILD_TESTING=OFF \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DKAUTH_HELPER_INSTALL_DIR=/etc/dbus-1/system.d \
 	-DKDE_INSTALL_LIBDIR=lib \
-	-Wno-dev \
-	..
-	
-	make
-	make DESTDIR=$PKG install
+	-Wno-dev
 
-	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/doc
+    cmake --build build
+    DESTDIR=$PKG cmake --install build
+
+    rm -rf $PKG/usr/share/locale
+    rm -rf $PKG/usr/share/doc
 }
