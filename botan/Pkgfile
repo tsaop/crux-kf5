@@ -1,0 +1,26 @@
+# Description: C++ cryptography library released under the permissive Simplified BSD license.
+# URL: https://botan.randombit.net/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3 boost
+
+name=botan
+version=2.18.1
+release=1
+source=(https://github.com/randombit/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	python3 configure.py --prefix=/usr \
+		--with-boost \
+		--with-bzip2 \
+		--with-lzma \
+		--with-openssl \
+		--with-sqlite3 \
+		--with-zlib \
+		--disable-static-library
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
