@@ -1,0 +1,19 @@
+# Description: Core control application for CPU and GPU
+# URL: https://gitlab.com/corectrl/corectrl
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt5 extra-cmake-modules kauth karchive botan
+
+name=corectrl
+version=1.2.1
+release=1
+source=(https://gitlab.com/$name/$name/-/archive/v${version}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-v${version}-*
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
