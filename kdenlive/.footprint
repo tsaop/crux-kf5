@@ -210,6 +210,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_lagfun.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_lenscorrection.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_limiter.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_loudnorm.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_lut3d.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_mcdeint.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/avfilter_negate.xml
@@ -274,6 +275,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_bigsh0t_transform_360.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_brightness.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_c0rners.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_cairogradient.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_cairoimagegrid.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_cartoon.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_cluster.xml
@@ -340,6 +342,7 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/frei0r_vignette.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/gain.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/gamma.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/gpstext.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/grain.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/greyscale.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/invert.xml
@@ -349,7 +352,9 @@ drwxr-xr-x	root/root	usr/share/kdenlive/effects/
 -rw-r--r--	root/root	usr/share/kdenlive/effects/luma.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/lumaliftgaingamma.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/mask_apply.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/mask_start.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/mask_start_frei0r_alphaspot.xml
+-rw-r--r--	root/root	usr/share/kdenlive/effects/mask_start_frei0r_select0r.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/mask_start_rotoscoping.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/mask_start_shape.xml
 -rw-r--r--	root/root	usr/share/kdenlive/effects/mirror.xml

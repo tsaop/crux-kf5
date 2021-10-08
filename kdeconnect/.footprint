@@ -12,12 +12,12 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.08.1
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.08.1
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.08.1
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.08.1
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.08.1
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.08.1
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.08.2
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.08.2
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.08.2
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.08.2
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.08.2
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.08.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
@@ -90,6 +90,48 @@ drwxr-xr-x	root/root	usr/share/deepin/dde-file-manager/oem-menuextensions/
 -rw-r--r--	root/root	usr/share/deepin/dde-file-manager/oem-menuextensions/kdeconnect-dde.desktop
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/status/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/laptopconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/smartphoneconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/smartphonedisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/smartphonetrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/tabletconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/tabletdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/tablettrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/tvconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/tvdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/status/tvtrusted.svg
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/status/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/laptopconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/laptopdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/laptoptrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/smartphoneconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/smartphonedisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/smartphonetrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/tabletconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/tabletdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/tablettrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/tvconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/tvdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/status/tvtrusted.svg
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/status/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/laptopconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/laptopdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/laptoptrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/smartphoneconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/smartphonedisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/smartphonetrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/tabletconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/tabletdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/tablettrusted.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/tvconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/tvdisconnected.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/status/tvtrusted.svg
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdeconnect.svg

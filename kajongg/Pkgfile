@@ -1,10 +1,10 @@
 # Description: Kajongg is the ancient Chinese board game for 4 players.
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  desktop-file-utils gtk libkmahjongg python3-attrs python3-pyqt5 python3-twisted vorbis-tools python3-typing_extensions
+# Depends on: desktop-file-utils gtk libkmahjongg python3-pyqt5 python3-twisted python3-typing_extensions vorbis-tools
 
 name=kajongg
-version=21.08.1
+version=21.08.2
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
