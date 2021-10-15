@@ -8,3 +8,6 @@ drwxr-xr-x	root/root	lib/security/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/pam_kwallet_init
+drwxr-xr-x	root/root	usr/lib/systemd/
+drwxr-xr-x	root/root	usr/lib/systemd/user/
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-kwallet-pam.service

@@ -2,9 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/abstract_data_source.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/abstract_drop_handler.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/appmenu_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/blur_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/buffer_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/clientbuffer.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/clientbufferintegration.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/clientconnection.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/compositor_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/contrast_interface.h
@@ -18,10 +20,10 @@ drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/datasource_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/display.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/dpms_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/drmclientbuffer.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/eglstream_controller_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/fakeinput_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/filtered_display.h
--rw-r--r--	root/root	usr/include/KWaylandServer/global.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/idle_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/idleinhibit_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/inputmethod_v1_interface.h
@@ -30,26 +32,29 @@ drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/keystate_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/kwaylandserver_export.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/layershell_v1_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/linuxdmabuf_v1_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/linuxdmabufv1clientbuffer.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/output_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/outputchangeset.h
--rw-r--r--	root/root	usr/include/KWaylandServer/outputconfiguration_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/outputdevice_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/outputmanagement_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/outputchangeset_v2.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/outputconfiguration_v2_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/outputdevice_v2_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/outputmanagement_v2_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/plasmashell_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/plasmavirtualdesktop_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/plasmawindowmanagement_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointer_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointerconstraints_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointergestures_v1_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectiondevice_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectiondevicemanager_v1_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectionoffer_v1_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectionsource_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/relativepointer_v1_interface.h
--rw-r--r--	root/root	usr/include/KWaylandServer/resource.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/screencast_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/seat_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/server_decoration_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/server_decoration_palette_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/shadow_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/shmclientbuffer.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/slide_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/subcompositor_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/surface_interface.h
@@ -60,6 +65,7 @@ drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/touch_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/utils.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/viewporter_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/xdgactivation_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/xdgdecoration_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/xdgforeign_v2_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/xdgoutput_v1_interface.h
@@ -73,8 +79,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KWaylandServer/
 -rw-r--r--	root/root	usr/lib/cmake/KWaylandServer/KWaylandServerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KWaylandServer/KWaylandServerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so -> libKWaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so.5 -> libKWaylandServer.so.5.22.5
--rwxr-xr-x	root/root	usr/lib/libKWaylandServer.so.5.22.5
+lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so.5 -> libKWaylandServer.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKWaylandServer.so.5.23.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kwaylandserver.categories
