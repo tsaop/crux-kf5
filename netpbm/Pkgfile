@@ -1,20 +1,23 @@
 # Description: Netpbm is a toolkit for manipulation of graphic images, including conversion of images between a variety of different formats
 # URL: http://netpbm.sourceforge.net/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libpng libtiff subversion xorg-libx11
+# Depends on: libpng libtiff xorg-libx11 python
 
 name=netpbm
-version=10.86.25
-_svnrev=4156
-source=(userguide.tar.gz)
+version=10.73.37
+source=(https://sourceforge.net/projects/netpbm/files/super_stable/10.73.37/$name-$version.tgz
+	userguide.tar.gz
+	netpbm-CAN-2005-2471.patch
+	netpbm-security-code.patch
+	netpbm-security-scripts.patch)
 release=1
 
 build() {
-
-	svn co -r ${_svnrev} https://svn.code.sf.net/p/netpbm/code/stable
-
-	cd stable
-
+	cd $name-$version
+	patch -Np1 -i $SRC/netpbm-CAN-2005-2471.patch
+	patch -Np1 -i $SRC/netpbm-security-code.patch
+	patch -Np1 -i $SRC/netpbm-security-scripts.patch 
+	
 	# install html man pages for later conversion
 	mv $SRC/userguide .
 
@@ -25,27 +28,26 @@ build() {
 	echo 'JPEGLIB = libjpeg.so' >> config.mk
 	echo 'PNGLIB = libpng.so' >> config.mk
 	echo 'ZLIB = libz.so' >> config.mk
-	echo "NETPBM_DOCURL = file://$SRC/$name-code-${_svnrev}-trunk/doc" >> config.mk
+	echo "NETPBM_DOCURL = file://$SRC/$name-$version/doc" >> config.mk
 
 	sed -i 's|misc|share/netpbm|' common.mk
-	sed -i 's|/sharedlink|/lib|' lib/Makefile
-	sed -i 's|/staticlink|/lib|' lib/Makefile
+	sed -i 's|/link|/lib|' lib/Makefile
 	sed -i 's|install.manwebmain install.manweb install.man|install.man|' GNUmakefile
 
 	make -j1
 
 	# generate manpages
-	make MAKEMAN="$SRC/stable/buildtools/makeman" USERGUIDE="$SRC/stable/userguide" \
-		-C doc -f "$SRC/stable/buildtools/manpage.mk" manpages
+	make MAKEMAN="$SRC/$name-$version/buildtools/makeman" USERGUIDE="$SRC/$name-$version/userguide" \
+		-C doc -f "$SRC/$name-$version/buildtools/manpage.mk" manpages
 
 	make pkgdir="$PKG/usr" PKGMANDIR="share/man" install-run install-dev
 
 	# install manpages
 	mkdir -p $PKG/usr/share/man/man{1,3,5}
-	make MAKEMAN="$SRC/stable/buildtools/makeman" \
-	USERGUIDE="$SRC/stable/userguide" \
+	make MAKEMAN="$SRC/$name-$version/buildtools/makeman" \
+	USERGUIDE="$SRC/$name-$version/userguide" \
 	MANDIR="$PKG/usr/share/man" -C doc \
-	-f "$SRC/stable/buildtools/manpage.mk" installman
+	-f "$SRC/$name-$version/buildtools/manpage.mk" installman
 
 	# Replace obsolete utility
 	echo -e '#!/bin/sh\npamditherbw $@ | pamtopnm\n' > "$PKG/usr/bin/pgmtopbm"
