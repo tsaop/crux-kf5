@@ -1,10 +1,10 @@
 # Description: Open source multimedia framework, designed and developed for television broadcasting
 # URL: http://www.mltframework.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk libdv libsamplerate opencv sdl_image sox cmake libsdl2
+# Depends on: gtk libdv libsamplerate libsdl2 opencv sdl_image sox
 
 name=mlt
-version=7.0.1
+version=7.2.0
 release=1
 source=(https://github.com/mltframework/$name/archive/v${version}/$name-$version.tar.gz)
 
