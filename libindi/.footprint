@@ -105,6 +105,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_focus
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_gps
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_guide
+-rwxr-xr-x	root/root	usr/bin/indi_simulator_lightpanel
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_receiver
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_rotator
 -rwxr-xr-x	root/root	usr/bin/indi_simulator_sqm
@@ -253,23 +254,22 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.2
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.2
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.3
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.3
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.2
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.2
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.3
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.3
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.2
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.2
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.3
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
 -rw-r--r--	root/root	usr/lib/udev/rules.d/80-dbk21-camera.rules
 -rw-r--r--	root/root	usr/lib/udev/rules.d/99-indi_auxiliary.rules
--rw-r--r--	root/root	usr/lib/udev/rules.d/99-vantage.rules
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/indi/
 -rw-r--r--	root/root	usr/share/indi/drivers.xml
