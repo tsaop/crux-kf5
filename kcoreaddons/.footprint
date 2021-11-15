@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KJob
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KJobTrackerInterface
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KJobUiDelegate
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KJsonUtils
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KListOpenFilesJob
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMacroExpander
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMessage
@@ -56,6 +57,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kjob.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kjobtrackerinterface.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kjobuidelegate.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kjsonutils.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/klistopenfilesjob.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmacroexpander.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmessage.h
@@ -87,8 +89,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.87.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.87.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.88.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.88.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

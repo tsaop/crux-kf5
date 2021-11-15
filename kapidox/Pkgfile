@@ -4,8 +4,8 @@
 # Depends on:  python3-jinja2 python3-requests python3-yaml
 
 name=kapidox
-version=5.87.0
-release=2
+version=5.88.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {

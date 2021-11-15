@@ -13,8 +13,11 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/BluezQt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/DevicesModel
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattApplication
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattCharacteristic
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattCharacteristicRemote
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattDescriptorRemote
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattManager
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattService
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/GattServiceRemote
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/InitManagerJob
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/InitObexManagerJob
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/BluezQt/Input
@@ -50,8 +53,11 @@ drwxr-xr-x	root/root	usr/include/KF5/BluezQt/bluezqt/
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/devicesmodel.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattapplication.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattcharacteristic.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattcharacteristicremote.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattdescriptorremote.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattmanager.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattservice.h
+-rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/gattserviceremote.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/initmanagerjob.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/initobexmanagerjob.h
 -rw-r--r--	root/root	usr/include/KF5/BluezQt/bluezqt/input.h
@@ -88,8 +94,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5BluezQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so -> libKF5BluezQt.so.6
--rwxr-xr-x	root/root	usr/lib/libKF5BluezQt.so.5.87.0
-lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so.6 -> libKF5BluezQt.so.5.87.0
+-rwxr-xr-x	root/root	usr/lib/libKF5BluezQt.so.5.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5BluezQt.so.6 -> libKF5BluezQt.so.5.88.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/KF5BluezQt.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

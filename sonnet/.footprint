@@ -43,11 +43,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Sonnet/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Sonnet/KF5SonnetTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Sonnet/KF5SonnetTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5SonnetCore.so -> libKF5SonnetCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5SonnetCore.so.5 -> libKF5SonnetCore.so.5.87.0
--rwxr-xr-x	root/root	usr/lib/libKF5SonnetCore.so.5.87.0
+lrwxrwxrwx	root/root	usr/lib/libKF5SonnetCore.so.5 -> libKF5SonnetCore.so.5.88.0
+-rwxr-xr-x	root/root	usr/lib/libKF5SonnetCore.so.5.88.0
 lrwxrwxrwx	root/root	usr/lib/libKF5SonnetUi.so -> libKF5SonnetUi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5SonnetUi.so.5 -> libKF5SonnetUi.so.5.87.0
--rwxr-xr-x	root/root	usr/lib/libKF5SonnetUi.so.5.87.0
+lrwxrwxrwx	root/root	usr/lib/libKF5SonnetUi.so.5 -> libKF5SonnetUi.so.5.88.0
+-rwxr-xr-x	root/root	usr/lib/libKF5SonnetUi.so.5.88.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -60,6 +60,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/sonnet/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/sonnet/sonnet_aspell.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/sonnet/sonnet_hunspell.so
+drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/sonnet/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/sonnet/libsonnetquickplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/sonnet/plugins.qmltypes
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/sonnet/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/sonnet.categories
