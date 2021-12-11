@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/spectacle
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
+-rwxr-xr-x	root/root	usr/lib/kconf_update_bin/spectacle-migrate-rememberregion
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/spectacle-migrate-shortcuts
 drwxr-xr-x	root/root	usr/lib/systemd/
 drwxr-xr-x	root/root	usr/lib/systemd/user/
@@ -36,6 +37,7 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/50-clipboard_settings_change.py
 -rw-r--r--	root/root	usr/share/kconf_update/spectacle_clipboard.upd
 -rw-r--r--	root/root	usr/share/kconf_update/spectacle_newConfig.upd
+-rw-r--r--	root/root	usr/share/kconf_update/spectacle_rememberregion.upd
 -rw-r--r--	root/root	usr/share/kconf_update/spectacle_shortcuts.upd
 drwxr-xr-x	root/root	usr/share/kglobalaccel/
 lrwxrwxrwx	root/root	usr/share/kglobalaccel/org.kde.spectacle.desktop -> /usr/share/applications/org.kde.spectacle.desktop

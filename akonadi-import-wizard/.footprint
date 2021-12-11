@@ -31,8 +31,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimImportWizard/
 -rw-r--r--	root/root	usr/lib/cmake/KPimImportWizard/KPimImportWizardTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimImportWizard/KPimImportWizardTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimImportWizard.so -> libKPimImportWizard.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimImportWizard.so.5 -> libKPimImportWizard.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKPimImportWizard.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKPimImportWizard.so.5 -> libKPimImportWizard.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKPimImportWizard.so.5.19.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/
@@ -61,9 +61,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/importwizard/
 drwxr-xr-x	root/root	usr/share/importwizard/pics/
 -rw-r--r--	root/root	usr/share/importwizard/pics/step1.png
-drwxr-xr-x	root/root	usr/share/kconf_update/
--rwxr-xr-x	root/root	usr/share/kconf_update/importwizard-15.08-kickoff.sh
--rw-r--r--	root/root	usr/share/kconf_update/importwizard.upd
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/importwizard.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/importwizard.renamecategories

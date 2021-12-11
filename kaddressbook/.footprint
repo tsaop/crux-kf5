@@ -33,10 +33,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimAddressbookImportExport/
 -rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so -> libKPimAddressbookImportExport.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so.5 -> libKPimAddressbookImportExport.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKPimAddressbookImportExport.so.5.18.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so.5 -> libKPimAddressbookImportExport.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKPimAddressbookImportExport.so.5.19.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.19.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -103,12 +103,6 @@ drwxr-xr-x	root/root	usr/share/kaddressbook/viewertemplates/default/
 -rw-r--r--	root/root	usr/share/kaddressbook/viewertemplates/default/contactgroup_embedded.html
 -rw-r--r--	root/root	usr/share/kaddressbook/viewertemplates/default/contactgroup_memberrow.html
 -rw-r--r--	root/root	usr/share/kaddressbook/viewertemplates/default/theme.desktop
-drwxr-xr-x	root/root	usr/share/kconf_update/
--rwxr-xr-x	root/root	usr/share/kconf_update/kaddressbook-15.08-kickoff.sh
--rw-r--r--	root/root	usr/share/kconf_update/kaddressbook.upd
-drwxr-xr-x	root/root	usr/share/kontact/
-drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
--rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/kaddressbook.setdlg
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kaddressbook_config_plugins.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/kontact/

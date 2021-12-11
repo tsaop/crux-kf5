@@ -10,8 +10,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kmail-refresh-settings
 -rwxr-xr-x	root/root	usr/bin/ktnef
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.19.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
@@ -125,11 +125,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/8x8/emblems/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kmail.svg
-drwxr-xr-x	root/root	usr/share/kconf_update/
--rwxr-xr-x	root/root	usr/share/kconf_update/kmail-15.08-kickoff.sh
--rw-r--r--	root/root	usr/share/kconf_update/kmail.upd
--rwxr-xr-x	root/root	usr/share/kconf_update/kmail2.sh
--rw-r--r--	root/root	usr/share/kconf_update/kmail2.upd
 drwxr-xr-x	root/root	usr/share/kmail2/
 drwxr-xr-x	root/root	usr/share/kmail2/pics/
 -rw-r--r--	root/root	usr/share/kmail2/pics/pgp-keys.png
@@ -140,10 +135,6 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_mailmerge_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_sendlater_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/kmail2.notifyrc
-drwxr-xr-x	root/root	usr/share/kontact/
-drwxr-xr-x	root/root	usr/share/kontact/ksettingsdialog/
--rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/kmail.setdlg
--rw-r--r--	root/root	usr/share/kontact/ksettingsdialog/summary.setdlg
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kcmkmailsummary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kcmkontactsummary.desktop

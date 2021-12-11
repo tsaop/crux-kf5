@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
--rw-r--r--	root/root	etc/xdg/kanagram.knsrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kanagram
@@ -68,5 +65,7 @@ drwxr-xr-x	root/root	usr/share/kanagram/ui/sounds/
 -rw-r--r--	root/root	usr/share/kanagram/ui/sounds/right.wav
 -rw-r--r--	root/root	usr/share/kanagram/ui/sounds/wrong.ogg
 -rw-r--r--	root/root	usr/share/kanagram/ui/sounds/wrong.wav
+drwxr-xr-x	root/root	usr/share/knsrcfiles/
+-rw-r--r--	root/root	usr/share/knsrcfiles/kanagram.knsrc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kanagram.appdata.xml

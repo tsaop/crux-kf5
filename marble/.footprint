@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/astro/
 -rw-r--r--	root/root	usr/include/astro/astr2lib.h
+-rw-r--r--	root/root	usr/include/astro/astro_version.h
 -rw-r--r--	root/root	usr/include/astro/astrolib.h
 -rw-r--r--	root/root	usr/include/astro/astrolib_export.h
 -rw-r--r--	root/root	usr/include/astro/attlib.h
@@ -169,6 +170,7 @@ drwxr-xr-x	root/root	usr/include/marble/
 -rw-r--r--	root/root	usr/include/marble/geodata_export.h
 -rw-r--r--	root/root	usr/include/marble/marble_declarative_export.h
 -rw-r--r--	root/root	usr/include/marble/marble_export.h
+-rw-r--r--	root/root	usr/include/marble/marble_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/Astro/
@@ -182,12 +184,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/Marble/
 -rw-r--r--	root/root	usr/lib/cmake/Marble/MarbleTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Marble/MarbleTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libastro.so -> libastro.so.1
--rwxr-xr-x	root/root	usr/lib/libastro.so.0.17.20
-lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.0.17.20
+lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.21.12.0
+-rwxr-xr-x	root/root	usr/lib/libastro.so.21.12.0
 -rwxr-xr-x	root/root	usr/lib/libmarbledeclarative.so
 lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so -> libmarblewidget-qt5.so.28
--rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.21.4.0
-lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.28 -> libmarblewidget-qt5.so.21.4.0
+-rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.21.12.0
+lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.28 -> libmarblewidget-qt5.so.21.12.0
 drwxr-xr-x	root/root	usr/lib/marble/
 drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/AnnotatePlugin.so

@@ -12,12 +12,12 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.08.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.08.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.08.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.08.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.08.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.08.3
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
@@ -154,6 +154,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kdeconnect_share_config.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-kdeconnect.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kdeconnect.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kdeconnect.kcm.appdata.xml
 drwxr-xr-x	root/root	usr/share/nautilus-python/
 drwxr-xr-x	root/root	usr/share/nautilus-python/extensions/
@@ -175,6 +176,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Share.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/metadata.json
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kdeconnect-kde.categories
 drwxr-xr-x	root/root	usr/share/zsh/

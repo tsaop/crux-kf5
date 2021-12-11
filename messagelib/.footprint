@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/ConvertSnippetVariableMenu
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/ConvertSnippetVariablesJob
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/ConvertSnippetVariablesUtil
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/DraftStatus
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/EncryptJob
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/FollowUpReminderSelectDateDialog
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/FollowupReminder
@@ -175,6 +176,8 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageViewer/
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/RichHeaderStrategy
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/ScamCheckShortUrl
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/ScamCheckShortUrlManager
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/ScamDetectionInfo
+-rw-r--r--	root/root	usr/include/KF5/MessageViewer/ScamDetectionWhiteListSettingsManager
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/ScamExpandUrlJob
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/SpamHeaderAnalyzer
 -rw-r--r--	root/root	usr/include/KF5/MessageViewer/Stl_Util
@@ -265,6 +268,7 @@ drwxr-xr-x	root/root	usr/include/KF5/messagecomposer/
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/convertsnippetvariablemenu.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/convertsnippetvariablesjob.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/convertsnippetvariablesutil.h
+-rw-r--r--	root/root	usr/include/KF5/messagecomposer/draftstatus.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/encryptjob.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/followupreminder.h
 -rw-r--r--	root/root	usr/include/KF5/messagecomposer/followupremindercreatejob.h
@@ -433,6 +437,8 @@ drwxr-xr-x	root/root	usr/include/KF5/messageviewer/
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/richheaderstrategy.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/scamcheckshorturl.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/scamcheckshorturlmanager.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/scamdetectioninfo.h
+-rw-r--r--	root/root	usr/include/KF5/messageviewer/scamdetectionwhitelistsettingsmanager.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/scamexpandurljob.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/spamheaderanalyzer.h
 -rw-r--r--	root/root	usr/include/KF5/messageviewer/stl_util.h
@@ -552,26 +558,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so -> libKF5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so -> libKF5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so -> libKF5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so -> libKF5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so -> libKF5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so -> libKF5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.19.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so -> libKF5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.18.3
--rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.18.3
+lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.19.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.19.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -592,8 +598,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/customtemplates_kfg.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
-drwxr-xr-x	root/root	usr/share/kconf_update/
--rw-r--r--	root/root	usr/share/kconf_update/messageviewer.upd
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/messageviewer.notifyrc
 drwxr-xr-x	root/root	usr/share/knsrcfiles/
