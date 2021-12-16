@@ -55,7 +55,11 @@ drwxr-xr-x	root/root	usr/share/ECM/kde-modules/
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEFrameworkCompilerSettings.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEGitCommitHooks.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirs.cmake
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirs5.cmake
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirs6.cmake
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEPackageAppTemplates.cmake
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/KDESetupPrefixScript.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/appstreamtest.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/clang-format.cmake
 drwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/
@@ -103,6 +107,7 @@ drwxr-xr-x	root/root	usr/share/ECM/modules/
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMUseFindModules.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMVersionHeader.h.in
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMWinResolveSymlinks.cmake
+-rw-r--r--	root/root	usr/share/ECM/modules/QtVersionOption.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/check-outbound-license.py
 -rw-r--r--	root/root	usr/share/ECM/modules/ecm_uninstall.cmake.in
 drwxr-xr-x	root/root	usr/share/ECM/test-modules/

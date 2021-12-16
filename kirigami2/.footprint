@@ -20,8 +20,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Kirigami2/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so -> libKF5Kirigami2.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.88.0
--rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.89.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.89.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -52,6 +52,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/CardsListView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/CheckableListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ContextDrawer.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Dialog.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/FlexColumn.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/FormLayout.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/GlobalDrawer.qml
@@ -63,6 +64,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/LinkButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ListItemDragHandle.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ListSectionHeader.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/MenuDialog.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/NavigationTabBar.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/NavigationTabButton.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml
@@ -72,6 +74,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/PageRow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/PasswordField.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/PlaceholderMessage.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/PromptDialog.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/RouterWindow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ScrollablePage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/SearchField.qml

@@ -33,6 +33,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KRandomSequence
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KSharedDataCache
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KShell
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KStaticPluginHelpers
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KStringHandler
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KTextToHTML
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KTextToHTMLEmoticonsInterface
@@ -72,6 +73,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/krandomsequence.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kshareddatacache.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kshell.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kstaticpluginhelpers.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kstringhandler.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/ktexttohtml.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/ktexttohtmlemoticonsinterface.h
@@ -89,8 +91,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.88.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.88.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.89.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.89.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
