@@ -4,7 +4,7 @@
 # Depends on: qt5
 
 name=kseexpr
-version=4.0.3.0
+version=4.0.4.0
 release=1
 source=(https://download.kde.org/stable/$name/${version%.0}/$name-$version.tar.gz)
 
