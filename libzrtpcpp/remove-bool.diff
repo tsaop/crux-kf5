@@ -1,0 +1,18 @@
+--- ZRTPCPP-4.7.0/cryptcommon/ZrtpRandom.h.orig	2021-12-19 20:22:26.961657259 +0100
++++ ZRTPCPP-4.7.0/cryptcommon/ZrtpRandom.h	2021-12-19 20:22:51.287103050 +0100
+@@ -74,7 +74,7 @@
+ {
+ #endif
+ 
+-int zrtp_AddEntropy(const uint8_t *buffer, uint32_t length, bool isLocked);
++int zrtp_AddEntropy(const uint8_t *buffer, uint32_t length, uint32_t isLocked);
+ 
+ int zrtp_getRandomData(uint8_t *buffer, uint32_t length);
+ 
+@@ -82,4 +82,4 @@
+ }
+ #endif
+ 
+-#endif /* ZRTPRANDOM */
+\ No newline at end of file
++#endif /* ZRTPRANDOM */

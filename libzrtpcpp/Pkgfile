@@ -4,12 +4,16 @@
 # Depends on: ccrtp cmake
 
 name=libzrtpcpp
-version=4.6.6
+version=4.7.0
 release=1
-source=(https://github.com/wernerd/ZRTPCPP/archive/V${version}/$name-$version.tar.gz)
+source=(https://github.com/wernerd/ZRTPCPP/archive/${version}/$name-$version.tar.gz
+	remove-bool.diff)
 
 build() {
 	cd ZRTPCPP-$version
+
+	# https://github.com/wernerd/ZRTPCPP/issues/46
+	patch -Np1 -i $SRC/remove-bool.diff
 
 	# fix libdir name
 	sed 's/lib64/lib/g' -i CMakeLists.txt
