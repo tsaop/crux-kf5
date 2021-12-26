@@ -4,15 +4,15 @@
 # Depends on: akonadi-contacts imagemagick kcalendarcore kfilemetadata knotifyconfig lensfun libkipi libksane liblqr marble opencv qtav x265
 
 name=digikam
-version=7.3.0
+version=7.4.0
 release=1
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz)
 
 build() {
-	cd $name-$version
-	mkdir build; cd build
+	cd digikam-$version
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DENABLE_KFILEMETADATASUPPORT=ON \
@@ -23,13 +23,10 @@ build() {
 		-DBUILD_TESTING=OFF \
 		-DDIGIKAMSC_COMPILE_PO=OFF \
 		-DDIGIKAMSC_COMPILE_DOC=OFF \
-		-DCMAKE_CXX_FLAGS="-L/usr/lib" \
-		-Wno-dev \
-		-Wno-dev \
-		..
+		-Wno-dev
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	find $PKG -name README -delete
 }
