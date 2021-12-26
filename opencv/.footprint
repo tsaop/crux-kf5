@@ -86,6 +86,7 @@ drwxr-xr-x	root/root	usr/include/opencv4/opencv2/core/cuda/detail/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp
 drwxr-xr-x	root/root	usr/include/opencv4/opencv2/core/detail/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core/detail/async_promise.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/core/detail/dispatch_helper.impl.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core/detail/exception_ptr.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core/directx.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/core/dualquaternion.hpp
@@ -224,6 +225,7 @@ drwxr-xr-x	root/root	usr/include/opencv4/opencv2/dnn/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/dnn/layer.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/dnn/shape_utils.hpp
 drwxr-xr-x	root/root	usr/include/opencv4/opencv2/dnn/utils/
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/dnn/utils/debug_utils.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/dnn/version.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/dnn_superres.hpp
@@ -370,7 +372,15 @@ drwxr-xr-x	root/root	usr/include/opencv4/opencv2/gapi/streaming/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/cap.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/desync.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/format.hpp
+drwxr-xr-x	root/root	usr/include/opencv4/opencv2/gapi/streaming/gstreamer/
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/gstreamer/gstreamerpipeline.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/gstreamer/gstreamersource.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/meta.hpp
+drwxr-xr-x	root/root	usr/include/opencv4/opencv2/gapi/streaming/onevpl/
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/onevpl/cfg_params.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/onevpl/data_provider_interface.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/onevpl/device_selector_interface.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/onevpl/source.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/source.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/gapi/streaming/sync.hpp
 drwxr-xr-x	root/root	usr/include/opencv4/opencv2/gapi/util/
@@ -433,6 +443,7 @@ drwxr-xr-x	root/root	usr/include/opencv4/opencv2/ml/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/objdetect.hpp
 drwxr-xr-x	root/root	usr/include/opencv4/opencv2/objdetect/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/objdetect/face.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/objdetect/objdetect.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/opencv.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/opencv_modules.hpp
@@ -605,8 +616,10 @@ drwxr-xr-x	root/root	usr/include/opencv4/opencv2/ximgproc/
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/lsc.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/paillou_filter.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/peilin.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/radon_transform.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/ridgefilter.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/run_length_morphology.hpp
+-rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/scansegment.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/seeds.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/segmentation.hpp
 -rw-r--r--	root/root	usr/include/opencv4/opencv2/ximgproc/slic.hpp
@@ -629,171 +642,171 @@ drwxr-xr-x	root/root	usr/lib/cmake/opencv4/
 -rw-r--r--	root/root	usr/lib/cmake/opencv4/OpenCVConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/opencv4/OpenCVModules-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/opencv4/OpenCVModules.cmake
-lrwxrwxrwx	root/root	usr/lib/libopencv_alphamat.so -> libopencv_alphamat.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_alphamat.so.4.5 -> libopencv_alphamat.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_alphamat.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_aruco.so -> libopencv_aruco.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_aruco.so.4.5 -> libopencv_aruco.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_aruco.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_barcode.so -> libopencv_barcode.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_barcode.so.4.5 -> libopencv_barcode.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_barcode.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_bgsegm.so -> libopencv_bgsegm.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_bgsegm.so.4.5 -> libopencv_bgsegm.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_bgsegm.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_bioinspired.so -> libopencv_bioinspired.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_bioinspired.so.4.5 -> libopencv_bioinspired.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_bioinspired.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_calib3d.so -> libopencv_calib3d.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_calib3d.so.4.5 -> libopencv_calib3d.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_calib3d.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_ccalib.so -> libopencv_ccalib.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_ccalib.so.4.5 -> libopencv_ccalib.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_ccalib.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_core.so -> libopencv_core.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_core.so.4.5 -> libopencv_core.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_core.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_cvv.so -> libopencv_cvv.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_cvv.so.4.5 -> libopencv_cvv.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_cvv.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_datasets.so -> libopencv_datasets.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_datasets.so.4.5 -> libopencv_datasets.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_datasets.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_dnn.so -> libopencv_dnn.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_dnn.so.4.5 -> libopencv_dnn.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_dnn.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_objdetect.so -> libopencv_dnn_objdetect.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_objdetect.so.4.5 -> libopencv_dnn_objdetect.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_dnn_objdetect.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_superres.so -> libopencv_dnn_superres.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_superres.so.4.5 -> libopencv_dnn_superres.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_dnn_superres.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_dpm.so -> libopencv_dpm.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_dpm.so.4.5 -> libopencv_dpm.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_dpm.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_face.so -> libopencv_face.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_face.so.4.5 -> libopencv_face.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_face.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_features2d.so -> libopencv_features2d.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_features2d.so.4.5 -> libopencv_features2d.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_features2d.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_flann.so -> libopencv_flann.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_flann.so.4.5 -> libopencv_flann.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_flann.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_freetype.so -> libopencv_freetype.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_freetype.so.4.5 -> libopencv_freetype.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_freetype.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_fuzzy.so -> libopencv_fuzzy.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_fuzzy.so.4.5 -> libopencv_fuzzy.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_fuzzy.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_gapi.so -> libopencv_gapi.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_gapi.so.4.5 -> libopencv_gapi.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_gapi.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_hfs.so -> libopencv_hfs.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_hfs.so.4.5 -> libopencv_hfs.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_hfs.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_highgui.so -> libopencv_highgui.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_highgui.so.4.5 -> libopencv_highgui.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_highgui.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_img_hash.so -> libopencv_img_hash.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_img_hash.so.4.5 -> libopencv_img_hash.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_img_hash.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_imgcodecs.so -> libopencv_imgcodecs.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_imgcodecs.so.4.5 -> libopencv_imgcodecs.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_imgcodecs.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_imgproc.so -> libopencv_imgproc.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_imgproc.so.4.5 -> libopencv_imgproc.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_imgproc.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_intensity_transform.so -> libopencv_intensity_transform.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_intensity_transform.so.4.5 -> libopencv_intensity_transform.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_intensity_transform.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_line_descriptor.so -> libopencv_line_descriptor.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_line_descriptor.so.4.5 -> libopencv_line_descriptor.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_line_descriptor.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_mcc.so -> libopencv_mcc.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_mcc.so.4.5 -> libopencv_mcc.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_mcc.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_ml.so -> libopencv_ml.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_ml.so.4.5 -> libopencv_ml.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_ml.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_objdetect.so -> libopencv_objdetect.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_objdetect.so.4.5 -> libopencv_objdetect.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_objdetect.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_optflow.so -> libopencv_optflow.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_optflow.so.4.5 -> libopencv_optflow.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_optflow.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_phase_unwrapping.so -> libopencv_phase_unwrapping.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_phase_unwrapping.so.4.5 -> libopencv_phase_unwrapping.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_phase_unwrapping.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_photo.so -> libopencv_photo.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_photo.so.4.5 -> libopencv_photo.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_photo.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_plot.so -> libopencv_plot.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_plot.so.4.5 -> libopencv_plot.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_plot.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_quality.so -> libopencv_quality.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_quality.so.4.5 -> libopencv_quality.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_quality.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_rapid.so -> libopencv_rapid.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_rapid.so.4.5 -> libopencv_rapid.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_rapid.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_reg.so -> libopencv_reg.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_reg.so.4.5 -> libopencv_reg.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_reg.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_rgbd.so -> libopencv_rgbd.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_rgbd.so.4.5 -> libopencv_rgbd.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_rgbd.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_saliency.so -> libopencv_saliency.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_saliency.so.4.5 -> libopencv_saliency.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_saliency.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_shape.so -> libopencv_shape.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_shape.so.4.5 -> libopencv_shape.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_shape.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_stereo.so -> libopencv_stereo.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_stereo.so.4.5 -> libopencv_stereo.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_stereo.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_stitching.so -> libopencv_stitching.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_stitching.so.4.5 -> libopencv_stitching.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_stitching.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_structured_light.so -> libopencv_structured_light.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_structured_light.so.4.5 -> libopencv_structured_light.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_structured_light.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_superres.so -> libopencv_superres.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_superres.so.4.5 -> libopencv_superres.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_superres.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_surface_matching.so -> libopencv_surface_matching.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_surface_matching.so.4.5 -> libopencv_surface_matching.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_surface_matching.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_text.so -> libopencv_text.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_text.so.4.5 -> libopencv_text.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_text.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_tracking.so -> libopencv_tracking.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_tracking.so.4.5 -> libopencv_tracking.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_tracking.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_video.so -> libopencv_video.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_video.so.4.5 -> libopencv_video.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_video.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_videoio.so -> libopencv_videoio.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_videoio.so.4.5 -> libopencv_videoio.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_videoio.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_videostab.so -> libopencv_videostab.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_videostab.so.4.5 -> libopencv_videostab.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_videostab.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_wechat_qrcode.so -> libopencv_wechat_qrcode.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_wechat_qrcode.so.4.5 -> libopencv_wechat_qrcode.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_wechat_qrcode.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_xfeatures2d.so -> libopencv_xfeatures2d.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_xfeatures2d.so.4.5 -> libopencv_xfeatures2d.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_xfeatures2d.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_ximgproc.so -> libopencv_ximgproc.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_ximgproc.so.4.5 -> libopencv_ximgproc.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_ximgproc.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_xobjdetect.so -> libopencv_xobjdetect.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_xobjdetect.so.4.5 -> libopencv_xobjdetect.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_xobjdetect.so.4.5.3
-lrwxrwxrwx	root/root	usr/lib/libopencv_xphoto.so -> libopencv_xphoto.so.4.5
-lrwxrwxrwx	root/root	usr/lib/libopencv_xphoto.so.4.5 -> libopencv_xphoto.so.4.5.3
--rwxr-xr-x	root/root	usr/lib/libopencv_xphoto.so.4.5.3
+lrwxrwxrwx	root/root	usr/lib/libopencv_alphamat.so -> libopencv_alphamat.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_alphamat.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_alphamat.so.405 -> libopencv_alphamat.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_aruco.so -> libopencv_aruco.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_aruco.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_aruco.so.405 -> libopencv_aruco.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_barcode.so -> libopencv_barcode.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_barcode.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_barcode.so.405 -> libopencv_barcode.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_bgsegm.so -> libopencv_bgsegm.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_bgsegm.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_bgsegm.so.405 -> libopencv_bgsegm.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_bioinspired.so -> libopencv_bioinspired.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_bioinspired.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_bioinspired.so.405 -> libopencv_bioinspired.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_calib3d.so -> libopencv_calib3d.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_calib3d.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_calib3d.so.405 -> libopencv_calib3d.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_ccalib.so -> libopencv_ccalib.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_ccalib.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_ccalib.so.405 -> libopencv_ccalib.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_core.so -> libopencv_core.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_core.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_core.so.405 -> libopencv_core.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_cvv.so -> libopencv_cvv.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_cvv.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_cvv.so.405 -> libopencv_cvv.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_datasets.so -> libopencv_datasets.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_datasets.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_datasets.so.405 -> libopencv_datasets.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dnn.so -> libopencv_dnn.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_dnn.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dnn.so.405 -> libopencv_dnn.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_objdetect.so -> libopencv_dnn_objdetect.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_dnn_objdetect.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_objdetect.so.405 -> libopencv_dnn_objdetect.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_superres.so -> libopencv_dnn_superres.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_dnn_superres.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dnn_superres.so.405 -> libopencv_dnn_superres.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dpm.so -> libopencv_dpm.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_dpm.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_dpm.so.405 -> libopencv_dpm.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_face.so -> libopencv_face.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_face.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_face.so.405 -> libopencv_face.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_features2d.so -> libopencv_features2d.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_features2d.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_features2d.so.405 -> libopencv_features2d.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_flann.so -> libopencv_flann.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_flann.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_flann.so.405 -> libopencv_flann.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_freetype.so -> libopencv_freetype.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_freetype.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_freetype.so.405 -> libopencv_freetype.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_fuzzy.so -> libopencv_fuzzy.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_fuzzy.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_fuzzy.so.405 -> libopencv_fuzzy.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_gapi.so -> libopencv_gapi.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_gapi.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_gapi.so.405 -> libopencv_gapi.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_hfs.so -> libopencv_hfs.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_hfs.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_hfs.so.405 -> libopencv_hfs.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_highgui.so -> libopencv_highgui.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_highgui.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_highgui.so.405 -> libopencv_highgui.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_img_hash.so -> libopencv_img_hash.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_img_hash.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_img_hash.so.405 -> libopencv_img_hash.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_imgcodecs.so -> libopencv_imgcodecs.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_imgcodecs.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_imgcodecs.so.405 -> libopencv_imgcodecs.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_imgproc.so -> libopencv_imgproc.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_imgproc.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_imgproc.so.405 -> libopencv_imgproc.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_intensity_transform.so -> libopencv_intensity_transform.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_intensity_transform.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_intensity_transform.so.405 -> libopencv_intensity_transform.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_line_descriptor.so -> libopencv_line_descriptor.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_line_descriptor.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_line_descriptor.so.405 -> libopencv_line_descriptor.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_mcc.so -> libopencv_mcc.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_mcc.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_mcc.so.405 -> libopencv_mcc.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_ml.so -> libopencv_ml.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_ml.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_ml.so.405 -> libopencv_ml.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_objdetect.so -> libopencv_objdetect.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_objdetect.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_objdetect.so.405 -> libopencv_objdetect.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_optflow.so -> libopencv_optflow.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_optflow.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_optflow.so.405 -> libopencv_optflow.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_phase_unwrapping.so -> libopencv_phase_unwrapping.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_phase_unwrapping.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_phase_unwrapping.so.405 -> libopencv_phase_unwrapping.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_photo.so -> libopencv_photo.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_photo.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_photo.so.405 -> libopencv_photo.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_plot.so -> libopencv_plot.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_plot.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_plot.so.405 -> libopencv_plot.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_quality.so -> libopencv_quality.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_quality.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_quality.so.405 -> libopencv_quality.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_rapid.so -> libopencv_rapid.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_rapid.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_rapid.so.405 -> libopencv_rapid.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_reg.so -> libopencv_reg.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_reg.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_reg.so.405 -> libopencv_reg.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_rgbd.so -> libopencv_rgbd.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_rgbd.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_rgbd.so.405 -> libopencv_rgbd.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_saliency.so -> libopencv_saliency.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_saliency.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_saliency.so.405 -> libopencv_saliency.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_shape.so -> libopencv_shape.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_shape.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_shape.so.405 -> libopencv_shape.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_stereo.so -> libopencv_stereo.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_stereo.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_stereo.so.405 -> libopencv_stereo.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_stitching.so -> libopencv_stitching.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_stitching.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_stitching.so.405 -> libopencv_stitching.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_structured_light.so -> libopencv_structured_light.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_structured_light.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_structured_light.so.405 -> libopencv_structured_light.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_superres.so -> libopencv_superres.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_superres.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_superres.so.405 -> libopencv_superres.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_surface_matching.so -> libopencv_surface_matching.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_surface_matching.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_surface_matching.so.405 -> libopencv_surface_matching.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_text.so -> libopencv_text.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_text.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_text.so.405 -> libopencv_text.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_tracking.so -> libopencv_tracking.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_tracking.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_tracking.so.405 -> libopencv_tracking.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_video.so -> libopencv_video.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_video.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_video.so.405 -> libopencv_video.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_videoio.so -> libopencv_videoio.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_videoio.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_videoio.so.405 -> libopencv_videoio.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_videostab.so -> libopencv_videostab.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_videostab.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_videostab.so.405 -> libopencv_videostab.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_wechat_qrcode.so -> libopencv_wechat_qrcode.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_wechat_qrcode.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_wechat_qrcode.so.405 -> libopencv_wechat_qrcode.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_xfeatures2d.so -> libopencv_xfeatures2d.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_xfeatures2d.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_xfeatures2d.so.405 -> libopencv_xfeatures2d.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_ximgproc.so -> libopencv_ximgproc.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_ximgproc.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_ximgproc.so.405 -> libopencv_ximgproc.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_xobjdetect.so -> libopencv_xobjdetect.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_xobjdetect.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_xobjdetect.so.405 -> libopencv_xobjdetect.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_xphoto.so -> libopencv_xphoto.so.405
+-rwxr-xr-x	root/root	usr/lib/libopencv_xphoto.so.4.5.5
+lrwxrwxrwx	root/root	usr/lib/libopencv_xphoto.so.405 -> libopencv_xphoto.so.4.5.5
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/opencv4.pc
 drwxr-xr-x	root/root	usr/lib/python3.9/
@@ -805,19 +818,33 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/__pycache__/config.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/__pycache__/load_config_py2.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/__pycache__/load_config_py3.cpython-39.pyc
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/_extra_py_code/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/_extra_py_code/__init__.py
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/_extra_py_code/__pycache__/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/_extra_py_code/__pycache__/__init__.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/config.py
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/gapi/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/gapi/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/gapi/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/gapi/__pycache__/__init__.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/load_config_py2.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/load_config_py3.py
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/opencv-4.5.3-py3.9.egg-info/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.3-py3.9.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.3-py3.9.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.3-py3.9.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.3-py3.9.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.3-py3.9.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/mat_wrapper/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/mat_wrapper/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/mat_wrapper/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/mat_wrapper/__pycache__/__init__.cpython-39.pyc
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/misc/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/misc/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/misc/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/misc/__pycache__/__init__.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/misc/__pycache__/version.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/misc/version.py
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/utils/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/utils/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/cv2/utils/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/cv2/utils/__pycache__/__init__.cpython-39.pyc
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/opencv-4.5.5-py3.9.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.5-py3.9.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.5-py3.9.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.5-py3.9.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.5-py3.9.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/opencv-4.5.5-py3.9.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/opencv4/
 drwxr-xr-x	root/root	usr/share/opencv4/haarcascades/
