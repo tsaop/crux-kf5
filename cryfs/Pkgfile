@@ -1,26 +1,24 @@
 # Description: Cryptographic filesystem for the cloud
 # URL: https://www.cryfs.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: boost cmake crypto++ fuse
+# Depends on: crypto++ fuse python range-v3 spdlog
 
 name=cryfs
-version=0.10.2
+version=0.11.1
 release=1
 source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DBUILD_TESTING=OFF \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DBoost_USE_STATIC_LIBS=OFF \
 	-DCRYFS_UPDATE_CHECKS=OFF \
-	-Wno-dev \
-	..
+	-DDEPENDENCY_CONFIG="cmake-utils/DependenciesFromLocalSystem.cmake"
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
