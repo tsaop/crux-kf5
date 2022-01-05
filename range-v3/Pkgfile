@@ -1,0 +1,23 @@
+# Description: Range library for C++14/17/20, basis for C++20's std::ranges
+# URL: https://github.com/ericniebler/range-v3
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake boost
+
+name=range-v3
+version=0.11.0
+release=1
+source=(https://github.com/ericniebler/$name/archive/${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_TESTING=OFF \
+		-DRANGE_V3_EXAMPLES=OFF \
+		-DRANGE_V3_TESTS=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
