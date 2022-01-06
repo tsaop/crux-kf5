@@ -1,7 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmilou.so.5 -> libmilou.so.5.23.4
--rwxr-xr-x	root/root	usr/lib/libmilou.so.5.23.4
+lrwxrwxrwx	root/root	usr/lib/libmilou.so.5 -> libmilou.so.5.23.5
+-rwxr-xr-x	root/root	usr/lib/libmilou.so.5.23.5
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
@@ -15,6 +15,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/milou/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/milou/libmilouqmlplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/milou/qmldir
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/kservices5/
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.milou.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.milou.appdata.xml
 drwxr-xr-x	root/root	usr/share/plasma/
