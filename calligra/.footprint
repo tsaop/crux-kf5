@@ -53,6 +53,9 @@ lrwxrwxrwx	root/root	usr/lib/libkarbonui.so.17 -> libkarbonui.so.17.0.0
 lrwxrwxrwx	root/root	usr/lib/libkoformula.so -> libkoformula.so.17
 lrwxrwxrwx	root/root	usr/lib/libkoformula.so.17 -> libkoformula.so.17.0.0
 -rwxr-xr-x	root/root	usr/lib/libkoformula.so.17.0.0
+lrwxrwxrwx	root/root	usr/lib/libkokross.so -> libkokross.so.17
+lrwxrwxrwx	root/root	usr/lib/libkokross.so.17 -> libkokross.so.17.0.0
+-rwxr-xr-x	root/root	usr/lib/libkokross.so.17.0.0
 lrwxrwxrwx	root/root	usr/lib/libkomain.so -> libkomain.so.17
 lrwxrwxrwx	root/root	usr/lib/libkomain.so.17 -> libkomain.so.17.0.0
 -rwxr-xr-x	root/root	usr/lib/libkomain.so.17.0.0
@@ -186,6 +189,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/calligra_shape_picture.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/calligra_shape_plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/calligra_shape_text.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/calligra_shape_threed.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/calligra_shape_vector.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/shapes/calligra_shape_video.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/textediting/
@@ -204,6 +208,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligra/tools/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligraimagethumbnail.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/extensions/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/extensions/krossmodulesheets.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/extensions/sheetssolver.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/functions/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/calligrasheets/functions/kspreadbitopsmodule.so
@@ -4811,6 +4816,29 @@ drwxr-xr-x	root/root	usr/share/calligrasheets/icons/hicolor/scalable/actions/
 -rw-r--r--	root/root	usr/share/calligrasheets/icons/hicolor/scalable/actions/template_studentidcard.svgz
 -rw-r--r--	root/root	usr/share/calligrasheets/icons/hicolor/scalable/actions/template_vacationchecklist.svgz
 -rw-r--r--	root/root	usr/share/calligrasheets/icons/hicolor/scalable/actions/template_worksheet.svgz
+drwxr-xr-x	root/root	usr/share/calligrasheets/scripts/
+drwxr-xr-x	root/root	usr/share/calligrasheets/scripts/docker/
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/docker/consoledocker.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/docker/snippetsdocker.rb
+drwxr-xr-x	root/root	usr/share/calligrasheets/scripts/extensions/
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/csvexport.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/csvimport.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/csvoptions.ui
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/htmlexport.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/htmlexportinfos.ui
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/logger.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/myorca.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/odfpyexport.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/vcardimport.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/extensions/xmlviewer.py
+drwxr-xr-x	root/root	usr/share/calligrasheets/scripts/functions/
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/functions/functions.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/functions/pyregexp.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/functions/pytime.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/functions/rpyfunctions.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/functions/yfinance.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/functions/yweather.py
+-rw-r--r--	root/root	usr/share/calligrasheets/scripts/scripts.rc
 drwxr-xr-x	root/root	usr/share/calligrasheets/sheetstyles/
 -rw-r--r--	root/root	usr/share/calligrasheets/sheetstyles/standard1.ksts
 -rw-r--r--	root/root	usr/share/calligrasheets/sheetstyles/standard1.png
@@ -4851,6 +4879,7 @@ drwxr-xr-x	root/root	usr/share/calligrasheets/templates/HomeFamily/.source/
 -rw-r--r--	root/root	usr/share/calligrasheets/templates/HomeFamily/MenuPlan.desktop
 -rw-r--r--	root/root	usr/share/calligrasheets/templates/HomeFamily/VacationChecklist.desktop
 drwxr-xr-x	root/root	usr/share/calligrasheets/viewplugins/
+-rw-r--r--	root/root	usr/share/calligrasheets/viewplugins/scripting.rc
 -rw-r--r--	root/root	usr/share/calligrasheets/viewplugins/solver.rc
 drwxr-xr-x	root/root	usr/share/calligrastage/
 drwxr-xr-x	root/root	usr/share/calligrastage/animations/

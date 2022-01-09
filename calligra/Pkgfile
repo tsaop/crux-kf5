@@ -7,29 +7,31 @@ name=calligra
 version=3.2.1
 release=2
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz
-	62f51070.patch)
+	068cd9ae.patch
+	62f51070.patch
+	0001-Remove-old-std-c-11-setting-for-Vc.patch
+	calligra-openexr3.patch
+	disable-c++11.patch)
 
 build() {
 
 	( cd $name-$version
+	  patch -Np1 -i $SRC/068cd9ae.patch
 	  patch -Np1 -i $SRC/62f51070.patch
+	  patch -Np1 -i $SRC/0001-Remove-old-std-c-11-setting-for-Vc.patch
+	  patch -Np1 -i $SRC/calligra-openexr3.patch
+	  patch -Np1 -i $SRC/disable-c++11.patch
 	)
 
-	mkdir build; cd build
-
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DCMAKE_INSTALL_LIBEXECDIR=lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev \
-	../$name-$version
+	-DCMAKE_CXX_STANDARD=17	\
+	-DKDE_INSTALL_LIBDIR=lib \
+	-S $name-$version
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}

@@ -1,0 +1,16 @@
+--- calligra-3.2.1/CMakeLists.txt.orig	2022-01-09 15:26:31.379754639 +0100
++++ calligra-3.2.1/CMakeLists.txt	2022-01-09 15:26:44.282457709 +0100
+@@ -104,13 +104,6 @@
+ endif()
+ message(STATUS "Release build: ${RELEASE_BUILD}")
+ 
+-# use CPP-11
+-if (CMAKE_VERSION VERSION_LESS "3.1")
+-    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+-else ()
+-    set (CMAKE_CXX_STANDARD 11)
+-endif ()
+-
+ ############
+ #############
+ ## Options ##
