@@ -1,0 +1,20 @@
+# Description: EditorConfig core library written in C (for use by plugins supporting EditorConfig parsing)
+# URL: http://editorconfig.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake libpcre2
+
+name=editorconfig-core-c
+version=0.12.5
+release=1
+source=(https://github.com/editorconfig/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
