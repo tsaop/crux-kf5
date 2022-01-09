@@ -4,7 +4,7 @@
 # Depends on:  cmake
 
 name=extra-cmake-modules
-version=5.89.0
+version=5.90.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
@@ -13,8 +13,6 @@ build() {
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
 	-DBUILD_TESTING=OFF \
 	-DCMAKE_BUILD_TYPE=Release
 

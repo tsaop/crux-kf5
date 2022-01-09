@@ -78,8 +78,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextEditor/
 drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kauth_ktexteditor_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so -> libKF5TextEditor.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.89.0
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.89.0
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditor.so.5 -> libKF5TextEditor.so.5.90.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditor.so.5.90.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -96,9 +96,9 @@ drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
 -rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.ktexteditor.katetextbuffer.conf
 drwxr-xr-x	root/root	usr/share/katepart5/
 drwxr-xr-x	root/root	usr/share/katepart5/script/
-drwxr-xr-x	root/root	usr/share/kdevappwizard/
-drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
--rw-r--r--	root/root	usr/share/kdevappwizard/templates/ktexteditor-plugin.tar.bz2
+drwxr-xr-x	root/root	usr/share/kdevfiletemplates/
+drwxr-xr-x	root/root	usr/share/kdevfiletemplates/templates/
+-rw-r--r--	root/root	usr/share/kdevfiletemplates/templates/ktexteditor-plugin.tar.bz2
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/katepart.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/

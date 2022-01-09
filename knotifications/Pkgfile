@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kconfig kcoreaddons kwindowsystem libdbusmenu-qt5 phonon-qt5 xorg-libxtst
+# Depends on: kconfig kcoreaddons kwindowsystem libcanberra libdbusmenu-qt5 phonon-qt5
 
 name=knotifications
-version=5.89.0
+version=5.90.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
