@@ -1,10 +1,10 @@
 # Description: Lokalize is a computer-aided translation system 
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kross
+# Depends on: kross
 
 name=lokalize
-version=21.12.0
+version=21.12.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

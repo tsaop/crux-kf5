@@ -184,12 +184,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/Marble/
 -rw-r--r--	root/root	usr/lib/cmake/Marble/MarbleTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Marble/MarbleTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libastro.so -> libastro.so.1
-lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.21.12.0
--rwxr-xr-x	root/root	usr/lib/libastro.so.21.12.0
+lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.21.12.1
+-rwxr-xr-x	root/root	usr/lib/libastro.so.21.12.1
 -rwxr-xr-x	root/root	usr/lib/libmarbledeclarative.so
 lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so -> libmarblewidget-qt5.so.28
--rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.21.12.0
-lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.28 -> libmarblewidget-qt5.so.21.12.0
+-rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.21.12.1
+lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.28 -> libmarblewidget-qt5.so.21.12.1
 drwxr-xr-x	root/root	usr/lib/marble/
 drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/AnnotatePlugin.so
@@ -313,6 +313,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/marble_thumbnail_kml.desktop
 -rw-r--r--	root/root	usr/share/kservices5/marble_thumbnail_kmz.desktop
 -rw-r--r--	root/root	usr/share/kservices5/marble_thumbnail_osm.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.worldclock.desktop
+-rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.plasma.worldmap.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/marble/
 -rw-r--r--	root/root	usr/share/kxmlgui5/marble/marble_part.rc

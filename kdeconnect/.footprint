@@ -12,12 +12,12 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.12.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.12.0
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.12.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.12.0
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.12.0
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.12.1
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.12.1
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.12.1
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.12.1
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.12.1
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.12.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/share/Thunar/
 drwxr-xr-x	root/root	usr/share/Thunar/sendto/
 -rw-r--r--	root/root	usr/share/Thunar/sendto/kdeconnect-thunar.desktop
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/org.kde.kdeconnect-settings.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.app.desktop
 -rw-r--r--	root/root	usr/share/applications/org.kde.kdeconnect.daemon.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.handler.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.nonplasma.desktop
--rw-r--r--	root/root	usr/share/applications/org.kde.kdeconnect.settings.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.sms.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect_open.desktop
 drwxr-xr-x	root/root	usr/share/contractor/

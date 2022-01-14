@@ -1,10 +1,10 @@
 # Description: PHP Language Plugin for KDevelop
 # URL: https://www.kdevelop.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdevelop kdevelop-pg-qt
+# Depends on: kdevelop
 
 name=kdev-php
-version=21.12.0
+version=21.12.1
 release=1
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

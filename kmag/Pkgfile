@@ -1,10 +1,10 @@
 # Description: Screen magnifier for KDE
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kio libqaccessibilityclient
+# Depends on: kio libqaccessibilityclient
 
 name=kmag
-version=21.12.0
+version=21.12.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

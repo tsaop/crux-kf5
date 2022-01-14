@@ -1,10 +1,10 @@
 # Description: Kigo is an open-source implementation of the popular Go game
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gnugo gtk libkdegames
+# Depends on: gnugo libkdegames
 
 name=kigo
-version=21.12.0
+version=21.12.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 
