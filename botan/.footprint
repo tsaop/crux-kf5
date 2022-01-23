@@ -321,11 +321,12 @@ drwxr-xr-x	root/root	usr/include/botan-2/botan/
 -rw-r--r--	root/root	usr/include/botan-2/botan/xmss_wots_publickey.h
 -rw-r--r--	root/root	usr/include/botan-2/botan/xtea.h
 -rw-r--r--	root/root	usr/include/botan-2/botan/xts.h
+-rw-r--r--	root/root	usr/include/botan-2/botan/zfec.h
 -rw-r--r--	root/root	usr/include/botan-2/botan/zlib.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libbotan-2.so -> libbotan-2.so.18.18.2
-lrwxrwxrwx	root/root	usr/lib/libbotan-2.so.18 -> libbotan-2.so.18.18.2
--rwxr-xr-x	root/root	usr/lib/libbotan-2.so.18.18.2
+lrwxrwxrwx	root/root	usr/lib/libbotan-2.so -> libbotan-2.so.19.19.1
+lrwxrwxrwx	root/root	usr/lib/libbotan-2.so.19 -> libbotan-2.so.19.19.1
+-rwxr-xr-x	root/root	usr/lib/libbotan-2.so.19.19.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/botan-2.pc
 drwxr-xr-x	root/root	usr/lib/python3.9/
