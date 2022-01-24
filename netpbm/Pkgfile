@@ -4,8 +4,8 @@
 # Depends on: libpng libtiff xorg-libx11 python
 
 name=netpbm
-version=10.73.37
-source=(https://sourceforge.net/projects/netpbm/files/super_stable/10.73.37/$name-$version.tgz
+version=10.73.38
+source=(https://sourceforge.net/projects/netpbm/files/super_stable/$version/$name-$version.tgz
 	userguide.tar.gz
 	netpbm-CAN-2005-2471.patch
 	netpbm-security-code.patch
