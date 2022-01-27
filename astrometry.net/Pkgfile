@@ -4,7 +4,7 @@
 # Depends on: cairo gsl netpbm python3-astropy swig wcslib
 
 name=astrometry.net
-version=0.88
+version=0.89
 release=1
 source=(http://astrometry.net/downloads/$name-$version.tar.gz)
 
