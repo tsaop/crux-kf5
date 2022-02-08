@@ -1,9 +1,7 @@
 # Description: Digital painting application
 # URL: https://www.krita.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: exiv2 gsl gtk kio kitemmodels kseexpr libraw libwebp mypaint-brushes opencolorio openjpeg2 poppler-qt5 python3-pyqt5 quazip5 vc xorg-xinput
-
-#TODO: re-enable opencolorio once version 2.0.0 is supported
+# Depends on: exiv2 gsl kio kitemmodels kseexpr libraw libwebp mypaint-brushes opencolorio openjpeg2 poppler-qt5 python3-pyqt5 quazip5 vc xorg-xinput
 
 name=krita
 version=5.0.2
