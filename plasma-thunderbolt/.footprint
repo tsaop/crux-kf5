@@ -3,12 +3,16 @@ drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libkbolt.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_bolt.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/kded_bolt.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_bolt.so
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_bolt.desktop
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kded_bolt.notifyrc
 drwxr-xr-x	root/root	usr/share/kpackage/
@@ -20,7 +24,3 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_bolt/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_bolt/contents/ui/DeviceView.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_bolt/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_bolt/contents/ui/utils.js
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_bolt/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_bolt/metadata.json
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcm_bolt.desktop

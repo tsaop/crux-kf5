@@ -41,8 +41,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Screen/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kscreen_backend_launcher
 lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so -> libKF5Screen.so.7
--rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.23.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.7 -> libKF5Screen.so.5.23.5
+-rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.24.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.7 -> libKF5Screen.so.5.24.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/kscreen2.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
@@ -57,6 +57,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kscreen/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kscreen/KSC_QScreen.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kscreen/KSC_XRandR.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kscreen/KSC_XRandR11.so
+drwxr-xr-x	root/root	usr/lib/systemd/
+drwxr-xr-x	root/root	usr/lib/systemd/user/
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-kscreen.service
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/services/

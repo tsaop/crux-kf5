@@ -1,10 +1,10 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: ki18n
+# Depends on: kcoreaddons ki18n
 
 name=kdecoration
-version=5.23.5
+version=5.24.0
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 

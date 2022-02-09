@@ -2,7 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kgamma.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcminit/
+lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcminit/kcm_kgamma_init.so -> ../kcms/systemsettings/kcm_kgamma.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_kgamma.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kgamma/
 drwxr-xr-x	root/root	usr/share/kgamma/pics/
@@ -13,5 +18,3 @@ drwxr-xr-x	root/root	usr/share/kgamma/pics/
 -rw-r--r--	root/root	usr/share/kgamma/pics/lightgrey.png
 -rw-r--r--	root/root	usr/share/kgamma/pics/midgrey.png
 -rw-r--r--	root/root	usr/share/kgamma/pics/rgbscale.png
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kgamma.desktop

@@ -133,27 +133,27 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kfontprint
 -rwxr-xr-x	root/root	usr/lib/ksmserver-logout-greeter
 lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so -> libcolorcorrect.so.5
-lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libcolorcorrect.so.5 -> libcolorcorrect.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libcolorcorrect.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.5 -> libkfontinst.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.5 -> libkfontinstui.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.5.24.0
 -rwxr-xr-x	root/root	usr/lib/libkrdb.so
 lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so -> libkworkspace5.so.5
-lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libkworkspace5.so.5 -> libkworkspace5.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace5.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so -> libnotificationmanager.so.1
-lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so -> libplasma-geolocation-interface.so.5
-lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libplasma-geolocation-interface.so.5 -> libplasma-geolocation-interface.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libplasma-geolocation-interface.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.23.5
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.23.5
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.5.24.0
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so -> libweather_ion.so.7
 lrwxrwxrwx	root/root	usr/lib/libweather_ion.so.7 -> libweather_ion.so.7.0.0
 -rwxr-xr-x	root/root	usr/lib/libweather_ion.so.7.0.0
@@ -164,20 +164,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/fontthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_fontinst.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_formats.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_krunner_kill.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_autostart.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_colors.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_cursortheme.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_desktoptheme.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_fonts.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_icons.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_lookandfeel.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_nightcolor.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_notifications.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_style.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/kcm_translations.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/appmenu.so
@@ -194,6 +180,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/kio_fonts.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/calculator.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/helprunner.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/kcms/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/kcms/kcm_krunner_kill.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_bookmarksrunner.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_kill.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_placesrunner.so
@@ -235,6 +224,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/containmentactions/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/containmentactions/plasma_containmentactions_switchwindow.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/ion_bbcukmet.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/ion_dwd.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/ion_envcan.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/ion_noaa.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/ion_wettercom.so
@@ -263,6 +253,26 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_engine_weather.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/geolocationprovider/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/geolocationprovider/plasma-geolocation-ip.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcminit/
+lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcminit/kcm_fonts_init.so -> ../kcms/systemsettings/kcm_fonts.so
+lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcminit/kcm_style_init.so -> ../kcms/systemsettings/kcm_style.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_autostart.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_colors.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_cursortheme.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_desktoptheme.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_fonts.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_formats.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_icons.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_lookandfeel.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_nightcolor.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_notifications.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_style.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_translations.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_users.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_fontinst.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/holidays/
 -rw-r--r--	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/holidays/HolidaysConfig.qml
@@ -280,6 +290,9 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/notificationmanager/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/notificationmanager/libnotificationmanagerplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/notificationmanager/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/lookandfeel/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/lookandfeel/liblookandfeelqmlplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/lookandfeel/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/appmenu/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/appmenu/libappmenuplugin.so
@@ -313,13 +326,17 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/components/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/components/BatteryIcon.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/components/KeyboardLayoutSwitcher.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/components/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/dialogs/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/dialogs/SystemDialog.qml
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/dialogs/examples/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/dialogs/examples/test.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/dialogs/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/keyboardlayout/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/keyboardlayout/libkeyboardlayoutplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/workspace/keyboardlayout/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/taskmanager/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/taskmanager/libtaskmanagerplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/taskmanager/qmldir
--rwxr-xr-x	root/root	usr/lib/startplasma-waylandsession
 drwxr-xr-x	root/root	usr/lib/systemd/
 drwxr-xr-x	root/root	usr/lib/systemd/user/
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-baloorunner.service
@@ -330,18 +347,35 @@ drwxr-xr-x	root/root	usr/lib/systemd/user/
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-krunner.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-ksmserver.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-ksplash-ready.service
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-ksplash.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-plasmashell.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-restoresession.service
--rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace@.target
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace-wayland.target
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace-x11.target
+-rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace.target
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-xembedsniproxy.service
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_autostart.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_colors.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_cursortheme.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_desktoptheme.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_fontinst.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_fonts.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_formats.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_icons.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_lookandfeel.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_nightcolor.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_notifications.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_style.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_translations.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_users.desktop
 -rw-r--r--	root/root	usr/share/applications/org.kde.kcolorschemeeditor.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kfontview.desktop
 -rw-r--r--	root/root	usr/share/applications/org.kde.klipper.desktop
 -rw-r--r--	root/root	usr/share/applications/org.kde.plasmashell.desktop
+-rw-r--r--	root/root	usr/share/applications/org.kde.plasmawindowed.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.systemmonitor.desktop
--rw-r--r--	root/root	usr/share/applications/plasma-windowed.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/colorssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/cursorthemesettings.kcfg
@@ -493,53 +527,43 @@ drwxr-xr-x	root/root	usr/share/konqsidebartng/virtual_folders/services/
 -rw-r--r--	root/root	usr/share/konqsidebartng/virtual_folders/services/fonts.desktop
 drwxr-xr-x	root/root	usr/share/kpackage/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/
-drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm5_icons/
-drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm5_icons/contents/
-drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm5_icons/contents/ui/
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/contents/ui/IconSizePopup.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm5_icons/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_autostart/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_autostart/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_autostart/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_autostart/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_autostart/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_autostart/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_colors/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_colors/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_colors/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_colors/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_colors/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_colors/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_cursortheme/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_cursortheme/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_cursortheme/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_cursortheme/contents/ui/Delegate.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_cursortheme/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_cursortheme/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_cursortheme/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/contents/ui/Hand.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/contents/ui/ThemePreview.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_desktoptheme/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_fonts/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_fonts/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_fonts/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fonts/contents/ui/FontWidget.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fonts/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fonts/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_fonts/metadata.json
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_formats/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_formats/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_formats/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_formats/contents/ui/main.qml
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_icons/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_icons/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_icons/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_icons/contents/ui/IconSizePopup.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_icons/contents/ui/main.qml
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_lookandfeel/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_lookandfeel/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_lookandfeel/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_lookandfeel/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_lookandfeel/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_lookandfeel/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nightcolor/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/
@@ -548,8 +572,6 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/TimeField.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/TimingsView.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_nightcolor/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/
@@ -558,77 +580,34 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/ScreenPositionSelector.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/SourcesPage.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_notifications/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_style/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_style/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_style/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_style/contents/ui/EffectSettingsPopup.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_style/contents/ui/GtkStylePage.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_style/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_style/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_style/metadata.json
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_translations/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_translations/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_translations/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_translations/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_translations/metadata.desktop
--rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_translations/metadata.json
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_users/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_users/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/ChangePassword.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/ChangeWalletPassword.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/CreateUser.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/FingerprintDialog.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/FingerprintProgressCircle.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/UserDetailsPage.qml
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_users/contents/ui/main.qml
 drwxr-xr-x	root/root	usr/share/krunner/
 drwxr-xr-x	root/root	usr/share/krunner/dbusplugins/
 -rw-r--r--	root/root	usr/share/krunner/dbusplugins/plasma-runner-baloosearch.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/installfont.desktop
--rw-r--r--	root/root	usr/share/kservices5/autostart.desktop
--rw-r--r--	root/root	usr/share/kservices5/fontinst.desktop
+-rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/setaswallpaper.desktop
 -rw-r--r--	root/root	usr/share/kservices5/fontthumbnail.desktop
--rw-r--r--	root/root	usr/share/kservices5/formats.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_colors.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_cursortheme.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_desktoptheme.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_fonts.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_icons.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_lookandfeel.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_nightcolor.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_notifications.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_style.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_translations.desktop
--rw-r--r--	root/root	usr/share/kservices5/kfontviewpart.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.activitybar.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.analogclock.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.appmenu.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.battery.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.calendar.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.clipboard.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.devicenotifier.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.digitalclock.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.icon.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.lock_logout.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.manage-inputmethod.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.mediacontroller.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.notifications.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.panelspacer.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.private.systemtray.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.cpu.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.cpucore.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.diskactivity.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.diskusage.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.memory.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemmonitor.net.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.systemtray.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-containmentactions-switchactivity.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-applicationjobs.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-dataengine-clipboard.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-lookandfeel-org.kde.breeze.desktop.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-lookandfeel-org.kde.breezedark.desktop.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-lookandfeel-org.kde.breezetwilight.desktop.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-runner-kill_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-runner-webshortcuts_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.color.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.image.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.slideshow.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/phononbackend.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/plasma-layouttemplate.desktop
@@ -668,9 +647,8 @@ drwxr-xr-x	root/root	usr/share/kstyle/themes/
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtplastique.themerc
 -rw-r--r--	root/root	usr/share/kstyle/themes/qtwindows.themerc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/kfontinst/
--rw-r--r--	root/root	usr/share/kxmlgui5/kfontinst/kfontviewpart.rc
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kfontview/
+-rw-r--r--	root/root	usr/share/kxmlgui5/kfontview/kfontviewpart.rc
 -rw-r--r--	root/root	usr/share/kxmlgui5/kfontview/kfontviewui.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.breeze.desktop.appdata.xml
@@ -700,6 +678,65 @@ drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.slideshow.appdata.xml
 drwxr-xr-x	root/root	usr/share/plasma/
+drwxr-xr-x	root/root	usr/share/plasma/avatars/
+-rw-r--r--	root/root	usr/share/plasma/avatars/Artist Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Bookworm Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Boss Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Bug Catcher Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Card Shark Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Hacker Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Journalist Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Katie.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Mechanic Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Messenger Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Musician Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Office Worker Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/PC Builder Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Scientist Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Teacher Konqi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/Virtual Reality Konqi.png
+drwxr-xr-x	root/root	usr/share/plasma/avatars/photos/
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Air Balloon.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Air Balloon.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Astronaut.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Astronaut.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Books.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Books.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Brushes.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Brushes.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Bulb.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Bulb.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Car.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Car.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Cat.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Cat.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Chameleon.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Chamelon.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Cocktail.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Cocktail.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Dog.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Dog.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Fish.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Fish.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Gamepad.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Gamepad.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Owl.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Owl.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Pancakes.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Pancakes.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Parrot.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Parrot.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Pencils.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Pencils.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Shuttle.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Shuttle.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Soccer.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Soccer.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Sunflower.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Sunflower.png.license
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Sushi.png
+-rw-r--r--	root/root	usr/share/plasma/avatars/photos/Sushi.png.license
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/
@@ -754,9 +791,10 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/splash/images/busywidget.svgz
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/splash/images/kde.svgz
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/splash/images/plasma.svgz
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/systemdialog/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/systemdialog/SystemDialog.qml
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/windowswitcher/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/windowswitcher/WindowSwitcher.qml
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/contents/
@@ -764,7 +802,6 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/c
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/contents/previews/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/contents/previews/fullscreenpreview.jpg
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/contents/previews/preview.png
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezedark.desktop/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/contents/
@@ -772,14 +809,12 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.deskt
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/contents/previews/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/contents/previews/fullscreenpreview.jpg
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/contents/previews/preview.png
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breezetwilight.desktop/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.activitybar/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/
@@ -790,7 +825,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/ui/Hand.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/ui/analogclock.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/ui/configGeneral.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.analogclock/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/contents/
@@ -801,7 +835,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/contents/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/contents/ui/MenuDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/contents/ui/configGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.appmenu/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/
@@ -816,9 +849,8 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/PopupDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/PowerManagementItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/PowerProfileItem.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/logic.js
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/metadata.desktop
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.battery/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/contents/
@@ -830,7 +862,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/contents
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/contents/ui/configGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.calendar/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/
@@ -839,12 +870,12 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/content
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/ClipboardItemDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/ClipboardPage.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/DelegateToolButtons.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/EditPage.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/ImageItemDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/Menu.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/TextItemDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/UrlItemDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/clipboard.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.clipboard/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/
@@ -854,7 +885,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/co
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/DeviceItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/FullRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/contents/ui/devicenotifier.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.devicenotifier/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/
@@ -870,7 +900,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/cont
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/configCalendar.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/configTimeZones.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/contents/
@@ -878,7 +907,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/contents/con
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.icon/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/contents/
@@ -889,20 +917,17 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/contents/ui/ConfigGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/contents/ui/data.js
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/contents/ui/lockout.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/contents/ui/manage-inputmethod.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/ExpandedRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/
@@ -925,7 +950,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/con
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/global/PulseAudio.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/global/qmldir
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.notifications/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/contents/
@@ -933,7 +957,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/
@@ -958,43 +981,36 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtra
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/PulseAnimation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/StatusNotifierItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/faceproperties
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/config/faceproperties
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/contents/config/faceproperties
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskactivity/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/contents/config/faceproperties
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.diskusage/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/contents/config/faceproperties
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.memory/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/contents/config/faceproperties
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.net/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/
@@ -1009,13 +1025,11 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/con
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/config/ConfigSensors.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/config/FaceDetails.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.systemtray/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/services/
 -rw-r--r--	root/root	usr/share/plasma/services/activities.operations
@@ -1039,9 +1053,7 @@ drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.color/contents/config/
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.color/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.color/contents/ui/config.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.color/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.color/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.color/metadata.json
--rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.color/plasma-wallpaper-color.desktop
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.image/
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.image/contents/
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.image/contents/config/
@@ -1050,8 +1062,8 @@ drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.image/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.image/contents/ui/WallpaperDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.image/contents/ui/config.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.image/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.image/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.image/metadata.json
+-rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.image/setaswallpaper.desktop.in
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/config/
@@ -1060,13 +1072,13 @@ drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/ui/WallpaperDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/ui/config.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/contents/ui/main.qml
--rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.slideshow/metadata.json
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.fontinst.policy
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kcm_translations.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kcmusers.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/klipper.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/libnotificationmanager.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/plasma-workspace.categories

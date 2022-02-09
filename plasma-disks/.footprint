@@ -4,11 +4,13 @@ drwxr-xr-x	root/root	usr/lib/kauth/
 -rwxr-xr-x	root/root	usr/lib/kauth/kded-smart-helper
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcms/smart.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/smart.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/smart.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
@@ -26,8 +28,6 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/plasma_disks/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/plasma_disks/contents/ui/ReportPage.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/plasma_disks/metadata.desktop
 -rw-r--r--	root/root	usr/share/kpackage/kcms/plasma_disks/metadata.json
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/smart.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.disks.metainfo.xml
 drwxr-xr-x	root/root	usr/share/polkit-1/

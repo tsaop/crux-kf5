@@ -21,7 +21,7 @@ drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/display.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/dpms_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/drmclientbuffer.h
--rw-r--r--	root/root	usr/include/KWaylandServer/eglstream_controller_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/drmleasedevice_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/fakeinput_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/filtered_display.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/idle_interface.h
@@ -44,6 +44,7 @@ drwxr-xr-x	root/root	usr/include/KWaylandServer/
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointer_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointerconstraints_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/pointergestures_v1_interface.h
+-rw-r--r--	root/root	usr/include/KWaylandServer/primaryoutput_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectiondevice_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectiondevicemanager_v1_interface.h
 -rw-r--r--	root/root	usr/include/KWaylandServer/primaryselectionoffer_v1_interface.h
@@ -79,8 +80,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KWaylandServer/
 -rw-r--r--	root/root	usr/lib/cmake/KWaylandServer/KWaylandServerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KWaylandServer/KWaylandServerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so -> libKWaylandServer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so.5 -> libKWaylandServer.so.5.23.5
--rwxr-xr-x	root/root	usr/lib/libKWaylandServer.so.5.23.5
+lrwxrwxrwx	root/root	usr/lib/libKWaylandServer.so.5 -> libKWaylandServer.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKWaylandServer.so.5.24.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kwaylandserver.categories
