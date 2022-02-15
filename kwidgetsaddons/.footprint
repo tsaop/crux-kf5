@@ -156,9 +156,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kviewstatemaintainerbase.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kviewstateserializer.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kwidgetsaddons_export.h
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kwidgetsaddons_version.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kxyselector.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/lineediturldropeventfilter.h
--rw-r--r--	root/root	usr/include/KF5/kwidgetsaddons_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5WidgetsAddons/
@@ -167,8 +167,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WidgetsAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so -> libKF5WidgetsAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WidgetsAddons.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

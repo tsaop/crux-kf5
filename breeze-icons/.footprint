@@ -1884,6 +1884,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/bqm-diff.svg -> run-
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/bqm-remove.svg -> list-remove.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/bqm-rmqueue.svg -> edit-delete.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/branch.svg -> choice-rhomb.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/brightness-high.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/brightness-low.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/bwtonal.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/call-start.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/call-stop.svg
@@ -7312,14 +7314,14 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/16/favorites.svg -> fold
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-black.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-blender.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-blue.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-book.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/16/folder-book.svg -> ../../actions/16/address-book-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/16/folder-bookmark.svg -> ../../actions/16/bookmark-new.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-brown.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-build.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-calculate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-cloud.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-comic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/16/folder-comic.svg -> ../../actions/16/kmouth-phrasebook.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-crash.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-cyan.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-database.svg
@@ -7349,7 +7351,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/16/folder-images.svg -> 
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-important.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-java.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-language.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-library.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/16/folder-library.svg -> ../../actions/16/view-institution.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-locked.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-log.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/16/folder-mac.svg
@@ -7426,14 +7428,14 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/22/favorites.svg -> fold
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-black.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-blender.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-blue.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-book.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/22/folder-book.svg -> ../../actions/22/address-book-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/22/folder-bookmark.svg -> ../../actions/22/bookmark-new.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-brown.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-build.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-calculate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-cloud.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-comic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/22/folder-comic.svg -> ../../actions/22/kmouth-phrasebook.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-crash.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-cyan.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-database.svg
@@ -7463,7 +7465,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/22/folder-images.svg -> 
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-important.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-java.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-language.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-library.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/22/folder-library.svg -> ../../actions/22/view-institution.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-locked.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-log.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/places/22/folder-mac.svg
@@ -10637,6 +10639,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/bqm-diff.svg -> run-build
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/bqm-remove.svg -> list-remove.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/bqm-rmqueue.svg -> edit-delete.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/branch.svg -> choice-rhomb.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/brightness-high.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/brightness-low.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/bwtonal.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/call-start.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/call-stop.svg
@@ -11290,7 +11294,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/help-latex.svg -> help-ab
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/hide_table_column.svg -> hint.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/hide_table_row.svg -> hint.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/hidemouse.svg -> kr_unselect.svg
--rw-r--r--	root/root	usr/share/icons/breeze/actions/22/high-brightness.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/high-brightness.svg -> brightness-high.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/hint.svg -> view-hidden.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/hotpixels.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/identity.svg -> address-book-new.svg
@@ -11572,7 +11576,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/list-resource-add.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/lock.svg -> document-encrypted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/love-amarok.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/love.svg -> love-amarok.svg
--rw-r--r--	root/root	usr/share/icons/breeze/actions/22/low-brightness.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/low-brightness.svg -> brightness-low.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/mail-attachment.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/mail-deleted.svg -> edit-delete.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/mail-download-later.svg -> download-later.svg
@@ -16061,14 +16065,14 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/16/favorites.svg -> folder-fa
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-black.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-blender.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-blue.svg
--rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-book.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/16/folder-book.svg -> ../../actions/16/address-book-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/16/folder-bookmark.svg -> ../../actions/16/bookmark-new.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-brown.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-build.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-calculate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-cloud.svg
--rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-comic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/16/folder-comic.svg -> ../../actions/16/kmouth-phrasebook.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-crash.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-cyan.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-database.svg
@@ -16098,7 +16102,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/16/folder-images.svg -> folde
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-important.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-java.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-language.svg
--rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-library.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/16/folder-library.svg -> ../../actions/16/view-institution.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-locked.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-log.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/16/folder-mac.svg
@@ -16175,14 +16179,14 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/22/favorites.svg -> folder-fa
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-black.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-blender.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-blue.svg
--rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-book.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/22/folder-book.svg -> ../../actions/22/address-book-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/22/folder-bookmark.svg -> ../../actions/22/bookmark-new.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-brown.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-build.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-calculate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-chart.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-cloud.svg
--rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-comic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/22/folder-comic.svg -> ../../actions/22/kmouth-phrasebook.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-crash.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-cyan.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-database.svg
@@ -16212,7 +16216,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/22/folder-images.svg -> folde
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-important.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-java.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-language.svg
--rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-library.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/22/folder-library.svg -> ../../actions/22/view-institution.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-locked.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-log.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/places/22/folder-mac.svg

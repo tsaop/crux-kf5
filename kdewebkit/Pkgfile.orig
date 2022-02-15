@@ -1,0 +1,31 @@
+# Description: Part of KDE Frameworks
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus freetype glib gst-plugins-base gstreamer harfbuzz hyphen icu karchive kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kglobalaccel kguiaddons ki18n kiconthemes kio kitemviews kjobwidgets kparts kservice ktextwidgets kwallet kwidgetsaddons kwindowsystem kxmlgui libglvnd libjpeg-turbo libpng libxml2 libxslt orc qt5 qtwebkit solid sonnet xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxdmcp xorg-libxfixes xorg-libxrender xorg-xcb-util-keysyms
+
+name=kdewebkit
+version=5.91.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version/.0/}/portingAids/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk}
+	rm -rf $PKG/usr/share/doc
+}

@@ -1,0 +1,32 @@
+# Description: KDE's lightweight user interface framework for mobile and convergent applications (version 2.0)
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus extra-cmake-modules freetype glib harfbuzz libglvnd libpng qt5 xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=kirigami2
+version=5.91.0
+release=1
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+
+build() {
+	mkdir build; cd build
+	
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
+	-DBUILD_TESTING=OFF \
+	-DBUILD_EXAMPLES=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	../$name-$version
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}

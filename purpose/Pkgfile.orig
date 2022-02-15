@@ -1,0 +1,32 @@
+# Description: Framework for providing abstractions to get the developer's purposes fulfilled
+# URL: http://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: accounts-qml-module dbus freetype glib harfbuzz kaccounts-integration kaccounts-providers karchive kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kguiaddons ki18n kiconthemes kio kirigami2 kitemviews kjobwidgets knotifications kservice kwidgetsaddons kwindowsystem libaccounts-glib libaccounts-qt libcanberra libdbusmenu-qt5 libglvnd libogg libpng libvorbis libxml2 qt5 signond solid xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxtst xorg-xcb-util-keysyms
+
+name=purpose
+version=5.91.0
+release=1
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KArchive/
 -rw-r--r--	root/root	usr/include/KF5/KArchive/kar.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/karchive.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/karchive_export.h
+-rw-r--r--	root/root	usr/include/KF5/KArchive/karchive_version.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/karchivedirectory.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/karchiveentry.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/karchivefile.h
@@ -29,7 +30,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KArchive/
 -rw-r--r--	root/root	usr/include/KF5/KArchive/ktar.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/kzip.h
 -rw-r--r--	root/root	usr/include/KF5/KArchive/kzipfileentry.h
--rw-r--r--	root/root	usr/include/KF5/karchive_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Archive/
@@ -38,8 +38,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Archive/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Archive/KF5ArchiveTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Archive/KF5ArchiveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Archive.so -> libKF5Archive.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Archive.so.5 -> libKF5Archive.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5Archive.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Archive.so.5 -> libKF5Archive.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Archive.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

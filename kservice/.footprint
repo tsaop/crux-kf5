@@ -32,6 +32,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KService/
 -rw-r--r--	root/root	usr/include/KF5/KService/kplugintrader.h
 -rw-r--r--	root/root	usr/include/KF5/KService/kservice.h
 -rw-r--r--	root/root	usr/include/KF5/KService/kservice_export.h
+-rw-r--r--	root/root	usr/include/KF5/KService/kservice_version.h
 -rw-r--r--	root/root	usr/include/KF5/KService/kserviceaction.h
 -rw-r--r--	root/root	usr/include/KF5/KService/kservicegroup.h
 -rw-r--r--	root/root	usr/include/KF5/KService/kservicetype.h
@@ -41,7 +42,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KService/
 -rw-r--r--	root/root	usr/include/KF5/KService/ksycocaentry.h
 -rw-r--r--	root/root	usr/include/KF5/KService/ksycocatype.h
 -rw-r--r--	root/root	usr/include/KF5/KService/ktoolinvocation.h
--rw-r--r--	root/root	usr/include/KF5/kservice_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Service/
@@ -51,8 +51,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Service/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Service/KF5ServiceTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Service/KF5ServiceTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Service.so -> libKF5Service.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Service.so.5 -> libKF5Service.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5Service.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Service.so.5 -> libKF5Service.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Service.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

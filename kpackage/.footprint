@@ -14,7 +14,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KPackage/kpackage/
 -rw-r--r--	root/root	usr/include/KF5/KPackage/kpackage/packageloader.h
 -rw-r--r--	root/root	usr/include/KF5/KPackage/kpackage/packagestructure.h
 -rw-r--r--	root/root	usr/include/KF5/KPackage/kpackage/version.h
--rw-r--r--	root/root	usr/include/KF5/kpackage_version.h
+-rw-r--r--	root/root	usr/include/KF5/KPackage/kpackage_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Package/
@@ -27,8 +27,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Package/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Package/KF5PackageToolsTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Package/qrc.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Package.so -> libKF5Package.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Package.so.5 -> libKF5Package.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5Package.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Package.so.5 -> libKF5Package.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Package.so.5.91.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kpackage-generic.desktop

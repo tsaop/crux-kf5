@@ -8,12 +8,12 @@ drwxr-xr-x	root/root	usr/include/KF5/KDEWebKit/
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/KWebView
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/KWebWallet
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kdewebkit_export.h
+-rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kdewebkit_version.h
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kgraphicswebview.h
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kwebpage.h
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kwebpluginfactory.h
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kwebview.h
 -rw-r--r--	root/root	usr/include/KF5/KDEWebKit/kwebwallet.h
--rw-r--r--	root/root	usr/include/KF5/kdewebkit_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5WebKit/
@@ -22,8 +22,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebKit/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebKit/KF5WebKitTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebKit/KF5WebKitTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5WebKit.so -> libKF5WebKit.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebKit.so.5 -> libKF5WebKit.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5WebKit.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5WebKit.so.5 -> libKF5WebKit.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebKit.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

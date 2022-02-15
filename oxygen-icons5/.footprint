@@ -574,6 +574,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/audio-x-mp2.p
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/audio-x-wav.png -> audio-x-adpcm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/image-bmp.png -> image-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/image-gif.png -> image-x-generic.png
@@ -710,7 +712,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-wavelet
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-webm.png -> application-x-shockwave-flash.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-anim.png -> audio-vnd.rn-realvideo.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-flic.png -> audio-vnd.rn-realvideo.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-flv.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-flv.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-generic.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-google-vlc-plugin.png -> video-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/mimetypes/video-x-javafx.png -> video-x-generic.png
@@ -2288,6 +2290,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/audio-x-mp2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/audio-x-wav.png -> audio-ac3.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/encrypted.png -> application-pgp-keys.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/image-bmp.png -> image-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/mimetypes/image-gif.png -> image-x-generic.png
@@ -4129,6 +4133,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/audio-x-mpeg.pn
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/audio-x-wav.png -> audio-ac3.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/image-bmp.png -> image-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/mimetypes/image-gif.png -> image-x-generic.png
@@ -4654,7 +4660,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-a
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-msword-template.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-msword.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-octet-stream.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-ogg.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-ogg.png -> audio-x-flac+ogg.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-pdf.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-pgp-encrypted.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-pgp-keys.png
@@ -4672,8 +4678,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-v
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.ms-powerpoint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.chart.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.database.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.draw.template.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.drawing.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.draw.template.png -> application-vnd.sun.xml.draw.template.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.drawing.png -> application-vnd.oasis.opendocument.image.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.drawing.template.png -> application-vnd.oasis.opendocument.draw.template.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.formula-template.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.formula.png
@@ -4703,6 +4709,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-v
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.sun.xml.writer.global.png -> application-vnd.oasis.opendocument.text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.sun.xml.writer.png.png -> application-vnd.oasis.opendocument.text.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.wordperfect.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-wps-office.xls.png -> application-vnd.ms-excel.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-x-7z-compressed.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-x-abiword.png -> application-vnd.oasis.opendocument.text.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/application-x-ace.png -> application-x-7z-compressed.png
@@ -4832,10 +4839,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-flac.
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-generic.png -> audio-x-flac+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-monkey.png -> audio-x-flac+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-mp2.png -> audio-ac3.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-mpeg.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-mpeg.png -> audio-x-mp2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/audio-x-wav.png -> audio-x-adpcm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/image-bmp.png -> image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/image-gif.png
@@ -4879,7 +4888,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-o
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-oasis-text-template.png -> application-msword-template.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-oasis-text.png -> application-msword.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-oasis-web-template.png -> text-html.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-presentation-template.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-presentation-template.png -> application-vnd.oasis.opendocument.presentation-template.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-presentation.png -> application-vnd.oasis.opendocument.presentation.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-spreadsheet-template.png -> application-vnd.oasis.opendocument.spreadsheet-template.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/libreoffice-spreadsheet.png -> application-vnd.oasis.opendocument.spreadsheet.png
@@ -4969,7 +4978,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-wavelet
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-webm.png -> application-x-shockwave-flash.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-anim.png -> audio-vnd.rn-realvideo.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-flic.png -> audio-vnd.rn-realvideo.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-flv.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-flv.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-generic.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-google-vlc-plugin.png -> video-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/mimetypes/video-x-javafx.png -> video-x-generic.png
@@ -6257,6 +6266,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/audio-x-mp2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/audio-x-wav.png -> audio-x-adpcm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/image-bmp.png -> image-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/mimetypes/image-gif.png -> image-x-generic.png
@@ -7700,6 +7711,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/audio-x-mp2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/audio-x-wav.png -> audio-x-adpcm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/image-bmp.png -> image-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/image-gif.png -> image-x-generic.png
@@ -7836,7 +7849,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-wavelet.p
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-webm.png -> application-x-shockwave-flash.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-anim.png -> audio-vnd.rn-realvideo.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-flic.png -> audio-vnd.rn-realvideo.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-flv.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-flv.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-generic.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-google-vlc-plugin.png -> video-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/mimetypes/video-x-javafx.png -> video-x-generic.png
@@ -8570,6 +8583,8 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/audio-x-mp2.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/audio-x-speex+ogg.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/audio-x-wav.png -> audio-x-adpcm.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/encrypted.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/font-otf.png -> application-x-font-otf.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/font-ttf.png -> application-x-font-ttf.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/fonts-package.png -> application-x-font-afm.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/image-bmp.png -> image-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/image-gif.png -> image-x-generic.png
@@ -8710,7 +8725,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-wavelet.p
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-webm.png -> application-x-shockwave-flash.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-anim.png -> audio-vnd.rn-realvideo.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-flic.png -> audio-vnd.rn-realvideo.png
--rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-flv.png
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-flv.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-generic.png -> application-vnd.rn-realmedia.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-google-vlc-plugin.png -> video-x-generic.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/mimetypes/video-x-javafx.png -> video-x-generic.png

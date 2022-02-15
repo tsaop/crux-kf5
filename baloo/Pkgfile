@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gtk kfilemetadata kidletime kio lmdb
+# Depends on: kfilemetadata kidletime kio lmdb
 
 name=baloo
-version=5.90.0
+version=5.91.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

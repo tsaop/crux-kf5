@@ -10,6 +10,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/protocoltojson
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
+drwxr-xr-x	root/root	usr/include/KF5/KIO/
+-rw-r--r--	root/root	usr/include/KF5/KIO/kio_version.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOCore/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KACL
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KCoreDirLister
@@ -288,7 +290,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/kio/
 drwxr-xr-x	root/root	usr/include/KF5/kio/
 -rw-r--r--	root/root	usr/include/KF5/kio/kntlm.h
 -rw-r--r--	root/root	usr/include/KF5/kio/kntlm_export.h
--rw-r--r--	root/root	usr/include/KF5/kio_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5KIO/
@@ -303,20 +304,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.91.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.91.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.91.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.91.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -375,9 +376,9 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kssld5.service
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/filepicker.upd
-drwxr-xr-x	root/root	usr/share/kdevappwizard/
-drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
--rw-r--r--	root/root	usr/share/kdevappwizard/templates/ioslave.tar.bz2
+drwxr-xr-x	root/root	usr/share/kdevfiletemplates/
+drwxr-xr-x	root/root	usr/share/kdevfiletemplates/templates/
+-rw-r--r--	root/root	usr/share/kdevfiletemplates/templates/ioslave.tar.bz2
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kcookiejar/
 -rw-r--r--	root/root	usr/share/kf5/kcookiejar/domain_info

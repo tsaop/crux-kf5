@@ -1,0 +1,22 @@
+# Description: A QtQuick plugin providing high-performance charts
+# URL: https://kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules freetype glib harfbuzz libglvnd libpng qt5 xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=kquickcharts
+version=5.91.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DKDE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release .. \
+		..
+
+	make
+	make DESTDIR=$PKG install
+}

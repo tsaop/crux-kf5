@@ -1,11 +1,12 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
+drwxr-xr-x	root/root	usr/include/KF5/FrameworkIntegration/
+-rw-r--r--	root/root	usr/include/KF5/FrameworkIntegration/frameworkintegration_version.h
 drwxr-xr-x	root/root	usr/include/KF5/KStyle/
 -rw-r--r--	root/root	usr/include/KF5/KStyle/KStyle
 -rw-r--r--	root/root	usr/include/KF5/KStyle/kstyle.h
 -rw-r--r--	root/root	usr/include/KF5/KStyle/kstyle_export.h
--rw-r--r--	root/root	usr/include/KF5/frameworkintegration_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5FrameworkIntegration/
@@ -17,8 +18,8 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 drwxr-xr-x	root/root	usr/lib/kf5/kpackagehandlers/
 -rwxr-xr-x	root/root	usr/lib/kf5/kpackagehandlers/knshandler
 lrwxrwxrwx	root/root	usr/lib/libKF5Style.so -> libKF5Style.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Style.so.5 -> libKF5Style.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5Style.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Style.so.5 -> libKF5Style.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Style.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/

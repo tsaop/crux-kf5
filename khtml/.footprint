@@ -44,11 +44,11 @@ drwxr-xr-x	root/root	usr/include/KF5/KHtml/dom/
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtml_export.h
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtml_part.h
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtml_settings.h
+-rw-r--r--	root/root	usr/include/KF5/KHtml/khtml_version.h
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtmldefaults.h
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtmlpart.h
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtmlsettings.h
 -rw-r--r--	root/root	usr/include/KF5/KHtml/khtmlview.h
--rw-r--r--	root/root	usr/include/KF5/khtml_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5KHtml/
@@ -57,8 +57,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5KHtml/
 -rw-r--r--	root/root	usr/lib/cmake/KF5KHtml/KF5KHtmlTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5KHtml/KF5KHtmlTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KHtml.so -> libKF5KHtml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KHtml.so.5 -> libKF5KHtml.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5KHtml.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KHtml.so.5 -> libKF5KHtml.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KHtml.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

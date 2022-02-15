@@ -2,11 +2,23 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/Kirigami2/
+drwxr-xr-x	root/root	usr/include/KF5/Kirigami2/Kirigami/
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/Kirigami/KirigamiPluginFactory
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/Kirigami/PlatformTheme
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/Kirigami/TabletModeWatcher
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/Kirigami/Units
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/Kirigami/VirtualKeyboardWatcher
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/KirigamiPluginFactory
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/PlatformTheme
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/TabletModeWatcher
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/Units
--rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami2_export.h
+drwxr-xr-x	root/root	usr/include/KF5/Kirigami2/kirigami/
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami/kirigami2_export.h
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami/kirigamipluginfactory.h
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami/platformtheme.h
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami/tabletmodewatcher.h
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami/units.h
+-rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigami/virtualkeyboardwatcher.h
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/kirigamipluginfactory.h
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/platformtheme.h
 -rw-r--r--	root/root	usr/include/KF5/Kirigami2/tabletmodewatcher.h
@@ -20,8 +32,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Kirigami2/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so -> libKF5Kirigami2.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.90.0
--rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.90.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Kirigami2.so.5 -> libKF5Kirigami2.so.5.91.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Kirigami2.so.5.91.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -36,6 +48,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractApplicationItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractCard.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractChip.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractItemViewHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/AbstractListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Action.qml
@@ -51,6 +64,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/CardsLayout.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/CardsListView.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/CheckableListItem.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Chip.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ContextDrawer.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/Dialog.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/FlexColumn.qml
@@ -83,7 +97,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/SwipeListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/ToolBarApplicationHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/UrlButton.qml
--rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/libkirigamiplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/libKirigamiPlugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/plugins.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/ActionButton.qml
@@ -95,6 +109,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/ContextDrawerActionItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/CornerShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/DefaultCardBackground.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/DefaultChipBackground.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/DefaultListItemBackground.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/private/GlobalDrawerActionItem.qml
@@ -140,6 +155,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/swipenavigator/templates
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/AbstractCard.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/AbstractChip.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/AbstractListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/ApplicationHeader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/templates/InlineMessage.qml
