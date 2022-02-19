@@ -5,22 +5,22 @@
 
 name=opencv
 version=4.5.5
-release=1
-source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
+release=2
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
+	https://github.com/opencv/opencv_contrib/archive/$version.tar.gz
+	ffmpeg5.patch
+	vtk9.patch)
 
 build() {
-	# Download and extract OpenCV extra modules:
-	wget https://github.com/opencv/opencv_contrib/archive/$version.tar.gz \
-		-O $name-contrib-$version.tar.gz
-	tar xf $name-contrib-$version.tar.gz
-
 	cd $name-$version
-	mkdir build; cd build
+	patch -Np1 -i $SRC/ffmpeg5.patch
+	patch -Np1 -i $SRC/vtk9.patch
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DOPENCV_EXTRA_MODULES_PATH=../../${name}_contrib-$version/modules \
+		-DOPENCV_EXTRA_MODULES_PATH=$SRC/${name}_contrib-$version/modules \
 		-DWITH_QT=ON \
 		-DWITH_OPENGL=ON \
 		-DOpenGL_GL_PREFERENCE=GLVND \
@@ -34,14 +34,13 @@ build() {
 		-DINSTALL_C_EXAMPLES=OFF \
 		-DINSTALL_PYTHON_EXAMPLES=OFF \
 		-DPYTHON3_EXECUTABLE=/usr/bin/python3 \
-		-DPYTHON2_EXECUTABLE=/usr/bin/python2 \
-		..
+		-DPYTHON2_EXECUTABLE=/usr/bin/python2
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	# python3 bindings
-	cd python_loader
+	cd build/python_loader
 	python3 setup.py install --root=$PKG
 	rm -rf $PKG/usr/python	
 
