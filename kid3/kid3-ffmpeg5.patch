@@ -1,0 +1,15 @@
+diff -Naur kid3-3.9.1/src/plugins/acoustidimport/ffmpegfingerprintdecoder.cpp kid3-3.9.1-patched/src/plugins/acoustidimport/ffmpegfingerprintdecoder.cpp
+--- kid3-3.9.1/src/plugins/acoustidimport/ffmpegfingerprintdecoder.cpp	2022-01-15 10:17:12.000000000 +0100
++++ kid3-3.9.1-patched/src/plugins/acoustidimport/ffmpegfingerprintdecoder.cpp	2022-02-19 19:07:34.151097139 +0100
+@@ -232,7 +232,11 @@
+   friend class Format;
+   friend class Converter;
+   AVCodecContext* m_ptr;
++#if LIBAVCODEC_VERSION_MAJOR < 59
+   AVCodec* m_impl;
++#else
++  const AVCodec* m_impl;
++#endif
+   AVFrame* m_frame;
+   bool m_opened;
+ };
