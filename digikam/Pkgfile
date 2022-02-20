@@ -6,10 +6,12 @@
 name=digikam
 version=7.5.0
 release=1
-source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz)
+source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz
+	ffmpeg5.patch)
 
 build() {
 	cd digikam-$version
+	patch -Np1 -i $SRC/ffmpeg5.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
