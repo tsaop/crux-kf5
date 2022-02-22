@@ -4,25 +4,19 @@
 # Depends on: desktop-file-utils gtk hunspell qtwebengine qtwebkit
 
 name=otter-browser
-version=1.0.02
+version=1.0.03
 release=1
 source=(https://github.com/OtterBrowser/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
-	-DEnableQtwebengine=ON \
-	-Wno-dev
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/$name
 }
