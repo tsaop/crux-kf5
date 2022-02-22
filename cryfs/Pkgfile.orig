@@ -1,7 +1,7 @@
 # Description: Cryptographic filesystem for the cloud
 # URL: https://www.cryfs.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: crypto++ fuse python range-v3 spdlog
+# Depends on: boost crypto++ fmt fuse python range-v3 spdlog
 
 name=cryfs
 version=0.11.2
