@@ -1,0 +1,40 @@
+# Description: Part of KDE Plasma
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: alsa-lib attica baloo dbus editorconfig-core-c ffmpeg fontconfig freetype glib harfbuzz icu iso-codes kactivities kactivities-stats karchive kauth kbookmarks kcmutils kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdeclarative kdelibs4support kdesu kfilemetadata kglobalaccel kguiaddons kholidays ki18n kiconthemes kidletime kio kitemmodels kitemviews kjobwidgets kjsembed knewstuff knotifications knotifyconfig kpackage kparts kpeople krunner kscreenlocker kservice ksysguard ktexteditor ktextwidgets kunitconversion kwallet kwayland kwidgetsaddons kwin kwindowsystem kxmlgui kxmlrpcclient layer-shell-qt lcms2 libcanberra libdbusmenu-qt5 libdmtx libglvnd libjpeg-turbo libkscreen libksysguard libogg libpcre2 libpng libqalculate libvorbis libvpx libwebp libxkbcommon libxml2 lm_sensors lmdb networkmanager networkmanager-qt nspr nss opus phonon-qt5 phonon-qt5-backend-gstreamer plasma-framework prison qrencode qt5 qtwebengine solid sonnet syndication syntax-highlighting threadweaver wayland xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxcursor xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxft xorg-libxi xorg-libxrandr xorg-libxrender xorg-libxres xorg-libxtst xorg-xcb-util xorg-xcb-util-image xorg-xcb-util-keysyms
+
+name=plasma-workspace
+version=5.24.2
+release=1
+source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
+	52-upower.rules
+	kde.pam)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+
+	make
+	make DESTDIR=$PKG install
+
+	# Add polkit rule to enable shutdown/restart
+	install -Dm644 $SRC/52-upower.rules $PKG/etc/polkit-1/rules.d/52-upower.rules
+
+	# Install PAM config file
+	install -Dm644 $SRC/kde.pam $PKG/etc/pam.d/kde
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,es,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+	find $PKG -name "README.txt" -delete
+}

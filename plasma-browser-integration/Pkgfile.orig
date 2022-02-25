@@ -1,0 +1,30 @@
+# Description: Components necessary to integrate browsers into the Plasma Desktop
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus freetype glib harfbuzz kactivities karchive kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdeclarative kfilemetadata kglobalaccel kguiaddons ki18n kiconthemes kio kitemmodels kitemviews kjobwidgets knotifications kpackage krunner kservice kwayland kwidgetsaddons kwindowsystem kxmlgui libcanberra libdbusmenu-qt5 libglvnd libogg libpng libvorbis plasma-framework plasma-workspace purpose qt5 solid threadweaver wayland xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxtst xorg-xcb-util-keysyms
+
+name=plasma-browser-integration
+version=5.24.2
+release=1
+source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}

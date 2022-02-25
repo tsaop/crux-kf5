@@ -1,0 +1,21 @@
+# Description: A plugin based system monitoring daemon
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus freetype glib harfbuzz kauth kconfig kcoreaddons kcrash kdbusaddons ki18n kio kservice kwindowsystem libglvnd libksysguard libnl libpng lm_sensors networkmanager networkmanager-qt nspr nss qt5 solid xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxfixes xorg-xcb-util-keysyms
+
+name=ksystemstats
+version=5.24.2
+release=1
+source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}
