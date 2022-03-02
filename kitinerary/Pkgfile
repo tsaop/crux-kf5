@@ -5,23 +5,23 @@
 
 name=kitinerary
 version=21.12.2
-release=1
-source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=2
+source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
+	poppler-22.03.0.patch)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
+	# fix build with poppler 22.03.0
+	patch -Np1 -i $SRC/poppler-22.03.0.patch
 
-	cmake -DCMAKE_BUILD_TYPE=Release \
+	cmake -Bbuild -DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_INSTALL_LIBEXECDIR=lib \
-		-DBUILD_TESTING=OFF \
 		-DKDE_INSTALL_LIBDIR=lib \
-		-DKDE_INSTALL_CONFDIR=/etc \
-		..
+		-DKDE_INSTALL_LIBEXECDIR=lib \
+		-DBUILD_TESTING=OFF
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 }
