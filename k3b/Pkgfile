@@ -4,8 +4,8 @@
 # Depends on: cdrdao kcmutils kfilemetadata knewstuff knotifyconfig lame libdvdread libkcddb libmad libsamplerate qtwebkit
 
 name=k3b
-version=21.12.2
-release=2
+version=21.12.3
+release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
 	k3b-21.12.1-ffmpeg-5.0.patch)
 
