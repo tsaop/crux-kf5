@@ -1,7 +1,7 @@
 # Description: Cross Platform Sextractor and Astrometry.net-Based Internal Astrometric Solver
 # URL: https://github.com/rlancaste/stellarsolver
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: gsl qt5 wcslib
+# Depends on: cfitsio freetype glib gsl harfbuzz libglvnd libpng qt5 wcslib xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
 
 name=stellarsolver
 version=2.1
