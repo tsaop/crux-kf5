@@ -304,20 +304,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.91.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.91.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.92.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.92.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.91.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.91.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.92.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.92.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.91.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.91.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.92.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.92.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.91.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.91.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.92.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.92.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.91.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.91.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.92.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.92.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -360,6 +360,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/urifilters/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/urifilters/localdomainurifilter.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_trash.desktop
 -rwxr-xr-x	root/root	usr/share/applications/ktelnetservice5.desktop
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
@@ -407,6 +408,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/cia.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/citeseer.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/cpan.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/cplusplus.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/cppreference.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/ctan.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/ctan_cat.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/dbug.desktop
@@ -428,6 +431,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/es2en.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/facebook.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/feedster.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/flatpak.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/flickr.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/flickrcc.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/foldoc.desktop
@@ -456,6 +460,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/identica_people.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/imdb.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/invent.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/invent_issues.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/invent_mr.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/invent_repo.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/it2en.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/jamendo.desktop
@@ -463,12 +469,17 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde_apps.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde_forums.desktop
--rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde_look.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde_store.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde_techbase.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/kde_userbase.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/kreddit.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/krita.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/learncpp.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/leo.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/linguee.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/magnatune.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/metacrawler.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/microsoft_cpp.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/msdn.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/multitran-deru.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/multitran-enru.desktop
@@ -480,11 +491,13 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/nl-telephone.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/nl-teletekst.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/opendesktop.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/opensuse.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/pgpkeys.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/php.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/protondb.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/python.desktop
--rw-r--r--	root/root	usr/share/kservices5/searchproviders/qt.desktop
--rw-r--r--	root/root	usr/share/kservices5/searchproviders/qt4.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/qt5.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/qt6.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/qwant.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/qwant_images.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/qwant_news.desktop
@@ -493,15 +506,18 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/qwant_videos.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/rae.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/rag.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/reddit.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/rfc.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/rpmfind.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/ruby_application_archive.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/rust.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/soundcloud.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/sourceforge.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/technorati.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/technoratitags.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/thesaurus.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/tvtome.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/ubuntu.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/urbandictionary.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/uspto.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/vimeo.desktop
@@ -510,6 +526,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/wikia.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/wikipedia.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/wiktionary.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/wine.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/wolfram_alpha.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/wordref.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/yahoo.desktop
