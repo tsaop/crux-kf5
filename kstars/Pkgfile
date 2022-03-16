@@ -4,18 +4,13 @@
 # Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw stellarsolver xplanet
 
 name=kstars
-version=3.5.7
-source=(http://download.kde.org/stable/$name/$name-$version.tar.xz
-	6978d77d.patch
-	stellarsolver2.diff)
-release=2
+version=3.5.8
+source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
+release=1
 
 build() {
 
     cd $name-$version
-    patch -Np1 -i $SRC/6978d77d.patch
-    patch -Np1 -i $SRC/stellarsolver2.diff
-
     cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DBUILD_TESTING=OFF \
