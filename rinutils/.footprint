@@ -16,9 +16,9 @@ drwxr-xr-x	root/root	usr/include/rinutils/
 -rw-r--r--	root/root	usr/include/rinutils/typeof_wrap.h
 -rw-r--r--	root/root	usr/include/rinutils/unused.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/Rinutils/
-drwxr-xr-x	root/root	usr/lib/Rinutils/cmake/
--rw-r--r--	root/root	usr/lib/Rinutils/cmake/RinutilsConfig.cmake
--rw-r--r--	root/root	usr/lib/Rinutils/cmake/RinutilsConfigVersion.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/Rinutils/
+-rw-r--r--	root/root	usr/lib/cmake/Rinutils/RinutilsConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Rinutils/RinutilsConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/librinutils.pc
