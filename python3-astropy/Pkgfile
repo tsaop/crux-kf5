@@ -4,7 +4,7 @@
 # Depends on:  python3-extension-helpers python3-jinja2 python3-pyerfa python3-pytest
 
 name=python3-astropy
-version=5.0.3
+version=5.0.4
 release=1
 source=(https://files.pythonhosted.org/packages/source/a/${name/python3-/}/${name/python3-/}-$version.tar.gz)
 
