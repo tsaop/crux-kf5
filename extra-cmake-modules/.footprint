@@ -58,6 +58,7 @@ drwxr-xr-x	root/root	usr/share/ECM/kde-modules/
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirs5.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirs6.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEMetaInfoPlatformCheck.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDEPackageAppTemplates.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/KDESetupPrefixScript.cmake
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/appstreamtest.cmake
@@ -107,6 +108,7 @@ drwxr-xr-x	root/root	usr/share/ECM/modules/
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMQueryQmake.cmake
+-rw-r--r--	root/root	usr/share/ECM/modules/ECMQueryQt.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMSetupQtPluginMacroNames.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMSetupVersion.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMSourceVersionControl.cmake

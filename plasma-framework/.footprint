@@ -72,11 +72,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so -> libKF5Plasma.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Plasma.so.5 -> libKF5Plasma.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Plasma.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so -> libKF5PlasmaQuick.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PlasmaQuick.so.5 -> libKF5PlasmaQuick.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PlasmaQuick.so.5.93.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
@@ -333,19 +333,23 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/core/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/core/private/DefaultToolTip.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/core/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ActionTextField.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/App.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/BasicPlasmoidHeading.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ConditionalLoader.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/DescriptiveLabel.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ExpandableListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Heading.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Highlight.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ListItem.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/PageRow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Paragraph.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/PasswordField.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/PlaceholderMessage.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/PlasmoidHeading.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Representation.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/ScrollArea.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/SearchField.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/Title.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/extras/animations/ActivateAnimation.qml
@@ -491,13 +495,9 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/air/widgets/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/breeze-dark/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-dark/colors
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-dark/metadata.desktop
-drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/breeze-dark/widgets/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-dark/widgets/plasmoidheading.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/breeze-light/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-light/colors
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-light/metadata.desktop
-drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/breeze-light/widgets/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/breeze-light/widgets/plasmoidheading.svgz
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/default/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/default/dialogs/background.svgz

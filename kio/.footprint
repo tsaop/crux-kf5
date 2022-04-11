@@ -193,6 +193,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/ApplicationLauncherJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/CommandLauncherJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/FavIconRequestJob
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/KCoreUrlNavigator
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/OpenUrlJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KTerminalLauncherJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kemailclientlauncherjob.h
@@ -200,6 +201,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/applicationlauncherjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/commandlauncherjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/faviconrequestjob.h
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/kcoreurlnavigator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/openurljob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kiogui_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kterminallauncherjob.h
@@ -304,20 +306,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.93.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -534,6 +536,7 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/yahoo_local.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/yahoo_shopping.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/yahoo_video.desktop
+-rw-r--r--	root/root	usr/share/kservices5/searchproviders/yandex.desktop
 -rw-r--r--	root/root	usr/share/kservices5/searchproviders/youtube.desktop
 -rw-r--r--	root/root	usr/share/kservices5/smb.desktop
 -rw-r--r--	root/root	usr/share/kservices5/webshortcuts.desktop

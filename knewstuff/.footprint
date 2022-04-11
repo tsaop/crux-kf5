@@ -91,14 +91,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5NewStuffQuick/
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so -> libKF5NewStuff.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuff.so.5 -> libKF5NewStuff.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuff.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so -> libKF5NewStuffCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffCore.so.5 -> libKF5NewStuffCore.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuffCore.so.5.93.0
 lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffWidgets.so -> libKF5NewStuffWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffWidgets.so.5 -> libKF5NewStuffWidgets.so.5.92.0
--rwxr-xr-x	root/root	usr/lib/libKF5NewStuffWidgets.so.5.92.0
+lrwxrwxrwx	root/root	usr/lib/libKF5NewStuffWidgets.so.5 -> libKF5NewStuffWidgets.so.5.93.0
+-rwxr-xr-x	root/root	usr/lib/libKF5NewStuffWidgets.so.5.93.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -108,34 +108,33 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/Action.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/Button.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/Dialog.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/DialogContent.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/DownloadItemsSheet.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/EntryDetails.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/NewStuffItem.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/NewStuffList.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/Page.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/QuestionAsker.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/UploadPage.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/libnewstuffqmlplugin.so
-drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/Action.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/Button.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/Dialog.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/DialogContent.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/DownloadItemsSheet.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/EntryDetails.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/NewStuffItem.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/NewStuffList.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/Page.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/QuestionAsker.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/UploadPage.qml
-drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/ConditionalLoader.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryCommentDelegate.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryCommentsPage.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/EntryScreenshots.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/ErrorDisplayer.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/GridTileDelegate.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/MessageBoxSheet.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/Rating.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/Shadow.qml
-drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates/
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates/BigPreviewDelegate.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates/FeedbackOverlay.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates/ThumbDelegate.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates/TileDelegate.qml
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/ConditionalLoader.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/EntryCommentDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/EntryCommentsPage.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/EntryScreenshots.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/ErrorDisplayer.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/GridTileDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/MessageBoxSheet.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/Rating.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/Shadow.qml
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/entrygriddelegates/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/entrygriddelegates/BigPreviewDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/entrygriddelegates/FeedbackOverlay.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/entrygriddelegates/ThumbDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/private/entrygriddelegates/TileDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/newstuff/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
