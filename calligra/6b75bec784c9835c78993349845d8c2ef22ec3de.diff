@@ -1,0 +1,76 @@
+diff --git a/filters/karbon/pdf/CMakeLists.txt b/filters/karbon/pdf/CMakeLists.txt
+index b71c92cbf0422d53493f31b662dddb9dd5b02caa..4ce138ccdd62533c3d4653706f80dcc07cd88b44 100644
+--- a/filters/karbon/pdf/CMakeLists.txt
++++ b/filters/karbon/pdf/CMakeLists.txt
+@@ -13,6 +13,6 @@ set(pdf2odg_PART_SRCS PdfImportDebug.cpp Pdf2OdgImport.cpp SvgOutputDev.cpp)
+ add_library(calligra_filter_pdf2odg MODULE ${pdf2odg_PART_SRCS})
+ calligra_filter_desktop_to_json(calligra_filter_pdf2odg calligra_filter_pdf2odg.desktop)
+ 
+-target_link_libraries(calligra_filter_pdf2odg kopageapp karbonui Poppler::Core)
++target_link_libraries(calligra_filter_pdf2odg kopageapp karbonui Poppler::Core Poppler::Qt5)
+ 
+ install(TARGETS calligra_filter_pdf2odg DESTINATION ${PLUGIN_INSTALL_DIR}/calligra/formatfilters)
+diff --git a/filters/karbon/pdf/Pdf2OdgImport.cpp b/filters/karbon/pdf/Pdf2OdgImport.cpp
+index 934e31dd5aa28d8d88b9e82631d86809b7298845..a21eac97a77dadfa8f26fae387df83ff86c68834 100644
+--- a/filters/karbon/pdf/Pdf2OdgImport.cpp
++++ b/filters/karbon/pdf/Pdf2OdgImport.cpp
+@@ -27,6 +27,8 @@
+ 
+ #include <kpluginfactory.h>
+ 
++#include <poppler-version.h>
++
+ // Don't show this warning: it's an issue in poppler
+ #ifdef __GNUC__
+ #pragma GCC diagnostic ignored "-Wunused-parameter"
+@@ -36,6 +38,8 @@
+ #include <PDFDoc.h>
+ #include <GlobalParams.h>
+ 
++#define POPPLER_VERSION_MACRO ((POPPLER_VERSION_MAJOR << 16) | (POPPLER_VERSION_MINOR << 8) | (POPPLER_VERSION_MICRO))
++
+ K_PLUGIN_FACTORY_WITH_JSON(Pdf2OdgImportFactory, "calligra_filter_pdf2odg.json",
+                            registerPlugin<Pdf2OdgImport>();)
+ 
+@@ -69,8 +73,13 @@ KoFilter::ConversionStatus Pdf2OdgImport::convert(const QByteArray& from, const
+     if (! globalParams)
+         return KoFilter::NotImplemented;
+ 
++#if POPPLER_VERSION_MACRO < QT_VERSION_CHECK(22, 03, 0)
+     GooString * fname = new GooString(QFile::encodeName(m_chain->inputFile()).data());
+     PDFDoc * pdfDoc = new PDFDoc(fname, 0, 0, 0);
++#else
++    std::unique_ptr<GooString> fname = std::make_unique<GooString>(QFile::encodeName(m_chain->inputFile()).data());
++    PDFDoc * pdfDoc = new PDFDoc(std::move(fname));
++#endif
+     if (! pdfDoc) {
+         globalParams.reset();
+         return KoFilter::StupidError;
+diff --git a/filters/karbon/pdf/SvgOutputDev.cpp b/filters/karbon/pdf/SvgOutputDev.cpp
+index 0e6e5a934ca536fc3e063c740a81b5274f1c0e1e..7caec15175a5a5ce160442bf19526556ba960c8e 100644
+--- a/filters/karbon/pdf/SvgOutputDev.cpp
++++ b/filters/karbon/pdf/SvgOutputDev.cpp
+@@ -22,6 +22,10 @@
+ #include <QPen>
+ #include <QImage>
+ 
++#include <poppler-version.h>
++
++#define POPPLER_VERSION_MACRO ((POPPLER_VERSION_MAJOR << 16) | (POPPLER_VERSION_MINOR << 8) | (POPPLER_VERSION_MICRO))
++
+ class SvgOutputDev::Private
+ {
+ public:
+@@ -386,7 +390,12 @@ void SvgOutputDev::drawString(GfxState * state, const GooString * s)
+     if (s->getLength() == 0)
+         return;
+ 
++#if POPPLER_VERSION_MACRO < QT_VERSION_CHECK(22, 03, 0)
+     GfxFont * font = state->getFont();
++#else
++    std::shared_ptr<GfxFont> font = state->getFont();
++#endif
++
+ 
+     QString str;
+ 
