@@ -1,5 +1,22 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KCddb5/
+drwxr-xr-x	root/root	usr/include/KCddb5/KCDDB/
+-rw-r--r--	root/root	usr/include/KCddb5/KCDDB/CDInfo
+-rw-r--r--	root/root	usr/include/KCddb5/KCDDB/Categories
+-rw-r--r--	root/root	usr/include/KCddb5/KCDDB/Client
+-rw-r--r--	root/root	usr/include/KCddb5/KCDDB/Config
+-rw-r--r--	root/root	usr/include/KCddb5/KCDDB/Genres
+-rw-r--r--	root/root	usr/include/KCddb5/KCDDB/KCDDB
+drwxr-xr-x	root/root	usr/include/KCddb5/kcddb/
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/categories.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/cdinfo.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/client.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/config.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/configbase.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/genres.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/kcddb.h
+-rw-r--r--	root/root	usr/include/KCddb5/kcddb/kcddb_export.h
 drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KCddb/
 -rw-r--r--	root/root	usr/include/KF5/KCddb/Categories
@@ -11,10 +28,8 @@ drwxr-xr-x	root/root	usr/include/KF5/KCddb/
 -rw-r--r--	root/root	usr/include/KF5/KCddb/categories.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/cdinfo.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/client.h
--rw-r--r--	root/root	usr/include/KF5/KCddb/configbase.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/genres.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/kcddb.h
--rw-r--r--	root/root	usr/include/KF5/KCddb/kcddb_export.h
 -rw-r--r--	root/root	usr/include/KF5/KCddb/kcddbconfig.h
 -rw-r--r--	root/root	usr/include/KF5/kcddb_version.h
 drwxr-xr-x	root/root	usr/lib/
@@ -25,8 +40,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Cddb/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Cddb/KF5CddbTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Cddb/KF5CddbTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Cddb.so -> libKF5Cddb.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Cddb.so.5 -> libKF5Cddb.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libKF5Cddb.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Cddb.so.5 -> libKF5Cddb.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Cddb.so.5.1.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

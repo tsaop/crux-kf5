@@ -10,8 +10,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kmail-refresh-settings
 -rwxr-xr-x	root/root	usr/bin/ktnef
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.19.3
+lrwxrwxrwx	root/root	usr/lib/libkmailprivate.so.5 -> libkmailprivate.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libkmailprivate.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
@@ -135,18 +135,6 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_mailmerge_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_sendlater_agent.notifyrc
 -rw-r--r--	root/root	usr/share/knotifications5/kmail2.notifyrc
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcmkmailsummary.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcmkontactsummary.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_accounts.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_appearance.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_composer.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_misc.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_plugins.desktop
--rw-r--r--	root/root	usr/share/kservices5/kmail_config_security.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kontact/
--rw-r--r--	root/root	usr/share/kservices5/kontact/kmailplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/kontact/summaryplugin.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kontactsummary/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc

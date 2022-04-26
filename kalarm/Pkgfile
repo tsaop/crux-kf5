@@ -1,10 +1,10 @@
 # Description: Personal alarm message, command and email scheduler
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kalarmcal kidletime knotifyconfig mailcommon
+# Depends on: kcalutils kholidays kidletime knotifyconfig mailcommon
 
 name=kalarm
-version=21.12.3
+version=22.04.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

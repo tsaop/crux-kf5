@@ -10,8 +10,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_ical_resource
 -rwxr-xr-x	root/root	usr/bin/akonadi_icaldir_resource
 -rwxr-xr-x	root/root	usr/bin/akonadi_imap_resource
--rwxr-xr-x	root/root	usr/bin/akonadi_kalarm_dir_resource
--rwxr-xr-x	root/root	usr/bin/akonadi_kalarm_resource
 -rwxr-xr-x	root/root	usr/bin/akonadi_maildir_resource
 -rwxr-xr-x	root/root	usr/bin/akonadi_maildispatcher_agent
 -rwxr-xr-x	root/root	usr/bin/akonadi_mbox_resource
@@ -26,16 +24,16 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_vcarddir_resource
 -rwxr-xr-x	root/root	usr/bin/gidmigrator
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.19.3
+lrwxrwxrwx	root/root	usr/lib/libakonadi-filestore.so.5 -> libakonadi-filestore.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-filestore.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libakonadi-singlefileresource.so.5 -> libakonadi-singlefileresource.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-singlefileresource.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libfolderarchivesettings.so.5 -> libfolderarchivesettings.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libfolderarchivesettings.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libkmindexreader.so.5 -> libkmindexreader.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libkmindexreader.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libmaildir.so.5 -> libmaildir.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libmaildir.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/
@@ -45,7 +43,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/contactsconfig.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/icalconfig.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/icaldirconfig.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/kalarmconfig.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/maildirconfig.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/maildispatcherconfig.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akonadi/config/mboxconfig.so
@@ -110,8 +107,6 @@ drwxr-xr-x	root/root	usr/share/akonadi/agents/
 -rw-r--r--	root/root	usr/share/akonadi/agents/icaldirresource.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/icalresource.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/imapresource.desktop
--rw-r--r--	root/root	usr/share/akonadi/agents/kalarmdirresource.desktop
--rw-r--r--	root/root	usr/share/akonadi/agents/kalarmresource.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/maildirresource.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/maildispatcheragent.desktop
 -rw-r--r--	root/root	usr/share/akonadi/agents/mboxresource.desktop

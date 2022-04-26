@@ -4,20 +4,24 @@ drwxr-xr-x	root/root	usr/include/KF5/
 drwxr-xr-x	root/root	usr/include/KF5/KIdentityManagement/
 drwxr-xr-x	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/Identity
--rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/IdentityCombo
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/IdentityManager
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/Signature
--rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/SignatureConfigurator
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/KIdentityManagement/Utils
 drwxr-xr-x	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/identity.h
--rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/identitycombo.h
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/identitymanager.h
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/kidentitymanagement_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/signature.h
--rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/signatureconfigurator.h
 -rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement/utils.h
--rw-r--r--	root/root	usr/include/KF5/kidentitymanagement_version.h
+-rw-r--r--	root/root	usr/include/KF5/KIdentityManagement/kidentitymanagement_version.h
+drwxr-xr-x	root/root	usr/include/KF5/KIdentityManagementWidgets/
+drwxr-xr-x	root/root	usr/include/KF5/KIdentityManagementWidgets/KIdentityManagement/
+-rw-r--r--	root/root	usr/include/KF5/KIdentityManagementWidgets/KIdentityManagement/IdentityCombo
+-rw-r--r--	root/root	usr/include/KF5/KIdentityManagementWidgets/KIdentityManagement/SignatureConfigurator
+drwxr-xr-x	root/root	usr/include/KF5/KIdentityManagementWidgets/kidentitymanagement/
+-rw-r--r--	root/root	usr/include/KF5/KIdentityManagementWidgets/kidentitymanagement/identitycombo.h
+-rw-r--r--	root/root	usr/include/KF5/KIdentityManagementWidgets/kidentitymanagement/kidentitymanagementwidgets_export.h
+-rw-r--r--	root/root	usr/include/KF5/KIdentityManagementWidgets/kidentitymanagement/signatureconfigurator.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5IdentityManagement/
@@ -26,12 +30,16 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IdentityManagement/
 -rw-r--r--	root/root	usr/lib/cmake/KF5IdentityManagement/KF5IdentityManagementTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5IdentityManagement/KF5IdentityManagementTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagement.so -> libKF5IdentityManagement.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagement.so.5 -> libKF5IdentityManagement.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libKF5IdentityManagement.so.5.19.3
+lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagement.so.5 -> libKF5IdentityManagement.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IdentityManagement.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagementWidgets.so -> libKF5IdentityManagementWidgets.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5IdentityManagementWidgets.so.5 -> libKF5IdentityManagementWidgets.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IdentityManagementWidgets.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KIdentityManagement.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KIdentityManagementWidgets.pri
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/

@@ -1,19 +1,14 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/xdg/
-drwxr-xr-x	root/root	etc/xdg/autostart/
--rw-r--r--	root/root	etc/xdg/autostart/org.kde.korgac.desktop
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/korgac
 -rwxr-xr-x	root/root	usr/bin/korganizer
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so -> libkorganizer_core.so.5
-lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so.5 -> libkorganizer_core.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libkorganizer_core.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so.5 -> libkorganizer_interfaces.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libkorganizer_interfaces.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libkorganizerprivate.so.5 -> libkorganizerprivate.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libkorganizerprivate.so.5.19.3
+lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so.5 -> libkorganizer_core.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizer_core.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so.5 -> libkorganizer_interfaces.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizer_interfaces.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libkorganizerprivate.so.5 -> libkorganizerprivate.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizerprivate.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
@@ -48,10 +43,8 @@ drwxr-xr-x	root/root	usr/share/config.kcfg/
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.Korganizer.Calendar.xml
--rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.korganizer.KOrgac.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.korganizer.Korganizer.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
--rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.korgac.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.korganizer.service
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
@@ -59,32 +52,27 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/korg-journal.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/korg-todo.png
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/korgac.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/korganizer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/quickview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/korg-journal.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/korg-todo.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/korgac.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/korganizer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/quickview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/korg-journal.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/korg-todo.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/korgac.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/korganizer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/quickview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/korgac.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/quickview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/korg-journal.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/korg-todo.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/korgac.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/korganizer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/quickview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
@@ -97,7 +85,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/korg-journal.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/korg-todo.png
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/korgac.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/korganizer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/quickview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
@@ -106,9 +93,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/korg-todo.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/korganizer.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/quickview.svgz
-drwxr-xr-x	root/root	usr/share/kconf_update/
--rwxr-xr-x	root/root	usr/share/kconf_update/korganizer-15.08-kickoff.sh
--rw-r--r--	root/root	usr/share/kconf_update/korganizer.upd
 drwxr-xr-x	root/root	usr/share/knsrcfiles/
 -rw-r--r--	root/root	usr/share/knsrcfiles/korganizer.knsrc
 drwxr-xr-x	root/root	usr/share/korganizer/
@@ -118,25 +102,6 @@ drwxr-xr-x	root/root	usr/share/korganizer/sounds/
 -rw-r--r--	root/root	usr/share/korganizer/sounds/lightmag.wav
 -rw-r--r--	root/root	usr/share/korganizer/sounds/onscreen.wav
 -rw-r--r--	root/root	usr/share/korganizer/sounds/spinout.wav
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcmapptsummary.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcmsdsummary.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcmtodosummary.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kontact/
--rw-r--r--	root/root	usr/share/kservices5/kontact/journalplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/kontact/korganizerplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/kontact/specialdatesplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/kontact/todoplugin.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configcolorsandfonts.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configdesignerfields.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configfreebusy.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configgroupscheduling.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configmain.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configplugins.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configtime.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_configviews.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_part.desktop
--rw-r--r--	root/root	usr/share/kservices5/korganizer_userfeedback.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/korganizerpart.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/

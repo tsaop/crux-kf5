@@ -12,6 +12,8 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kwalletmanager5-kwalletd.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kwalletmanager5.desktop
 drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/services/
+-rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kwalletmanager5.service
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet5.service
 drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
@@ -47,9 +49,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kwalletconfig5.desktop
 -rw-r--r--	root/root	usr/share/kservices5/kwalletmanager5_show.desktop
-drwxr-xr-x	root/root	usr/share/kxmlgui5/
-drwxr-xr-x	root/root	usr/share/kxmlgui5/kwalletmanager5/
--rw-r--r--	root/root	usr/share/kxmlgui5/kwalletmanager5/kwalletmanager.rc
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kwalletmanager5.appdata.xml
 drwxr-xr-x	root/root	usr/share/polkit-1/

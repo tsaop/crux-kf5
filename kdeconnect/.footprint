@@ -12,16 +12,22 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.21 -> libkdeconnectcore.so.21.12.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.21.12.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.21 -> libkdeconnectinterfaces.so.21.12.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.21.12.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.21 -> libkdeconnectpluginkcm.so.21.12.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.21.12.3
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.22 -> libkdeconnectcore.so.22.04.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.22.04.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.22 -> libkdeconnectinterfaces.so.22.04.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.22.04.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.22 -> libkdeconnectpluginkcm.so.22.04.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.22.04.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_runcommand_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_sendnotifications_config.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_share_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_battery.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_bigscreen.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_clipboard.so
@@ -50,11 +56,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_sms.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_systemvolume.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_telephony.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect_findthisdevice_config.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect_pausemusic_config.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect_runcommand_config.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect_sendnotifications_config.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect_share_config.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/kdeconnectfileitemaction.so
@@ -147,15 +148,10 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kdeconnect.notifyrc
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/kcm_kdeconnect.desktop
--rw-r--r--	root/root	usr/share/kservices5/kdeconnect_findthisdevice_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/kdeconnect_pausemusic_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/kdeconnect_runcommand_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/kdeconnect_sendnotifications_config.desktop
--rw-r--r--	root/root	usr/share/kservices5/kdeconnect_share_config.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-kdeconnect.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kdeconnect.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.kde.kdeconnect.kcm.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.kdeconnect.metainfo.xml
 drwxr-xr-x	root/root	usr/share/nautilus-python/
 drwxr-xr-x	root/root	usr/share/nautilus-python/extensions/
 -rw-r--r--	root/root	usr/share/nautilus-python/extensions/kdeconnect-share.py

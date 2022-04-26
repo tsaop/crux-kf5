@@ -3,10 +3,10 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_notes_agent
 -rwxr-xr-x	root/root	usr/bin/knotes
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.19.3
-lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.19.3
+lrwxrwxrwx	root/root	usr/lib/libknotesprivate.so.5 -> libknotesprivate.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libknotesprivate.so.5.20.0
+lrwxrwxrwx	root/root	usr/lib/libnotesharedprivate.so.5 -> libnotesharedprivate.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libnotesharedprivate.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
@@ -80,17 +80,6 @@ drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/akonadi_notes_agent.notifyrc
 drwxr-xr-x	root/root	usr/share/knsrcfiles/
 -rw-r--r--	root/root	usr/share/knsrcfiles/knotes_printing_theme.knsrc
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_action.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_collection.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_display.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_editor.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_misc.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_network.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcm_knote_print.desktop
--rw-r--r--	root/root	usr/share/kservices5/kcmknotessummary.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kontact/
--rw-r--r--	root/root	usr/share/kservices5/kontact/knotesplugin.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/knotes/
 -rw-r--r--	root/root	usr/share/kxmlgui5/knotes/knotes_part.rc

@@ -131,7 +131,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/storejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/subscribejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap/unsubscribejob.h
--rw-r--r--	root/root	usr/include/KF5/kimap_version.h
+-rw-r--r--	root/root	usr/include/KF5/KIMAP/kimap_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5IMAP/
@@ -140,8 +140,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5IMAP/
 -rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5IMAP/KF5IMAPTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so -> libKF5IMAP.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.5.19.3
--rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.5.19.3
+lrwxrwxrwx	root/root	usr/lib/libKF5IMAP.so.5 -> libKF5IMAP.so.5.20.0
+-rwxr-xr-x	root/root	usr/lib/libKF5IMAP.so.5.20.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

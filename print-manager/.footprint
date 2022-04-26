@@ -7,10 +7,13 @@ drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libkcupslib.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_printer_manager.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/printmanager.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_printer_manager.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -20,14 +23,12 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/printmanager/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/printmanager/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_printer_manager.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.ConfigurePrinter.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.PrintQueue.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kde-add-printer.desktop
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/printmanager.notifyrc
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcm_printer_manager.desktop
--rw-r--r--	root/root	usr/share/kservices5/plasma-applet-org.kde.plasma.printmanager.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.printmanager.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.print-manager.metainfo.xml
@@ -41,5 +42,4 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/cont
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/PopupDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/PrinterItem.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/printmanager.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/metadata.desktop
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.printmanager/metadata.json
