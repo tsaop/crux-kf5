@@ -1,10 +1,10 @@
-# Description: Part of Kdepimlibs
+# Description: Cross-platform Qt-based web browser 
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi kcalutils kholidays
+# Depends on: purpose
 
-name=kalarmcal
-version=21.12.3
+name=falkon
+version=22.04.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
@@ -15,6 +15,7 @@ build() {
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
 	-DLIB_INSTALL_DIR=/usr/lib \
+	-DCMAKE_INSTALL_LIBEXECDIR=lib \
 	-DBUILD_TESTING=OFF \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
