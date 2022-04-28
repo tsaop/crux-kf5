@@ -4,7 +4,7 @@
 # Depends on:  glibc zlib
 
 name=hdf5
-version=1.12.1
+version=1.12.2
 release=1
 source=(https://support.hdfgroup.org/ftp/HDF5/releases/$name-${version::-2}/$name-$version/src/$name-$version.tar.bz2)
 
