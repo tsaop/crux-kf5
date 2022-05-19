@@ -115,6 +115,27 @@ drwxr-xr-x	root/root	usr/share/labplot2/color-schemes/
 -rw-r--r--	root/root	usr/share/labplot2/color-schemes/WontonSoup.colors
 -rw-r--r--	root/root	usr/share/labplot2/color-schemes/Zion.colors
 -rw-r--r--	root/root	usr/share/labplot2/color-schemes/ZionReversed.colors
+drwxr-xr-x	root/root	usr/share/labplot2/colormaps/
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorBrewer (Diverging).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorBrewer (Qualitative).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorBrewer (Sequential).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorCET (Colour Blind).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorCET (Cyclic).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorCET (Diverging).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorCET (Isoluminant).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorCET (Linear).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColorCET (Rainbow).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/ColormapCollections.json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/Diverging Color Maps for Scientific Visualization.json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/Scientific Colour Maps (Cyclic).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/Scientific Colour Maps (Diverging).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/Scientific Colour Maps (Multi-sequential).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/Scientific Colour Maps (Sequential).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/cmocean (Circular).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/cmocean (Diverging).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/cmocean (Multi-sequential).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/cmocean (Sequential).json
+-rw-r--r--	root/root	usr/share/labplot2/colormaps/viridis (Sequential).json
 drwxr-xr-x	root/root	usr/share/labplot2/datasets/
 -rw-r--r--	root/root	usr/share/labplot2/datasets/DASL.json
 -rw-r--r--	root/root	usr/share/labplot2/datasets/DatasetCategories.json
@@ -123,21 +144,36 @@ drwxr-xr-x	root/root	usr/share/labplot2/datasets/
 -rw-r--r--	root/root	usr/share/labplot2/datasets/OzDASL.json
 -rw-r--r--	root/root	usr/share/labplot2/datasets/Rdatasets.json
 -rw-r--r--	root/root	usr/share/labplot2/datasets/StatLib.json
-drwxr-xr-x	root/root	usr/share/labplot2/example_projects/
--rw-r--r--	root/root	usr/share/labplot2/example_projects/Big-city-pop.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/Rainfall.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/acc-deaths.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/alcohol-cons.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/cat-weight.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/cooling-water.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/example_projects.json
--rw-r--r--	root/root	usr/share/labplot2/example_projects/fit (Anscombe's quartet).lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/lake-level.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/log_scales.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/magnitude_plot.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/mathematical_functions.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/weight-height.lml
--rw-r--r--	root/root	usr/share/labplot2/example_projects/weight-speed.lml
+drwxr-xr-x	root/root	usr/share/labplot2/examples/
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Analysis/
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Analysis/Fit/
+-rw-r--r--	root/root	usr/share/labplot2/examples/Analysis/Fit/ENSO.lml
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Analysis/Fourier Filter/
+-rw-r--r--	root/root	usr/share/labplot2/examples/Analysis/Fourier Filter/SOS Morse Signal.lml
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Analysis/Hilbert Transformation/
+-rw-r--r--	root/root	usr/share/labplot2/examples/Analysis/Hilbert Transformation/Time response of a super regenerative receiver.lml
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Analysis/Smooth/
+-rw-r--r--	root/root	usr/share/labplot2/examples/Analysis/Smooth/Data = Smooth + Rough.lml
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Computing/
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Computing/Maxima/
+-rw-r--r--	root/root	usr/share/labplot2/examples/Computing/Maxima/Duffing Oscillator in Maxima.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/Computing/Maxima/Maxima Tutorial for Beginners.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/ExampleCollections.json
+drwxr-xr-x	root/root	usr/share/labplot2/examples/General/
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Anatomy of a Box Plot.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Basic Plots.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Helium Rydberg Spectrum.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Hertzsprung-Russel Diagram.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Logarithmic Scales.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Mathematical Functions.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Multi-Ranges.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Multicopter.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/SLOC History.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Space Debris.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/General/Tufte's Minimal Ink Design.lml
+drwxr-xr-x	root/root	usr/share/labplot2/examples/Statistics/
+-rw-r--r--	root/root	usr/share/labplot2/examples/Statistics/Same Data, Different Boxplots.lml
+-rw-r--r--	root/root	usr/share/labplot2/examples/Statistics/SameStats.lml
 -rw-r--r--	root/root	usr/share/labplot2/labplot2.ico
 drwxr-xr-x	root/root	usr/share/labplot2/latex/
 -rw-r--r--	root/root	usr/share/labplot2/latex/preview.sty
@@ -147,89 +183,89 @@ drwxr-xr-x	root/root	usr/share/labplot2/pics/colorchooser/
 -rw-r--r--	root/root	usr/share/labplot2/pics/colorchooser/colorchooser_saturation.xpm
 -rw-r--r--	root/root	usr/share/labplot2/pics/colorchooser/colorchooser_value.xpm
 drwxr-xr-x	root/root	usr/share/labplot2/pics/fit_models/
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/alg_sigmoid.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/atan.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/erf.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gd.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gompertz.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/hill.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/inv_exponential1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic_function.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/power1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/power2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt11.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt12.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt13.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt14.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech4.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/tanh.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt3.png
--rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt4.png
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/alg_sigmoid.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/atan.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/cauchy_lorentz4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/erf.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/exponential4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/fourier4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gaussian4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gd.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/gompertz.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/hill.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/inv_exponential1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/logistic_function.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/polynom4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/power1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/power2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt11.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt12.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt13.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/pseudovoigt14.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/sech4.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/tanh.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt3.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/fit_models/voigt4.pdf
 drwxr-xr-x	root/root	usr/share/labplot2/pics/gsl_distributions/
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/bernoulli.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/beta.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/binomial.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/cauchy_lorentz.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/chi_squared.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/exponential.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/exponential_power.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/fdist.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/flat.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/frechet.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gamma.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gaussian.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gaussian_tail.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/geometric.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gumbel1.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gumbel2.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/hypergeometric.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/landau.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/laplace.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/levy.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/levy_alpha_stable.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/levy_skew_alpha_stable.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/logarithmic.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/logistic.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/lognormal.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/maxwell_boltzmann.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/negative_binomial.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/pareto.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/pascal.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/poisson.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/rayleigh.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/rayleigh_tail.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/sech.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/students_t.png
--rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/weibull.png
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/bernoulli.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/beta.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/binomial.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/cauchy_lorentz.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/chi_squared.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/exponential.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/exponential_power.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/fdist.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/flat.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/frechet.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gamma.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gaussian.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gaussian_tail.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/geometric.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gumbel1.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/gumbel2.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/hypergeometric.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/landau.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/laplace.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/levy.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/levy_alpha_stable.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/levy_skew_alpha_stable.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/logarithmic.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/logistic.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/lognormal.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/maxwell_boltzmann.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/negative_binomial.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/pareto.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/pascal.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/poisson.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/rayleigh.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/rayleigh_tail.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/sech.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/students_t.pdf
+-rw-r--r--	root/root	usr/share/labplot2/pics/gsl_distributions/weibull.pdf
 -rw-r--r--	root/root	usr/share/labplot2/splash.png
 drwxr-xr-x	root/root	usr/share/labplot2/themes/
 -rw-r--r--	root/root	usr/share/labplot2/themes/BlackOnLightYellow
@@ -240,12 +276,16 @@ drwxr-xr-x	root/root	usr/share/labplot2/themes/
 -rw-r--r--	root/root	usr/share/labplot2/themes/Dark
 -rw-r--r--	root/root	usr/share/labplot2/themes/DarkPastels
 -rw-r--r--	root/root	usr/share/labplot2/themes/Default
+-rw-r--r--	root/root	usr/share/labplot2/themes/GgplotDark
+-rw-r--r--	root/root	usr/share/labplot2/themes/GgplotGrey
 -rw-r--r--	root/root	usr/share/labplot2/themes/GreenOnBlack
 -rw-r--r--	root/root	usr/share/labplot2/themes/GreyOnBlack
 -rw-r--r--	root/root	usr/share/labplot2/themes/GreySlate
+-rw-r--r--	root/root	usr/share/labplot2/themes/Monokai
 -rw-r--r--	root/root	usr/share/labplot2/themes/RedOnBlack
 -rw-r--r--	root/root	usr/share/labplot2/themes/Solarized
 -rw-r--r--	root/root	usr/share/labplot2/themes/SolarizedLight
+-rw-r--r--	root/root	usr/share/labplot2/themes/Tufte
 drwxr-xr-x	root/root	usr/share/labplot2/themes/screenshots/
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/BlackOnLightYellow.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/BlackOnWhite.png
@@ -255,12 +295,16 @@ drwxr-xr-x	root/root	usr/share/labplot2/themes/screenshots/
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/Dark.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/DarkPastels.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/Default.png
+-rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/GgplotDark.png
+-rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/GgplotGrey.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/GreenOnBlack.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/GreyOnBlack.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/GreySlate.png
+-rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/Monokai.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/RedOnBlack.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/Solarized.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/SolarizedLight.png
+-rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/Tufte.png
 -rw-r--r--	root/root	usr/share/labplot2/themes/screenshots/Unavailable.png
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
