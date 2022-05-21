@@ -136,6 +136,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_usbfocusv3_focus
 -rwxr-xr-x	root/root	usr/bin/indi_v4l2_ccd
 -rwxr-xr-x	root/root	usr/bin/indi_vantage_weather
+-rwxr-xr-x	root/root	usr/bin/indi_wanderer_lite_rotator
 -rwxr-xr-x	root/root	usr/bin/indi_watchdog
 -rwxr-xr-x	root/root	usr/bin/indi_watcher_weather
 -rwxr-xr-x	root/root	usr/bin/indi_weather_safety_proxy
@@ -257,16 +258,16 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.5
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.5
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.6
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.6
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.5
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.5
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.6
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.6
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.5
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.5
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.6
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.6
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
