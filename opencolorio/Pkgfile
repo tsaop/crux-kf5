@@ -4,7 +4,7 @@
 # Depends on: lcms2 openexr pybind11 pystring tinyxml yaml-cpp
 
 name=opencolorio
-version=2.1.1
+version=2.1.2
 release=1
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz
 	fix-yaml-cpp-detection.patch)
