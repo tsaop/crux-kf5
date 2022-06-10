@@ -4,17 +4,13 @@
 # Depends on: eigen ffmpeg gtk3 jasper libgphoto2 libwebp openexr qt5
 
 name=opencv
-version=4.5.5
-release=2
+version=4.6.0
+release=1
 source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
-	https://github.com/opencv/opencv_contrib/archive/$version.tar.gz
-	ffmpeg5.patch
-	vtk9.patch)
+	https://github.com/opencv/opencv_contrib/archive/$version.tar.gz)
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/ffmpeg5.patch
-	patch -Np1 -i $SRC/vtk9.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
