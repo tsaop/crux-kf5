@@ -4,12 +4,16 @@
 # Depends on: cmake hdf5
 
 name=netcdf
-version=4.8.1
+version=4.9.0
 release=1
-source=(https://github.com/Unidata/$name-c/archive/v${version}/$name-$version.tar.gz)
+source=(https://github.com/Unidata/$name-c/archive/v${version}/$name-$version.tar.gz
+	fix-cmake-build.patch)
 
 build() {
 	cd $name-c-$version
+
+	# https://github.com/Unidata/netcdf-c/issues/2390
+	patch -Np1 -i $SRC/fix-cmake-build.patch
 
 	cmake -Bbuild \
 		 -DCMAKE_INSTALL_PREFIX=/usr \
