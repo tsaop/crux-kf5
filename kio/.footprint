@@ -306,20 +306,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.94.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.94.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.95.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.95.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.94.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.94.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.95.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.95.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.94.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.94.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.95.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.95.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.94.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.94.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.95.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.95.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.94.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.94.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.95.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.95.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -331,10 +331,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/kio5widgets.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_cookies.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_netpref.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_proxy.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_smb.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_trash.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_webshortcuts.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
@@ -360,6 +357,15 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/urifilters/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/urifilters/kuriikwsfilter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/urifilters/kurisearchfilter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/urifilters/localdomainurifilter.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_smb.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cookies.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_netpref.so
+lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_proxy.so -> ../../../kcm_proxy.so
+lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_webshortcuts.so -> ../../../kcm_webshortcuts.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/kcm_trash.desktop

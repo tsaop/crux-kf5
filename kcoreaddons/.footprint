@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KLibexec
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KListOpenFilesJob
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMacroExpander
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMemoryInfo
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KMessage
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KNetworkMounts
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KOSRelease
@@ -32,6 +33,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KProcessList
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KRandom
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KRandomSequence
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KSandbox
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KSharedDataCache
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KShell
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/KSignalHandler
@@ -65,6 +67,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/klibexec.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/klistopenfilesjob.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmacroexpander.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmemoryinfo.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kmessage.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/knetworkmounts.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kosrelease.h
@@ -75,6 +78,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KCoreAddons/
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kprocesslist.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/krandom.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/krandomsequence.h
+-rw-r--r--	root/root	usr/include/KF5/KCoreAddons/ksandbox.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kshareddatacache.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/kshell.h
 -rw-r--r--	root/root	usr/include/KF5/KCoreAddons/ksignalhandler.h
@@ -95,8 +99,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CoreAddons/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so -> libKF5CoreAddons.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.94.0
--rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.94.0
+lrwxrwxrwx	root/root	usr/lib/libKF5CoreAddons.so.5 -> libKF5CoreAddons.so.5.95.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CoreAddons.so.5.95.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
