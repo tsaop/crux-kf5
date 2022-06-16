@@ -26,12 +26,16 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_kwin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_plasma-desktop.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.marginsseparator.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_engine_touchpad.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcminit/
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcminit/kcm_mouse_init.so -> ../kcms/systemsettings/kcm_mouse.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/plasma/kcminit/kcm_touchpad_init.so -> ../kcms/systemsettings/kcm_touchpad.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/desktop/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/desktop/kcm_krunnersettings.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_access.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_baloofile.so
@@ -112,6 +116,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/kcm_kded.desktop
 -rw-r--r--	root/root	usr/share/applications/kcm_keyboard.desktop
 -rw-r--r--	root/root	usr/share/applications/kcm_keys.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_krunnersettings.desktop
 -rw-r--r--	root/root	usr/share/applications/kcm_launchfeedback.desktop
 -rw-r--r--	root/root	usr/share/applications/kcm_mouse.desktop
 -rw-r--r--	root/root	usr/share/applications/kcm_plasmasearch.desktop
@@ -131,10 +136,12 @@ drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/kcmaccessibilitykeyboard.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/kcmaccessibilitymouse.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/kcmaccessibilityscreenreader.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/krunnersettingsbase.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/landingpage_kdeglobalssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/launchfeedbacksettingsbase.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/splashscreensettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/workspaceoptions_kdeglobalssettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/workspaceoptions_kwinsettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/workspaceoptions_plasmasettings.kcfg
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
@@ -253,6 +260,10 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_keys/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_keys/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_keys/contents/ui/ShortcutActionDelegate.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_keys/contents/ui/main.qml
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_krunnersettings/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_krunnersettings/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_krunnersettings/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_krunnersettings/contents/ui/main.qml
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_landingpage/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_landingpage/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_landingpage/contents/ui/
@@ -463,6 +474,16 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/contents/
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/contents/config/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/contents/config/main.xml
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/contents/ui/main.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/package/metadata.json
+drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/plugin/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/plugin/marginSeparator.cpp
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/plugin/marginSeparator.h
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/contents/config/
@@ -510,6 +531,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/GroupExpanderOverlay.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/MouseHandler.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/PipeWireThumbnail.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/PlayerController.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/PulseAudio.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ScrollableTextWrapper.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/Task.qml
@@ -532,6 +554,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.trash/contents/ui
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/contents/ui/MenuButton.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.windowlist/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/touchpad/
@@ -570,11 +593,14 @@ drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/con
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ContainmentConfiguration.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/MouseEventInputButton.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/PanelConfiguration.qml
+-rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ShellContainmentConfiguration.qml
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/panelconfiguration/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/panelconfiguration/MoreSettingsMenu.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/panelconfiguration/Ruler.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/panelconfiguration/SliderHandle.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/panelconfiguration/ToolBar.qml
+drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/shellcontainmentconfiguration/
+-rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/shellcontainmentconfiguration/Delegate.qml
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/defaults
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/explorer/
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/explorer/AppletAlternatives.qml
@@ -589,7 +615,6 @@ drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/upd
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js
--rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js
 -rw-r--r--	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
 drwxr-xr-x	root/root	usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/

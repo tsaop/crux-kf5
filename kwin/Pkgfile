@@ -1,10 +1,10 @@
 # Description: Part of KDE Plasma
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: breeze kinit krunner kscreenlocker kwayland-server libinput xorg-xcb-util-cursor xorg-xrandr
+# Depends on: breeze kinit krunner kscreenlocker libinput xorg-xcb-util-cursor xorg-xrandr xorg-libxcvt
 
 name=kwin
-version=5.24.5
+version=5.25.0
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 

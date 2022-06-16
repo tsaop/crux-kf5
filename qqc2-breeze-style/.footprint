@@ -70,7 +70,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/Tumbler.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/VerticalHeaderView.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/
--rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/BackgroundGradient.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/ButtonBackground.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/CheckIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/ComboBoxBackground.qml
@@ -91,7 +90,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/ScrollHandle.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/SliderGroove.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/SliderHandle.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/SmallShadow.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/SmallBoxShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/SpinBoxIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/SwitchIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/QtQuick/Controls.2/org.kde.breeze/impl/TextEditBackground.qml
@@ -102,7 +101,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/breeze/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/BackgroundGradient.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/ButtonBackground.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/CheckIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/ComboBoxBackground.qml
@@ -123,7 +121,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/ScrollHandle.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/SliderGroove.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/SliderHandle.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/SmallShadow.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/SmallBoxShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/SpinBoxIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/SwitchIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/breeze/impl/TextEditBackground.qml
@@ -139,7 +137,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/Separator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/SwipeListItem.qml
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/BackgroundGradient.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/ButtonBackground.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/CheckIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/ComboBoxBackground.qml
@@ -160,7 +157,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/im
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/ScrollHandle.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/SliderGroove.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/SliderHandle.qml
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/SmallShadow.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/SmallBoxShadow.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/SpinBoxIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/SwitchIndicator.qml
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kirigami.2/styles/org.kde.breeze/impl/TextEditBackground.qml

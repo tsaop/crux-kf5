@@ -6,6 +6,8 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/kinfocenter -> /usr/bin/systemsettings5
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/kauth/
+-rwxr-xr-x	root/root	usr/lib/kauth/kinfocenter-dmidecode-helper
 -rwxr-xr-x	root/root	usr/lib/libKInfoCenterInternal.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -17,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_cpu.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_devinfo.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_egl.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_firmware_security.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_glx.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_interrupts.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_nic.so
@@ -35,7 +38,13 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kinfocenter/private/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kinfocenter/private/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_about-distro.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kinfocenter.desktop
+drwxr-xr-x	root/root	usr/share/dbus-1/
+drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
+-rw-r--r--	root/root	usr/share/dbus-1/system-services/org.kde.kinfocenter.dmidecode.service
+drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.kde.kinfocenter.dmidecode.conf
 drwxr-xr-x	root/root	usr/share/desktop-directories/
 -rw-r--r--	root/root	usr/share/desktop-directories/kinfocenter.directory
 drwxr-xr-x	root/root	usr/share/kinfocenter/
@@ -65,6 +74,12 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/ui/Graph.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_energyinfo/contents/ui/main.qml
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_firmware_security/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_firmware_security/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_firmware_security/contents/code/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_firmware_security/contents/code/fwupdmgr.sh
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_firmware_security/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_firmware_security/contents/ui/main.qml
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_glx/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_glx/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_glx/contents/ui/
@@ -102,3 +117,6 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kinfocentercategory.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kinfocenter.appdata.xml
+drwxr-xr-x	root/root	usr/share/polkit-1/
+drwxr-xr-x	root/root	usr/share/polkit-1/actions/
+-rw-r--r--	root/root	usr/share/polkit-1/actions/org.kde.kinfocenter.dmidecode.policy

@@ -11,8 +11,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/PlasmaPotdProvider/
 -rw-r--r--	root/root	usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libplasmacomicprovidercore.so.1 -> libplasmacomicprovidercore.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libplasmacomicprovidercore.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libplasmapotdprovidercore.so -> libplasmapotdprovidercore.so.1
 lrwxrwxrwx	root/root	usr/lib/libplasmapotdprovidercore.so.1 -> libplasmapotdprovidercore.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libplasmapotdprovidercore.so.1.0.0
@@ -36,15 +34,12 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/plasma_comic.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.comic.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.grouping.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.private.grouping.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_comic.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/plasma_applet_weather.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/applets/org.kde.plasma.weather.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_comic_krossprovider.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_engine_comic.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_engine_konsoleprofiles.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/dataengine/plasma_engine_potd.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/astronomicalevents.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasmacalendarplugins/astronomicalevents/
@@ -97,6 +92,10 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/timer/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/weather/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/private/weather/libweatherplugin.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/private/weather/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/wallpapers/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/wallpapers/potd/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasma/wallpapers/potd/libplasma_wallpaper_potdplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/plasma/wallpapers/potd/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasmacalendar/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasmacalendar/astronomicaleventsconfig/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/plasmacalendar/astronomicaleventsconfig/libplasmacalendarastronomicaleventsconfig.so
@@ -108,9 +107,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/accessories-dictionary.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
-drwxr-xr-x	root/root	usr/share/kdevappwizard/
-drwxr-xr-x	root/root	usr/share/kdevappwizard/templates/
--rw-r--r--	root/root	usr/share/kdevappwizard/templates/plasmapotdprovider.tar.bz2
+drwxr-xr-x	root/root	usr/share/kdevfiletemplates/
+drwxr-xr-x	root/root	usr/share/kdevfiletemplates/templates/
+-rw-r--r--	root/root	usr/share/kdevfiletemplates/templates/plasmapotdprovider.tar.bz2
 drwxr-xr-x	root/root	usr/share/knsrcfiles/
 -rw-r--r--	root/root	usr/share/knsrcfiles/comic.knsrc
 drwxr-xr-x	root/root	usr/share/kservices5/
@@ -129,6 +128,8 @@ drwxr-xr-x	root/root	usr/share/kservices5/kwin/
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.haenau.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.hunyango.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-wallpaper-org.kde.potd.desktop
+drwxr-xr-x	root/root	usr/share/kservicetypes5/
+-rw-r--r--	root/root	usr/share/kservicetypes5/plasma-comic.desktop
 drwxr-xr-x	root/root	usr/share/kwin/
 drwxr-xr-x	root/root	usr/share/kwin/desktoptabbox/
 drwxr-xr-x	root/root	usr/share/kwin/desktoptabbox/previews/
@@ -398,7 +399,9 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/cont
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/ui/ActionListDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/ui/ListDelegate.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/ui/UserListDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/ui/configGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.userswitcher/metadata.json
@@ -436,6 +439,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/config/config.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/ConfigDictionaries.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/main.qml
@@ -465,6 +469,10 @@ drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/ActionContextMenu.qml
+-rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/SelectableLabel.qml
+-rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/WallpaperDelegate.qml
+-rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/WallpaperPreview.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/config.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/wallpapers/org.kde.potd/metadata.desktop
