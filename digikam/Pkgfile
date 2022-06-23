@@ -4,16 +4,14 @@
 # Depends on: akonadi-contacts imagemagick kcalendarcore kfilemetadata knotifyconfig lensfun libkipi libksane liblqr marble opencv qtav x265
 
 name=digikam
-version=7.6.0
+version=7.7.0
 release=1
 source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz
-	ffmpeg5.patch
-	akonadi-22.04.patch)
+	ffmpeg5.patch)
 
 build() {
 	cd digikam-$version
 	patch -Np1 -i $SRC/ffmpeg5.patch
-	patch -Np1 -i $SRC/akonadi-22.04.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \

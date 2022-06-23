@@ -29,9 +29,11 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/digikam_config.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_core_export.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_database_export.h
+-rw-r--r--	root/root	usr/include/digikam/digikam_debug.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_export.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_globals.h
 -rw-r--r--	root/root	usr/include/digikam/digikam_gui_export.h
+-rw-r--r--	root/root	usr/include/digikam/digikam_version.h
 -rw-r--r--	root/root	usr/include/digikam/dimg.h
 -rw-r--r--	root/root	usr/include/digikam/dimgbuiltinfilter.h
 -rw-r--r--	root/root	usr/include/digikam/dimgloaderobserver.h
@@ -97,6 +99,10 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/thumbnailinfo.h
 -rw-r--r--	root/root	usr/include/digikam/thumbnailloadthread.h
 -rw-r--r--	root/root	usr/include/digikam/wbcontainer.h
+-rw-r--r--	root/root	usr/include/digikam/wsitem.h
+-rw-r--r--	root/root	usr/include/digikam/wslogindialog.h
+-rw-r--r--	root/root	usr/include/digikam/wsnewalbumdialog.h
+-rw-r--r--	root/root	usr/include/digikam/wssettingswidget.h
 -rw-r--r--	root/root	usr/include/digikam/wstooldialog.h
 -rw-r--r--	root/root	usr/include/digikam/wstoolutils.h
 drwxr-xr-x	root/root	usr/lib/
@@ -115,12 +121,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/DigikamGui/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/DigikamPlugin/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.6.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.6.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.6.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.6.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.6.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.6.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.7.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.7.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.7.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.7.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.7.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.7.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/
@@ -138,7 +144,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Convert16To8_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Convert8To16_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToDNG_Plugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToHEIF_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToJP2lugin_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToJPEG_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToPGF_Plugin.so
@@ -167,7 +172,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_WaterMark_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_WhiteBalance_Plugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/dimg/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/dimg/DImg_HEIF_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/dimg/DImg_ImageMagick_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/dimg/DImg_JPEG2000_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/dimg/DImg_JPEG_Plugin.so
@@ -254,10 +258,8 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SmugMug_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_TimeAdjust_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Twitter_Plugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_VKontakte_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_VideoSlideShow_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Wallpaper_Plugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_YandexFotki_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_iNaturalist_Plugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/RawImport_DarkTable_Plugin.so
