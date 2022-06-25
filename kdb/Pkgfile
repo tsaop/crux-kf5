@@ -5,25 +5,26 @@
 
 name=kdb
 version=3.2.0
-release=2
-source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz)
+release=3
+source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz
+	fix-build-with-qt-5.15.5.patch
+	kdb-mkspecs.patch)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
+	patch -Np1 -i $SRC/kdb-mkspecs.patch
+	patch -Np1 -i $SRC/fix-build-with-qt-5.15.5.patch
 
-	cmake \
+	cmake -Bbuild \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DLIB_INSTALL_DIR=/usr/lib \
         -DBUILD_TESTING=OFF \
-        -DCMAKE_BUILD_TYPE=Release \
-        -Wno-dev \
-        ..
+        -DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
-	
-    rm -rf $PKG/usr/share/locale
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
 }
