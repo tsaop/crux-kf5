@@ -4,7 +4,7 @@
 # Depends on: kconfig kcoreaddons kwindowsystem libcanberra libdbusmenu-qt5 phonon-qt5
 
 name=knotifications
-version=5.95.0
+version=5.96.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 

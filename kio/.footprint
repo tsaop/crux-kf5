@@ -63,6 +63,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/TCPSlaveBase
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/TransferJob
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/UDSEntry
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/WorkerBase
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KMountPoint
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KNFSShare
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KPasswdServerClient
@@ -104,6 +105,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/http_slave_defaults.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/idleslave.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/ioslave_defaults.h
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/ioworker_defaults.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/job.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/job_base.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/jobclasses.h
@@ -131,6 +133,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/tcpslavebase.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/transferjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/udsentry.h
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/workerbase.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kiocore_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kmountpoint.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/knfsshare.h
@@ -306,20 +309,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.95.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.95.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.96.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.96.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.95.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.95.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.96.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.96.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.95.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.95.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.96.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.96.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.95.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.95.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.96.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.96.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.95.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.95.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.96.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.96.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
