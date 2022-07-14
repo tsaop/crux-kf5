@@ -1,15 +1,14 @@
 # Description: iniconfig: brain-dead simple config-ini parsing
 # URL: https://github.com/RonnyPfannschmidt/iniconfig
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python3-build python3-install python3-setuptools-scm
+# Depends on: python3-pip 
 
 name=python3-extension-helpers
 version=1.0.0
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/15/44/fc7754aa170b1f3b4318b009d00f1045a7f4616e2b77bcc3b3d4f5601be5/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
-	python3 -m build --wheel --no-isolation
-	python3 -m install --destdir="$PKG" dist/*.whl
+	python3 -m pip install . --prefix=$PKG	
 }
