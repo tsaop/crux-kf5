@@ -118,7 +118,6 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_skycommander_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_skysafari
 -rwxr-xr-x	root/root	usr/bin/indi_skywatcherAltAzMount
--rwxr-xr-x	root/root	usr/bin/indi_skywatcherAltAzSimple
 -rwxr-xr-x	root/root	usr/bin/indi_smartfocus_focus
 -rwxr-xr-x	root/root	usr/bin/indi_snapcap
 -rwxr-xr-x	root/root	usr/bin/indi_sqm_weather
@@ -176,6 +175,9 @@ drwxr-xr-x	root/root	usr/include/libindi/dsp/
 -rw-r--r--	root/root	usr/include/libindi/dsp/manager.h
 -rw-r--r--	root/root	usr/include/libindi/dsp/transforms.h
 -rw-r--r--	root/root	usr/include/libindi/eventloop.h
+-rw-r--r--	root/root	usr/include/libindi/fits.h
+-rw-r--r--	root/root	usr/include/libindi/fits_extensions.h
+-rw-r--r--	root/root	usr/include/libindi/fitsidi.h
 -rw-r--r--	root/root	usr/include/libindi/hidapi.h
 -rw-r--r--	root/root	usr/include/libindi/indiapi.h
 -rw-r--r--	root/root	usr/include/libindi/indibase.h
@@ -225,12 +227,14 @@ drwxr-xr-x	root/root	usr/include/libindi/dsp/
 -rw-r--r--	root/root	usr/include/libindi/indiweatherinterface.h
 -rw-r--r--	root/root	usr/include/libindi/indiwidgettraits.h
 -rw-r--r--	root/root	usr/include/libindi/indiwidgetview.h
+-rw-r--r--	root/root	usr/include/libindi/json.h
 -rw-r--r--	root/root	usr/include/libindi/libastro.h
 -rw-r--r--	root/root	usr/include/libindi/lilxml.h
 drwxr-xr-x	root/root	usr/include/libindi/mounts/
 -rw-r--r--	root/root	usr/include/libindi/mounts/lx200driver.h
 -rw-r--r--	root/root	usr/include/libindi/mounts/lx200telescope.h
 -rw-r--r--	root/root	usr/include/libindi/pid.h
+-rw-r--r--	root/root	usr/include/libindi/sdfits.h
 drwxr-xr-x	root/root	usr/include/libindi/stream/
 -rw-r--r--	root/root	usr/include/libindi/stream/ccvt.h
 -rw-r--r--	root/root	usr/include/libindi/stream/ccvt_types.h
@@ -258,16 +262,16 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.6
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.6
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.7
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.7
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.6
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.6
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.7
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.7
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.6
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.6
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.7
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.7
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
