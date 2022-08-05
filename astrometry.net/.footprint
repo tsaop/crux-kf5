@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/an-fitstopnm
 -rwxr-xr-x	root/root	usr/bin/an-pnmtofits
 -rwxr-xr-x	root/root	usr/bin/astrometry-engine
+-rwxr-xr-x	root/root	usr/bin/augment-xylist
 -rwxr-xr-x	root/root	usr/bin/build-astrometry-index
 -rwxr-xr-x	root/root	usr/bin/degtohms
 -rwxr-xr-x	root/root	usr/bin/downsample-fits
@@ -29,6 +30,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/new-wcs
 -rwxr-xr-x	root/root	usr/bin/pad-file
 -rwxr-xr-x	root/root	usr/bin/plot-constellations
+lrwxrwxrwx	root/root	usr/bin/plotann.py -> ../lib/python3.9/site-packages/astrometry/plot/plotann.py
 -rwxr-xr-x	root/root	usr/bin/plotquad
 -rwxr-xr-x	root/root	usr/bin/plotxy
 -rwxr-xr-x	root/root	usr/bin/query-starkd
@@ -202,7 +204,9 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/net/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/net/client/
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/net/client/client.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/plot/__init__.py (EMPTY)
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/_plotstuff_c.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/plotann.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/plot/plotstuff.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/plot/plotstuff_c.py
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/
