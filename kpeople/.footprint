@@ -53,14 +53,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5People/
 -rw-r--r--	root/root	usr/lib/cmake/KF5People/KPeopleTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5People/KPeopleTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5People.so -> libKF5People.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5People.so.5 -> libKF5People.so.5.96.0
--rwxr-xr-x	root/root	usr/lib/libKF5People.so.5.96.0
+lrwxrwxrwx	root/root	usr/lib/libKF5People.so.5 -> libKF5People.so.5.97.0
+-rwxr-xr-x	root/root	usr/lib/libKF5People.so.5.97.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PeopleBackend.so -> libKF5PeopleBackend.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PeopleBackend.so.5 -> libKF5PeopleBackend.so.5.96.0
--rwxr-xr-x	root/root	usr/lib/libKF5PeopleBackend.so.5.96.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PeopleBackend.so.5 -> libKF5PeopleBackend.so.5.97.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PeopleBackend.so.5.97.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PeopleWidgets.so -> libKF5PeopleWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PeopleWidgets.so.5 -> libKF5PeopleWidgets.so.5.96.0
--rwxr-xr-x	root/root	usr/lib/libKF5PeopleWidgets.so.5.96.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PeopleWidgets.so.5 -> libKF5PeopleWidgets.so.5.97.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PeopleWidgets.so.5.97.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -73,10 +73,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/people/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/people/libKF5PeopleDeclarative.so
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/people/qmldir
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/kpeople_data_source.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/kpeople_plugin.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/persondetailsplugin.desktop
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kpeople.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kpeople.renamecategories

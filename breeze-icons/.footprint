@@ -705,7 +705,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/gtk-undelete-rtl.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/gtk-yes.svg -> dialog-ok-apply.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/guides.svg -> snap-guideline.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/help-about.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/help-contents.svg -> ../../apps/16/system-help.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/help-contents.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/help-contextual.svg -> help-about.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/help-donate-ars.svg -> help-donate-usd.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/help-donate-aud.svg -> help-donate-usd.svg
@@ -2533,7 +2533,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/handle-right.svg -> 
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/handle-sort.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/headphones.svg -> ../../devices/22/audio-headphones.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/help-about.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/help-contents.svg -> ../../apps/22/system-help.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/help-contents.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/help-contextual.svg -> help-about.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/help-donate.svg -> taxes-finances.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/help-feedback.svg -> help-about.svg
@@ -4409,7 +4409,6 @@ drwxr-xr-x	root/root	usr/share/icons/breeze-dark/apps/
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/apps/16/
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/accessories-text-editor.svg -> kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/anydesk.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/help-browser.svg -> system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/hotspot.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/kdeconnect.svg -> ../../devices/16/smartphone.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/kmymoney.svg
@@ -4427,7 +4426,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/libreoffice-startcenter
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/preferences-system-bluetooth.svg -> ../../devices/16/network-bluetooth.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/16/preferences-system.svg -> systemsettings.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/system-file-manager.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/systemsettings.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/umbrello.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/16/utilities-terminal.svg
@@ -4440,7 +4438,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/accessories-text-editor
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/akregator.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/anydesk.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/elisa.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/help-browser.svg -> system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/homerun.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/kde.svg
@@ -4454,7 +4451,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/korg-todo.svg -> ../../
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/preferences-other.svg -> ../../actions/22/application-menu.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/22/preferences-plugin.svg -> ../../actions/22/kt-plugins.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/system-file-manager.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/umbrello.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/utilities-terminal.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/22/virt-manager.svg
@@ -5529,6 +5525,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-mpla
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-ms-dos-executable.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-ms-shortcut.svg -> ../../actions/16/link.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -6027,6 +6024,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-mpla
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-ms-dos-executable.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-ms-shortcut.svg -> ../../actions/22/link.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -6525,6 +6523,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-mpla
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-ms-dos-executable.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-ms-shortcut.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -7023,6 +7022,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-mpla
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-ms-dos-executable.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-ms-shortcut.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -9484,7 +9484,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/gtk-undelete-rtl.svg -> e
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/gtk-yes.svg -> dialog-ok-apply.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/guides.svg -> snap-guideline.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/help-about.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/help-contents.svg -> ../../apps/16/system-help.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/help-contents.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/help-contextual.svg -> help-about.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/help-donate-ars.svg -> help-donate-usd.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/help-donate-aud.svg -> help-donate-usd.svg
@@ -11305,7 +11305,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/handle-right.svg -> overf
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/handle-sort.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/headphones.svg -> ../../devices/22/audio-headphones.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/help-about.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/help-contents.svg -> ../../apps/22/system-help.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/help-contents.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/help-contextual.svg -> help-about.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/help-donate.svg -> taxes-finances.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/help-feedback.svg -> help-about.svg
@@ -13175,7 +13175,6 @@ drwxr-xr-x	root/root	usr/share/icons/breeze/apps/
 drwxr-xr-x	root/root	usr/share/icons/breeze/apps/16/
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/accessories-text-editor.svg -> kwrite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/anydesk.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/help-browser.svg -> system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/hotspot.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/kdeconnect.svg -> ../../devices/16/smartphone.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/kmymoney.svg
@@ -13193,7 +13192,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/libreoffice-startcenter.svg 
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/preferences-system-bluetooth.svg -> ../../devices/16/network-bluetooth.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/16/preferences-system.svg -> systemsettings.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/system-file-manager.svg
--rw-r--r--	root/root	usr/share/icons/breeze/apps/16/system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/systemsettings.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/umbrello.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/16/utilities-terminal.svg
@@ -13206,7 +13204,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/accessories-text-editor.svg 
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/akregator.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/anydesk.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/elisa.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/help-browser.svg -> system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/homerun.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/hotspot.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/kde.svg
@@ -13220,7 +13217,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/korg-todo.svg -> ../../actio
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/preferences-other.svg -> ../../actions/22/application-menu.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/22/preferences-plugin.svg -> ../../actions/22/kt-plugins.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/system-file-manager.svg
--rw-r--r--	root/root	usr/share/icons/breeze/apps/22/system-help.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/umbrello.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/utilities-terminal.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/22/virt-manager.svg
@@ -14297,6 +14293,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-x-mplayer2.
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-x-ms-dos-executable.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-x-ms-shortcut.svg -> ../../actions/16/edit-link.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -14795,6 +14792,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-x-mplayer2.
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-x-ms-dos-executable.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-x-ms-shortcut.svg -> ../../actions/22/link.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -15293,6 +15291,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-x-mplayer2.
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-x-ms-dos-executable.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-x-ms-shortcut.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-x-n64-rom.svg -> application-x-apple-diskimage.svg
@@ -15791,6 +15790,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-x-mplayer2.
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-x-ms-dos-executable.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-x-ms-shortcut.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-x-ms-wim.svg -> application-x-cd-image.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-x-msdownload.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-x-mswinurl.svg -> text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-x-mswrite.svg -> x-office-document.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-x-n64-rom.svg -> application-x-apple-diskimage.svg

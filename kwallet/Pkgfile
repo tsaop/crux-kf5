@@ -1,29 +1,24 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: boost gpgme-qt5 kiconthemes knotifications kservice
+# Depends on: boost gpgme-qt5 kiconthemes knotifications kservice qca-qt5
 
 name=kwallet
-version=5.96.0
+version=5.97.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	
-
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
+	-DCMAKE_INSTALL_LIBDIR=lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 }
