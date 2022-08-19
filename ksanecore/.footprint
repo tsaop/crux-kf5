@@ -1,0 +1,22 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KSaneCore/
+-rw-r--r--	root/root	usr/include/KSaneCore/DeviceInformation
+-rw-r--r--	root/root	usr/include/KSaneCore/Interface
+-rw-r--r--	root/root	usr/include/KSaneCore/Option
+-rw-r--r--	root/root	usr/include/KSaneCore/deviceinformation.h
+-rw-r--r--	root/root	usr/include/KSaneCore/interface.h
+-rw-r--r--	root/root	usr/include/KSaneCore/ksanecore_export.h
+-rw-r--r--	root/root	usr/include/KSaneCore/ksanecore_version.h
+-rw-r--r--	root/root	usr/include/KSaneCore/option.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KSaneCore/
+-rw-r--r--	root/root	usr/lib/cmake/KSaneCore/KSaneCoreConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KSaneCore/KSaneCoreConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KSaneCore/KSaneCoreTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KSaneCore/KSaneCoreTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKSaneCore.so -> libKSaneCore.so.1
+lrwxrwxrwx	root/root	usr/lib/libKSaneCore.so.1 -> libKSaneCore.so.22.08.0
+-rwxr-xr-x	root/root	usr/lib/libKSaneCore.so.22.08.0
+drwxr-xr-x	root/root	usr/share/
