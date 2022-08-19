@@ -2,14 +2,14 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kontact
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libkontactprivate.so.5 -> libkontactprivate.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libkontactprivate.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libkontactprivate.so.5 -> libkontactprivate.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libkontactprivate.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kontact/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kontact/kcm_kontact.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/kontact/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/kontact/kcm_kontact.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kontact.desktop
@@ -41,8 +41,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kontact.svg
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kontactconfig.desktop
 drwxr-xr-x	root/root	usr/share/messageviewer/
 drwxr-xr-x	root/root	usr/share/messageviewer/about/
 drwxr-xr-x	root/root	usr/share/messageviewer/about/default/

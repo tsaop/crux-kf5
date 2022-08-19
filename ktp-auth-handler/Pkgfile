@@ -1,10 +1,10 @@
 # Description: Provide UI/KWallet Integration For Passwords and SSL Errors on Account Connect
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: ktp-common-internals qca-qt5
+# Depends on: ktp-common-internals
 
 name=ktp-auth-handler
-version=22.04.3
+version=22.08.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

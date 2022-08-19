@@ -31,19 +31,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimImportWizard/
 -rw-r--r--	root/root	usr/lib/cmake/KPimImportWizard/KPimImportWizardTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimImportWizard/KPimImportWizardTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimImportWizard.so -> libKPimImportWizard.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimImportWizard.so.5 -> libKPimImportWizard.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKPimImportWizard.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKPimImportWizard.so.5 -> libKPimImportWizard.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKPimImportWizard.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/balsaimporterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/clawsmailimporterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/evolutionv3importerplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/icedoveimporterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/seamonkeyimporterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/sylpheedimporterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/thunderbirdimporterplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/importwizard/trojitaimporterplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/balsaimporterplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/clawsmailimporterplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/evolutionv3importerplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/icedoveimporterplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/seamonkeyimporterplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/sylpheedimporterplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/thunderbirdimporterplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/importwizard/trojitaimporterplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.akonadiimportwizard.desktop

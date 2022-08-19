@@ -8,7 +8,6 @@ drwxr-xr-x	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CalPrintPluginBase
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CalPrinter
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CalendarSingleton
--rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CategoryConfig
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CategoryHierarchyReader
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CellItem
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/CollectionSelection
@@ -20,10 +19,8 @@ drwxr-xr-x	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/IdentityManager
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/IncidenceViewer
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/KCalPrefs
--rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/KDatePickerPopup
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/MessageWidget
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/NoteEditDialog
--rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/Plugin
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/PrintPlugin
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/UriHandler
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/CalendarSupport/Utils
@@ -34,7 +31,6 @@ drwxr-xr-x	root/root	usr/include/KF5/CalendarSupport/calendarsupport/
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/calprintdefaultplugins.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/calprinter.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/calprintpluginbase.h
--rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/categoryconfig.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/categoryhierarchyreader.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/cellitem.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/collectionselection.h
@@ -47,10 +43,8 @@ drwxr-xr-x	root/root	usr/include/KF5/CalendarSupport/calendarsupport/
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/incidenceviewer.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/kcalprefs.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/kcalprefs_base.h
--rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/kdatepickerpopup.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/messagewidget.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/noteeditdialog.h
--rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/plugin.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/printplugin.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/ui_calprintdayconfig_base.h
 -rw-r--r--	root/root	usr/include/KF5/CalendarSupport/calendarsupport/ui_calprintincidenceconfig_base.h
@@ -68,15 +62,13 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5CalendarSupport/
 -rw-r--r--	root/root	usr/lib/cmake/KF5CalendarSupport/KF5CalendarSupportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5CalendarSupport/KF5CalendarSupportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5CalendarSupport.so -> libKF5CalendarSupport.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5CalendarSupport.so.5 -> libKF5CalendarSupport.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5CalendarSupport.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5CalendarSupport.so.5 -> libKF5CalendarSupport.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5CalendarSupport.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_CalendarSupport.pri
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/calendarplugin.desktop
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/calendarsupport.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/calendarsupport.renamecategories

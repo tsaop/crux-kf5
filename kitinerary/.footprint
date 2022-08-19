@@ -52,6 +52,7 @@ drwxr-xr-x	root/root	usr/include/KPim/KItinerary/
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/SortUtil
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Taxi
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Ticket
+-rw-r--r--	root/root	usr/include/KPim/KItinerary/Token
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/TrainTrip
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Uic9183Block
 -rw-r--r--	root/root	usr/include/KPim/KItinerary/Uic9183Header
@@ -117,6 +118,7 @@ drwxr-xr-x	root/root	usr/include/KPim/kitinerary/
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/ssbv3ticket.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/taxi.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/ticket.h
+-rw-r--r--	root/root	usr/include/KPim/kitinerary/token.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/traintrip.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/uic9183block.h
 -rw-r--r--	root/root	usr/include/KPim/kitinerary/uic9183header.h
@@ -141,8 +143,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimItinerary/
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kitinerary-extractor
 lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so -> libKPimItinerary.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so.5 -> libKPimItinerary.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKPimItinerary.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKPimItinerary.so.5 -> libKPimItinerary.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKPimItinerary.so.5.21.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/

@@ -8,7 +8,6 @@ drwxr-xr-x	root/root	usr/include/KF5/EventViews/EventViews/
 -rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/ConfigDialogInterface
 -rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/EventView
 -rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/Helper
--rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/IncidenceTreeModel
 -rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/JournalView
 -rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/ListView
 -rw-r--r--	root/root	usr/include/KF5/EventViews/EventViews/MonthView
@@ -32,7 +31,6 @@ drwxr-xr-x	root/root	usr/include/KF5/EventViews/eventviews/
 -rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/eventview.h
 -rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/eventviews_export.h
 -rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/helper.h
--rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/incidencetreemodel.h
 -rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/journalview.h
 -rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/listview.h
 -rw-r--r--	root/root	usr/include/KF5/EventViews/eventviews/monthview.h
@@ -52,8 +50,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5EventViews/
 -rw-r--r--	root/root	usr/lib/cmake/KF5EventViews/KF5EventViewsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5EventViews/KF5EventViewsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5EventViews.so -> libKF5EventViews.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5EventViews.so.5 -> libKF5EventViews.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5EventViews.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5EventViews.so.5 -> libKF5EventViews.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5EventViews.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

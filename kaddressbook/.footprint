@@ -33,22 +33,22 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimAddressbookImportExport/
 -rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so -> libKPimAddressbookImportExport.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so.5 -> libKPimAddressbookImportExport.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKPimAddressbookImportExport.so.5.20.3
-lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKPimAddressbookImportExport.so.5 -> libKPimAddressbookImportExport.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKPimAddressbookImportExport.so.5.21.0
+lrwxrwxrwx	root/root	usr/lib/libkaddressbookprivate.so.5 -> libkaddressbookprivate.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libkaddressbookprivate.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_KAddressbookImportExport.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kaddressbookpart.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_kaddressbookplugin.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kaddressbook/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kaddressbook/kaddressbook_config_plugins.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/kaddressbook/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/kaddressbook/kaddressbook_config_plugins.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/kontact_kaddressbookplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kaddressbook-importer.desktop
@@ -103,10 +103,6 @@ drwxr-xr-x	root/root	usr/share/kaddressbook/viewertemplates/default/
 -rw-r--r--	root/root	usr/share/kaddressbook/viewertemplates/default/contactgroup_embedded.html
 -rw-r--r--	root/root	usr/share/kaddressbook/viewertemplates/default/contactgroup_memberrow.html
 -rw-r--r--	root/root	usr/share/kaddressbook/viewertemplates/default/theme.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kaddressbook_config_plugins.desktop
-drwxr-xr-x	root/root	usr/share/kservices5/kontact/
--rw-r--r--	root/root	usr/share/kservices5/kontact/kaddressbookplugin.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kaddressbook.appdata.xml
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/

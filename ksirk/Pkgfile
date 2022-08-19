@@ -1,10 +1,10 @@
 # Description: KsirK is a computerized version of a well known strategy game
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libkdegames qca-qt5
+# Depends on: libkdegames
 
 name=ksirk
-version=22.04.3
+version=22.08.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

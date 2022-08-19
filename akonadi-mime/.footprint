@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiMime/
 drwxr-xr-x	root/root	usr/include/KF5/AkonadiMime/Akonadi/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/Akonadi/AddressAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/Akonadi/CommandBase
+-rw-r--r--	root/root	usr/include/KF5/AkonadiMime/Akonadi/MDNStateAttribute
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/Akonadi/MarkAsCommand
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/Akonadi/MessageFlags
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/Akonadi/MessageFolderAttribute
@@ -25,6 +26,7 @@ drwxr-xr-x	root/root	usr/include/KF5/AkonadiMime/akonadi/
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/akonadi-mime_export.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/commandbase.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/markascommand.h
+-rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/mdnstateattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/messageflags.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/messagefolderattribute.h
 -rw-r--r--	root/root	usr/include/KF5/AkonadiMime/akonadi/messagemodel.h
@@ -46,8 +48,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiMime/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiMime/KF5AkonadiMimeTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiMime/KF5AkonadiMimeTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so -> libKF5AkonadiMime.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so.5 -> libKF5AkonadiMime.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiMime.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiMime.so.5 -> libKF5AkonadiMime.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5AkonadiMime.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

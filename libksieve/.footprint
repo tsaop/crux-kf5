@@ -7,6 +7,8 @@ drwxr-xr-x	root/root	usr/include/KF5/KManageSieve/KManageSieve/
 drwxr-xr-x	root/root	usr/include/KF5/KManageSieve/kmanagesieve/
 -rw-r--r--	root/root	usr/include/KF5/KManageSieve/kmanagesieve/kmanagesieve_export.h
 -rw-r--r--	root/root	usr/include/KF5/KManageSieve/kmanagesieve/sievejob.h
+drwxr-xr-x	root/root	usr/include/KF5/KSieve/
+-rw-r--r--	root/root	usr/include/KF5/KSieve/libksieve_version.h
 drwxr-xr-x	root/root	usr/include/KF5/KSieveUi/
 drwxr-xr-x	root/root	usr/include/KF5/KSieveUi/KSieveUi/
 -rw-r--r--	root/root	usr/include/KF5/KSieveUi/KSieveUi/AbstractMoveImapFolderWidget
@@ -54,7 +56,6 @@ drwxr-xr-x	root/root	usr/include/KF5/KSieveUi/ksieveui/
 -rw-r--r--	root/root	usr/include/KF5/KSieveUi/ksieveui/util.h
 -rw-r--r--	root/root	usr/include/KF5/KSieveUi/ksieveui/util_p.h
 -rw-r--r--	root/root	usr/include/KF5/KSieveUi/ksieveui/vacationmanager.h
--rw-r--r--	root/root	usr/include/KF5/libksieve_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5LibKSieve/
@@ -63,14 +64,14 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5LibKSieve/
 -rw-r--r--	root/root	usr/lib/cmake/KF5LibKSieve/KF5LibKSieveTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5LibKSieve/KF5LibKSieveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5KManageSieve.so -> libKF5KManageSieve.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KManageSieve.so.5 -> libKF5KManageSieve.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5KManageSieve.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5KManageSieve.so.5 -> libKF5KManageSieve.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KManageSieve.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KSieve.so -> libKF5KSieve.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KSieve.so.5 -> libKF5KSieve.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5KSieve.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5KSieve.so.5 -> libKF5KSieve.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KSieve.so.5.21.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KSieveUi.so -> libKF5KSieveUi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KSieveUi.so.5 -> libKF5KSieveUi.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5KSieveUi.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5KSieveUi.so.5 -> libKF5KSieveUi.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KSieveUi.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

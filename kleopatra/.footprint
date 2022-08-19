@@ -11,10 +11,10 @@ lrwxrwxrwx	root/root	usr/lib/libkleopatraclientgui.so.1 -> libkleopatraclientgui
 -rwxr-xr-x	root/root	usr/lib/libkleopatraclientgui.so.1.3.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kleopatra/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/kleopatra/kleopatra_config_gnupgsystem.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/kleopatra/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/kleopatra/kleopatra_config_gnupgsystem.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kleopatra_import.desktop
@@ -57,8 +57,6 @@ drwxr-xr-x	root/root	usr/share/kleopatra/pics/
 -rw-r--r--	root/root	usr/share/kleopatra/pics/kleopatra_splashscreen.svgz
 -rw-r--r--	root/root	usr/share/kleopatra/pics/kleopatra_wizard.png
 -rw-r--r--	root/root	usr/share/kleopatra/pics/kleopatra_wizard.svgz
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kleopatra_config_gnupgsystem.desktop
 drwxr-xr-x	root/root	usr/share/kwatchgnupg/
 drwxr-xr-x	root/root	usr/share/kwatchgnupg/pics/
 -rw-r--r--	root/root	usr/share/kwatchgnupg/pics/kwatchgnupg.png

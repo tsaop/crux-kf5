@@ -28,7 +28,6 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/GnuPG
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/Hex
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KConfigBasedKeyFilter
--rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KDHorizontalLine
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyApprovalDialog
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyCache
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyFilter
@@ -41,6 +40,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyListModel
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyListModelInterface
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyListSortFilterProxyModel
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyListView
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyRearrangeColumnsProxyModel
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyRequester
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/KeyResolver
@@ -60,6 +60,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/Libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/Stl_Util
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/StringUtils
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/SubkeyListModel
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/SystemInfo
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/Test
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/UniqueLock
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/Libkleo/UserIDListModel
@@ -86,7 +87,6 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/gnupg.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/hex.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/kconfigbasedkeyfilter.h
--rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/kdhorizontalline.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keyapprovaldialog.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keycache.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keyfilter.h
@@ -99,6 +99,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keylistmodel.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keylistmodelinterface.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keylistsortfilterproxymodel.h
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keylistview.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keyrearrangecolumnsproxymodel.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keyrequester.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/keyresolver.h
@@ -119,6 +120,7 @@ drwxr-xr-x	root/root	usr/include/KF5/Libkleo/libkleo/
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/stl_util.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/stringutils.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/subkeylistmodel.h
+-rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/systeminfo.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/test.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/uniquelock.h
 -rw-r--r--	root/root	usr/include/KF5/Libkleo/libkleo/useridlistmodel.h
@@ -131,8 +133,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Libkleo/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Libkleo/KF5LibkleoTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so -> libKF5Libkleo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5Libkleo.so.5 -> libKF5Libkleo.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5Libkleo.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

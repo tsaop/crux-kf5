@@ -1,10 +1,10 @@
 # Description: KF5 compatible implementation of the Torrent protocol
 # URL: http://ktorrent.pwsp.net/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kio qca-qt5
+# Depends on: kio
 
 name=libktorrent
-version=22.04.3
+version=22.08.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

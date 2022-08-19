@@ -37,7 +37,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/ItemContext
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/JobScheduler
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/KMFilterDialog
--rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/MDNStateAttribute
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/MDNWarningJob
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/MailFilter
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/MailInterfaces
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/MailKernel
@@ -96,7 +96,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/mailinterfaces.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/mailkernel.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/mailutil.h
--rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/mdnstateattribute.h
+-rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/mdnwarningjob.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/pop3settings.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/redirectdialog.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/resourcereadconfigfile.h
@@ -121,8 +121,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailCommon/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so -> libKF5MailCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

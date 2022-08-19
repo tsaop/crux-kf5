@@ -3,36 +3,36 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/korganizer
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so -> libkorganizer_core.so.5
-lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so.5 -> libkorganizer_core.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libkorganizer_core.so.5.20.3
-lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so.5 -> libkorganizer_interfaces.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libkorganizer_interfaces.so.5.20.3
-lrwxrwxrwx	root/root	usr/lib/libkorganizerprivate.so.5 -> libkorganizerprivate.so.5.20.3
--rwxr-xr-x	root/root	usr/lib/libkorganizerprivate.so.5.20.3
+lrwxrwxrwx	root/root	usr/lib/libkorganizer_core.so.5 -> libkorganizer_core.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizer_core.so.5.21.0
+lrwxrwxrwx	root/root	usr/lib/libkorganizer_interfaces.so.5 -> libkorganizer_interfaces.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizer_interfaces.so.5.21.0
+lrwxrwxrwx	root/root	usr/lib/libkorganizerprivate.so.5 -> libkorganizerprivate.so.5.21.0
+-rwxr-xr-x	root/root	usr/lib/libkorganizerprivate.so.5.21.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_journalplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_korganizerplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_specialdatesplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kontact5/kontact_todoplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/korganizerpart.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configcolorsandfonts.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configdesignerfields.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configfreebusy.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configgroupscheduling.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configmain.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configplugins.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configtime.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_configviews.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/korganizer/korganizer_userfeedback.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/summary/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/summary/kcmapptsummary.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/summary/kcmsdsummary.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim/kcms/summary/kcmtodosummary.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configcolorsandfonts.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configdesignerfields.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configfreebusy.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configgroupscheduling.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configmain.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configplugins.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configtime.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configviews.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_userfeedback.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/summary/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/summary/kcmapptsummary.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/summary/kcmsdsummary.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kcms/summary/kcmtodosummary.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/kontact_journalplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/kontact_korganizerplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/kontact_specialdatesplugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/kontact/kontact_todoplugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/korganizer-import.desktop

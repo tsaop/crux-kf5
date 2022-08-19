@@ -33,19 +33,19 @@ lrwxrwxrwx	root/root	usr/lib/libKF5Konq.so.6 -> libKF5Konq.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kfmclient.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konqueror.so
 lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so -> libkonqsidebarplugin.so.5
--rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.22.04.3
-lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.22.04.3
--rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.22.04.3
-lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.22.04.3
+-rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.22.08.0
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.22.08.0
+-rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.22.08.0
+lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.22.08.0
 -rwxr-xr-x	root/root	usr/lib/libkwebenginepart.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/akregatorkonqfeedicon.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/autorefresh.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/babelfishplugin.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/dirfilterplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/dolphinpart/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/dolphinpart/kpartplugins/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/dolphinpart/kpartplugins/dirfilterplugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/dolphinpart/kpartplugins/kimgallery.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/dolphinpart/kpartplugins/konq_shellcmdplugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
@@ -60,7 +60,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/akregatorkonqfeediconkhtml_kpartplugins.so -> ../../akregatorkonqfeedicon.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/autorefreshkhtml_kpartplugins.so -> ../../autorefresh.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/babelfishpluginkhtml_kpartplugins.so -> ../../babelfishplugin.so
-lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/dirfilterpluginkhtml_kpartplugins.so -> ../../dirfilterplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/khtmlsettingspluginkhtml_kpartplugins.so -> ../../khtmlsettingsplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/khtmlttspluginkhtml_kpartplugins.so -> ../../khtmlttsplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/khtml/kpartplugins/konqueror_kget_browser_integrationkhtml_kpartplugins.so -> ../../konqueror_kget_browser_integration.so
@@ -91,7 +90,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/akregatorkonqfeediconkwebkitpart_kpartplugins.so -> ../../akregatorkonqfeedicon.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/autorefreshkwebkitpart_kpartplugins.so -> ../../autorefresh.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/babelfishpluginkwebkitpart_kpartplugins.so -> ../../babelfishplugin.so
-lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/dirfilterpluginkwebkitpart_kpartplugins.so -> ../../dirfilterplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/khtmlsettingspluginkwebkitpart_kpartplugins.so -> ../../khtmlsettingsplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/khtmlttspluginkwebkitpart_kpartplugins.so -> ../../khtmlttsplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/konqueror_kget_browser_integrationkwebkitpart_kpartplugins.so -> ../../konqueror_kget_browser_integration.so
@@ -105,7 +103,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/akregatorkonqfeediconwebenginepart_kpartplugins.so -> ../../akregatorkonqfeedicon.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/autorefreshwebenginepart_kpartplugins.so -> ../../autorefresh.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/babelfishpluginwebenginepart_kpartplugins.so -> ../../babelfishplugin.so
-lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/dirfilterpluginwebenginepart_kpartplugins.so -> ../../dirfilterplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/khtmlsettingspluginwebenginepart_kpartplugins.so -> ../../khtmlsettingsplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/khtmlttspluginwebenginepart_kpartplugins.so -> ../../khtmlttsplugin.so
 lrwxrwxrwx	root/root	usr/lib/qt5/plugins/webenginepart/kpartplugins/konqueror_kget_browser_integrationwebenginepart_kpartplugins.so -> ../../konqueror_kget_browser_integration.so
@@ -121,6 +118,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/kfmclient_html.desktop
 -rwxr-xr-x	root/root	usr/share/applications/kfmclient_war.desktop
 -rwxr-xr-x	root/root	usr/share/applications/konqbrowser.desktop
+-rw-r--r--	root/root	usr/share/applications/org.kde.konqueror.desktop
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/kcreatewebarchive.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/konqueror.kcfg
