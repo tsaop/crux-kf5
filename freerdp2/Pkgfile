@@ -1,0 +1,28 @@
+# Description: Free remote desktop protocol library and clients
+# URL:
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cairo cups docbook-xsl faac faad2 gsm lame libjpeg-turbo libsoxr libxkbcommon mbedtls pulseaudio wayland xorg-libxcursor xorg-libxi xorg-libxinerama xorg-libxrandr xorg-libxv
+
+name=freerdp2
+version=2.8.0
+release=1
+source=(https://github.com/FreeRDP/FreeRDP/archive/$version/${name%?}-$version.tar.gz)
+
+build() {
+	cd FreeRDP-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DWITH_MBEDTLS=ON \
+		-DWITH_PULSE=ON \
+		-DWITH_JPEG=ON \
+		-DWITH_GSM=ON \
+		-DWITH_LAME=ON \
+		-DWITH_FAAD2=ON \
+		-DWITH_FAAC=ON \
+		-DWITH_SOXR=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
