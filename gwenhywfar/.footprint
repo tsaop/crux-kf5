@@ -56,6 +56,7 @@ drwxr-xr-x	root/root	usr/include/gwenhywfar5/gwenhywfar/
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/error.h
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/fastbuffer.h
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/fslock.h
+-rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/funcs.h
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/gui.h
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/gui_be.h
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/gwen_sar_fileheader.h
@@ -149,15 +150,15 @@ drwxr-xr-x	root/root	usr/include/gwenhywfar5/gwenhywfar/
 -rw-r--r--	root/root	usr/include/gwenhywfar5/gwenhywfar/xsdnode.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/gwengui-cpp-5.7/
--rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.7/gwengui-cpp-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.7/gwengui-cpp-config.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/gwengui-qt5-5.7/
--rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.7/gwengui-qt5-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.7/gwengui-qt5-config.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/gwenhywfar-5.7/
--rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.7/gwenhywfar-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.7/gwenhywfar-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwengui-cpp-5.10/
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.10/gwengui-cpp-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-cpp-5.10/gwengui-cpp-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwengui-qt5-5.10/
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.10/gwengui-qt5-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwengui-qt5-5.10/gwengui-qt5-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/gwenhywfar-5.10/
+-rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.10/gwenhywfar-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/gwenhywfar-5.10/gwenhywfar-config.cmake
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/
 drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/79/
@@ -186,17 +187,17 @@ lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/79/dbio/xmldb.so.0 -> xmldb.so.0
 -rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/79/dbio/xmldb.so.0.0.1
 -rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/79/dbio/xmldb.xml
 -rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.la
-lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so -> libgwengui-cpp.so.79.7.3
-lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so.79 -> libgwengui-cpp.so.79.7.3
--rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.so.79.7.3
+lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so -> libgwengui-cpp.so.79.10.1
+lrwxrwxrwx	root/root	usr/lib/libgwengui-cpp.so.79 -> libgwengui-cpp.so.79.10.1
+-rwxr-xr-x	root/root	usr/lib/libgwengui-cpp.so.79.10.1
 -rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.la
-lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so -> libgwengui-qt5.so.79.7.3
-lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so.79 -> libgwengui-qt5.so.79.7.3
--rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.so.79.7.3
+lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so -> libgwengui-qt5.so.79.10.1
+lrwxrwxrwx	root/root	usr/lib/libgwengui-qt5.so.79 -> libgwengui-qt5.so.79.10.1
+-rwxr-xr-x	root/root	usr/lib/libgwengui-qt5.so.79.10.1
 -rwxr-xr-x	root/root	usr/lib/libgwenhywfar.la
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.79.7.3
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.79 -> libgwenhywfar.so.79.7.3
--rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.79.7.3
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.79.10.1
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.79 -> libgwenhywfar.so.79.10.1
+-rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.79.10.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwengui-qt5.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwenhywfar.pc
@@ -205,6 +206,8 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/gwenhywfar.m4
 drwxr-xr-x	root/root	usr/share/gwenbuild/
 drwxr-xr-x	root/root	usr/share/gwenbuild/templates/
+-rw-r--r--	root/root	usr/share/gwenbuild/templates/convlib.tmpl
+-rw-r--r--	root/root	usr/share/gwenbuild/templates/module.tmpl
 -rw-r--r--	root/root	usr/share/gwenbuild/templates/project.tmpl
 drwxr-xr-x	root/root	usr/share/gwenhywfar/
 drwxr-xr-x	root/root	usr/share/gwenhywfar/dialogs/
@@ -214,25 +217,17 @@ drwxr-xr-x	root/root	usr/share/gwenhywfar/dialogs/
 -rw-r--r--	root/root	usr/share/gwenhywfar/dialogs/dlg_showbox.dlg
 drwxr-xr-x	root/root	usr/share/gwenhywfar/gwenbuild/
 drwxr-xr-x	root/root	usr/share/gwenhywfar/gwenbuild/builders/
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/app.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/cbuilder.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/cxxapp.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/cxxbuilder.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/module.gwb
 drwxr-xr-x	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/app.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/cbuilder.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/cxxapp.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/cxxbuilder.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/module.gwb
+-rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/msgfmt.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/sharedlib.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/staticlib.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/tm2builder.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/posix/tmplib.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/sharedlib.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/staticlib.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/tm2builder.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/tmplib.gwb
 drwxr-xr-x	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/app.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/cbuilder.gwb
@@ -243,8 +238,6 @@ drwxr-xr-x	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/staticlib.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/tm2builder.gwb
 -rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windows/tmplib.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windowsapp.gwb
--rw-r--r--	root/root	usr/share/gwenhywfar/gwenbuild/builders/windowssharedlib.gwb
 drwxr-xr-x	root/root	usr/share/gwenhywfar/typemaker2/
 drwxr-xr-x	root/root	usr/share/gwenhywfar/typemaker2/c/
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/char.tm2
