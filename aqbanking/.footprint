@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/include/aqbanking6/aqbanking/types/
 -rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/imexporter_accountinfo.h
 -rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/imexporter_context.h
 -rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/message.h
+-rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/refaccount.h
 -rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/security.h
 -rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/transaction.h
 -rw-r--r--	root/root	usr/include/aqbanking6/aqbanking/types/transactionlimits.h
@@ -62,13 +63,13 @@ drwxr-xr-x	root/root	usr/lib/aqbanking/plugins/44/providers/
 -rw-r--r--	root/root	usr/lib/aqbanking/plugins/44/providers/aqofxconnect.xml
 -rw-r--r--	root/root	usr/lib/aqbanking/plugins/44/providers/aqpaypal.xml
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/aqbanking-6.3/
--rw-r--r--	root/root	usr/lib/cmake/aqbanking-6.3/aqbanking-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/aqbanking-6.3/aqbanking-config.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/aqbanking-6.5/
+-rw-r--r--	root/root	usr/lib/cmake/aqbanking-6.5/aqbanking-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/aqbanking-6.5/aqbanking-config.cmake
 -rwxr-xr-x	root/root	usr/lib/libaqbanking.la
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.44.3.2
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.44 -> libaqbanking.so.44.3.2
--rwxr-xr-x	root/root	usr/lib/libaqbanking.so.44.3.2
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.44.5.3
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.44 -> libaqbanking.so.44.5.3
+-rwxr-xr-x	root/root	usr/lib/libaqbanking.so.44.5.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/aqbanking.pc
 drwxr-xr-x	root/root	usr/share/
@@ -158,6 +159,9 @@ drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/csv/profiles/
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/lbbberlin.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/mijnpostbank.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/oko.conf
+-rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/onvista-account.conf
+-rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/onvista-prices.conf
+-rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/onvista-trans.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/postbankffm.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/psk.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/csv/profiles/sepadebitnotes.conf
@@ -200,6 +204,8 @@ drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/swift/
 drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/swift/profiles/
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/amro940.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/amro942.conf
+-rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/fints940.conf
+-rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/fints942.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/swiftmt535.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/swiftmt940.conf
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/swift/profiles/swiftmt942.conf
@@ -265,6 +271,9 @@ drwxr-xr-x	root/root	usr/share/aqbanking/typemaker2/c/
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_providerqueue.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_providerqueue_list.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_queue.tm2
+-rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_reference_account.tm2
+-rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_reference_account_list.tm2
+-rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_reference_account_list2.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_security.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_security_list.tm2
 -rw-r--r--	root/root	usr/share/aqbanking/typemaker2/c/ab_security_list2.tm2
