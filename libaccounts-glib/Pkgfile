@@ -4,21 +4,18 @@
 # Depends on: check git gtk-doc python3-gobject vala
 
 name=libaccounts-glib
-version=1.25
-release=3
+version=1.26
+release=1
 source=()
 
 build() 
 {
 	git clone https://gitlab.com/accounts-sso/$name.git --branch=VERSION_$version
 	cd $name
-	mkdir build; cd build
 
-	meson -Dprefix=/usr \
-		-Dtests=false \
-		..
-
-	DESTDIR=$PKG ninja install
+	meson build -Dprefix=/usr
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
 	rm -rf $PKG/usr/share/gtk-doc
 }
