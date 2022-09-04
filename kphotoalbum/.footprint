@@ -18,9 +18,6 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kphotoalbum.open-raw.desktop
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/kphotoalbum.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/actions/open-raw.png
@@ -44,6 +41,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/actions/open-raw.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kphotoalbum.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kphotoalbum.svg
 drwxr-xr-x	root/root	usr/share/kphotoalbum/
 -rw-r--r--	root/root	usr/share/kphotoalbum/default-setup
 drwxr-xr-x	root/root	usr/share/kphotoalbum/demo/
@@ -92,13 +92,11 @@ drwxr-xr-x	root/root	usr/share/kphotoalbum/pics/
 -rw-r--r--	root/root	usr/share/kphotoalbum/pics/splash.png
 drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/
 drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/blue/
--rw-r--r--	root/root	usr/share/kphotoalbum/themes/blue/download.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/blue/imagepage.html
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/blue/kphotoalbum.theme
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/blue/mainpage.css
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/blue/mainpage.html
 drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/dark/
--rw-r--r--	root/root	usr/share/kphotoalbum/themes/dark/download.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/dark/imagepage.html
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/dark/kphotoalbum.theme
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/dark/mainpage.html
@@ -121,7 +119,6 @@ drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/darkJS/
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/darkJS/slideshow2.gif
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/darkJS/style.css
 drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/grey/
--rw-r--r--	root/root	usr/share/kphotoalbum/themes/grey/download.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/grey/imagepage.html
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/grey/kphotoalbum.theme
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/grey/mainpage.css
@@ -135,7 +132,6 @@ drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/picBelow/
 drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/rounded/
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/downbar.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/downleft.png
--rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/download.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/downright.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/imagepage.html
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/kphotoalbum.theme
@@ -146,7 +142,6 @@ drwxr-xr-x	root/root	usr/share/kphotoalbum/themes/rounded/
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/upbar.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/upleft.png
 -rw-r--r--	root/root	usr/share/kphotoalbum/themes/rounded/upright.png
--rw-r--r--	root/root	usr/share/kphotoalbum/tips
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kphotoalbum/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kphotoalbum/kphotoalbumui.rc
