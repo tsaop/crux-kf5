@@ -257,7 +257,9 @@ lrwxrwxrwx	root/root	usr/lib/libkritaresourcewidgets.so.18 -> libkritaresourcewi
 lrwxrwxrwx	root/root	usr/lib/libkritastore.so -> libkritastore.so.18
 lrwxrwxrwx	root/root	usr/lib/libkritastore.so.18 -> libkritastore.so.18.0.0
 -rwxr-xr-x	root/root	usr/lib/libkritastore.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritatiffpsd.so
+lrwxrwxrwx	root/root	usr/lib/libkritatiffpsd.so -> libkritatiffpsd.so.18
+lrwxrwxrwx	root/root	usr/lib/libkritatiffpsd.so.18 -> libkritatiffpsd.so.18.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritatiffpsd.so.18.0.0
 lrwxrwxrwx	root/root	usr/lib/libkritaui.so -> libkritaui.so.18
 lrwxrwxrwx	root/root	usr/lib/libkritaui.so.18 -> libkritaui.so.18.0.0
 -rwxr-xr-x	root/root	usr/lib/libkritaui.so.18.0.0
