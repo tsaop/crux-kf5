@@ -64,6 +64,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/TransferJob
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/UDSEntry
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/WorkerBase
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/WorkerFactory
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KMountPoint
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KNFSShare
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KPasswdServerClient
@@ -134,6 +135,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/transferjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/udsentry.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/workerbase.h
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/workerfactory.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kiocore_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kmountpoint.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/knfsshare.h
@@ -198,6 +200,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/FavIconRequestJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/KCoreUrlNavigator
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/OpenUrlJob
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/OpenWithHandlerInterface
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KTerminalLauncherJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kemailclientlauncherjob.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
@@ -206,6 +209,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/faviconrequestjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/kcoreurlnavigator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/openurljob.h
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/openwithhandlerinterface.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kiogui_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kterminallauncherjob.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/
@@ -237,6 +241,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/ThumbCreator
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/ThumbDevicePixelRatioDependentCreator
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/ThumbSequenceCreator
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/WidgetsAskUserActionHandler
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KOpenWithDialog
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KOverlayIconPlugin
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KPropertiesDialog
@@ -278,6 +283,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/thumbcreator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/thumbdevicepixelratiodependentcreator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/thumbsequencecreator.h
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/widgetsaskuseractionhandler.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kiowidgets_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kopenwithdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/koverlayiconplugin.h
@@ -309,20 +315,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.97.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.97.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.98.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.98.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.97.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.97.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.98.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.98.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.97.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.97.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.98.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.98.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.97.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.97.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.98.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.98.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.97.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.97.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.98.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.98.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -551,7 +557,6 @@ drwxr-xr-x	root/root	usr/share/kservices5/searchproviders/
 -rw-r--r--	root/root	usr/share/kservices5/webshortcuts.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kfileitemactionplugin.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/kiodndpopupmenuplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/konqpopupmenuplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/kpropertiesdialogplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/kurifilterplugin.desktop
