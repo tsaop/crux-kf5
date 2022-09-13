@@ -1,0 +1,24 @@
+# Description: EXR file format, the professional-grade image storage format of the motion picture industry
+# URL: https://www.openexr.com
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake imath
+
+name=openexr
+version=3.1.5
+release=1
+source=(https://github.com/AcademySoftwareFoundation/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/doc
+}
