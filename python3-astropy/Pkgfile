@@ -5,7 +5,7 @@
 
 name=python3-astropy
 version=5.1
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/a/${name/python3-/}/${name/python3-/}-$version.tar.gz)
 
 build() {

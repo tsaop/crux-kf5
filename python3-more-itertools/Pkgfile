@@ -5,7 +5,7 @@
 
 name=python3-more-itertools
 version=4.2.0
-release=2
+release=3
 source=(https://files.pythonhosted.org/packages/c0/2f/6773347277d76c5ade4414a6c3f785ef27e7f5c4b0870ec7e888e66a8d83/${name/python3-/}-$version.tar.gz)
 
 build() {
