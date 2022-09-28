@@ -5,7 +5,7 @@
 
 name=astrometry.net
 version=0.91
-release=1
+release=2
 source=(http://astrometry.net/downloads/$name-$version.tar.gz)
 
 build() {

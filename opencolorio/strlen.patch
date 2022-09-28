@@ -1,0 +1,10 @@
+--- OpenColorIO-2.1.2/src/OpenColorIO/FileRules.cpp.orig	2022-09-28 21:23:29.172824811 +0200
++++ OpenColorIO-2.1.2/src/OpenColorIO/FileRules.cpp	2022-09-28 21:23:45.258471239 +0200
+@@ -6,6 +6,7 @@
+ #include <map>
+ #include <regex>
+ #include <sstream>
++#include <cstring>
+ 
+ #include <OpenColorIO/OpenColorIO.h>
+ 

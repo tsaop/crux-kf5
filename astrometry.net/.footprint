@@ -199,19 +199,19 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/catalogs/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/libkd/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/libkd/__init__.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/libkd/spherematch.py
--rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/libkd/spherematch_c.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/libkd/spherematch_c.cpython-310-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/net/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/net/client/
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/net/client/client.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/plot/__init__.py (EMPTY)
--rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/_plotstuff_c.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/_plotstuff_c.cpython-310-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/plot/plotann.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/plot/plotstuff.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/plot/plotstuff_c.py
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/__init__.py
--rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/_cutils.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/_cutils.cpython-310-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/casjobs.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/common.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/cutils.py
@@ -229,11 +229,11 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/sdss/yanny.py
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/solver/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/solver/__init__.py
--rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/solver/_solver.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/solver/_solver.cpython-310-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/util/
 -rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/util/EXIF.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/util/__init__.py (EMPTY)
--rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/util/_util.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/site-packages/astrometry/util/_util.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/util/addpath.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/util/file.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/astrometry/util/filetype.py

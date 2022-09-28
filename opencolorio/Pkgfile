@@ -5,15 +5,18 @@
 
 name=opencolorio
 version=2.1.2
-release=1
+release=2
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz
-	fix-yaml-cpp-detection.patch)
+	fix-yaml-cpp-detection.patch
+	strlen.patch)
 
 build() {
 	cd OpenColorIO-$version
 
 	# yaml-cpp cmake files are broken. Revert to pkg-config detection
 	patch -Np1 -i $SRC/fix-yaml-cpp-detection.patch
+
+	patch -Np1 -i $SRC/strlen.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
