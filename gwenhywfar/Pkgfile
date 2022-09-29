@@ -5,7 +5,7 @@
 
 name=gwenhywfar
 version=5.10.1
-release=1
+release=2
 source=(https://github.com/aqbanking/$name/archive/$version/$name-$version.tar.gz)
 
 build() {

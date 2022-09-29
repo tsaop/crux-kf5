@@ -5,7 +5,7 @@
 
 name=libqalculate
 version=4.3.0
-release=1
+release=2
 source=(https://github.com/Qalculate/$name/releases/download/v${version}/$name-$version.tar.gz)
 
 build() {

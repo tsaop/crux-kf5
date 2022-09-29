@@ -1,11 +1,11 @@
 # Description: Telepathy connection manager for the XMPP (Jabber) protocol   
 # URL: https://telepathy.freedesktop.org/components/telepathy-gabble/ 
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libnice libsoup telepathy-glib python
+# Depends on: libnice libsoup python telepathy-glib
 
 name=telepathy-gabble
 version=0.18.3
-release=2
+release=3
 source=(https://telepathy.freedesktop.org/releases/$name/$name-$version.tar.gz)
 
 build() {

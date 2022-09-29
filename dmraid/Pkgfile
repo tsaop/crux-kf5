@@ -5,7 +5,7 @@
 
 name=dmraid
 version=1.0.0.rc16-3
-release=1
+release=2
 source=(https://people.redhat.com/~heinzm/sw/$name/src/$name-$version.tar.bz2)
 
 build() {
