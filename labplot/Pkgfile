@@ -1,11 +1,11 @@
 # Description: KDE-application for interactive graphing and analysis of scientific data
 # URL: https://labplot.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cantor cfitsio fftw gsl kdelibs4support lz4 netcdf
+# Depends on: cantor cfitsio fftw gsl kdelibs4support lz4 netcdf readstat
 
 name=labplot
 version=2.9.0
-release=1
+release=2
 source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
