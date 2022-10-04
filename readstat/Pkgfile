@@ -1,0 +1,17 @@
+# Description: Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
+# URL: https://github.com/WizardMac/ReadStat
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  glibc
+
+name=readstat
+version=1.1.8
+release=1
+source=(https://github.com/WizardMac/ReadStat/releases/download/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

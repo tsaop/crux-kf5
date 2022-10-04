@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/extract_metadata
+-rwxr-xr-x	root/root	usr/bin/readstat
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/readstat.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libreadstat.la
+lrwxrwxrwx	root/root	usr/lib/libreadstat.so -> libreadstat.so.1.1.8
+lrwxrwxrwx	root/root	usr/lib/libreadstat.so.1 -> libreadstat.so.1.1.8
+-rwxr-xr-x	root/root	usr/lib/libreadstat.so.1.1.8
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/extract_metadata.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/readstat.1.gz
