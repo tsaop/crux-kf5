@@ -4,8 +4,8 @@
 # Depends on: desktop-file-utils kbookmarks kjobwidgets krb5 kwallet solid
 
 name=kio
-version=5.98.0
-release=2
+version=5.99.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
