@@ -1,10 +1,10 @@
 # Description: Hex editor for the KDE desktop
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils knewstuff kparts qca-qt5
+# Depends on: kcmutils knewstuff kparts
 
 name=okteta
-version=0.26.8
+version=0.26.9
 release=1
 source=(https://github.com/KDE/okteta/archive/v$version/$name-$version.tar.gz)
 
