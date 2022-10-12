@@ -1,0 +1,37 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KPipeWire/
+-rw-r--r--	root/root	usr/include/KPipeWire/PipeWireRecord
+-rw-r--r--	root/root	usr/include/KPipeWire/PipeWireSourceItem
+-rw-r--r--	root/root	usr/include/KPipeWire/PipeWireSourceStream
+-rw-r--r--	root/root	usr/include/KPipeWire/kpipewire_export.h
+-rw-r--r--	root/root	usr/include/KPipeWire/pipewirerecord.h
+-rw-r--r--	root/root	usr/include/KPipeWire/pipewiresourceitem.h
+-rw-r--r--	root/root	usr/include/KPipeWire/pipewiresourcestream.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KPipeWire/
+-rw-r--r--	root/root	usr/lib/cmake/KPipeWire/KPipeWireConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPipeWire/KPipeWireConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPipeWire/KPipeWireTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPipeWire/KPipeWireTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKPipeWire.so -> libKPipeWire.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPipeWire.so.5 -> libKPipeWire.so.5.26.0
+-rwxr-xr-x	root/root	usr/lib/libKPipeWire.so.5.26.0
+lrwxrwxrwx	root/root	usr/lib/libKPipeWireRecord.so -> libKPipeWireRecord.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPipeWireRecord.so.5 -> libKPipeWireRecord.so.5.26.0
+-rwxr-xr-x	root/root	usr/lib/libKPipeWireRecord.so.5.26.0
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/pipewire/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/pipewire/libKPipeWireDeclarative.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/pipewire/qmldir
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/pipewire/record/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/pipewire/record/libKPipeWireRecordDeclarative.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/pipewire/record/qmldir
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kpipewire.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kpipewirerecord.categories
