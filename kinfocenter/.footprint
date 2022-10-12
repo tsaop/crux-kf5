@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_firmware_security.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_glx.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_interrupts.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_kwinsupportinfo.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_nic.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_pci.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/kinfocenter/kcm_samba.so
@@ -88,6 +89,10 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_interrupts/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_interrupts/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_interrupts/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_interrupts/contents/ui/main.qml
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_kwinsupportinfo/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_kwinsupportinfo/contents/
+drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_kwinsupportinfo/contents/ui/
+-rw-r--r--	root/root	usr/share/kpackage/kcms/kcm_kwinsupportinfo/contents/ui/main.qml
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nic/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nic/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcm_nic/contents/ui/
@@ -113,8 +118,6 @@ drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcmsamba/contents/
 drwxr-xr-x	root/root	usr/share/kpackage/kcms/kcmsamba/contents/ui/
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcmsamba/contents/ui/ShareListItem.qml
 -rw-r--r--	root/root	usr/share/kpackage/kcms/kcmsamba/contents/ui/main.qml
-drwxr-xr-x	root/root	usr/share/kservicetypes5/
--rw-r--r--	root/root	usr/share/kservicetypes5/kinfocentercategory.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kinfocenter.appdata.xml
 drwxr-xr-x	root/root	usr/share/polkit-1/
