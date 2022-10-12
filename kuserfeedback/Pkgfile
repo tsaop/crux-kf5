@@ -1,0 +1,23 @@
+# Description: Framework for collecting user feedback for apps via telemetry and surveys
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules qt5 
+
+name=kuserfeedback
+version=1.2.0
+release=1
+source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DKDE_INSTALL_LIBDIR=lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}
