@@ -4,15 +4,12 @@
 # Depends on: crypto++ fuse python range-v3 spdlog
 
 name=cryfs
-version=0.11.2
-release=2
-source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
-	0001-Fix-build-with-fmt-9.0-433.patch)
+version=0.11.3
+release=1
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-
-	patch -Np1 -i $SRC/0001-Fix-build-with-fmt-9.0-433.patch
 
 	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
