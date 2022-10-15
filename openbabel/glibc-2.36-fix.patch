@@ -1,0 +1,13 @@
+--- openbabel-3.1.1/include/openbabel/obutil.h.orig	2022-10-15 20:36:05.782037892 +0200
++++ openbabel-3.1.1/include/openbabel/obutil.h	2022-10-15 20:36:17.873773372 +0200
+@@ -36,6 +36,10 @@
+ #endif
+ #endif
+ 
++#if HAVE_CLOCK_T
++#include <ctime>
++#endif
++
+ #include <math.h>
+ 
+ #ifndef M_PI

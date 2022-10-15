@@ -5,17 +5,17 @@
 
 name=openbabel
 version=3.1.1
-release=1
-source=(https://github.com/$name/$name/releases/download/$name-${version//./-}/$name-$version-source.tar.bz2)
-
+release=2
+source=(https://github.com/$name/$name/releases/download/$name-${version//./-}/$name-$version-source.tar.bz2
+	glibc-2.36-fix.patch)
 build() {
 	cd $name-$version
-	mkdir build; cd build
+	patch -Np1 -i $SRC/glibc-2.36-fix.patch
 
-	cmake -DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		..
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
