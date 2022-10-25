@@ -1,0 +1,15 @@
+# Description: Backport of PEP 654 (exception groups)
+# URL: https://pypi.org/project/exceptiongroup/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-build python3-installer
+
+name=python3-exceptiongroup
+version=1.0.0rc9
+release=1
+source=(https://files.pythonhosted.org/packages/cb/b2/ca0513bb83e236707e22218d1e52d5f5b38b608653d385edb3fb3a03d35f/${name/python3-/}-$version.tar.gz)
+
+build() {
+	cd ${name/python3-/}-$version
+	python3 -m build
+	python3 -m installer --destdir=$PKG dist/*.whl
+}
