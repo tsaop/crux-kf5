@@ -1,0 +1,33 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/mz.h
+-rw-r--r--	root/root	usr/include/mz_compat.h
+-rw-r--r--	root/root	usr/include/mz_crypt.h
+-rw-r--r--	root/root	usr/include/mz_os.h
+-rw-r--r--	root/root	usr/include/mz_strm.h
+-rw-r--r--	root/root	usr/include/mz_strm_buf.h
+-rw-r--r--	root/root	usr/include/mz_strm_bzip.h
+-rw-r--r--	root/root	usr/include/mz_strm_lzma.h
+-rw-r--r--	root/root	usr/include/mz_strm_mem.h
+-rw-r--r--	root/root	usr/include/mz_strm_os.h
+-rw-r--r--	root/root	usr/include/mz_strm_pkcrypt.h
+-rw-r--r--	root/root	usr/include/mz_strm_split.h
+-rw-r--r--	root/root	usr/include/mz_strm_wzaes.h
+-rw-r--r--	root/root	usr/include/mz_strm_zlib.h
+-rw-r--r--	root/root	usr/include/mz_strm_zstd.h
+-rw-r--r--	root/root	usr/include/mz_zip.h
+-rw-r--r--	root/root	usr/include/mz_zip_rw.h
+-rw-r--r--	root/root	usr/include/unzip.h
+-rw-r--r--	root/root	usr/include/zip.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/minizip/
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip-config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip.cmake
+lrwxrwxrwx	root/root	usr/lib/libminizip.so -> libminizip.so.3
+lrwxrwxrwx	root/root	usr/lib/libminizip.so.3 -> libminizip.so.3.0.7
+-rwxr-xr-x	root/root	usr/lib/libminizip.so.3.0.7
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/minizip.pc

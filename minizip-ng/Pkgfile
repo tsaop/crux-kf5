@@ -1,0 +1,22 @@
+# Description: Fork of the popular zip manipulation library found in the zlib distribution
+# URL: https://github.com/zlib-ng/minizip-ng
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake
+
+name=minizip-ng
+version=3.0.7
+release=1
+source=(https://github.com/zlib-ng/$name/archive/${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
