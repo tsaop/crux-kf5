@@ -74,11 +74,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/Mlt7/
 -rw-r--r--	root/root	usr/lib/cmake/Mlt7/Mlt7Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Mlt7/Mlt7Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libmlt++-7.so -> libmlt++-7.so.7
-lrwxrwxrwx	root/root	usr/lib/libmlt++-7.so.7 -> libmlt++-7.so.7.8.0
--rwxr-xr-x	root/root	usr/lib/libmlt++-7.so.7.8.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++-7.so.7 -> libmlt++-7.so.7.10.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++-7.so.7.10.0
 lrwxrwxrwx	root/root	usr/lib/libmlt-7.so -> libmlt-7.so.7
-lrwxrwxrwx	root/root	usr/lib/libmlt-7.so.7 -> libmlt-7.so.7.8.0
--rwxr-xr-x	root/root	usr/lib/libmlt-7.so.7.8.0
+lrwxrwxrwx	root/root	usr/lib/libmlt-7.so.7 -> libmlt-7.so.7.10.0
+-rwxr-xr-x	root/root	usr/lib/libmlt-7.so.7.10.0
 drwxr-xr-x	root/root	usr/lib/mlt-7/
 -rwxr-xr-x	root/root	usr/lib/mlt-7/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt-7/libmltcore.so
@@ -442,6 +442,8 @@ drwxr-xr-x	root/root	usr/share/mlt-7/qt/
 -rw-r--r--	root/root	usr/share/mlt-7/qt/filter_audiolevelgraph.yml
 -rw-r--r--	root/root	usr/share/mlt-7/qt/filter_audiospectrum.yml
 -rw-r--r--	root/root	usr/share/mlt-7/qt/filter_audiowaveform.yml
+-rw-r--r--	root/root	usr/share/mlt-7/qt/filter_gpsgraphic.yml
+-rw-r--r--	root/root	usr/share/mlt-7/qt/filter_gpstext.yml
 -rw-r--r--	root/root	usr/share/mlt-7/qt/filter_lightshow.yml
 -rw-r--r--	root/root	usr/share/mlt-7/qt/filter_qtblend.yml
 -rw-r--r--	root/root	usr/share/mlt-7/qt/filter_qtcrop.yml
@@ -471,7 +473,6 @@ drwxr-xr-x	root/root	usr/share/mlt-7/vorbis/
 -rw-r--r--	root/root	usr/share/mlt-7/vorbis/producer_vorbis.yml
 drwxr-xr-x	root/root	usr/share/mlt-7/xml/
 -rw-r--r--	root/root	usr/share/mlt-7/xml/consumer_xml.yml
--rw-r--r--	root/root	usr/share/mlt-7/xml/filter_gpstext.yml
 -rw-r--r--	root/root	usr/share/mlt-7/xml/mlt-xml.dtd
 -rw-r--r--	root/root	usr/share/mlt-7/xml/producer_xml-nogl.yml
 -rw-r--r--	root/root	usr/share/mlt-7/xml/producer_xml-string.yml
