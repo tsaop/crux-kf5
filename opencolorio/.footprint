@@ -1,9 +1,14 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/ocioarchive
 -rwxr-xr-x	root/root	usr/bin/ociobakelut
 -rwxr-xr-x	root/root	usr/bin/ociocheck
 -rwxr-xr-x	root/root	usr/bin/ociochecklut
+-rwxr-xr-x	root/root	usr/bin/ocioconvert
+-rwxr-xr-x	root/root	usr/bin/ociodisplay
+-rwxr-xr-x	root/root	usr/bin/ociolutimage
 -rwxr-xr-x	root/root	usr/bin/ociomakeclf
+-rwxr-xr-x	root/root	usr/bin/ocioperf
 -rwxr-xr-x	root/root	usr/bin/ociowrite
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/OpenColorIO/
@@ -12,6 +17,8 @@ drwxr-xr-x	root/root	usr/include/OpenColorIO/
 -rw-r--r--	root/root	usr/include/OpenColorIO/OpenColorIO.h
 -rw-r--r--	root/root	usr/include/OpenColorIO/OpenColorTransforms.h
 -rw-r--r--	root/root	usr/include/OpenColorIO/OpenColorTypes.h
+drwxr-xr-x	root/root	usr/include/OpenColorIO/imageioapphelpers/
+-rw-r--r--	root/root	usr/include/OpenColorIO/imageioapphelpers/imageio.h
 drwxr-xr-x	root/root	usr/include/OpenColorIO/oglapphelpers/
 -rw-r--r--	root/root	usr/include/OpenColorIO/oglapphelpers/glsl.h
 -rw-r--r--	root/root	usr/include/OpenColorIO/oglapphelpers/oglapp.h
@@ -22,9 +29,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/OpenColorIO/
 -rw-r--r--	root/root	usr/lib/cmake/OpenColorIO/OpenColorIOConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/OpenColorIO/OpenColorIOTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/OpenColorIO/OpenColorIOTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libOpenColorIO.so -> libOpenColorIO.so.2.1
-lrwxrwxrwx	root/root	usr/lib/libOpenColorIO.so.2.1 -> libOpenColorIO.so.2.1.2
--rwxr-xr-x	root/root	usr/lib/libOpenColorIO.so.2.1.2
+lrwxrwxrwx	root/root	usr/lib/libOpenColorIO.so -> libOpenColorIO.so.2.2
+lrwxrwxrwx	root/root	usr/lib/libOpenColorIO.so.2.2 -> libOpenColorIO.so.2.2.0
+-rwxr-xr-x	root/root	usr/lib/libOpenColorIO.so.2.2.0
+-rw-r--r--	root/root	usr/lib/libOpenColorIOimageioapphelpers.a
 -rw-r--r--	root/root	usr/lib/libOpenColorIOoglapphelpers.a
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/OpenColorIO.pc

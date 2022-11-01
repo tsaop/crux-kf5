@@ -1,11 +1,11 @@
 # Description: Color management framework for visual effects and animation
 # URL: http://opencolorio.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: lcms2 openexr pybind11 pystring tinyxml yaml-cpp
+# Depends on: git lcms2 openexr pybind11 pystring tinyxml yaml-cpp
 
 name=opencolorio
-version=2.1.2
-release=2
+version=2.2.0
+release=1
 source=(https://github.com/imageworks/OpenColorIO/archive/v$version/$name-$version.tar.gz
 	fix-yaml-cpp-detection.patch
 	strlen.patch)
