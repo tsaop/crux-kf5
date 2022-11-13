@@ -1,24 +1,26 @@
 # Description: UI component responsible for handling the user interactions which can happen during the login process of an online account
 # URL: https://gitlab.com/accounts-sso/signon-ui
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: libaccounts-qt libnotify qtwebkit signond
+# Depends on: libaccounts-qt libnotify qtwebengine signond
 
 name=signon-ui
-version=0.17+15.10.20150810-0ubuntu1
+version=0.17+20171022
+_commit=4368bb77d9d1abc2978af514225ba4a42c29a646
 release=1
-source=()
+source=(https://gitlab.com/accounts-sso/signon-ui/-/archive/$_commit/$name-$version.tar.gz
+	fake-user-agent.patch)
 
 build() 
 {
-	git clone https://gitlab.com/accounts-sso/$name.git --branch=$version
-	cd $name
+	cd $name-$_commit
 
-	 # Do not install tests
-	echo 'INSTALLS =' >>tests/unit/tst_inactivity_timer.pro
-	echo 'INSTALLS =' >>tests/unit/tst_signon_ui.pro
+	# Do not install tests
+	sed -e 's|src \\|src|' -e '/tests/d' -i signon-ui.pro
+	
+	# Fake user ID to bypass Google blacklist
+	patch -Np1 -i $SRC/fake-user-agent.patch
 
-	qmake-qt5 PREFIX=/usr
-
+	qmake-qt5 PREFIX=/usr LIBDIR=/usr/lib
 	make
 	make INSTALL_ROOT=$PKG install
 }
