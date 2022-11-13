@@ -4,21 +4,17 @@
 # Depends on: qt5
 
 name=grantlee
-version=5.3.0
+version=5.3.1
 release=1
-source=(http://downloads.grantlee.org/$name-$version.tar.gz)
+source=(https://github.com/steveire/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	export CXXFLAGS="$CXXFLAGS -std=c++11"
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_BUILD_TYPE=Release \
-	 ..
-	
-	make
-	
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
