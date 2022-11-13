@@ -1,29 +1,23 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdewebkit kplotting
+# Depends on: kplotting kcoreaddons kconfig kdoctools
 
 name=kdesignerplugin
 version=5.99.0
-release=1
+release=2
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	
-
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-DKDE_INSTALL_LIBDIR=lib \
+	-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	( cd $PKG/usr/share/man
