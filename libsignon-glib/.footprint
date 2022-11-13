@@ -18,6 +18,15 @@ lrwxrwxrwx	root/root	usr/lib/libsignon-glib.so.2 -> libsignon-glib.so.2.0.0
 -rwxr-xr-x	root/root	usr/lib/libsignon-glib.so.2.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libsignon-glib.pc
+drwxr-xr-x	root/root	usr/lib/python3.10/
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/gi/
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/gi/overrides/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/gi/overrides/Signon.py
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/Signon-2.0.gir
+drwxr-xr-x	root/root	usr/share/vala/
+drwxr-xr-x	root/root	usr/share/vala/vapi/
+-rw-r--r--	root/root	usr/share/vala/vapi/libsignon-glib.deps
+-rw-r--r--	root/root	usr/share/vala/vapi/libsignon-glib.vapi
