@@ -5,22 +5,32 @@
 
 name=kexi
 version=3.2.0
-release=1
-source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/$name/src/$name-$version.tar.xz
+	kexi-glib-2.70.patch
+	kexi-qt-5.13.patch)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-		-DLIB_INSTALL_DIR=/usr/lib \
+	# Fix marble detection
+	sed -i -e 's|KexiMarble ${MARBLE_MIN_VERSION}|Marble ${MARBLE_MIN_VERSION}|' CMakeLists.txt
+
+	# Patches
+	patch -Np1 -i $SRC/kexi-glib-2.70.patch
+	patch -Np1 -i $SRC/kexi-qt-5.13.patch
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DKDE_INSTALL_LIBDIR=lib \
 		-DCMAKE_BUILD_TYPE=Release \
-		..
+		-DBUILD_TESTING=OFF \
+		-DBUILD_EXAMPLES=OFF
 
-	make
-	make DESTDIR=$PKG install
-    
-    rm -rf $PKG/usr/share/locale
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
 	rm -rf $PKG/usr/share/doc
 }
