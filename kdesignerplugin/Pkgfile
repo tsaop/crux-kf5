@@ -1,11 +1,11 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kplotting kcoreaddons kconfig kdoctools
+# Depends on: kconfig kcoreaddons kdoctools kplotting
 
 name=kdesignerplugin
-version=5.99.0
-release=2
+version=5.100.0
+release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 
 build() {

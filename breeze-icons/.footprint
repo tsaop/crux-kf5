@@ -17,6 +17,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/Info-amarok.svg -> r
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/PrePostCondition.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/accept_signal.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/accept_time_event.svg -> appointment-new.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/accessories-dictionary-symbolic.svg -> view-readermode.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/acrobat.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/action-albumfolder-importdir2.svg -> folder-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/action-rss_tag.svg -> tag.svg
@@ -5054,6 +5055,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/devices/22@3x -> 22
 drwxr-xr-x	root/root	usr/share/icons/breeze-dark/devices/64/
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/audio-card.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/audio-headphones.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/audio-headset.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/auth-sim.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/battery.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/camera-photo.svg
@@ -5400,6 +5402,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oa
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/application-vnd.rar.svg -> application-x-rar.svg
@@ -5690,6 +5693,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-csharp.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-directory.svg -> x-office-contact.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-dockerfile.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-enriched.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-fortran.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-javascript.svg -> application-x-javascript.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-markdown.svg -> text-x-markdown.svg
@@ -5721,6 +5725,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-credits.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-csharp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-csrc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-dtd.svg -> text-vnd.wap.wml.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-fortran.svg -> text-fortran.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-generic.svapplication-x-awk.svg -> text-x-script.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-generic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-x-gettext-translation.svg -> application-x-xliff.svg
@@ -5900,6 +5905,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oa
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/application-vnd.rar.svg -> application-x-rar.svg
@@ -6190,6 +6196,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-csharp.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-directory.svg -> x-office-contact.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-dockerfile.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-enriched.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-fortran.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-javascript.svg -> application-x-javascript.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-markdown.svg -> text-x-markdown.svg
@@ -6221,6 +6228,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-credits.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-csharp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-csrc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-dtd.svg -> text-vnd.wap.wml.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-fortran.svg -> text-fortran.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-generic.svapplication-x-awk.svg -> text-x-script.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-generic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-x-gettext-translation.svg -> application-x-xliff.svg
@@ -6400,6 +6408,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oa
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/application-vnd.rar.svg -> application-x-rar.svg
@@ -6691,6 +6700,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-csharp.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-directory.svg -> x-office-contact.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-dockerfile.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-enriched.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-fortran.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-javascript.svg -> application-x-javascript.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-markdown.svg -> text-x-markdown.svg
@@ -6722,6 +6732,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-credits.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-csharp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-csrc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-dtd.svg -> text-vnd.wap.wml.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-fortran.svg -> text-fortran.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-generic.svapplication-x-awk.svg -> text-x-script.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-generic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-x-gettext-translation.svg -> application-x-xliff.svg
@@ -6899,6 +6910,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oa
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/application-vnd.rar.svg -> application-x-rar.svg
@@ -8418,6 +8430,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/com.github.ztefn.hagu
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/com.github.ztefn.haguichi-disconnected.svg -> haguichi-disconnected.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/data-error.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/data-information.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/data-success.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/data-warning.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/dialog-error.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/dialog-information.svg
@@ -8800,6 +8813,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/Info-amarok.svg -> run-bu
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/PrePostCondition.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/accept_signal.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/accept_time_event.svg -> appointment-new.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/accessories-dictionary-symbolic.svg -> view-readermode.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/acrobat.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/action-albumfolder-importdir2.svg -> folder-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/action-rss_tag.svg -> tag.svg
@@ -13824,6 +13838,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/devices/22@3x -> 22
 drwxr-xr-x	root/root	usr/share/icons/breeze/devices/64/
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/audio-card.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/audio-headphones.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/devices/64/audio-headset.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/auth-sim.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/battery.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/camera-photo.svg
@@ -14172,6 +14187,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.o
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/application-vnd.rar.svg -> application-x-rar.svg
@@ -14462,6 +14478,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-csharp.svg -> text
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-directory.svg -> x-office-contact.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-dockerfile.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-enriched.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-fortran.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-javascript.svg -> application-x-javascript.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-markdown.svg -> text-x-markdown.svg
@@ -14493,6 +14510,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-x-credits.svg -> t
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-x-csharp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-x-csrc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-x-dtd.svg -> text-vnd.wap.wml.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-x-fortran.svg -> text-fortran.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-x-generic.svapplication-x-awk.svg -> text-x-script.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-x-generic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-x-gettext-translation.svg -> application-x-xliff.svg
@@ -14672,6 +14690,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.o
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/application-vnd.rar.svg -> application-x-rar.svg
@@ -14962,6 +14981,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-csharp.svg -> text
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-directory.svg -> x-office-contact.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-dockerfile.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-enriched.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-fortran.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-javascript.svg -> application-x-javascript.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-markdown.svg -> text-x-markdown.svg
@@ -14993,6 +15013,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-x-credits.svg -> t
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-x-csharp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-x-csrc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-x-dtd.svg -> text-vnd.wap.wml.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-x-fortran.svg -> text-fortran.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-x-generic.svapplication-x-awk.svg -> text-x-script.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-x-generic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-x-gettext-translation.svg -> application-x-xliff.svg
@@ -15172,6 +15193,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.o
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/application-vnd.rar.svg -> application-x-rar.svg
@@ -15463,6 +15485,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-csharp.svg -> text
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-directory.svg -> x-office-contact.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-dockerfile.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-enriched.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-fortran.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-html.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-javascript.svg -> application-x-javascript.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-markdown.svg -> text-x-markdown.svg
@@ -15494,6 +15517,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-x-credits.svg -> t
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-x-csharp.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-x-csrc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-x-dtd.svg -> text-vnd.wap.wml.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-x-fortran.svg -> text-fortran.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-x-generic.svapplication-x-awk.svg -> text-x-script.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-x-generic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-x-gettext-translation.svg -> application-x-xliff.svg
@@ -15671,6 +15695,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.o
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.opendocument.text-template.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.opendocument.text.svg -> x-office-document.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.oasis.opendocument.web-template.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.openofficeorg.extension.svg -> x-kde-nsplugin-generated.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.openxmlformats-officedocument.spreadsheetml.sheet.svg -> application-vnd.ms-excel.addin.macroenabled.12.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.openxmlformats-officedocument.wordprocessingml.document.svg -> application-msword.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/application-vnd.rar.svg -> application-x-rar.svg
@@ -17190,6 +17215,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/com.github.ztefn.haguichi-
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/com.github.ztefn.haguichi-disconnected.svg -> haguichi-disconnected.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/data-error.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/data-information.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/data-success.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/data-warning.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/dialog-error.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/dialog-information.svg

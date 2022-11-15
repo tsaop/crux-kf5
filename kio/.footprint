@@ -203,6 +203,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/KCoreUrlNavigator
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/OpenUrlJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/OpenWithHandlerInterface
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/ThumbnailCreator
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KTerminalLauncherJob
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kemailclientlauncherjob.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
@@ -212,6 +213,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/kcoreurlnavigator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/openurljob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/openwithhandlerinterface.h
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/thumbnailcreator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kiogui_export.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kterminallauncherjob.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/
@@ -226,6 +228,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KFileItemDelegate
 drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/AccessManager
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/DeleteOrTrashJob
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/DndPopupMenuPlugin
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/DropJob
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/KIO/FileUndoManager
@@ -268,6 +271,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kfileitemdelegate.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOWidgets/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/accessmanager.h
+-rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/deleteortrashjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/dndpopupmenuplugin.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/dropjob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOWidgets/kio/fileundomanager.h
@@ -317,20 +321,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.99.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.99.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.100.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.100.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.99.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.99.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.100.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.100.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.99.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.99.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.100.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.100.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.99.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.99.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.100.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.100.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.99.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.99.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.100.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.100.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -561,7 +565,6 @@ drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/kfileitemactionplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/konqpopupmenuplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/kpropertiesdialogplugin.desktop
--rw-r--r--	root/root	usr/share/kservicetypes5/kurifilterplugin.desktop
 -rw-r--r--	root/root	usr/share/kservicetypes5/searchprovider.desktop
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man8/
