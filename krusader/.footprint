@@ -7,8 +7,10 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kio_iso.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kio_krarc.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/kio_iso.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/kio_krarc.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.krusader.desktop
@@ -85,9 +87,6 @@ drwxr-xr-x	root/root	usr/share/krusader/icons/hicolor/32x32/actions/
 -rw-r--r--	root/root	usr/share/krusader/total_commander.keymap
 -rw-r--r--	root/root	usr/share/krusader/total_commander.keymap.info
 -rw-r--r--	root/root	usr/share/krusader/useraction_examples.xml
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/iso.protocol
--rw-r--r--	root/root	usr/share/kservices5/krarc.protocol
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/krusader/
 -rw-r--r--	root/root	usr/share/kxmlgui5/krusader/krusaderlisterui.rc

@@ -4,26 +4,20 @@
 # Depends on: gtk kparts
 
 name=krusader
-version=2.7.2
+version=2.8.0
 release=1
 source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DCMAKE_INSTALL_LIBEXECDIR=lib \
-	-DBUILD_TESTING=OFF \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev \
-	..
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_TESTING=OFF \
+		-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/doc
