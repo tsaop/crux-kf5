@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/indi_Excalibur
 -rwxr-xr-x	root/root	usr/bin/indi_aaf2_focus
 -rwxr-xr-x	root/root	usr/bin/indi_activefocuser_focus
 -rwxr-xr-x	root/root	usr/bin/indi_arduinost4
@@ -43,7 +44,9 @@ lrwxrwxrwx	root/root	usr/bin/indi_ioptronHC8406 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_10micron -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_16 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_OnStep -> indi_lx200generic
+lrwxrwxrwx	root/root	usr/bin/indi_lx200_OpenAstroTech -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_lx200_TeenAstro
+lrwxrwxrwx	root/root	usr/bin/indi_lx200am5 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200ap -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200ap_gtocp2 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200ap_v2 -> indi_lx200generic
@@ -79,6 +82,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_focuscube
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_ppb
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_ppba
+-rwxr-xr-x	root/root	usr/bin/indi_pegasus_prodigyMF
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_scopsoag
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_uch
 -rwxr-xr-x	root/root	usr/bin/indi_pegasus_upb
@@ -131,10 +135,12 @@ lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indi_teenastro_focus
 -rwxr-xr-x	root/root	usr/bin/indi_temma_telescope
 -rwxr-xr-x	root/root	usr/bin/indi_trutech_wheel
+-rwxr-xr-x	root/root	usr/bin/indi_uranus_weather
 -rwxr-xr-x	root/root	usr/bin/indi_usbdewpoint
 -rwxr-xr-x	root/root	usr/bin/indi_usbfocusv3_focus
 -rwxr-xr-x	root/root	usr/bin/indi_v4l2_ccd
 -rwxr-xr-x	root/root	usr/bin/indi_vantage_weather
+-rwxr-xr-x	root/root	usr/bin/indi_wanderer_cover
 -rwxr-xr-x	root/root	usr/bin/indi_wanderer_lite_rotator
 -rwxr-xr-x	root/root	usr/bin/indi_watchdog
 -rwxr-xr-x	root/root	usr/bin/indi_watcher_weather
@@ -143,6 +149,7 @@ lrwxrwxrwx	root/root	usr/bin/indi_tcfs3_focus -> indi_tcfs_focus
 -rwxr-xr-x	root/root	usr/bin/indiserver
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libindi/
+-rw-r--r--	root/root	usr/include/libindi/abstractbaseclient.h
 drwxr-xr-x	root/root	usr/include/libindi/alignment/
 -rw-r--r--	root/root	usr/include/libindi/alignment/AlignmentSubsystemForDrivers.h
 -rw-r--r--	root/root	usr/include/libindi/alignment/AlignmentSubsystemForMathPlugins.h
@@ -233,8 +240,10 @@ drwxr-xr-x	root/root	usr/include/libindi/dsp/
 drwxr-xr-x	root/root	usr/include/libindi/mounts/
 -rw-r--r--	root/root	usr/include/libindi/mounts/lx200driver.h
 -rw-r--r--	root/root	usr/include/libindi/mounts/lx200telescope.h
+-rw-r--r--	root/root	usr/include/libindi/parentdevice.h
 -rw-r--r--	root/root	usr/include/libindi/pid.h
 -rw-r--r--	root/root	usr/include/libindi/sdfits.h
+-rw-r--r--	root/root	usr/include/libindi/sharedblob.h
 drwxr-xr-x	root/root	usr/include/libindi/stream/
 -rw-r--r--	root/root	usr/include/libindi/stream/ccvt.h
 -rw-r--r--	root/root	usr/include/libindi/stream/ccvt_types.h
@@ -262,16 +271,19 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.7
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.7
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.1 -> libindiAlignmentDriver.so.1.9.9
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.1.9.9
 -rw-r--r--	root/root	usr/lib/libindiclient.a
+lrwxrwxrwx	root/root	usr/lib/libindiclient.so -> libindiclient.so.1
+lrwxrwxrwx	root/root	usr/lib/libindiclient.so.1 -> libindiclient.so.1.9.9
+-rwxr-xr-x	root/root	usr/lib/libindiclient.so.1.9.9
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.1
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.7
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.7
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.1 -> libindidriver.so.1.9.9
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.1.9.9
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.1
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.7
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.7
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.1 -> libindilx200.so.1.9.9
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.1.9.9
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
