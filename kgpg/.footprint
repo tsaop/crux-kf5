@@ -81,11 +81,11 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/status/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/status/key-single.svgz
 drwxr-xr-x	root/root	usr/share/kgpg/
 -rw-r--r--	root/root	usr/share/kgpg/tips
-drwxr-xr-x	root/root	usr/share/kservices5/
-drwxr-xr-x	root/root	usr/share/kservices5/ServiceMenus/
--rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/kgpg_encryptfile.desktop
--rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/kgpg_encryptfolder.desktop
--rw-r--r--	root/root	usr/share/kservices5/ServiceMenus/kgpg_viewdecrypted.desktop
+drwxr-xr-x	root/root	usr/share/kio/
+drwxr-xr-x	root/root	usr/share/kio/servicemenus/
+-rwxr-xr-x	root/root	usr/share/kio/servicemenus/kgpg_encryptfile.desktop
+-rwxr-xr-x	root/root	usr/share/kio/servicemenus/kgpg_encryptfolder.desktop
+-rwxr-xr-x	root/root	usr/share/kio/servicemenus/kgpg_viewdecrypted.desktop
 drwxr-xr-x	root/root	usr/share/kxmlgui5/
 drwxr-xr-x	root/root	usr/share/kxmlgui5/kgpg/
 -rw-r--r--	root/root	usr/share/kxmlgui5/kgpg/keysmanager.rc

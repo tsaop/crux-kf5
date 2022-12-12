@@ -5,9 +5,6 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/
 drwxr-xr-x	root/root	usr/include/KF5/PimCommon/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/AbstractGenericPlugin
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/AbstractGenericPluginInterface
--rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/AutoCorrection
--rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/AutoCorrectionLanguage
--rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/AutoCorrectionWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/BroadcastStatus
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/ConfigureImmutableWidgetUtils
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/ConfigurePluginDialog
@@ -28,24 +25,20 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/PimCommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/MigrateApplicationFiles
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/MigrateFileInfo
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/NetworkManager
--rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/PimCommonSettings
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/PimUtil
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/PluginUtil
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/PurposeMenuWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/RenameFileDialog
--rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/RichTexteditWithAutoCorrection
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/ShareServiceUrlManager
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/SimpleStringListEditor
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/SpellCheckLineEdit
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/TemplateListWidget
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/TemplateManager
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/TranslatorConfigureDialog
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/PimCommon/TranslatorWidget
 drwxr-xr-x	root/root	usr/include/KF5/PimCommon/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/abstractgenericplugin.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/abstractgenericplugininterface.h
--rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/autocorrection.h
--rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/autocorrectionlanguage.h
--rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/autocorrectionwidget.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/broadcaststatus.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/configureimmutablewidgetutils.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/configureplugindialog.h
@@ -68,18 +61,16 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommon/pimcommon/
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/migratefileinfo.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/networkmanager.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/pimcommon_export.h
--rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/pimcommonsetting_base.h
--rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/pimcommonsettings.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/pimutil.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/pluginutil.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/purposemenuwidget.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/renamefiledialog.h
--rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/richtexteditwithautocorrection.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/shareserviceurlmanager.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/simplestringlisteditor.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/spellchecklineedit.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/templatelistwidget.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/templatemanager.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/translatorconfiguredialog.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon/translatorwidget.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommon/pimcommon_version.h
 drwxr-xr-x	root/root	usr/include/KF5/PimCommonAkonadi/
@@ -129,6 +120,28 @@ drwxr-xr-x	root/root	usr/include/KF5/PimCommonAkonadi/pimcommonakonadi/
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/pimcommonakonadi/recentaddresses.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/pimcommonakonadi/selectmulticollectiondialog.h
 -rw-r--r--	root/root	usr/include/KF5/PimCommonAkonadi/pimcommonakonadi_version.h
+drwxr-xr-x	root/root	usr/include/KF5/PimCommonAutoCorrection/
+drwxr-xr-x	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/AutoCorrection
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/AutoCorrectionLanguage
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/AutoCorrectionSettings
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/AutoCorrectionTextEdit
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/AutoCorrectionUtils
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/AutoCorrectionWidget
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/PimCommonAutoCorrectionSettings
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/PimCommonAutoCorrection/SelectSpecialCharDialog
+drwxr-xr-x	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/autocorrection.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/autocorrectionlanguage.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/autocorrectionsettings.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/autocorrectiontextedit.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/autocorrectionutils.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/autocorrectionwidget.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/pimcommonautocorrection_export.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/pimcommonautocorrectionsetting_base.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/pimcommonautocorrectionsettings.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection/selectspecialchardialog.h
+-rw-r--r--	root/root	usr/include/KF5/PimCommonAutoCorrection/pimcommonautocorrection_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommon/
@@ -141,17 +154,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAkonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAkonadi/KF5PimCommonAkonadiTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KF5PimCommonAutoCorrection/
+-rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAutoCorrection/KF5PimCommonAutoCorrectionConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAutoCorrection/KF5PimCommonAutoCorrectionConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAutoCorrection/KF5PimCommonAutoCorrectionTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5PimCommonAutoCorrection/KF5PimCommonAutoCorrectionTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so -> libKF5PimCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommon.so.5 -> libKF5PimCommon.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommon.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so -> libKF5PimCommonAkonadi.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAkonadi.so.5 -> libKF5PimCommonAkonadi.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAkonadi.so.5.22.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAutoCorrection.so -> libKF5PimCommonAutoCorrection.so.5
+lrwxrwxrwx	root/root	usr/lib/libKF5PimCommonAutoCorrection.so.5 -> libKF5PimCommonAutoCorrection.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5PimCommonAutoCorrection.so.5.22.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_PimCommon.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_PimCommonAkonadi.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_PimCommonAutoCorrection.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/pimcommonakonadiwidgets.so

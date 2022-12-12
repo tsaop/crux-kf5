@@ -48,7 +48,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/MailCommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SearchPatternEdit
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SearchRule
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SearchRuleStatus
--rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SendMdnHandler
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SnippetTreeView
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SnippetWidget
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/MailCommon/SnippetsManager
@@ -104,7 +103,6 @@ drwxr-xr-x	root/root	usr/include/KF5/MailCommon/mailcommon/
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/searchpatternedit.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/searchrule.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/searchrulestatus.h
--rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/sendmdnhandler.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/snippetsmanager.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/snippetsmodel.h
 -rw-r--r--	root/root	usr/include/KF5/MailCommon/mailcommon/snippettreeview.h
@@ -121,8 +119,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5MailCommon/
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5MailCommon/KF5MailCommonTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so -> libKF5MailCommon.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MailCommon.so.5 -> libKF5MailCommon.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MailCommon.so.5.22.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

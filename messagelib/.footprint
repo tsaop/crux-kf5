@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ComposerLineEdit
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ComposerViewBase
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ComposerViewInterface
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ContactPreference
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ContentJobBase
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ConvertSnippetVariableMenu
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/ConvertSnippetVariablesJob
@@ -71,6 +72,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/MessageComposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/RecipientsEditor
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/RichTextComposerNg
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/RichTextComposerSignatures
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/SaveContactPreferenceJob
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/SendLaterCreateJob
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/SendLaterDialog
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/MessageComposer/SendLaterInfo
@@ -102,6 +104,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/messagecomposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/composerlineedit.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/composerviewbase.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/composerviewinterface.h
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/contactpreference.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/contentjobbase.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/convertsnippetvariablemenu.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/convertsnippetvariablesjob.h
@@ -158,6 +161,7 @@ drwxr-xr-x	root/root	usr/include/KF5/MessageComposer/messagecomposer/
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/recipientseditor.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/richtextcomposerng.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/richtextcomposersignatures.h
+-rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/savecontactpreferencejob.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/sendlatercreatejob.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/sendlaterdialog.h
 -rw-r--r--	root/root	usr/include/KF5/MessageComposer/messagecomposer/sendlaterinfo.h
@@ -579,26 +583,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5WebEngineViewer/KF5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so -> libKF5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageComposer.so.5 -> libKF5MessageComposer.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageComposer.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so -> libKF5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageCore.so.5 -> libKF5MessageCore.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageCore.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so -> libKF5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageList.so.5 -> libKF5MessageList.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageList.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so -> libKF5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MessageViewer.so.5 -> libKF5MessageViewer.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MessageViewer.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so -> libKF5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5MimeTreeParser.so.5 -> libKF5MimeTreeParser.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5MimeTreeParser.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so -> libKF5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5TemplateParser.so.5 -> libKF5TemplateParser.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5TemplateParser.so.5.22.0
 lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so -> libKF5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.21.3
--rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.21.3
+lrwxrwxrwx	root/root	usr/lib/libKF5WebEngineViewer.so.5 -> libKF5WebEngineViewer.so.5.22.0
+-rwxr-xr-x	root/root	usr/lib/libKF5WebEngineViewer.so.5.22.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

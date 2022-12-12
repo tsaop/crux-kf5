@@ -12,17 +12,18 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.22 -> libkdeconnectcore.so.22.08.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.22.08.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.22 -> libkdeconnectinterfaces.so.22.08.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.22.08.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.22 -> libkdeconnectpluginkcm.so.22.08.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.22.08.3
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.22 -> libkdeconnectcore.so.22.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.22.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.22 -> libkdeconnectinterfaces.so.22.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.22.12.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.22 -> libkdeconnectpluginkcm.so.22.12.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.22.12.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_runcommand_config.so
@@ -66,8 +67,10 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/DBusProperty.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/PluginChecker.qml
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/RemoteKeyboard.qml
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/libkdeconnectdeclarativeplugin.so
--rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kdeconnect/qmldir
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/Thunar/
@@ -140,6 +143,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdeconnectindicator.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/kdeconnectindicatordark.svg
 drwxr-xr-x	root/root	usr/share/kdeconnect/
+-rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_clipboard_config.qml
 -rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_findthisdevice_config.qml
 -rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_pausemusic_config.qml
 -rw-r--r--	root/root	usr/share/kdeconnect/kdeconnect_runcommand_config.qml
@@ -167,6 +171,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/DeviceDelegate.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/FindMyPhone.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/FullRepresentation.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Photo.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/RemoteCommands.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/SMS.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Sftp.qml
