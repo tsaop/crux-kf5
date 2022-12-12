@@ -12,14 +12,14 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.1.1-py3.10.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy-5.2-py3.10.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/CITATION
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/__init__.py
@@ -29,20 +29,14 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/__pycache__/conftest.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/__pycache__/logger.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/__pycache__/version.cpython-310.pyc
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/_erfa/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/_erfa/__init__.py
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/_erfa/__pycache__/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/_erfa/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/_version.py
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/compiler_version.cpython-310-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/config/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/config/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/__pycache__/__init__.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/__pycache__/affiliated.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/__pycache__/configuration.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/__pycache__/paths.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/affiliated.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/configuration.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/config/paths.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/config/tests/
@@ -200,6 +194,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builti
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/icrs_observed_transforms.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/intermediate_rotation_transforms.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/itrs.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/itrs_observed_transforms.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/lsr.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/skyoffset.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/__pycache__/supergalactic.cpython-310.pyc
@@ -227,6 +222,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builti
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/icrs_observed_transforms.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/intermediate_rotation_transforms.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/itrs.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/itrs_observed_transforms.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/lsr.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/skyoffset.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/builtin_frames/supergalactic.py
@@ -269,6 +265,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_celestial_transformations.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_distance.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_earth.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_earth_orientation.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_erfa_astrom.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_finite_difference_velocities.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/__pycache__/test_formatting.cpython-310.pyc
@@ -335,6 +332,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_celestial_transformations.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_distance.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_earth.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_earth_orientation.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_erfa_astrom.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_finite_difference_velocities.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/coordinates/tests/test_formatting.py
@@ -372,7 +370,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycach
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/connect.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/core.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/funcs.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/parameter.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/parameters.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/__pycache__/realizations.cpython-310.pyc
@@ -426,13 +423,29 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/flrw/tes
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/flrw/w0wacdm.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/flrw/w0wzcdm.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/flrw/wpwazpcdm.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/__pycache__/comparison.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/__pycache__/optimize.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/comparison.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/optimize.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/__pycache__/test_comparison.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/__pycache__/test_funcs.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/test_comparison.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/funcs/tests/test_funcs.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/cosmology.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/ecsv.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/html.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/mapping.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/model.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/row.cpython-310.pyc
@@ -441,6 +454,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/__pycache__/yaml.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/cosmology.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/ecsv.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/html.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/mapping.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/model.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/row.py
@@ -453,6 +467,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_cosmology.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_ecsv.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_html.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_json.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_mapping.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/__pycache__/test_model.cpython-310.pyc
@@ -463,6 +478,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_cosmology.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_ecsv.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_html.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_json.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_mapping.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/io/tests/test_model.py
@@ -483,7 +499,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_connect.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_core.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_cosmology.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_funcs.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_parameter.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_parameters.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__pycache__/test_realizations.cpython-310.pyc
@@ -494,7 +509,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/__
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_connect.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_core.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_cosmology.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_funcs.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_parameter.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_parameters.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/cosmology/tests/test_realizations.py
@@ -772,6 +786,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/conftest.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_checksum.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_compression_failures.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_connect.cpython-310.pyc
@@ -784,6 +799,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_fitsheader.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_fitsinfo.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_fitstime.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_fsspec.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_groups.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_hdulist.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_header.cpython-310.pyc
@@ -792,8 +808,10 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_nonstandard.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_structured.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_table.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_tilde_path.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_uint.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/__pycache__/test_util.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/conftest.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/data/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/data/arange.fits
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/data/ascii.fits
@@ -838,6 +856,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/data
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_fitsheader.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_fitsinfo.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_fitstime.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_fsspec.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_groups.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_hdulist.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_header.py
@@ -846,6 +865,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/data
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_nonstandard.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_structured.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_table.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_tilde_path.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_uint.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/tests/test_util.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/io/fits/util.py
@@ -1626,8 +1646,8 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/__py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/__pycache__/helpers.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/helpers.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/py39-test-image-mpl311.json
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/py39-test-image-mpldev.json
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/py39-test-image-mpl311-cov.json
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/figures/py39-test-image-mpldev-cov.json
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/helper.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/runner.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/tests/test_logger.py
@@ -2202,6 +2222,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsa
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/formatter_locator.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/frame.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/grid_paths.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/helpers.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/patches.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/ticklabels.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/__pycache__/ticks.cpython-310.pyc
@@ -2216,6 +2237,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsa
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/formatter_locator.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/frame.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/grid_paths.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/helpers.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/patches.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/tests/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/astropy/visualization/wcsaxes/tests/__init__.py
