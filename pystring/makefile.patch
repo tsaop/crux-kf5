@@ -1,18 +1,13 @@
---- pystring/Makefile.orig	2020-02-04 03:24:44.000000000 -0300
-+++ pystring/Makefile	2020-11-20 20:23:07.314247959 -0300
-@@ -1,7 +1,9 @@
--LIBTOOL = libtool
--LIBDIR = /usr/lib
--CXX = g++
--CXXFLAGS = -g -O3 -Wall -Wextra -Wshadow -Wconversion -Wcast-qual -Wformat=2
-+LIBTOOL ?= libtool
+--- pystring-1.1.4/Makefile.orig	2022-12-13 20:44:27.746817243 +0100
++++ pystring-1.1.4/Makefile	2022-12-13 20:46:08.120620496 +0100
+@@ -1,5 +1,7 @@
+ LIBTOOL ?= libtool
+-LIBDIR ?= /usr/lib
 +PREFIX ?= /usr
-+INCLUDEDIR = ${PREFIX}/include/pystring
-+LIBDIR = ${PREFIX}/lib
-+CXX ?= g++
-+CXXFLAGS ?= -g -O3 -Wall -Wextra -Wshadow -Wconversion -Wcast-qual -Wformat=2 -fPIC
- 
- all: libpystring.la
++INCLUDEDIR ?= ${PREFIX}/include/pystring
++LIBDIR ?= ${PREFIX}/lib
+ CXX ?= g++
+ CXXFLAGS ?= -g -O3 -Wall -Wextra -Wshadow -Wconversion -Wcast-qual -Wformat=2
  
 @@ -12,7 +14,8 @@
  	$(LIBTOOL) --mode=link --tag=CXX $(CXX) -o $@ $< -rpath $(LIBDIR)
