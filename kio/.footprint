@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KCoreDirLister
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KDirNotify
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KDiskFreeSpaceInfo
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/KFileFilter
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KFileItem
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KFileItemListProperties
 drwxr-xr-x	root/root	usr/include/KF5/KIOCore/KIO/
@@ -35,6 +36,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/FileJob
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/FileSystemFreeSpaceJob
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/ForwardingSlaveBase
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/ForwardingWorkerBase
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/Global
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/HostInfo
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/KIO/IdleSlave
@@ -84,6 +86,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kcoredirlister.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kdirnotify.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kdiskfreespaceinfo.h
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/kfilefilter.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kfileitem.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kfileitemlistproperties.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOCore/kio/
@@ -102,9 +105,11 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOCore/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/filejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/filesystemfreespacejob.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/forwardingslavebase.h
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/forwardingworkerbase.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/global.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/hostinfo.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/http_slave_defaults.h
+-rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/http_worker_defaults.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/idleslave.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/ioslave_defaults.h
 -rw-r--r--	root/root	usr/include/KF5/KIOCore/kio/ioworker_defaults.h
@@ -195,6 +200,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOFileWidgets/
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kstatusbarofflineindicator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOFileWidgets/kurlnavigator.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOGui/
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/KCoreUrlNavigator
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KEMailClientLauncherJob
 drwxr-xr-x	root/root	usr/include/KF5/KIOGui/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/ApplicationLauncherJob
@@ -205,6 +211,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KIOGui/KIO/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/OpenWithHandlerInterface
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KIO/ThumbnailCreator
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/KTerminalLauncherJob
+-rw-r--r--	root/root	usr/include/KF5/KIOGui/kcoreurlnavigator.h
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kemailclientlauncherjob.h
 drwxr-xr-x	root/root	usr/include/KF5/KIOGui/kio/
 -rw-r--r--	root/root	usr/include/KF5/KIOGui/kio/applicationlauncherjob.h
@@ -321,20 +328,20 @@ drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kioslave5
 -rwxr-xr-x	root/root	usr/lib/kf5/kpac_dhcp_helper
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so -> libKF5KIOCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.100.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.100.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOCore.so.5 -> libKF5KIOCore.so.5.101.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOCore.so.5.101.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so -> libKF5KIOFileWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.100.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.100.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOFileWidgets.so.5 -> libKF5KIOFileWidgets.so.5.101.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOFileWidgets.so.5.101.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so -> libKF5KIOGui.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.100.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.100.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOGui.so.5 -> libKF5KIOGui.so.5.101.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOGui.so.5.101.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so -> libKF5KIONTLM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.100.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.100.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIONTLM.so.5 -> libKF5KIONTLM.so.5.101.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIONTLM.so.5.101.0
 lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so -> libKF5KIOWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.100.0
--rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.100.0
+lrwxrwxrwx	root/root	usr/lib/libKF5KIOWidgets.so.5 -> libKF5KIOWidgets.so.5.101.0
+-rwxr-xr-x	root/root	usr/lib/libKF5KIOWidgets.so.5.101.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
