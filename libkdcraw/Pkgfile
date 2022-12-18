@@ -5,23 +5,22 @@
 
 name=libkdcraw
 version=22.12.0
-release=1
-source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
+	libkdcraw-libraw-0.21.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/libkdcraw-libraw-0.21.patch
 
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
+	-DKDE_INSTALL_LIBDIR=lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
