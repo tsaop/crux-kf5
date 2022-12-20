@@ -1,7 +1,7 @@
 # Description: Library for automatic recognition of astronomical images; or standards-compliant astrometric metadata from data. 
 # URL: http://astrometry.net
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cairo gsl netpbm python3-astropy swig wcslib
+# Depends on: cairo cfitsio fontconfig freetype gsl libjpeg-turbo libpng netpbm python3-astropy swig wcslib xorg-libpixman xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxrender
 
 name=astrometry.net
 version=0.93
