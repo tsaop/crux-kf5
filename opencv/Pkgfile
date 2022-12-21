@@ -7,10 +7,12 @@ name=opencv
 version=4.6.0
 release=2
 source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
-	https://github.com/opencv/opencv_contrib/archive/$version.tar.gz)
+	https://github.com/opencv/opencv_contrib/archive/$version.tar.gz
+	496eed95.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/496eed95.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
