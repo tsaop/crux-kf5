@@ -1,0 +1,22 @@
+# Description: Encrypted filesystems via FUSE
+# URL:         https://github.com/vgough/encfs
+# Maintainer:  Tsaop, leeroy at cock dot li
+# Depends on:  cmake fuse openssl tinyxml2
+
+name=encfs
+version=1.9.5
+release=1
+source=(https://github.com/vgough/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+   cd $name-$version
+
+   cmake -Bbuild \
+         -DCMAKE_INSTALL_PREFIX=/usr \
+         -DBUILD_UNIT_TESTS=OFF \
+         -DUSE_INTERNAL_TINYXML=OFF \
+         -DENABLE_NLS=OFF
+
+   cmake --build build
+   DESTDIR=$PKG cmake --install build
+}
