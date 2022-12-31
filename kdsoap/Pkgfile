@@ -1,0 +1,23 @@
+# Description: A Qt-based client-side and server-side SOAP component
+# URL: https://www.kdab.com/development-resources/qt-tools/kd-soap
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake qt5
+
+name=kdsoap
+version=2.1.1
+release=1
+source=(https://github.com/KDAB/KDSoap/releases/download/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DKDSoap_EXAMPLES=false
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/doc
+}
