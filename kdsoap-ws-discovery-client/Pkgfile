@@ -1,0 +1,24 @@
+# Description: Library for finding WS-Discovery devices in the network using Qt5 and KDSoap 
+# URL: https://gitlab.com/caspermeijn/kdsoap-ws-discovery-client
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules git kdsoap
+
+name=kdsoap-ws-discovery-client
+version=20200927
+_commit=dcefb65c88e76f1f9eda8b0318006e93d15a0e1e
+release=1
+source=()
+
+build() {
+
+	git clone https://gitlab.com/caspermeijn/kdsoap-ws-discovery-client --
+	cd $name
+	git checkout ${_commit}
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

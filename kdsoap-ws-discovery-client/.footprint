@@ -1,0 +1,23 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KDSoapWSDiscoveryClient/
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/WSDiscoveryClient
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/WSDiscoveryProbeJob
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/WSDiscoveryServiceAggregator
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/WSDiscoveryTargetService
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/kdsoap_wsdiscovery_client_version.h
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/wsdiscoveryclient.h
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/wsdiscoveryclient_export.h
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/wsdiscoveryprobejob.h
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/wsdiscoveryserviceaggregator.h
+-rw-r--r--	root/root	usr/include/KDSoapWSDiscoveryClient/wsdiscoverytargetservice.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KDSoapWSDiscoveryClient/
+-rw-r--r--	root/root	usr/lib/cmake/KDSoapWSDiscoveryClient/KDSoapWSDiscoveryClientConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KDSoapWSDiscoveryClient/KDSoapWSDiscoveryClientConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KDSoapWSDiscoveryClient/KDSoapWSDiscoveryClientTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KDSoapWSDiscoveryClient/KDSoapWSDiscoveryClientTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKDSoapWSDiscoveryClient.so -> libKDSoapWSDiscoveryClient.so.0
+lrwxrwxrwx	root/root	usr/lib/libKDSoapWSDiscoveryClient.so.0 -> libKDSoapWSDiscoveryClient.so.0.2
+-rwxr-xr-x	root/root	usr/lib/libKDSoapWSDiscoveryClient.so.0.2
