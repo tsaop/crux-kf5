@@ -1,27 +1,25 @@
 # Description: Additional KIO protocols
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: exiv2 kactivities-stats kdelibs4support kdnssd khtml kpty libmtp libssh openexr qtwebengine syntax-highlighting
+# Depends on: kactivities-stats kdelibs4support kdnssd kdsoap-ws-discovery-client khtml kpty libkexiv2 libmtp libssh openexr qtwebengine samba syntax-highlighting taglib
 
 name=kio-extras
 version=22.12.0
-release=1
+release=2
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
+	-DKDE_INSTALL_LIBDIR=lib \
+	-DKDE_INSTALL_LIBEXECDIR=lib \
 	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}

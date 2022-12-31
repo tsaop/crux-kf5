@@ -10,6 +10,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets.cmake
+drwxr-xr-x	root/root	usr/lib/kf5/
+-rwxr-xr-x	root/root	usr/lib/kf5/smbnotifier
 lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.97.0
 drwxr-xr-x	root/root	usr/lib/qt5/
@@ -18,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/filenamesearchmodule.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/recentdocumentsnotifier.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kded/smbwatcher.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/forgetfileitemaction.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/kactivitymanagerd_fileitem_linking_plugin.so
@@ -36,10 +39,12 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/recentdocuments.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/recentlyused.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/sftp.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/smb.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/thumbnail.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kiod/kmtpd.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/audiothumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/comicbookthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/cursorthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/djvuthumbnail.so
@@ -71,15 +76,20 @@ drwxr-xr-x	root/root	usr/share/konqueror/
 drwxr-xr-x	root/root	usr/share/konqueror/dirtree/
 drwxr-xr-x	root/root	usr/share/konqueror/dirtree/remote/
 -rw-r--r--	root/root	usr/share/konqueror/dirtree/remote/mtp-network.desktop
+-rw-r--r--	root/root	usr/share/konqueror/dirtree/remote/smb-network.desktop
 drwxr-xr-x	root/root	usr/share/kservices5/
 -rw-r--r--	root/root	usr/share/kservices5/directorythumbnail.desktop
 drwxr-xr-x	root/root	usr/share/kservicetypes5/
 -rw-r--r--	root/root	usr/share/kservicetypes5/thumbcreator.desktop
+drwxr-xr-x	root/root	usr/share/mime/
+drwxr-xr-x	root/root	usr/share/mime/packages/
+-rw-r--r--	root/root	usr/share/mime/packages/org.kde.kio.smb.xml
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kio-extras.categories
 -rw-r--r--	root/root	usr/share/qlogging-categories5/kio-extras.renamecategories
 drwxr-xr-x	root/root	usr/share/remoteview/
 -rw-r--r--	root/root	usr/share/remoteview/mtp-network.desktop
+-rw-r--r--	root/root	usr/share/remoteview/smb-network.desktop
 drwxr-xr-x	root/root	usr/share/solid/
 drwxr-xr-x	root/root	usr/share/solid/actions/
 -rw-r--r--	root/root	usr/share/solid/actions/solid_mtp.desktop
