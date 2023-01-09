@@ -4,25 +4,21 @@
 # Depends on: kcmutils knewstuff kparts
 
 name=okteta
-version=0.26.9
+version=0.26.10
 release=1
 source=(https://github.com/KDE/okteta/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake \
+	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
+	-DCMAKE_INSTALL_LIBDIR=lib \
 	-DBUILD_TESTING=OFF \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev \
-	..
+	-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
