@@ -4,14 +4,12 @@
 # Depends on: extra-cmake-modules libraw qt5
 
 name=libkdcraw
-version=22.12.0
-release=2
-source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
-	libkdcraw-libraw-0.21.patch)
+version=22.12.1
+release=1
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/libkdcraw-libraw-0.21.patch
 
 	cmake -Bbuild \
 	-DCMAKE_INSTALL_PREFIX=/usr \
