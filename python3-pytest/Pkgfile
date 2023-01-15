@@ -4,8 +4,8 @@
 # Depends on:  python3-atomicwrites python3-attrs python3-exceptiongroup python3-more-itertools python3-py
 
 name=python3-pytest
-version=7.2.0
-release=2
+version=7.2.1
+release=1
 source=(https://pypi.python.org/packages/source/p/${name/python3-/}/${name/python3-/}-$version.tar.gz)
 
 build() {
