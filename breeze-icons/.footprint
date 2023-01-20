@@ -4040,6 +4040,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/call-start-sym
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/call-stop-symbolic.svg -> ../16/call-stop.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/call-voicemail-symbolic.svg -> ../16/call-voicemail.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/change-date-symbolic.svg -> ../16/accept_time_event.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/checkbox-checked-symbolic.svg -> ../16/entry-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/collapse-all-symbolic.svg -> ../16/collapse-all.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/color-profile.svg -> ../16/color-management.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/color-select-symbolic.svg -> ../16/color-picker.svg
@@ -4145,10 +4146,15 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/insert-text-sy
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/list-add-symbolic.svg -> ../16/list-add.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/list-remove-all-symbolic.svg -> ../16/list-remove.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/symbolic/list-remove-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-forward-symbolic.svg -> ../16/mail-forward.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-inbox-symbolic.svg -> ../16/mail-receive.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-mark-important-symbolic.svg -> ../16/mail-mark-important.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-message-new-symbolic.svg -> ../16/mail-message-new.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-reply-all-symbolic.svg -> ../16/mail-reply-all.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-reply-sender-symbolic.svg -> ../16/mail-reply-sender.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-send-receive-symbolic.svg -> ../16/mail-receive.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-send-symbolic.svg -> ../16/mail-send.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mail-sent-symbolic.svg -> ../16/mail-sent.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/map-symbolic.svg -> ../16/gps.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/mark-location-symbolic.svg -> ../16/edit-paste-in-place.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/media-eject-symbolic.svg -> ../16/media-eject.svg
@@ -4184,6 +4190,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/pan-end-symbol
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/pan-start-symbolic-rtl.svg -> pan-end-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/symbolic/pan-start-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/symbolic/pan-up-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/preferences-other-symbolic.svg -> ../16/preferences-other.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/preferences-system-search-symbolic.svg -> ../16/system-search.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/symbolic/process-stop-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/screen-rotate-auto-off-symbolic.svg -> ../16/screen-rotate-auto-off.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/symbolic/screen-rotate-auto-on-symbolic.svg -> ../16/screen-rotate-auto-on.svg
@@ -4814,7 +4822,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/scanner.svg -> skanlite
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/scribus.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/sheets.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/showfoto.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/simplescreenrecorder.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/skanlite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/skanpage.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/skrooge-black.svg
@@ -7932,6 +7939,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/folder-saved-se
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/folder-symbolic.svg -> ../16/folder.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/folder-templates-symbolic.svg -> ../16/folder-templates.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/folder-videos-symbolic.svg -> ../16/folder-videos.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/mail-outbox-symbolic.svg -> ../16/mail-folder-outbox.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/network-server-symbolic.svg -> ../16/network-server.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/network-workgroup-symbolic.svg -> ../16/network-workgroup.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/places/symbolic/start-here-symbolic.svg -> ../16/start-here-kde.svg
@@ -8777,6 +8785,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/microphone-sens
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/microphone-sensitivity-low-symbolic.svg -> ../16/microphone-sensitivity-low.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/microphone-sensitivity-medium-symbolic.svg -> ../16/microphone-sensitivity-medium.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/microphone-sensitivity-muted-symbolic.svg -> ../16/microphone-sensitivity-muted.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/network-offline-symbolic.svg -> ../22/network-offline.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/non-starred-symbolic.svg -> ../../emblems/16/rating-unrated.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/symbolic/printer-error-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/symbolic/printer-printing-symbolic.svg -> ../../actions/16/document-print.svg
@@ -12833,6 +12842,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/call-start-symbolic
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/call-stop-symbolic.svg -> ../16/call-stop.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/call-voicemail-symbolic.svg -> ../16/call-voicemail.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/change-date-symbolic.svg -> ../16/accept_time_event.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/checkbox-checked-symbolic.svg -> ../16/entry-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/collapse-all-symbolic.svg -> ../16/collapse-all.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/color-profile.svg -> ../16/color-management.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/color-select-symbolic.svg -> ../16/color-picker.svg
@@ -12938,10 +12948,15 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/insert-text-symboli
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/list-add-symbolic.svg -> ../16/list-add.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/list-remove-all-symbolic.svg -> ../16/list-remove.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/symbolic/list-remove-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-forward-symbolic.svg -> ../16/mail-forward.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-inbox-symbolic.svg -> ../16/mail-receive.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-mark-important-symbolic.svg -> ../16/mail-mark-important.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-message-new-symbolic.svg -> ../16/mail-message-new.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-reply-all-symbolic.svg -> ../16/mail-reply-all.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-reply-sender-symbolic.svg -> ../16/mail-reply-sender.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-send-receive-symbolic.svg -> ../16/mail-receive.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-send-symbolic.svg -> ../16/mail-send.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mail-sent-symbolic.svg -> ../16/mail-sent.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/map-symbolic.svg -> ../16/gps.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/mark-location-symbolic.svg -> ../16/edit-paste-in-place.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/media-eject-symbolic.svg -> ../16/media-eject.svg
@@ -12977,6 +12992,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/pan-end-symbolic-rt
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/pan-start-symbolic-rtl.svg -> pan-end-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/symbolic/pan-start-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/symbolic/pan-up-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/preferences-other-symbolic.svg -> ../16/preferences-other.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/preferences-system-search-symbolic.svg -> ../16/system-search.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/symbolic/process-stop-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/symbolic/selection-end-symbolic-rtl.svg -> selection-start-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/symbolic/selection-end-symbolic.svg
@@ -13605,7 +13622,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/scanner.svg -> skanlite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/scribus.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/sheets.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/showfoto.svg
--rw-r--r--	root/root	usr/share/icons/breeze/apps/48/simplescreenrecorder.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/skanlite.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/skanpage.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/skrooge-black.svg
@@ -16725,6 +16741,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/folder-saved-search-
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/folder-symbolic.svg -> ../16/folder.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/folder-templates-symbolic.svg -> ../16/folder-templates.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/folder-videos-symbolic.svg -> ../16/folder-videos.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/mail-outbox-symbolic.svg -> ../16/mail-folder-outbox.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/network-server-symbolic.svg -> ../16/network-server.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/network-workgroup-symbolic.svg -> ../16/network-workgroup.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/places/symbolic/start-here-symbolic.svg -> ../16/start-here-kde.svg
@@ -17570,6 +17587,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/microphone-sensitivi
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/microphone-sensitivity-low-symbolic.svg -> ../16/microphone-sensitivity-low.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/microphone-sensitivity-medium-symbolic.svg -> ../16/microphone-sensitivity-medium.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/microphone-sensitivity-muted-symbolic.svg -> ../16/microphone-sensitivity-muted.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/network-offline-symbolic.svg -> ../22/network-offline.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/non-starred-symbolic.svg -> ../../emblems/16/rating-unrated.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/symbolic/printer-error-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/symbolic/printer-printing-symbolic.svg -> ../../actions/16/document-print.svg

@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: giflib kjs kparts
+# Depends on: kjs kparts
 
 name=khtml
-version=5.101.0
+version=5.102.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/portingAids/$name-$version.tar.xz)
 
