@@ -23,11 +23,11 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/kcms/kcm_krunner_dictionary.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/kcms/kcm_krunner_spellcheck.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_charrunner.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_datetime.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_dictionary.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_katesessions.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_konsoleprofiles.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/krunner_spellcheck.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/org.kde.datetime.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/krunner/unitconverter.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kpackage/packagestructure/
@@ -245,6 +245,11 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/conte
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/config/config.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/ColorCircle.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/ColorContextMenu.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/CompactRepresentation.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/ImageColors.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/LoadingIndicator.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/configGeneral.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/logic.js
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/main.qml
@@ -406,6 +411,7 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/config/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/config/config.qml
+-rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/config/main.xml
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/CompactRepresentation.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/DetailsView.qml
@@ -419,8 +425,6 @@ drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/ConfigAppearance.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/ConfigUnits.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/ConfigWeatherStation.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/WeatherStationPicker.qml
--rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/config/WeatherStationPickerDialog.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/main.qml
 -rw-r--r--	root/root	usr/share/plasma/plasmoids/org.kde.plasma.weather/metadata.json
 drwxr-xr-x	root/root	usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/

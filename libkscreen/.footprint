@@ -16,6 +16,8 @@ drwxr-xr-x	root/root	usr/include/KF5/KScreen/KScreen/
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/Screen
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/SetConfigOperation
 -rw-r--r--	root/root	usr/include/KF5/KScreen/KScreen/Types
+drwxr-xr-x	root/root	usr/include/KF5/KScreen/KScreenDpms/
+-rw-r--r--	root/root	usr/include/KF5/KScreen/KScreenDpms/Dpms
 drwxr-xr-x	root/root	usr/include/KF5/KScreen/kscreen/
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/backendmanager_p.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/config.h
@@ -30,6 +32,9 @@ drwxr-xr-x	root/root	usr/include/KF5/KScreen/kscreen/
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/screen.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/setconfigoperation.h
 -rw-r--r--	root/root	usr/include/KF5/KScreen/kscreen/types.h
+drwxr-xr-x	root/root	usr/include/KF5/KScreen/kscreendpms/
+-rw-r--r--	root/root	usr/include/KF5/KScreen/kscreendpms/dpms.h
+-rw-r--r--	root/root	usr/include/KF5/KScreen/kscreendpms/kscreendpms_export.h
 -rw-r--r--	root/root	usr/include/KF5/kscreen_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -40,9 +45,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5Screen/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Screen/KF5ScreenTargets.cmake
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/kscreen_backend_launcher
-lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so -> libKF5Screen.so.7
--rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.26.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.7 -> libKF5Screen.so.5.26.5
+lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so -> libKF5Screen.so.8
+-rwxr-xr-x	root/root	usr/lib/libKF5Screen.so.5.27.0
+lrwxrwxrwx	root/root	usr/lib/libKF5Screen.so.8 -> libKF5Screen.so.5.27.0
+lrwxrwxrwx	root/root	usr/lib/libKF5ScreenDpms.so -> libKF5ScreenDpms.so.8
+-rwxr-xr-x	root/root	usr/lib/libKF5ScreenDpms.so.5.27.0
+lrwxrwxrwx	root/root	usr/lib/libKF5ScreenDpms.so.8 -> libKF5ScreenDpms.so.5.27.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/kscreen2.pc
 drwxr-xr-x	root/root	usr/lib/qt5/
@@ -66,3 +74,6 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.kde.kscreen.service
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/libkscreen.categories
+drwxr-xr-x	root/root	usr/share/zsh/
+drwxr-xr-x	root/root	usr/share/zsh/site-functions/
+-rw-r--r--	root/root	usr/share/zsh/site-functions/_kscreen-doctor

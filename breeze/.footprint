@@ -10,18 +10,26 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/breezehighcontrasttobreezedark
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/breezetobreezeclassic
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/breezetobreezelight
-lrwxrwxrwx	root/root	usr/lib/libbreezecommon5.so.5 -> libbreezecommon5.so.5.26.5
--rwxr-xr-x	root/root	usr/lib/libbreezecommon5.so.5.26.5
+lrwxrwxrwx	root/root	usr/lib/libbreezecommon5.so.5 -> libbreezecommon5.so.5.27.0
+-rwxr-xr-x	root/root	usr/lib/libbreezecommon5.so.5.27.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kstyle_breeze_config.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kdecoration2/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/org.kde.kdecoration2/breezedecoration.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/breeze/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/breeze/kcm_breezedecoration.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/breezestyleconfig.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/styles/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/styles/breeze.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/QtCurve/
 -rw-r--r--	root/root	usr/share/QtCurve/Breeze.qtcurve
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/breezestyleconfig.desktop
+-rw-r--r--	root/root	usr/share/applications/kcm_breezedecoration.desktop
 drwxr-xr-x	root/root	usr/share/color-schemes/
 -rw-r--r--	root/root	usr/share/color-schemes/BreezeClassic.colors
 -rw-r--r--	root/root	usr/share/color-schemes/BreezeDark.colors
@@ -271,9 +279,6 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/breezehighcontrasttobreezedark.upd
 -rw-r--r--	root/root	usr/share/kconf_update/breezetobreezeclassic.upd
 -rw-r--r--	root/root	usr/share/kconf_update/breezetobreezelight.upd
-drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/breezedecorationconfig.desktop
--rw-r--r--	root/root	usr/share/kservices5/breezestyleconfig.desktop
 drwxr-xr-x	root/root	usr/share/kstyle/
 drwxr-xr-x	root/root	usr/share/kstyle/themes/
 -rw-r--r--	root/root	usr/share/kstyle/themes/breeze.themerc
@@ -320,4 +325,5 @@ drwxr-xr-x	root/root	usr/share/wallpapers/Next/contents/images_dark/
 -rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images_dark/440x247.png
 -rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images_dark/5120x2880.png
 -rw-r--r--	root/root	usr/share/wallpapers/Next/contents/images_dark/720x1440.png
+-rw-r--r--	root/root	usr/share/wallpapers/Next/contents/screenshot.png
 -rw-r--r--	root/root	usr/share/wallpapers/Next/metadata.json
