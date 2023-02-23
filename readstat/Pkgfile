@@ -4,7 +4,7 @@
 # Depends on:  glibc
 
 name=readstat
-version=1.1.8
+version=1.1.9
 release=1
 source=(https://github.com/WizardMac/ReadStat/releases/download/v${version}/$name-$version.tar.gz)
 
