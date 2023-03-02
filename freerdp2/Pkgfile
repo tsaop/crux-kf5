@@ -5,14 +5,17 @@
 
 name=freerdp2
 version=2.9.0
-release=1
+release=2
 source=(https://github.com/FreeRDP/FreeRDP/archive/$version/${name%?}-$version.tar.gz
-	freerdp-2.0.0-manpage_formatting.patch)
+	freerdp-2.0.0-manpage_formatting.patch
+	0001-Fixed-8686-Update-h264-to-use-new-FFMPEG-API.patch)
 
 build() {
 	cd FreeRDP-$version
 
 	patch -Np1 -i $SRC/freerdp-2.0.0-manpage_formatting.patch
+	# Fix build with ffmpeg 6
+	patch -Np1 -i $SRC/0001-Fixed-8686-Update-h264-to-use-new-FFMPEG-API.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
