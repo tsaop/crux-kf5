@@ -1,11 +1,11 @@
 # Description: Advanced digital photo management application for KDE
 # URL: http://www.digikam.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-contacts imagemagick kcalendarcore kfilemetadata knotifyconfig lensfun libkipi libksane liblqr marble opencv qtav x265
+# Depends on: akonadi-contacts imagemagick kcalendarcore kfilemetadata knotifyconfig lensfun libkipi libksane liblqr marble opencv x265
 
 name=digikam
 version=7.9.0
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz
 	ffmpeg5.patch)
 
