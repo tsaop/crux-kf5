@@ -1,10 +1,10 @@
 # Description: KMouseTool is a program that clicks the mouse for you
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: desktop-file-utils knotifications kxmlgui xorg-libxt
+# Depends on: desktop-file-utils knotifications kxmlgui
 
 name=kmousetool
-version=22.12.2
+version=22.12.3
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 
