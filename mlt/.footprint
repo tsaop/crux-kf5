@@ -74,11 +74,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/Mlt7/
 -rw-r--r--	root/root	usr/lib/cmake/Mlt7/Mlt7Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Mlt7/Mlt7Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libmlt++-7.so -> libmlt++-7.so.7
-lrwxrwxrwx	root/root	usr/lib/libmlt++-7.so.7 -> libmlt++-7.so.7.12.0
--rwxr-xr-x	root/root	usr/lib/libmlt++-7.so.7.12.0
+lrwxrwxrwx	root/root	usr/lib/libmlt++-7.so.7 -> libmlt++-7.so.7.14.0
+-rwxr-xr-x	root/root	usr/lib/libmlt++-7.so.7.14.0
 lrwxrwxrwx	root/root	usr/lib/libmlt-7.so -> libmlt-7.so.7
-lrwxrwxrwx	root/root	usr/lib/libmlt-7.so.7 -> libmlt-7.so.7.12.0
--rwxr-xr-x	root/root	usr/lib/libmlt-7.so.7.12.0
+lrwxrwxrwx	root/root	usr/lib/libmlt-7.so.7 -> libmlt-7.so.7.14.0
+-rwxr-xr-x	root/root	usr/lib/libmlt-7.so.7.14.0
 drwxr-xr-x	root/root	usr/lib/mlt-7/
 -rwxr-xr-x	root/root	usr/lib/mlt-7/libmltavformat.so
 -rwxr-xr-x	root/root	usr/lib/mlt-7/libmltcore.so
@@ -113,6 +113,7 @@ drwxr-xr-x	root/root	usr/share/mlt-7/avformat/
 -rw-r--r--	root/root	usr/share/mlt-7/avformat/producer_avformat.yml
 -rw-r--r--	root/root	usr/share/mlt-7/avformat/resolution_scale.yml
 -rw-r--r--	root/root	usr/share/mlt-7/avformat/yuv_only.txt
+-rw-r--r--	root/root	usr/share/mlt-7/chain_normalizers.ini
 drwxr-xr-x	root/root	usr/share/mlt-7/core/
 -rw-r--r--	root/root	usr/share/mlt-7/core/consumer_multi.yml
 -rw-r--r--	root/root	usr/share/mlt-7/core/filter_audiomap.yml
@@ -143,6 +144,7 @@ drwxr-xr-x	root/root	usr/share/mlt-7/core/
 -rw-r--r--	root/root	usr/share/mlt-7/core/producer_colour.yml
 -rw-r--r--	root/root	usr/share/mlt-7/core/producer_consumer.yml
 -rw-r--r--	root/root	usr/share/mlt-7/core/producer_hold.yml
+-rw-r--r--	root/root	usr/share/mlt-7/core/producer_loader-nogl.yml
 -rw-r--r--	root/root	usr/share/mlt-7/core/producer_loader.yml
 -rw-r--r--	root/root	usr/share/mlt-7/core/producer_melt.yml
 -rw-r--r--	root/root	usr/share/mlt-7/core/producer_melt_file.yml
