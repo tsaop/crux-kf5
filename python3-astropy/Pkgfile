@@ -1,15 +1,17 @@
 # Description: The Astropy Project is a community effort to develop a single core package for Astronomy in Python and foster interoperability between Python astronomy packages
 # URL: http://www.astropy.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python3-extension-helpers python3-jinja2 python3-pyerfa python3-pytest
+# Depends on: python3-extension-helpers python3-jinja2 python3-pyerfa python3-pytest git
 
 name=python3-astropy
-version=5.2.1
+version=5.2.2
 release=1
-source=(https://files.pythonhosted.org/packages/source/a/${name/python3-/}/${name/python3-/}-$version.tar.gz)
+source=()
+#source=(https://files.pythonhosted.org/packages/source/a/${name/python3-/}/${name/python3-/}-$version.tar.gz)
 
 build() {
-	cd ${name/python3-/}-$version
+	git clone https://github.com/astropy/astropy -b v${version}
+	cd astropy
 	python3 setup.py build
 	python3 setup.py install --prefix=/usr --root=$PKG
 }
