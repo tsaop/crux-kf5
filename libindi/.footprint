@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/indi_Excalibur
 -rwxr-xr-x	root/root	usr/bin/indi_aaf2_focus
 -rwxr-xr-x	root/root	usr/bin/indi_activefocuser_focus
+-rwxr-xr-x	root/root	usr/bin/indi_alto
 -rwxr-xr-x	root/root	usr/bin/indi_arduinost4
 -rwxr-xr-x	root/root	usr/bin/indi_astromech_lpm
 -rwxr-xr-x	root/root	usr/bin/indi_astrometry
@@ -71,6 +72,8 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200zeq25 -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_microtouch_focus
 -rwxr-xr-x	root/root	usr/bin/indi_moonlite_focus
 -rwxr-xr-x	root/root	usr/bin/indi_moonlitedro_focus
+-rwxr-xr-x	root/root	usr/bin/indi_myDewControllerPro
+-rwxr-xr-x	root/root	usr/bin/indi_mydcp4esp32
 -rwxr-xr-x	root/root	usr/bin/indi_myfocuserpro2_focus
 -rwxr-xr-x	root/root	usr/bin/indi_nexdome_beaver
 -rwxr-xr-x	root/root	usr/bin/indi_nfocus
@@ -190,6 +193,7 @@ drwxr-xr-x	root/root	usr/include/libindi/dsp/
 -rw-r--r--	root/root	usr/include/libindi/fits.h
 -rw-r--r--	root/root	usr/include/libindi/fits_extensions.h
 -rw-r--r--	root/root	usr/include/libindi/fitsidi.h
+-rw-r--r--	root/root	usr/include/libindi/fitskeyword.h
 -rw-r--r--	root/root	usr/include/libindi/hidapi.h
 -rw-r--r--	root/root	usr/include/libindi/indiapi.h
 -rw-r--r--	root/root	usr/include/libindi/indibase.h
@@ -276,19 +280,19 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.2
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.2 -> libindiAlignmentDriver.so.2.0.0
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.2 -> libindiAlignmentDriver.so.2.0.1
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.2.0.1
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 lrwxrwxrwx	root/root	usr/lib/libindiclient.so -> libindiclient.so.2
-lrwxrwxrwx	root/root	usr/lib/libindiclient.so.2 -> libindiclient.so.2.0.0
--rwxr-xr-x	root/root	usr/lib/libindiclient.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libindiclient.so.2 -> libindiclient.so.2.0.1
+-rwxr-xr-x	root/root	usr/lib/libindiclient.so.2.0.1
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.2
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.2 -> libindidriver.so.2.0.0
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.2 -> libindidriver.so.2.0.1
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.2.0.1
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.2
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.2 -> libindilx200.so.2.0.0
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.2 -> libindilx200.so.2.0.1
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.2.0.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
