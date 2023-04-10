@@ -2578,6 +2578,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/im-jabber.svg -> gam
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/imagecomment.svg -> dialog-messages.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/initial_state.svg -> media-skip-backward.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/inpainting.svg -> select-rectangular.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/input-keyboard-virtual-hide.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/input-keyboard-virtual-show.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/input-mouse-click-left.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/input-mouse-click-middle.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/input-mouse-click-right.svg
@@ -4566,7 +4568,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/com.visualstudio.code.o
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/emacs.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/falkon.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/ffmulticonverter.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/filelight.svg -> gparted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/filelight.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/filezilla.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/fingerprint-gui.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/firewall-config.svg
@@ -4580,7 +4582,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/filelight.svg -> gparte
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/git-cola.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/git-gui.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/goodvibes.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/gpick.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/gpodder.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/granatier.svg
@@ -4724,7 +4725,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/kup.svg -> ../../prefer
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kwalletmanager.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/kwalletmanager2.svg -> kwalletmanager.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kwave.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/kwikdisk.svg -> gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kwin.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/kword.svg -> words.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/kwrite.svg
@@ -4782,7 +4782,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.inkscape.Inkscape.s
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.kde.skanlite.svg -> skanlite.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.telegram.desktop.svg -> telegram.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/parley.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/partitionmanager.svg -> gparted.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/partitionmanager.svg -> filelight.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/phonon-gstreamer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/photolayoutseditor.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/picmi.svg
@@ -8630,6 +8630,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/nm-nm-signal-25.svg -
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/nm-nm-signal-50.svg -> network-wireless-connected-50.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/nm-nm-signal-75.svg -> network-wireless-connected-75.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/status/22/nm-no-connection.svg -> network-wired-unavailable.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/redshift-status-day.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/redshift-status-off.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/redshift-status-on.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/status/22/rotation-allowed.svg
@@ -11385,6 +11386,8 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/im-jabber.svg -> games-hi
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/imagecomment.svg -> dialog-messages.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/initial_state.svg -> media-skip-backward.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/inpainting.svg -> select-rectangular.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/input-keyboard-virtual-hide.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/input-keyboard-virtual-show.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/input-mouse-click-left.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/input-mouse-click-middle.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/input-mouse-click-right.svg
@@ -13367,7 +13370,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/com.visualstudio.code.oss.sv
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/emacs.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/falkon.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/ffmulticonverter.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/filelight.svg -> gparted.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/48/filelight.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/filezilla.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/fingerprint-gui.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/firewall-config.svg
@@ -13381,7 +13384,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/filelight.svg -> gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/git-cola.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/git-gui.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/goodvibes.svg
--rw-r--r--	root/root	usr/share/icons/breeze/apps/48/gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/gpick.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/gpodder.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/granatier.svg
@@ -13525,7 +13527,6 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/kup.svg -> ../../preferences
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kwalletmanager.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/kwalletmanager2.svg -> kwalletmanager.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kwave.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/kwikdisk.svg -> gparted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kwin.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/kword.svg -> words.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/kwrite.svg
@@ -13583,7 +13584,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.inkscape.Inkscape.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.kde.skanlite.svg -> skanlite.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.telegram.desktop.svg -> telegram.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/parley.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/partitionmanager.svg -> gparted.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/partitionmanager.svg -> filelight.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/phonon-gstreamer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/photolayoutseditor.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/picmi.svg
@@ -17433,6 +17434,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/nm-nm-signal-25.svg -> net
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/nm-nm-signal-50.svg -> network-wireless-connected-50.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/nm-nm-signal-75.svg -> network-wireless-connected-75.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/status/22/nm-no-connection.svg -> network-wired-unavailable.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/status/22/redshift-status-day.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/redshift-status-off.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/redshift-status-on.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/status/22/rotation-allowed.svg
