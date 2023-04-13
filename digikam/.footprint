@@ -8,6 +8,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/batchtool.h
 -rw-r--r--	root/root	usr/include/digikam/bcgcontainer.h
+-rw-r--r--	root/root	usr/include/digikam/captionvalues.h
 -rw-r--r--	root/root	usr/include/digikam/coredbaccess.h
 -rw-r--r--	root/root	usr/include/digikam/coredbalbuminfo.h
 -rw-r--r--	root/root	usr/include/digikam/coredbconstants.h
@@ -37,6 +38,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/dimg.h
 -rw-r--r--	root/root	usr/include/digikam/dimgbuiltinfilter.h
 -rw-r--r--	root/root	usr/include/digikam/dimgloaderobserver.h
+-rw-r--r--	root/root	usr/include/digikam/dimgloadersettings.h
 -rw-r--r--	root/root	usr/include/digikam/dimgpreviewitem.h
 -rw-r--r--	root/root	usr/include/digikam/dimgthreadedanalyser.h
 -rw-r--r--	root/root	usr/include/digikam/dimgthreadedfilter.h
@@ -87,6 +89,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/loadingdescription.h
 -rw-r--r--	root/root	usr/include/digikam/loadsavethread.h
 -rw-r--r--	root/root	usr/include/digikam/managedloadsavethread.h
+-rw-r--r--	root/root	usr/include/digikam/metadatainfo.h
 -rw-r--r--	root/root	usr/include/digikam/metaengine.h
 -rw-r--r--	root/root	usr/include/digikam/metaengine_data.h
 -rw-r--r--	root/root	usr/include/digikam/photoinfocontainer.h
@@ -121,18 +124,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/DigikamGui/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/DigikamPlugin/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.7.9.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.7.9.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.7.9.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.7.9.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.7.9.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.7.9.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.8.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_AntiVignetting_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_AssignLabels_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_AssignTemplate_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Assigncaptions_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_AutoCorrection_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_BWconvert_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_BcgCorrection_Plugin.so
@@ -143,12 +148,15 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ColorFX_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Convert16To8_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Convert8To16_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToAVIF_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToDNG_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToJP2lugin_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToJPEG_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToJXL_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToPGF_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToPNG_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToTIFF_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_ConvertToWEBP_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Crop_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_CurvesAdjust_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_FilmGrain_Plugin.so
@@ -160,6 +168,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_LensAutoFix_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_LocalContrast_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_NoiseReduction_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_QualitySort_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_RedEyeCorrection_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_RemoveMetadata_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Resize_Plugin.so
@@ -168,6 +177,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Sharpen_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Texture_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_TimeAdjust_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_Translate_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_UserScript_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_WaterMark_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/bqm/Bqm_WhiteBalance_Plugin.so
@@ -256,12 +266,14 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SendByMail_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SlideShow_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_SmugMug_Plugin.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_TextConverter_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_TimeAdjust_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Twitter_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_VideoSlideShow_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_Wallpaper_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/generic/Generic_iNaturalist_Plugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/RawImport_ART_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/RawImport_DarkTable_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/RawImport_Native_Plugin.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/rawimport/RawImport_RawTherapee_Plugin.so
@@ -319,7 +331,6 @@ drwxr-xr-x	root/root	usr/share/digikam/data/
 -rw-r--r--	root/root	usr/share/digikam/data/craters-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/curvefree.png
 -rw-r--r--	root/root	usr/share/digikam/data/curvemooth.png
--rw-r--r--	root/root	usr/share/digikam/data/detectFacesImg.png
 -rw-r--r--	root/root	usr/share/digikam/data/dried-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/duplicatebothhorz.png
 -rw-r--r--	root/root	usr/share/digikam/data/duplicatebothvert.png
@@ -331,7 +342,6 @@ drwxr-xr-x	root/root	usr/share/digikam/data/
 -rw-r--r--	root/root	usr/share/digikam/data/histogram-log.png
 -rw-r--r--	root/root	usr/share/digikam/data/histogram.png
 -rw-r--r--	root/root	usr/share/digikam/data/ice-pattern.png
--rw-r--r--	root/root	usr/share/digikam/data/ignoreImg.png
 -rw-r--r--	root/root	usr/share/digikam/data/image-full.png
 -rw-r--r--	root/root	usr/share/digikam/data/image-selection.png
 -rw-r--r--	root/root	usr/share/digikam/data/leaf-pattern.png
@@ -362,7 +372,6 @@ drwxr-xr-x	root/root	usr/share/digikam/data/lut3d/
 -rw-r--r--	root/root	usr/share/digikam/data/modern-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/moss-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/original.png
--rw-r--r--	root/root	usr/share/digikam/data/overlayImg.png
 -rw-r--r--	root/root	usr/share/digikam/data/paper-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/paper-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/paper2-texture.png
@@ -376,13 +385,11 @@ drwxr-xr-x	root/root	usr/share/digikam/data/lut3d/
 -rw-r--r--	root/root	usr/share/digikam/data/splash-digikam.png
 -rw-r--r--	root/root	usr/share/digikam/data/stone-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/stone-texture.png
--rw-r--r--	root/root	usr/share/digikam/data/tagFacesImg.gif
 -rw-r--r--	root/root	usr/share/digikam/data/target.png
 -rw-r--r--	root/root	usr/share/digikam/data/togglemouseover.png
 -rw-r--r--	root/root	usr/share/digikam/data/wall-pattern.png
 -rw-r--r--	root/root	usr/share/digikam/data/wall-texture.png
 -rw-r--r--	root/root	usr/share/digikam/data/wood-pattern.png
--rw-r--r--	root/root	usr/share/digikam/data/workOnAllCoresImg.png
 drwxr-xr-x	root/root	usr/share/digikam/database/
 -rw-r--r--	root/root	usr/share/digikam/database/dbconfig.xml
 -rw-r--r--	root/root	usr/share/digikam/database/mysql-global.conf
@@ -425,6 +432,8 @@ drwxr-xr-x	root/root	usr/share/digikam/geolocationedit/
 -rw-r--r--	root/root	usr/share/digikam/geolocationedit/searchmarker-normal.png
 -rw-r--r--	root/root	usr/share/digikam/geolocationedit/searchmarker-selected.png
 drwxr-xr-x	root/root	usr/share/digikam/metadata/
+-rw-r--r--	root/root	usr/share/digikam/metadata/darktable.dkamp
+-rw-r--r--	root/root	usr/share/digikam/metadata/digikam.dkamp
 -rw-r--r--	root/root	usr/share/digikam/metadata/topicset.iptc-subjectcode.xml
 drwxr-xr-x	root/root	usr/share/digikam/profiles/
 -rw-r--r--	root/root	usr/share/digikam/profiles/compatibleWithAdobeRGB1998.icc
@@ -706,12 +715,14 @@ drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/expoblending.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/panorama.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/dk-dropbox.png
@@ -732,6 +743,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/dk-dropbox.png
@@ -752,6 +764,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
@@ -775,6 +788,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/tag.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/underexposure.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/dk-dropbox.png
@@ -795,6 +809,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-box.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/dk-dropbox.png
@@ -815,6 +830,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/avplayer.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/digikam.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/showfoto.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/
@@ -823,6 +839,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/96x96/apps/panorama.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/avplayer.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/digikam.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-flickr.svgz
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/dk-googlephoto.svgz

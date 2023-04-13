@@ -4,14 +4,12 @@
 # Depends on: akonadi-contacts imagemagick kcalendarcore kfilemetadata knotifyconfig lensfun libkipi libksane liblqr marble opencv x265
 
 name=digikam
-version=7.9.0
-release=2
-source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz
-	ffmpeg5.patch)
+version=8.0.0
+release=1
+source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz)
 
 build() {
 	cd digikam-$version
-	patch -Np1 -i $SRC/ffmpeg5.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
