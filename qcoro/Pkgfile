@@ -1,0 +1,21 @@
+# Description: C++ Coroutines for Qt
+# URL: https://qcoro.dvratil.cz
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt5
+
+name=qcoro
+version=0.8.0
+release=1
+source=(https://github.com/danvratil/qcoro/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=on
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
