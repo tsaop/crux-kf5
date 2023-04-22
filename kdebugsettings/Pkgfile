@@ -1,10 +1,10 @@
 # Description: Utility to enable debugging for KDE components
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: desktop-file-utils kcompletion kcoreaddons kdbusaddons ki18n kitemviews
+# Depends on: desktop-file-utils kcompletion kcoreaddons kdbusaddons ki18n kitemviews kxmlgui
 
 name=kdebugsettings
-version=22.12.3
+version=23.04.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

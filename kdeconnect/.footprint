@@ -12,15 +12,14 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.22 -> libkdeconnectcore.so.22.12.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.22.12.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.22 -> libkdeconnectinterfaces.so.22.12.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.22.12.3
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.22 -> libkdeconnectpluginkcm.so.22.12.3
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.22.12.3
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.23 -> libkdeconnectcore.so.23.04.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.23.04.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.23 -> libkdeconnectinterfaces.so.23.04.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.23.04.0
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.23 -> libkdeconnectpluginkcm.so.23.04.0
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.23.04.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kcm_kdeconnect.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
@@ -37,6 +36,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_findmyphone.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_findthisdevice.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_lockdevice.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_mmtelephony.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_mousepad.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_mpriscontrol.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/kdeconnect_mprisremote.so
@@ -63,6 +63,10 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/kdeconnectfileitemaction.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/kdeconnect.so
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/
+drwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdeconnect.so
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
@@ -77,6 +81,7 @@ drwxr-xr-x	root/root	usr/share/Thunar/
 drwxr-xr-x	root/root	usr/share/Thunar/sendto/
 -rw-r--r--	root/root	usr/share/Thunar/sendto/kdeconnect-thunar.desktop
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_kdeconnect.desktop
 -rw-r--r--	root/root	usr/share/applications/org.kde.kdeconnect-settings.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.app.desktop
 -rw-r--r--	root/root	usr/share/applications/org.kde.kdeconnect.daemon.desktop
@@ -152,7 +157,6 @@ drwxr-xr-x	root/root	usr/share/kdeconnect/
 drwxr-xr-x	root/root	usr/share/knotifications5/
 -rw-r--r--	root/root	usr/share/knotifications5/kdeconnect.notifyrc
 drwxr-xr-x	root/root	usr/share/kservices5/
--rw-r--r--	root/root	usr/share/kservices5/kcm_kdeconnect.desktop
 -rw-r--r--	root/root	usr/share/kservices5/plasma-kdeconnect.desktop
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.kdeconnect.appdata.xml

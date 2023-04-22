@@ -1,28 +1,23 @@
 # Description: KDE integration for gphoto2 cameras
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kio libgphoto2
+# Depends on: kio libgphoto2 kcmutils
 
 name=kamera
-version=22.12.3
+version=23.04.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	cmake \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DBUILD_TESTING=OFF \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
+	cmake -Bbuild\
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
-	rm -rf $PKG/usr/share/doc
 }

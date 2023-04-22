@@ -4,7 +4,7 @@
 # Depends on: chmlib discount djvulibre ebook-tools kactivities kdegraphics-thumbnailers khtml kpty libspectre poppler-qt5 purpose threadweaver
 
 name=okular
-version=22.12.3
+version=23.04.0
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
 	okular.revdep)
 release=1

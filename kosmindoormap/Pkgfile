@@ -4,19 +4,19 @@
 # Depends on: kopeninghours kpublictransport
 
 name=kosmindoormap
-version=22.12.3
+version=23.04.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
+	export LDFLAGS="-Wl,--copy-dt-needed-entries"
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DKDE_INSTALL_LIBDIR=lib \
 		-DBUILD_TESTING=OFF
 
-	cmake --build build
+	cmake --build build -v
 	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
