@@ -1,0 +1,19 @@
+# Description: GLib-based libqrtr-glib library to use the QRTR protocol
+# URL: https://modemmanager.org/docs/libqrtr-glib/ 
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: gobject-introspection
+
+name=libqrtr-glib
+version=1.2.2
+release=1
+source=(https://gitlab.freedesktop.org/mobile-broadband/$name/-/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	meson build \
+		-Dprefix=/usr \
+		-Dgtk_doc=false
+
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
+}
