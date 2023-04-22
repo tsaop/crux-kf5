@@ -1,0 +1,22 @@
+# Description: libqmi is a glib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol
+# URL: https://www.freedesktop.org/wiki/Software/libqmi
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libgudev libmbim libqrtr-glib
+
+name=libqmi
+version=1.32.4
+release=1
+source=(https://gitlab.freedesktop.org/mobile-broadband/$name/-/archive/$version/$name-$version.tar.gz)
+build() {
+
+	prt-get isinst bash-completion || PKGMK_LIBMBIM=" -Dbash_completion=false"
+
+	cd $name-$version
+	meson build \
+		$PKGMK_LIBMBIM \
+		-Dprefix=/usr \
+		-Dlibexecdir=/usr/lib
+
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
+}
