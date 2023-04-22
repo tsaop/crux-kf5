@@ -1,0 +1,30 @@
+# Description: system daemon which controls WWAN (2G/3G/4G/5G) devices and connections
+# URL: https://modemmanager.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: libqmi libxslt polkit
+
+name=modemmanager
+version=1.20.6
+release=1
+source=(https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/$version/ModemManager-$version.tar.gz
+	modemmanager.rc)
+
+build() {
+	cd ModemManager-$version
+
+	prt-get isinst bash-completion || PKGMK_MODEMMANAGER=" -Dbash_completion=false"
+
+	meson build \
+		$PKGMK_MODEMMANAGER \
+		-Dprefix=/usr \
+		-Dsystemdsystemunitdir=no \
+		-Dsystemd_suspend_resume=false \
+		-Dsystemd_journal=false
+
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
+
+	install -Dm755 $SRC/$name.rc $PKG/etc/rc.d/$name
+
+	rm -rf $PKG/usr/share/locale
+}
