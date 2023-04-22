@@ -1,0 +1,22 @@
+# Description: Various text handling addons
+# URL: https://invent.kde.org/libraries/ktextaddons
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kxmlgui qtkeychain
+
+name=ktextaddons
+version=1.2.0
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}
