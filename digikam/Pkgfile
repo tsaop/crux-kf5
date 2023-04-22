@@ -5,7 +5,7 @@
 
 name=digikam
 version=8.0.0
-release=1
+release=2
 source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz)
 
 build() {
@@ -17,12 +17,11 @@ build() {
 		-DCMAKE_BUILD_TYPE=Release \
 		-DENABLE_KFILEMETADATASUPPORT=ON \
 		-DENABLE_MEDIAPLAYER=ON \
-		-DENABLE_AKONADICONTACTSUPPORT=ON \
+		-DENABLE_AKONADICONTACTSUPPORT=OFF \
 		-DENABLE_APPSTYLES=ON \
 		-DENABLE_QWEBENGINE=ON \
 		-DBUILD_TESTING=OFF \
 		-DDIGIKAMSC_COMPILE_PO=OFF \
-		-DDIGIKAMSC_COMPILE_DOC=OFF \
 		-Wno-dev
 
 	cmake --build build
