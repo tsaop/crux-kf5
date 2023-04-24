@@ -1,29 +1,34 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KPim/
-drwxr-xr-x	root/root	usr/include/KPim/KPkPass/
--rw-r--r--	root/root	usr/include/KPim/KPkPass/Barcode
--rw-r--r--	root/root	usr/include/KPim/KPkPass/BoardingPass
--rw-r--r--	root/root	usr/include/KPim/KPkPass/Field
--rw-r--r--	root/root	usr/include/KPim/KPkPass/Location
--rw-r--r--	root/root	usr/include/KPim/KPkPass/Pass
--rw-r--r--	root/root	usr/include/KPim/KPkPass/barcode.h
--rw-r--r--	root/root	usr/include/KPim/KPkPass/boardingpass.h
--rw-r--r--	root/root	usr/include/KPim/KPkPass/field.h
--rw-r--r--	root/root	usr/include/KPim/KPkPass/kpkpass_export.h
--rw-r--r--	root/root	usr/include/KPim/KPkPass/kpkpass_version.h
--rw-r--r--	root/root	usr/include/KPim/KPkPass/location.h
--rw-r--r--	root/root	usr/include/KPim/KPkPass/pass.h
+drwxr-xr-x	root/root	usr/include/KPim5/
+drwxr-xr-x	root/root	usr/include/KPim5/KPkPass/
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/Barcode
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/BoardingPass
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/Field
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/Location
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/Pass
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/barcode.h
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/boardingpass.h
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/field.h
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/kpkpass_export.h
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/kpkpass_version.h
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/location.h
+-rw-r--r--	root/root	usr/include/KPim5/KPkPass/pass.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KPim5PkPass/
+-rw-r--r--	root/root	usr/lib/cmake/KPim5PkPass/KPim5PkPassConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5PkPass/KPim5PkPassConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5PkPass/KPim5PkPassTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5PkPass/KPim5PkPassTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/KPimPkPass/
+-rw-r--r--	root/root	usr/lib/cmake/KPimPkPass/KPim5PkPassTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPimPkPass/KPim5PkPassTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimPkPass/KPimPkPassConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimPkPass/KPimPkPassConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimPkPass/KPimPkPassTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimPkPass/KPimPkPassTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKPimPkPass.so -> libKPimPkPass.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimPkPass.so.5 -> libKPimPkPass.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKPimPkPass.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5PkPass.so -> libKPim5PkPass.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5PkPass.so.5 -> libKPim5PkPass.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5PkPass.so.5.23.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/org_kde_kpkpass.categories

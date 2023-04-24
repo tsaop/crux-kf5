@@ -1,31 +1,36 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KPim/
-drwxr-xr-x	root/root	usr/include/KPim/KSMTP/
-drwxr-xr-x	root/root	usr/include/KPim/KSMTP/KSMTP/
--rw-r--r--	root/root	usr/include/KPim/KSMTP/KSMTP/Job
--rw-r--r--	root/root	usr/include/KPim/KSMTP/KSMTP/LoginJob
--rw-r--r--	root/root	usr/include/KPim/KSMTP/KSMTP/SendJob
--rw-r--r--	root/root	usr/include/KPim/KSMTP/KSMTP/Session
--rw-r--r--	root/root	usr/include/KPim/KSMTP/KSMTP/SessionUiProxy
-drwxr-xr-x	root/root	usr/include/KPim/KSMTP/ksmtp/
--rw-r--r--	root/root	usr/include/KPim/KSMTP/ksmtp/job.h
--rw-r--r--	root/root	usr/include/KPim/KSMTP/ksmtp/ksmtp_export.h
--rw-r--r--	root/root	usr/include/KPim/KSMTP/ksmtp/loginjob.h
--rw-r--r--	root/root	usr/include/KPim/KSMTP/ksmtp/sendjob.h
--rw-r--r--	root/root	usr/include/KPim/KSMTP/ksmtp/session.h
--rw-r--r--	root/root	usr/include/KPim/KSMTP/ksmtp/sessionuiproxy.h
--rw-r--r--	root/root	usr/include/KPim/ksmtp_version.h
+drwxr-xr-x	root/root	usr/include/KPim5/
+drwxr-xr-x	root/root	usr/include/KPim5/KSMTP/
+drwxr-xr-x	root/root	usr/include/KPim5/KSMTP/KSMTP/
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/KSMTP/Job
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/KSMTP/LoginJob
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/KSMTP/SendJob
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/KSMTP/Session
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/KSMTP/SessionUiProxy
+drwxr-xr-x	root/root	usr/include/KPim5/KSMTP/ksmtp/
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/job.h
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/ksmtp_export.h
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/loginjob.h
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/sendjob.h
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/session.h
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/sessionuiproxy.h
+-rw-r--r--	root/root	usr/include/KPim5/ksmtp_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KPim5SMTP/
+-rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/KPimSMTP/
+-rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPim5SMTPTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPim5SMTPTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPimSMTPConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPimSMTPConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPimSMTPTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPimSMTPTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKPimSMTP.so -> libKPimSMTP.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPimSMTP.so.5 -> libKPimSMTP.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKPimSMTP.so.5.22.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5SMTP.so -> libKPim5SMTP.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5SMTP.so.5 -> libKPim5SMTP.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5SMTP.so.5.23.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

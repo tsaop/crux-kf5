@@ -1,24 +1,29 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KF5/
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiNotes/
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiNotes/Akonadi/
--rw-r--r--	root/root	usr/include/KF5/AkonadiNotes/Akonadi/NoteUtils
--rw-r--r--	root/root	usr/include/KF5/AkonadiNotes/akonadi-notes_version.h
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiNotes/akonadi/
--rw-r--r--	root/root	usr/include/KF5/AkonadiNotes/akonadi/NoteUtils
--rw-r--r--	root/root	usr/include/KF5/AkonadiNotes/akonadi/akonadi-notes_export.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiNotes/akonadi/noteutils.h
+drwxr-xr-x	root/root	usr/include/KPim5/
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiNotes/
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiNotes/Akonadi/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiNotes/Akonadi/NoteUtils
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiNotes/akonadi-notes_version.h
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiNotes/akonadi/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiNotes/akonadi/NoteUtils
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiNotes/akonadi/akonadi-notes_export.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiNotes/akonadi/noteutils.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiNotes/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KF5AkonadiNotesTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so -> libKF5AkonadiNotes.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiNotes.so.5 -> libKF5AkonadiNotes.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiNotes.so.5.22.3
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KPim5AkonadiNotesTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiNotes/KPim5AkonadiNotesTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KPim5AkonadiNotes/
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiNotes/KPim5AkonadiNotesConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiNotes/KPim5AkonadiNotesConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiNotes/KPim5AkonadiNotesTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiNotes/KPim5AkonadiNotesTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiNotes.so -> libKPim5AkonadiNotes.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiNotes.so.5 -> libKPim5AkonadiNotes.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiNotes.so.5.23.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

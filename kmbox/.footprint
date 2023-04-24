@@ -1,25 +1,30 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KF5/
-drwxr-xr-x	root/root	usr/include/KF5/KMbox/
-drwxr-xr-x	root/root	usr/include/KF5/KMbox/KMbox/
--rw-r--r--	root/root	usr/include/KF5/KMbox/KMbox/MBox
--rw-r--r--	root/root	usr/include/KF5/KMbox/KMbox/MBoxEntry
-drwxr-xr-x	root/root	usr/include/KF5/KMbox/kmbox/
--rw-r--r--	root/root	usr/include/KF5/KMbox/kmbox/kmbox_export.h
--rw-r--r--	root/root	usr/include/KF5/KMbox/kmbox/mbox.h
--rw-r--r--	root/root	usr/include/KF5/KMbox/kmbox/mboxentry.h
--rw-r--r--	root/root	usr/include/KF5/KMbox/kmbox_version.h
+drwxr-xr-x	root/root	usr/include/KPim5/
+drwxr-xr-x	root/root	usr/include/KPim5/KMbox/
+drwxr-xr-x	root/root	usr/include/KPim5/KMbox/KMbox/
+-rw-r--r--	root/root	usr/include/KPim5/KMbox/KMbox/MBox
+-rw-r--r--	root/root	usr/include/KPim5/KMbox/KMbox/MBoxEntry
+drwxr-xr-x	root/root	usr/include/KPim5/KMbox/kmbox/
+-rw-r--r--	root/root	usr/include/KPim5/KMbox/kmbox/kmbox_export.h
+-rw-r--r--	root/root	usr/include/KPim5/KMbox/kmbox/mbox.h
+-rw-r--r--	root/root	usr/include/KPim5/KMbox/kmbox/mboxentry.h
+-rw-r--r--	root/root	usr/include/KPim5/KMbox/kmbox_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5Mbox/
 -rw-r--r--	root/root	usr/lib/cmake/KF5Mbox/KF5MboxConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5Mbox/KF5MboxConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5Mbox/KF5MboxTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5Mbox/KF5MboxTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKF5Mbox.so -> libKF5Mbox.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5Mbox.so.5 -> libKF5Mbox.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKF5Mbox.so.5.22.3
+-rw-r--r--	root/root	usr/lib/cmake/KF5Mbox/KPim5MboxTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5Mbox/KPim5MboxTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KPim5Mbox/
+-rw-r--r--	root/root	usr/lib/cmake/KPim5Mbox/KPim5MboxConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5Mbox/KPim5MboxConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5Mbox/KPim5MboxTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5Mbox/KPim5MboxTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKPim5Mbox.so -> libKPim5Mbox.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5Mbox.so.5 -> libKPim5Mbox.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5Mbox.so.5.23.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

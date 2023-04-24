@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/libkeduvocdocument/
 -rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvocdeclension.h
 -rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvocdocument.h
 -rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvocdocument_export.h
+-rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvocdocument_version.h
 -rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvocexpression.h
 -rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvocidentifier.h
 -rw-r--r--	root/root	usr/include/libkeduvocdocument/keduvockvtml2writer.h
@@ -43,6 +44,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/libkeduvocdocument/
 -rw-r--r--	root/root	usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKEduVocDocument.so -> libKEduVocDocument.so.5
-lrwxrwxrwx	root/root	usr/lib/libKEduVocDocument.so.5 -> libKEduVocDocument.so.5.0.0
--rwxr-xr-x	root/root	usr/lib/libKEduVocDocument.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libKEduVocDocument.so.5 -> libKEduVocDocument.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libKEduVocDocument.so.5.1.0
 drwxr-xr-x	root/root	usr/share/

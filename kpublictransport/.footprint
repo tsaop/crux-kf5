@@ -8,10 +8,6 @@ drwxr-xr-x	root/root	usr/include/KPublicTransport/KPublicTransport/
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/BackendModel
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/CoverageArea
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Datatypes
--rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Departure
--rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/DepartureQueryModel
--rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/DepartureReply
--rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/DepartureRequest
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Disruption
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Equipment
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/IndividualTransport
@@ -27,6 +23,7 @@ drwxr-xr-x	root/root	usr/include/KPublicTransport/KPublicTransport/
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/LocationReply
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/LocationRequest
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Manager
+-rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/OnboardStatus
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Path
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/PathModel
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Platform
@@ -47,10 +44,6 @@ drwxr-xr-x	root/root	usr/include/KPublicTransport/kpublictransport/
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/backendmodel.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/coveragearea.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/datatypes.h
--rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/departure.h
--rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/departurequerymodel.h
--rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/departurereply.h
--rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/departurerequest.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/disruption.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/equipment.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/individualtransport.h
@@ -59,6 +52,7 @@ drwxr-xr-x	root/root	usr/include/KPublicTransport/kpublictransport/
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/journeyreply.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/journeyrequest.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/kpublictransport_export.h
+-rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/kpublictransportonboard_export.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/line.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/load.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/location.h
@@ -89,14 +83,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPublicTransport/
 -rw-r--r--	root/root	usr/lib/cmake/KPublicTransport/KPublicTransportTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPublicTransport/KPublicTransportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPublicTransport.so -> libKPublicTransport.so.1
-lrwxrwxrwx	root/root	usr/lib/libKPublicTransport.so.1 -> libKPublicTransport.so.22.12.3
--rwxr-xr-x	root/root	usr/lib/libKPublicTransport.so.22.12.3
+lrwxrwxrwx	root/root	usr/lib/libKPublicTransport.so.1 -> libKPublicTransport.so.23.04.0
+-rwxr-xr-x	root/root	usr/lib/libKPublicTransport.so.23.04.0
+lrwxrwxrwx	root/root	usr/lib/libKPublicTransportOnboard.so -> libKPublicTransportOnboard.so.1
+lrwxrwxrwx	root/root	usr/lib/libKPublicTransportOnboard.so.1 -> libKPublicTransportOnboard.so.23.04.0
+-rwxr-xr-x	root/root	usr/lib/libKPublicTransportOnboard.so.23.04.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/
 -rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/libkpublictransportqmlplugin.so
+drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/onboard/
+-rwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/onboard/libkpublictransportonboardqmlplugin.so
+-rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/onboard/qmldir
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/qmldir
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/ui/
 -rw-r--r--	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/ui/VehicleSectionItem.qml
@@ -105,3 +105,4 @@ drwxr-xr-x	root/root	usr/lib/qt5/qml/org/kde/kpublictransport/ui/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/org_kde_kpublictransport.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/org_kde_kpublictransport_onboard.categories

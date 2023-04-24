@@ -2,60 +2,65 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/akonadi_indexing_agent
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KF5/
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiSearch/
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiSearch/Core/
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Core/Query
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Core/ResultIterator
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Core/SearchStore
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Core/Term
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiSearch/Debug/
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Debug/akonadisearchdebugdialog.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Debug/akonadisearchdebugsearchpathcombobox.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Debug/search_debug_export.h
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiSearch/PIM/
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/collectionquery.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/contactcompleter.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/contactquery.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/emailquery.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/indexeditems.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/notequery.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/query.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/resultiterator.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/PIM/search_pim_export.h
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiSearch/Xapian/
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Xapian/search_xapian_export.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Xapian/xapiandatabase.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Xapian/xapiandocument.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Xapian/xapianqueryparser.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Xapian/xapiansearchstore.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/Xapian/xapiantermgenerator.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/akonadi_search_version.h
-drwxr-xr-x	root/root	usr/include/KF5/AkonadiSearch/core/
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/core/query.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/core/resultiterator.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/core/searchstore.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/core/term.h
--rw-r--r--	root/root	usr/include/KF5/AkonadiSearch/search_core_export.h
+drwxr-xr-x	root/root	usr/include/KPim5/
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiSearch/
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiSearch/Core/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Core/Query
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Core/ResultIterator
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Core/SearchStore
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Core/Term
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiSearch/Debug/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Debug/akonadisearchdebugdialog.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Debug/akonadisearchdebugsearchpathcombobox.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Debug/search_debug_export.h
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiSearch/PIM/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/collectionquery.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/contactcompleter.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/contactquery.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/emailquery.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/indexeditems.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/notequery.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/query.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/resultiterator.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/PIM/search_pim_export.h
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiSearch/Xapian/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Xapian/search_xapian_export.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Xapian/xapiandatabase.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Xapian/xapiandocument.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Xapian/xapianqueryparser.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Xapian/xapiansearchstore.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/Xapian/xapiantermgenerator.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/akonadi_search_version.h
+drwxr-xr-x	root/root	usr/include/KPim5/AkonadiSearch/core/
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/core/query.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/core/resultiterator.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/core/searchstore.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/core/term.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiSearch/search_core_export.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF5AkonadiSearch/
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSearch/KF5AkonadiSearchConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSearch/KF5AkonadiSearchConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSearch/KF5AkonadiSearchTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSearch/KF5AkonadiSearchTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchCore.so -> libKF5AkonadiSearchCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchCore.so.5 -> libKF5AkonadiSearchCore.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSearchCore.so.5.22.3
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchDebug.so -> libKF5AkonadiSearchDebug.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchDebug.so.5 -> libKF5AkonadiSearchDebug.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSearchDebug.so.5.22.3
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchPIM.so -> libKF5AkonadiSearchPIM.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchPIM.so.5 -> libKF5AkonadiSearchPIM.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSearchPIM.so.5.22.3
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchXapian.so -> libKF5AkonadiSearchXapian.so.5
-lrwxrwxrwx	root/root	usr/lib/libKF5AkonadiSearchXapian.so.5 -> libKF5AkonadiSearchXapian.so.5.22.3
--rwxr-xr-x	root/root	usr/lib/libKF5AkonadiSearchXapian.so.5.22.3
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSearch/KPim5AkonadiSearchTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF5AkonadiSearch/KPim5AkonadiSearchTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/KPim5AkonadiSearch/
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchCore.so -> libKPim5AkonadiSearchCore.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchCore.so.5 -> libKPim5AkonadiSearchCore.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiSearchCore.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchDebug.so -> libKPim5AkonadiSearchDebug.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchDebug.so.5 -> libKPim5AkonadiSearchDebug.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiSearchDebug.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchPIM.so -> libKPim5AkonadiSearchPIM.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchPIM.so.5 -> libKPim5AkonadiSearchPIM.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiSearchPIM.so.5.23.0
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchXapian.so -> libKPim5AkonadiSearchXapian.so.5
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiSearchXapian.so.5 -> libKPim5AkonadiSearchXapian.so.5.23.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiSearchXapian.so.5.23.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
