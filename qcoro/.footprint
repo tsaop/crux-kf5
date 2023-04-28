@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/include/qcoro5/QCoro/
 -rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroSignal
 -rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroTask
 -rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroTcpServer
+-rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroTest
 -rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroThread
 -rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroTimer
 -rw-r--r--	root/root	usr/include/qcoro5/QCoro/QCoroWebSocket
@@ -60,6 +61,7 @@ drwxr-xr-x	root/root	usr/include/qcoro5/qcoro/
 -rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorosignal.h
 -rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorotask.h
 -rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorotcpserver.h
+-rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorotest.h
 -rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorothread.h
 -rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorotimer.h
 -rw-r--r--	root/root	usr/include/qcoro5/qcoro/qcorowebsocket.h
@@ -103,29 +105,33 @@ drwxr-xr-x	root/root	usr/lib/cmake/QCoro5Quick/
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5Quick/QCoro5QuickConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5Quick/QCoro5QuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5Quick/QCoro5QuickTargets.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/QCoro5Test/
+-rw-r--r--	root/root	usr/lib/cmake/QCoro5Test/QCoro5TestConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/QCoro5Test/QCoro5TestConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/QCoro5Test/QCoro5TestTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/QCoro5WebSockets/
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5WebSockets/QCoro5WebSocketsConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5WebSockets/QCoro5WebSocketsConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5WebSockets/QCoro5WebSocketsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/QCoro5WebSockets/QCoro5WebSocketsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libQCoro5Core.so -> libQCoro5Core.so.0
-lrwxrwxrwx	root/root	usr/lib/libQCoro5Core.so.0 -> libQCoro5Core.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libQCoro5Core.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libQCoro5Core.so.0 -> libQCoro5Core.so.0.9.0
+-rwxr-xr-x	root/root	usr/lib/libQCoro5Core.so.0.9.0
 lrwxrwxrwx	root/root	usr/lib/libQCoro5DBus.so -> libQCoro5DBus.so.0
-lrwxrwxrwx	root/root	usr/lib/libQCoro5DBus.so.0 -> libQCoro5DBus.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libQCoro5DBus.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libQCoro5DBus.so.0 -> libQCoro5DBus.so.0.9.0
+-rwxr-xr-x	root/root	usr/lib/libQCoro5DBus.so.0.9.0
 lrwxrwxrwx	root/root	usr/lib/libQCoro5Network.so -> libQCoro5Network.so.0
-lrwxrwxrwx	root/root	usr/lib/libQCoro5Network.so.0 -> libQCoro5Network.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libQCoro5Network.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libQCoro5Network.so.0 -> libQCoro5Network.so.0.9.0
+-rwxr-xr-x	root/root	usr/lib/libQCoro5Network.so.0.9.0
 lrwxrwxrwx	root/root	usr/lib/libQCoro5Qml.so -> libQCoro5Qml.so.0
-lrwxrwxrwx	root/root	usr/lib/libQCoro5Qml.so.0 -> libQCoro5Qml.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libQCoro5Qml.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libQCoro5Qml.so.0 -> libQCoro5Qml.so.0.9.0
+-rwxr-xr-x	root/root	usr/lib/libQCoro5Qml.so.0.9.0
 lrwxrwxrwx	root/root	usr/lib/libQCoro5Quick.so -> libQCoro5Quick.so.0
-lrwxrwxrwx	root/root	usr/lib/libQCoro5Quick.so.0 -> libQCoro5Quick.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libQCoro5Quick.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libQCoro5Quick.so.0 -> libQCoro5Quick.so.0.9.0
+-rwxr-xr-x	root/root	usr/lib/libQCoro5Quick.so.0.9.0
 lrwxrwxrwx	root/root	usr/lib/libQCoro5WebSockets.so -> libQCoro5WebSockets.so.0
-lrwxrwxrwx	root/root	usr/lib/libQCoro5WebSockets.so.0 -> libQCoro5WebSockets.so.0.8.0
--rwxr-xr-x	root/root	usr/lib/libQCoro5WebSockets.so.0.8.0
+lrwxrwxrwx	root/root	usr/lib/libQCoro5WebSockets.so.0 -> libQCoro5WebSockets.so.0.9.0
+-rwxr-xr-x	root/root	usr/lib/libQCoro5WebSockets.so.0.9.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -135,4 +141,5 @@ drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_QCoroNetwork.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_QCoroQml.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_QCoroQuick.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_QCoroTest.pri
 -rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_QCoroWebSockets.pri
