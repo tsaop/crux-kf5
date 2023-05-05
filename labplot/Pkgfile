@@ -1,20 +1,24 @@
 # Description: KDE-application for interactive graphing and analysis of scientific data
 # URL: https://labplot.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cantor cfitsio fftw gsl kdelibs4support lz4 netcdf readstat
+# Depends on: cantor cfitsio dbc-parser-cpp fftw gsl kdelibs4support lz4 netcdf qxlsx readstat
 
 name=labplot
-version=2.9.0
-release=2
-source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+version=2.10.0
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz
+	find-qxlsx.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/find-qxlsx.patch
 
 	cmake -Bbuild \
-		 -DCMAKE_INSTALL_PREFIX=/usr \
-		-DSYSCONF_INSTALL_DIR=/etc \
-		-DCMAKE_BUILD_TYPE=Release
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DENABLE_TESTS=OFF \
+		-DLOCAL_DBC_PARSER=OFF
 
 	cmake --build build
 	DESTDIR=$PKG cmake --install build
