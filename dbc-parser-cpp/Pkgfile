@@ -1,0 +1,27 @@
+# Description: A DBC file parsing library written in C++11
+# URL: https://github.com/Murmele/dbc_parser_cpp
+# Maintainer: Tsaop, leerot at cock dot li
+# Depends on: catch2 git
+
+_commit=ca69d0dd08a03fc0210820a4f81bfd217ad25722
+name=dbc-parser-cpp
+version=0.1.1.ca69d0d
+release=1
+source=()
+
+build() {
+	git clone https://github.com/Murmele/${name//-/_}
+	cd ${name//-/_}
+	ls
+	git checkout ${_commit}
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DENABLE_TESTS=OFF \
+		-DBUILD_SHARED_LIBS=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
