@@ -1,0 +1,23 @@
+# Description: A modern, C++-native, test framework for unit-tests, TDD and BDD 
+# URL: https://github.com/catchorg/Catch2
+# Maintainer: Tsaop, leerot at cock dot li
+# Depends on:  cmake
+
+name=catch2
+version=3.3.2
+release=1
+source=(https://github.com/catchorg/Catch2/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd Catch2-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_SHARED_LIBS=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/doc
+}
