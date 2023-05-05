@@ -1,0 +1,21 @@
+# Description: Excel file(*.xlsx) reader/writer library using Qt 5 or 6. Descendant of QtXlsx.
+# URL: https://qtexcel.github.io/QXlsx
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt5
+
+name=qxlsx
+version=1.4.6
+release=1
+source=(https://github.com/QtExcel/QXlsx/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd QXlsx-$version/QXlsx
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_SHARED_LIBS=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
