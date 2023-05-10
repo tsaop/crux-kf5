@@ -4,16 +4,14 @@
 # Depends on: baloo iso-codes kactivities-stats kdelibs4support kdesu kholidays kjsembed knotifyconfig kpeople ksysguard ktexteditor kwin kxmlrpcclient libqalculate phonon-qt5-backend-gstreamer prison
 
 name=plasma-workspace
-version=5.27.4
+version=5.27.5
 release=1
 source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
 	52-upower.rules
-	kde.pam
-	fix-cmakelists.patch)
+	kde.pam)
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/fix-cmakelists.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
