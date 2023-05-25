@@ -104,6 +104,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/bibtex.svg -> addres
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/bigskip.svg -> format-line-spacing-triple.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/bitmap-trace.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/black_sum.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/blur.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/bookmark-add-folder.svg -> bookmark-new.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/bookmark-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/bookmark-new-list.svg -> bookmark-new.svg
@@ -1181,6 +1182,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/photo.svg -> view-pr
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/photos-amarok.svg -> view-preview.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/pin.svg -> window-pin.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/pixelart-trace.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/pixelate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/player-time.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/16/player-volume-muted.svg -> ../../status/16/audio-volume-muted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/16/player-volume.svg
@@ -1873,6 +1875,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/beamerframe.svg -> v
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/bibtex.svg -> address-book-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/bigskip.svg -> format-line-spacing-triple.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/black_sum.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/blur.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/blurfx.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/blurimage.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/bookmark-add-folder.svg -> bookmark-new.svg
@@ -3067,6 +3070,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/pentagon-shape.svg -
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/photo.svg -> view-preview.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/photos-amarok.svg -> view-preview.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/pin.svg -> window-pin.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/pixelate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/actions/22/player-time.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/player-volume-muted.svg -> ../../status/22/audio-volume-muted.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/actions/22/player-volume.svg -> ../../status/22/audio-volume-high.svg
@@ -4782,7 +4786,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.inkscape.Inkscape.s
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.kde.skanlite.svg -> skanlite.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/org.telegram.desktop.svg -> telegram.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/parley.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/apps/48/partitionmanager.svg -> filelight.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/partitionmanager.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/phonon-gstreamer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/photolayoutseditor.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/apps/48/picmi.svg
@@ -5100,7 +5104,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/devices/64/input-gamepad.svg ->
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-flash-memory-stick.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-flash-sd-mmc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/devices/64/media-flash-smart-media.svg -> media-flash-sd-mmc.svg
--rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-flash.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/devices/64/media-flash.svg -> media-flash-sd-mmc.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-optical-audio.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-optical-blu-ray.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-optical-data.svg
@@ -5110,6 +5114,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/devices/64/media-flash-smart-me
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-optical.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-write-cd.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/media-write-dvd.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/memory.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/devices/64/monitor.svg -> computer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/multimedia-player.svg
 -rw-r--r--	root/root	usr/share/icons/breeze-dark/devices/64/network-card.svg
@@ -5719,7 +5724,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-rdf.svg -> te
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/16/text-vnd.wap.wml.svg -> text-xml.svg
@@ -6222,7 +6227,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-rdf.svg -> te
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/22/text-vnd.wap.wml.svg -> text-xml.svg
@@ -6726,7 +6731,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-rdf.svg -> te
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/32/text-vnd.wap.wml.svg -> text-xml.svg
@@ -7227,7 +7232,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-rdf.svg -> te
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze-dark/mimetypes/64/text-vnd.wap.wml.svg -> text-xml.svg
@@ -8919,6 +8924,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/bibtex.svg -> address-boo
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/bigskip.svg -> format-line-spacing-triple.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/bitmap-trace.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/black_sum.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/blur.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/bookmark-add-folder.svg -> bookmark-new.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/bookmark-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/bookmark-new-list.svg -> bookmark-new.svg
@@ -9996,6 +10002,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/photo.svg -> view-preview
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/photos-amarok.svg -> view-preview.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/pin.svg -> window-pin.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/pixelart-trace.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/16/pixelate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/player-time.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/16/player-volume-muted.svg -> ../../status/16/audio-volume-muted.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/16/player-volume.svg
@@ -10681,6 +10688,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/beamerframe.svg -> view-p
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/bibtex.svg -> address-book-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/bigskip.svg -> format-line-spacing-triple.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/black_sum.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/blur.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/blurfx.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/blurimage.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/bookmark-add-folder.svg -> bookmark-new.svg
@@ -11875,6 +11883,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/pentagon-shape.svg -> dra
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/photo.svg -> view-preview.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/photos-amarok.svg -> view-preview.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/pin.svg -> window-pin.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/actions/22/pixelate.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/actions/22/player-time.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/player-volume-muted.svg -> ../../status/22/audio-volume-muted.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/actions/22/player-volume.svg -> ../../status/22/audio-volume-high.svg
@@ -13584,7 +13593,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.inkscape.Inkscape.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.kde.skanlite.svg -> skanlite.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/org.telegram.desktop.svg -> telegram.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/parley.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/apps/48/partitionmanager.svg -> filelight.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/apps/48/partitionmanager.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/phonon-gstreamer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/photolayoutseditor.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/apps/48/picmi.svg
@@ -13902,7 +13911,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/devices/64/input-gamepad.svg -> inpu
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-flash-memory-stick.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-flash-sd-mmc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/devices/64/media-flash-smart-media.svg -> media-flash-sd-mmc.svg
--rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-flash.svg
+lrwxrwxrwx	root/root	usr/share/icons/breeze/devices/64/media-flash.svg -> media-flash-sd-mmc.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-optical-audio.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-optical-blu-ray.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-optical-data.svg
@@ -13912,6 +13921,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/devices/64/media-flash-smart-media.s
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-optical.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-write-cd.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/media-write-dvd.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/devices/64/memory.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/devices/64/monitor.svg -> computer.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/multimedia-player.svg
 -rw-r--r--	root/root	usr/share/icons/breeze/devices/64/network-card.svg
@@ -14523,7 +14533,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-rdf.svg -> text-rt
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/16/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/16/text-vnd.wap.wml.svg -> text-xml.svg
@@ -15026,7 +15036,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-rdf.svg -> text-rt
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/22/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/22/text-vnd.wap.wml.svg -> text-xml.svg
@@ -15530,7 +15540,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-rdf.svg -> text-rt
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/32/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/32/text-vnd.wap.wml.svg -> text-xml.svg
@@ -16031,7 +16041,7 @@ lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-rdf.svg -> text-rt
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-sgml.svg -> text-xml.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-troff.svg -> application-epub+zip.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-vcalendar.svg -> x-office-calendar.svg
-lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-vnd.abc.svg -> text-rtf.svg
+-rw-r--r--	root/root	usr/share/icons/breeze/mimetypes/64/text-vnd.abc.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-vnd.kde.kcrash-report.svg -> text-x-apport.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-vnd.trolltech.linguist.svg -> application-x-xliff.svg
 lrwxrwxrwx	root/root	usr/share/icons/breeze/mimetypes/64/text-vnd.wap.wml.svg -> text-xml.svg

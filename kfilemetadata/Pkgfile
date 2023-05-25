@@ -4,14 +4,16 @@
 # Depends on: ebook-tools exiv2 ffmpeg karchive kconfig kcoreaddons ki18n poppler-qt5 taglib
 
 name=kfilemetadata
-version=5.105.0
+version=5.106.0
 release=1
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz
+	6fcce03cfd85fffbe6d7701506de49c5987fdbe5.diff)
 
 build() {
 	cd $name-$version
 
-	
+	# fix build with exiv2 0.28.0
+	patch -Np1 -i $SRC/6fcce03cfd85fffbe6d7701506de49c5987fdbe5.diff
 
 	cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \

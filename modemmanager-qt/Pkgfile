@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: modemmanager qt5 extra-cmake-modules
+# Depends on: extra-cmake-modules modemmanager qt5
 
 name=modemmanager-qt
-version=5.105.0
+version=5.106.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
