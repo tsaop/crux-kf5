@@ -1,12 +1,11 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/gif2h5
--rwxr-xr-x	root/root	usr/bin/h52gif
 -rwxr-xr-x	root/root	usr/bin/h5c++
 -rwxr-xr-x	root/root	usr/bin/h5cc
 -rwxr-xr-x	root/root	usr/bin/h5clear
 -rwxr-xr-x	root/root	usr/bin/h5copy
 -rwxr-xr-x	root/root	usr/bin/h5debug
+-rwxr-xr-x	root/root	usr/bin/h5delete
 -rwxr-xr-x	root/root	usr/bin/h5diff
 -rwxr-xr-x	root/root	usr/bin/h5dump
 -rwxr-xr-x	root/root	usr/bin/h5format_convert
@@ -43,25 +42,30 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5DcreatProp.h
 -rw-r--r--	root/root	usr/include/H5Dpublic.h
 -rw-r--r--	root/root	usr/include/H5DxferProp.h
+-rw-r--r--	root/root	usr/include/H5ESdevelop.h
 -rw-r--r--	root/root	usr/include/H5ESpublic.h
 -rw-r--r--	root/root	usr/include/H5EnumType.h
 -rw-r--r--	root/root	usr/include/H5Epubgen.h
 -rw-r--r--	root/root	usr/include/H5Epublic.h
 -rw-r--r--	root/root	usr/include/H5Exception.h
 -rw-r--r--	root/root	usr/include/H5FDcore.h
+-rw-r--r--	root/root	usr/include/H5FDdevelop.h
 -rw-r--r--	root/root	usr/include/H5FDdirect.h
 -rw-r--r--	root/root	usr/include/H5FDfamily.h
 -rw-r--r--	root/root	usr/include/H5FDhdfs.h
+-rw-r--r--	root/root	usr/include/H5FDioc.h
 -rw-r--r--	root/root	usr/include/H5FDlog.h
 -rw-r--r--	root/root	usr/include/H5FDmirror.h
 -rw-r--r--	root/root	usr/include/H5FDmpi.h
 -rw-r--r--	root/root	usr/include/H5FDmpio.h
 -rw-r--r--	root/root	usr/include/H5FDmulti.h
+-rw-r--r--	root/root	usr/include/H5FDonion.h
 -rw-r--r--	root/root	usr/include/H5FDpublic.h
 -rw-r--r--	root/root	usr/include/H5FDros3.h
 -rw-r--r--	root/root	usr/include/H5FDsec2.h
 -rw-r--r--	root/root	usr/include/H5FDsplitter.h
 -rw-r--r--	root/root	usr/include/H5FDstdio.h
+-rw-r--r--	root/root	usr/include/H5FDsubfiling.h
 -rw-r--r--	root/root	usr/include/H5FDwindows.h
 -rw-r--r--	root/root	usr/include/H5FaccProp.h
 -rw-r--r--	root/root	usr/include/H5FcreatProp.h
@@ -72,6 +76,7 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5Group.h
 -rw-r--r--	root/root	usr/include/H5IMpublic.h
 -rw-r--r--	root/root	usr/include/H5IdComponent.h
+-rw-r--r--	root/root	usr/include/H5Idevelop.h
 -rw-r--r--	root/root	usr/include/H5Include.h
 -rw-r--r--	root/root	usr/include/H5IntType.h
 -rw-r--r--	root/root	usr/include/H5Ipublic.h
@@ -79,6 +84,7 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5LTpublic.h
 -rw-r--r--	root/root	usr/include/H5LaccProp.h
 -rw-r--r--	root/root	usr/include/H5LcreatProp.h
+-rw-r--r--	root/root	usr/include/H5Ldevelop.h
 -rw-r--r--	root/root	usr/include/H5Library.h
 -rw-r--r--	root/root	usr/include/H5Location.h
 -rw-r--r--	root/root	usr/include/H5Lpublic.h
@@ -98,6 +104,8 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5Spublic.h
 -rw-r--r--	root/root	usr/include/H5StrType.h
 -rw-r--r--	root/root	usr/include/H5TBpublic.h
+-rw-r--r--	root/root	usr/include/H5TSdevelop.h
+-rw-r--r--	root/root	usr/include/H5Tdevelop.h
 -rw-r--r--	root/root	usr/include/H5Tpublic.h
 -rw-r--r--	root/root	usr/include/H5VLconnector.h
 -rw-r--r--	root/root	usr/include/H5VLconnector_passthru.h
@@ -105,6 +113,7 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/H5VLpassthru.h
 -rw-r--r--	root/root	usr/include/H5VLpublic.h
 -rw-r--r--	root/root	usr/include/H5VarLenType.h
+-rw-r--r--	root/root	usr/include/H5Zdevelop.h
 -rw-r--r--	root/root	usr/include/H5Zpublic.h
 -rw-r--r--	root/root	usr/include/H5api_adpt.h
 -rw-r--r--	root/root	usr/include/H5overflow.h
@@ -116,19 +125,19 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libhdf5.la
 -rw-r--r--	root/root	usr/lib/libhdf5.settings
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.200.2.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so.200 -> libhdf5.so.200.2.0
--rwxr-xr-x	root/root	usr/lib/libhdf5.so.200.2.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.310.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so.310 -> libhdf5.so.310.1.0
+-rwxr-xr-x	root/root	usr/lib/libhdf5.so.310.1.0
 -rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.200.2.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.200 -> libhdf5_cpp.so.200.2.0
--rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.200.2.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.310.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.310 -> libhdf5_cpp.so.310.0.1
+-rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.310.0.1
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.200.1.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.200 -> libhdf5_hl.so.200.1.0
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.200.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.310.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.310 -> libhdf5_hl.so.310.0.1
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.310.0.1
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.200.1.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.200 -> libhdf5_hl_cpp.so.200.1.0
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.200.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.310.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.310 -> libhdf5_hl_cpp.so.310.0.1
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.310.0.1
 drwxr-xr-x	root/root	usr/share/
