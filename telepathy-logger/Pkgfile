@@ -6,10 +6,12 @@
 name=telepathy-logger
 version=0.8.2
 release=1
-source=(http://telepathy.freedesktop.org/releases/$name/$name-$version.tar.bz2)
+source=(http://telepathy.freedesktop.org/releases/$name/$name-$version.tar.bz2
+	0001-tools-Fix-the-build-with-Python-3.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/0001-tools-Fix-the-build-with-Python-3.patch
 
 	./configure --prefix=/usr \
 		--libdir=/usr/lib \
