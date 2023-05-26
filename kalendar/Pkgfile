@@ -1,10 +1,10 @@
 # Description: A calendar application using Akonadi to sync with external services (Nextcloud, GMail, ...)
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: eventviews mailcommon qqc2-desktop-style kirigami-addons
+# Depends on: eventviews kirigami-addons mailcommon qqc2-desktop-style
 
 name=kalendar
-version=23.04.0
+version=23.04.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

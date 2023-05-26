@@ -1,10 +1,10 @@
 # Description: Data Model and Extraction System for Travel Reservation information
 # URL: https://cgit.kde.org/kitinerary.git/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcalendarcore kcontacts kmime kpkpass poppler zxing-cpp kirigami-addons
+# Depends on: kcalendarcore kcontacts kirigami-addons kmime kpkpass poppler zxing-cpp
 
 name=kitinerary
-version=23.04.0
+version=23.04.1
 release=1
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

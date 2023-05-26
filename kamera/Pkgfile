@@ -1,10 +1,10 @@
 # Description: KDE integration for gphoto2 cameras
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kio libgphoto2 kcmutils
+# Depends on: kcmutils libgphoto2
 
 name=kamera
-version=23.04.0
+version=23.04.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

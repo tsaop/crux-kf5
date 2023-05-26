@@ -1,10 +1,10 @@
 # Description: Control KDE from your smartphone
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils kpeoplevcard kwayland libfakekey pulseaudio-qt qqc2-desktop-style sshfs-fuse modemmanager-qt
+# Depends on: kcmutils kpeoplevcard kwayland libfakekey modemmanager-qt pulseaudio-qt qqc2-desktop-style sshfs-fuse
 
 name=kdeconnect
-version=23.04.0
+version=23.04.1
 release=1
 source=(https://download.kde.org/stable/release-service/$version/src/$name-kde-$version.tar.xz)
 build() {

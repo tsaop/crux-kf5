@@ -9,10 +9,10 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/konsole_globalaccel
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/konsole_show_menubar
-lrwxrwxrwx	root/root	usr/lib/libkonsoleapp.so.1 -> libkonsoleapp.so.23.04.0
--rwxr-xr-x	root/root	usr/lib/libkonsoleapp.so.23.04.0
-lrwxrwxrwx	root/root	usr/lib/libkonsoleprivate.so.1 -> libkonsoleprivate.so.23.04.0
--rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so.23.04.0
+lrwxrwxrwx	root/root	usr/lib/libkonsoleapp.so.1 -> libkonsoleapp.so.23.04.1
+-rwxr-xr-x	root/root	usr/lib/libkonsoleapp.so.23.04.1
+lrwxrwxrwx	root/root	usr/lib/libkonsoleprivate.so.1 -> libkonsoleprivate.so.23.04.1
+-rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so.23.04.1
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konsolepart.so
@@ -25,6 +25,8 @@ drwxr-xr-x	root/root	usr/share/applications/
 drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/konsole.upd
 -rwxr-xr-x	root/root	usr/share/kconf_update/konsole_add_hamburgermenu_to_toolbar.sh
+drwxr-xr-x	root/root	usr/share/kglobalaccel/
+-rw-r--r--	root/root	usr/share/kglobalaccel/org.kde.konsole.desktop
 drwxr-xr-x	root/root	usr/share/kio/
 drwxr-xr-x	root/root	usr/share/kio/servicemenus/
 -rwxr-xr-x	root/root	usr/share/kio/servicemenus/konsolerun.desktop
