@@ -4,16 +4,12 @@
 # Depends on: baloo cfitsio kactivities kdelibs4support kimageannotator kipi-plugins libkdcraw purpose
 
 name=gwenview
-version=23.04.1
+version=23.04.2
 release=1
-source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz
-	fix-build-with-exiv2-0.28.0.patch)
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
-	patch -Np1 -i $SRC/fix-build-with-exiv2-0.28.0.patch
-
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
