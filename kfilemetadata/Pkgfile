@@ -4,28 +4,21 @@
 # Depends on: ebook-tools exiv2 ffmpeg karchive kconfig kcoreaddons ki18n poppler-qt5 taglib
 
 name=kfilemetadata
-version=5.106.0
+version=5.107.0
 release=1
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz
-	6fcce03cfd85fffbe6d7701506de49c5987fdbe5.diff)
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	# fix build with exiv2 0.28.0
-	patch -Np1 -i $SRC/6fcce03cfd85fffbe6d7701506de49c5987fdbe5.diff
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF \
+		-DCMAKE_BUILD_TYPE=Release
 
-	cmake \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DSYSCONF_INSTALL_DIR=/etc \
-	-DLIB_INSTALL_DIR=/usr/lib \
-	-DBUILD_TESTING=OFF \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-	-DCMAKE_BUILD_TYPE=Release \
-	-Wno-dev
-
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 }

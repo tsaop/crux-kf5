@@ -4,7 +4,7 @@
 # Depends on: extra-cmake-modules networkmanager qt5
 
 name=networkmanager-qt
-version=5.106.0
+version=5.107.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
