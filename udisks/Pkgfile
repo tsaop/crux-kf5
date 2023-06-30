@@ -1,10 +1,10 @@
 # Description:	Storage media interface
 # URL:		http://udisks.freedesktop.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: docbook-xsl libatasmart libblockdev libgudev polkit
+# Depends on: docbook-xsl libatasmart libblockdev libgudev polkit libnvme
 
 name=udisks
-version=2.9.4
+version=2.10.0
 release=1
 source=(https://github.com/storaged-project/udisks/releases/download/$name-$version/$name-$version.tar.bz2)
 
@@ -22,4 +22,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/gtk-doc
+	[[ ! -e /usr/bin/zsh ]] && rm -rf $PKG/usr/share/zsh
 }
