@@ -1,10 +1,10 @@
 # Description: Add-ons for the Kirigami framework
 # URL: https://invent.kde.org/libraries/kirigami-addons
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kirigami2 ki18n
+# Depends on: ki18n kirigami2
 
 name=kirigami-addons
-version=0.8.0
+version=0.9.0
 release=1
 source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
 
