@@ -37,6 +37,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/digikam_version.h
 -rw-r--r--	root/root	usr/include/digikam/dimg.h
 -rw-r--r--	root/root	usr/include/digikam/dimgbuiltinfilter.h
+-rw-r--r--	root/root	usr/include/digikam/dimgloader.h
 -rw-r--r--	root/root	usr/include/digikam/dimgloaderobserver.h
 -rw-r--r--	root/root	usr/include/digikam/dimgloadersettings.h
 -rw-r--r--	root/root	usr/include/digikam/dimgpreviewitem.h
@@ -52,6 +53,7 @@ drwxr-xr-x	root/root	usr/include/digikam/
 -rw-r--r--	root/root	usr/include/digikam/dpluginauthor.h
 -rw-r--r--	root/root	usr/include/digikam/dpluginbqm.h
 -rw-r--r--	root/root	usr/include/digikam/dplugindialog.h
+-rw-r--r--	root/root	usr/include/digikam/dplugindimg.h
 -rw-r--r--	root/root	usr/include/digikam/dplugineditor.h
 -rw-r--r--	root/root	usr/include/digikam/dplugingeneric.h
 -rw-r--r--	root/root	usr/include/digikam/dpluginloader.h
@@ -124,12 +126,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/DigikamGui/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/DigikamPlugin/
 -rw-r--r--	root/root	usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
-lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.8.0.0
--rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.8.0.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.8.0.0
--rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.8.0.0
-lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.8.0.0
--rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamcore.so -> libdigikamcore.so.8.1.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamcore.so.8.1.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamdatabase.so -> libdigikamdatabase.so.8.1.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamdatabase.so.8.1.0
+lrwxrwxrwx	root/root	usr/lib/libdigikamgui.so -> libdigikamgui.so.8.1.0
+-rwxr-xr-x	root/root	usr/lib/libdigikamgui.so.8.1.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/digikam/
@@ -444,13 +446,17 @@ drwxr-xr-x	root/root	usr/share/digikam/templates/
 -rw-r--r--	root/root	usr/share/digikam/templates/1_photo_10.5x14.8cm.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/1_photo_10x15cm.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/1_photo_20x25cm.desktop
+-rw-r--r--	root/root	usr/share/digikam/templates/1_photo_4x6_2_photos_2x3.desktop
+-rw-r--r--	root/root	usr/share/digikam/templates/1_photo_5x7_corner.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/1_photo_8x10.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/1_photo_9x13cm.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/2_photos_13x18cm.desktop
+-rw-r--r--	root/root	usr/share/digikam/templates/2_photos_4x6.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/2_photos_5x7.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/3_photos_10x15cm.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/3_photos_4x6.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/4_photos_10x13.33cm.desktop
+-rw-r--r--	root/root	usr/share/digikam/templates/4_photos_2.5x3.5.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/4_photos_3.5x5.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/4_photos_4.5x5cm.desktop
 -rw-r--r--	root/root	usr/share/digikam/templates/4_photos_9x13cm.desktop

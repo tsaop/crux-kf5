@@ -4,8 +4,8 @@
 # Depends on: akonadi-contacts imagemagick kcalendarcore kfilemetadata knotifyconfig lensfun libkipi libksane liblqr marble opencv x265
 
 name=digikam
-version=8.0.0
-release=2
+version=8.1.0
+release=1
 source=(http://download.kde.org/stable/$name/$version/digiKam-$version.tar.xz)
 
 build() {
