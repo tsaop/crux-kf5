@@ -4,7 +4,7 @@
 # Depends on: dbus duktape gsettings-desktop-schemas vala
 
 name=libproxy
-version=0.5.2
+version=0.5.3
 release=1
 source=(https://github.com/libproxy/libproxy/archive/${version}/$name-$version.tar.gz)
 build() {
