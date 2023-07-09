@@ -1,0 +1,15 @@
+# Description: Open Source software construction tool
+# URL: https://scons.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: python3-build
+
+name=scons
+version=4.5.2
+release=1
+source=(https://sourceforge.net/projects/scons/files/$name/$version/SCons-$version.tar.gz)
+
+build() {
+	cd SCons-$version
+	python3 -m build --skip-dependency-check --no-isolation
+	python3 -m installer --destdir=$PKG dist/*.whl
+}
