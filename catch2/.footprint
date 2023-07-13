@@ -16,6 +16,8 @@ drwxr-xr-x	root/root	usr/include/catch2/benchmark/
 drwxr-xr-x	root/root	usr/include/catch2/benchmark/detail/
 -rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_analyse.hpp
 -rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_benchmark_function.hpp
+-rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_benchmark_stats.hpp
+-rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp
 -rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_complete_invoke.hpp
 -rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_estimate_clock.hpp
 -rw-r--r--	root/root	usr/include/catch2/benchmark/detail/catch_measure.hpp
@@ -62,8 +64,8 @@ drwxr-xr-x	root/root	usr/include/catch2/interfaces/
 -rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_registry_hub.hpp
 -rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_reporter.hpp
 -rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_reporter_factory.hpp
--rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_reporter_registry.hpp
 -rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_tag_alias_registry.hpp
+-rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_test_invoker.hpp
 -rw-r--r--	root/root	usr/include/catch2/interfaces/catch_interfaces_testcase.hpp
 drwxr-xr-x	root/root	usr/include/catch2/internal/
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_assertion_handler.hpp
@@ -75,6 +77,7 @@ drwxr-xr-x	root/root	usr/include/catch2/internal/
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_compiler_capabilities.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_config_android_logwrite.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_config_counter.hpp
+-rw-r--r--	root/root	usr/include/catch2/internal/catch_config_static_analysis_support.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_config_uncaught_exceptions.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_config_wchar.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_console_colour.hpp
@@ -107,6 +110,7 @@ drwxr-xr-x	root/root	usr/include/catch2/internal/
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_platform.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_polyfills.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_preprocessor.hpp
+-rw-r--r--	root/root	usr/include/catch2/internal/catch_preprocessor_internal_stringify.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_preprocessor_remove_parens.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_random_number_generator.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_random_seed_generation.hpp
@@ -132,6 +136,7 @@ drwxr-xr-x	root/root	usr/include/catch2/internal/
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_test_failure_exception.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_test_macro_impl.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_test_registry.hpp
+-rw-r--r--	root/root	usr/include/catch2/internal/catch_test_run_info.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_test_spec_parser.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_textflow.hpp
 -rw-r--r--	root/root	usr/include/catch2/internal/catch_to_string.hpp
@@ -183,11 +188,13 @@ drwxr-xr-x	root/root	usr/lib/cmake/Catch2/
 -rw-r--r--	root/root	usr/lib/cmake/Catch2/Catch2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Catch2/Catch2Targets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Catch2/CatchAddTests.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Catch2/CatchShardTests.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Catch2/CatchShardTestsImpl.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Catch2/ParseAndAddCatchTests.cmake
-lrwxrwxrwx	root/root	usr/lib/libCatch2.so -> libCatch2.so.3.3.2
--rwxr-xr-x	root/root	usr/lib/libCatch2.so.3.3.2
-lrwxrwxrwx	root/root	usr/lib/libCatch2Main.so -> libCatch2Main.so.3.3.2
--rwxr-xr-x	root/root	usr/lib/libCatch2Main.so.3.3.2
+lrwxrwxrwx	root/root	usr/lib/libCatch2.so -> libCatch2.so.3.4.0
+-rwxr-xr-x	root/root	usr/lib/libCatch2.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/libCatch2Main.so -> libCatch2Main.so.3.4.0
+-rwxr-xr-x	root/root	usr/lib/libCatch2Main.so.3.4.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/Catch2/
 -rw-r--r--	root/root	usr/share/Catch2/gdbinit
