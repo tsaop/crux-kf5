@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/include/pybind11/detail/
 -rw-r--r--	root/root	usr/include/pybind11/detail/typeid.h
 -rw-r--r--	root/root	usr/include/pybind11/eigen.h
 drwxr-xr-x	root/root	usr/include/pybind11/eigen/
+-rw-r--r--	root/root	usr/include/pybind11/eigen/common.h
 -rw-r--r--	root/root	usr/include/pybind11/eigen/matrix.h
 -rw-r--r--	root/root	usr/include/pybind11/eigen/tensor.h
 -rw-r--r--	root/root	usr/include/pybind11/embed.h
@@ -33,6 +34,7 @@ drwxr-xr-x	root/root	usr/include/pybind11/eigen/
 drwxr-xr-x	root/root	usr/include/pybind11/stl/
 -rw-r--r--	root/root	usr/include/pybind11/stl/filesystem.h
 -rw-r--r--	root/root	usr/include/pybind11/stl_bind.h
+-rw-r--r--	root/root	usr/include/pybind11/type_caster_pyobject_ptr.h
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/cmake/
 drwxr-xr-x	root/root	usr/share/cmake/pybind11/
