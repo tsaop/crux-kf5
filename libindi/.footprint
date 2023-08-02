@@ -52,8 +52,6 @@ lrwxrwxrwx	root/root	usr/bin/indi_lx200_OpenAstroTech -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_lx200_TeenAstro
 lrwxrwxrwx	root/root	usr/bin/indi_lx200_pegasus_nyx101 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200am5 -> indi_lx200generic
-lrwxrwxrwx	root/root	usr/bin/indi_lx200ap -> indi_lx200generic
-lrwxrwxrwx	root/root	usr/bin/indi_lx200ap_gtocp2 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200ap_v2 -> indi_lx200generic
 lrwxrwxrwx	root/root	usr/bin/indi_lx200autostar -> indi_lx200generic
 -rwxr-xr-x	root/root	usr/bin/indi_lx200basic
@@ -281,19 +279,19 @@ drwxr-xr-x	root/root	usr/lib/indi/MathPlugins/
 -rwxr-xr-x	root/root	usr/lib/indi/MathPlugins/libindi_SVD_MathPlugin.so
 -rw-r--r--	root/root	usr/lib/libindiAlignmentClient.a
 lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so -> libindiAlignmentDriver.so.2
-lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.2 -> libindiAlignmentDriver.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libindiAlignmentDriver.so.2 -> libindiAlignmentDriver.so.2.0.3
+-rwxr-xr-x	root/root	usr/lib/libindiAlignmentDriver.so.2.0.3
 -rw-r--r--	root/root	usr/lib/libindiclient.a
 lrwxrwxrwx	root/root	usr/lib/libindiclient.so -> libindiclient.so.2
-lrwxrwxrwx	root/root	usr/lib/libindiclient.so.2 -> libindiclient.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libindiclient.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libindiclient.so.2 -> libindiclient.so.2.0.3
+-rwxr-xr-x	root/root	usr/lib/libindiclient.so.2.0.3
 -rw-r--r--	root/root	usr/lib/libindidriver.a
 lrwxrwxrwx	root/root	usr/lib/libindidriver.so -> libindidriver.so.2
-lrwxrwxrwx	root/root	usr/lib/libindidriver.so.2 -> libindidriver.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libindidriver.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libindidriver.so.2 -> libindidriver.so.2.0.3
+-rwxr-xr-x	root/root	usr/lib/libindidriver.so.2.0.3
 lrwxrwxrwx	root/root	usr/lib/libindilx200.so -> libindilx200.so.2
-lrwxrwxrwx	root/root	usr/lib/libindilx200.so.2 -> libindilx200.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libindilx200.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libindilx200.so.2 -> libindilx200.so.2.0.3
+-rwxr-xr-x	root/root	usr/lib/libindilx200.so.2.0.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libindi.pc
 drwxr-xr-x	root/root	usr/lib/udev/
