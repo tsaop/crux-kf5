@@ -22,12 +22,13 @@ drwxr-xr-x	root/root	usr/include/minizip/
 -rw-r--r--	root/root	usr/include/minizip/zip.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
--rw-r--r--	root/root	usr/lib/cmake/minizip-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/minizip-config.cmake
--rw-r--r--	root/root	usr/lib/cmake/minizip-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/minizip.cmake
-lrwxrwxrwx	root/root	usr/lib/libminizip.so -> libminizip.so.4
-lrwxrwxrwx	root/root	usr/lib/libminizip.so.4 -> libminizip.so.4.0.0
--rwxr-xr-x	root/root	usr/lib/libminizip.so.4.0.0
+drwxr-xr-x	root/root	usr/lib/cmake/minizip/
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip-config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/minizip/minizip.cmake
+lrwxrwxrwx	root/root	usr/lib/libminizip.so -> libminizip.so.1
+lrwxrwxrwx	root/root	usr/lib/libminizip.so.1 -> libminizip.so.4.0.1
+-rwxr-xr-x	root/root	usr/lib/libminizip.so.4.0.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/minizip.pc
