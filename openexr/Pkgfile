@@ -4,14 +4,12 @@
 # Depends on: imath
 
 name=openexr
-version=3.1.10
+version=3.1.11
 release=1
-source=(https://github.com/AcademySoftwareFoundation/$name/archive/v${version}/$name-$version.tar.gz
-	fix-cpuid.patch)
+source=(https://github.com/AcademySoftwareFoundation/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	patch -Np0 -i $SRC/fix-cpuid.patch
 
 	cmake -Bbuild \
 		-DCMAKE_BUILD_TYPE=Release \
