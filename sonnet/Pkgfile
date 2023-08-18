@@ -4,7 +4,7 @@
 # Depends on: aspell extra-cmake-modules hunspell qt5
 
 name=sonnet
-version=5.108.0
+version=5.109.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
