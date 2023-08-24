@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	etc/xdg/autostart/
 -rw-r--r--	root/root	etc/xdg/autostart/konqy_preload.desktop
 -rw-r--r--	root/root	etc/xdg/konqsidebartngrc
 -rw-r--r--	root/root	etc/xdg/translaterc
+-rw-r--r--	root/root	etc/xdg/useragenttemplatesrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fsview
@@ -12,6 +13,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/konqueror
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KF5/
+-rw-r--r--	root/root	usr/include/KF5/asyncselectorinterface.h
 -rw-r--r--	root/root	usr/include/KF5/konq_events.h
 -rw-r--r--	root/root	usr/include/KF5/konq_historyentry.h
 -rw-r--r--	root/root	usr/include/KF5/konq_historyprovider.h
@@ -33,10 +35,10 @@ lrwxrwxrwx	root/root	usr/lib/libKF5Konq.so.6 -> libKF5Konq.so.5.97.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_kfmclient.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit5_konqueror.so
 lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so -> libkonqsidebarplugin.so.5
--rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.23.04.3
-lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.23.04.3
--rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.23.04.3
-lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.23.04.3
+-rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.23.08.0
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.5 -> libkonqsidebarplugin.so.23.08.0
+-rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.23.08.0
+lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.5 -> libkonquerorprivate.so.23.08.0
 -rwxr-xr-x	root/root	usr/lib/libkwebenginepart.so
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
@@ -85,6 +87,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/konqueror_kcms/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqueror_kcms/khtml_filter.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqueror_kcms/khtml_general.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqueror_kcms/khtml_java_js.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqueror_kcms/khtml_useragent.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/konqueror_kget_browser_integration.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwebkitpart/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kwebkitpart/kpartplugins/
@@ -114,6 +117,7 @@ drwxr-xr-x	root/root	usr/share/akregator/
 drwxr-xr-x	root/root	usr/share/akregator/pics/
 -rw-r--r--	root/root	usr/share/akregator/pics/feed.png
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/bookmarks.desktop
 -rwxr-xr-x	root/root	usr/share/applications/kfmclient.desktop
 -rwxr-xr-x	root/root	usr/share/applications/kfmclient_dir.desktop
 -rwxr-xr-x	root/root	usr/share/applications/kfmclient_html.desktop
@@ -191,7 +195,19 @@ drwxr-xr-x	root/root	usr/share/konqsidebartng/plugins/
 -rw-r--r--	root/root	usr/share/konqsidebartng/plugins/konqsidebar_tree.desktop
 drwxr-xr-x	root/root	usr/share/konqueror/
 drwxr-xr-x	root/root	usr/share/konqueror/about/
+-rw-r--r--	root/root	usr/share/konqueror/about/body-background.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-bottom-left.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-bottom-middle.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-bottom-right.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-center.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-middle-left.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-middle-right.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-top-left.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-top-middle.png
+-rw-r--r--	root/root	usr/share/konqueror/about/box-top-right.png
 -rw-r--r--	root/root	usr/share/konqueror/about/intro.html
+-rw-r--r--	root/root	usr/share/konqueror/about/kde_infopage.css
+-rw-r--r--	root/root	usr/share/konqueror/about/kde_infopage_rtl.css
 -rw-r--r--	root/root	usr/share/konqueror/about/konq.css
 -rw-r--r--	root/root	usr/share/konqueror/about/launch.html
 -rw-r--r--	root/root	usr/share/konqueror/about/plugins.html
@@ -199,6 +215,7 @@ drwxr-xr-x	root/root	usr/share/konqueror/about/
 -rw-r--r--	root/root	usr/share/konqueror/about/specs.html
 -rw-r--r--	root/root	usr/share/konqueror/about/tips.html
 -rw-r--r--	root/root	usr/share/konqueror/about/top-left-konqueror.png
+-rw-r--r--	root/root	usr/share/konqueror/about/top-middle.png
 drwxr-xr-x	root/root	usr/share/konqueror/icons/
 drwxr-xr-x	root/root	usr/share/konqueror/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/konqueror/icons/hicolor/16x16/

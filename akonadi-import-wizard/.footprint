@@ -4,23 +4,24 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KPim5/
 drwxr-xr-x	root/root	usr/include/KPim5/ImportWizard/
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/AbstractAddressBook
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/AbstractBase
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/AbstractCalendar
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/AbstractDisplayInfo
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/AbstractImporter
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/AbstractSettings
--rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizardUtil
-drwxr-xr-x	root/root	usr/include/KPim5/importwizard/
--rw-r--r--	root/root	usr/include/KPim5/importwizard/abstractaddressbook.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/abstractbase.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/abstractcalendar.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/abstractdisplayinfo.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/abstractimporter.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/abstractsettings.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/importwizardutil.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard/libimportwizard_export.h
--rw-r--r--	root/root	usr/include/KPim5/importwizard_version.h
+drwxr-xr-x	root/root	usr/include/KPim5/ImportWizard/ImportWizard/
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/AbstractAddressBook
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/AbstractBase
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/AbstractCalendar
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/AbstractDisplayInfo
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/AbstractImporter
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/AbstractSettings
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/ImportWizard/ImportWizardUtil
+drwxr-xr-x	root/root	usr/include/KPim5/ImportWizard/importwizard/
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/abstractaddressbook.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/abstractbase.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/abstractcalendar.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/abstractdisplayinfo.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/abstractimporter.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/abstractsettings.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/importwizardutil.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard/libimportwizard_export.h
+-rw-r--r--	root/root	usr/include/KPim5/ImportWizard/importwizard_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KPim5ImportWizard/
@@ -34,8 +35,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPimImportWizard/
 -rw-r--r--	root/root	usr/lib/cmake/KPimImportWizard/KPimImportWizardConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPimImportWizard/KPimImportWizardConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPim5ImportWizard.so -> libKPim5ImportWizard.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5ImportWizard.so.5 -> libKPim5ImportWizard.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5ImportWizard.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5ImportWizard.so.5 -> libKPim5ImportWizard.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5ImportWizard.so.5.24.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/

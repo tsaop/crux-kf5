@@ -1,0 +1,21 @@
+# Description: Non-blocking Qt database framework
+# URL: https://invent.kde.org/libraries/futuresql
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qcoro extra-cmake-modules
+
+name=futuresql
+version=0.1.1
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

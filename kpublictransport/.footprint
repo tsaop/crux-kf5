@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/include/KPublicTransport/KPublicTransport/
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Path
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/PathModel
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Platform
+-rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/PlatformLayout
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/RentalVehicle
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Reply
 -rw-r--r--	root/root	usr/include/KPublicTransport/KPublicTransport/Stopover
@@ -64,6 +65,7 @@ drwxr-xr-x	root/root	usr/include/KPublicTransport/kpublictransport/
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/path.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/pathmodel.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/platform.h
+-rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/platformlayout.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/rentalvehicle.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/reply.h
 -rw-r--r--	root/root	usr/include/KPublicTransport/kpublictransport/stopover.h
@@ -83,11 +85,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPublicTransport/
 -rw-r--r--	root/root	usr/lib/cmake/KPublicTransport/KPublicTransportTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPublicTransport/KPublicTransportTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPublicTransport.so -> libKPublicTransport.so.1
-lrwxrwxrwx	root/root	usr/lib/libKPublicTransport.so.1 -> libKPublicTransport.so.23.04.3
--rwxr-xr-x	root/root	usr/lib/libKPublicTransport.so.23.04.3
+lrwxrwxrwx	root/root	usr/lib/libKPublicTransport.so.1 -> libKPublicTransport.so.23.08.0
+-rwxr-xr-x	root/root	usr/lib/libKPublicTransport.so.23.08.0
 lrwxrwxrwx	root/root	usr/lib/libKPublicTransportOnboard.so -> libKPublicTransportOnboard.so.1
-lrwxrwxrwx	root/root	usr/lib/libKPublicTransportOnboard.so.1 -> libKPublicTransportOnboard.so.23.04.3
--rwxr-xr-x	root/root	usr/lib/libKPublicTransportOnboard.so.23.04.3
+lrwxrwxrwx	root/root	usr/lib/libKPublicTransportOnboard.so.1 -> libKPublicTransportOnboard.so.23.08.0
+-rwxr-xr-x	root/root	usr/lib/libKPublicTransportOnboard.so.23.08.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/

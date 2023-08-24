@@ -1,8 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/KF5/
--rw-r--r--	root/root	usr/include/KF5/kio_archivebase.h
--rw-r--r--	root/root	usr/include/KF5/libkioarchive_export.h
+drwxr-xr-x	root/root	usr/include/KioArchive/
+-rw-r--r--	root/root	usr/include/KioArchive/kio_archivebase.h
+-rw-r--r--	root/root	usr/include/KioArchive/kioarchive_version.h
+-rw-r--r--	root/root	usr/include/KioArchive/libkioarchive_export.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
@@ -12,8 +13,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KioArchive/
 -rw-r--r--	root/root	usr/lib/cmake/KioArchive/KioArchiveTargets.cmake
 drwxr-xr-x	root/root	usr/lib/kf5/
 -rwxr-xr-x	root/root	usr/lib/kf5/smbnotifier
-lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.97.0
--rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.97.0
+lrwxrwxrwx	root/root	usr/lib/libkioarchive.so.5 -> libkioarchive.so.5.98.0
+-rwxr-xr-x	root/root	usr/lib/libkioarchive.so.5.98.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/
@@ -25,7 +26,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/forgetfileitemaction.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kfileitemaction/kactivitymanagerd_fileitem_linking_plugin.so
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/about.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/activities.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/archive.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/kio/bookmarks.so
@@ -52,7 +52,7 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/exrthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/imagethumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/jpegthumbnail.so
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/kritathumbnail.so
+-rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/kraorathumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/opendocumentthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/svgthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/kf5/thumbcreator/textthumbnail.so

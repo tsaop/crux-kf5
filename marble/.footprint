@@ -184,12 +184,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/Marble/
 -rw-r--r--	root/root	usr/lib/cmake/Marble/MarbleTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Marble/MarbleTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libastro.so -> libastro.so.1
-lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.23.4.3
--rwxr-xr-x	root/root	usr/lib/libastro.so.23.4.3
+lrwxrwxrwx	root/root	usr/lib/libastro.so.1 -> libastro.so.23.8.0
+-rwxr-xr-x	root/root	usr/lib/libastro.so.23.8.0
 -rwxr-xr-x	root/root	usr/lib/libmarbledeclarative.so
 lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so -> libmarblewidget-qt5.so.28
--rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.23.4.3
-lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.28 -> libmarblewidget-qt5.so.23.4.3
+-rwxr-xr-x	root/root	usr/lib/libmarblewidget-qt5.so.23.8.0
+lrwxrwxrwx	root/root	usr/lib/libmarblewidget-qt5.so.28 -> libmarblewidget-qt5.so.23.8.0
 drwxr-xr-x	root/root	usr/lib/marble/
 drwxr-xr-x	root/root	usr/lib/marble/plugins/
 -rwxr-xr-x	root/root	usr/lib/marble/plugins/AnnotatePlugin.so
@@ -1159,13 +1159,6 @@ drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/schagen1689/legend/
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/schagen1689/schagen1689-preview.png
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/schagen1689/schagen1689.dgml
 -rw-r--r--	root/root	usr/share/marble/data/maps/earth/schagen1689/schagen1689.jpg
-drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/sentinel2/
-drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/sentinel2/0/
-drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/sentinel2/0/0/
--rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/0/0/0.jpg
--rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/legend.html
--rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/sentinel2-preview.png
--rw-r--r--	root/root	usr/share/marble/data/maps/earth/sentinel2/sentinel2.dgml
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/srtm/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/srtm/0/
 drwxr-xr-x	root/root	usr/share/marble/data/maps/earth/srtm/0/000000/

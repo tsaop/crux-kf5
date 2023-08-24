@@ -1,9 +1,32 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/KompareDiff2/
+drwxr-xr-x	root/root	usr/include/KompareDiff2/KompareDiff2/
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/DiffHunk
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/DiffModel
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/DiffModelList
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/DiffSettings
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/Difference
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/DifferenceString
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/Kompare
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/KompareModelList
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/Marker
+-rw-r--r--	root/root	usr/include/KompareDiff2/KompareDiff2/SettingsBase
+drwxr-xr-x	root/root	usr/include/KompareDiff2/komparediff2/
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/difference.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/diffhunk.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/diffmodel.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/diffmodellist.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/diffsettings.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/kompare.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/komparediff2_export.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/komparemodellist.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/marker.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2/settingsbase.h
 -rw-r--r--	root/root	usr/include/KompareDiff2/komparediff2_version.h
 drwxr-xr-x	root/root	usr/include/KompareDiff2/libkomparediff2/
 -rw-r--r--	root/root	usr/include/KompareDiff2/libkomparediff2/diff2_export.h
+-rw-r--r--	root/root	usr/include/KompareDiff2/libkomparediff2/diff2_export_p.h
 -rw-r--r--	root/root	usr/include/KompareDiff2/libkomparediff2/difference.h
 -rw-r--r--	root/root	usr/include/KompareDiff2/libkomparediff2/diffhunk.h
 -rw-r--r--	root/root	usr/include/KompareDiff2/libkomparediff2/diffmodel.h
@@ -21,8 +44,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/LibKompareDiff2/
 -rw-r--r--	root/root	usr/lib/cmake/LibKompareDiff2/LibKompareDiff2Targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LibKompareDiff2/LibKompareDiff2Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libkomparediff2.so -> libkomparediff2.so.5
-lrwxrwxrwx	root/root	usr/lib/libkomparediff2.so.5 -> libkomparediff2.so.5.3.0
--rwxr-xr-x	root/root	usr/lib/libkomparediff2.so.5.3.0
+lrwxrwxrwx	root/root	usr/lib/libkomparediff2.so.5 -> libkomparediff2.so.5.4.0
+-rwxr-xr-x	root/root	usr/lib/libkomparediff2.so.5.4.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/libkomparediff2.categories

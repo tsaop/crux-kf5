@@ -4,7 +4,7 @@
 # Depends on: kcmutils kpeoplevcard kwayland libfakekey modemmanager-qt pulseaudio-qt qqc2-desktop-style sshfs-fuse
 
 name=kdeconnect
-version=23.04.3
+version=23.08.0
 release=1
 source=(https://download.kde.org/stable/release-service/$version/src/$name-kde-$version.tar.xz)
 build() {

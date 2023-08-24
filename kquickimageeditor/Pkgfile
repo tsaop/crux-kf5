@@ -1,0 +1,21 @@
+# Description: Image editing components
+# URL: https://invent.kde.org/libraries/kquickimageeditor
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules qt5
+
+name=kquickimageeditor
+version=0.2.0
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

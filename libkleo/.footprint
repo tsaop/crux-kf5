@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/Libkleo/Libkleo/
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/AuditLogEntry
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/AuditLogViewer
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/ChecksumDefinition
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/Chrono
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/Classify
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/Compat
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/Compliance
@@ -25,6 +26,9 @@ drwxr-xr-x	root/root	usr/include/KPim5/Libkleo/Libkleo/
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/DocAction
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/EditDirectoryServiceDialog
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/Enum
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/ExpiryChecker
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/ExpiryCheckerConfig
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/ExpiryCheckerSettings
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/FileNameRequester
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/FileSystemWatcher
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/Libkleo/Formatting
@@ -75,6 +79,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/Libkleo/libkleo/
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/auditlogentry.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/auditlogviewer.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/checksumdefinition.h
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/chrono.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/classify.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/compat.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/compliance.h
@@ -89,6 +94,10 @@ drwxr-xr-x	root/root	usr/include/KPim5/Libkleo/libkleo/
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/docaction.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/editdirectoryservicedialog.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/enum.h
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/expirychecker.h
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/expirycheckerconfig.h
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/expirycheckerconfigbase.h
+-rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/expirycheckersettings.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/filenamerequester.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/filesystemwatcher.h
 -rw-r--r--	root/root	usr/include/KPim5/Libkleo/libkleo/formatting.h
@@ -148,8 +157,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPim5Libkleo/
 -rw-r--r--	root/root	usr/lib/cmake/KPim5Libkleo/KPim5LibkleoTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPim5Libkleo/KPim5LibkleoTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPim5Libkleo.so -> libKPim5Libkleo.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5Libkleo.so.5 -> libKPim5Libkleo.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5Libkleo.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5Libkleo.so.5 -> libKPim5Libkleo.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5Libkleo.so.5.24.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

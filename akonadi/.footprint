@@ -77,6 +77,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/AkonadiCore/Akonadi/
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/ChangeNotification
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/ChangeRecorder
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/Collection
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/CollectionAnnotationsAttribute
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/CollectionAttributesSynchronizationJob
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/CollectionColorAttribute
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/Akonadi/CollectionCopyJob
@@ -181,6 +182,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/AkonadiCore/akonadi/
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/changenotification.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/changerecorder.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/collection.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/collectionannotationsattribute.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/collectionattributessynchronizationjob.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/collectioncolorattribute.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiCore/akonadi/collectioncopyjob.h
@@ -278,7 +280,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/AgentInstanceWidget
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/AgentTypeDialog
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/AgentTypeWidget
--rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/ClearCacheJob
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/ClearCacheFoldersJob
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/CollectionComboBox
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/CollectionDialog
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/Akonadi/CollectionMaintenancePage
@@ -308,7 +310,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/agenttypedialog.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/agenttypewidget.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/akonadiwidgets_export.h
--rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/clearcachejob.h
+-rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/clearcachefoldersjob.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/collectioncombobox.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/collectiondialog.h
 -rw-r--r--	root/root	usr/include/KPim5/AkonadiWidgets/akonadi/collectionmaintenancepage.h
@@ -357,20 +359,20 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPim5Akonadi/
 -rw-r--r--	root/root	usr/lib/cmake/KPim5Akonadi/KPim5AkonadiTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPim5Akonadi/KPimAkonadiMacros.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiAgentBase.so -> libKPim5AkonadiAgentBase.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiAgentBase.so.5 -> libKPim5AkonadiAgentBase.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiAgentBase.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiAgentBase.so.5 -> libKPim5AkonadiAgentBase.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiAgentBase.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiCore.so -> libKPim5AkonadiCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiCore.so.5 -> libKPim5AkonadiCore.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiCore.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiCore.so.5 -> libKPim5AkonadiCore.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiCore.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiPrivate.so -> libKPim5AkonadiPrivate.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiPrivate.so.5 -> libKPim5AkonadiPrivate.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiPrivate.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiPrivate.so.5 -> libKPim5AkonadiPrivate.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiPrivate.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiWidgets.so -> libKPim5AkonadiWidgets.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiWidgets.so.5 -> libKPim5AkonadiWidgets.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiWidgets.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiWidgets.so.5 -> libKPim5AkonadiWidgets.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiWidgets.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiXml.so -> libKPim5AkonadiXml.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiXml.so.5 -> libKPim5AkonadiXml.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiXml.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5AkonadiXml.so.5 -> libKPim5AkonadiXml.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5AkonadiXml.so.5.24.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
@@ -384,8 +386,6 @@ drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/akonadi/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/pim5/akonadi/akonadi_test_searchplugin.so
-drwxr-xr-x	root/root	usr/lib/qt5/plugins/sqldrivers/
--rwxr-xr-x	root/root	usr/lib/qt5/plugins/sqldrivers/libqsqlite3.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/akonadi/
 drwxr-xr-x	root/root	usr/share/akonadi/agents/

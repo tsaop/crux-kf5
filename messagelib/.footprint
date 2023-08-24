@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageComposer/MessageComposer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/ConvertSnippetVariablesJob
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/ConvertSnippetVariablesUtil
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/DraftStatus
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/EditorWatcher
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/EncryptJob
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/FollowUpReminderSelectDateDialog
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/FollowupReminder
@@ -32,7 +33,10 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageComposer/MessageComposer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/ImageScalingWidget
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/InfoPart
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/InsertTextFileJob
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/ItipJob
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/ItipPart
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/JobBase
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/KeyResolver
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/Kleo_Util
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/MDNAdviceDialog
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/MDNAdviceHelper
@@ -44,7 +48,6 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageComposer/MessageComposer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/MessagePart
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/MessageSender
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/MultipartJob
--rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/NearExpiryChecker
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/PluginActionType
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/PluginComposerInterface
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/MessageComposer/PluginEditor
@@ -111,6 +114,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageComposer/messagecomposer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/convertsnippetvariablesjob.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/convertsnippetvariablesutil.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/draftstatus.h
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/editorwatcher.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/encryptjob.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/followupreminder.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/followupremindercreatejob.h
@@ -119,7 +123,10 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageComposer/messagecomposer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/imagescalingwidget.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/infopart.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/inserttextfilejob.h
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/itipjob.h
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/itippart.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/jobbase.h
+-rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/keyresolver.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/kleo_util.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/maintextjob.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/mdnadvicedialog.h
@@ -134,7 +141,6 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageComposer/messagecomposer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/messagepart.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/messagesender.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/multipartjob.h
--rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/nearexpirychecker.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/pluginactiontype.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/plugincomposerinterface.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageComposer/messagecomposer/plugineditor.h
@@ -273,7 +279,6 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageViewer/MessageViewer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/DKIMRule
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/DKIMViewerMenu
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/DKIMWidgetInfo
--rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/EditorWatcher
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/FileHtmlWriter
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/GrantleeHeaderStyle
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/MessageViewer/GrantleeHeaderTestStyle
@@ -332,7 +337,6 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageViewer/messageviewer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/attachmentstrategy.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/bodyparturlhandler.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/bufferedhtmlwriter.h
--rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/config-messageviewer.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/configurewidget.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/csshelper.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/csshelperbase.h
@@ -352,7 +356,6 @@ drwxr-xr-x	root/root	usr/include/KPim5/MessageViewer/messageviewer/
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/dkimrule.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/dkimviewermenu.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/dkimwidgetinfo.h
--rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/editorwatcher.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/filehtmlwriter.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/globalsettings_messageviewer.h
 -rw-r--r--	root/root	usr/include/KPim5/MessageViewer/messageviewer/grantleeheaderstyle.h
@@ -584,26 +587,26 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPim5WebEngineViewer/
 -rw-r--r--	root/root	usr/lib/cmake/KPim5WebEngineViewer/KPim5WebEngineViewerTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPim5WebEngineViewer/KPim5WebEngineViewerTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPim5MessageComposer.so -> libKPim5MessageComposer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5MessageComposer.so.5 -> libKPim5MessageComposer.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5MessageComposer.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5MessageComposer.so.5 -> libKPim5MessageComposer.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5MessageComposer.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5MessageCore.so -> libKPim5MessageCore.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5MessageCore.so.5 -> libKPim5MessageCore.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5MessageCore.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5MessageCore.so.5 -> libKPim5MessageCore.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5MessageCore.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5MessageList.so -> libKPim5MessageList.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5MessageList.so.5 -> libKPim5MessageList.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5MessageList.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5MessageList.so.5 -> libKPim5MessageList.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5MessageList.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5MessageViewer.so -> libKPim5MessageViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5MessageViewer.so.5 -> libKPim5MessageViewer.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5MessageViewer.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5MessageViewer.so.5 -> libKPim5MessageViewer.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5MessageViewer.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5MimeTreeParser.so -> libKPim5MimeTreeParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5MimeTreeParser.so.5 -> libKPim5MimeTreeParser.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5MimeTreeParser.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5MimeTreeParser.so.5 -> libKPim5MimeTreeParser.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5MimeTreeParser.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5TemplateParser.so -> libKPim5TemplateParser.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5TemplateParser.so.5 -> libKPim5TemplateParser.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5TemplateParser.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5TemplateParser.so.5 -> libKPim5TemplateParser.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5TemplateParser.so.5.24.0
 lrwxrwxrwx	root/root	usr/lib/libKPim5WebEngineViewer.so -> libKPim5WebEngineViewer.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5WebEngineViewer.so.5 -> libKPim5WebEngineViewer.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5WebEngineViewer.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5WebEngineViewer.so.5 -> libKPim5WebEngineViewer.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5WebEngineViewer.so.5.24.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

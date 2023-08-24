@@ -1,10 +1,10 @@
 # Description: Tool to check contrast for colors that allows verifying that your colors are correctly accessible
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kdeclarative kirigami2
+# Depends on: kdeclarative kirigami2 futuresql
 
 name=kontrast
-version=23.04.3
+version=23.08.0
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

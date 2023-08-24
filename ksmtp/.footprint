@@ -15,7 +15,7 @@ drwxr-xr-x	root/root	usr/include/KPim5/KSMTP/ksmtp/
 -rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/sendjob.h
 -rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/session.h
 -rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp/sessionuiproxy.h
--rw-r--r--	root/root	usr/include/KPim5/ksmtp_version.h
+-rw-r--r--	root/root	usr/include/KPim5/KSMTP/ksmtp_version.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KPim5SMTP/
@@ -23,14 +23,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/KPim5SMTP/
 -rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KPim5SMTP/KPim5SMTPTargets.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/KPimSMTP/
--rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPim5SMTPTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPim5SMTPTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPimSMTPConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/KPimSMTP/KPimSMTPConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libKPim5SMTP.so -> libKPim5SMTP.so.5
-lrwxrwxrwx	root/root	usr/lib/libKPim5SMTP.so.5 -> libKPim5SMTP.so.5.23.3
--rwxr-xr-x	root/root	usr/lib/libKPim5SMTP.so.5.23.3
+lrwxrwxrwx	root/root	usr/lib/libKPim5SMTP.so.5 -> libKPim5SMTP.so.5.24.0
+-rwxr-xr-x	root/root	usr/lib/libKPim5SMTP.so.5.24.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/

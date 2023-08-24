@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/FutureSQL5/
+-rw-r--r--	root/root	usr/include/FutureSQL5/ThreadedDatabase
+-rw-r--r--	root/root	usr/include/FutureSQL5/futuresql_export.h
+-rw-r--r--	root/root	usr/include/FutureSQL5/threadeddatabase.h
+-rw-r--r--	root/root	usr/include/FutureSQL5/threadeddatabase_p.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/FutureSQL5/
+-rw-r--r--	root/root	usr/lib/cmake/FutureSQL5/FutureSQL5Config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/FutureSQL5/FutureSQL5ConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/FutureSQL5/FutureSQLTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/FutureSQL5/FutureSQLTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libfuturesql5.so -> libfuturesql5.so.0
+-rwxr-xr-x	root/root	usr/lib/libfuturesql5.so.0
