@@ -1,10 +1,10 @@
 # Description: EXR file format, the professional-grade image storage format of the motion picture industry
 # URL: https://www.openexr.com
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: imath
+# Depends on: imath libdeflate
 
 name=openexr
-version=3.1.11
+version=3.2.0
 release=1
 source=(https://github.com/AcademySoftwareFoundation/$name/archive/v${version}/$name-$version.tar.gz)
 
