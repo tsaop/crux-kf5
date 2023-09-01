@@ -1,0 +1,22 @@
+# Description: A YAML parser and emitter in C++
+# URL: https://github.com/jbeder/yaml-cpp
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake
+
+name=yaml-cpp
+version=0.8.0
+release=1
+source=(https://github.com/jbeder/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DYAML_BUILD_SHARED_LIBS=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
