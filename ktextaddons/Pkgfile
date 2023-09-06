@@ -1,10 +1,10 @@
 # Description: Various text handling addons
 # URL: https://invent.kde.org/libraries/ktextaddons
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kxmlgui qtkeychain
+# Depends on: kio qtkeychain syntax-highlighting
 
 name=ktextaddons
-version=1.4.1
+version=1.5.0
 release=1
 source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
 
