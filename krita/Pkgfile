@@ -1,14 +1,21 @@
 # Description: Digital painting application
 # URL: https://www.krita.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: exiv2 gsl kio kitemmodels kseexpr libraw mypaint-brushes opencolorio openjpeg2 poppler-qt5 python3-pyqt5 quazip5 vc xorg-xinput
+# Depends on: exiv2 gsl kio kitemmodels kseexpr libraw mypaint-brushes openjpeg2 poppler python3-pyqt5 quazip5 vc xorg-xinput
 
 name=krita
 version=5.1.5
 release=1
-source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.gz)
+source=(https://invent.kde.org/graphics/$name/-/archive/$version/$name-$version.tar.gz
+	exiv2-0.28.patch)
 
 build() {
+
+	( cd $name-$version
+	  patch -Np1 -i $SRC/exiv2-0.28.patch )
+
+	# TODO: Re-enable opencolorio support when krita is compatible with version 2.3.0
+
 	cmake -B"${name}-build" \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DSYSCONF_INSTALL_DIR=/etc \
