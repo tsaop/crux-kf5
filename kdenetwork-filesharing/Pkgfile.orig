@@ -1,9 +1,9 @@
-# Description: Small system to administer web accounts for the sites and services across the KDE desktop
+# Description: Network File Sharing
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils qcoro-qt5 signon-kwallet-extension signon-plugin-oauth2 signon-ui
+# Depends on: dbus freetype glib harfbuzz karchive kauth kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdeclarative kguiaddons ki18n kiconthemes kio kjobwidgets kservice kwidgetsaddons kwindowsystem libglvnd libpng qcoro-qt5 qt5 solid xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxfixes xorg-xcb-util-keysyms
 
-name=kaccounts-integration
+name=kdenetwork-filesharing
 version=23.08.0
 release=2
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
@@ -14,13 +14,10 @@ build() {
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_TESTING=OFF \
 		-DCMAKE_BUILD_TYPE=Release
 
 	cmake --build build
 	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
-	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
-	rm -rf $PKG/usr/share/doc
 }
