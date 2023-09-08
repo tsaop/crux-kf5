@@ -3,18 +3,19 @@
 # Maintainer: Tsaop, leeroy at cock dot li
 # Depends on: qt5
 
-name=qcoro
+name=qcoro-qt5
 version=0.9.0
 release=1
-source=(https://github.com/danvratil/qcoro/archive/v${version}/$name-$version.tar.gz)
+source=(https://github.com/danvratil/qcoro/archive/v${version}/${name/-qt5}-$version.tar.gz)
 
 build() {
-	cd $name-$version
+	cd ${name/-qt5}-$version
 	cmake -Bbuild \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_SHARED_LIBS=on
+		-DBUILD_SHARED_LIBS=on \
+		-DUSE_QT_VERSION=5
 
 	cmake --build build
 	DESTDIR=$PKG cmake --install build
