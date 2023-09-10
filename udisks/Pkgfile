@@ -1,10 +1,10 @@
 # Description:	Storage media interface
 # URL:		http://udisks.freedesktop.org/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: docbook-xsl libatasmart libblockdev libgudev polkit libnvme
+# Depends on: docbook-xsl libatasmart libblockdev libgudev polkit
 
 name=udisks
-version=2.10.0
+version=2.10.1
 release=1
 source=(https://github.com/storaged-project/udisks/releases/download/$name-$version/$name-$version.tar.bz2)
 
