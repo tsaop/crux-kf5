@@ -4,16 +4,13 @@
 # Depends on: libxml2 tinyxml2
 
 name=cppcheck
-version=2.11
+version=2.12.0
 release=1
-source=(https://github.com/danmar/$name/archive/$version/$name-$version.tar.gz
-	version-fix.patch)
+source=(https://github.com/danmar/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-
-	patch -Np1 -i $SRC/version-fix.patch
-
+	
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DUSE_BUNDLED_TINYXML2=OFF \
