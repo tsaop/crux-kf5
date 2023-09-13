@@ -1,0 +1,31 @@
+# Description: Part of KDE Plasma
+# URL: https://www.kde.org
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: attica breeze dbus fontconfig freetype glib harfbuzz kactivities karchive kauth kcmutils kcodecs kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kdeclarative kdecoration kglobalaccel kguiaddons ki18n kiconthemes kidletime kinit kio kitemviews kjobwidgets knewstuff knotifications kpackage krunner kscreenlocker kservice kwayland kwidgetsaddons kwindowsystem kxmlgui lcms2 libcanberra libdbusmenu-qt5 libdrm libepoxy libglvnd libinput libogg libpng libvorbis libxkbcommon mesa mtdev plasma-framework qt5 solid syndication threadweaver wayland xorg-libevdev xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcvt xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxtst xorg-xcb-util xorg-xcb-util-cursor xorg-xcb-util-image xorg-xcb-util-keysyms xorg-xcb-util-renderutil xorg-xcb-util-wm
+
+name=kwin
+version=5.27.8
+release=1
+source=(http://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build; cd build
+
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSCONF_INSTALL_DIR=/etc \
+	-DLIB_INSTALL_DIR=/usr/lib \
+	-DLIBEXEC_INSTALL_DIR=lib \
+	-DBUILD_TESTING=OFF \
+	-DCMAKE_BUILD_TYPE=Release \
+	-Wno-dev \
+	..
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/man/{ca,de,it,nl,pt_BR,sv,uk,ru}
+	rm -rf $PKG/usr/share/doc
+}
