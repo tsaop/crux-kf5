@@ -4,23 +4,22 @@
 # Depends on: asciidoc polkit
 
 name=bolt
-version=0.9.5
+version=0.9.6
 release=1
 source=(https://gitlab.freedesktop.org/$name/$name/-/archive/$version/$name-$version.tar.bz2
 	rc.boltd)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	meson -Dprefix=/usr \
+	meson setup build \
+		-Dprefix=/usr \
 		-Dlibexecdir=lib \
 		-Dman=true \
-		-Dsystemd=false \
-		..
+		-Dsystemd=false
 
-	ninja
-	DESTDIR=$PKG ninja install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
 	# install start script
 	install -Dm755 $SRC/rc.boltd $PKG/etc/rc.d/boltd
