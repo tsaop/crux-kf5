@@ -1,10 +1,10 @@
 # Description: KDE Task Scheduler
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kio kcmutils
+# Depends on: kcmutils
 
 name=kcron
-version=23.08.0
+version=23.08.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

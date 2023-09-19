@@ -1,10 +1,10 @@
 # Description: Part of KDE Frameworks (Tier 1)
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: akonadi-contacts kcalutils kmailtransport messagelib
+# Depends on: kcalutils messagelib
 
 name=akonadi-calendar
-version=23.08.0
+version=23.08.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 

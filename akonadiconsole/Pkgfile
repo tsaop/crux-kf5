@@ -1,10 +1,10 @@
 # Description: Application for debugging Akonadi Resources
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: calendarsupport messagelib
+# Depends on: calendarsupport
 
 name=akonadiconsole
-version=23.08.0
+version=23.08.1
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
