@@ -1,0 +1,13 @@
+# Description: C++ class library of cryptographic schemes.
+# URL: https://www.cryptopp.com/
+# Maintainer: Tsaop, leeroy at cock dot li
+
+name=crypto++
+version=8.8.0
+release=1
+source=(https://www.cryptopp.com/${name//++/pp}${version//./}.zip)
+
+build() {
+	make CXXFLAGS="$CXXFLAGS -DNDEBUG -fPIC" -f GNUmakefile dynamic libcryptopp.pc
+	make DESTDIR="$PKG" PREFIX="/usr" install-lib
+}
