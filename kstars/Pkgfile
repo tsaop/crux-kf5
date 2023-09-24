@@ -1,12 +1,12 @@
 # Description: KStars is free, open source, cross-platform Astronomy Software
 # URL: https://edu.kde.org/kstars
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw stellarsolver xplanet
+# Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw stellarsolver
 
 name=kstars
 version=3.6.6
 source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
-release=1
+release=2
 
 build() {
 
