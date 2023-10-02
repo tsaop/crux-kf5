@@ -4,9 +4,9 @@
 # Depends on: astrometry.net eigen knewstuff knotifyconfig kplotting libindi libraw stellarsolver
 
 name=kstars
-version=3.6.6
+version=3.6.7
 source=(http://download.kde.org/stable/$name/$name-$version.tar.xz)
-release=2
+release=1
 
 build() {
 
