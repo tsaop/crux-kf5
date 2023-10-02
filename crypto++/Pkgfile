@@ -3,7 +3,7 @@
 # Maintainer: Tsaop, leeroy at cock dot li
 
 name=crypto++
-version=8.8.0
+version=8.9.0
 release=1
 source=(https://www.cryptopp.com/${name//++/pp}${version//./}.zip)
 
