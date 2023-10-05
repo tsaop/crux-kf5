@@ -1,0 +1,21 @@
+# Description: Postmodern immutable and persistent data structures for C++ — value semantics at scale
+# URL: https://sinusoid.es/immer/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boehm-gc boost catch2
+
+name=immer
+version=0.8.1
+release=1
+source=(https://github.com/arximboldi/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
