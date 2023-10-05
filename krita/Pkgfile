@@ -1,11 +1,11 @@
 # Description: Digital painting application
 # URL: https://www.krita.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: exiv2 gsl immer kio kitemmodels kseexpr lager libkdcraw libunibreak mlt mypaint-brushes openjpeg2 poppler python3-pyqt5 quazip5 vc xorg-xinput zug
+# Depends on: exiv2 gsl immer kio kitemmodels kseexpr lager libkdcraw libunibreak mlt mypaint-brushes openjpeg2 poppler python3-pyqt5 quazip5 vc xorg-xinput zug xsimd
 
 name=krita
 version=5.2.0
-release=1
+release=2
 source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
 
 build() {
