@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/graphemebreak.h
+-rw-r--r--	root/root	usr/include/linebreak.h
+-rw-r--r--	root/root	usr/include/linebreakdef.h
+-rw-r--r--	root/root	usr/include/unibreakbase.h
+-rw-r--r--	root/root	usr/include/unibreakdef.h
+-rw-r--r--	root/root	usr/include/wordbreak.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libunibreak.la
+lrwxrwxrwx	root/root	usr/lib/libunibreak.so -> libunibreak.so.5.0.1
+lrwxrwxrwx	root/root	usr/lib/libunibreak.so.5 -> libunibreak.so.5.0.1
+-rwxr-xr-x	root/root	usr/lib/libunibreak.so.5.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libunibreak.pc

@@ -1,0 +1,19 @@
+# Description: Implementation of the line breaking and word breaking algorithms as described in Unicode Standard Annex 14 and Unicode Standard Annex 29
+# URL: https://github.com/adah1972/libunibreak
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:
+
+name=libunibreak
+version=5.1
+release=1
+source=(https://github.com/adah1972/$name/archive/${name}_${version/./_}.tar.gz)
+
+build() {
+	cd $name-${name}_${version/./_}
+	./bootstrap
+	./configure --prefix=/usr \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
