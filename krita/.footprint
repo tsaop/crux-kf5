@@ -113,7 +113,6 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalcmsengine.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalevelfilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalogdocker.so
--rwxr-xr-x	root/root	usr/lib/kritaplugins/kritalutdocker.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritametadataeditor.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritamodifyselection.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritamultigridpatterngenerator.so
@@ -152,6 +151,7 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritarotateimage.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaroundcornersfilter.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaroundmarkerpaintop.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritasamplescreencolor.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritascreentonegenerator.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaseexprgenerator.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaselectiontools.so
@@ -189,92 +189,96 @@ drwxr-xr-x	root/root	usr/lib/kritaplugins/
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritawaveletdecompose.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritawebpexport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritawebpimport.so
+-rwxr-xr-x	root/root	usr/lib/kritaplugins/kritawgcolorselector.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaxcfimport.so
 -rwxr-xr-x	root/root	usr/lib/kritaplugins/kritaxmp.so
-lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so -> libkritabasicflakes.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so.18 -> libkritabasicflakes.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritabasicflakes.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritacolor.so -> libkritacolor.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritacolor.so.18 -> libkritacolor.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritacolor.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritacolord.so -> libkritacolord.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritacolord.so.18 -> libkritacolord.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritacolord.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritacommand.so -> libkritacommand.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritacommand.so.18 -> libkritacommand.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritacommand.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaexifcommon.so -> libkritaexifcommon.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaexifcommon.so.18 -> libkritaexifcommon.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaexifcommon.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaflake.so -> libkritaflake.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaflake.so.18 -> libkritaflake.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaflake.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so -> libkritaglobal.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so.18 -> libkritaglobal.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaglobal.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaimage.so -> libkritaimage.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaimage.so.18 -> libkritaimage.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaimage.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so -> libkritaimpex.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so.18 -> libkritaimpex.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaimpex.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so -> libkritalibbrush.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so.18 -> libkritalibbrush.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibbrush.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so -> libkritalibkis.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so.18 -> libkritalibkis.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibkis.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so -> libkritalibkra.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so.18 -> libkritalibkra.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibkra.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so -> libkritalibpaintop.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so.18 -> libkritalibpaintop.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritalibpaintop.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritametadata.so -> libkritametadata.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritametadata.so.18 -> libkritametadata.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritametadata.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritapigment.so -> libkritapigment.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritapigment.so.18 -> libkritapigment.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritapigment.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so -> libkritaplugin.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so.18 -> libkritaplugin.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaplugin.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritapsd.so -> libkritapsd.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritapsd.so.18 -> libkritapsd.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritapsd.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritapsdutils.so -> libkritapsdutils.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritapsdutils.so.18 -> libkritapsdutils.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritapsdutils.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaqmicinterface.so -> libkritaqmicinterface.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaqmicinterface.so.18 -> libkritaqmicinterface.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaqmicinterface.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaqml.so -> libkritaqml.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaqml.so.18 -> libkritaqml.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaqml.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaresources.so -> libkritaresources.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaresources.so.18 -> libkritaresources.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaresources.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaresourcewidgets.so -> libkritaresourcewidgets.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaresourcewidgets.so.18 -> libkritaresourcewidgets.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaresourcewidgets.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritastore.so -> libkritastore.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritastore.so.18 -> libkritastore.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritastore.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritatiffpsd.so -> libkritatiffpsd.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritatiffpsd.so.18 -> libkritatiffpsd.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritatiffpsd.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaui.so -> libkritaui.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaui.so.18 -> libkritaui.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaui.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritaversion.so -> libkritaversion.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritaversion.so.18 -> libkritaversion.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritaversion.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so -> libkritawidgets.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so.18 -> libkritawidgets.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritawidgets.so.18.0.0
-lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so -> libkritawidgetutils.so.18
-lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so.18 -> libkritawidgetutils.so.18.0.0
--rwxr-xr-x	root/root	usr/lib/libkritawidgetutils.so.18.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so -> libkritabasicflakes.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritabasicflakes.so.19 -> libkritabasicflakes.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritabasicflakes.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritacolor.so -> libkritacolor.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritacolor.so.19 -> libkritacolor.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritacolor.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritacolord.so -> libkritacolord.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritacolord.so.19 -> libkritacolord.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritacolord.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritacommand.so -> libkritacommand.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritacommand.so.19 -> libkritacommand.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritacommand.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaexifcommon.so -> libkritaexifcommon.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaexifcommon.so.19 -> libkritaexifcommon.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaexifcommon.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaflake.so -> libkritaflake.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaflake.so.19 -> libkritaflake.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaflake.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so -> libkritaglobal.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaglobal.so.19 -> libkritaglobal.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaglobal.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaimage.so -> libkritaimage.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaimage.so.19 -> libkritaimage.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaimage.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so -> libkritaimpex.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaimpex.so.19 -> libkritaimpex.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaimpex.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so -> libkritalibbrush.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibbrush.so.19 -> libkritalibbrush.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibbrush.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so -> libkritalibkis.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibkis.so.19 -> libkritalibkis.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibkis.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so -> libkritalibkra.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibkra.so.19 -> libkritalibkra.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibkra.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so -> libkritalibpaintop.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritalibpaintop.so.19 -> libkritalibpaintop.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritalibpaintop.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritametadata.so -> libkritametadata.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritametadata.so.19 -> libkritametadata.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritametadata.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritamultiarch.so -> libkritamultiarch.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritamultiarch.so.19 -> libkritamultiarch.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritamultiarch.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritapigment.so -> libkritapigment.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritapigment.so.19 -> libkritapigment.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritapigment.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so -> libkritaplugin.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaplugin.so.19 -> libkritaplugin.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaplugin.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritapsd.so -> libkritapsd.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritapsd.so.19 -> libkritapsd.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritapsd.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritapsdutils.so -> libkritapsdutils.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritapsdutils.so.19 -> libkritapsdutils.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritapsdutils.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaqmicinterface.so -> libkritaqmicinterface.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaqmicinterface.so.19 -> libkritaqmicinterface.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaqmicinterface.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaqml.so -> libkritaqml.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaqml.so.19 -> libkritaqml.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaqml.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaresources.so -> libkritaresources.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaresources.so.19 -> libkritaresources.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaresources.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaresourcewidgets.so -> libkritaresourcewidgets.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaresourcewidgets.so.19 -> libkritaresourcewidgets.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaresourcewidgets.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritastore.so -> libkritastore.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritastore.so.19 -> libkritastore.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritastore.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritatiffpsd.so -> libkritatiffpsd.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritatiffpsd.so.19 -> libkritatiffpsd.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritatiffpsd.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaui.so -> libkritaui.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaui.so.19 -> libkritaui.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaui.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritaversion.so -> libkritaversion.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritaversion.so.19 -> libkritaversion.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritaversion.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so -> libkritawidgets.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritawidgets.so.19 -> libkritawidgets.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritawidgets.so.19.0.0
+lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so -> libkritawidgetutils.so.19
+lrwxrwxrwx	root/root	usr/lib/libkritawidgetutils.so.19 -> libkritawidgetutils.so.19.0.0
+-rwxr-xr-x	root/root	usr/lib/libkritawidgetutils.so.19.0.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/
 drwxr-xr-x	root/root	usr/lib/qt5/qml/org/
@@ -459,6 +463,7 @@ drwxr-xr-x	root/root	usr/share/krita/actions/
 -rw-r--r--	root/root	usr/share/krita/actions/MoveTool.action
 -rw-r--r--	root/root	usr/share/krita/actions/PathTool.action
 -rw-r--r--	root/root	usr/share/krita/actions/SvgTextTool.action
+-rw-r--r--	root/root	usr/share/krita/actions/WGColorSelector.action
 -rw-r--r--	root/root	usr/share/krita/actions/asccdl.action
 -rw-r--r--	root/root	usr/share/krita/actions/colorsfilters.action
 -rw-r--r--	root/root	usr/share/krita/actions/convertheightnormalmap.action
@@ -532,6 +537,7 @@ drwxr-xr-x	root/root	usr/share/krita/images/
 -rw-r--r--	root/root	usr/share/krita/images/krita-tangentnormal.png
 -rw-r--r--	root/root	usr/share/krita/images/krita_roundmarkerop.svg
 drwxr-xr-x	root/root	usr/share/krita/input/
+-rw-r--r--	root/root	usr/share/krita/input/clipstudiopaintcompatible.profile
 -rw-r--r--	root/root	usr/share/krita/input/kritadefault.profile
 -rw-r--r--	root/root	usr/share/krita/input/painttoolsaicompatible.profile
 -rw-r--r--	root/root	usr/share/krita/input/photoshopcompatible.profile
@@ -860,8 +866,8 @@ drwxr-xr-x	root/root	usr/share/krita/preset_icons/tool_icons/
 -rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_04_knife-rake.png
 -rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/09_05_paint-roller.png
 -rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_01_color-effect.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_02_adjustement-contrast.png
--rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_03_adjustement-dark.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_02_adjustment-contrast.png
+-rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_03_adjustment-dark.png
 -rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_04_filter.png
 -rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_05_deform.png
 -rw-r--r--	root/root	usr/share/krita/preset_icons/tool_icons/10_06_clone.png
@@ -1270,6 +1276,7 @@ drwxr-xr-x	root/root	usr/share/krita/qmlthemes/default/images/
 drwxr-xr-x	root/root	usr/share/krita/seexpr_scripts/
 -rw-r--r--	root/root	usr/share/krita/seexpr_scripts/Disney_noisecolor2.kse
 drwxr-xr-x	root/root	usr/share/krita/shortcuts/
+-rw-r--r--	root/root	usr/share/krita/shortcuts/clip_studio_paint_compatible.shortcuts
 -rw-r--r--	root/root	usr/share/krita/shortcuts/krita_default.shortcuts
 -rw-r--r--	root/root	usr/share/krita/shortcuts/paint_tool_sai_compatible.shortcuts
 -rw-r--r--	root/root	usr/share/krita/shortcuts/photoshop_compatible.shortcuts
@@ -1385,6 +1392,7 @@ drwxr-xr-x	root/root	usr/share/kritaplugins/
 -rw-r--r--	root/root	usr/share/kritaplugins/offsetimage.xmlgui
 -rw-r--r--	root/root	usr/share/kritaplugins/resourcemanager.xmlgui
 -rw-r--r--	root/root	usr/share/kritaplugins/rotateimage.xmlgui
+-rw-r--r--	root/root	usr/share/kritaplugins/samplescreencolor.xmlgui
 -rw-r--r--	root/root	usr/share/kritaplugins/shearimage.xmlgui
 -rw-r--r--	root/root	usr/share/kritaplugins/waveletdecompose.xmlgui
 drwxr-xr-x	root/root	usr/share/metainfo/
