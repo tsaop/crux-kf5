@@ -1,21 +1,19 @@
 # Description:  SIMD Vector Classes for C++
 # URL: https://github.com/VcDevel/Vc
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake
+# Depends on:  cmake
 
 name=vc
-version=1.4.3
+version=1.4.4
 release=1
-source=(https://github.com/VcDevel/Vc/releases/download/$version/Vc-$version.tar.gz)
+source=(https://github.com/VcDevel/Vc/archive/${version}/Vc-$version.tar.gz)
 
 build() {
 	cd Vc-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_BUILD_TYPE=Release \
-		..
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
