@@ -12,12 +12,12 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdeconnect-sms
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/kdeconnectd
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.23 -> libkdeconnectcore.so.23.08.1
--rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.23.08.1
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.23 -> libkdeconnectinterfaces.so.23.08.1
--rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.23.08.1
-lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.23 -> libkdeconnectpluginkcm.so.23.08.1
--rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.23.08.1
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectcore.so.23 -> libkdeconnectcore.so.23.08.2
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectcore.so.23.08.2
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectinterfaces.so.23 -> libkdeconnectinterfaces.so.23.08.2
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectinterfaces.so.23.08.2
+lrwxrwxrwx	root/root	usr/lib/libkdeconnectpluginkcm.so.23 -> libkdeconnectpluginkcm.so.23.08.2
+-rwxr-xr-x	root/root	usr/lib/libkdeconnectpluginkcm.so.23.08.2
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/kdeconnect/
@@ -88,7 +88,6 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.handler.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.nonplasma.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.kdeconnect.sms.desktop
--rw-r--r--	root/root	usr/share/applications/org.kde.kdeconnect_open.desktop
 drwxr-xr-x	root/root	usr/share/contractor/
 -rw-r--r--	root/root	usr/share/contractor/kdeconnect.contract
 drwxr-xr-x	root/root	usr/share/dbus-1/
