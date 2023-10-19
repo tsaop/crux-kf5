@@ -4,7 +4,7 @@
 # Depends on: ebook-tools exiv2 ffmpeg karchive kconfig kcoreaddons ki18n poppler taglib
 
 name=kfilemetadata
-version=5.110.0
+version=5.111.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
