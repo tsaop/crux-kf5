@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libqmi-glib/
 -rw-r--r--	root/root	usr/include/libqmi-glib/libqmi-glib.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-atr.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-client.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-compat.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-device.h
@@ -17,6 +18,8 @@ drwxr-xr-x	root/root	usr/include/libqmi-glib/
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-dsd.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-fox.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-gas.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-imsa.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-imsp.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-loc.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-nas.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-oma.h
@@ -26,6 +29,7 @@ drwxr-xr-x	root/root	usr/include/libqmi-glib/
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-private.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-qos.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-sar.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-ssc.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-uim.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-voice.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums-wda.h
@@ -34,6 +38,7 @@ drwxr-xr-x	root/root	usr/include/libqmi-glib/
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-enums.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-error-types.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-errors.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-flag-types.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-flags64-dms.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-flags64-dsd.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-flags64-loc.h
@@ -43,6 +48,9 @@ drwxr-xr-x	root/root	usr/include/libqmi-glib/
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-fox.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-gas.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-gms.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-ims.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-imsa.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-imsp.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-loc.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-message-context.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-message.h
@@ -54,6 +62,7 @@ drwxr-xr-x	root/root	usr/include/libqmi-glib/
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-proxy.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-qos.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-sar.h
+-rw-r--r--	root/root	usr/include/libqmi-glib/qmi-ssc.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-uim.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-utils.h
 -rw-r--r--	root/root	usr/include/libqmi-glib/qmi-version.h
@@ -65,8 +74,8 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Qmi-1.0.typelib
 lrwxrwxrwx	root/root	usr/lib/libqmi-glib.so -> libqmi-glib.so.5
-lrwxrwxrwx	root/root	usr/lib/libqmi-glib.so.5 -> libqmi-glib.so.5.9.0
--rwxr-xr-x	root/root	usr/lib/libqmi-glib.so.5.9.0
+lrwxrwxrwx	root/root	usr/lib/libqmi-glib.so.5 -> libqmi-glib.so.5.10.0
+-rwxr-xr-x	root/root	usr/lib/libqmi-glib.so.5.10.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/qmi-glib.pc
 -rwxr-xr-x	root/root	usr/lib/qmi-proxy

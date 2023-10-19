@@ -4,7 +4,7 @@
 # Depends on: libgudev libmbim libqrtr-glib
 
 name=libqmi
-version=1.32.4
+version=1.34.0
 release=1
 source=(https://gitlab.freedesktop.org/mobile-broadband/$name/-/archive/$version/$name-$version.tar.gz)
 build() {
