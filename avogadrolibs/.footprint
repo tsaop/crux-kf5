@@ -6,6 +6,9 @@ drwxr-xr-x	root/root	usr/include/avogadro/calc/
 -rw-r--r--	root/root	usr/include/avogadro/calc/chargemanager.h
 -rw-r--r--	root/root	usr/include/avogadro/calc/chargemodel.h
 -rw-r--r--	root/root	usr/include/avogadro/calc/defaultmodel.h
+-rw-r--r--	root/root	usr/include/avogadro/calc/energycalculator.h
+-rw-r--r--	root/root	usr/include/avogadro/calc/energymanager.h
+-rw-r--r--	root/root	usr/include/avogadro/calc/lennardjones.h
 drwxr-xr-x	root/root	usr/include/avogadro/core/
 -rw-r--r--	root/root	usr/include/avogadro/core/angleiterator.h
 -rw-r--r--	root/root	usr/include/avogadro/core/angletools.h
@@ -127,11 +130,15 @@ drwxr-xr-x	root/root	usr/include/avogadro/quantumio/
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/gamessus.h
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/gaussiancube.h
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/gaussianfchk.h
+-rw-r--r--	root/root	usr/include/avogadro/quantumio/genericoutput.h
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/molden.h
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/mopacaux.h
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/nwchemjson.h
 -rw-r--r--	root/root	usr/include/avogadro/quantumio/nwchemlog.h
+-rw-r--r--	root/root	usr/include/avogadro/quantumio/orca.h
 drwxr-xr-x	root/root	usr/include/avogadro/rendering/
+-rw-r--r--	root/root	usr/include/avogadro/rendering/arcsector.h
+-rw-r--r--	root/root	usr/include/avogadro/rendering/arcstrip.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/arrowgeometry.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/avogadrogl.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/avogadrorendering.h
@@ -153,11 +160,15 @@ drwxr-xr-x	root/root	usr/include/avogadro/rendering/
 -rw-r--r--	root/root	usr/include/avogadro/rendering/linestripgeometry.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/meshgeometry.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/node.h
+-rw-r--r--	root/root	usr/include/avogadro/rendering/plyvisitor.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/povrayvisitor.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/primitive.h
+-rw-r--r--	root/root	usr/include/avogadro/rendering/quad.h
+-rw-r--r--	root/root	usr/include/avogadro/rendering/quadoutline.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/scene.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/shader.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/shaderprogram.h
+-rw-r--r--	root/root	usr/include/avogadro/rendering/solidpipeline.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/spheregeometry.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/textlabel2d.h
 -rw-r--r--	root/root	usr/include/avogadro/rendering/textlabel3d.h
@@ -176,14 +187,24 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/
 drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/charges/
 -rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/charges/antechamber.py
 -rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/charges/xtb.py
+drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/ani2x.py
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/gaff.py
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/gfn1.py
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/gfn2.py
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/gfnff.py
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/mmff94.py
+-rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/energy/uff.py
 drwxr-xr-x	root/root	usr/lib/avogadro2/scripts/formatScripts/
 -rwxr-xr-x	root/root	usr/lib/avogadro2/scripts/formatScripts/zyx.py
 drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/AlignTool.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/ApplyColors.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/BallStick.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/BondCentric.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Bonding.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Cartoons.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Centroid.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CloseContacts.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CoordinateEditor.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/CopyPaste.a
@@ -195,6 +216,7 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/FetchPDB.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Focus.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Force.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Forcefield.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/GamessInput.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Hydrogens.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/ImportPQR.a
@@ -208,7 +230,6 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/MeasureTool.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Meshes.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/MolecularProperties.a
--rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/MongoChem.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Navigator.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/NetworkDatabases.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/NonCovalent.a
@@ -216,6 +237,7 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OpenBabel.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OpenMMInput.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/OverlayAxes.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/PLY.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/POVRay.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/PlayerTool.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/PluginDownloader.a
@@ -232,10 +254,10 @@ drwxr-xr-x	root/root	usr/lib/avogadro2/staticplugins/
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Surfaces.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Symmetry.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/SymmetryScene.a
+-rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/TemplateTool.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/ThreeDMol.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/VRML.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/VanDerWaals.a
--rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/VanDerWaalsAO.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/Wireframe.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/apbs.a
 -rw-r--r--	root/root	usr/lib/avogadro2/staticplugins/commands.a
@@ -246,36 +268,34 @@ drwxr-xr-x	root/root	usr/lib/cmake/avogadrolibs/
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/AvogadroLibsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/AvogadroLibsTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/FindEigen3.cmake
--rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/FindGLEW.cmake
--rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/FindLibArchive.cmake
 -rw-r--r--	root/root	usr/lib/cmake/avogadrolibs/Findlibmsym.cmake
 lrwxrwxrwx	root/root	usr/lib/libAvogadroCalc.so -> libAvogadroCalc.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroCalc.so.1 -> libAvogadroCalc.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroCalc.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroCalc.so.1 -> libAvogadroCalc.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroCalc.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroCore.so -> libAvogadroCore.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroCore.so.1 -> libAvogadroCore.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroCore.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroCore.so.1 -> libAvogadroCore.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroCore.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroIO.so -> libAvogadroIO.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroIO.so.1 -> libAvogadroIO.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroIO.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroIO.so.1 -> libAvogadroIO.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroIO.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroMoleQueue.so -> libAvogadroMoleQueue.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroMoleQueue.so.1 -> libAvogadroMoleQueue.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroMoleQueue.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroMoleQueue.so.1 -> libAvogadroMoleQueue.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroMoleQueue.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQtGui.so -> libAvogadroQtGui.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQtGui.so.1 -> libAvogadroQtGui.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQtGui.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQtGui.so.1 -> libAvogadroQtGui.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQtGui.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQtOpenGL.so -> libAvogadroQtOpenGL.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQtOpenGL.so.1 -> libAvogadroQtOpenGL.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQtOpenGL.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQtOpenGL.so.1 -> libAvogadroQtOpenGL.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQtOpenGL.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQtPlugins.so -> libAvogadroQtPlugins.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQtPlugins.so.1 -> libAvogadroQtPlugins.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQtPlugins.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQtPlugins.so.1 -> libAvogadroQtPlugins.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQtPlugins.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so -> libAvogadroQuantumIO.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so.1 -> libAvogadroQuantumIO.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroQuantumIO.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroQuantumIO.so.1 -> libAvogadroQuantumIO.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroQuantumIO.so.1.98.0
 lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so -> libAvogadroRendering.so.1
-lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so.1 -> libAvogadroRendering.so.1.97.0
--rwxr-xr-x	root/root	usr/lib/libAvogadroRendering.so.1.97.0
+lrwxrwxrwx	root/root	usr/lib/libAvogadroRendering.so.1 -> libAvogadroRendering.so.1.98.0
+-rwxr-xr-x	root/root	usr/lib/libAvogadroRendering.so.1.98.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/avogadro2/
 drwxr-xr-x	root/root	usr/share/avogadro2/crystals/

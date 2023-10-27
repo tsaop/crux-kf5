@@ -4,8 +4,8 @@
 # Depends on: avogadro-crystals avogadro-molecules boost eigen hdf5 libmsym molequeue spglib
 
 name=avogadrolibs
-version=1.97.0
-release=2
+version=1.98.0
+release=1
 source=(https://github.com/OpenChemistry/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
@@ -16,7 +16,6 @@ build() {
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DSPGLIB_INCLUDE_DIR=/usr/include/spglib \
 		-DUSE_MMTF=OFF \
 		-DUSE_HDF5=ON \
 		-DOpenGL_GL_PREFERENCE=GLVND
