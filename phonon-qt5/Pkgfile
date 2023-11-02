@@ -4,24 +4,21 @@
 # Depends on: extra-cmake-modules qt5
 
 name=phonon-qt5
-version=4.11.1
+version=4.12.0
 release=1
 source=(http://download.kde.org/stable/${name%-qt5}/$version/${name%-qt5}-$version.tar.xz)
 
 build() {
-
-	mkdir build; cd build
-	cmake ../${name%-qt5}-$version \
-		\
+	cmake -Bbuild \
+		-S $SRC/${name%-qt5}-$version \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DSYSCONF_INSTALL_DIR=/etc \
-		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
-		-D__KDE_HAVE_GCC_VISIBILITY=NO \
-		-DCMAKE_BUILD_TYPE=RELEASE \
-		-DPHONON_INSTALL_QT_EXTENSIONS_INTO_SYSTEM_QT=ON \
-		-DPHONON_BUILD_PHONON4QT5=ON
-	make
-	make DESTDIR=$PKG install
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DPHONON_BUILD_QT6=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
 	rm -f $PKG/usr/share/phonon/buildsystem/COPYING-CMAKE-SCRIPTS
 	rm -f $PKG/usr/share/phonon4qt5/buildsystem/COPYING-CMAKE-SCRIPTS
 	rm -rf $PKG/usr/share/locale
