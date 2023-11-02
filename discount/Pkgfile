@@ -4,9 +4,9 @@
 # Depends on:
 
 name=discount
-version=2.2.7d
+version=3.0.0a
 release=1
-source=(https://www.pell.portland.or.us/~orc/Code/$name/$name-$version.tar.bz2)
+source=(https://github.com/Orc/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
