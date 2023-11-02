@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/include/KUserFeedback/
 -rw-r--r--	root/root	usr/include/KUserFeedback/feedbackconfigdialog.h
 -rw-r--r--	root/root	usr/include/KUserFeedback/feedbackconfiguicontroller.h
 -rw-r--r--	root/root	usr/include/KUserFeedback/feedbackconfigwidget.h
+-rw-r--r--	root/root	usr/include/KUserFeedback/kuserfeedback_version.h
 -rw-r--r--	root/root	usr/include/KUserFeedback/kuserfeedbackcore_export.h
 -rw-r--r--	root/root	usr/include/KUserFeedback/kuserfeedbackwidgets_export.h
 -rw-r--r--	root/root	usr/include/KUserFeedback/localeinfosource.h
@@ -54,11 +55,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KUserFeedback/
 -rw-r--r--	root/root	usr/lib/cmake/KUserFeedback/KUserFeedbackTarget-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KUserFeedback/KUserFeedbackTarget.cmake
 lrwxrwxrwx	root/root	usr/lib/libKUserFeedbackCore.so -> libKUserFeedbackCore.so.1
-lrwxrwxrwx	root/root	usr/lib/libKUserFeedbackCore.so.1 -> libKUserFeedbackCore.so.1.2.0
--rwxr-xr-x	root/root	usr/lib/libKUserFeedbackCore.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libKUserFeedbackCore.so.1 -> libKUserFeedbackCore.so.1.3.0
+-rwxr-xr-x	root/root	usr/lib/libKUserFeedbackCore.so.1.3.0
 lrwxrwxrwx	root/root	usr/lib/libKUserFeedbackWidgets.so -> libKUserFeedbackWidgets.so.1
-lrwxrwxrwx	root/root	usr/lib/libKUserFeedbackWidgets.so.1 -> libKUserFeedbackWidgets.so.1.2.0
--rwxr-xr-x	root/root	usr/lib/libKUserFeedbackWidgets.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libKUserFeedbackWidgets.so.1 -> libKUserFeedbackWidgets.so.1.3.0
+-rwxr-xr-x	root/root	usr/lib/libKUserFeedbackWidgets.so.1.3.0
 drwxr-xr-x	root/root	usr/lib/qt5/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
 drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
