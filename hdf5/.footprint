@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/h5diff
 -rwxr-xr-x	root/root	usr/bin/h5dump
 -rwxr-xr-x	root/root	usr/bin/h5format_convert
+-rwxr-xr-x	root/root	usr/bin/h5fuse.sh
 -rwxr-xr-x	root/root	usr/bin/h5import
 -rwxr-xr-x	root/root	usr/bin/h5jam
 -rwxr-xr-x	root/root	usr/bin/h5ls
@@ -18,6 +19,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/h5repack
 -rwxr-xr-x	root/root	usr/bin/h5repart
 -rwxr-xr-x	root/root	usr/bin/h5stat
+-rwxr-xr-x	root/root	usr/bin/h5tools_test_utils
 -rwxr-xr-x	root/root	usr/bin/h5unjam
 -rwxr-xr-x	root/root	usr/bin/h5watch
 drwxr-xr-x	root/root	usr/include/
@@ -125,19 +127,19 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libhdf5.la
 -rw-r--r--	root/root	usr/lib/libhdf5.settings
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.310.1.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so.310 -> libhdf5.so.310.1.0
--rwxr-xr-x	root/root	usr/lib/libhdf5.so.310.1.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.310.3.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so.310 -> libhdf5.so.310.3.0
+-rwxr-xr-x	root/root	usr/lib/libhdf5.so.310.3.0
 -rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.310.0.1
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.310 -> libhdf5_cpp.so.310.0.1
--rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.310.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.310.0.3
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.310 -> libhdf5_cpp.so.310.0.3
+-rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.310.0.3
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.310.0.1
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.310 -> libhdf5_hl.so.310.0.1
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.310.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.310.0.3
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.310 -> libhdf5_hl.so.310.0.3
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.310.0.3
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.310.0.1
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.310 -> libhdf5_hl_cpp.so.310.0.1
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.310.0.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.310.0.3
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.310 -> libhdf5_hl_cpp.so.310.0.3
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.310.0.3
 drwxr-xr-x	root/root	usr/share/
