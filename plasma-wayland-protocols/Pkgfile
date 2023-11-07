@@ -4,19 +4,18 @@
 # Depends on:  extra-cmake-modules
 
 name=plasma-wayland-protocols
-version=1.10.0
+version=1.11.0
 release=1
 source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	mkdir build; cd build
 
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DKDE_INSTALL_LIBDIR=lib \
-		-DCMAKE_BUILD_TYPE=Release \
-		..
+		-DCMAKE_BUILD_TYPE=Release
 
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
