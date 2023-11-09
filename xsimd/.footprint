@@ -34,6 +34,7 @@ drwxr-xr-x	root/root	usr/include/xsimd/arch/generic/
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_sse4_2.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_ssse3.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_sve.hpp
+-rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_wasm.hpp
 drwxr-xr-x	root/root	usr/include/xsimd/config/
 -rw-r--r--	root/root	usr/include/xsimd/config/xsimd_arch.hpp
 -rw-r--r--	root/root	usr/include/xsimd/config/xsimd_config.hpp
@@ -70,6 +71,7 @@ drwxr-xr-x	root/root	usr/include/xsimd/types/
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_sve_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_traits.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_utils.hpp
+-rw-r--r--	root/root	usr/include/xsimd/types/xsimd_wasm_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/xsimd.hpp
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/

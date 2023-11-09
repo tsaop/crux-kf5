@@ -1,10 +1,10 @@
 # Description: C++ wrappers for SIMD intrinsics and parallelized, optimized mathematical functions (SSE, AVX, AVX512, NEON, SVE)
 # URL: https://xsimd.readthedocs.io/en/latest/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: cmake
+# Depends on:  cmake
 
 name=xsimd
-version=11.1.0
+version=11.2.0
 release=1
 source=(https://github.com/xtensor-stack/$name/archive/${version}/$name-$version.tar.gz)
 
