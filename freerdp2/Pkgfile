@@ -5,7 +5,7 @@
 
 name=freerdp2
 version=2.9.0
-release=2
+release=3
 source=(https://github.com/FreeRDP/FreeRDP/archive/$version/${name%?}-$version.tar.gz
 	freerdp-2.0.0-manpage_formatting.patch
 	0001-Fixed-8686-Update-h264-to-use-new-FFMPEG-API.patch)
@@ -28,7 +28,8 @@ build() {
 		-DWITH_LAME=ON \
 		-DWITH_FAAD2=ON \
 		-DWITH_FAAC=ON \
-		-DWITH_SOXR=ON
+		-DWITH_SOXR=ON \
+		-DCMAKE_C_FLAGS="-fPIC"
 
 	cmake --build build
 	DESTDIR=$PKG cmake --install build
