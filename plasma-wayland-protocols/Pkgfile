@@ -5,11 +5,15 @@
 
 name=plasma-wayland-protocols
 version=1.11.0
-release=1
-source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+release=2
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz
+	fd5cda99a8c673f20de27ae73fbf244b5c8420d4.diff)
 
 build() {
 	cd $name-$version
+
+	# Add mistakenly removed file
+	patch -Np1 -i $SRC/fd5cda99a8c673f20de27ae73fbf244b5c8420d4.diff
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
