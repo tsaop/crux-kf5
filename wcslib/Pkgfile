@@ -4,7 +4,7 @@
 # Depends on: cfitsio gcc-fortran
 
 name=wcslib
-version=8.2
+version=8.2.1
 release=1
 source=(ftp://ftp.atnf.csiro.au/pub/software/$name/$name-$version.tar.bz2)
 
@@ -16,7 +16,7 @@ build() {
 		--disable-static
 
 	make
-	make DESTDIR=$PKG install || true
+	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/doc
 
