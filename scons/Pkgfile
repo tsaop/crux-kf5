@@ -1,10 +1,10 @@
 # Description: Open Source software construction tool
 # URL: https://scons.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: python3-build
+# Depends on: python3-build python3-wheel python3-installer
 
 name=scons
-version=4.5.2
+version=4.6.0
 release=1
 source=(https://sourceforge.net/projects/scons/files/$name/$version/SCons-$version.tar.gz)
 
