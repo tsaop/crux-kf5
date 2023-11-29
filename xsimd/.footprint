@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/include/xsimd/arch/generic/
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_isa.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_neon.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_neon64.hpp
+-rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_rvv.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_scalar.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_sse2.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_sse3.hpp
@@ -63,6 +64,7 @@ drwxr-xr-x	root/root	usr/include/xsimd/types/
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_neon64_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_neon_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_register.hpp
+-rw-r--r--	root/root	usr/include/xsimd/types/xsimd_rvv_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_sse2_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_sse3_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_sse4_1_register.hpp
