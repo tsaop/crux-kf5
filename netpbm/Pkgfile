@@ -4,19 +4,13 @@
 # Depends on: libpng libtiff python xorg-libx11
 
 name=netpbm
-version=10.73.43
+version=10.86.39
 source=(https://sourceforge.net/projects/netpbm/files/super_stable/$version/$name-$version.tgz
-	userguide.tar.gz
-	netpbm-CAN-2005-2471.patch
-	netpbm-security-code.patch
-	netpbm-security-scripts.patch)
+	userguide.tar.gz)
 release=1
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/netpbm-CAN-2005-2471.patch
-	patch -Np1 -i $SRC/netpbm-security-code.patch
-	patch -Np1 -i $SRC/netpbm-security-scripts.patch 
 	
 	# install html man pages for later conversion
 	mv $SRC/userguide .
@@ -51,4 +45,6 @@ build() {
 
 	# Replace obsolete utility
 	echo -e '#!/bin/sh\npamditherbw $@ | pamtopnm\n' > "$PKG/usr/bin/pgmtopbm"
+
+	rm -rf $PKG/usr/{sharedlink,staticlink}
 }
