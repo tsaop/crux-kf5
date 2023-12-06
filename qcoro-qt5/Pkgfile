@@ -4,7 +4,7 @@
 # Depends on: qt5
 
 name=qcoro-qt5
-version=0.9.0
+version=0.10.0
 release=1
 source=(https://github.com/danvratil/qcoro/archive/v${version}/${name/-qt5}-$version.tar.gz)
 
