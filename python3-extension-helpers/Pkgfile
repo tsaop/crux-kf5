@@ -4,9 +4,9 @@
 # Depends on:  python3-build python3-installer
 
 name=python3-extension-helpers
-version=1.1.0
+version=1.1.1
 release=1
-source=(https://files.pythonhosted.org/packages/43/55/06a7f06790480601b2f4ccf33002bb5d6bb1e9eac9be761477faf5d374c3/${name/python3-/}-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/7e/a4/a950689a86a8c062a9d267effdf8b15447b380c254d8b23b62fff4dafc8c/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
