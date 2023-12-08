@@ -1,23 +1,31 @@
 # Description: Digital painting application
 # URL: https://www.krita.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: exiv2 gsl immer kio kitemmodels kseexpr lager libkdcraw libunibreak mlt mypaint-brushes openjpeg2 poppler python3-pyqt5 quazip5 vc xorg-xinput zug xsimd
+# Depends on: exiv2 gsl immer kio kitemmodels kseexpr lager libkdcraw libunibreak mlt mypaint-brushes openjpeg2 poppler quazip5 vc xorg-xinput zug xsimd
 
 name=krita
-version=5.2.1
-release=2
-source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz)
+version=5.2.2
+release=1
+source=(https://download.kde.org/stable/$name/$version/$name-$version.tar.xz
+	xsimd-12.patch)
 
 build() {
 
-	# TODO: Add opencolorio once 2.0 is supported
+	# TODO:
+	# - add opencolorio 2.0 support
+	# - re-enable pyqt5 support once it builds with sip 6.8.0
+
+	# Add support for xsimd 12
+	patch -Np1 -i $SRC/xsimd-12.patch -d $name-$version
+
+	export CFLAGS="-march=x86-64 -O2 -pipe"
+	export CXXFLAGS="$CFLAGS"
+
 	cmake -B"${name}-build" \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_INSTALL_LIBDIR=lib \
 	-DBUILD_TESTING=OFF \
-	-DCMAKE_BUILD_TYPE=Release \
-	-DCMAKE_CXX_FLAGS="-DKDE_NO_DEBUG_OUTPUT" \
-	$name-$version
+	-S $name-$version
 
 	cmake --build "${name}-build"
 	DESTDIR=$PKG cmake --install "${name}-build"
