@@ -1,10 +1,10 @@
 # Description: ZXing ("Zebra Crossing") barcode scanning library
 # URL: https://github.com/glassechidna/zxing-cpp
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt5
+# Depends on:  qt5
 
 name=zxing-cpp
-version=2.1.0
+version=2.2.1
 release=1
 source=(https://github.com/nu-book/$name/archive/v${version}/$name-$version.tar.gz)
 

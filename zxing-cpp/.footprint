@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/include/ZXing/
 -rw-r--r--	root/root	usr/include/ZXing/Quadrilateral.h
 -rw-r--r--	root/root	usr/include/ZXing/Range.h
 -rw-r--r--	root/root	usr/include/ZXing/ReadBarcode.h
+-rw-r--r--	root/root	usr/include/ZXing/ReaderOptions.h
 -rw-r--r--	root/root	usr/include/ZXing/Result.h
 -rw-r--r--	root/root	usr/include/ZXing/StructuredAppend.h
 -rw-r--r--	root/root	usr/include/ZXing/TextUtfEncoding.h
@@ -33,7 +34,7 @@ drwxr-xr-x	root/root	usr/lib/cmake/ZXing/
 -rw-r--r--	root/root	usr/lib/cmake/ZXing/ZXingTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/ZXing/ZXingTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libZXing.so -> libZXing.so.3
--rwxr-xr-x	root/root	usr/lib/libZXing.so.2.1.0
-lrwxrwxrwx	root/root	usr/lib/libZXing.so.3 -> libZXing.so.2.1.0
+-rwxr-xr-x	root/root	usr/lib/libZXing.so.2.2.1
+lrwxrwxrwx	root/root	usr/lib/libZXing.so.3 -> libZXing.so.2.2.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/zxing.pc
