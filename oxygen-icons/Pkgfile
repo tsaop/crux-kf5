@@ -1,21 +1,19 @@
 # Description: Part of KDE Frameworks
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  cmake
+# Depends on:  extra-cmake-modules gtk qt5
 
-name=extra-cmake-modules
+name=oxygen-icons
 version=5.113.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr
 
-	cmake \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DBUILD_TESTING=OFF \
-	-DCMAKE_BUILD_TYPE=Release
-
-	make
-	make DESTDIR=$PKG install
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
 }
