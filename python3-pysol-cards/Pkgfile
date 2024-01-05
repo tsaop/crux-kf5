@@ -1,15 +1,16 @@
 # Description: Python 3 modules for freecell-solver
 # URL: https://pypi.org/project/pysol-cards/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on:  python3-pbr
+# Depends on:  python3-build python3-installer python3-wheel
 
 name=python3-pysol-cards
-version=0.14.3
+version=0.16.0
 release=1
-source=(https://files.pythonhosted.org/packages/4f/90/34c8f488a29dd76a945606bd915f019b37f56d8aead2b89df8f1b1f811a8/pysol_cards-0.14.3.tar.gz)
+source=(https://files.pythonhosted.org/packages/de/95/3ae0e46a67f1c687adae77a8934930aa9dbed367bc58bcff305991e061fa/pysol_cards-0.16.0.tar.gz)
 
 build() {
 	cd pysol_cards-$version
-	python3 setup.py build
-	python3 setup.py install --prefix=/usr --root=$PKG
+	python3 -m build --skip-dependency-check --no-isolation
+        python3 -m installer --destdir=$PKG dist/*.whl
 }
+
