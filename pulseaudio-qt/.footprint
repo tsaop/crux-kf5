@@ -50,6 +50,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5PulseAudioQt/
 -rw-r--r--	root/root	usr/lib/cmake/KF5PulseAudioQt/KF5PulseAudioQtConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PulseAudioQt/KF5PulseAudioQtTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5PulseAudioQt/KF5PulseAudioQtTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so -> libKF5PulseAudioQt.so.3
--rwxr-xr-x	root/root	usr/lib/libKF5PulseAudioQt.so.1.3.0
-lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so.3 -> libKF5PulseAudioQt.so.1.3.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so -> libKF5PulseAudioQt.so.4
+-rwxr-xr-x	root/root	usr/lib/libKF5PulseAudioQt.so.1.4.0
+lrwxrwxrwx	root/root	usr/lib/libKF5PulseAudioQt.so.4 -> libKF5PulseAudioQt.so.1.4.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/KF5PulseAudioQt.pc
