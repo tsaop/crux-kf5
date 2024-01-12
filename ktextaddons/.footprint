@@ -49,6 +49,9 @@ drwxr-xr-x	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/PlainTextEditor
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/PlainTextEditorWidget
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/PlainTextSyntaxSpellCheckingHighlighter
+-rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/RichTextBrowser
+-rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/RichTextBrowserFindBar
+-rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/RichTextBrowserWidget
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/RichTextEditFindBar
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/RichTextEditor
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/TextCustomEditor/RichTextEditorWidget
@@ -60,6 +63,9 @@ drwxr-xr-x	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/plaintexteditor.h
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/plaintexteditorwidget.h
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/plaintextsyntaxspellcheckinghighlighter.h
+-rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/richtextbrowser.h
+-rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/richtextbrowserfindbar.h
+-rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/richtextbrowserwidget.h
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/richtexteditfindbar.h
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/richtexteditor.h
 -rw-r--r--	root/root	usr/include/KF5/TextCustomEditor/textcustomeditor/richtexteditorwidget.h
@@ -271,48 +277,36 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF5TextUtils/
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextUtils/KF5TextUtilsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/KF5TextUtils/KF5TextUtilsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libKF5TextAddonsWidgets.so -> libKF5TextAddonsWidgets.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextAddonsWidgets.so.1 -> libKF5TextAddonsWidgets.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextAddonsWidgets.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextAddonsWidgets.so.1 -> libKF5TextAddonsWidgets.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextAddonsWidgets.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextAutoCorrectionCore.so -> libKF5TextAutoCorrectionCore.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextAutoCorrectionCore.so.1 -> libKF5TextAutoCorrectionCore.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextAutoCorrectionCore.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextAutoCorrectionCore.so.1 -> libKF5TextAutoCorrectionCore.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextAutoCorrectionCore.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextAutoCorrectionWidgets.so -> libKF5TextAutoCorrectionWidgets.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextAutoCorrectionWidgets.so.1 -> libKF5TextAutoCorrectionWidgets.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextAutoCorrectionWidgets.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextAutoCorrectionWidgets.so.1 -> libKF5TextAutoCorrectionWidgets.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextAutoCorrectionWidgets.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextCustomEditor.so -> libKF5TextCustomEditor.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextCustomEditor.so.1 -> libKF5TextCustomEditor.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextCustomEditor.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextCustomEditor.so.1 -> libKF5TextCustomEditor.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextCustomEditor.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEditTextToSpeech.so -> libKF5TextEditTextToSpeech.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEditTextToSpeech.so.1 -> libKF5TextEditTextToSpeech.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextEditTextToSpeech.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEditTextToSpeech.so.1 -> libKF5TextEditTextToSpeech.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEditTextToSpeech.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEmoticonsCore.so -> libKF5TextEmoticonsCore.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEmoticonsCore.so.1 -> libKF5TextEmoticonsCore.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextEmoticonsCore.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEmoticonsCore.so.1 -> libKF5TextEmoticonsCore.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEmoticonsCore.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextEmoticonsWidgets.so -> libKF5TextEmoticonsWidgets.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextEmoticonsWidgets.so.1 -> libKF5TextEmoticonsWidgets.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextEmoticonsWidgets.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextEmoticonsWidgets.so.1 -> libKF5TextEmoticonsWidgets.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextEmoticonsWidgets.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextGrammarCheck.so -> libKF5TextGrammarCheck.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextGrammarCheck.so.1 -> libKF5TextGrammarCheck.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextGrammarCheck.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextGrammarCheck.so.1 -> libKF5TextGrammarCheck.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextGrammarCheck.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextTranslator.so -> libKF5TextTranslator.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextTranslator.so.1 -> libKF5TextTranslator.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextTranslator.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextTranslator.so.1 -> libKF5TextTranslator.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextTranslator.so.1.5.3
 lrwxrwxrwx	root/root	usr/lib/libKF5TextUtils.so -> libKF5TextUtils.so.1
-lrwxrwxrwx	root/root	usr/lib/libKF5TextUtils.so.1 -> libKF5TextUtils.so.1.5.1
--rwxr-xr-x	root/root	usr/lib/libKF5TextUtils.so.1.5.1
+lrwxrwxrwx	root/root	usr/lib/libKF5TextUtils.so.1 -> libKF5TextUtils.so.1.5.3
+-rwxr-xr-x	root/root	usr/lib/libKF5TextUtils.so.1.5.3
 drwxr-xr-x	root/root	usr/lib/qt5/
-drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
-drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_TextAutoCorrectionCore.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_TextAutoCorrectionWidgets.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_TextEditTextToSpeech.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_TextGrammarCheck.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_TextTranslator.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_textaddonswidgets.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_textcustomeditor.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_textemoticonscore.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_textemoticonswidgets.pri
--rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_textutils.pri
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/
 drwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/
 -rwxr-xr-x	root/root	usr/lib/qt5/plugins/designer/textcustomeditor.so
