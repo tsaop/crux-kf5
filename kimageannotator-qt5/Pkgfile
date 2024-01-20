@@ -1,0 +1,34 @@
+# Description: Tool for annotating images
+# URL: https://github.com/ksnip/kImageAnnotator
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcolorpicker-qt5
+
+name=kimageannotator-qt5
+version=0.7.0
+release=1
+source=(https://github.com/ksnip/kImageAnnotator/archive/v${version}/${name/-qt5/}-$version.tar.gz)
+
+build() {
+	cd kImageAnnotator-$version
+
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_WITH_QT6=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+	
+	# compatibility symlinks
+	mkdir $PKG/usr/lib/cmake/kImageAnnotator
+	ln -svr $PKG/usr/lib/cmake/kImageAnnotator-Qt5/kImageAnnotator-Qt5Config-version.cmake \
+		$PKG/usr/lib/cmake/kImageAnnotator/kImageAnnotatorConfig-version.cmake
+	ln -svr $PKG/usr/lib/cmake/kImageAnnotator-Qt5/kImageAnnotator-Qt5Config.cmake \
+		$PKG/usr/lib/cmake/kImageAnnotator/kImageAnnotatorConfig.cmake
+	ln -svr $PKG/usr/lib/cmake/kImageAnnotator-Qt5/kImageAnnotator-targets* \
+		$PKG/usr/lib/cmake/kImageAnnotator/
+
+	rm -rf $PKG/usr/share/kImageAnnotator/translations
+}
