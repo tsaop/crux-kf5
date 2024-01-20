@@ -1,0 +1,35 @@
+# Description: Qt based Color Picker with popup menu
+# URL: https://github.com/ksnip/kColorPicker 
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake qt5
+
+name=kcolorpicker-qt5
+version=0.3.0
+release=2
+source=(https://github.com/ksnip/kColorPicker/archive/v${version}/${name/-qt5/}-$version.tar.gz)
+
+build() {
+	cd kColorPicker-$version
+
+	cmake -Bbuild \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_EXAMPLE=OFF \
+		-DBUILD_TESTS=OFF \
+		-DBUILD_WITH_QT6=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	# compatibility symlinks
+	mkdir $PKG/usr/lib/cmake/kColorPicker
+
+	ln -svr $PKG/usr/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5Config-version.cmake \
+		$PKG/usr/lib/cmake/kColorPicker/kColorPickerConfig-version.cmake
+	ln -svr $PKG/usr/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5Config.cmake \
+		$PKG/usr/lib/cmake/kColorPicker/kColorPickerConfig.cmake
+	ln -svr $PKG/usr/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5-targets* \
+		$PKG/usr/lib/cmake/kColorPicker/
+}
