@@ -5,11 +5,15 @@
 
 name=kfilemetadata
 version=5.114.0
-release=1
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+release=2
+source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz
+	c9a90eed.patch
+	taglib-2.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i $SRC/c9a90eed.patch
+	patch -Np1 -i $SRC/taglib-2.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
