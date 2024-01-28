@@ -1,0 +1,26 @@
+From 3ed2e5f70c62598170a483eb6150771f572ba39c Mon Sep 17 00:00:00 2001
+From: Urs Fleisch <ufleisch@users.sourceforge.net>
+Date: Sat, 9 Dec 2023 15:22:08 +0100
+Subject: [PATCH] TagLib 2.0: Replace undocumented APE::Item::toStringList() by
+ values()
+
+---
+ src/plugins/taglibmetadata/taglibfile.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/plugins/taglibmetadata/taglibfile.cpp b/src/plugins/taglibmetadata/taglibfile.cpp
+index 10630cd7d..e4045b53d 100644
+--- a/src/plugins/taglibmetadata/taglibfile.cpp
++++ b/src/plugins/taglibmetadata/taglibfile.cpp
+@@ -6745,7 +6745,7 @@ void TagLibFile::getAllFrames(Frame::TagNumber tagNr, FrameCollection& frames)
+           Frame::Type type = getTypeFromApeName(name);
+           TagLib::StringList values;
+           if (type != Frame::FT_Picture) {
+-            values = (*it).second.toStringList();
++            values = (*it).second.values();
+           }
+           Frame frame(type, values.size() > 0
+                       ? joinToQString(values) : QLatin1String(""),
+-- 
+GitLab
+

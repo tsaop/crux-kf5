@@ -1,0 +1,50 @@
+diff --git a/src/plugins/taglibmetadata/taglibext/dsf/dsfheader.cpp b/src/plugins/taglibmetadata/taglibext/dsf/dsfheader.cpp
+index 12cf247a..b82cfcac 100644
+--- a/src/plugins/taglibmetadata/taglibext/dsf/dsfheader.cpp
++++ b/src/plugins/taglibmetadata/taglibext/dsf/dsfheader.cpp
+@@ -26,13 +26,12 @@
+ // Kid3: Remove taglib/ from includes
+ #include <tbytevector.h>
+ #include <tstring.h>
+-#include <trefcounter.h>
+ // Kid3: Use debug() instead of std::cerr
+ #include <tdebug.h>
+ 
+ #include "dsfheader.h"
+ 
+-class DSFHeader::HeaderPrivate : public TagLib::RefCounter
++class DSFHeader::HeaderPrivate
+ {
+ public:
+   HeaderPrivate()
+@@ -68,16 +67,9 @@ DSFHeader::DSFHeader(const TagLib::ByteVector &data)
+   parse(data);
+ }
+ 
+-DSFHeader::DSFHeader(const DSFHeader &h) : d(h.d)
+-{
+-  d->ref();
+-}
++DSFHeader::DSFHeader(const DSFHeader &h) = default;
+ 
+-DSFHeader::~DSFHeader()
+-{
+-  if (d->deref())
+-    delete d;
+-}
++DSFHeader::~DSFHeader() = default;
+ 
+ bool DSFHeader::isValid() const
+ {
+@@ -129,11 +121,7 @@ DSFHeader &DSFHeader::operator=(const DSFHeader &h)
+   if(&h == this)
+     return *this;
+ 
+-  if(d->deref())
+-    delete d;
+-
+   d = h.d;
+-  d->ref();
+   return *this;
+ }
+ 
