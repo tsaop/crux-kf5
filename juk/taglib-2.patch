@@ -1,0 +1,25 @@
+diff --git a/mediafiles.cpp b/mediafiles.cpp
+index 8a4fc38f..086bf48d 100644
+--- a/mediafiles.cpp
++++ b/mediafiles.cpp
+@@ -29,7 +29,6 @@
+ #include <QMimeDatabase>
+ 
+ #include <taglib.h>
+-#include <taglib_config.h>
+ #include <tag.h>
+ #include <mpegfile.h>
+ #include <vorbisfile.h>
+diff --git a/mediafiles.h b/mediafiles.h
+index 017e3c57..d2a94edf 100644
+--- a/mediafiles.h
++++ b/mediafiles.h
+@@ -28,8 +28,6 @@ namespace TagLib {
+     class File;
+ }
+ 
+-#include <taglib_config.h>
+-
+ /**
+  * A namespace for file JuK's file related functions.  The goal is to hide
+  * all specific knowledge of mimetypes and file extensions here.
