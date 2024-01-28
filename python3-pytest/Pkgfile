@@ -4,12 +4,12 @@
 # Depends on:  python3-atomicwrites python3-attrs python3-exceptiongroup python3-more-itertools python3-py
 
 name=python3-pytest
-version=7.4.4
+version=8.0.0
 release=1
 source=(https://pypi.python.org/packages/source/p/${name/python3-/}/${name/python3-/}-$version.tar.gz)
 
 build() {
 	cd ${name/python3-/}-$version
-	python3 setup.py build
-	python3 setup.py install --prefix=/usr --root=$PKG
+	python3 -m build -w --skip-dependency-check --no-isolation
+	python3 -m installer --destdir=$PKG dist/*.whl
 }
