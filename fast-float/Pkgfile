@@ -1,0 +1,18 @@
+# Description: Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod
+# URL: https://github.com/fastfloat/fast_float
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake
+
+name=fast-float
+version=6.1.0
+release=1
+source=(https://github.com/fastfloat/fast_float/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd fast_float-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
