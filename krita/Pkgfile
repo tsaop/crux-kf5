@@ -21,6 +21,11 @@ build() {
 	# Add support for sip 6.8
 	patch -Np1 -i $SRC/sip-6.8.patch -d $name-$version
 
+	# Use generic flags, at it fails to compile
+	# with xsimd errors on my zen4 CPU.
+	export CFLAGS="-march=x86-64 -O2 -pipe"
+	export CXXFLAGS="-march=x86-64 -O2 -pipe"
+
 	cmake -B"${name}-build" \
 	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_INSTALL_LIBDIR=lib \
