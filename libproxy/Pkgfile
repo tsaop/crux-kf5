@@ -1,15 +1,17 @@
 # Description: libproxy is a library that provides automatic proxy configuration management
 # URL: https://libproxy.github.io/libproxy/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: dbus duktape gsettings-desktop-schemas vala
+# Depends on: dbus duktape gsettings-desktop-schemas vala git
 
 name=libproxy
-version=0.5.3
+version=0.5.4
 release=1
-source=(https://github.com/libproxy/libproxy/archive/${version}/$name-$version.tar.gz)
-build() {
-	cd $name-$version
+source=()
 
+build() {
+	git clone https://github.com/libproxy/libproxy -b $version
+
+	cd $name
 	meson build -Dprefix=/usr \
 		-Ddocs=false \
 		-Dtests=false
