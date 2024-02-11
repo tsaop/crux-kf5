@@ -4,9 +4,9 @@
 # Depends on: extra-cmake-modules gettext qt5
 
 name=ki18n
-version=5.114.0
+version=5.115.1
 release=1
-source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/frameworks/${version%.1}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version

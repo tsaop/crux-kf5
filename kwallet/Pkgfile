@@ -4,7 +4,7 @@
 # Depends on: boost gpgme kiconthemes knotifications kservice qca-qt5
 
 name=kwallet
-version=5.114.0
+version=5.115.0
 release=1
 source=(http://download.kde.org/stable/frameworks/${version%.0}/$name-$version.tar.xz)
 
