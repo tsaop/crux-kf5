@@ -1,12 +1,12 @@
 # Description: KDE Frontend to Mathematical Software
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: knewstuff kpty ktexteditor libspectre poppler qtwebengine discount
+# Depends on: discount knewstuff kpty ktexteditor libspectre poppler qtwebengine
 # Optional: python python3 libqalculate analitza luajit
 
 name=cantor
-version=23.08.4
-release=2
+version=23.08.5
+release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
 build() {

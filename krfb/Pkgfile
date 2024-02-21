@@ -1,10 +1,10 @@
 # Description: Desktop sharing application
 # URL: https://www.kde.org
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: desktop-file-utils kdnssd kpipewire kwallet kxmlgui libvncserver
+# Depends on: desktop-file-utils kdnssd kpipewire kwallet kxmlgui libvncserver xorg-libxtst
 
 name=krfb
-version=23.08.4
+version=23.08.5
 release=1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 
